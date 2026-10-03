@@ -1,0 +1,2279 @@
+[
+ {
+  "id": "2.1.1",
+  "title": "Maintaining statutory certification",
+  "plain": "Are all certificates up to date and tracked properly, and is the ship free of class conditions or memoranda?",
+  "why": "Expired or missing certificates mean the ship may not be legally fit to trade, and open class conditions show unresolved defects.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "The company procedure for tracking certificate validity",
+   "A few certificates picked at random (up to five) against your tracking list",
+   "Whether any condition of class, memoranda or short-term certificate exists",
+   "That any class-related defects are in the defect reporting system",
+   "That the latest class survey results appear in the class status report"
+  ],
+  "ready": [
+   "Company procedure for managing certificates and supporting documents",
+   "Folders of statutory and class certificates with survey and test reports",
+   "Certificate index showing every expiry date",
+   "Class Survey Status Report (CSSR) or class status report",
+   "List of open defects from the defect reporting system",
+   "Record of class attendance in the last twelve months"
+  ],
+  "traps": [
+   "No clear procedure for indexing and filing certificates",
+   "Officer cannot explain how certificates are indexed and tracked",
+   "A class or flag certificate, or a supporting survey report, expired or missing",
+   "Index not kept up to date as the procedure says; class status report not available onboard",
+   "Dates in the questionnaire do not match the class report",
+   "Any condition of class, memoranda or short-term certificate"
+  ],
+  "say": "Our SMS has a procedure that tells us how to index, file and track every certificate. I check the index against the folders, and any survey or class finding goes into the defect system. Electronic certificates are controlled in the same way through our SMS.",
+  "practice": [
+   {
+    "q": "How do you make sure no certificate expires without you knowing?",
+    "a": [
+     "We keep a certificate index with every expiry date",
+     "Index is reviewed as per company procedure",
+     "Surveys are planned ahead with class and company"
+    ]
+   },
+   {
+    "q": "Do you have any conditions of class or memoranda?",
+    "a": [
+     "Check the latest class status report and answer honestly",
+     "Explain that each item is in the defect system",
+     "Show the plan and dates for close-out"
+    ]
+   }
+  ],
+  "tip": "Before the inspection, compare the class status report line by line with your certificate index so the dates match.",
+  "refs": [
+   "ISM Code 11",
+   "FAL.2/Circ.131 list of certificates",
+   "FAL.5/Circ.39/Rev.2"
+  ]
+ },
+ {
+  "id": "2.2.1",
+  "title": "Superintendent inspection and report",
+  "plain": "Did a company superintendent inspect the ship about every six months, with a full report for each visit?",
+  "why": "Regular visits by shore staff give the company a true picture of the ship's condition and how onboard management is working.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Inspection reports for each visit in the last eighteen months",
+   "That each report covers all operational and accessible areas",
+   "The gaps between inspections by marine and technical superintendents",
+   "That defects and weaknesses from reports were followed up to closure",
+   "Remote inspection procedure and reports, if used"
+  ],
+  "ready": [
+   "Full report copy for every qualifying superintendent visit in the last eighteen months",
+   "Proof defects went into the defect reporting system",
+   "Proof procedural weaknesses went into the non-conformity process",
+   "Company remote inspection procedure, if remote inspections were used"
+  ],
+  "traps": [
+   "A report for a declared visit is not onboard",
+   "Report format does not cover all areas of the ship; more than seven months between inspections",
+   "More than fourteen months since the last marine or technical inspection",
+   "New ship with no inspection since handover",
+   "More than one remote inspection when a physical visit was possible",
+   "Findings not followed up as defects or non-conformities"
+  ],
+  "say": "The company sends a marine or technical superintendent about every six months. We keep the full report from each visit onboard. Every defect goes into our defect system and procedural points go through the non-conformity process until they are closed.",
+  "practice": [
+   {
+    "q": "When was the last superintendent visit and what did he find?",
+    "a": [
+     "Give the date and the main findings",
+     "Show the report onboard",
+     "Show how each item was followed up"
+    ]
+   },
+   {
+    "q": "How are findings from superintendent reports tracked?",
+    "a": [
+     "Defects go into the defect reporting system",
+     "Procedural issues go through non-conformity reports",
+     "Items stay open until closed with evidence"
+    ]
+   }
+  ],
+  "tip": "Keep the last eighteen months of reports in one folder with a simple list of dates, so you can hand it over in one go.",
+  "refs": [
+   "ISM Code 10",
+   "TMSA KPI 12.1.2"
+  ]
+ },
+ {
+  "id": "2.2.2",
+  "title": "Internal ISM audit",
+  "plain": "Are recent internal ISM audit reports onboard, and were non-conformities closed and checked by the shore office?",
+  "why": "Internal audits show whether the ship really follows its SMS, and closing findings properly stops the same problems coming back.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "The company procedure for scheduling and carrying out internal audits",
+   "The latest two internal audit reports under the current operator",
+   "The system that tracks non-conformities until closed",
+   "Whether the Master or a senior officer understands the audit process"
+  ],
+  "ready": [
+   "Company procedure for internal ISM audits with standard formats or checklists",
+   "Latest two internal audit reports",
+   "Non-conformity tracking records with time limits and close-out dates",
+   "Evidence behind each close-out, such as photos or superintendent visit notes",
+   "If the ship is new to the company, the plan for the first audit"
+  ],
+  "traps": [
+   "No procedure for scheduling and doing internal audits",
+   "No internal audit for more than 15 months, or over 12 months with no reason recorded",
+   "Last two audit reports not onboard; tracking records incomplete or not available to those responsible",
+   "No time limit set for corrective action; no record of the operator verifying the close-out",
+   "Non-conformity open past its time limit or closed with no evidence",
+   "Master or senior officer does not know the audit process"
+  ],
+  "say": "Internal audits are done at least every twelve months under a company procedure with standard checklists. Each non-conformity has a time limit, and when we finish the corrective action, the office verifies it and closes it out. Our two latest reports are here.",
+  "practice": [
+   {
+    "q": "How do you close out an audit non-conformity?",
+    "a": [
+     "Do the corrective action within the time limit",
+     "Report completion to the company",
+     "Company verifies with evidence and records final close-out"
+    ]
+   },
+   {
+    "q": "When is the next internal audit due?",
+    "a": [
+     "Give the date from the audit programme",
+     "Twelve months maximum, up to three months more only in exceptional circumstances",
+     "Know where the schedule is kept"
+    ]
+   }
+  ],
+  "tip": "Attach photos or the superintendent's note to every closed item. 'Done' without evidence is a common finding.",
+  "refs": [
+   "ISM Code 12",
+   "TMSA KPI 12A.1.1"
+  ]
+ },
+ {
+  "id": "2.2.3",
+  "title": "Master's review of the SMS",
+  "plain": "Does the Master know the SMS well, and are Master's reviews done as the ISM Code and company procedure require?",
+  "why": "The Master's review feeds real feedback from the ship back to the company so the SMS keeps improving.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "Whether the Master knows the layout of the SMS and can find things quickly",
+   "The last two Master's reviews",
+   "The company replies to those two reviews",
+   "The company procedure for the review: format, agenda, frequency, reply time"
+  ],
+  "ready": [
+   "The SMS in hard copy or digital form",
+   "Last two Master's reviews, fully completed",
+   "Company responses to both reviews",
+   "Company procedure for Master's review"
+  ],
+  "traps": [
+   "Master not familiar with the layout and contents of the SMS",
+   "Master cannot find information in the SMS quickly; no company procedure for the periodic review",
+   "Reviews not done at the frequency the procedure sets",
+   "Review not completed to the company format or agenda",
+   "Review lists no deficiencies or improvement suggestions, just ticks",
+   "Company did not reply within the set time"
+  ],
+  "say": "I know how our SMS is laid out and can find any procedure quickly. I do the review at least once a year using the company format, and I include real deficiencies and suggestions. Here are the last two reviews and the company replies.",
+  "practice": [
+   {
+    "q": "How often do you review the SMS and what do you include?",
+    "a": [
+     "At least annually, whole SMS within twelve months",
+     "Deficiencies and corrective action proposals",
+     "Suggestions to improve the SMS, with input from officers and safety committee"
+    ]
+   },
+   {
+    "q": "Show me how you find the procedure for a given task.",
+    "a": [
+     "Go straight to the right section",
+     "Show you can use hard copy or digital version",
+     "No need to know every detail by heart"
+    ]
+   }
+  ],
+  "tip": "Write specific, useful comments in your review. Inspectors can tell when it is only a tick box.",
+  "refs": [
+   "ISM Code 5.1.5",
+   "ISM Code 6.1.2",
+   "IACS Rec 41"
+  ]
+ },
+ {
+  "id": "2.3.1",
+  "title": "Structural concerns and Enhanced Survey File",
+  "plain": "Is the Enhanced Survey File kept up to date, and is the hull, cargo and ballast tank coating free of structural concerns?",
+  "why": "Hidden hull damage, corrosion or failed coating can lead to structural failure and pollution, so full records and a good physical condition matter.",
+  "who": {
+   "lead": [
+    "master",
+    "ce"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "The Enhanced Survey File and whether all required sections are complete",
+   "Repair history in the last twelve months against the defect reporting system",
+   "Condition evaluation report for fair or poor coating, heavy corrosion or deep pitting",
+   "Coating Technical File for recorded repairs",
+   "Visible cracking, denting, distortion or serious wastage while walking round"
+  ],
+  "ready": [
+   "Enhanced Survey File, including survey reports, condition evaluation and thickness reports",
+   "Coating Technical File where required",
+   "Survey programme, main structural plans and repair history",
+   "Ship staff inspection reports for cargo, ballast and void spaces",
+   "Incident investigation reports linked to structural damage or repair"
+  ],
+  "traps": [
+   "No procedure to keep the Enhanced Survey File or Coating Technical File current; officer cannot explain how the file is maintained",
+   "Required surveys or reports missing from the file; ship staff inspections not recorded",
+   "Structural repair in the survey file but no defect report; structural repair after an incident with no incident investigation report",
+   "Fair or poor coating, or heavy corrosion or deep pitting, in class reports",
+   "Ballast tank coating repairs not entered in the Coating Technical File",
+   "Cracks, dents, distortion or wasted structure with no class survey"
+  ],
+  "say": "Our company procedure tells us how to keep the Enhanced Survey File and Coating Technical File up to date as class requires. Every repair is recorded in the file and also in our defect system. Ship staff tank inspections are recorded and kept with the file.",
+  "practice": [
+   {
+    "q": "What is in the Enhanced Survey File?",
+    "a": [
+     "Survey, condition evaluation and thickness reports",
+     "Survey programme, structural plans, repair history",
+     "Ship staff inspections and the Coating Technical File where required"
+    ]
+   },
+   {
+    "q": "When coating repairs are done in a ballast tank, what do you record?",
+    "a": [
+     "Update the Coating Technical File",
+     "Keep it onboard for the life of the ship",
+     "Link it to the maintenance plan"
+    ]
+   }
+  ],
+  "tip": "Cross-check the last twelve months of structural repairs in the survey file against the defect system before the inspection.",
+  "refs": [
+   "ESP Code",
+   "SOLAS II-1/3-2",
+   "MSC.215(82)",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "2.3.2",
+  "title": "Structural concerns and Class Survey File",
+  "plain": "Is the Class Survey File complete and current, and is the hull, hold space and ballast tank coating free of structural concerns?",
+  "why": "Gas carrier structure and ballast tank coatings must be tracked closely so damage and deterioration are found and repaired early.",
+  "who": {
+   "lead": [
+    "master",
+    "ce"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "The Class Survey File: class status reports, survey reports, repair history",
+   "Repair history in the last twelve months against the defect reporting system",
+   "Coating Technical File, where required, for recorded repairs",
+   "Survey reports for heavy corrosion, deep pitting or poor coating",
+   "Visible cracking, denting, distortion or serious wastage on the ship"
+  ],
+  "ready": [
+   "Class Survey File, complete and current",
+   "Coating Technical File where required",
+   "Ship staff inspection reports for cargo, ballast, hold and void spaces",
+   "Incident investigation reports relevant to structural damage and repair"
+  ],
+  "traps": [
+   "No procedure to keep the Survey File complete; master or Chief Engineer unfamiliar with that procedure",
+   "Survey File missing class status reports, survey reports, repair history or coating file",
+   "Coating maintenance not part of the maintenance plan; structural repair in the file but no defect report",
+   "Structural repair after an incident with no investigation report",
+   "Fair or poor ballast coating, or heavy corrosion or pitting, in reports",
+   "Visible structural damage with no occasional class survey"
+  ],
+  "say": "Our company procedure covers keeping the Class Survey File complete and up to date. Repairs are recorded in the file and in the defect system, and ballast coating maintenance is in our planned maintenance. Coating repairs go into the Coating Technical File where required.",
+  "practice": [
+   {
+    "q": "What does your Survey File contain?",
+    "a": [
+     "Class status reports and survey reports",
+     "Repair history",
+     "Coating Technical File where required"
+    ]
+   },
+   {
+    "q": "How do you handle structural damage found by the crew?",
+    "a": [
+     "Enter it in the defect reporting system",
+     "Inform company and class",
+     "Record the repair in the file and investigate any incident"
+    ]
+   }
+  ],
+  "tip": "Check that any repair you list in the Survey File also has a matching defect entry.",
+  "refs": [
+   "IACS UR Z7.2",
+   "SOLAS II-1/3-2",
+   "MSC.215(82)",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "2.3.3",
+  "title": "Cargo, ballast and void space inspection",
+  "plain": "Are cargo, ballast and void spaces inspected on time, and are reports made in the company format?",
+  "why": "Regular inspections find corrosion, coating failure and leaks before they become structural damage or pollution.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "The company procedure: frequencies, actions if an inspection is late, report format",
+   "Inspection reports for the full previous cycle, spot-checked against the dates declared",
+   "That each report records the detail the company form asks for",
+   "That defects found were entered into the defect reporting system",
+   "Extra inspections where class conditions, memoranda or coating condition required them"
+  ],
+  "ready": [
+   "Company inspection procedures and any referenced industry guidance",
+   "Inspection reports for all cargo, ballast and void spaces for the last full cycle",
+   "Open defect reports for tank structure, coatings or fittings",
+   "Communications with class about tank structure defects",
+   "Enclosed space entry permits and records for recent inspections"
+  ],
+  "traps": [
+   "Procedure does not give clear frequency, process and reporting criteria",
+   "Ballast or void space frequency longer than twelve months",
+   "Oil or chemical cargo tank frequency longer than thirty-six months",
+   "Any space overdue by more than a month against company period; a space left out of the inspection regime",
+   "Report form cannot record coating and structural condition by area",
+   "Defects in reports not moved to the defect system; tank structure defects not reported to class"
+  ],
+  "say": "Our procedure sets the frequency for each type of space. Ballast tanks, voids, pipe trunks and cofferdams are inspected yearly. Cargo tanks are inspected about every two and a half years on oil and chemical ships. Reports follow the standard form and any defect goes into the defect system.",
+  "practice": [
+   {
+    "q": "How often do you inspect each type of space?",
+    "a": [
+     "Ballast, void, pipe trunk, cofferdam: annually",
+     "Oil and chemical cargo tanks: 2.5 years, six-month window either side",
+     "Gas carrier hold spaces: annually"
+    ]
+   },
+   {
+    "q": "What does your inspection report record?",
+    "a": [
+     "Structural deterioration, corrosion, pitting and coating condition",
+     "Leaks, equipment condition and sediment",
+     "Defects are passed to the defect system"
+    ]
+   }
+  ],
+  "tip": "Keep a simple tracker of last and next inspection date for every space, so you can show nothing is overdue.",
+  "refs": [
+   "IACS Rec 87",
+   "ISM Code 10",
+   "TMSA KPI 4.2.2"
+  ]
+ },
+ {
+  "id": "2.3.4",
+  "title": "Monitoring spaces for leakage and contamination",
+  "plain": "Do deck officers know how to detect leaks between cargo, bunker, ballast, void and cofferdam spaces, and are checks recorded?",
+  "why": "Undetected leaks between tanks can contaminate ballast and cause oil pollution when it is discharged.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedures for sighting ballast surface before discharge",
+   "Sounding records for empty spaces",
+   "Ballast discharge records showing surface checks on at-risk tanks",
+   "Records of ballast line tests through cargo or fuel tanks",
+   "Whether ballast tank sighting arrangements are easy to use"
+  ],
+  "ready": [
+   "Procedure for sighting ballast surface before discharge",
+   "Procedure for periodic sounding of empty spaces and level checks on full tanks",
+   "Records of surface checks, soundings and level checks",
+   "Records of ballast line tests where lines pass through cargo or fuel tanks"
+  ],
+  "traps": [
+   "No procedure to check empty spaces for liquid coming in or to check ballast surface",
+   "Officer unfamiliar with the procedures; soundings of empty spaces not done as the procedure requires",
+   "Ballast surface not inspected before discharge from tanks next to cargo or bunker tanks",
+   "Ballast lines through cargo or fuel tanks not tested",
+   "Sighting needs many bolts removed or an enclosed space entry",
+   "Leakage in an empty space, or oil in ballast, in the last twelve months"
+  ],
+  "say": "Before discharging ballast from tanks next to cargo or bunker tanks, or with oil lines passing through, we sight the surface and record it. We sound empty spaces regularly and check levels in full tanks. If we find contamination or liquid migration, we follow the company procedure.",
+  "practice": [
+   {
+    "q": "What do you do before discharging segregated ballast?",
+    "a": [
+     "Sight the surface of tanks next to cargo or bunker tanks",
+     "Also tanks with oil or hydraulic lines passing through",
+     "Record it, and follow procedure if contaminated"
+    ]
+   },
+   {
+    "q": "How do you detect liquid moving between spaces?",
+    "a": [
+     "Periodic soundings of empty spaces",
+     "Periodic level checks in full tanks",
+     "Ballast line tests where they pass through cargo or fuel tanks"
+    ]
+   }
+  ],
+  "tip": "Make sure sighting ports can be opened quickly, because heavy hatches suggest nobody ever checks them.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code 7",
+   "TMSA KPI 4.2.2"
+  ]
+ },
+ {
+  "id": "2.3.5",
+  "title": "Condition Assessment Programme (CAP)",
+  "plain": "If the ship has a class CAP rating, are the dates and ratings declared correctly and the certificate available?",
+  "why": "A CAP rating gives charterers an independent view of the ship's condition, so the information given must be accurate.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "ce",
+    "co"
+   ]
+  },
+  "checks": [
+   "CAP certificate against the date and module ratings declared in the questionnaire",
+   "The survey completion date, not just the certificate issue date",
+   "Any records that support the certificate"
+  ],
+  "ready": [
+   "CAP certificate showing survey completion date and rating for each module",
+   "Evidence of onboard survey dates if certificate shows only issue date",
+   "Supporting information or records for the certificate"
+  ],
+  "traps": [
+   "Information in the pre-inspection questionnaire is wrong",
+   "Rating claimed for a module still pending completion",
+   "Certificate issue date declared as the survey date",
+   "Certificate not uploaded and not onboard"
+  ],
+  "say": "Our CAP certificate is available onboard. The survey dates and module ratings match what the company declared. CAP is voluntary and the rating shows the ship's condition on the day of the survey.",
+  "practice": [
+   {
+    "q": "What does your CAP certificate cover?",
+    "a": [
+     "Modules assessed and the rating for each",
+     "Dates of the onboard survey",
+     "Rating reflects condition on the survey date"
+    ]
+   }
+  ],
+  "tip": "Check the survey completion date on the certificate. It is often different from the issue date.",
+  "refs": [
+   "ISM Code 10",
+   "TMSA KPI 4.3.4"
+  ]
+ },
+ {
+  "id": "2.4.1",
+  "title": "Defect reporting system",
+  "plain": "Do senior officers know how to report defects to shore, and have all defects been reported?",
+  "why": "Unreported defects stay hidden from management, so repairs are delayed and risks are not controlled.",
+  "who": {
+   "lead": [
+    "master",
+    "ce"
+   ],
+   "also": [
+    "co",
+    "2o"
+   ]
+  },
+  "checks": [
+   "The company defect procedure and how officers use it",
+   "Entries in the system: timely, sent ashore and acknowledged",
+   "A sample defect with a repair timeline and any interim measures",
+   "Any obvious defect seen during the inspection that is not in the system"
+  ],
+  "ready": [
+   "Company procedure for managing defects",
+   "The defect reporting system or planned maintenance system if combined",
+   "Shore acknowledgement of each defect entry",
+   "A printed list of all open defects, marking those reported to class or flag"
+  ],
+  "traps": [
+   "No defect reporting system or procedure",
+   "Senior officer unfamiliar with the procedure",
+   "Defects not acknowledged by shore management",
+   "Visible defects on listed or class items with no defect report",
+   "Defect that caused, or was caused by, an incident not reported as an incident"
+  ],
+  "say": "Under our procedure, all defects to structure, machinery, navigation, deck, cargo and electronic equipment go into the defect system. Shore management acknowledges each one and sets a repair timeline. I have printed the list of open defects for you, with class or flag notifications marked.",
+  "practice": [
+   {
+    "q": "What happens when you find a defect?",
+    "a": [
+     "Enter it in the defect system within the company time limit",
+     "Shore acknowledges and sets a corrective timeline",
+     "Mitigating actions if safety is affected"
+    ]
+   },
+   {
+    "q": "What if a defect caused an incident?",
+    "a": [
+     "Also submit an incident report",
+     "Follow the company incident procedure",
+     "Investigation and follow-up"
+    ]
+   }
+  ],
+  "tip": "Print the open defect list before the inspector arrives and walk the deck and engine room yourself looking for defects that are not on it.",
+  "refs": [
+   "ISM Code 10",
+   "IACS Rec 2001",
+   "TMSA KPI 4.1.2"
+  ]
+ },
+ {
+  "id": "2.4.2",
+  "title": "Defect reporting to class, flag and others",
+  "plain": "When defects exist, did the company tell class, flag or the port as needed, and were short-term certificates or waivers issued?",
+  "why": "Defects that affect class or statutory equipment must be disclosed so the ship is not trading without proper approval.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Class status report for conditions of class, memoranda or short-term certificates",
+   "Open defects that should have been reported to class or flag",
+   "Pre-arrival notices where a short-term certificate or waiver applies",
+   "That any conditions set by class or flag were complied with"
+  ],
+  "ready": [
+   "Company procedure for notifying class, flag and other parties",
+   "Class status report",
+   "Defect system with a printed list of open defects, class and flag reports marked",
+   "Shore messages saying the defects were assessed and what was reported",
+   "Class or flag letters with mitigating conditions, and port pre-arrival notices"
+  ],
+  "traps": [
+   "No procedure for shore to decide if class, flag or others must be told",
+   "Senior officers do not know the procedure",
+   "Significant open defect with no proof that class or flag were informed",
+   "Class or flag conditions imposed but no evidence they were met"
+  ],
+  "say": "Under our procedure, shore management assesses each defect to decide who must be told: class, flag or the port. For any short-term certificate or waiver, we follow the conditions set and keep the messages onboard. Port pre-arrival notices are made when required.",
+  "practice": [
+   {
+    "q": "Who decides if class or flag must be informed of a defect?",
+    "a": [
+     "Shore management evaluates under company procedure",
+     "Procedure says what, when and by whom",
+     "Records of notifications are kept onboard"
+    ]
+   },
+   {
+    "q": "What do you do if flag gives a waiver with conditions?",
+    "a": [
+     "Follow every condition",
+     "Keep the records",
+     "Inform the port of arrival if required"
+    ]
+   }
+  ],
+  "tip": "Keep all class and flag correspondence for a defect in one folder next to the defect entry.",
+  "refs": [
+   "SOLAS I/11",
+   "SOLAS II-1/3-1",
+   "ISM Code 10",
+   "IACS UR Z13"
+  ]
+ },
+ {
+  "id": "2.5.1",
+  "title": "Management of change",
+  "plain": "Is the company Management of Change procedure followed for changes to class or statutory structure, machinery and equipment?",
+  "why": "Unplanned changes to the ship can create new risks, so each one needs approval, risk assessment and updated documents.",
+  "who": {
+   "lead": [
+    "master",
+    "ce"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "The company MOC procedure",
+   "Changes declared in the last twelve months in the pre-inspection questionnaire",
+   "The MOC register or index onboard",
+   "The request, risk assessment and documents for any recent change",
+   "Any recent change you can see on board that was not declared"
+  ],
+  "ready": [
+   "Company MOC procedure",
+   "MOC register or database index",
+   "MOC request form for every change in the last twelve months",
+   "Supporting papers: risk assessments, training plans, updated drawing lists"
+  ],
+  "traps": [
+   "No MOC procedure for class or flag regulated changes",
+   "Senior officer cannot explain the MOC process",
+   "A change in the last twelve months not declared in the questionnaire",
+   "A change made with no approved MOC form and supporting documents onboard"
+  ],
+  "say": "Our MOC procedure says which changes need approval and which, like for like replacement, are excluded. Each change has a request, shore approval, risk assessment and updates to affected drawings and procedures. All of them are indexed in our MOC register.",
+  "practice": [
+   {
+    "q": "What counts as a change that needs MOC?",
+    "a": [
+     "Changes to structure, machinery or equipment under class or statutory rules",
+     "New installations or modifications",
+     "Like for like replacement is usually excluded"
+    ]
+   },
+   {
+    "q": "What happens after a change is approved?",
+    "a": [
+     "Tell the people affected",
+     "Update drawings, manuals and checklists",
+     "Confirm updates are done and file the records"
+    ]
+   }
+  ],
+  "tip": "Walk round before the inspection looking for anything new or modified, and check each one has an MOC file.",
+  "refs": [
+   "ISM Code 10",
+   "TMSA KPI 7.1.1"
+  ]
+ },
+ {
+  "id": "2.6.1",
+  "title": "Ballast Water Management Plan",
+  "plain": "Do officers know the Ballast Water Management Plan, and do records show ballast was handled as the plan says?",
+  "why": "Ballast water can spread harmful organisms and, if mishandled, can also stress the hull or pollute.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ce",
+    "2e"
+   ]
+  },
+  "checks": [
+   "The approved Ballast Water Management Plan and the BWM Certificate",
+   "Ballast water record book entries against the plan",
+   "Cargo and ballast plans and records of ballast timings",
+   "The exchange plan with stresses, draughts and trim, if exchange was done",
+   "Messages to flag and port if the treatment plant failed"
+  ],
+  "ready": [
+   "Ship-specific approved BWM Plan in the working language",
+   "International Ballast Water Management Certificate",
+   "Ballast Water Record Book, up to date",
+   "Recent cargo and ballast plans",
+   "Exchange sequence plan showing stresses, if exchange was done",
+   "Notifications and replies if treatment could not be used"
+  ],
+  "traps": [
+   "No plan or no valid certificate",
+   "Plan not approved by flag or class, or not ship specific",
+   "Responsible officer does not know the plan",
+   "Plan not in the working language of the ship; record book not kept to company procedure",
+   "No sequential exchange plan with longitudinal stress",
+   "Ballast treatment plant defective in any way; treatment plant bypassed against the plan"
+  ],
+  "say": "Our plan is ship specific and approved, and the BWM Certificate shows our main method. We record every ballast operation in the record book. If the treatment plant fails, we inform flag and port and follow any conditions they give.",
+  "practice": [
+   {
+    "q": "Who is responsible for the plan and what must they know?",
+    "a": [
+     "The officer named in the plan",
+     "Contents of the plan and record book entries",
+     "What to do if the plan cannot be followed"
+    ]
+   },
+   {
+    "q": "What if the ballast treatment plant breaks down?",
+    "a": [
+     "Follow company procedure",
+     "Tell flag and port state",
+     "Comply with any conditions they impose"
+    ]
+   }
+  ],
+  "tip": "Check your record book entries against cargo and ballast plan times. Mismatches stand out quickly.",
+  "refs": [
+   "BWM Convention B-1",
+   "MEPC.288(71)",
+   "MEPC.252(67)",
+   "ISGOTT 6"
+  ]
+ },
+ {
+  "id": "2.6.2",
+  "title": "VOC Management Plan",
+  "plain": "Do officers know the VOC Management Plan, and are its steps to reduce VOC emissions followed and recorded?",
+  "why": "Crude oil cargo releases harmful vapour, so the plan aims to keep emissions as low as practical.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "The VOC Management Plan",
+   "Records of cargo operations and tank pressures during the voyage",
+   "That the cargo plan includes the plan's requirements",
+   "VOC training records",
+   "The target tank pressure shown in the cargo control room"
+  ],
+  "ready": [
+   "Approved ship-specific VOC Management Plan in a language the officers understand",
+   "Training records for the plan",
+   "Records of loading, carriage, discharge and crude oil washing as the plan requires",
+   "Current cargo plan",
+   "Deck logbook"
+  ],
+  "traps": [
+   "Plan not approved or not ship specific; plan not in a language the Master and officers understand",
+   "Responsible person does not know the plan",
+   "Accompanying officer unaware of what the plan needs during current cargo operation",
+   "No evidence of training or of procedures used",
+   "Target operating pressure not shown in the cargo control room",
+   "Tank pressure kept well below target by venting to atmosphere"
+  ],
+  "say": "Our VOC plan names the person responsible and sets a target tank pressure, which is displayed in the cargo control room. We follow it for loading, carriage, discharge and crude oil washing, and keep the required records. The cargo plan includes the plan's requirements.",
+  "practice": [
+   {
+    "q": "What is the target pressure for the cargo tanks?",
+    "a": [
+     "State the value from the plan",
+     "Explain it is kept as high as safely possible",
+     "If venting is needed, lower the pressure as little as possible"
+    ]
+   },
+   {
+    "q": "What does the plan ask you to do on this operation?",
+    "a": [
+     "Follow the loading and carriage steps in the cargo plan",
+     "Keep the required records",
+     "Consider crude oil washing effects"
+    ]
+   }
+  ],
+  "tip": "Put the target pressure on a clear label in the cargo control room and quote it from memory.",
+  "refs": [
+   "MARPOL Annex VI reg 15",
+   "MEPC.185(59)",
+   "OCIMF VOC 2019",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "2.6.3",
+  "title": "Ship Energy Efficiency Management Plan (SEEMP)",
+  "plain": "Do the Master and senior officers know the SEEMP, and have its energy saving and fuel reporting steps been carried out?",
+  "why": "The SEEMP cuts fuel use and emissions, and fuel data must be collected and reported correctly each year.",
+  "who": {
+   "lead": [
+    "ce",
+    "master"
+   ],
+   "also": [
+    "2e",
+    "2o"
+   ]
+  },
+  "checks": [
+   "The SEEMP, Part I and Part II",
+   "Evidence that the Part I energy saving measures were carried out or monitored",
+   "Records of fuel data collection, aggregation and reporting",
+   "Statement of Compliance for fuel oil consumption reporting",
+   "Whether the Master or Chief Engineer knows the plan"
+  ],
+  "ready": [
+   "Ship-specific SEEMP",
+   "Logbook evidence of measures: voyage planning, speed, trim, hull maintenance",
+   "Annual fuel consumption, distance and hours underway records",
+   "Evidence of reporting to the flag administration",
+   "Statement of Compliance - Fuel Oil Consumption Reporting (5,000 GT and above)"
+  ],
+  "traps": [
+   "Master or Chief Engineer does not know the SEEMP; part I has no ship-specific package of measures",
+   "No evidence the measures were carried out or monitored",
+   "Part II does not describe how fuel data is collected and reported",
+   "No Statement of Compliance issued",
+   "Fuel records leave out boilers, inert gas generator or other consumers",
+   "Fuel records not split by fuel type"
+  ],
+  "say": "Our SEEMP Part I lists ship-specific measures such as voyage planning, weather routeing, speed and trim, and hull maintenance. Part II describes how we collect, total and report fuel use for all consumers. We keep the records and have the Statement of Compliance.",
+  "practice": [
+   {
+    "q": "Which fuel consumers are included in your records?",
+    "a": [
+     "Main and auxiliary engines, boilers, inert gas generator, any others",
+     "Each fuel type recorded separately",
+     "Counted whether underway or not"
+    ]
+   },
+   {
+    "q": "What energy saving measures do you apply?",
+    "a": [
+     "Name the measures in the SEEMP Part I",
+     "Show how they are applied and monitored",
+     "Point to the log entries that prove it"
+    ]
+   }
+  ],
+  "tip": "Make sure the Chief Engineer and Master can both name three or four SEEMP measures and where the proof is kept.",
+  "refs": [
+   "MARPOL Annex VI reg 22",
+   "MARPOL Annex VI reg 22A",
+   "MEPC.282(70)"
+  ]
+ },
+ {
+  "id": "2.7.1",
+  "title": "SMS content available to all crew",
+  "plain": "Can everyone onboard easily get the SMS content they need, in a language they understand?",
+  "why": "A procedure nobody can find or read does not protect anyone.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The SMS manuals in hard copy or electronic form",
+   "Evidence that changes to the SMS were told to the right people",
+   "Easy access to navigation procedures on the bridge",
+   "Versions of checklists and procedures in use",
+   "A random rating: can they find and understand the SMS relevant to them"
+  ],
+  "ready": [
+   "SMS manuals, current and relevant to this ship",
+   "Records of SMS changes being communicated and understood",
+   "Navigation procedures on the bridge, with backup power if electronic only",
+   "Enough hard copies, or workstations and training for electronic access"
+  ],
+  "traps": [
+   "Manual hard to navigate or slow to use",
+   "Large parts not relevant to the ship, such as other ship types",
+   "Too few hard copies in the right places; electronic only, but not everyone has access or training",
+   "Navigation procedures not on the bridge, or electronic with no backup power",
+   "Old copies not updated, or old checklists still in use",
+   "A rating cannot access or understand the SMS part for their job"
+  ],
+  "say": "Our SMS is available to everyone in a language they understand, and the navigation procedures are on the bridge. When the SMS changes, we brief the crew and keep a record. Old copies are removed so only current versions are in use.",
+  "practice": [
+   {
+    "q": "How do you tell the crew about a change in the SMS?",
+    "a": [
+     "Brief the people affected promptly",
+     "Make sure they understand",
+     "Keep a record"
+    ]
+   },
+   {
+    "q": "(To a rating) Where do you find the procedure for your job?",
+    "a": [
+     "Know the way to access it",
+     "Be able to read it in your language",
+     "Ask your supervisor if unsure"
+    ]
+   }
+  ],
+  "tip": "Check every checklist copy has the same revision number as the SMS before the inspector arrives.",
+  "refs": [
+   "ISM Code 6.6",
+   "ISM Code 11"
+  ]
+ },
+ {
+  "id": "2.7.2",
+  "title": "Authority and lines of communication, including the DPA",
+  "plain": "Does the SMS show clear authority and communication lines, and does everyone know their own and who the DPA is?",
+  "why": "In an emergency or a safety concern, people must know who decides and who to call ashore.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The SMS chart or text showing authority and communication lines",
+   "A senior officer: do they know key shore contacts including the DPA",
+   "A junior officer or rating: do they know who the DPA is, how to reach them and what the role is"
+  ],
+  "ready": [
+   "SMS section on authority and communication lines, charts or flowcharts are fine",
+   "DPA name and contact details displayed or given to all",
+   "List of key shore contacts for navigation and technical matters"
+  ],
+  "traps": [
+   "SMS does not clearly show authority and communication lines",
+   "Senior officer unfamiliar with key shore contacts",
+   "Junior officer or rating does not know who the DPA is, contact details or role"
+  ],
+  "say": "Our SMS shows the chain of authority from Master to officers to ratings and the company, with the Master's overriding authority on safety. Everyone onboard knows the DPA's name, contact and role. Senior officers also know the superintendent and navigation contacts ashore.",
+  "practice": [
+   {
+    "q": "Who is the DPA and how do you contact them?",
+    "a": [
+     "Give the name and role",
+     "Know the contact details or where they are posted",
+     "Explain the DPA is the link between ship and company"
+    ]
+   },
+   {
+    "q": "Who do you report to and who reports to you?",
+    "a": [
+     "Describe your place in the SMS chart",
+     "Know the next level above and below",
+     "Know when to go to the Master or shore"
+    ]
+   }
+  ],
+  "tip": "Make sure every rating, not only officers, can say the DPA's name without looking it up.",
+  "refs": [
+   "ISM Code 3.2",
+   "ISM Code 4",
+   "ISM Code 5.2",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "2.8.1",
+  "title": "HVPQ accurately completed",
+  "plain": "Does the company's vessel questionnaire (HVPQ) in the SIRE database correctly describe the ship?",
+  "why": "The inspection is built partly from the HVPQ, so wrong data misleads inspectors and charterers.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "The inspector reviews the HVPQ before boarding against uploaded certificates",
+   "Sections such as general information, certificates, crew, navigation, structure and propulsion",
+   "Anything that looks inconsistent with the ship type",
+   "Any errors or gaps are raised with the Master"
+  ],
+  "ready": [
+   "Certificates and documents matching what the HVPQ says",
+   "Class status report and crew matrix",
+   "Notes of any recent changes to the ship or crew"
+  ],
+  "traps": [
+   "Several errors or omissions in ownership, class status, certificate validity or outfitting",
+   "HVPQ not updated before the inspection"
+  ],
+  "say": "The company updates the HVPQ before each inspection. If you find something that does not match the ship, I will check it with you now and tell the office. Our certificates onboard match the details declared.",
+  "practice": [
+   {
+    "q": "The HVPQ says something different from what you see. Why?",
+    "a": [
+     "Check the facts honestly",
+     "Confirm what is correct",
+     "Report the difference to the company to correct"
+    ]
+   }
+  ],
+  "tip": "Read the HVPQ once yourself before the inspection and mark anything that no longer matches the ship.",
+  "refs": []
+ },
+ {
+  "id": "2.8.2",
+  "title": "Last Port State Control inspection",
+  "plain": "Are records of the last PSC inspection onboard, and were any deficiencies fixed and closed out per company procedure?",
+  "why": "PSC findings show what outside inspectors found, and closing them out shows the company acts on problems.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "2o"
+   ]
+  },
+  "checks": [
+   "The company procedure for managing PSC inspections",
+   "PSC reports for the last three years, or the last one if none in that time",
+   "Proof that deficiencies were corrected and closed with shore approval",
+   "That the most recent report matches what was declared and uploaded"
+  ],
+  "ready": [
+   "Company PSC procedure",
+   "All PSC reports for the previous three years",
+   "Defect or non-conformity records showing close-out of each deficiency with shore approval"
+  ],
+  "traps": [
+   "No company procedure for PSC inspections",
+   "Most recent PSC report not uploaded to the OCIMF repository within five days, if used",
+   "Onboard reports missing the most recent PSC inspection shown in MoU databases",
+   "No documented close-out of deficiencies with shore approval",
+   "PSC data in the questionnaire is wrong in any respect"
+  ],
+  "say": "Our company procedure covers how we manage a PSC inspection and close deficiencies. Every PSC report for the last three years is here. Each deficiency is recorded in our defect or non-conformity system and closed with shore approval.",
+  "practice": [
+   {
+    "q": "How were the deficiencies from the last PSC inspection closed?",
+    "a": [
+     "Entered into defect or non-conformity system",
+     "Corrected and evidence recorded",
+     "Closed with shore management approval"
+    ]
+   }
+  ],
+  "tip": "Staple the close-out evidence to each deficiency in the PSC report so you can show it in seconds.",
+  "refs": [
+   "ISM Code 10",
+   "TMSA KPI 4.1.2"
+  ]
+ },
+ {
+  "id": "3.1.1",
+  "title": "Crew qualifications and officer matrix",
+  "plain": "Are officers and ratings properly qualified, and does the online officer matrix match who is onboard?",
+  "why": "Only properly trained and certified people should run a tanker and its cargo.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Matrix details against certificates of competency, endorsements and sea service for a sample of officers",
+   "Advanced tanker training for senior officers, junior deck officers and cargo or gas engineers",
+   "Basic tanker training for junior engineers and a deck rating",
+   "Advanced training for any rating with immediate cargo responsibility, such as the pumpman",
+   "English standard of officers, as heard during the inspection"
+  ],
+  "ready": [
+   "Updated online officer matrix reflecting crew changes older than four days",
+   "Per person file: CoC, flag endorsement, tanker training, sea service record",
+   "Training certificates for BRM, ERM, cargo simulator, ship handling, safety and security officer, as relevant",
+   "Consolidated sea service records backed by seaman's books",
+   "Index showing which certificates are mandatory for each role"
+  ],
+  "traps": [
+   "Matrix not updated for the officers onboard on the day; officer unfamiliar with how certificate records are kept",
+   "Matrix details wrong: CoC, tanker training, endorsements, radio licence, sea service in rank",
+   "CoC or endorsement limits that stop the person doing their job on this ship",
+   "Missing advanced tanker training for officers or cargo ratings",
+   "Sea time in rank wrong or not provable; flag endorsement does not match the national CoC",
+   "English worse than the 'good' declared in the matrix"
+  ],
+  "say": "Our matrix is up to date for everyone onboard. Each person's certificates are filed in a standard order with an index of what their role needs. Sea service in rank is recorded and supported by seaman's books.",
+  "practice": [
+   {
+    "q": "Who needs advanced tanker training?",
+    "a": [
+     "Master, chief officer, chief and second engineer",
+     "Any person with immediate responsibility for cargo",
+     "Includes watchkeeping deck officers and cargo or gas engineer, and ratings supervising cargo"
+    ]
+   },
+   {
+    "q": "How do you keep sea service records?",
+    "a": [
+     "Consolidated record supported by seaman's books",
+     "Check time in rank matches the matrix",
+     "Kept in the standard personal file"
+    ]
+   }
+  ],
+  "tip": "If someone joined in the last few days, tell the inspector. Changes within four days are allowed.",
+  "refs": [
+   "STCW Code A-V/1-1",
+   "STCW Code A-V/1-2",
+   "OCIMF officer matrix guidelines",
+   "ISM Code 6.2"
+  ]
+ },
+ {
+  "id": "3.1.2",
+  "title": "Designated working language",
+  "plain": "Are SMS procedures and signs in the working language, and can everyone communicate in it?",
+  "why": "Safety instructions only work if everyone can read them and speak with each other clearly.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The working language recorded in the ship's logbook",
+   "How officers and ratings talk to each other during the inspection",
+   "Whether the accompanying officer can translate a question to a rating and the answer back",
+   "Signs and safety instructions posted in the working language",
+   "SMS checklists and safety procedures in the working language"
+  ],
+  "ready": [
+   "Logbook entry recording the working language",
+   "SMS parts for the whole crew translated where needed",
+   "Signs and notices in the working language, plus another language where ratings need it",
+   "Translations of plans or lists required to be posted"
+  ],
+  "traps": [
+   "Working language never decided",
+   "Language in use differs from HVPQ or logbook",
+   "An officer or rating cannot communicate in the working language",
+   "Someone cannot read a safety sign in any language shown",
+   "Required plans not translated when the working language is not the flag State language",
+   "Safety parts of SMS not translated; checklists not in the working language"
+  ],
+  "say": "Our working language is recorded in the logbook and used for all safety communication. Safety signs, checklists and procedures are in that language, and in another language where ratings need it. I can translate questions and answers to the crew for you.",
+  "practice": [
+   {
+    "q": "What is the working language of this vessel?",
+    "a": [
+     "State it and say it is in the logbook",
+     "Everyone uses it for safety matters",
+     "English is used on the bridge for ship to ship and ship to shore safety talk"
+    ]
+   }
+  ],
+  "tip": "Walk the ship and check that every safety sign can be read by the people who work in that area.",
+  "refs": [
+   "SOLAS V/14",
+   "ISM Code 6.6",
+   "ISM Code 6.7",
+   "MCA Code of Safe Working Practices"
+  ]
+ },
+ {
+  "id": "3.1.3",
+  "title": "Minimum, standard and enhanced manning",
+  "plain": "Does the crew onboard meet the Minimum Safe Manning Document and company manning, with senior officers relieved in a staggered way?",
+  "why": "Too few people, or a whole department changing at once, means lost knowledge and higher accident risk.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Questionnaire manning figures against the Minimum Safe Manning Document",
+   "The arrival crew list",
+   "The online crew matrix",
+   "Extra manning for STS, short voyages, security or other specialist operations",
+   "Whether both senior officers of one department are leaving together"
+  ],
+  "ready": [
+   "Minimum Safe Manning Document",
+   "Arrival crew list",
+   "Online crew matrix, up to date",
+   "Company manning policy figures, standard and enhanced, as declared"
+  ],
+  "traps": [
+   "Crew below the Safe Manning Document in any respect",
+   "Crew below company standard or enhanced manning for the operations being done",
+   "Fewer officers onboard than shown in the crew matrix",
+   "Engine room run manned at sea but not enough engineers to meet the document",
+   "Both senior officers of one department relieved with no overlap or parallel sailing"
+  ],
+  "say": "Our crew meets the Safe Manning Document and the company standard manning. When we do STS or other specialist work, the company adds extra people as its policy says. Senior officers of one department are relieved with overlap so knowledge is passed on.",
+  "practice": [
+   {
+    "q": "How do you make sure senior officers are not all relieved together?",
+    "a": [
+     "Company sets a minimum interval between reliefs",
+     "Overlap or parallel sailing for handover",
+     "Crew changes are planned ahead"
+    ]
+   }
+  ],
+  "tip": "If a crew change is planned near the inspection, tell the office early so overlap is arranged.",
+  "refs": [
+   "IMO A.1047(27)",
+   "ISM Code 6.2",
+   "SOLAS"
+  ]
+ },
+ {
+  "id": "3.2.1",
+  "title": "Static navigational assessment",
+  "plain": "Is the report of the company's static navigational assessment onboard, as declared before the inspection?",
+  "why": "The company must check navigation standards onboard, and a static assessment in port is one way to do it.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "That the assessment date matches the date declared",
+   "That the report follows the OCIMF best practice guide format",
+   "That the assessor's qualifications and experience are in the report",
+   "That areas for improvement were followed up within a set time"
+  ],
+  "ready": [
+   "The static navigational assessment report",
+   "Corrective action plan with due dates",
+   "Evidence that each closed item was fixed"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "No details of the assessor's qualifications and experience",
+   "Assessor never held a senior deck officer licence or sailed as one",
+   "Report not close to the OCIMF guide and TMSA best practice",
+   "No corrective action plan with due dates",
+   "Items not closed by their due dates"
+  ],
+  "say": "The static assessment report is here. It covers passage plans, chart corrections, records and equipment, and it shows the assessor's experience. Each point raised has a due date and evidence of close-out.",
+  "practice": [
+   {
+    "q": "What did the last company navigation assessment find?",
+    "a": [
+     "Summarise the main points",
+     "Show the corrective action plan",
+     "Show how items were closed"
+    ]
+   }
+  ],
+  "tip": "Keep the report, action plan and close-out photos or records together in one folder.",
+  "refs": [
+   "OCIMF Navigational Assessments and Audits guide",
+   "TMSA KPI 5.2.2",
+   "ISM Code 12"
+  ]
+ },
+ {
+  "id": "3.2.2",
+  "title": "Dynamic navigational assessment by company",
+  "plain": "Is the report of the company's dynamic navigational assessment on passage onboard, as declared?",
+  "why": "Watching the bridge team at work on passage shows real navigation habits that a paper check cannot.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "That the assessment dates and voyage stages match the declaration",
+   "That the report follows the OCIMF guide and covers most TMSA best practice points",
+   "That the assessor's qualifications and experience are included",
+   "That improvement areas were followed up within a set time",
+   "The bridge logbook for the assessment period, for location checks only"
+  ],
+  "ready": [
+   "The dynamic assessment report",
+   "Bridge logbook for the assessment period",
+   "Corrective action plan with due dates",
+   "Evidence for each closed item"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "Report does not cover the voyage stages or dates declared",
+   "No assessor qualifications and experience in the report",
+   "Assessor never held a senior deck officer licence or sailed as one",
+   "Report not close to the OCIMF guide",
+   "No action plan with due dates, or items not closed in time"
+  ],
+  "say": "The dynamic assessment report is here for the dates declared. It covers the voyage stages, shows the assessor's background and lists improvements with due dates. Personal performance details are kept confidential and are not in the report.",
+  "practice": [
+   {
+    "q": "When was the dynamic assessment and what was covered?",
+    "a": [
+     "Give dates and voyage stages",
+     "Show the report",
+     "Show action plan and close-out"
+    ]
+   }
+  ],
+  "tip": "Keep the bridge logbook for the assessment period easy to find, because the inspector uses it to check location and dates.",
+  "refs": [
+   "OCIMF Navigational Assessments and Audits guide",
+   "TMSA KPI 5.3.3",
+   "ISM Code 12"
+  ]
+ },
+ {
+  "id": "3.2.3",
+  "title": "Dynamic navigational assessment by specialist contractor",
+  "plain": "Is the report of the specialist contractor's dynamic navigational assessment on passage onboard, as declared?",
+  "why": "An independent expert looking at the bridge team on passage gives the company a second view of navigation standards.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "That the assessment dates and voyage stages match the declaration",
+   "That the report follows the OCIMF guide and covers most TMSA best practice points",
+   "That the assessor's qualifications and experience are in the report",
+   "That improvement areas were followed up within a set time",
+   "The bridge logbook for the period, for location checks only"
+  ],
+  "ready": [
+   "The contractor's assessment report",
+   "Bridge logbook for the assessment period",
+   "Corrective action plan with due dates",
+   "Evidence for each closed item"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "Voyage stages or dates not as declared",
+   "No assessor qualifications and experience in the report",
+   "Assessor never held a senior deck officer licence or sailed as one",
+   "Report not close to the OCIMF guide",
+   "No action plan with due dates, or items not closed in time"
+  ],
+  "say": "The contractor's report is here for the declared dates and voyage stages. It records the assessor's background and lists improvement points with due dates and close-out evidence.",
+  "practice": [
+   {
+    "q": "What did the independent assessor recommend?",
+    "a": [
+     "Summarise the main points",
+     "Show the action plan",
+     "Show how each was closed"
+    ]
+   }
+  ],
+  "tip": "Keep the action plan next to the report and tick each item with a date when it is closed.",
+  "refs": [
+   "OCIMF Navigational Assessments and Audits guide",
+   "TMSA KPI 5.4.1",
+   "ISM Code 12"
+  ]
+ },
+ {
+  "id": "3.2.4",
+  "title": "Unannounced remote navigational assessment",
+  "plain": "Is the report of the unannounced remote navigational assessment, using VDR and ECDIS data, onboard as declared?",
+  "why": "Replaying VDR and ECDIS data shows how the bridge team really behaves when nobody is watching.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "That the assessment covered the voyage phases declared",
+   "That it was unannounced and used VDR and ECDIS downloads",
+   "That the report follows the OCIMF guide and includes assessor qualifications",
+   "That improvement areas were followed up",
+   "The bridge logbook for the period, for location checks only"
+  ],
+  "ready": [
+   "The remote assessment report",
+   "Bridge logbook for the period",
+   "Corrective action plan with due dates",
+   "Evidence for each closed item"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "No review of downloaded VDR and ECDIS data, passage plans or under-keel clearance calculations",
+   "Period covered only anchor or open sea with no navigational challenge",
+   "Voyage phases not as declared; no assessor qualifications and experience in the report",
+   "Assessor never held a senior deck officer licence or sailed as one",
+   "No action plan with due dates, or items not closed in time"
+  ],
+  "say": "The remote assessment report is here. It used VDR and ECDIS data from the declared phases of the voyage and was not announced. It shows the assessor's background, the action plan and the close-out evidence.",
+  "practice": [
+   {
+    "q": "What part of the voyage did the remote assessment cover?",
+    "a": [
+     "Name the phases declared",
+     "Explain VDR and ECDIS data were reviewed",
+     "Show the report and action plan"
+    ]
+   }
+  ],
+  "tip": "Remember that VDR and ECDIS data may be used for assessment, so keep passage plans and under-keel clearance records tidy.",
+  "refs": [
+   "OCIMF Navigational Assessments and Audits guide",
+   "OCIMF proactive VDR use 2020",
+   "TMSA KPI 5.4.1"
+  ]
+ },
+ {
+  "id": "3.2.5",
+  "title": "Comprehensive cargo audit by company",
+  "plain": "Is the report of the company's comprehensive cargo audit onboard, covering cargo, ballast and bunkering as declared?",
+  "why": "Observing real cargo operations lets the company check skills, teamwork and procedures across the fleet.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "That the audit date and operations covered match the declaration",
+   "That the report follows the best practice points in TMSA KPI 6.4.2",
+   "That the assessor's qualifications and tanker experience are included",
+   "That improvement areas were followed up within a set time",
+   "The deck and cargo logbook for the period, for checking only"
+  ],
+  "ready": [
+   "The cargo audit report",
+   "Deck and cargo logbook for the audit period",
+   "Corrective action plan with due dates",
+   "Evidence for each closed item, including shared lessons learnt"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "Audit did not cover cargo or bunker operations, or was outside the declared dates",
+   "No assessor qualifications and experience in the report",
+   "Assessor never held or sailed as a senior deck officer on tankers",
+   "Report not close to TMSA KPI 6.4.2 best practice",
+   "No action plan with due dates, or items not closed in time"
+  ],
+  "say": "The cargo audit report is here. It covers cargo, ballast and bunkering as declared and shows the assessor's tanker experience. Each improvement point has a due date and evidence it was closed.",
+  "practice": [
+   {
+    "q": "What were the main findings of the last cargo audit?",
+    "a": [
+     "Give the main points honestly",
+     "Show the action plan",
+     "Show closure evidence"
+    ]
+   }
+  ],
+  "tip": "Keep any lessons learnt documents from the audit with the report.",
+  "refs": [
+   "TMSA KPI 6.4.2",
+   "OCIMF Navigational Assessments and Audits guide",
+   "ISM Code 12"
+  ]
+ },
+ {
+  "id": "3.2.6",
+  "title": "Comprehensive engineering audit by company",
+  "plain": "Is the report of the company's comprehensive engineering audit onboard, as declared?",
+  "why": "Observing the engine team on passage checks that machinery practices and maintenance match company standards.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "That the audit date matches the declaration",
+   "That the report follows the best practice points in TMSA KPI 4.4.5",
+   "That the assessor's qualifications and tanker engineering experience are included",
+   "That improvement areas were followed up within a set time",
+   "The engine room logbook for the period, for checking only"
+  ],
+  "ready": [
+   "The engineering audit report",
+   "Engine room logbook for the audit period",
+   "Corrective action plan with due dates",
+   "Evidence for each closed item"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "Audit did not cover machinery space operations or was outside the declared dates",
+   "No assessor qualifications and experience in the report",
+   "Assessor never held a senior engineer officer licence or sailed as one on tankers",
+   "Report not close to TMSA KPI 4.4.5 best practice",
+   "No action plan with due dates, or items not closed in time"
+  ],
+  "say": "The engineering audit report is here. It covers machinery space operations as declared and records the assessor's experience as a senior engineer. Each improvement point has a due date and close-out evidence.",
+  "practice": [
+   {
+    "q": "What did the engineering audit cover and find?",
+    "a": [
+     "Name operations observed",
+     "Summarise findings",
+     "Show actions closed"
+    ]
+   }
+  ],
+  "tip": "File the audit debrief notes with the report and action plan so the full story is in one place.",
+  "refs": [
+   "TMSA KPI 4.4.5",
+   "ICS Engine Room Procedures Guide",
+   "ISM Code 12"
+  ]
+ },
+ {
+  "id": "3.2.7",
+  "title": "Comprehensive mooring and anchoring audit by company",
+  "plain": "Is the report of the company's comprehensive mooring and anchoring audit onboard, as declared?",
+  "why": "Mooring and anchoring are high-risk jobs, and watching real operations shows behaviour and teamwork.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "That the audit date and operations covered match the declaration",
+   "That the report follows the best practice points in TMSA KPI 6A.4.3",
+   "That the assessor's qualifications and tanker experience are included",
+   "That improvement areas were followed up within a set time",
+   "The deck logbook for the period, for checking only"
+  ],
+  "ready": [
+   "The mooring and anchoring audit report",
+   "Deck logbook for the audit period",
+   "Corrective action plan with due dates",
+   "Evidence for each closed item"
+  ],
+  "traps": [
+   "Declared report not onboard",
+   "Audit did not cover the mooring and anchoring operations declared, or dates were wrong",
+   "No assessor qualifications and experience in the report",
+   "Assessor never held or sailed as a senior deck officer on tankers",
+   "Report not close to TMSA KPI 6A.4.3 best practice",
+   "No action plan with due dates, or items not closed in time"
+  ],
+  "say": "The mooring and anchoring audit report is here. It covers the operations declared and shows the assessor's tanker experience. Each improvement point has a due date and evidence it was closed.",
+  "practice": [
+   {
+    "q": "What was observed during the mooring and anchoring audit?",
+    "a": [
+     "Say which operations were observed",
+     "Summarise main findings",
+     "Show action plan and close-out"
+    ]
+   }
+  ],
+  "tip": "Keep close-out evidence such as toolbox talk records or photos attached to each action.",
+  "refs": [
+   "TMSA KPI 6A.4.3",
+   "OCIMF MEG4",
+   "OCIMF Anchoring Systems and Procedures 2010",
+   "INTERTANKO Anchoring Guidelines v3"
+  ]
+ },
+ {
+  "id": "3.2.8",
+  "title": "Behavioural Competency Assessment Programme",
+  "plain": "Does the company run a competency assessment programme covering navigation, cargo, mooring and engineering, using approved assessors?",
+  "why": "Assessing how people actually behave and perform on the job reveals gaps that certificates alone cannot.",
+  "who": {
+   "lead": [
+    "master",
+    "ce"
+   ],
+   "also": [
+    "co",
+    "2o",
+    "2e"
+   ]
+  },
+  "checks": [
+   "That the programme covers navigation, cargo, mooring and engineering operations",
+   "Who the company counts as an approved assessor and what training they need",
+   "Training evidence of any approved assessor onboard",
+   "Assessment history of onboard staff since joining the company or the programme start"
+  ],
+  "ready": [
+   "Behavioural Competency Assessment and Verification programme guide",
+   "Qualifications of any approved assessors onboard",
+   "Summary of competency assessments for each person in the programme",
+   "Sample assessments for cargo, navigation, mooring and engineering"
+  ],
+  "traps": [
+   "No working programme onboard",
+   "Programme does not cover all four areas",
+   "Onboard assessors without the company assessor training",
+   "No summary records showing each person's assessments since joining"
+  ],
+  "say": "Our company runs a competency programme covering navigation, cargo, mooring and engineering. Approved assessors have the required training. Each person's assessment history is kept and I can show samples.",
+  "practice": [
+   {
+    "q": "How are you assessed in your job?",
+    "a": [
+     "Observation at work by an approved assessor",
+     "Records kept of results",
+     "Gaps are addressed with training"
+    ]
+   }
+  ],
+  "tip": "Make sure your own assessment records are up to date before the inspection.",
+  "refs": [
+   "OCIMF/INTERTANKO BCA guide",
+   "ISM Code 6.5",
+   "TMSA KPI 3.4.1"
+  ]
+ },
+ {
+  "id": "3.3.1",
+  "title": "Shore-based Bridge Team Management training",
+  "plain": "Have the Master and all navigation officers done a shore-based Bridge Team Management course with simulator work in the last five years?",
+  "why": "Bridge team skills are best practised in a realistic simulator, and refreshed regularly.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Course certificates for the Master and each navigation officer",
+   "That each course was completed within five years",
+   "That it is stated as in line with IMO Model Course 1.22"
+  ],
+  "ready": [
+   "Bridge Team Management certificates for the Master and all navigation officers",
+   "If a certificate does not mention IMO Model Course 1.22, proof of simulator exercises equal to it (19 hours)"
+  ],
+  "traps": [
+   "Master or any navigation officer has no proof of a suitable course in five years",
+   "Course had no simulator element equal to IMO Model Course 1.22"
+  ],
+  "say": "All navigation officers and I have current Bridge Team Management certificates, all within five years. The courses included bridge simulator exercises in line with IMO Model Course 1.22.",
+  "practice": [
+   {
+    "q": "When did you last attend a bridge team simulator course?",
+    "a": [
+     "Give the date, within five years",
+     "Show the certificate",
+     "Confirm it included simulator exercises"
+    ]
+   }
+  ],
+  "tip": "Put every officer's course certificate in one folder with dates so you can show five-year validity quickly.",
+  "refs": [
+   "IMO Model Course 1.22",
+   "ISM Code 6.5",
+   "TMSA KPI 5.4.4"
+  ]
+ },
+ {
+  "id": "3.3.2",
+  "title": "Formal ship handling training",
+  "plain": "Did the Master get formal ship handling training before promotion, or when moving to a ship type that handles very differently?",
+  "why": "Ship handling characteristics differ widely, and a Master new to them needs training to avoid manoeuvring accidents.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co"
+   ]
+  },
+  "checks": [
+   "The Master's sea service in rank, against the officer matrix",
+   "Training records if the Master has less than thirty-six months as Master",
+   "Training records if the Master moved to a very different ship type in the last twelve months",
+   "The company training matrix and its handling characteristics grouping"
+  ],
+  "ready": [
+   "Master's sea service record and discharge book",
+   "Company training matrix showing ship handling training for the Master",
+   "Company grouping of ships by handling characteristics: propellers, rudders, thrusters, size",
+   "Evidence of in-house ship handling programme or shore course, where applicable"
+  ],
+  "traps": [
+   "Time as Master in the matrix is more than thirty-six months but the real time is less",
+   "No company matrix saying when ship handling training is required",
+   "Company has not assessed handling characteristics of its ships",
+   "Master under thirty-six months with no ship handling training evidence",
+   "Master moved to a very different ship type with no training evidence"
+  ],
+  "say": "Our company matrix says when ship handling training is needed. My training records are here, whether a shore course or documented in-house training supervised onboard. My time in rank in the matrix matches my sea service record.",
+  "practice": [
+   {
+    "q": "What ship handling training did you do before taking command of this type of ship?",
+    "a": [
+     "Describe the course or supervised training",
+     "Show the record",
+     "Explain how it matched this ship's characteristics"
+    ]
+   }
+  ],
+  "tip": "If you have been Master of the same ship type in the last five years, say so, because that counts as sufficient experience.",
+  "refs": [
+   "STCW Code B-V/a",
+   "ISM Code 6.5",
+   "TMSA KPI 5.3.2"
+  ]
+ },
+ {
+  "id": "3.3.3",
+  "title": "Cargo operations shore-based simulator course",
+  "plain": "Have the Master, deck officers and cargo or gas engineer done a shore-based cargo simulator course in the last five years?",
+  "why": "Simulators let officers practise routine and emergency cargo handling without real risk.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Course certificates for the Master, each deck officer and any cargo or gas engineer",
+   "That each course was within five years, or a refresher if older",
+   "That the simulator matched the ship type: oil, chemical, LPG or LNG",
+   "That the course was at least equal to the matching IMO model course"
+  ],
+  "ready": [
+   "Cargo simulator certificates for the Master, deck officers and cargo or gas engineer",
+   "Refresher certificate plus the original full course certificate, if the course is older than five years"
+  ],
+  "traps": [
+   "Any person has no full or refresher cargo simulator course in five years",
+   "Course was for a different ship type"
+  ],
+  "say": "All deck officers, the cargo engineer and I have cargo simulator course certificates within five years. The simulator matched our ship type. Where a course was older, we have both the refresher and the original certificate.",
+  "practice": [
+   {
+    "q": "Show me your cargo simulator training certificate.",
+    "a": [
+     "Course for this ship type",
+     "Within five years",
+     "Refresher with original certificate if older"
+    ]
+   }
+  ],
+  "tip": "Check that each certificate names the right ship type, as an oil course will not count on a chemical or gas tanker.",
+  "refs": [
+   "IMO Model Course 2.06",
+   "IMO Model Course 1.37",
+   "IMO Model Course 1.35",
+   "IMO Model Course 1.36"
+  ]
+ },
+ {
+  "id": "3.3.4",
+  "title": "Engine room management simulator course",
+  "plain": "Have the Chief Engineer and all engineer officers done a shore-based engine room simulator course in the last five years?",
+  "why": "Practising routine and emergency machinery operations in a simulator builds the right responses before real trouble.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Course certificates for the Chief Engineer and each engineer officer",
+   "That each course was within five years, or a refresher if older",
+   "That the simulator matched this ship's main propulsion type"
+  ],
+  "ready": [
+   "Engine room simulator certificates for the Chief Engineer and all engineers",
+   "Refresher certificate if the course was more than five years ago"
+  ],
+  "traps": [
+   "Any engineer has no full or refresher engine room simulator course in five years",
+   "Course was for a different propulsion type"
+  ],
+  "say": "All engineers and I have engine room simulator certificates from the last five years. The simulator matched our main propulsion type. Refresher courses are in the file where the first course was older.",
+  "practice": [
+   {
+    "q": "When did you last attend an engine room simulator course?",
+    "a": [
+     "Give date, within five years",
+     "Say it matched the ship's propulsion type",
+     "Show the certificate"
+    ]
+   }
+  ],
+  "tip": "Check the propulsion type on each certificate. A slow-speed diesel course is not a steam or gas turbine course.",
+  "refs": [
+   "IMO Model Course 2.07",
+   "ISM Code 6.5",
+   "TMSA KPI 3.2.2"
+  ]
+ },
+ {
+  "id": "3.3.5",
+  "title": "Training for Dynamic Positioning (DP) personnel",
+  "plain": "Have all key people involved in DP operations got the training needed under IMO, IMCA and local rules?",
+  "why": "DP failures can cause collisions or loss of position, so everyone in the chain must be trained for their role.",
+  "who": {
+   "lead": [
+    "master",
+    "ce"
+   ],
+   "also": [
+    "2o",
+    "2e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "The company DP training matrix and each person's status against it",
+   "DP operator certificate and DP logbook for one selected operator",
+   "Refresher DP training records, onboard or shore-based",
+   "A high voltage, DP/power management or DP control system certificate for one person"
+  ],
+  "ready": [
+   "Company training matrix for each DP-related role",
+   "Populated matrix for staff onboard",
+   "DP operator certificates and DP logbooks",
+   "Refresher training records",
+   "HV, DP/power management, DP control system and position reference system certificates"
+  ],
+  "traps": [
+   "No company matrix for DP-related training and certification",
+   "No record showing each person's DP training and certificates",
+   "Required certificates missing, expired or out of date",
+   "No process for DP operator refresher training",
+   "Senior engine room watchkeeper or electronics technicians missing required HV, DP/power management or DP control system courses"
+  ],
+  "say": "Our company matrix lists the DP training needed for each role, and our record shows each person's status. DP operator certificates and logbooks are up to date. Refresher training is done as the company requires.",
+  "practice": [
+   {
+    "q": "How do you keep your DP experience recorded?",
+    "a": [
+     "DP logbook kept up to date",
+     "Certificate from an industry-recognised body",
+     "Refresher training as per company matrix"
+    ]
+   }
+  ],
+  "tip": "Check expiry dates on HV and DP maintenance courses, not just DP operator certificates.",
+  "refs": [
+   "IMCA key DP personnel guidelines",
+   "MSC.1/Circ.738/Rev.2",
+   "STCW Code",
+   "ISM Code 6.2"
+  ]
+ },
+ {
+  "id": "3.3.6",
+  "title": "LNG or low-flashpoint fuel training and familiarisation",
+  "plain": "Did Master, officers and ratings get the right training and ship-specific familiarisation before handling LNG or other low-flashpoint fuel?",
+  "why": "Gas fuel is hazardous, so the people handling it must be properly trained before starting duties.",
+  "who": {
+   "lead": [
+    "ce",
+    "master"
+   ],
+   "also": [
+    "2e",
+    "3e",
+    "co"
+   ]
+  },
+  "checks": [
+   "The company procedure or training matrix for Basic and Advanced IGF training",
+   "A Basic certificate for one engine room rating",
+   "Two Advanced certificates from the Master, Chief Engineer and engineers",
+   "Ship-specific familiarisation records for the fuel system"
+  ],
+  "ready": [
+   "Company procedure or matrix for IGF training",
+   "Basic and Advanced IGF certificates of proficiency",
+   "On existing ships, flag state certification instead",
+   "Familiarisation records for the LNG or low-flashpoint fuel system"
+  ],
+  "traps": [
+   "No company procedure defining Basic and Advanced IGF training",
+   "Crew with fuel duties not familiarised with the fitted systems before starting",
+   "Crew with safety duties without Basic training",
+   "Master, engineer officer or person with immediate responsibility without Advanced training",
+   "On existing ships, training not as the flag state requires"
+  ],
+  "say": "Our company matrix says who needs Basic or Advanced IGF training. Everyone with fuel duties holds the right certificate and had ship-specific familiarisation before starting. Records are kept and available.",
+  "practice": [
+   {
+    "q": "Who needs Advanced training for gas fuel?",
+    "a": [
+     "Master and engineer officers",
+     "Anyone with immediate responsibility for fuel and fuel systems",
+     "Basic training for those with safety duties"
+    ]
+   }
+  ],
+  "tip": "Confirm that every new joiner has familiarisation recorded before their first duty on the fuel system.",
+  "refs": [
+   "IGF Code",
+   "STCW Reg V/3",
+   "STCW Code A-V/3",
+   "ISM Code 6.2"
+  ]
+ },
+ {
+  "id": "3.4.1",
+  "title": "Hours of rest, records and monitoring",
+  "plain": "Is there an effective system to record and monitor hours of rest for everyone, as STCW, MLC or rules require?",
+  "why": "Tired crew make mistakes, so rest must be recorded honestly and non-compliance acted on.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "ce",
+    "2o",
+    "2e"
+   ]
+  },
+  "checks": [
+   "The company procedure for managing and recording rest hours",
+   "That the record format is the IMO/ILO style, showing 24-hour and 7-day compliance",
+   "Rest records compared with logbooks for a recent operation of up to three days",
+   "Monthly non-conformance reports sent to shore and the shore reply"
+  ],
+  "ready": [
+   "Company hours of rest procedure",
+   "Signed rest records for the last three months, approved by the Master or delegate",
+   "Monthly non-conformance summaries for three months",
+   "Shore communication about significant non-conformance",
+   "Logbooks for the same three months"
+  ],
+  "traps": [
+   "No company procedure for managing and recording rest",
+   "Officer unfamiliar with the procedure or the monitoring process",
+   "Records not in the ILO/MLC format showing compliance in 24-hour and 7-day periods",
+   "Signed and approved records missing for some crew; records that do not match what really happened",
+   "No conformance calculations; no monthly report to shore",
+   "Shore did not acknowledge significant non-conformance (three or more days in 30 for any person)"
+  ],
+  "say": "Our company procedure defines how rest hours are recorded. Everyone records honestly, including work outside normal hours, and I approve the records. We send non-conformance reports to shore monthly and act on any shore response.",
+  "practice": [
+   {
+    "q": "What are the minimum rest hours?",
+    "a": [
+     "At least 10 hours in any 24 hours",
+     "At least 77 hours in any 7 days",
+     "Rest in no more than two periods, one at least 6 hours, with no gap over 14 hours between rests"
+    ]
+   },
+   {
+    "q": "What do you do when rest hours are not met?",
+    "a": [
+     "Record the non-conformance with notes on why",
+     "Report to shore at least monthly",
+     "Shore acknowledges and responds where significant"
+    ]
+   }
+  ],
+  "tip": "Compare rest records with the log for a busy day like bunkering or a strait transit before the inspector does.",
+  "refs": [
+   "STCW Code A-VIII/1",
+   "MSC.1/Circ.1598",
+   "IMO/ILO hours of rest guidelines",
+   "ISM Code 1.2.3"
+  ]
+ },
+ {
+  "id": "3.4.2",
+  "title": "Drug and alcohol abuse prevention",
+  "plain": "Does everyone know the drug and alcohol policy, and was unannounced testing done as the policy says?",
+  "why": "Nobody should navigate a ship or run its equipment while impaired.",
+  "who": {
+   "lead": [
+    "master"
+   ],
+   "also": [
+    "co",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The company drug and alcohol policy and procedures, posted onboard",
+   "Alcohol issue records, if alcohol is allowed onboard",
+   "The breath testing device, its training, calibration and consumables",
+   "Records of unannounced alcohol tests: instruction, results, completion message",
+   "Records of unannounced drug screening and kit stock, if required"
+  ],
+  "ready": [
+   "Company policy and procedures, displayed in suitable places",
+   "Alcohol issue records for crew and visitors",
+   "Breath test device with calibration or test records and enough consumables",
+   "Unannounced alcohol test records with results",
+   "Drug screening records and chain of custody, and sample kit inventory if required",
+   "Post-incident test records where policy requires them"
+  ],
+  "traps": [
+   "No policy or procedures, or policy not displayed; officer unfamiliar with the policy or the breath tester",
+   "No breath tester, or it is defective or out of date for calibration; not enough consumables until next resupply",
+   "Alcohol issued or recorded wrongly, or issue over the daily allowance",
+   "Unannounced alcohol tests not at the set frequency, or over six months apart",
+   "Not everyone onboard tested, or not within the required time; drug screening not done on all persons, or over twelve months apart",
+   "Not enough drug screening kits when the procedure requires them; no post-incident tests where the policy requires them"
+  ],
+  "say": "Our policy is posted and everyone knows it. The breath tester is calibrated and our trained officers test everyone when the company sends an unannounced instruction, and we confirm back to the office. Drug screening and kit stock follow company procedure.",
+  "practice": [
+   {
+    "q": "What is the limit and how long before duty can you drink?",
+    "a": [
+     "State the company abstinence period",
+     "Mention the STCW limit of 0.05% BAC or 0.25 mg/l breath",
+     "Follow the stricter of company or local rules"
+    ]
+   },
+   {
+    "q": "How do you do an unannounced alcohol test?",
+    "a": [
+     "Follow the company instruction on receipt",
+     "Test every person onboard and record values",
+     "Send confirmation to the company"
+    ]
+   }
+  ],
+  "tip": "Check the consumables stock, calibration date and your own competence on the breath tester before the inspection.",
+  "refs": [
+   "OCIMF Drugs and Alcohol Guidelines 1995",
+   "STCW Code A-VIII/1",
+   "STCW Code B-VIII/1",
+   "ISM Code 6.4"
+  ]
+ },
+ {
+  "id": "3.5.1",
+  "title": "Familiarisation of crew, visitors and contractors",
+  "plain": "Is there an effective familiarisation programme for everyone onboard, including visitors and contractors, with records?",
+  "why": "New people who do not know the ship, its equipment or emergency duties are a safety risk from the first day.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "2e"
+   ]
+  },
+  "checks": [
+   "The company familiarisation procedure for each role, visitors and contractors",
+   "Records for a random deck officer, engineer, specialist officer, rating, contractor or visitor, and someone promoted or changed role",
+   "That safety training was done before sailing and equipment training in the first two weeks",
+   "That familiarisation was completed before starting duties or work"
+  ],
+  "ready": [
+   "Company familiarisation procedure; checklists and records for each person",
+   "Safety training before sailing, and LSA, FFA and survival craft training within two weeks of joining",
+   "Navigation equipment familiarisation for deck officers before their watch",
+   "Cargo, ballast and mooring familiarisation before a cargo watch",
+   "Machinery familiarisation for engineers before scheduled duties",
+   "Contractor familiarisation before any work"
+  ],
+  "traps": [
+   "No procedure for crew, contractors and visitors",
+   "Officer unfamiliar with the process; records missing for any sampled person",
+   "Contractors worked onboard with no familiarisation record before starting",
+   "Familiarisation late or not done before first duty on equipment",
+   "Programme does not cover key safety, environment, navigation, cargo, mooring and machinery equipment",
+   "Person shows poor knowledge of their equipment during the inspection"
+  ],
+  "say": "Our procedure sets what each role, contractor and visitor must be familiarised with, who delivers it and by when. Checklists are signed and filed for each person. Nobody takes a watch or starts work before the relevant familiarisation is done.",
+  "practice": [
+   {
+    "q": "What familiarisation did you receive when you joined?",
+    "a": [
+     "Safety and emergency duties before sailing",
+     "LSA and FFA training within two weeks",
+     "Equipment and role-specific items before your first duty"
+    ]
+   },
+   {
+    "q": "What happens when a contractor comes onboard?",
+    "a": [
+     "Familiarisation before any work starts",
+     "Record it",
+     "Follow company procedure for exceptions"
+    ]
+   }
+  ],
+  "tip": "Be able to find any one person's familiarisation checklist in under a minute.",
+  "refs": [
+   "ISM Code 6.3",
+   "MCA Code of Safe Working Practices ch 2",
+   "TMSA KPI 3.1.4"
+  ]
+ },
+ {
+  "id": "3.5.2",
+  "title": "Training and instruction in LSA and FFA",
+  "plain": "Do crew know the lifesaving and firefighting equipment, with ongoing onboard training to keep it fresh?",
+  "why": "Many survival craft accidents come from poor familiarity with the equipment fitted.",
+  "who": {
+   "lead": [
+    "3o",
+    "master"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The company procedure for ongoing LSA and FFA training and records",
+   "That all LSA, survival craft equipment and FFA, including fixed systems, are in the programme",
+   "Training manuals in the working language in messrooms, recreation rooms or cabins",
+   "Training records: within two weeks of joining, then at least every two months",
+   "Davit-launched liferaft training within four months, if fitted; an officer or rating asked to explain a nearby LSA or FFA item"
+  ],
+  "ready": [
+   "Fire training manual, fire safety operational booklet and lifesaving training manual, updated",
+   "Company procedure for training and instruction",
+   "List of all LSA and FFA covered by the programme",
+   "Records of training for each crew member",
+   "Davit-launched liferaft training instructions and records, including training liferaft use if carried"
+  ],
+  "traps": [
+   "No procedure for ongoing training and recording",
+   "Manuals not in the working language, missing from messrooms, or out of date",
+   "Records do not cover all LSA and FFA; no way to track each person's training against the SOLAS timings",
+   "Training not done for all crew within the timings; davit-launched liferaft training over four months ago",
+   "No instructions for a training liferaft, or it is not clearly marked",
+   "Officer or rating unable to explain an item of LSA or FFA"
+  ],
+  "say": "Our procedure covers every item of LSA and FFA, and we train and record each person within two weeks of joining and at least every two months. Manuals are updated and in the working language in the messrooms. Davit-launched liferaft training is done at least every four months.",
+  "practice": [
+   {
+    "q": "How often is LSA and FFA instruction given?",
+    "a": [
+     "Within two weeks of joining",
+     "Then at intervals not over two months",
+     "Davit-launched liferafts every four months at most"
+    ]
+   },
+   {
+    "q": "Explain how this item works and its safety points.",
+    "a": [
+     "Describe operation step by step",
+     "Mention hazards and precautions",
+     "Know where the manual is"
+    ]
+   }
+  ],
+  "tip": "Use a simple grid of crew names against each LSA and FFA item with dates so gaps are obvious.",
+  "refs": [
+   "SOLAS III/19",
+   "SOLAS III/35",
+   "SOLAS II-2/15",
+   "OCIMF Survival Craft guide"
+  ]
+ }
+]

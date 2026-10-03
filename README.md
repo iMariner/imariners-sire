@@ -14,3 +14,13 @@ The study notes are iMariners material written for seafarers. They are not OCIMF
 ## Field reports
 
 `field/reports/*.json` holds one structured record per real SIRE 2.0 inspection: inspector, port, what was checked, questions asked per rank, observations, and depth scores per topic (`field/SCHEMA.md`). They come in through a Telegram bot (n8n with DeepSeek, using `field/extract_prompt.txt`) and are approved by hand before being committed. On every push to `field/reports/`, the GitHub Action rebuilds `field-data.json`, which the page loads.
+
+## Automation (no laptop needed)
+
+| Part | Runs on | File |
+|---|---|---|
+| Telegram report bot, every 5 min | GitHub Actions | `scripts/sire_bot.py`, `.github/workflows/sire-bot.yml`, setup: `field/BOT-SETUP.md` |
+| Rebuild data when cards or reports change on GitHub | GitHub Actions | `.github/workflows/rebuild.yml` |
+| Daily card improvement from new reports (pull request) | Hermes on hermes7 (VPS) | `field/HERMES-DAILY.md` |
+
+Study cards: `cards/batch01..10.json` (edit there). `scripts/build_data.py` builds `sire-data.json` from them.

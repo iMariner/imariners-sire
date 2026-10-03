@@ -1,0 +1,3907 @@
+[
+ {
+  "id": "10.3.1",
+  "title": "Switchboard deck insulation",
+  "plain": "Is there good insulating matting in front of and behind the switchboards, with a voltage rating you can prove?",
+  "why": "Wet, hot engine rooms make electric shock much more dangerous, so the floor around a switchboard must protect the person standing there.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "eto",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Matting at the front and rear of each switchboard",
+   "Matting complete, with no cuts, holes or gaps",
+   "Voltage rating suits the switchboard voltage",
+   "Marking or paper proof of the safe working voltage"
+  ],
+  "ready": [
+   "Matting certificate or rating mark that can be read",
+   "Drawings showing composite insulating deck, if you have no mats",
+   "Matting laid flat, clean and dry",
+   "Spare matting or a repair plan for damaged pieces"
+  ],
+  "traps": [
+   "No matting at the front or the rear",
+   "Matting torn, cracked or missing a section",
+   "Rating too low for a high voltage board",
+   "No mark or paper showing the rating",
+   "Mat curling up and creating a trip hazard"
+  ],
+  "say": "Both the front and rear of every switchboard have insulating matting, and we inspect it during our safety rounds. The rating is marked on the mat and we hold the certificate. Where a deck is composite insulating material, the drawings show the extent and the safe voltage.",
+  "practice": [
+   {
+    "q": "What voltage is this matting rated for?",
+    "a": [
+     "Name the class or voltage from the mark or certificate",
+     "Say it suits the switchboard voltage",
+     "Higher voltage boards need a higher class"
+    ]
+   },
+   {
+    "q": "Do the starter boxes need matting too?",
+    "a": [
+     "No, only switchboards need it, front and rear",
+     "Individual starter boxes are not counted as switchboards"
+    ]
+   }
+  ],
+  "tip": "Walk round the boards before the inspection and check every mat for cuts and curled edges. Find the rating mark now so you can show it quickly.",
+  "refs": [
+   "SOLAS II-1/45",
+   "ISM Code 10",
+   "MCA Code of Safe Working Practices"
+  ]
+ },
+ {
+  "id": "10.3.2",
+  "title": "Switchboard earth monitoring",
+  "plain": "Do engineers know how the insulation monitors work and their settings, and are the boards free of significant earth faults?",
+  "why": "A single earth fault is invisible but a second one trips the system, and low insulation can also give someone a shock.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "ce",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Insulation monitor on each primary and secondary distribution board",
+   "Readings on the monitors",
+   "Alarm set point against company procedure",
+   "Test button operated to show it is working",
+   "Understanding of earth lamps if that is all you have"
+  ],
+  "ready": [
+   "Company procedure giving IMD set values for each voltage",
+   "Insulation readings near as high as possible, not below 5 megohms on 440 V",
+   "Not below 2 megohms on 220 V",
+   "Record of earth faults found and fixed",
+   "Working test device on each monitor"
+  ],
+  "traps": [
+   "No procedure with IMD settings for each voltage",
+   "Officer cannot show the alarm set point",
+   "Alarm setting changed to stop it sounding",
+   "440 V board reading under 5 megohms",
+   "220 V board reading under 2 megohms",
+   "Monitor not working or defective",
+   "A consumer such as a deepwell pump causing a constant earth fault"
+  ],
+  "say": "Our procedure gives the alarm setting for each voltage level, and I can show you the set point on this monitor. We test it with the test button and we investigate any low reading until it is back as close to infinity as possible. We do not accept a standing earth fault, even if a machine is known to cause it.",
+  "practice": [
+   {
+    "q": "What is the minimum you accept on the 440 V board?",
+    "a": [
+     "Aim for as near infinity as possible",
+     "Not less than 5 megohms",
+     "220 V system: not less than 2 megohms"
+    ]
+   },
+   {
+    "q": "Why does a single earth fault matter?",
+    "a": [
+     "Insulated neutral system keeps running on one fault",
+     "A second fault makes a short circuit and trips the system",
+     "Find and fix the first one early"
+    ]
+   }
+  ],
+  "tip": "Check the readings on every board during your rounds. If a known pump causes a fault, fix it and do not call it normal.",
+  "refs": [
+   "SOLAS II-1/45",
+   "ICS Engine Room Procedures Guide",
+   "ISM Code 10",
+   "MCA Code of Safe Working Practices"
+  ]
+ },
+ {
+  "id": "10.3.3",
+  "title": "Entering the machinery space during UMS",
+  "plain": "Do engineers and bridge officers know the company rules for entering an unattended engine room, including the dead man alarm?",
+  "why": "A person alone in an unattended engine room who collapses may not be found in time.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for safe entry during UMS",
+   "Safe entry notice at the engine room entrance",
+   "Dead man alarm test records, if fitted",
+   "Engine room and bridge log entries of recent entries",
+   "Alarm start and activation time, if safe to try"
+  ],
+  "ready": [
+   "Entry rules posted at the normal engine room entrance",
+   "Dead man alarm test records with results",
+   "Engine and bridge log books showing UMS status and entries",
+   "Officers who can explain the procedure",
+   "Bridge officer who knows the entry rules"
+  ],
+  "traps": [
+   "Nobody informs the bridge before entering alone",
+   "No regular contact with the bridge when there is no dead man alarm",
+   "A rating sent alone to the engine room while unattended",
+   "Dead man alarm not tested or tests not recorded",
+   "Alarm takes longer than company procedure or over 30 minutes",
+   "Entry rules not posted at the entrance",
+   "Dead man alarm defective"
+  ],
+  "say": "Before anyone enters the unattended engine room we inform the bridge, say how long we will stay, and start the dead man alarm. Without that alarm we call the bridge at fixed short intervals. We test the alarm regularly and record the result, and no rating goes in alone.",
+  "practice": [
+   {
+    "q": "What do you do when you enter the engine room alone at night?",
+    "a": [
+     "Inform the bridge on entering and leaving",
+     "Say how long you will stay",
+     "Start the dead man alarm if fitted, or call the bridge at agreed intervals"
+    ]
+   },
+   {
+    "q": "Is the dead man alarm required by SOLAS?",
+    "a": [
+     "No, it is not a SOLAS requirement",
+     "If fitted, it must be used, tested and recorded under our procedure"
+    ]
+   }
+  ],
+  "tip": "Test the dead man alarm on a set day and time the delay with a stopwatch. Know that number because the inspector may ask you to start it.",
+  "refs": [
+   "ICS Engine Room Procedures Guide",
+   "IMO A.1021(26)",
+   "SOLAS II-1/51",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.3.4",
+  "title": "Engineers' alarm",
+  "plain": "Do engineers know how the engineers' alarm works, and is it in good order and tested regularly with records?",
+  "why": "In an engine room emergency, the engineers' alarm is how help is called from the accommodation.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation and testing",
+   "Test records for the alarm",
+   "Officer can point out the alarm activation points",
+   "Alarm works from the control room or manoeuvring platform"
+  ],
+  "ready": [
+   "Procedure with a description of how it works",
+   "Regular test records",
+   "Known list of activation points in the engine room",
+   "Alarm audible in the engineers' accommodation",
+   "Engineers who know where to assemble when it sounds"
+  ],
+  "traps": [
+   "No company procedure for operating and testing it",
+   "Officer does not know the procedure",
+   "Officer cannot find the activation points",
+   "No test records or tests missed",
+   "Alarm defective in any way"
+  ],
+  "say": "Our procedure describes how the engineers' alarm works and how often we test it, and we record each test. I can show you the activation points in the engine room. On a UMS ship it also sounds if a machinery alarm is not acknowledged within a set time, and it may be linked to the dead man alarm.",
+  "practice": [
+   {
+    "q": "Where can you operate the engineers' alarm from?",
+    "a": [
+     "Engine control room",
+     "Manoeuvring platform as appropriate",
+     "Show the activation points in the machinery space"
+    ]
+   },
+   {
+    "q": "When does it sound automatically on a UMS ship?",
+    "a": [
+     "If a machinery alarm is not acknowledged within a set time",
+     "That time is not more than 5 minutes",
+     "It may also sound if the dead man alarm is not reset"
+    ]
+   }
+  ],
+  "tip": "Learn the activation point locations by walking them in order. Keep test records in one place so you can show them at once.",
+  "refs": [
+   "SOLAS II-1/38",
+   "SOLAS II-1/51",
+   "IMO A.1021(26)",
+   "ICS Engine Room Procedures Guide"
+  ]
+ },
+ {
+  "id": "10.3.5",
+  "title": "Machinery alarm",
+  "plain": "Do engineers and bridge officers know how the machinery alarm works, and is it in good order and tested regularly with records?",
+  "why": "On a UMS ship the machinery alarm is the early warning that something in the engine room needs action.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation and testing",
+   "Test records for the machinery alarm",
+   "Engine room panel and bridge panel functions",
+   "Alarms heard and seen in the engine room, bridge, public rooms and cabins",
+   "Test of the alarm if the terminal allows"
+  ],
+  "ready": [
+   "Procedure with operation description and test requirements",
+   "Regular test records",
+   "Working audible and visual alarms in all required places",
+   "Bridge officers who know the panel functions",
+   "Alarm printer and system showing the correct time and date"
+  ],
+  "traps": [
+   "No company procedure for operation and testing",
+   "Officer unfamiliar with the procedure",
+   "Engineer or bridge officer does not know the panel functions",
+   "No test records or tests overdue",
+   "Engine room buzzer not working",
+   "Bridge, public room or cabin alarm not fully working",
+   "Machinery alarm defective in any way"
+  ],
+  "say": "The machinery alarm gives audible and visual warning in the engine room, on the bridge, in public rooms and in the engineers' cabins. We test it as our procedure says and record the result. Every alarm is acknowledged and acted on, and any inhibited alarm follows our SMS.",
+  "practice": [
+   {
+    "q": "What do you do with an alarm you cannot clear?",
+    "a": [
+     "Acknowledge and act on all alarms",
+     "Report it to the Chief Engineer",
+     "Any inhibit follows the SMS and the cause is fixed soon"
+    ]
+   },
+   {
+    "q": "How often do you test bilge high level alarms?",
+    "a": [
+     "At least once every watch",
+     "Also as part of pre-UMS checks",
+     "Other alarms follow the PMS"
+    ]
+   }
+  ],
+  "tip": "Brief the OOW on what each lamp and buzzer on the bridge panel means. Check the printer clock at the start of every watch.",
+  "refs": [
+   "SOLAS II-1/51",
+   "IMO A.1021(26)",
+   "ICS Engine Room Procedures Guide",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.3.6",
+  "title": "Watertight doors",
+  "plain": "Do officers know the rules for operating, inspecting and testing watertight doors, and are the doors in good condition?",
+  "why": "Watertight doors limit flooding and fire spread, and wrongly operated doors have killed people.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, inspection and testing",
+   "Test and inspection records",
+   "Bridge indicator and control panel",
+   "Local and remote operation shown on a sliding door",
+   "A rating describes local operation"
+  ],
+  "ready": [
+   "Procedure and test records, with tests at every fire drill",
+   "Bridge panel showing open and closed correctly",
+   "Instructions for use posted at each door",
+   "Rubber gaskets in good order, no hydraulic leaks",
+   "Doors normally closed at sea marked not to be left open"
+  ],
+  "traps": [
+   "No company procedure",
+   "Rating cannot describe or show local operation",
+   "Gasket damaged, poor or missing",
+   "Hydraulic oil leaking from the door mechanism",
+   "Door will not close from the bridge, or local alarm and light fail",
+   "Manual or emergency operation does not work",
+   "No posted instructions at the door",
+   "Doors left in emergency close mode on the bridge",
+   "Bridge shows closed but the door is open, or the reverse",
+   "Not tested at every fire drill"
+  ],
+  "say": "Our procedure covers operation, inspection and testing, and we test the doors at every fire drill. Remote closing from the bridge gives the local alarm and light, and we can work each door by hand from both sides. Instructions are posted at the doors and the bridge panel is not left in emergency close mode.",
+  "practice": [
+   {
+    "q": "How often do you test the watertight doors?",
+    "a": [
+     "At least at every fire drill",
+     "Records kept",
+     "Do not leave bridge panel in emergency close"
+    ]
+   },
+   {
+    "q": "How do you open this door if power fails?",
+    "a": [
+     "Use the hand operation at the door",
+     "It works from both sides",
+     "Instructions are posted beside the door"
+    ]
+   }
+  ],
+  "tip": "Brief the ratings on local operation and never cross a moving door. Check the bridge panel against the actual state of each door during the test.",
+  "refs": [
+   "SOLAS II-1/13-1",
+   "SOLAS III/19",
+   "ISM Code 10",
+   "ICS Engine Room Procedures Guide"
+  ]
+ },
+ {
+  "id": "10.3.7",
+  "title": "Gas welding and cutting equipment",
+  "plain": "Is the gas cutting kit in good order, with oxygen and acetylene cylinders stored apart, ventilated and outside accommodation and engine room?",
+  "why": "Oxygen and acetylene are a fire and explosion risk if cylinders, hoses or fittings are wrong.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Cylinder storage location",
+   "Distribution piping and manifolds",
+   "Hoses, torches, regulators and flashback arrestors",
+   "Records of inspection and replacement of arrestors and regulators",
+   "PPE for cutting and welding"
+  ],
+  "ready": [
+   "Oxygen and acetylene stored in separate compartments",
+   "Cylinders upright, secured for quick release, caps on",
+   "Annual inspection of arrestors and regulators recorded",
+   "Replacement 5 years from manufacture or per maker",
+   "Hoses in good condition: red acetylene, blue oxygen",
+   "Clean PPE free of oil and grease"
+  ],
+  "traps": [
+   "Oxygen and acetylene stored together",
+   "Cylinder valve end down",
+   "Cylinders not secured, or not easy to release in a fire",
+   "Empty cylinders mixed with full ones",
+   "Storage poorly ventilated, hot, salty, or with ignition sources",
+   "No No Smoking sign",
+   "Cylinder valves or fittings with oil, grease or paint",
+   "Valve left open after work",
+   "No flashback arrestors or non-return valves",
+   "Bolted flanges or rubber hose in fixed piping",
+   "Propane used",
+   "Leaking hose repaired instead of cropped or replaced",
+   "No record of arrestor and regulator checks"
+  ],
+  "say": "Oxygen and acetylene are stored in separate, ventilated spaces outside the accommodation and engine room, upright and secured for quick release. We close the valves after work and keep the hoses out of the weather. Arrestors and regulators are inspected annually and replaced on schedule, with records.",
+  "practice": [
+   {
+    "q": "Where do you keep spare cylinders?",
+    "a": [
+     "Separate compartments for oxygen and acetylene",
+     "Ventilated, away from heat and traffic, outside accommodation and engine room",
+     "Upright, secured, valve caps on"
+    ]
+   },
+   {
+    "q": "What safety devices must be on the hoses?",
+    "a": [
+     "Non-return valves next to the torch",
+     "Flashback arrestors at the low pressure side of regulators",
+     "Both ends for long hoses"
+    ]
+   }
+  ],
+  "tip": "Check cylinder labels, not just colours, and note manufacture dates on arrestors and regulators.",
+  "refs": [
+   "MCA Code of Safe Working Practices",
+   "BCGA CoP 7",
+   "BCGA TIS 29",
+   "46 CFR 56.50-103"
+  ]
+ },
+ {
+  "id": "10.3.8",
+  "title": "Electric welding equipment",
+  "plain": "Do engineers and ratings know the electric welding safety rules, are they posted, and is the equipment in good condition?",
+  "why": "Electric welding can cause shock, burns and fire, and wrong earthing can put current through the ship's structure.",
+  "who": {
+   "lead": [
+    "2e",
+    "3e"
+   ],
+   "also": [
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Welding set, nameplate, cables and electrode holder",
+   "Local switching to cut current quickly",
+   "Safety precautions posted in the workshop",
+   "Officer and a fitter or rating asked about the precautions",
+   "Spare electrodes and screens"
+  ],
+  "ready": [
+   "Safety precautions posted in the workshop",
+   "Nameplate showing output: DC not over 70 V, AC not over 25 V",
+   "Cables undamaged and not spliced",
+   "Earth return cable long enough, clamp near the work",
+   "Electrode holder fully insulated, electrodes kept dry",
+   "Clean, dry PPE and welding screens"
+  ],
+  "traps": [
+   "Officer or rating does not know the precautions",
+   "Precautions not posted",
+   "Ship's structure used as the earth return",
+   "Earth clamp not near the work, or return cable too short",
+   "Cable worn, damaged or spliced",
+   "DC output over 70 V or AC output over 25 V",
+   "No quick cut-off switch",
+   "Electrode left in the holder",
+   "Holder not fully insulated",
+   "Spare electrodes damp",
+   "PPE missing or oily"
+  ],
+  "say": "The precautions are posted in the workshop and everyone doing welding has been briefed. We check cables and holder before each use, and the earth clamp goes next to the work with a return cable back to the machine. The set voltage is on the nameplate and we never use the hull as the return.",
+  "practice": [
+   {
+    "q": "What is the maximum output voltage?",
+    "a": [
+     "DC from rectifiers and inverters: 70 V",
+     "AC from transformers: 25 V",
+     "Shown on the nameplate"
+    ]
+   },
+   {
+    "q": "How do you earth the welding set?",
+    "a": [
+     "Clamp next to the work site",
+     "Return cable goes directly back to the machine",
+     "Never use the ship's structure as return"
+    ]
+   }
+  ],
+  "tip": "Take the electrode out of the holder every time you stop. Keep spare electrodes in a dry container.",
+  "refs": [
+   "ISGOTT 6 chapter 9.5",
+   "MCA Code of Safe Working Practices",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.4.1",
+  "title": "Planned maintenance system (PMS)",
+  "plain": "Do staff know how to use the planned maintenance system, and does it show accurate maintenance and spare parts records?",
+  "why": "Equipment that is not maintained on time, or spares that are missing, can fail when you need them most.",
+  "who": {
+   "lead": [
+    "ce",
+    "co"
+   ],
+   "also": [
+    "2e",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company PMS procedure",
+   "Overdue and deferred tasks in the system",
+   "Critical equipment spares against minimum stock",
+   "One spare part found in the store with the right box and stock",
+   "A deck officer and a junior engineer show how they record a task"
+  ],
+  "ready": [
+   "PMS procedure and operating instructions",
+   "Overdue tasks cleared, or approved by shore",
+   "Deferrals with documented shore approval",
+   "Critical equipment and minimum spare stock marked",
+   "Defects linked between defect list and PMS tasks",
+   "Spare locations and counts matching the system"
+  ],
+  "traps": [
+   "No company procedure for the PMS",
+   "Responsible officer does not know the system or procedure",
+   "Junior officer cannot show how to record a task",
+   "Defect not moved between the PMS and defect list",
+   "Task overdue past its date or grace period without shore approval",
+   "Equipment needed for safe operation not in the PMS",
+   "Deferrals without shore approval",
+   "Critical spares not tagged with minimum stock",
+   "Stock below minimum",
+   "Spare not in the store place or count wrong"
+  ],
+  "say": "Our SMS says what is in the PMS, who is responsible and what grace period applies. Overdue and deferred jobs have shore approval. Critical spares have minimum stocks and I can show you any part in the store matching the system.",
+  "practice": [
+   {
+    "q": "What if a task cannot be done by its due date?",
+    "a": [
+     "Follow the grace period in the procedure",
+     "Ask shore management to approve a deferral",
+     "Record the approval"
+    ]
+   },
+   {
+    "q": "Show me the record of a task you did.",
+    "a": [
+     "Find the task in the PMS",
+     "Show completion date and notes",
+     "Explain the equipment it covers"
+    ]
+   }
+  ],
+  "tip": "Before the inspection, filter for overdue and deferred jobs and check the approvals. Count a few critical spares yourself.",
+  "refs": [
+   "ISM Code 10",
+   "IACS Guide to managing maintenance",
+   "OCIMF Safety Critical Equipment and Spare Parts Guidance"
+  ]
+ },
+ {
+  "id": "10.4.2",
+  "title": "Lube oil and hydraulic oil analysis",
+  "plain": "Is the ship enrolled in an oil analysis programme, and is there a procedure to act on the results and trends?",
+  "why": "Oil analysis shows wear and contamination early, so damage can be stopped before machinery fails.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e"
+   ]
+  },
+  "checks": [
+   "The oil analysis programme and which oils are covered",
+   "Reports for the previous two cycles",
+   "Whether each oil was sampled on time",
+   "Red or amber results and the follow-up",
+   "Maintenance records showing the advice was done"
+  ],
+  "ready": [
+   "Programme listing every oil and its frequency",
+   "Analysis reports for the last two cycles",
+   "Shore or lab recommendations for red or amber results",
+   "Records showing the fix was carried out",
+   "Procedure for acting on a bad result"
+  ],
+  "traps": [
+   "No routine sampling programme",
+   "Officer does not know the company procedure",
+   "An oil not landed for analysis on schedule",
+   "A critical (red) result in the last two cycles",
+   "No evidence recommended action was taken"
+  ],
+  "say": "We follow the oil analysis programme and land the samples on time for every oil it lists. When a report shows amber or red, we get advice from the lab or the office and we act on it. The records show what was done to bring the oil back.",
+  "practice": [
+   {
+    "q": "What did you do about this amber result?",
+    "a": [
+     "Show the lab or office advice",
+     "Show the maintenance record of the action",
+     "Explain how you checked it afterwards"
+    ]
+   },
+   {
+    "q": "Which oils are in the programme?",
+    "a": [
+     "Name the ones declared, such as stern tube and main engine sump oil",
+     "State the sampling frequency for each"
+    ]
+   }
+  ],
+  "tip": "Keep red and amber reports with the follow-up actions stapled together. Plan sample landing at the next convenient port.",
+  "refs": [
+   "IACS UR Z21",
+   "IACS Rec 36",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "10.5.1",
+  "title": "Conventional bunkering operations",
+  "plain": "Do the people involved in bunkering know the company procedure, and do records show bunkering was planned and done as required?",
+  "why": "Bunkering spills are common, and they usually happen when the plan is weak or people are distracted.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company bunkering procedure and checklists",
+   "A recent bunker plan and its content",
+   "Signatures of understanding and approval",
+   "Records and checklists for the same operation",
+   "Ullage gas checks before, during and after",
+   "An engine room rating about their role"
+  ],
+  "ready": [
+   "Bunker plan with people and duties named",
+   "Plan signed by all involved and by Master and Chief Engineer",
+   "ISGOTT bunker checklists completed at every stage",
+   "Records that show which tank was loading at each time",
+   "Tank atmosphere checks recorded",
+   "Bunker staff with no other duties during bunkering"
+  ],
+  "traps": [
+   "No procedure requiring a bunker plan with set content",
+   "Missing checklists for any stage",
+   "No record-keeping procedure",
+   "Officer unfamiliar with planning or records",
+   "Rating does not know their duties",
+   "Atmosphere checks not taken or not recorded",
+   "Plan missing key information or personnel roles",
+   "Plan not signed by all, or not approved by Master and Chief Engineer",
+   "Records show the plan was not followed",
+   "Records too thin to rebuild the operation"
+  ],
+  "say": "Every bunkering has a written plan naming who does what, signed by all officers and approved by the Master and Chief Engineer. We use the checklists at every stage, record the tanks and gas checks, and keep the bunker team free of other tasks.",
+  "practice": [
+   {
+    "q": "What is in your bunker plan?",
+    "a": [
+     "Tank space, maximum volumes, valve settings",
+     "Loading rates for start, bulk and topping off",
+     "Communications, emergency stop and manning",
+     "Spill containment and who does what"
+    ]
+   },
+   {
+    "q": "Who signs the plan?",
+    "a": [
+     "All officers involved sign for understanding",
+     "Master and Chief Engineer sign for approval"
+    ]
+   }
+  ],
+  "tip": "Use the same plan form for every operation and file the completed checklists with it so the full story is in one place.",
+  "refs": [
+   "ISGOTT 6 chapter 24",
+   "ISM Code 7",
+   "TMSA KPI 6.2.5"
+  ]
+ },
+ {
+  "id": "10.5.2",
+  "title": "Bunker fuel sampling and analysis",
+  "plain": "Do engineers know the sampling and analysis procedure, and do records show samples were taken, kept or analysed?",
+  "why": "Bad or non-compliant fuel can damage engines and break MARPOL Annex VI rules.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e"
+   ]
+  },
+  "checks": [
+   "Company procedure for fuel samples and analysis",
+   "Bunker delivery notes for the last twelve months",
+   "Analysis reports for the last twelve months",
+   "Samples retained for each delivery",
+   "Advisory notes in reports acted on",
+   "Oil Record Book Part 1 entries"
+  ],
+  "ready": [
+   "Procedure covering sampling, retention, analysis and problems",
+   "Delivery note for every bunkering",
+   "MARPOL sample retained for each delivery",
+   "Analysis for every residual fuel delivery",
+   "Distillate analysis frequency defined",
+   "Evidence advice from reports was followed",
+   "Oil Record Book Part 1 matching bunkering"
+  ],
+  "traps": [
+   "No procedure for samples, analysis and fuel quality problems",
+   "Officer does not know the procedure",
+   "Missing delivery note for a delivery",
+   "Sample not retained",
+   "No rule to analyse every residual fuel",
+   "No guidance on distillate analysis frequency",
+   "Analysis not done as procedure or contractor requires",
+   "Report advice not followed"
+  ],
+  "say": "Each bunkering gets a delivery note and a retained representative sample, and residual fuel goes for analysis every time. If the report raises a concern or we must use fuel early, we follow our procedure and contact the office. Delivery notes and analysis reports for at least the last twelve months are on board.",
+  "practice": [
+   {
+    "q": "What do you do if analysis shows off-spec fuel?",
+    "a": [
+     "Follow the company procedure",
+     "Report to the office",
+     "Follow the advisory notes in the report"
+    ]
+   },
+   {
+    "q": "What can you show for the last bunkering?",
+    "a": [
+     "Delivery note and retained sample",
+     "Analysis report",
+     "Oil Record Book entry"
+    ]
+   }
+  ],
+  "tip": "Keep delivery notes, analysis reports and sample labels in one folder sorted by date.",
+  "refs": [
+   "MARPOL Annex VI Reg 18",
+   "MEPC.182(59)",
+   "IACS Rec 151",
+   "TMSA KPI 6.2.5"
+  ]
+ },
+ {
+  "id": "10.5.3",
+  "title": "Fuel changeover procedures",
+  "plain": "Do senior engineers know the fuel changeover procedures, and do records show changeovers followed the procedure and MARPOL?",
+  "why": "A poorly done changeover can cause a blackout or loss of propulsion, or break the sulphur rules.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company and ship-specific changeover procedures",
+   "Records of a recent changeover",
+   "Vessel position during the changeover",
+   "Log entries made for entering and leaving an ECA"
+  ],
+  "ready": [
+   "Procedures for main engines, generators and boilers",
+   "Risk assessment behind the procedure",
+   "Changeover calculator and checklist",
+   "Log with volume of low sulphur fuel, date, time and position",
+   "Defined places and conditions where changeover may happen"
+  ],
+  "traps": [
+   "No company procedure for fuel changeover",
+   "No ship-specific procedure",
+   "Officer unfamiliar with either",
+   "Records missing or inaccurate",
+   "No log entry of volume, date, time and position for ECA entry or exit",
+   "Changeover done where the company said not to",
+   "Operating in breach of MARPOL Annex VI"
+  ],
+  "say": "We have a ship-specific changeover procedure based on risk assessment, with a calculator and checklist. We do changeovers in safe waters away from traffic, and log the volumes, date, time and position when entering or leaving an ECA.",
+  "practice": [
+   {
+    "q": "What must you log for an ECA changeover?",
+    "a": [
+     "Volume of low sulphur fuel in each tank",
+     "Date, time and position",
+     "On completion before entry, and on start after exit"
+    ]
+   },
+   {
+    "q": "Where do you not change over fuel?",
+    "a": [
+     "Where risk of blackout or propulsion loss is high",
+     "Follow the company limits on location and traffic"
+    ]
+   }
+  ],
+  "tip": "Start the changeover calculation early and time it with margin before the ECA boundary.",
+  "refs": [
+   "MARPOL Annex VI Reg 14",
+   "ICS Engine Room Procedures Guide",
+   "OCIMF/INTERTANKO fuel changeover guidance",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.6.1",
+  "title": "LNG fuel tank water-spray system",
+  "plain": "Do officers know the LNG fuel tank water-spray system and how to run it, and is it inspected and maintained?",
+  "why": "The deck water spray cools the LNG fuel tank and stops a fire from spreading if something goes wrong.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Remote controls for the water-spray system and the posted instructions",
+   "Valve and control marking and settings",
+   "Piping, especially underneath, for corrosion and patching",
+   "A sample of nozzles for clogging",
+   "Isolating and stop valves turning freely",
+   "Maintenance plan and inspection records"
+  ],
+  "ready": [
+   "Operating instructions posted at the control station",
+   "Controls clear of obstruction and clearly marked",
+   "Maintenance plan that includes the water-spray system",
+   "Records of weekly, monthly, annual and five-year tasks as set out in the plan",
+   "Nozzles clean and not overpainted",
+   "Officer who can start the pumps and find the valves and drain point"
+  ],
+  "traps": [
+   "Instructions not posted at the control station",
+   "Officer does not know location, purpose or operation",
+   "Access to controls blocked",
+   "Valves or controls not marked or set correctly",
+   "Stop or isolating valves stiff or unmarked",
+   "Clogged or overpainted nozzles",
+   "Hard rust or temporary repairs on the pipework",
+   "No maintenance plan, or the system is not in it",
+   "Records incomplete or tasks recorded but not done"
+  ],
+  "say": "I can show you the remote controls, start the pumps and explain what each isolating and stop valve does. The instructions are posted here. Our maintenance plan covers flushing, cleaning filters and checking nozzles, and the records match what you can see on deck.",
+  "practice": [
+   {
+    "q": "How do you start the water-spray system?",
+    "a": [
+     "Go to the remote control position",
+     "Start the pump and open the system valves as posted",
+     "Check flow at the nozzles"
+    ]
+   },
+   {
+    "q": "Where is the drain point for the deck piping?",
+    "a": [
+     "Show the drain location on deck",
+     "Say why it is drained",
+     "Know the isolating valve positions"
+    ]
+   }
+  ],
+  "tip": "Run the system with fresh water in the planned test and look at every nozzle. Keep paint brushes away from the nozzles.",
+  "refs": [
+   "IGF Code 11.5",
+   "MSC.1/Circ.1432",
+   "ISM Code 6.3"
+  ]
+ },
+ {
+  "id": "10.6.2",
+  "title": "LNG bunkering ESD system",
+  "plain": "Do the people on LNG bunkering know the bunkering emergency shutdown functions, and are they in good order, tested and maintained?",
+  "why": "If something goes wrong during LNG transfer, the ESD must stop flow quickly and safely, and people must know how to trigger it.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "co",
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for operating, inspecting, maintaining and testing the ESD",
+   "Pre-bunkering ESD test checklist from the last bunkering",
+   "Bunker station and remote control station panels and the fuel piping diagram",
+   "Override rules",
+   "An engineer and a rating asked about ESD purpose and manual controls"
+  ],
+  "ready": [
+   "Procedure covering functions, ESD failure and ship-shore link unavailable",
+   "Completed pre-arrival ESD test checklist",
+   "Inspection, maintenance and test records",
+   "Fuel handling manual describing the ESD",
+   "Fuel system diagram at the bunker station and remote station",
+   "Override only with documented Master authority"
+  ],
+  "traps": [
+   "Officers not familiar with the bunkering ESD",
+   "Instruments or controls at the bunker station not working",
+   "No fuel system diagram posted",
+   "No fuel handling manual, or it does not describe the ESD",
+   "No record of tests before bunkering",
+   "Records incomplete or maintenance not done",
+   "Rating does not know the manual ESD location or when to use it",
+   "ESD link not available and no contingency plan",
+   "ESD overridden without Master authorisation",
+   "System defective"
+  ],
+  "say": "The ESD stops the transfer in a controlled way and the ship-shore link lets either side shut it down. We test it before every bunkering and keep the checklist. I can show the manual controls, and an override needs the Master's documented authority.",
+  "practice": [
+   {
+    "q": "What happens when the ESD is activated?",
+    "a": [
+     "Transfer stops in a controlled way",
+     "Manifold valves shut and pumps or compressors stop",
+     "Stage 2 can decouple the transfer system"
+    ]
+   },
+   {
+    "q": "What if the ESD ship-shore link is not available?",
+    "a": [
+     "Follow the contingency plan in the procedure",
+     "Do not start until the plan is satisfied"
+    ]
+   }
+  ],
+  "tip": "Walk the rating through the manual ESD points before each bunkering, not just the officers.",
+  "refs": [
+   "ISGOTT 6 chapter 24",
+   "IGF Code",
+   "IACS Rec 142",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "10.6.3",
+  "title": "LNG bunkering procedures",
+  "plain": "Do the people involved know the company LNG bunkering procedures, and do records show bunkering was planned and carried out as required?",
+  "why": "LNG is very cold and volatile, so a poor plan or missed checks can lead to leaks, fire or structural damage.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "co",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company LNG bunkering procedures and the fuel handling manual",
+   "A recent bunker transfer plan",
+   "Checklists (ISO or IAPH) used consistently",
+   "Records of tank pressures, temperatures and rates",
+   "An officer or rating about their role in the plan"
+  ],
+  "ready": [
+   "Detailed transfer plan with roles, limits, rates and emergency actions",
+   "Plan signed by all officers and approved by Master and Chief Engineer",
+   "Safety checklist signed by both persons in charge",
+   "Calculations of temperature, volume and vapour pressure",
+   "Stop and restart conditions in the plan",
+   "Pre-bunkering verification documented"
+  ],
+  "traps": [
+   "Procedure missing a required item, such as ESD description or ship side protection",
+   "No suitable checklists",
+   "Officer unfamiliar with the procedure",
+   "No suitable fuel handling manual",
+   "Person with a role does not know their duties",
+   "Plan missing key information or roles, or not fully signed",
+   "Records show the plan was not followed or are too thin",
+   "Checklists not completed, or ISO and IAPH mixed",
+   "No calculations of temperature, volume and vapour pressure",
+   "Checklist not signed by both PICs",
+   "No stop and restart conditions",
+   "Pre-bunkering verification not done and documented"
+  ],
+  "say": "Each LNG bunkering has a detailed plan with roles, limits, rates and emergency actions, signed by everyone and approved by the Master and Chief Engineer. We use one checklist set from start to finish, do the pre-bunkering verification, and record pressures, temperatures and rates.",
+  "practice": [
+   {
+    "q": "What do you verify before bunkering?",
+    "a": [
+     "All communications including ship-shore link",
+     "Fixed and portable gas detection and fire detection",
+     "Remote controlled valves",
+     "Hose and coupling condition"
+    ]
+   },
+   {
+    "q": "Can you switch between ISO and IAPH checklists?",
+    "a": [
+     "No, use one set from pre-operation to completion",
+     "Both parties and the authorities must agree to use IAPH"
+    ]
+   }
+  ],
+  "tip": "Pick the checklist set before the operation starts and keep it for the whole transfer.",
+  "refs": [
+   "ISGOTT 6 chapter 24",
+   "IGF Code",
+   "ISO 20519",
+   "TMSA KPI 6.2.5"
+  ]
+ },
+ {
+  "id": "10.6.4",
+  "title": "LNG bunkering control station and manifold",
+  "plain": "Are the safety measures at the LNG bunkering control station and manifold area in good condition?",
+  "why": "A cold LNG leak can crack the steel deck, so the manifold needs protection and the control point must work from a safe place.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "ce",
+    "master"
+   ]
+  },
+  "checks": [
+   "Bunkering control location in a safe area",
+   "Controls and instruments there",
+   "CCTV of the manifold, or a manifold watch",
+   "Protection against cold damage at the manifold",
+   "Access limits, fire signs and PPE"
+  ],
+  "ready": [
+   "Controls for the shutdown valve and water-spray valves working",
+   "Tank pressure, temperature and level indicators working",
+   "Overfill alarm, auto shutdown, ventilation and gas alarms working",
+   "Insulated drip tray with drain valve, and water curtain or deck cover",
+   "Signs restricting the area to essential staff",
+   "PPE for cryogenic hazards"
+  ],
+  "traps": [
+   "Control location not in a safe area",
+   "Remote controls or instruments not working",
+   "CCTV fitted but not working or not used",
+   "No protection of the deck against brittle fracture",
+   "No insulated drip tray where leaks may happen",
+   "Water curtain not working or not used",
+   "Manifold area not marked for essential people only",
+   "No fire safety signs at access points",
+   "People at the manifold without suitable PPE"
+  ],
+  "say": "We run the bunkering from the control station in a safe area, where the shutdown and water-spray controls and the tank readings are working. At the manifold we have an insulated drip tray, water curtain and deck protection. Only essential people go there and they wear cryogenic PPE.",
+  "practice": [
+   {
+    "q": "How is the deck protected from an LNG leak?",
+    "a": [
+     "Water curtain on the hull",
+     "Insulated drip tray with a drain valve",
+     "Cover for deck plating"
+    ]
+   },
+   {
+    "q": "What do you watch from the control station?",
+    "a": [
+     "Tank pressure, temperature and level",
+     "Overfill alarm and automatic shutdown",
+     "Gas and ventilation alarms around the lines"
+    ]
+   }
+  ],
+  "tip": "Check CCTV and the drip tray drain before each bunkering, and have the PPE laid out in advance.",
+  "refs": [
+   "IGF Code 15.5",
+   "IGF Code 18.4.6",
+   "IACS Rec 142"
+  ]
+ },
+ {
+  "id": "10.7.1",
+  "title": "Remote fuel and lube oil valve controls",
+  "plain": "Do officers know the remote fuel and lube oil valve controls, pump shut-offs and quick closing valves, and do they work?",
+  "why": "In a machinery space fire you must cut off the fuel and oil from outside the space.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "master",
+    "3e",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection, testing and maintenance",
+   "Remote controls and pump shut-offs shown on the fire control plan",
+   "Quick closing valves armed and not tied open",
+   "Marking and access to controls",
+   "Maintenance plan and records"
+  ],
+  "ready": [
+   "Procedure with frequency and method of tests",
+   "Controls clearly marked with what they control",
+   "Access to controls clear",
+   "Quick closing valves armed, not secured open",
+   "Maintenance plan listing these items",
+   "Complete test records"
+  ],
+  "traps": [
+   "No company procedure",
+   "Controls not clearly marked",
+   "Access to controls blocked",
+   "Quick closing valve not armed",
+   "Quick closing valve secured open by wire, rope or similar",
+   "Officer does not know purpose, location or operation",
+   "Plan does not include these items or all tests",
+   "Records incomplete or work recorded but not done",
+   "Any control defective"
+  ],
+  "say": "The remote controls and pump stops are outside the machinery space, marked and unobstructed, and shown on the fire control plan. The tank quick closing valves are armed and never secured open. We test them as per our maintenance plan and the records are complete.",
+  "practice": [
+   {
+    "q": "Why are the controls outside the engine room?",
+    "a": [
+     "So they are not cut off by a fire in the space",
+     "SOLAS requires it for fuel tank valves and pump stops"
+    ]
+   },
+   {
+    "q": "What is wrong if a quick closing valve is wedged open?",
+    "a": [
+     "It cannot close in a fire",
+     "It must be armed and free to close"
+    ]
+   }
+  ],
+  "tip": "Walk all the controls on the fire control plan at the interval in your maintenance plan and check the marking and the trip wires.",
+  "refs": [
+   "SOLAS II-2/4",
+   "SOLAS II-2/5",
+   "SOLAS II-2/14",
+   "MSC.1/Circ.1432"
+  ]
+ },
+ {
+  "id": "10.7.2",
+  "title": "Fire prevention in machinery spaces: hot surfaces and oil spray",
+  "plain": "Do officers know how to stop oil spraying onto hot surfaces in the engine room, and are the protections inspected and maintained?",
+  "why": "Most engine room fires start when oil meets a hot surface or other ignition source.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure and the ship-specific inspection checklist",
+   "Records of periodic inspections",
+   "Leaks, jacketed fuel lines, flexible hoses and spray shields",
+   "Insulation on hot surfaces such as exhaust and steam pipes",
+   "A fuel system leakage alarm test"
+  ],
+  "ready": [
+   "Procedure and checklist, with inspections set in the PMS",
+   "Inspection records without gaps",
+   "Spray shields on high pressure flanges and joints near hot units",
+   "Jacketed fuel line drains reconnected after maintenance",
+   "Insulation complete, dry and refitted after repairs",
+   "Indicator cocks capped with insulated covers when the engine runs"
+  ],
+  "traps": [
+   "No procedure or ship-specific checklist",
+   "Inspection records missing or incomplete",
+   "Officer cannot explain the protective measures or checks",
+   "Ongoing leaks from fuel or lube oil pipes",
+   "Damaged outer skin on fuel pump discharge lines",
+   "Flexible fuel hose damaged or in poor condition",
+   "Jacketed line drain disconnected",
+   "Fuel leakage alarm not working or not demonstrated",
+   "Spray shield missing or poor",
+   "Insulation missing, damaged or soaked in oil",
+   "Indicator cocks not capped while running"
+  ],
+  "say": "We inspect the machinery spaces on a regular PMS task using a ship-specific checklist. We look for leaks, check hoses, jacketed lines and spray shields, and make sure insulation is refitted after maintenance. I can show you the leakage alarm test.",
+  "practice": [
+   {
+    "q": "Which joints need spray shields?",
+    "a": [
+     "Flanges, bonnets and threaded joints on fuel and lube oil above 0.18 N/mm2",
+     "Those near hot surfaces or ignition sources",
+     "Shield may be insulation, tape or a cover"
+    ]
+   },
+   {
+    "q": "What do you do after maintenance on hot machinery?",
+    "a": [
+     "Check insulation is refitted correctly",
+     "Refit spray shields and jacketed line drains",
+     "Look for leaks on restart"
+    ]
+   }
+  ],
+  "tip": "Make a habit of checking oil-soaked lagging and replacing it. A wet lagging is a fire waiting to happen.",
+  "refs": [
+   "SOLAS II-2",
+   "MSC.1/Circ.1321",
+   "IACS Rec 18",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "10.7.3",
+  "title": "Main engine crankcase monitoring",
+  "plain": "Are the crankcase oil mist detectors, bearing temperature monitors or equivalent devices, and their alarms, in good order?",
+  "why": "A crankcase explosion can kill engine room staff, and these devices give the early warning.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure with alarm set points, alarm response and test frequency",
+   "Test and servicing records",
+   "Calibration records for oil mist sensors",
+   "Alarm set at no more than 5% of LEL",
+   "A test of the alarm, if safe"
+  ],
+  "ready": [
+   "Procedure and manufacturer's instructions",
+   "Test and service records",
+   "Calibration to maker's schedule",
+   "Set point at or below 5% of LEL (about 2.5 mg/l)",
+   "Officer who can test the alarm and say what to do if it sounds"
+  ],
+  "traps": [
+   "No procedure with set points, response and test frequency",
+   "Officer does not know what to do on an alarm",
+   "Officer cannot demonstrate a test",
+   "Test or servicing not done as procedure says",
+   "Sensor calibration overdue",
+   "Alarm not working",
+   "Set point above 5% of LEL",
+   "Device defective"
+  ],
+  "say": "Our procedure gives the alarm set point, the actions on alarm and the test frequency. The oil mist alarm is set at not more than 5 percent of LEL, we calibrate sensors as the maker requires, and I can test it for you.",
+  "practice": [
+   {
+    "q": "What is the maximum alarm set point?",
+    "a": [
+     "Not more than 5% of the lower explosive limit",
+     "About 2.5 mg/l of oil mist in air"
+    ]
+   },
+   {
+    "q": "What do you do if the oil mist alarm sounds?",
+    "a": [
+     "Follow the company emergency procedure",
+     "Reduce engine load and stop as instructed",
+     "Do not open the crankcase until it cools"
+    ]
+   }
+  ],
+  "tip": "Know the manufacturer's test method and keep calibration dates visible on a list.",
+  "refs": [
+   "SOLAS II-1/47",
+   "IACS UR M67",
+   "ICS Engine Room Procedures Guide",
+   "ISM Code 8.1"
+  ]
+ },
+ {
+  "id": "10.7.4",
+  "title": "Hydraulic power pack fire protection",
+  "plain": "Where hydraulic power packs are in the engine compartment, are fire protection measures fitted and in good condition?",
+  "why": "A leak from a high pressure hydraulic line can create an oil mist that explodes or ignites.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "co",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Where the power packs are located",
+   "Oil mist detector, or encapsulation with leak alarm",
+   "Dedicated space doors, sealing and separate ventilation",
+   "Test records for the detector or level alarm"
+  ],
+  "ready": [
+   "Packs over 50 kW and 100 bar in a dedicated space with separate ventilation",
+   "Oil mist detector tested to maker's advice",
+   "Encapsulation intact with working level alarm",
+   "Self-closing doors kept shut while running",
+   "Cable and pipe passes sealed with fire-retardant putty",
+   "Test records"
+  ],
+  "traps": [
+   "Large power pack not in a dedicated space with separate ventilation",
+   "In machinery space with no oil mist detector or leak detected encapsulation",
+   "Officer unfamiliar with the protection",
+   "Detector or level alarm not tested regularly",
+   "Detector or alarm defective",
+   "Encapsulation removed or damaged",
+   "Wire runs and kick pipes not sealed",
+   "Door left or tied open while running",
+   "Leaks from the power pack or pipework"
+  ],
+  "say": "Our power packs are in a dedicated space with separate ventilation, and the doors stay closed when they run. The wire and pipe passes are sealed. Where a pack is in the open machinery space, we have an oil mist detector or an encapsulated design with a level alarm, and we test it on schedule.",
+  "practice": [
+   {
+    "q": "What protects the machinery space from a hydraulic mist?",
+    "a": [
+     "Dedicated space with separate ventilation",
+     "Oil mist detector in the open machinery space",
+     "Or encapsulated pumps with a leak alarm"
+    ]
+   },
+   {
+    "q": "Why must the door stay closed?",
+    "a": [
+     "Stops oil mist reaching an ignition source next door",
+     "It need not be watertight, but must close and be kept shut"
+    ]
+   }
+  ],
+  "tip": "Check the door closer and seals during rounds. Do not wedge the door for ventilation.",
+  "refs": [
+   "MSC.1/Circ.1321",
+   "ISO 16437",
+   "OCIMF Safety Critical Equipment",
+   "ISM Code 10.3"
+  ]
+ },
+ {
+  "id": "12.1.1",
+  "title": "Polar Code training",
+  "plain": "If the ship trades in polar waters, do the Master, Chief Mate and watch officers hold the extra Polar Code training certificates?",
+  "why": "Ice and polar waters need special skills, and the wrong training can put the ship and crew at serious risk.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Polar Water Operational Manual section on manning and training",
+   "Basic training certificates for Master, Chief Mate and watch officers",
+   "Advanced training certificates for Master and Chief Mate",
+   "Ice navigator papers if someone else is used"
+  ],
+  "ready": [
+   "PWOM available onboard",
+   "Basic polar certificate for each navigating officer",
+   "Advanced polar certificate for Master and Chief Mate",
+   "Ice navigator's certificate of competency and advanced training, if used",
+   "Company ice navigator policy written down"
+  ],
+  "traps": [
+   "PWOM does not say what extra training is needed",
+   "Master or Chief Mate has no advanced certificate and is not replaced by an ice navigator",
+   "Master or Chief Mate without even basic training",
+   "Watch officer without basic training",
+   "Ice navigator without the right certificates"
+  ],
+  "say": "Our Polar Water Operational Manual sets the training required. All watch officers hold basic polar training, and the Master and Chief Mate hold advanced training. Certificates are in the file for you to review.",
+  "practice": [
+   {
+    "q": "Which certificates do you need?",
+    "a": [
+     "Watch officers: basic training",
+     "Master and Chief Mate: advanced training",
+     "Open water only: basic training is enough"
+    ]
+   },
+   {
+    "q": "What if the company uses an ice navigator?",
+    "a": [
+     "Master and Chief Mate then need basic training only",
+     "The ice navigator holds the advanced certificate",
+     "The arrangement is described in the procedure"
+    ]
+   }
+  ],
+  "tip": "Keep copies of all polar certificates with the PWOM so you can produce them in one go.",
+  "refs": [
+   "Polar Code chapter 12",
+   "STCW V/4",
+   "OCIMF PWOM guidelines",
+   "ISM Code 6.5"
+  ]
+ },
+ {
+  "id": "12.2.1",
+  "title": "Life-saving and fire-fighting equipment in sub-zero temperatures",
+  "plain": "Do officers know the company procedures to keep lifesaving and firefighting equipment working in freezing weather, and are they followed?",
+  "why": "Frozen lifeboats, fire lines or extinguishers fail when you need them in an emergency.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company winterisation procedure and checklists",
+   "Records of periodic checks during freezing weather",
+   "Lifeboat and life raft condition, engine starting and fuel",
+   "Fire and foam line drains, extinguishers and hydrants",
+   "Eye wash stations and decontamination showers"
+  ],
+  "ready": [
+   "Winterisation checklist completed",
+   "Fire and foam lines drained from the lowest point with drain valve closed",
+   "Lifeboat heaters used, anti-freeze in cooling, spray system drained",
+   "Cold start instructions in the lifeboat, with the right cold start oil",
+   "Ice mallet near survival craft",
+   "Escape routes and equipment clear of snow and ice",
+   "Monitors and hydrants covered with canvas"
+  ],
+  "traps": [
+   "No procedure or no checklist",
+   "Officer cannot find the fire or foam line drain points",
+   "Eye wash or showers not working",
+   "Insulation missing or heat tracing not working",
+   "Periodic checks not done in freezing weather",
+   "Life rafts not rated for the conditions",
+   "Lifeboat hull damage that could freeze",
+   "No cold start procedure in the lifeboat",
+   "Wrong cold start oil, wrong fuel grade, no anti-freeze",
+   "Lifeboat heaters off, doors frozen shut or spray not drained",
+   "Water or foam extinguishers left to freeze",
+   "Foam storage below zero",
+   "Equipment not ready due to ice or snow",
+   "Escape routes blocked by ice"
+  ],
+  "say": "Before reaching the cold area we used the winterisation checklist, drained the fire and foam lines and prepared the lifeboats. During the exposure we check the systems on a regular schedule and clear snow and ice from escape routes and equipment.",
+  "practice": [
+   {
+    "q": "How do you keep the fire main from freezing?",
+    "a": [
+     "Drain from the lowest point and close the drain valve",
+     "Check the drained state by opening the drain valve",
+     "Cover monitors and hydrants"
+    ]
+   },
+   {
+    "q": "What do you do for the lifeboat engine?",
+    "a": [
+     "Use the heater and the right fuel grade",
+     "Cooling system protected with anti-freeze",
+     "Follow the posted cold start procedure"
+    ]
+   }
+  ],
+  "tip": "Put the ice mallet and the cold start card where the boat crew can find them in the dark.",
+  "refs": [
+   "OCIMF Large Tankers in Ice guidance",
+   "Polar Code",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "12.3.1",
+  "title": "Engine room machinery in sub-zero temperatures",
+  "plain": "Do officers know the company procedures to keep the engine room machinery working in freezing weather, and are they followed?",
+  "why": "Frozen sea chests, fuel lines or hydraulics can cause loss of cooling or propulsion in ice.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "eto",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company winterisation procedure and checklists",
+   "Pre-entry checks of sea chests, heating systems and cooling water",
+   "While in cold: heating applied, motors running, vent flaps operated",
+   "Officer familiarity with the procedure"
+  ],
+  "ready": [
+   "Completed winterisation checklist",
+   "Draughts within the ice class limits",
+   "Sea chest strainers clean and steam heating on",
+   "Heating on fuel, bilge and lube oil tanks",
+   "Emergency generator heating and anti-freeze checked",
+   "Control air dry, air pipes free of ice",
+   "Stern tube oil water content checked"
+  ],
+  "traps": [
+   "No procedure or no checklists",
+   "Officer not familiar with the procedure",
+   "Pre-entry checks not done: strainers, heating, anti-freeze, water levels",
+   "Sea chest steam heating not kept on",
+   "Space heaters not used in steering gear, battery and emergency fire pump spaces",
+   "Emergency generator room flaps or damper not closed",
+   "Not changing from heavy fuel to diesel before stopping the main engine",
+   "Hydraulic and steering motors not kept running",
+   "Ventilation flaps not operated, freshwater tanks and pipes not watched",
+   "Any winterisation equipment defective"
+  ],
+  "say": "Before entering cold waters we work through our winterisation checklist: draughts, sea chests, tank heating, emergency generator and stern tube oil. While in the cold we keep sea chest heating on, run hydraulics, use space heaters and manage ventilation so fuel lines do not chill.",
+  "practice": [
+   {
+    "q": "How do you protect the sea chests?",
+    "a": [
+     "Clean the strainers",
+     "Keep steam heating on continuously in ice waters",
+     "Check the heating works before entering"
+    ]
+   },
+   {
+    "q": "What do you do about fuel before stopping the main engine?",
+    "a": [
+     "Change over from heavy fuel to diesel",
+     "Lines are then primed with diesel so they cannot solidify"
+    ]
+   }
+  ],
+  "tip": "Start the checklist days before you reach the cold area, not on the day.",
+  "refs": [
+   "OCIMF Large Tankers in Ice guidance",
+   "Polar Code",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "12.4.1",
+  "title": "Cargo and ballast systems in sub-zero temperatures",
+  "plain": "Do officers know the company procedures to keep cargo and ballast systems working in freezing weather, and are they followed?",
+  "why": "Frozen valves, vents or pumps can stop cargo operations or block pressure relief and cause damage.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company winterisation procedure and checklists",
+   "Records of equipment checks before, during and after cargo operations",
+   "Deck equipment covers, greasing and drains",
+   "P/V valves, P/V breaker and deck seal heating",
+   "Officer familiarity with the procedure"
+  ],
+  "ready": [
+   "Completed winterisation checklist",
+   "Hydraulic cargo and COW valves covered and moved often",
+   "Valves greased with gearboxes free of water",
+   "P/V valves, mast riser and IG valves protected, checked before cargo",
+   "P/V breaker anti-freeze at the right level",
+   "Deck seal heating working and checked",
+   "Lines, heating coils, drip trays and ballast system drained as needed"
+  ],
+  "traps": [
+   "No procedure or no winterisation checklist",
+   "Officer not familiar with the procedure",
+   "Deck lines not tested for tightness before use",
+   "Ballast water salinity not checked",
+   "Deck equipment not covered with canvas, such as P/V valves and deepwell pump motors",
+   "Valves not greased or gearboxes contain water",
+   "Deck seal heating not working",
+   "P/V breaker or stripping pump anti-freeze wrong",
+   "Lines, coils, drip trays or ballast monitor not drained",
+   "Hydraulic valves not worked often in freezing weather",
+   "Canvas covers left on ballast vents when ballasting",
+   "Records of checks missing"
+  ],
+  "say": "Before the cold area we followed our winterisation checklist: covers on deck equipment, valves greased, drains opened and anti-freeze checked. Before and during cargo we check the P/V valves, breaker and deck seal heating, and we work the hydraulic valves often so they do not freeze.",
+  "practice": [
+   {
+    "q": "How do you protect the P/V valves?",
+    "a": [
+     "Overhaul before the cold area",
+     "Canvas covers, or steam heating",
+     "Remove covers and check for ice before cargo, with drain holes clear"
+    ]
+   },
+   {
+    "q": "What do you check on the P/V breaker?",
+    "a": [
+     "Filled with the right glycol anti-freeze mix",
+     "Level checked often",
+     "Density tested and restored after the cold weather"
+    ]
+   }
+  ],
+  "tip": "Write the covers on a checklist so none are left on when you start cargo or ballast. Start hydraulic systems early.",
+  "refs": [
+   "OCIMF Large Tankers in Ice guidance",
+   "Polar Code",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "12.5.1",
+  "title": "Deck machinery and mooring in sub-zero temperatures",
+  "plain": "Do officers know the company procedures to keep deck machinery and mooring gear working in freezing weather, and are they followed?",
+  "why": "Ice on winches, windlasses and ropes can leave the ship unable to moor or anchor safely.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company winterisation procedure and checklists",
+   "Records of checks of deck machinery during cold exposure",
+   "Hydraulic oil grade and circulation",
+   "Covers on control boxes, mooring ropes and accommodation ladder motors",
+   "Winches, windlasses and anchors proven before arrival"
+  ],
+  "ready": [
+   "Completed winterisation checklist",
+   "Suitable hydraulic oil, circulated when below 0 C and winches lubricated",
+   "Cranes operated and tested before cold, with cab heating checked",
+   "Main air valve to deck closed and line drained",
+   "Canvas covers on control boxes, levers and mooring ropes",
+   "Winches, windlasses and anchors proven before port",
+   "Pneumatic oil spill pumps working, if fitted"
+  ],
+  "traps": [
+   "No procedure or checklist",
+   "Officer not familiar with the procedure",
+   "No periodic checks during sub-zero exposure",
+   "Wrong hydraulic oil grade or oil not circulated",
+   "Running winches not lubricated",
+   "Cranes not tested before the cold, crane heating not checked",
+   "Ladder motors not covered",
+   "Deck air line not drained",
+   "Control boxes and mooring ropes not covered",
+   "Winches, windlasses and anchors not proven before arrival",
+   "Equipment found frozen or iced up"
+  ],
+  "say": "Before the cold area we followed our checklist: suitable hydraulic oil, circulation, covers on controls and mooring ropes, deck air drained and cranes tested. We prove the winches and anchors before arrival and allow extra time to clear ice.",
+  "practice": [
+   {
+    "q": "How do you protect hydraulic machinery?",
+    "a": [
+     "Check the oil grade and viscosity for the temperature",
+     "Circulate the oil when below 0 C",
+     "Lubricate winches that are left running"
+    ]
+   },
+   {
+    "q": "How do you protect mooring ropes?",
+    "a": [
+     "Canvas covers until needed",
+     "Ice crystals inside ropes damage the fibres"
+    ]
+   }
+  ],
+  "tip": "Test the windlass and lower the anchors in good time before arrival when safe navigation permits, then bring them fully home before mooring.",
+  "refs": [
+   "OCIMF Large Tankers in Ice guidance",
+   "Polar Code",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "12.6.1",
+  "title": "Navigating in areas affected by ice",
+  "plain": "Do officers know the company procedures for navigating in ice, and have they had suitable ice training?",
+  "why": "Ice navigation needs extra planning, watchkeeping and skills, or the ship can be damaged or beset.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ce",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedures and checklists for ice navigation",
+   "Passage plan for the last voyage in ice",
+   "Completed checklists",
+   "Bridge log book for the last ice period",
+   "Ice training records for the Master and watchkeeping officers"
+  ],
+  "ready": [
+   "Procedures covering planning, watch team, pilotage, ice detection, freezing spray, pack ice, charts, radar and compasses",
+   "Completed checklists",
+   "Passage plan showing ice limits, ice class draughts, manoeuvring status and manning changes",
+   "Bridge log showing bridge and engine room team met requirements",
+   "Training records for navigation and engineering watch officers"
+  ],
+  "traps": [
+   "Procedures missing required topics such as pack ice, anchoring in ice or icebreakers",
+   "Officer not familiar with the procedures",
+   "No checklists, or checklists not completed",
+   "Passage plan ignores ice limits, ice notation draughts, manoeuvring or manning",
+   "Required bridge or engine room team not provided",
+   "Draught not adjusted to the ice notation limits",
+   "No training records",
+   "Master or watch officer without suitable ice training"
+  ],
+  "say": "Our ice procedures cover planning, watch teams, freezing spray, pack ice, position fixing, radar and compasses, shiphandling and icebreaker work. The last passage plan showed the ice limits and our draughts, and the checklists and log match. Officers have had ice training.",
+  "practice": [
+   {
+    "q": "What does your passage plan for ice consider?",
+    "a": [
+     "Pack ice and iceberg limits",
+     "Draughts against the ice notation",
+     "Change in manoeuvring status and manning"
+    ]
+   },
+   {
+    "q": "How is training done?",
+    "a": [
+     "In-service, simulator or computer based training",
+     "Covers ice types, ship handling and cold weather survival",
+     "Records are kept"
+    ]
+   }
+  ],
+  "tip": "Keep the last ice voyage plan, checklists and log extracts in one folder ready to show.",
+  "refs": [
+   "BIMCO Ice Navigation and Seamanship Handbook",
+   "OCIMF Large Tankers in Ice guidance",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "11.1.1",
+  "title": "Bow area from dead ahead",
+  "plain": "Does the photo of bow area from dead ahead match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Bow structure, paint and anchor area",
+   "Bow fendering and any markings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rust or flaking paint on the bow",
+   "Dents or damage not shown in the photo",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.2",
+  "title": "Hull forward end starboard side",
+  "plain": "Does the photo of hull forward end starboard side match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hull plating, paint and draught marks",
+   "Any dents or rust streaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hull dents or rust patches missing from the photo",
+   "Faded draught marks",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.3",
+  "title": "Hull forward end port side",
+  "plain": "Does the photo of hull forward end port side match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hull plating, paint and draught marks",
+   "Any dents or rust streaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hull dents or rust patches missing from the photo",
+   "Faded draught marks",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.4",
+  "title": "Hull aft end starboard side",
+  "plain": "Does the photo of hull aft end starboard side match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hull plating, paint and draught marks",
+   "Any dents or rust streaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hull dents or rust patches missing from the photo",
+   "Faded draught marks",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.5",
+  "title": "Hull aft end port side",
+  "plain": "Does the photo of hull aft end port side match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hull plating, paint and draught marks",
+   "Any dents or rust streaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hull dents or rust patches missing from the photo",
+   "Faded draught marks",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.6",
+  "title": "Transom from right astern",
+  "plain": "Does the photo of transom from right astern match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Stern plating, name and port markings",
+   "Rudder and propeller area visible from astern",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rust or damage on the stern",
+   "Marks unreadable",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.7",
+  "title": "Forecastle port side looking towards fairleads",
+  "plain": "Does the photo of forecastle port side looking towards fairleads match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Fairleads, bollards and mooring gear",
+   "Deck plating and fittings on the forecastle",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Seized or worn fairleads",
+   "Rust, trip hazards or loose gear on the forecastle",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.8",
+  "title": "Forecastle starboard side looking towards fairleads",
+  "plain": "Does the photo of forecastle starboard side looking towards fairleads match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Fairleads, bollards and mooring gear",
+   "Deck plating and fittings on the forecastle",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Seized or worn fairleads",
+   "Rust, trip hazards or loose gear on the forecastle",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.9",
+  "title": "Port or starboard windlass",
+  "plain": "Does the photo of port or starboard windlass match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Windlass, brake bands and chain stoppers",
+   "Covers, guards and lubrication points",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rusty or leaking windlass",
+   "Worn brake lining or missing guards",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.10",
+  "title": "Forward main deck showing condition of deck (and external framing)",
+  "plain": "Does the photo of forward main deck showing condition of deck (and external framing) match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Deck plating and external framing",
+   "Coating, pitting and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hard rust or pitting not shown in the photo",
+   "Selected clean area while the rest is poor",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.11",
+  "title": "Forward main deck showing condition of piperack",
+  "plain": "Does the photo of forward main deck showing condition of piperack match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Pipes, supports and pipe rack structure",
+   "Coating and corrosion at supports",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded pipes or supports",
+   "Photo shows a newly painted section only",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.12",
+  "title": "One mooring winch including the brake setting arrangement",
+  "plain": "Does the photo of one mooring winch including the brake setting arrangement match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Winch, drum, brake and brake setting arrangement",
+   "Brake lining, mark and any leaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Worn brake or missing setting marks",
+   "Oil leaks around the winch",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.13",
+  "title": "One hose crane with an overall view",
+  "plain": "Does the photo of one hose crane with an overall view match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hose crane, boom and structure",
+   "Hydraulic hoses and leaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rust or oil leaks on the crane",
+   "Photo does not show the typical crane condition",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.14",
+  "title": "One hose crane hoisting winch, stowed wire and limit switches",
+  "plain": "Does the photo of one hose crane hoisting winch, stowed wire and limit switches match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hoisting winch, wire, stowed wire and limit switches",
+   "Wire condition and drum spooling",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Worn or rusty wire",
+   "Limit switches damaged or missing",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.15",
+  "title": "Starboard manifold looking from aft to forward",
+  "plain": "Does the photo of starboard manifold looking from aft to forward match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Manifold, presentation flanges and valves",
+   "Drip trays, bolting, hose supports and blanks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rusty bolts or missing blanks",
+   "Leaks or full drip trays not shown",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.16",
+  "title": "Starboard manifold looking forward to aft",
+  "plain": "Does the photo of starboard manifold looking forward to aft match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Manifold, presentation flanges and valves",
+   "Drip trays, bolting, hose supports and blanks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rusty bolts or missing blanks",
+   "Leaks or full drip trays not shown",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.17",
+  "title": "Aft main deck showing condition of deck (and external framing)",
+  "plain": "Does the photo of aft main deck showing condition of deck (and external framing) match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Deck plating and external framing",
+   "Coating, pitting and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hard rust or pitting not shown in the photo",
+   "Selected clean area while the rest is poor",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.18",
+  "title": "Aft main deck showing condition of piperack",
+  "plain": "Does the photo of aft main deck showing condition of piperack match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Pipes, supports and pipe rack structure",
+   "Coating and corrosion at supports",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded pipes or supports",
+   "Photo shows a newly painted section only",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.19",
+  "title": "Poop deck looking from midships to starboard including fairleads",
+  "plain": "Does the photo of poop deck looking from midships to starboard including fairleads match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Poop deck, fairleads and mooring gear",
+   "Deck plating and fittings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Seized or worn fairleads",
+   "Rust, trip hazards or loose gear",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.20",
+  "title": "Aft emergency towing equipment storage arrangement",
+  "plain": "Does the photo of aft emergency towing equipment storage arrangement match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Emergency towing gear stowage and securing",
+   "Covers, markings and easy access",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Gear corroded or not secured",
+   "Stowage blocked or covered",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.21",
+  "title": "Aft emergency towing equipment deployment system",
+  "plain": "Does the photo of aft emergency towing equipment deployment system match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Emergency towing deployment arrangements",
+   "Fairleads, leads and any pick-up gear",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Seized or corroded deployment gear",
+   "Arrangement incomplete compared to the photo",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.22",
+  "title": "Lifeboat and davit",
+  "plain": "Does the photo of lifeboat and davit match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "3o"
+   ],
+   "also": [
+    "co",
+    "master"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Lifeboat hull, davit, falls and release gear",
+   "Boat covers, stowage and markings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Damaged boat or rusty davit",
+   "Falls or gear in poor condition",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.23",
+  "title": "The emergency generator or accumulator batteries",
+  "plain": "Does the photo of the emergency generator or accumulator batteries match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "3o",
+    "eto",
+    "co"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Emergency generator or accumulator batteries",
+   "Housing, ventilation and securing",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded batteries or housing",
+   "Gear stored in the room or poor condition",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.24",
+  "title": "Engine room general view showing top of main engine",
+  "plain": "Does the photo of engine room general view showing top of main engine match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "General engine room tidiness and top of main engine",
+   "Leaks, lagging and housekeeping",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Oil leaks or dirty bilges not shown",
+   "Lagging damaged or oily",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.25",
+  "title": "One generator engine",
+  "plain": "Does the photo of one generator engine match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Generator engine condition and lagging",
+   "Leaks, drip trays and guards",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Oil or fuel leaks",
+   "Missing guards or insulation",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.26",
+  "title": "The oil filtering equipment",
+  "plain": "Does the photo of the oil filtering equipment match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Purifiers and filters, pipework and drip trays",
+   "Leaks and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or oily deck",
+   "Poor condition of filters and pipework",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.27",
+  "title": "The incinerator",
+  "plain": "Does the photo of the incinerator match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Incinerator and its surroundings",
+   "Door seals, ash handling and housekeeping",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or heavy soot",
+   "Door or seals in poor condition",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.28",
+  "title": "One boiler from the front",
+  "plain": "Does the photo of one boiler from the front match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Boiler front, burner and gauges",
+   "Insulation and leaks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or damaged insulation",
+   "Gauges or controls damaged",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.29",
+  "title": "One boiler from the top showing control equipment",
+  "plain": "Does the photo of one boiler from the top showing control equipment match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Boiler top and control equipment",
+   "Mountings, valves and insulation",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaking mountings",
+   "Controls damaged or untidy",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.30",
+  "title": "Purifier room general view",
+  "plain": "Does the photo of purifier room general view match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Purifier room general view",
+   "Purifiers, pipes, drain trays and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Oil leaks or dirty deck",
+   "Poor housekeeping in the room",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.31",
+  "title": "Main engine side showing local control station",
+  "plain": "Does the photo of main engine side showing local control station match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Main engine side and local control station",
+   "Controls, gauges and labelling",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Gauges broken or controls unlabelled",
+   "Oil leaks near the control station",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.32",
+  "title": "Steering gear room general view showing access",
+  "plain": "Does the photo of steering gear room general view showing access match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Steering gear room general view and access",
+   "Clear access, lighting and tidy deck",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Obstructed access or untidy room",
+   "Leaks on deck",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.33",
+  "title": "Main steering gear",
+  "plain": "Does the photo of main steering gear match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Main steering gear, rams and pumps",
+   "Leaks and condition of fittings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hydraulic leaks",
+   "Corrosion or damaged guards",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.40",
+  "title": "IG system pressure/vacuum-breaking (P/V) device",
+  "plain": "Does the photo of iG system pressure/vacuum-breaking (P/V) device match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "IG pressure/vacuum breaking device",
+   "Corrosion and condition of fittings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rusty or leaking device",
+   "Fittings or gauges damaged",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.41",
+  "title": "IG system first non-return device (deck seal or double block and bleed arrangement)",
+  "plain": "Does this photo match the real condition onboard on the day: iG system first non-return device (deck seal or double block and bleed arrangement)?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "First IG non-return device, deck seal or double block and bleed",
+   "Seal fittings, drains and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rust or leaks at the seal",
+   "Fittings or drains in poor condition",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.42",
+  "title": "One main cargo pump and, if in pump room, including bilges",
+  "plain": "Does this photo match the real condition onboard on the day: one main cargo pump and, if in pump room, including bilges?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Main cargo pump and, in a pump room, the bilges",
+   "Leaks, gland condition and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Oil in the bilges or leaks at the pump",
+   "Pump condition poor or untidy pump room",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.50",
+  "title": "A cargo tank liquid dome including load and discharge valve",
+  "plain": "Does the photo of a cargo tank liquid dome including load and discharge valve match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Liquid dome, load and discharge valve",
+   "Valve condition, bolting and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded valves or bolts",
+   "Leaks around the dome",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.51",
+  "title": "Electric motors for deepwell pumps",
+  "plain": "Does the photo of electric motors for deepwell pumps match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "eto",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Deepwell pump electric motors",
+   "Motor housing, cabling and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded motors or damaged cables",
+   "Leaks near the motors",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.52",
+  "title": "Compressor / motor room",
+  "plain": "Does the photo of compressor / motor room match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ce",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Compressor and motor room",
+   "Equipment condition and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or untidy room",
+   "Corroded equipment",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.60",
+  "title": "A cargo tank liquid dome including load and discharge valve",
+  "plain": "Does the photo of a cargo tank liquid dome including load and discharge valve match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Liquid dome, load and discharge valve",
+   "Valve condition, bolting and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded valves or bolts",
+   "Leaks around the dome",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.61",
+  "title": "Electric motors for deepwell pumps",
+  "plain": "Does the photo of electric motors for deepwell pumps match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "eto",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Deepwell pump electric motors",
+   "Motor housing, cabling and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded motors or damaged cables",
+   "Leaks near the motors",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.62",
+  "title": "Compressor room internal view",
+  "plain": "Does the photo of compressor room internal view match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ce",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Compressor room internal view",
+   "Equipment condition and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or untidy room",
+   "Corroded equipment",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.70",
+  "title": "A cargo tank liquid dome including load and discharge valve",
+  "plain": "Does the photo of a cargo tank liquid dome including load and discharge valve match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Liquid dome, load and discharge valve",
+   "Valve condition, bolting and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded valves or bolts",
+   "Leaks around the dome",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.71",
+  "title": "A cargo tank vapour dome including cargo system relief valves",
+  "plain": "Does the photo of a cargo tank vapour dome including cargo system relief valves match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Vapour dome and cargo system relief valves",
+   "Relief valve condition and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded relief valves or fittings",
+   "Damaged lagging or covers",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.72",
+  "title": "Compressor house internal view",
+  "plain": "Does the photo of compressor house internal view match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ce",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Compressor house internal view",
+   "Equipment condition and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or untidy room",
+   "Corroded equipment",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.80",
+  "title": "A cargo tank liquid dome including load and discharge valve",
+  "plain": "Does the photo of a cargo tank liquid dome including load and discharge valve match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Liquid dome, load and discharge valve",
+   "Valve condition, bolting and corrosion",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded valves or bolts",
+   "Leaks around the dome",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.81",
+  "title": "General view of one moss sphere",
+  "plain": "Does the photo of general view of one moss sphere match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "One moss sphere, general view",
+   "Cover, insulation and structure condition",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Damaged insulation or cover",
+   "Corrosion on the skirt or fittings",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.82",
+  "title": "Compressor house internal view",
+  "plain": "Does the photo of compressor house internal view match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ce",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Compressor house internal view",
+   "Equipment condition and cleanliness",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks or untidy room",
+   "Corroded equipment",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.90",
+  "title": "Bow mooring arrangement from forward looking aft showing chain stopper",
+  "plain": "Does the photo of bow mooring arrangement from forward looking aft showing chain stopper match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Bow mooring from forward looking aft, chain stopper",
+   "Stopper, chain and deck fittings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rusty or seized chain stopper",
+   "Worn mooring fittings",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.91",
+  "title": "Bow mooring arrangement from aft looking forward showing winch",
+  "plain": "Does the photo of bow mooring arrangement from aft looking forward showing winch match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Bow mooring from aft looking forward, winch",
+   "Winch, brake and fittings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Worn brake or leaking winch",
+   "Rust on structure and fittings",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.92",
+  "title": "General view of hose connection area",
+  "plain": "Does the photo of general view of hose connection area match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hose connection area, general view",
+   "Hose handling gear, supports and drip trays",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Rusty fittings or leaks",
+   "Untidy area or damaged gear",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.93",
+  "title": "Hose coupling arrangement",
+  "plain": "Does the photo of hose coupling arrangement match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Hose coupling arrangement",
+   "Coupling, seals, bolting and blanks",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Corroded bolts or damaged seals",
+   "Leaks at the coupling",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.94",
+  "title": "General view forward bow thruster room",
+  "plain": "Does the photo of general view forward bow thruster room match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "co",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Forward bow thruster room, general view",
+   "Access, tidiness and equipment condition",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Leaks on the deck or untidy room",
+   "Corroded equipment or poor access",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ },
+ {
+  "id": "11.1.95",
+  "title": "Forward bow thruster room showing one azimuth thruster",
+  "plain": "Does the photo of forward bow thruster room showing one azimuth thruster match the real condition onboard on the day?",
+  "why": "The inspector compares your uploaded photo with the real ship, so the report shows the true condition.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "co",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Photo is the one uploaded for this location",
+   "Shows the real condition, not a selected clean spot",
+   "Bow thruster room, one azimuth thruster",
+   "Thruster, hydraulics and fittings",
+   "Photo compared with the same area on the day"
+  ],
+  "ready": [
+   "Photo uploaded for this exact location, kept current",
+   "Refresh photos about every six months",
+   "Area still looks like the photo on the day",
+   "Fix any defect before the inspection, then update the photo if needed"
+  ],
+  "traps": [
+   "Photo shows a freshly painted area but the rest is worse",
+   "Hydraulic leaks",
+   "Corrosion or damaged fittings",
+   "Photo older than six months and the area has changed",
+   "No photo uploaded, so the question is marked Not Seen"
+  ],
+  "say": "",
+  "practice": [],
+  "tip": "Take the photo of the typical area, not the best corner, and walk this spot a few days before the inspection to check it still matches.",
+  "refs": []
+ }
+]

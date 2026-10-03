@@ -1,0 +1,2349 @@
+[
+ {
+  "id": "5.1.1",
+  "title": "Records of mandatory and company drills",
+  "plain": "Do you know the emergency plans, and can you show records that every required drill was done and written up?",
+  "why": "Drills only protect the ship if they are planned, done on time and recorded so lessons are not lost.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ce"
+   ]
+  },
+  "checks": [
+   "The company procedure for drills: when to do them, how to record them, what to do if late",
+   "The ship's set of emergency plans for each likely emergency",
+   "The drill schedule and tracker showing what is done and what is due",
+   "Drill records filled in the same way every time"
+  ],
+  "ready": [
+   "Drill schedule or tracker, up to date",
+   "Completed drill records with scenario, summary, lessons and training needs",
+   "Risk assessments or permits attached to drill records where used",
+   "Emails to the company for any drill that was delayed",
+   "Emergency plans in one clear system, easy to find"
+  ],
+  "traps": [
+   "No company procedure for drills, recording or tracking",
+   "Drill record missing scenario, equipment used, lessons or improvement points",
+   "Schedule does not match ISM, SOLAS, MARPOL, IGC, IGF or ISPS requirements",
+   "Drills overdue for completion",
+   "Officer cannot explain the plans or the drill procedure"
+  ],
+  "say": "Our SMS tells us which drills are required and how often. We track them on the drill schedule and record each one in the same format, including lessons learnt. If a drill cannot be done on time, such as in bad weather, we tell the company and keep the reply.",
+  "practice": [
+   {
+    "q": "How do you know no drill is overdue?",
+    "a": [
+     "We use the drill schedule or tracker",
+     "Reviewed regularly by the Master and officers",
+     "Overdue drills are reported to the company with the reason"
+    ]
+   },
+   {
+    "q": "What do you write in a drill record?",
+    "a": [
+     "Plan used and the scenario",
+     "Summary, equipment used and safety points",
+     "Lessons learnt and training needs",
+     "Any improvements for the plan, sent to the company"
+    ]
+   },
+   {
+    "q": "A drill was postponed for bad weather. What did you do?",
+    "a": [
+     "Informed the company",
+     "Kept their acknowledgement with the records",
+     "Rescheduled the drill"
+    ]
+   }
+  ],
+  "tip": "Keep one folder, paper or electronic, with the schedule on top and each drill record behind it, so you can find anything in seconds.",
+  "refs": [
+   "ISM Code 8",
+   "IMO A.1072(28)",
+   "TMSA 11.1.1"
+  ]
+ },
+ {
+  "id": "5.1.2",
+  "title": "Emergency plans and drills for the main fire scenarios",
+  "plain": "Do you know the fire plans for each fire scenario on this ship, and have you drilled them?",
+  "why": "A fast, coordinated response is what stops a small tanker fire becoming a total loss.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "3o",
+    "ce",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Fire plans for cargo deck, cargo tank, machinery space, pump room or compressor room, accommodation, store-room and galley",
+   "That each plan is specific to this ship",
+   "Fire drill records in the company format",
+   "Drill dates against the Bridge Log Book",
+   "Each fire plan drilled in the previous six months"
+  ],
+  "ready": [
+   "All fire plans, easy to find and ship-specific",
+   "Fire drill records for the last six months",
+   "Bridge Log Book for the last six months",
+   "Company emails for any deferred drill"
+  ],
+  "traps": [
+   "A fire plan is missing for one of the main scenarios",
+   "Plans are generic, not about this ship",
+   "Drill scenarios too easy or unrealistic",
+   "Drill date in the record does not match the Log Book",
+   "One fire scenario not drilled in six months",
+   "No fire drill within 24 hours of leaving port when more than 25% of crew had not done a fire drill on this ship in the previous month"
+  ],
+  "say": "We have a ship-specific plan for each main fire scenario, from deck to galley. Each one has been exercised in the last six months and recorded. If more than 25% of the crew have not done a fire drill on this ship in the previous month, we hold one within 24 hours of leaving port.",
+  "practice": [
+   {
+    "q": "Which fire scenarios do you have plans for?",
+    "a": [
+     "Cargo deck, cargo tank, machinery space",
+     "Pump room or compressor room",
+     "Accommodation, store-room, galley"
+    ]
+   },
+   {
+    "q": "When must you drill after a crew change?",
+    "a": [
+     "Within 24 hours of leaving port",
+     "If more than 25% of crew have not done a drill on this ship in the previous month"
+    ]
+   },
+   {
+    "q": "What do you do with equipment used in a drill?",
+    "a": [
+     "Return it to full working condition at once",
+     "Fix any defects found as soon as possible"
+    ]
+   }
+  ],
+  "tip": "Rotate the drill location and the scenario so that all seven fire plans are covered inside six months, and tick them off on one page.",
+  "refs": [
+   "SOLAS III/19",
+   "ISM Code 8",
+   "ICS BPG 5th ed",
+   "IMO A.1072(28)"
+  ]
+ },
+ {
+  "id": "5.1.3",
+  "title": "Pollution drills under SOPEP or SMPEP",
+  "plain": "Do you know the ship's oil or marine pollution plan, and have you drilled spill response?",
+  "why": "A spill handled badly causes environmental damage, fines and port delays, so the crew must know their jobs.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "3e"
+   ]
+  },
+  "checks": [
+   "The SOPEP or SMPEP and that it is up to date",
+   "Plans for operational cargo and bunker spills",
+   "The contact list for this port, posted on the bridge or cargo control room",
+   "Spill drill records and Log Book dates",
+   "An officer interviewed about their duties in a spill"
+  ],
+  "ready": [
+   "SOPEP or SMPEP with current national contact points (electronic copy is fine if easy to find)",
+   "Port-specific contact list posted: DPA, port authority, P&I Club, agent, pollution reporting centre",
+   "Spill drill records covering cargo and bunker spills",
+   "Bridge Log Book for the last twelve months",
+   "Company emails for any deferred drill"
+  ],
+  "traps": [
+   "No SOPEP or SMPEP, or contact points out of date",
+   "No contact list prepared for the port of inspection",
+   "Drills do not cover both cargo and bunker spills",
+   "Officer unsure of their duties in a spill",
+   "Drill dates do not match the Log Book",
+   "Spill drill overdue"
+  ],
+  "say": "We carry the approved SOPEP and keep the contacts current. For every port we post a contact list on the bridge and in the cargo control room. We drill spills for both cargo and bunker operations and record each drill.",
+  "practice": [
+   {
+    "q": "Who is on your port contact list?",
+    "a": [
+     "DPA or company emergency contact",
+     "Port authority and agent",
+     "P&I Club and national pollution reporting centre",
+     "Extra contacts if trading in US waters"
+    ]
+   },
+   {
+    "q": "What is your duty if there is a spill on deck?",
+    "a": [
+     "Raise the alarm and stop the operation",
+     "Follow your role in the plan",
+     "Report as the plan says"
+    ]
+   },
+   {
+    "q": "What spills do your drills cover?",
+    "a": [
+     "Cargo operations",
+     "Bunker operations"
+    ]
+   }
+  ],
+  "tip": "Make the port contact list part of the pre-arrival checklist so it is posted before the pilot boards.",
+  "refs": [
+   "MARPOL Annex I Reg 37",
+   "MARPOL Annex II Reg 17",
+   "IMO SMPEP Guidelines 2010",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.4",
+  "title": "Enclosed space rescue plan and drills",
+  "plain": "Do you know the enclosed space rescue plan, and have you drilled it, including the hoisting gear?",
+  "why": "Many enclosed space deaths are would-be rescuers, so a trained team and good rescue gear save lives.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The enclosed space rescue plan for this ship",
+   "Drill records and attached entry permits where a real space was used",
+   "Rescue hoisting arrangements for cargo, ballast, bunker, void and cofferdam spaces",
+   "An officer or rating rigging and explaining the hoisting gear",
+   "Drill dates against the Log Book"
+  ],
+  "ready": [
+   "Enclosed space rescue plan, ship-specific",
+   "Drill records, with permit attached where a defined space was used",
+   "Rescue hoisting gear and loose equipment in good order",
+   "Bridge Log Book for the last twelve months",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No rescue plan, or it is generic",
+   "Drill record missing the entry permit when a real space was used",
+   "Rating or officer cannot rig or use the hoisting arrangement",
+   "Hoisting gear or loose equipment defective in any way",
+   "Drill unrealistic, or overdue",
+   "Dates do not match the Log Book"
+  ],
+  "say": "Our rescue plan is ship-specific. We drill at least every two months as SOLAS requires, covering PPE, communications, gas instruments, rescue gear and first aid. The attendant raises the alarm and never enters. Our people can rig the rescue hoist for each type of space.",
+  "practice": [
+   {
+    "q": "How often is the enclosed space drill?",
+    "a": [
+     "At least once every two months",
+     "For crew with entry or rescue duties"
+    ]
+   },
+   {
+    "q": "What must each drill include?",
+    "a": [
+     "PPE check and use",
+     "Communications and gas instruments",
+     "Rescue equipment and procedures",
+     "First aid and resuscitation"
+    ]
+   },
+   {
+    "q": "What does the attendant do if someone collapses?",
+    "a": [
+     "Raise the alarm",
+     "Do not enter",
+     "Keep talking to the person and set up equipment outside"
+    ]
+   }
+  ],
+  "tip": "Let different ratings rig the rescue hoist at each drill, so more than one person can do it on the day.",
+  "refs": [
+   "SOLAS III/19",
+   "IMO A.1050(27)",
+   "ISGOTT 6",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.5",
+  "title": "Security drills under the Ship Security Plan",
+  "plain": "Do the Master and Ship Security Officer know the security drills the plan requires, and are they done on time?",
+  "why": "Security drills test whether the crew can spot and respond to threats like intruders, piracy or stowaways.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o"
+   ]
+  },
+  "checks": [
+   "The schedule of security drills and exercises from the SSP",
+   "Records of completed drills in the company format",
+   "All scenarios required by the SSP done within the company time frame",
+   "Drill dates against the Log Book",
+   "Pre-entry drills with Ship Protection Measures if you entered a High Risk Area"
+  ],
+  "ready": [
+   "Security drill schedule",
+   "Drill and exercise records",
+   "Bridge Log Book for the last twelve months",
+   "Records of drills before entering a High Risk Area, with SPM in place",
+   "Company emails for any deferred drill"
+  ],
+  "traps": [
+   "No schedule of security drills",
+   "Master or SSO cannot explain the drills the SSP needs",
+   "Latest drill overdue",
+   "Required scenarios not all done in the set time",
+   "No SPM drill before entering a High Risk Area",
+   "Records not in the company format"
+  ],
+  "say": "We drill at least every three months, and within one week if more than 25% of the crew has changed. We cover scenarios like unauthorised visitors, restricted areas and mustering. The SSP is confidential, so I will show the schedule and records instead.",
+  "practice": [
+   {
+    "q": "How often do you hold security drills?",
+    "a": [
+     "At least every three months",
+     "Within one week if more than 25% of crew changed"
+    ]
+   },
+   {
+    "q": "What scenarios do you cover?",
+    "a": [
+     "Search for unauthorised visitors",
+     "Recognising threat materials and restricted areas",
+     "Deterring attackers and mustering"
+    ]
+   },
+   {
+    "q": "Before entering a High Risk Area, what do you do?",
+    "a": [
+     "Brief the crew",
+     "Drill with Ship Protection Measures in place",
+     "Test access points and lock down"
+    ]
+   }
+  ],
+  "tip": "The inspector should not ask to see the SSP. Be ready to politely show only the front cover, and use the schedule and records to answer.",
+  "refs": [
+   "ISPS Code 13",
+   "IMO ISPS Guide 2012",
+   "BMP5",
+   "BMP West Africa"
+  ]
+ },
+ {
+  "id": "5.1.6",
+  "title": "Lifeboat launching and abandon ship drills",
+  "plain": "Do officers and ratings know how to launch the lifeboat, and are abandon ship drills done as required?",
+  "why": "Lifeboat accidents often happen in drills because crews are not familiar with the equipment.",
+  "who": {
+   "lead": [
+    "3o",
+    "master"
+   ],
+   "also": [
+    "co",
+    "ratings",
+    "2o"
+   ]
+  },
+  "checks": [
+   "The abandon ship procedure",
+   "The ship-specific lifeboat launching procedure for drills",
+   "Drill records, showing the lifeboat was exercised or launched as SOLAS requires",
+   "A rating explaining the launching procedure",
+   "Drill dates against the Log Book"
+  ],
+  "ready": [
+   "Abandon ship procedure",
+   "Ship-specific lifeboat launching procedure",
+   "Abandon ship drill records",
+   "Bridge Log Book for the last twelve months",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No abandon ship procedure or lifeboat launching procedure",
+   "Procedures too generic",
+   "Rating cannot explain the launching steps",
+   "Drill records not in the company format",
+   "Dates not matching the Log Book",
+   "Abandon ship drill overdue under company rules or SOLAS"
+  ],
+  "say": "Everyone on board does at least one abandon ship drill and one fire drill each month. We follow the maker's manual for the boat and our ship-specific procedure. Drills are run safely and at a safe speed, and we note lessons learnt for the next one.",
+  "practice": [
+   {
+    "q": "How often must crew do an abandon ship drill?",
+    "a": [
+     "At least once every month",
+     "Within 24 hours of leaving port if over 25% of crew have not taken part in the previous month"
+    ]
+   },
+   {
+    "q": "How do you keep lifeboat drills safe?",
+    "a": [
+     "Follow the maker's instructions",
+     "Check the boat and gear first",
+     "Risky parts, like lowering with full crew, only with special precautions"
+    ]
+   },
+   {
+    "q": "What do you do if you find wear or corrosion?",
+    "a": [
+     "Report it to the responsible officer at once"
+    ]
+   }
+  ],
+  "tip": "Let ratings do the steps themselves during the drill while an officer watches, so each one can explain the launch in their own words.",
+  "refs": [
+   "SOLAS III/19",
+   "MSC.1/Circ.1206/Rev.1",
+   "OCIMF Survival Craft guide",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.7",
+  "title": "Cargo vapour or liquid release plan and drills (gas carriers)",
+  "plain": "Do you know the plan for a gas cargo leak or release, including fire, and have you drilled it?",
+  "why": "A gas or liquid release can quickly turn into fire or brittle fracture, so the first minutes matter.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Ship-specific plans for cargo vapour or liquid release, including fire",
+   "Plans cover containment leakage, connection rupture or spill, relief valve lifting and fire after leak",
+   "Drill records in the company format",
+   "Drill dates against the Log Book",
+   "Each scenario drilled within twelve months"
+  ],
+  "ready": [
+   "Emergency plans for cargo release, ship-specific",
+   "Drill records for the last twelve months",
+   "Bridge Log Book for the last twelve months",
+   "Precautions for any special recovery equipment, such as barrier punching devices",
+   "Cargo data sheets with spill, leak and fire actions"
+  ],
+  "traps": [
+   "No release plan on board",
+   "Plan too generic for this ship",
+   "Officer cannot explain the plan",
+   "Drill scenario unrealistic",
+   "A release scenario not drilled in twelve months",
+   "Latest drill overdue"
+  ],
+  "say": "Our plans cover containment leakage, connection rupture, relief valve lifting and fire after leakage. Each has been drilled within the year and recorded. The cargo data sheets tell us the spill, leak and firefighting actions for each product.",
+  "practice": [
+   {
+    "q": "Which release scenarios do your plans cover?",
+    "a": [
+     "Containment leakage",
+     "Connection rupture, pipeline fracture or spill",
+     "Relief valve lifting",
+     "Fire following leakage"
+    ]
+   },
+   {
+    "q": "What does the cargo data sheet tell you?",
+    "a": [
+     "Actions for spills and leaks",
+     "Firefighting methods and media",
+     "Emergency procedures and special equipment"
+    ]
+   }
+  ],
+  "tip": "Link each drill to a different scenario in your plan so all four are covered within the year.",
+  "refs": [
+   "IGC Code 18.3",
+   "SIGTTO Handling Principles 4th ed",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.8",
+  "title": "Collision plan and drills",
+  "plain": "Do you know the collision emergency plan, and have you drilled it on schedule?",
+  "why": "After a collision, quick and organised action protects people, the environment and the ship.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "The ship-specific collision plan",
+   "Drill records in the company format",
+   "Drill dates against the Log Book",
+   "Whether the latest drill is within the company schedule"
+  ],
+  "ready": [
+   "Collision emergency plan",
+   "Collision drill records",
+   "Bridge Log Book for the last twelve months",
+   "ICS BPG checklist C4",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No collision plan",
+   "Plan not specific to this ship",
+   "Officer unfamiliar with the plan",
+   "Unrealistic drill scenario",
+   "Drill dates conflict with the Log Book",
+   "Drill overdue"
+  ],
+  "say": "Our collision plan covers what to do straight away, then the short and medium term, to protect people, the environment and the ship. We drill it on the company schedule and record it. Our bridge checklist is the first thing we pick up.",
+  "practice": [
+   {
+    "q": "What is your first priority after a collision?",
+    "a": [
+     "Safety of life",
+     "Stop the situation getting worse",
+     "Activate the plan and inform the company"
+    ]
+   },
+   {
+    "q": "Who is in charge of the response?",
+    "a": [
+     "The person named in the plan",
+     "Normally the Master"
+    ]
+   }
+  ],
+  "tip": "Run a table-top collision drill with the officers off watch; it costs nothing and shows who knows the plan.",
+  "refs": [
+   "ISM Code 8",
+   "IMO A.1072(28)",
+   "ICS BPG 5th ed",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.9",
+  "title": "Grounding plan and drills",
+  "plain": "Do you know the grounding plan, including what data to collect and evidence to keep, and have you drilled it?",
+  "why": "After grounding, the ship's strength and stability are unknown, so correct data and expert advice are vital.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "The ship-specific grounding plan",
+   "That the plan covers assessing the grounding and sending data to a technical adviser",
+   "That the plan covers saving ECDIS and VDR evidence",
+   "That the plan covers talking to the company and third parties",
+   "Drill records and Log Book dates"
+  ],
+  "ready": [
+   "Grounding emergency plan",
+   "Grounding drill records",
+   "Bridge Log Book for the last twelve months",
+   "ICS BPG checklist C5",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No grounding plan",
+   "Plan misses buoyancy, stability and strength assessment",
+   "Plan ignores saving ECDIS and VDR data",
+   "Plan has no communications with company or third parties",
+   "Unrealistic drill, or drill overdue",
+   "Dates not matching the Log Book"
+  ],
+  "say": "Our grounding plan tells us to collect data for a specialist adviser on buoyancy, stability and strength before deciding how to act. We save ECDIS and VDR data, and our plan sets out who we call. We drill it on schedule and record it.",
+  "practice": [
+   {
+    "q": "What does your grounding plan say about evidence?",
+    "a": [
+     "Save ECDIS and VDR data",
+     "Keep logs and records"
+    ]
+   },
+   {
+    "q": "Why do you need specialist advice?",
+    "a": [
+     "You cannot know if the ship stays stable and intact while aground or refloating",
+     "The adviser predicts effects on the ship"
+    ]
+   }
+  ],
+  "tip": "Know exactly how to save the VDR on your ship, and who does it; practise it in the drill.",
+  "refs": [
+   "ISM Code 8",
+   "IMO A.1072(28)",
+   "ICS BPG 5th ed",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.10",
+  "title": "Loss of propulsion plan and drills",
+  "plain": "Do deck and engine officers know the loss of propulsion plan, and can a navigator estimate drift?",
+  "why": "A drifting tanker with no engine can quickly end up on a lee shore, so both bridge and engine room must act fast.",
+  "who": {
+   "lead": [
+    "master",
+    "2e"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "co"
+   ]
+  },
+  "checks": [
+   "The ship-specific loss of propulsion plan",
+   "A navigation officer explaining how to estimate drift from wind, current and ship's head",
+   "An engineer officer knowing where the plan is and what it says",
+   "Drill records and Log Book dates"
+  ],
+  "ready": [
+   "Loss of propulsion plan",
+   "Drill records",
+   "Bridge Log Book for the last twelve months",
+   "ICS BPG checklist C1",
+   "Any previous drift records for the ship"
+  ],
+  "traps": [
+   "No plan for loss of propulsion",
+   "Plan too generic",
+   "Navigation officer cannot explain how to estimate drift",
+   "Engineer does not know where the plan is or what is in it",
+   "Unrealistic drill, or drill overdue",
+   "Dates not matching the Log Book"
+  ],
+  "say": "If we lose propulsion, we check how near hazards are and plot our drift on the chart using wind, current and our ship's head. Where possible we position the wind to improve drift. The engine room team follows the plan to restore power, and we drill it on schedule.",
+  "practice": [
+   {
+    "q": "How do you estimate drift of a disabled ship?",
+    "a": [
+     "Plot rate and direction on a chart",
+     "Use wind, current and ship's head",
+     "Use any previous drift records"
+    ]
+   },
+   {
+    "q": "What can change drift if steering is lost?",
+    "a": [
+     "Giving the ship a list",
+     "Changing trim",
+     "Locking the rudder hard over to the downwind side"
+    ]
+   },
+   {
+    "q": "Where is the plan kept?",
+    "a": [
+     "Know where the plan is kept on board and what it says"
+    ]
+   }
+  ],
+  "tip": "Engineers: know where the plan is. Navigators: practise a drift plot on the ECDIS during drills.",
+  "refs": [
+   "ISM Code 8",
+   "IMO A.1072(28)",
+   "ICS BPG 5th ed",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.11",
+  "title": "Electrical power failure plan and drills",
+  "plain": "Do you know the blackout plan, and can officers explain recovery and estimate drift?",
+  "why": "With no power the ship loses steering, pumps and cargo safety systems, so recovery must be quick and practised.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ce"
+   ]
+  },
+  "checks": [
+   "The ship-specific plan for electrical power failure",
+   "Linked procedures: feeding back from the emergency switchboard and recovering after blackout",
+   "A navigation officer on estimating drift",
+   "An engineer officer on the plan and blackout recovery",
+   "Drill records and Log Book dates"
+  ],
+  "ready": [
+   "Power failure plan with engineering procedures it refers to",
+   "Drill records",
+   "Bridge Log Book for the last twelve months",
+   "ICS BPG checklist C3",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No plan for electrical power failure",
+   "Plan too generic",
+   "Navigator cannot estimate drift from wind, current and head",
+   "Engineer does not know location or content of the plan",
+   "Unrealistic drill, or drill overdue",
+   "Dates not matching the Log Book"
+  ],
+  "say": "Our plan covers blackout recovery and feeding the main board from the emergency switchboard. The engineers know the steps, and the bridge team knows how to estimate drift while we have no power. We drill it on schedule and record it.",
+  "practice": [
+   {
+    "q": "What procedures does your blackout plan refer to?",
+    "a": [
+     "Feeding back from emergency to main switchboard",
+     "Recovery after a blackout"
+    ]
+   },
+   {
+    "q": "How does the bridge team prepare for drift?",
+    "a": [
+     "Plot drift using wind, current and ship's head",
+     "Check distance to hazards"
+    ]
+   }
+  ],
+  "tip": "Make sure the drill date and time in the record match the Bridge Log Book entry.",
+  "refs": [
+   "ISM Code 8",
+   "IMO A.1072(28)",
+   "ICS BPG 5th ed",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.12",
+  "title": "Steering gear failure plan and drills",
+  "plain": "Do you know the steering failure plan, and can an officer operate the emergency steering?",
+  "why": "Loss of steering in confined water leads to grounding or collision, so emergency steering must work and be practised.",
+  "who": {
+   "lead": [
+    "2o",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ce"
+   ]
+  },
+  "checks": [
+   "The ship-specific steering gear failure plan",
+   "That the plan covers bridge control failure, single hydraulic or electrical failure and total failure",
+   "Drill records showing direct control testing from the steering gear compartment",
+   "An officer demonstrating emergency steering, communication and alternative power",
+   "A navigator explaining drift estimates"
+  ],
+  "ready": [
+   "Steering failure plan",
+   "Emergency steering drill records",
+   "Bridge Log Book for the last six months",
+   "Working emergency steering gear and communications",
+   "ICS BPG checklist C2"
+  ],
+  "traps": [
+   "Plan too generic for this ship",
+   "Officer cannot operate the emergency steering",
+   "Emergency steering gear defective",
+   "Drill did not include direct control",
+   "Navigator cannot estimate drift",
+   "Drill overdue or dates conflict with the Log Book"
+  ],
+  "say": "Emergency steering drills are done at least every three months, including direct control in the steering compartment, communication with the bridge and alternative power. I can demonstrate the operation if it is safe to do so.",
+  "practice": [
+   {
+    "q": "How often are emergency steering drills required?",
+    "a": [
+     "At least once every three months"
+    ]
+   },
+   {
+    "q": "What must the drill include?",
+    "a": [
+     "Direct control in the steering gear compartment",
+     "Communication with the bridge",
+     "Alternative power supplies, where fitted"
+    ]
+   },
+   {
+    "q": "If steering is lost but the engine works, what can you do?",
+    "a": [
+     "Lock the rudder in a fixed position",
+     "Use careful engine manoeuvres to control heading"
+    ]
+   }
+  ],
+  "tip": "Practise the bridge to steering compartment call using the actual phone or radio. Many failures happen at that link.",
+  "refs": [
+   "SOLAS V/26",
+   "ISM Code 8",
+   "ICS BPG 5th ed",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.13",
+  "title": "Emergency towing plan and Emergency Towing Booklet",
+  "plain": "Do officers know the Emergency Towing Booklet, where it is, and how to deploy the towing gear?",
+  "why": "If the ship is disabled and drifting towards danger, a quick and correct tow connection can prevent a casualty.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The ship-specific Emergency Towing Booklet (ETB)",
+   "Copies on the bridge, in a forecastle space and in the ship's office or cargo control room",
+   "Drill records and Log Book dates",
+   "A navigation and an engineer officer on where the ETB is and how towing gear is deployed"
+  ],
+  "ready": [
+   "Three copies of the ETB in the right places",
+   "Drill records for emergency towing",
+   "Bridge Log Book for the last twelve months",
+   "Towing equipment ready and known by crew",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No ETB on board",
+   "Copies missing from bridge, forecastle or office or CCR",
+   "Procedures not ship-specific",
+   "Officer does not know where the ETB is or how to deploy the gear",
+   "Unrealistic drill, or drill overdue",
+   "Dates not matching the Log Book"
+  ],
+  "say": "Our Emergency Towing Booklet is ship-specific, with rigging diagrams and safe working loads. There are copies on the bridge, in the forecastle and in the office. We drill towing and our officers know the deployment process.",
+  "practice": [
+   {
+    "q": "Where are your ETB copies kept?",
+    "a": [
+     "On the bridge",
+     "In a forecastle space",
+     "In the ship's office or cargo control room"
+    ]
+   },
+   {
+    "q": "What does the ETB contain?",
+    "a": [
+     "Decision matrix for scenarios",
+     "Crew and task organisation",
+     "Rigging diagrams, strong points and safe working loads",
+     "Communications plan for the towing ship"
+    ]
+   }
+  ],
+  "tip": "Walk the forecastle with the ETB in hand and check each strong point and fitting actually matches the drawing.",
+  "refs": [
+   "SOLAS II-1/3-4",
+   "MSC.1/Circ.1255",
+   "ISM Code 8",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.14",
+  "title": "Man overboard plan, rescue boat and drills",
+  "plain": "Do you know the man overboard plan and how to launch and recover the rescue boat, and are drills done?",
+  "why": "A person in the water has little time, and rescue boat accidents are a real danger if the crew is unfamiliar.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "co",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The man overboard plan",
+   "The ship-specific procedure for launching and recovering the rescue boat in a drill",
+   "Drill records for man overboard and rescue boat launching",
+   "A navigation officer explaining the rescue boat procedure",
+   "A rating explaining their role on the muster list in a man overboard"
+  ],
+  "ready": [
+   "Man overboard emergency plan",
+   "Rescue boat launching and recovery procedure",
+   "Drill records, both man overboard and rescue boat (can be done separately)",
+   "Bridge Log Book for the last six months",
+   "Company emails for any postponed drill"
+  ],
+  "traps": [
+   "No man overboard plan or rescue boat procedure",
+   "Procedures too generic",
+   "Officer cannot explain launching and recovery",
+   "Rating does not know their muster list role",
+   "Unrealistic drill, or drill overdue under company rules or SOLAS",
+   "Dates not matching the Log Book"
+  ],
+  "say": "Our man overboard plan and rescue boat procedure are ship-specific. The rescue boat is launched with its crew and manoeuvred in the water at least every three months, and monthly where reasonable. If we launch with headway, we do so in sheltered waters under an experienced officer.",
+  "practice": [
+   {
+    "q": "How often must the rescue boat be launched?",
+    "a": [
+     "Monthly as far as reasonable and practicable",
+     "At least once every three months in all cases"
+    ]
+   },
+   {
+    "q": "What is your role in a man overboard?",
+    "a": [
+     "Check the muster list",
+     "Explain your task clearly"
+    ]
+   },
+   {
+    "q": "When can you launch while the ship has headway?",
+    "a": [
+     "Only in sheltered waters",
+     "Under an experienced officer"
+    ]
+   }
+  ],
+  "tip": "Ratings are asked about the muster list, so have each person read their own line aloud during briefings.",
+  "refs": [
+   "SOLAS III/19",
+   "MSC.1/Circ.1206/Rev.1",
+   "IAMSAR Vol III",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.15",
+  "title": "Recovery of persons from the water",
+  "plain": "Do you know your plan for getting a person out of the water, and have you drilled it?",
+  "why": "Getting someone aboard is often harder than finding them, and the rescuers can be hurt without a plan.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The ship-specific plan for recovery of persons from the water",
+   "Drill records in the company format",
+   "Drill dates against the Log Book",
+   "A rating explaining the plan and their role"
+  ],
+  "ready": [
+   "Recovery from the water plan, naming the equipment to use",
+   "Drill records (can be combined with man overboard drills)",
+   "Bridge Log Book for the last twelve months",
+   "Company emails for any deferred drill"
+  ],
+  "traps": [
+   "No plan for recovery from the water, or too generic",
+   "Rating does not know their role",
+   "Officer cannot explain the plan",
+   "Drill scenario unrealistic",
+   "Records not in the company format, or dates not matching the Log Book",
+   "Drill overdue"
+  ],
+  "say": "Our plan names the equipment we will use and the limits for a safe recovery, such as freeboard, weather, waves and manoeuvrability. We drill it with man overboard drills, record it, and every rating knows their job.",
+  "practice": [
+   {
+    "q": "What conditions does your plan consider?",
+    "a": [
+     "Manoeuvrability and freeboard of the ship",
+     "Where casualties can be brought aboard",
+     "Crew, PPE and equipment limits",
+     "Wind, waves, swell and safety of navigation"
+    ]
+   },
+   {
+    "q": "What is your part in a recovery?",
+    "a": [
+     "Know your muster list role",
+     "Describe the equipment you would use"
+    ]
+   }
+  ],
+  "tip": "Add a recovery step to your normal man overboard drill so the crew practise both parts together.",
+  "refs": [
+   "SOLAS III/17-1",
+   "MSC.1/Circ.1447",
+   "ICS Recovery of persons guide",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.16",
+  "title": "Flooding plans and drills",
+  "plain": "Do you know the flooding plans for your ship and have you drilled them?",
+  "why": "Flooding, especially in the machinery space, can cause loss of buoyancy, power and pumps, and even loss of the ship.",
+  "who": {
+   "lead": [
+    "co",
+    "ce"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Ship-specific plans for machinery space, pump room (where fitted), forecastle and hull breach flooding",
+   "Drill records in the company format",
+   "Drill dates against the Log Book",
+   "Each flooding plan drilled in the last twelve months"
+  ],
+  "ready": [
+   "All flooding plans, ship-specific",
+   "Flooding drill records for the last twelve months",
+   "Bridge Log Book for the last twelve months",
+   "ICS BPG checklist C8",
+   "Company emails for any deferred drill"
+  ],
+  "traps": [
+   "A flooding plan is missing",
+   "Plans are not ship-specific",
+   "Officer unfamiliar with the plans",
+   "Unrealistic drill scenario",
+   "One flooding scenario not drilled in twelve months",
+   "Records not in the company format, or dates not matching the Log Book"
+  ],
+  "say": "We have plans for machinery space, pump room, forecastle and hull breach flooding. Each has been drilled in the last year. Machinery space flooding is the most urgent because we could lose power, pumps and buoyancy.",
+  "practice": [
+   {
+    "q": "Which flooding scenarios do you have plans for?",
+    "a": [
+     "Machinery space",
+     "Pump room (where fitted)",
+     "Forecastle space",
+     "Hull breach or failure"
+    ]
+   },
+   {
+    "q": "Why is machinery space flooding so serious?",
+    "a": [
+     "Loss of buoyancy",
+     "Loss of propulsion and power",
+     "Loss of bilge and fire pumps"
+    ]
+   }
+  ],
+  "tip": "Plan the drill schedule so every flooding scenario is drilled within twelve months.",
+  "refs": [
+   "ISM Code 8",
+   "IMO A.1072(28)",
+   "ICS BPG 5th ed",
+   "Peril at Sea 6th ed"
+  ]
+ },
+ {
+  "id": "5.1.17",
+  "title": "LNG bunkering emergency plans and drills",
+  "plain": "Do you know the emergency procedures for LNG bunkering, and have you drilled them?",
+  "why": "LNG leaks bring cold burns, gas cloud fire and jet fire risks, so the crew must act correctly from the first minute.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "co",
+    "3e"
+   ]
+  },
+  "checks": [
+   "The fuel handling manual for LNG bunkers and its emergency procedures",
+   "Whether the plans cover leak, gas detection, fire, mooring failure, venting and loss of power",
+   "Drill records in the company format",
+   "Whether all required scenarios were done on time"
+  ],
+  "ready": [
+   "LNG fuel handling manual with emergency procedures",
+   "Emergency plans if not inside the manual",
+   "LNG bunkering drill records",
+   "Bridge Log Book for the last twelve months",
+   "Details of any unusual actions, such as couplings that open and close the opposite way"
+  ],
+  "traps": [
+   "No fuel handling manual for LNG bunkers",
+   "Manual has no emergency procedures",
+   "Procedures not ship-specific",
+   "Officer unfamiliar with the emergency procedures",
+   "Drill scenarios not completed in the company time frame",
+   "Drill overdue, or records not in the company format"
+  ],
+  "say": "Our fuel handling manual has the emergency procedures for LNG bunkering. We drill them in line with the company schedule, sometimes with fire drills. Our crew know the actions that may feel unusual, such as how certain couplings operate.",
+  "practice": [
+   {
+    "q": "What situations does an LNG bunkering emergency plan cover?",
+    "a": [
+     "Leakage and spill",
+     "Gas detection and fire in the bunkering area",
+     "Unexpected ship movement or venting",
+     "Loss of power"
+    ]
+   },
+   {
+    "q": "What hazards are special to LNG?",
+    "a": [
+     "Cryogenic cold burns",
+     "Gas cloud fire, jet fire or pool fire"
+    ]
+   }
+  ],
+  "tip": "LNG bunkering exercises may be combined with other drills, such as fire drills, if the company schedule allows.",
+  "refs": [
+   "IGF Code 17 and 18",
+   "IACS Rec 142",
+   "ISM Code 8"
+  ]
+ },
+ {
+  "id": "5.1.18",
+  "title": "Cargo leak into double hull spaces",
+  "plain": "Do you know the procedure if cargo leaks into a double hull tank, and is the equipment ready?",
+  "why": "Cargo in a hull space can create an explosive atmosphere, damage structure and endanger people.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "The company procedure for a leak into a double hull tank",
+   "Equipment on deck: stowage, availability and condition",
+   "Whether the officer knows where the equipment is",
+   "Records of electrical continuity tests for inerting hoses"
+  ],
+  "ready": [
+   "Procedure covering ventilation, ballast fill, P/V valves, flame screens or a combination",
+   "Inventory of equipment, if available",
+   "Spool pieces, flexible inert gas hoses, P/V valves, flame screens, standpipes, portable fans",
+   "Continuity test records for dedicated inerting hoses",
+   "Steps to transfer cargo safely out of the ballast space"
+  ],
+  "traps": [
+   "No procedure for a cargo leak into a double hull tank",
+   "Officer does not know the procedure or where the equipment is",
+   "Equipment missing, badly stowed or defective",
+   "No dedicated inerting hoses where hull spaces have no fixed inert gas connection",
+   "No continuity test records for the hoses"
+  ],
+  "say": "Our procedure explains how to keep the hull space safe, by ventilation, ballast, P/V valves or flame screens, and how to move the cargo out. The equipment is stowed on deck and tested. The inerting hoses are dedicated and checked for electrical continuity.",
+  "practice": [
+   {
+    "q": "What options do you have to keep the hull tank atmosphere safe?",
+    "a": [
+     "Continuous ventilation",
+     "Fill or partly fill with ballast",
+     "P/V valves or vent valves with flame screens",
+     "A combination"
+    ]
+   },
+   {
+    "q": "What do you check on inerting hoses?",
+    "a": [
+     "They are dedicated to this use only",
+     "String is electrically continuous and earthed"
+    ]
+   },
+   {
+    "q": "First steps for a chemical tanker leak into a void?",
+    "a": [
+     "Identify product and risks",
+     "Clear non-essential people",
+     "Locate the leak and transfer cargo if possible",
+     "Notify authorities and company"
+    ]
+   }
+  ],
+  "tip": "Keep an equipment checklist with locations next to the procedure so the duty officer finds each item without searching.",
+  "refs": [
+   "ISGOTT 6 12.7",
+   "ICS Chemical Tanker Safety Guide 5th ed",
+   "SOLAS II-2/4",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.1.19",
+  "title": "OBO forward space emergency pumping",
+  "plain": "Can you pump out spaces forward of the collision bulkhead in a flood, and are controls marked and in good order?",
+  "why": "Flooding in the forward spaces of an OBO can threaten the ship, so pumping must be possible quickly.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure to pump out forward spaces, or the forecastle flooding plan",
+   "Bilge wells and suctions in forward spaces, clear and with gratings or strainers",
+   "Remote controls at the bridge, ECR or an enclosed space reachable without crossing exposed decks",
+   "An officer explaining valve sequence and pump start",
+   "Controls clearly marked"
+  ],
+  "ready": [
+   "Ship-specific pump-out procedure",
+   "Forecastle flooding emergency plan",
+   "Bilge wells clear of stores and rope",
+   "Remote controls accessible, marked and working",
+   "Notes on pumps or eductors, direct suctions and overboard valves"
+  ],
+  "traps": [
+   "No ship-specific procedure, or no forecastle flooding plan",
+   "Officer cannot explain valve sequence and pump start",
+   "Suction wells blocked by stores or ropes",
+   "No gratings or strainers on bilge wells",
+   "Remote controls not marked, not in the right location, or access blocked",
+   "Any defect in the arrangements"
+  ],
+  "say": "Our procedure for the forward spaces is part of the forecastle flooding plan. I can explain the valves to open and the pump to start. The remote controls are marked and reachable from the bridge side without crossing exposed decks.",
+  "practice": [
+   {
+    "q": "How would you pump out the forward spaces in an emergency?",
+    "a": [
+     "Open the correct valves in sequence",
+     "Start the correct pump",
+     "Use the remote controls provided"
+    ]
+   },
+   {
+    "q": "Where must the remote controls be?",
+    "a": [
+     "Bridge, engine control room or an enclosed space reachable from them",
+     "Reachable without crossing exposed freeboard or superstructure decks"
+    ]
+   }
+  ],
+  "tip": "Walk through the plan in the forward spaces: check wells are clear and controls are marked. Source says this applies to OBO and ore/oil ships only.",
+  "refs": [
+   "SOLAS XII/13",
+   "IACS UI SC 179",
+   "ISM Code 6"
+  ]
+ },
+ {
+  "id": "5.2.1",
+  "title": "Emergency fire pump",
+  "plain": "Can crew start the emergency fire pump, and is it tested and its location kept clear?",
+  "why": "If a machinery space fire takes out the main fire pumps, the emergency fire pump is the water supply.",
+  "who": {
+   "lead": [
+    "2e",
+    "3e"
+   ],
+   "also": [
+    "ce",
+    "co",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure and ship-specific starting instructions posted beside the pump",
+   "Access to the pump space: airlock doors closed, second access not locked",
+   "Inlet and outlet valves marked and open",
+   "Witness a start and see required pressure through anchor washes or another outlet",
+   "Diesel engine fuel level and quick closing valve, and test records"
+  ],
+  "ready": [
+   "Clear starting instructions in the ship's working language beside the pump",
+   "Maintenance and test records, including diesel engine and fuel quick closing valve",
+   "Enough fuel in the tank for 3 hours, plus 15 hours more available outside the space",
+   "Marked fuel closing devices",
+   "Sub-zero fuel if trading in cold areas"
+  ],
+  "traps": [
+   "No company procedure, or no posted starting instructions",
+   "Airlock door held open, or second door locked",
+   "Engine does not start within three attempts",
+   "Pump does not reach pressure or flow without extra manual steps",
+   "Leaks, defects or closed valves where pump is remote",
+   "Less than 3 hours fuel in tank, or under 18 hours total",
+   "Records missing"
+  ],
+  "say": "Starting instructions are posted at the pump for anyone who might need them. We test it regularly and keep records, including the quick closing valve. The access doors stay closed and the second access is never locked. Fuel is kept for the required running time.",
+  "practice": [
+   {
+    "q": "How do you start the emergency fire pump?",
+    "a": [
+     "Follow the posted ship-specific steps",
+     "Check fuel and valves are set",
+     "Know the manual starting method too"
+    ]
+   },
+   {
+    "q": "What fuel must be available?",
+    "a": [
+     "Enough in the tank for 3 hours",
+     "Enough in total for 18 hours (3 + 15)"
+    ]
+   },
+   {
+    "q": "What do you check at the pump space?",
+    "a": [
+     "Airlock doors closed and not held open",
+     "Second access not locked",
+     "Suction and discharge valves open and marked"
+    ]
+   }
+  ],
+  "tip": "Let a deck rating start the pump with instructions at the next test. The source says the posted steps are for non-engineers.",
+  "refs": [
+   "SOLAS II-2/10",
+   "FSS Code 12",
+   "MSC.1/Circ.1432",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.2",
+  "title": "Fire dampers and ventilation stops",
+  "plain": "Do you know where the fire dampers, ventilation closing devices and remote fan stops are, and do they work?",
+  "why": "Shutting off air and fans from outside a space is how you starve a fire and stop it spreading.",
+  "who": {
+   "lead": [
+    "3o",
+    "2e"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "List of closing devices for ventilation inlets and outlets and their required position during cargo operations",
+   "A sample of closing devices: free to operate, marked with the space served and open/shut",
+   "Remote fan stops for accommodation and machinery spaces, clearly identified",
+   "Maintenance plan and test records for dampers, skylights and fan stops",
+   "An officer and a rating explaining location, purpose and operation"
+  ],
+  "ready": [
+   "Ship-specific list of closing devices with required port and cargo-operation status",
+   "Dampers, skylights and closing devices free, sealed and clear of obstruction",
+   "Markings for space served, open/shut, warning notices (for example battery lockers) and cargo-time position",
+   "Maintenance plan including dampers, skylights, closing devices and fan stops",
+   "Test records for fire dampers: quarterly local and annual remote tests"
+  ],
+  "traps": [
+   "Crew do not know location, purpose or operation",
+   "Closing devices seized or ineffective: corroded, worn gaskets, seized dogs",
+   "Missing marks for space, open/shut, warning notice or cargo-time position",
+   "Access to closing devices or fan stops blocked",
+   "Remote closing devices stopped from closing fully by obstructions",
+   "Maintenance plan missing these items, or records incomplete or not matching reality"
+  ],
+  "say": "We keep a list of every ventilation closing device and its required position during cargo operations. Each is marked with its space and open or shut position. Fire dampers are tested locally every quarter and remotely every year, and records are kept.",
+  "practice": [
+   {
+    "q": "How do you stop the fans for the accommodation or machinery space?",
+    "a": [
+     "Use the remote stops, outside the space",
+     "Machinery space fans have separate stops from other spaces"
+    ]
+   },
+   {
+    "q": "What position should a ventilation closing device be in during cargo operations?",
+    "a": [
+     "Check the ship's list",
+     "Marked on the device itself"
+    ]
+   },
+   {
+    "q": "How often are fire dampers tested?",
+    "a": [
+     "Quarterly for local operation",
+     "Annually for remote operation"
+    ]
+   }
+  ],
+  "tip": "Walk the deck with the list during routine checks: if a damper cannot move freely by hand, it will not close in a fire.",
+  "refs": [
+   "SOLAS II-2/5",
+   "MSC.1/Circ.1432",
+   "MSC.1/Circ.1434",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.3",
+  "title": "Fixed fire detection and alarm system",
+  "plain": "Do officers know the fire detection and alarm system, and is it working, tested and maintained?",
+  "why": "Early detection and a clear alarm give people time to escape and fight the fire.",
+  "who": {
+   "lead": [
+    "eto",
+    "2e"
+   ],
+   "also": [
+    "3o",
+    "master",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, testing and maintenance",
+   "Central panel: system working, no faults, zone information displayed, all zones and detectors active",
+   "Test and calibration records, and the Engine Room Logbook",
+   "Correct test equipment for each type of detector",
+   "Any delay programmed into the alarm, and whether machinery spaces were unattended with a zone isolated or defective"
+  ],
+  "ready": [
+   "Company procedure and manufacturer's manual",
+   "Weekly, monthly and annual test records, including detector tests and output signal tests",
+   "Test equipment suited to each detector type",
+   "Information next to each panel about spaces and sections",
+   "Emergency power supply check records",
+   "Spare parts and instructions for testing"
+  ],
+  "traps": [
+   "No company procedure for the system",
+   "Panel showing a fault, or system not working",
+   "A detector covered or disabled",
+   "Machinery space unattended while a zone was isolated or the system was defective",
+   "Delay between detection and alarm where panel space is not manned",
+   "No suitable detector test equipment, or no zone information at panel",
+   "Records incomplete, or actions in plan not actually done"
+  ],
+  "say": "The system is fully active with no faults. Detectors are tested at the set frequency using the right equipment for each type. If a zone must be isolated for work, it is documented and the machinery space is not run unattended. I know of any programmed alarm delay.",
+  "practice": [
+   {
+    "q": "What would you do if the system shows a fault?",
+    "a": [
+     "Report and repair it",
+     "Do not run the machinery space unattended while defective",
+     "Use alternative arrangements such as patrols"
+    ]
+   },
+   {
+    "q": "How are different detectors tested?",
+    "a": [
+     "Using the proper test device for each type",
+     "At the frequency in the company procedure"
+    ]
+   },
+   {
+    "q": "What does the alarm system test include?",
+    "a": [
+     "Detectors",
+     "Output signals to other fire safety systems",
+     "Bridge audible and visual alarms",
+     "Emergency power supply"
+    ]
+   }
+  ],
+  "tip": "Keep a spare set of the right test devices and a zone list at the panel, not only in the office.",
+  "refs": [
+   "SOLAS II-2/7",
+   "FSS Code",
+   "MSC.1/Circ.1432",
+   "ISGOTT 6 5.8"
+  ]
+ },
+ {
+  "id": "5.2.4",
+  "title": "Machinery space fixed CO2 system",
+  "plain": "Do officers know the CO2 system and how to release it, and are instructions posted and the system ready?",
+  "why": "CO2 is the last defence for a machinery space fire, and it is also deadly to anyone who enters the space unsafely.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "co",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Safe entry instructions posted at each entrance to the CO2 room",
+   "Release station: procedure, instructions and warning notices posted",
+   "CO2 bottle room and cabinets, with keys provided if locked",
+   "Inspection and service data and maintenance plan records",
+   "An officer explaining purpose and operation, including whether the pins should be in or out"
+  ],
+  "ready": [
+   "Safe entry notice: start ventilation, wait a set time, use gas monitor, notify entry and exit",
+   "Release instructions and warnings at control stations",
+   "Break-glass key box next to locked doors",
+   "Maintenance plan including the CO2 system: monthly, annual, survey-time work",
+   "No blanked branch pipes, inhibited nozzles or levers"
+  ],
+  "traps": [
+   "No safe entry procedure posted at the CO2 room entrance",
+   "Officer does not know the entry precautions or system operation",
+   "Room or cabinets locked with no keys",
+   "Release procedure and warnings not posted at the release station",
+   "Maintenance plan missing the system, or records incomplete or not real",
+   "System defective, or not ready for immediate use"
+  ],
+  "say": "Safe entry rules are at each entrance: ventilate, wait, use a personal gas monitor and report entry and exit. The release steps are displayed at the release station. I know the pins are either in or out depending on the manufacturer's instructions.",
+  "practice": [
+   {
+    "q": "How do you release the CO2?",
+    "a": [
+     "Follow the posted instructions",
+     "Make sure the space is evacuated and sealed",
+     "Pre-release alarm gives people time to leave"
+    ]
+   },
+   {
+    "q": "How do you enter the CO2 room safely?",
+    "a": [
+     "Start the ventilation fan",
+     "Wait the set time",
+     "Use a personal gas monitor",
+     "Tell someone on entry and exit"
+    ]
+   },
+   {
+    "q": "Are the pins in or out when the system is ready?",
+    "a": [
+     "It depends on the system",
+     "Check the manufacturer's instructions"
+    ]
+   }
+  ],
+  "tip": "The inspector will ask whether the pins stay in or out. Know the answer for your system from the maker's manual.",
+  "refs": [
+   "SOLAS II-2/10",
+   "FSS Code 5",
+   "MSC.1/Circ.1318",
+   "ISGOTT 6 5.3"
+  ]
+ },
+ {
+  "id": "5.2.5",
+  "title": "Machinery space high-expansion foam system",
+  "plain": "Do officers know the high-expansion foam system, and is it ready with foam in date and instructions posted?",
+  "why": "If the foam is out of date, wrong for the cargo or the controls are unclear, the system may fail when needed.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e",
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Operating instructions in the ship's working language posted near the control station",
+   "Valves clearly identified with standby and operating status",
+   "Foam concentrate annual test certificate showing it is fit for use, and foam tank at the right level",
+   "Foam compatible with the cargo if it also protects the pump room",
+   "Maintenance records, including five-yearly proportioner tests"
+  ],
+  "ready": [
+   "Posted instructions and warnings at the release station",
+   "Foam test certificates: first test within 3 years of manufacture, then yearly",
+   "Protein-based alcohol-resistant foam stability test before delivery and each year",
+   "System manual showing foam quantity needed",
+   "Maintenance plan: monthly, quarterly, annual and five-year tasks",
+   "Breathing apparatus rule for re-entry after discharge"
+  ],
+  "traps": [
+   "Release instructions not posted in the working language",
+   "Valves not identified, or required position not shown",
+   "Foam concentrate test overdue, or certificate says unfit",
+   "Foam not compatible with the cargo carried for a pump room system",
+   "Foam proportioners not tested at five-year service",
+   "Plan incomplete, records missing or not true, or system defective"
+  ],
+  "say": "Operating instructions are posted in our working language and the valves are marked with standby and operating status. Foam concentrate is tested annually and the certificate is on file. Anyone re-entering after a discharge wears breathing apparatus.",
+  "practice": [
+   {
+    "q": "How often is the foam tested?",
+    "a": [
+     "First test not more than 3 years after manufacture",
+     "Every year after that"
+    ]
+   },
+   {
+    "q": "Why wear breathing apparatus after discharge?",
+    "a": [
+     "Oxygen-deficient air",
+     "Products of combustion in the foam blanket"
+    ]
+   },
+   {
+    "q": "What if the system also covers the pump room?",
+    "a": [
+     "Foam must suit the cargoes carried",
+     "Certified as compatible"
+    ]
+   }
+  ],
+  "tip": "Photograph the foam tank level gauge and test certificate dates and keep them with the maintenance record.",
+  "refs": [
+   "FSS Code 6",
+   "MSC.1/Circ.1432",
+   "MSC.1/Circ.1312",
+   "ISGOTT 6 5.3"
+  ]
+ },
+ {
+  "id": "5.2.6",
+  "title": "Machinery space water-spray or water mist system",
+  "plain": "Do officers know the fixed water-spray or water mist system, and is it ready with correct pressure and posted instructions?",
+  "why": "These systems cool and smother machinery space fires, and poor water quality or wrong valve settings can stop them working.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e",
+    "eto",
+    "master"
+   ]
+  },
+  "checks": [
+   "Operating instructions in the ship's working language posted at control stations",
+   "Valves clearly identified, standby and operating status shown",
+   "System at the correct pressure with inlet and outlet valves correctly set",
+   "Maintenance records including quarterly water quality checks",
+   "An officer explaining the purpose and operation"
+  ],
+  "ready": [
+   "Posted release procedure and warning notices",
+   "Weekly, monthly, annual, five-year and ten-year maintenance records",
+   "Ten-year servicing including hydrostatic test and internal examination of pressure cylinders",
+   "Quarterly water quality records meeting the maker's guidelines",
+   "Maintenance plan that includes the system"
+  ],
+  "traps": [
+   "Instructions not posted in the working language",
+   "Valves or controls not marked with purpose and required status",
+   "No quarterly water quality records, or records outside the maker's limits",
+   "Maintenance plan missing the system, or incomplete",
+   "Officer unfamiliar with the system",
+   "System defective, or records do not match what was done"
+  ],
+  "say": "Instructions are posted at the release stations in our working language and valves are marked. We keep the system at the correct pressure and check water quality every quarter against the maker's guidance. The plan covers weekly to ten-yearly tasks.",
+  "practice": [
+   {
+    "q": "How do you operate the system?",
+    "a": [
+     "Follow the posted steps",
+     "Check valves are set as required",
+     "Know where release controls are, outside the space"
+    ]
+   },
+   {
+    "q": "What water checks are required?",
+    "a": [
+     "Quarterly water quality assessments",
+     "Records kept against maker's guidelines"
+    ]
+   }
+  ],
+  "tip": "Put the quarterly water quality check on the PMS as its own job so it is not lost inside a larger task.",
+  "refs": [
+   "SOLAS II-2/10",
+   "FSS Code",
+   "MSC.1/Circ.1432 and 1516",
+   "MSC/Circ.1165"
+  ]
+ },
+ {
+  "id": "5.2.7",
+  "title": "Fire pumps, fire main, isolating valves and hydrants",
+  "plain": "Do officers know the fire pumps, fire main, isolating valves and hydrants, and do they all work?",
+  "why": "Water on deck and in the machinery space is the first firefighting tool, so any weak pipe or stuck valve is a risk.",
+  "who": {
+   "lead": [
+    "2e",
+    "co"
+   ],
+   "also": [
+    "3o",
+    "3e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Remote start of a fire pump from the bridge or fire control station, with pressure held at an outlet",
+   "Deck fire main, especially underneath, for corrosion, patching or rope wear",
+   "Pump suction and delivery valves open",
+   "Hydrants and isolating valves moved by hand to see they work freely",
+   "Officer explaining pump start, isolating valves and the drain point"
+  ],
+  "ready": [
+   "Pressure indication on the bridge or fire control station",
+   "Isolating valves and hydrants clearly marked and moving freely",
+   "Fire main in good condition, no hard rust or temporary repairs",
+   "Plan for sub-zero conditions so the system stays ready",
+   "Maintenance records: monthly, quarterly and annual checks"
+  ],
+  "traps": [
+   "Fire pump cannot be started remotely from the bridge or fire control station",
+   "No way to read fire main pressure on the bridge or at the fire control station",
+   "Hydrant or isolating valves stiff, closed or unmarked",
+   "Hard rust, patches or temporary repairs on fire main",
+   "Pump suction or delivery valve closed",
+   "Officer cannot explain pump start, isolation valves or drain point",
+   "Records incomplete or not matching actual condition"
+  ],
+  "say": "We can start a fire pump from the bridge and see the pressure at the outlet. Isolating valves and hydrants move freely and are marked. I know where the deck fire main drain is, and our plan covers sub-zero conditions.",
+  "practice": [
+   {
+    "q": "How do you start a fire pump remotely?",
+    "a": [
+     "From the bridge or fire control station",
+     "Check it reaches and keeps pressure"
+    ]
+   },
+   {
+    "q": "Where are isolating valves fitted on a tanker?",
+    "a": [
+     "On the tank deck at intervals not more than 40 m",
+     "At the poop front in a protected position"
+    ]
+   },
+   {
+    "q": "What is the drain point for?",
+    "a": [
+     "Draining the deck fire main",
+     "Avoids freezing damage"
+    ]
+   }
+  ],
+  "tip": "On deck rounds, try a hydrant and an isolating valve and note the location, so over time you cover the whole system.",
+  "refs": [
+   "SOLAS II-2/10",
+   "MSC.1/Circ.1432",
+   "ISGOTT 6 5.3",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.8",
+  "title": "Galley fire systems and fire prevention",
+  "plain": "Do galley staff know the fire extinguishing equipment, and are ranges, vents and filters free of grease?",
+  "why": "Most galley fires start from grease build-up, and galley staff are the first people on scene.",
+  "who": {
+   "lead": [
+    "ratings",
+    "master"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Galley ranges, grease traps, flue pipes and vent filter cowls free of fat",
+   "Fixed system for deep fat fryers: serviced, nozzles clean, blow-out caps fitted if needed",
+   "Fire dampers and fan stop points marked and free to operate",
+   "Portable extinguishers and fire blankets stowed and not blocked",
+   "Fire doors and serving hatch shutters free to close, detectors not disabled",
+   "A galley crew member explaining the extinguishing system, portable equipment or ventilation stops"
+  ],
+  "ready": [
+   "Posted instructions for the galley fixed extinguishing system",
+   "Procedure for inspection and cleaning of ranges, flues and filters, with records",
+   "Maintenance plan including galley systems, dampers and fan stops",
+   "Fixed system service records",
+   "Rule that no deep fat frying is done without a fixed extinguishing system"
+  ],
+  "traps": [
+   "No posted instructions for the fixed system",
+   "Galley staff cannot explain the equipment",
+   "Grease on ranges, traps, flues, nozzles, detector heads or filter cowls",
+   "Deep fat frying in open pans or a fryer with no fixed system",
+   "Fire doors or serving hatch shutters held open",
+   "Extinguishers blocked or missing",
+   "Plan or records incomplete, or fixed system defective"
+  ],
+  "say": "The galley is cleaned on a schedule, including the filters and flues. The fryer has a fixed extinguishing system with posted instructions, and I know how it works. Extinguishers and the fire blanket are in place, and no flames are used in port at a petroleum berth.",
+  "practice": [
+   {
+    "q": "What do you do if the fryer catches fire?",
+    "a": [
+     "Use the fixed system as posted",
+     "Raise the alarm",
+     "Shut off power and stop the fans"
+    ]
+   },
+   {
+    "q": "How do you stop galley ventilation?",
+    "a": [
+     "Use the fan stop point in or near the galley",
+     "Close fire dampers"
+    ]
+   },
+   {
+    "q": "What cleaning must be done?",
+    "a": [
+     "Ranges, flues and grease traps",
+     "Filter cowls on vents"
+    ]
+   }
+  ],
+  "tip": "Ask the cook to show the inspector the fryer system release. Galley staff who can explain it simply make a strong impression.",
+  "refs": [
+   "SOLAS II-2/9 and II-2/10",
+   "MSC.1/Circ.1432",
+   "MSC.1/Circ.1433",
+   "ISGOTT 6 4.10.9"
+  ]
+ },
+ {
+  "id": "5.2.9",
+  "title": "Deck water-spray system (gas carriers)",
+  "plain": "Do officers know the deck water-spray system for cooling and crew protection, and is it clear, tested and maintained?",
+  "why": "The water spray keeps tanks, manifolds and accommodation cool in a cargo area fire, and clogged nozzles or corroded pipes can stop it.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "2e",
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Remote controls, with operating instructions posted and valves marked and set",
+   "Piping, especially underneath, for corrosion or patching",
+   "A sample of nozzles for clogging",
+   "Isolating and stop valves moved by hand",
+   "Officer explaining pump start, isolating valves and the deck drain point"
+  ],
+  "ready": [
+   "Posted instructions at the control station, with access clear",
+   "Maintenance plan including the water-spray system",
+   "Records of weekly, monthly, annual and five-year tasks",
+   "Records of removing orifice plates and end caps and flushing debris",
+   "Cleaning of in-line filters, fresh water flushing and drying"
+  ],
+  "traps": [
+   "Officer unfamiliar with location, purpose or operation",
+   "Instructions not posted, or access to controls blocked",
+   "Valves or controls not marked or set properly",
+   "Stop or isolating valves stiff or unmarked",
+   "Clogged nozzles",
+   "Hard rust or temporary repairs on pipework",
+   "No proof that orifice plates and end caps were removed and the system flushed",
+   "Plan or records incomplete or not true"
+  ],
+  "say": "The water-spray controls are clear with posted instructions. We test it and flush the pipework, removing orifice plates and end caps to clear scale. I know how to start the pumps and where the isolating valves and drain points are.",
+  "practice": [
+   {
+    "q": "What does the system protect?",
+    "a": [
+     "Cargo tank domes and exposed parts",
+     "Manifolds and ESD valves",
+     "Accommodation and bridge boundaries facing cargo area",
+     "Lifeboats, liferafts and muster stations facing the cargo area"
+    ]
+   },
+   {
+    "q": "What maintenance do you do?",
+    "a": [
+     "Remove orifice plates and end caps and flush debris",
+     "Clean in-line filters",
+     "Flush with fresh water and dry"
+    ]
+   }
+  ],
+  "tip": "After each fresh water flush, drain and dry the pipework and note it in the PMS so the inspector sees it was done.",
+  "refs": [
+   "IGC Code 11.3",
+   "MSC.1/Circ.1432",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.10",
+  "title": "Fixed fire system in cargo handling spaces (gas carriers)",
+  "plain": "Do officers know the fixed fire system in the compressor or cargo machinery rooms, and is it ready with notices posted?",
+  "why": "This system protects enclosed cargo machinery spaces, and the gas is dangerous if anyone is still inside or enters unsafely.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company procedure with description, operating instructions and maintenance plan",
+   "Bottle space safe entry notice at each entrance",
+   "Notice at each protected room entrance saying a fixed system protects it",
+   "Release station: instructions and warnings posted, keys available if locked",
+   "Maintenance and inspection records, and officer's knowledge, including pins in or out"
+  ],
+  "ready": [
+   "Procedure for operation, inspection and maintenance (may be in the cargo manual)",
+   "Entry instructions: start fan, wait, personal gas monitor, tell the OOW on entry and exit",
+   "Break-glass key box at locked doors",
+   "Notice at CO2 controls: for firefighting only, not inerting, due to static risk",
+   "Records of maintenance",
+   "Nothing blanked or inhibited"
+  ],
+  "traps": [
+   "No company procedure with description, instructions and plan",
+   "No safe entry procedure posted at bottle space doors",
+   "Room entrances not marked as protected by a fixed system",
+   "Doors locked with no keys",
+   "Instructions and warnings not posted at the release station",
+   "System not ready: blanked pipes, inhibited nozzles or levers",
+   "Officer unfamiliar with operation or entry precautions",
+   "Records incomplete, or system defective"
+  ],
+  "say": "The entrances to our compressor and motor rooms are marked as protected by a fixed system. Release instructions and warnings are posted. Before entering the bottle space we ventilate, wait, carry a gas monitor and tell the OOW. CO2 is used only for firefighting, never for inerting.",
+  "practice": [
+   {
+    "q": "What must you do before entering the bottle space?",
+    "a": [
+     "Start the ventilation fan",
+     "Wait the set time",
+     "Use a personal gas monitor",
+     "Notify the OOW of entry and exit"
+    ]
+   },
+   {
+    "q": "Why can CO2 not be used for inerting?",
+    "a": [
+     "Electrostatic ignition hazard",
+     "A notice at the controls says this"
+    ]
+   },
+   {
+    "q": "What is a key concern before release?",
+    "a": [
+     "Everyone must evacuate the space first",
+     "The system is single shot, so be sure there is fire"
+    ]
+   }
+  ],
+  "tip": "Know whether your system uses CO2 or a clean agent. The source says either is possible.",
+  "refs": [
+   "IGC Code",
+   "FSS Code",
+   "MSC.1/Circ.1318",
+   "SIGTTO Handling Principles 4th ed"
+  ]
+ },
+ {
+  "id": "5.2.11",
+  "title": "Fixed dry chemical powder system (gas carriers)",
+  "plain": "Do officers know the deck dry powder system, and is it ready with instructions posted and checks done?",
+  "why": "Dry powder is the main tool against gas fires at manifolds and on deck, and caked or wet powder will not work.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "System components and controls in the cargo area",
+   "Operating instructions posted near controls, in the working language",
+   "Valves and controls marked as in the instructions",
+   "Inspection and servicing data at control stations",
+   "Records for annual nitrogen agitation and two-yearly moisture test",
+   "Officer explaining purpose and operation"
+  ],
+  "ready": [
+   "Instructions at each operating station",
+   "Monthly pressure gauge checks in range",
+   "Annual agitation of the powder",
+   "Two-yearly moisture test of a powder sample",
+   "Ten-yearly hydrostatic or non-destructive test of powder containers",
+   "Maintenance plan including the system"
+  ],
+  "traps": [
+   "Instructions not posted in the working language at each station",
+   "Controls and valves not marked as per instructions",
+   "Officer unfamiliar with the system or the maintenance plan",
+   "Annual agitation or two-yearly moisture test records missing",
+   "Plan missing the system or required checks",
+   "Records not matching what was really done, or system defective"
+  ],
+  "say": "Operating instructions are at every station in our working language and valves are marked. We check pressure monthly, agitate the powder with nitrogen yearly and test a sample for moisture every two years. I can explain how to operate it.",
+  "practice": [
+   {
+    "q": "How do you use the system?",
+    "a": [
+     "Follow the posted instructions",
+     "Know the controls and valves",
+     "Monitors and hand hoses can be used"
+    ]
+   },
+   {
+    "q": "What periodic checks are needed?",
+    "a": [
+     "Monthly gauge check",
+     "Annual agitation by nitrogen",
+     "Two-yearly moisture sample test",
+     "Ten-yearly container test"
+    ]
+   }
+  ],
+  "tip": "Put the yearly agitation and two-yearly moisture sample into the PMS so they cannot be missed.",
+  "refs": [
+   "IGC Code 11.4",
+   "MSC.1/Circ.1315",
+   "MSC.1/Circ.1432",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.12",
+  "title": "Paint locker fixed fire system",
+  "plain": "Do officers know the fixed fire system in the paint locker and other flammable liquid lockers, and is paint stored safely?",
+  "why": "Paint and thinners burn fiercely, so the locker system and safe storage keep a small fire from becoming a big one.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Release instructions posted outside the locker",
+   "Ventilation fan controls and closing devices marked",
+   "Where a portable extinguisher is used instead, the inlet port is marked",
+   "CO2 system: warning sign against using it for inerting",
+   "Seawater spray system: nozzles free of salt, stores not stacked above nozzle height"
+  ],
+  "ready": [
+   "Company procedure for paint and flammable liquid storage, including where to store extra paint during maintenance",
+   "Paints kept only in closed containers",
+   "Maintenance plan covering the locker system, with records",
+   "Clear access to the system controls",
+   "Cargo sample lockers in the cargo area are not covered by the same SOLAS requirement"
+  ],
+  "traps": [
+   "No instructions posted outside the locker",
+   "Officer unfamiliar with the system",
+   "Paint or flammables stored in a place not made for them",
+   "Paint in open containers",
+   "Tins stacked above the water spray nozzles",
+   "Access to controls blocked",
+   "Plan or records incomplete, or system defective"
+  ],
+  "say": "Paints are stored only in closed containers in the paint locker. Release instructions are posted outside, and the controls are clear. We keep stock below the spray nozzle level and check the nozzles for salt build-up.",
+  "practice": [
+   {
+    "q": "How do you release the system?",
+    "a": [
+     "Follow the instructions posted outside the space",
+     "Operate from outside the locker"
+    ]
+   },
+   {
+    "q": "What storage rules apply?",
+    "a": [
+     "Closed containers only",
+     "Designated lockers, with a company plan for overflow stores"
+    ]
+   },
+   {
+    "q": "What must not be done with a CO2 system?",
+    "a": [
+     "Do not use CO2 to inert the space (static ignition hazard)",
+     "A sign warns of this"
+    ]
+   }
+  ],
+  "tip": "During a riding-team maintenance period, plan paint storage in advance so stock never ends up outside the locker.",
+  "refs": [
+   "SOLAS II-2/10.6.3",
+   "IACS UI SC199",
+   "IACS UI SC201",
+   "ISGOTT 6 13.2"
+  ]
+ },
+ {
+  "id": "5.2.13",
+  "title": "Machinery space local application fire-fighting system",
+  "plain": "Do officers know the local water-based fire system in the engine room, and is it ready in the right mode?",
+  "why": "This system fights a fire at the source without stopping the engine, so it must be armed correctly, especially when the engine room is unattended.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "ce",
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure on when to set automatic release mode, including unattended operation",
+   "Instructions posted at control stations in the ship's working language",
+   "Water supply valves and manual branch valves open and marked or colour coded",
+   "Dedicated tank has a low-level alarm or marked minimum level",
+   "Control panel powered and set to automatic or remote, local release stations marked, detectors active"
+  ],
+  "ready": [
+   "Procedure for automatic and manual release modes",
+   "Posted operating instructions",
+   "Valve and zone marking",
+   "Remote panels in the wheelhouse powered on",
+   "Maintenance records for weekly to ten-yearly checks",
+   "Plan including the system"
+  ],
+  "traps": [
+   "No company procedure on automatic release mode",
+   "Officer unsure of the required mode or operation",
+   "Instructions not posted in the working language",
+   "System in manual mode while the machinery space is unattended",
+   "Supply or branch valves closed",
+   "Tank low-level alarm missing or minimum level not marked",
+   "Detectors deactivated",
+   "Records incomplete, or system defective"
+  ],
+  "say": "Our procedure says when the system must be in automatic mode, always when the engine room is unattended. Instructions are posted, valves are open and marked, and the tank level is monitored. I know the release mode for both attended and unattended operation.",
+  "practice": [
+   {
+    "q": "What mode must the system be in when the engine room is unattended?",
+    "a": [
+     "The mode set by company procedure",
+     "Manual-only release is not acceptable when unattended"
+    ]
+   },
+   {
+    "q": "What do you check at the system?",
+    "a": [
+     "Water supply and branch valves open",
+     "Tank level alarm or marked level",
+     "Control panel powered and set correctly",
+     "Detectors active"
+    ]
+   }
+  ],
+  "tip": "Add the release mode to the UMS handover checklist so it is checked every time the engine room goes unattended.",
+  "refs": [
+   "SOLAS II-2/10.5.6",
+   "MSC.1/Circ.1387",
+   "MSC.1/Circ.1432 and 1516",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.14",
+  "title": "Pump temperature sensors in the pump room",
+  "plain": "Do officers know why pump temperature sensors are fitted, and are alarms set, tested and records kept?",
+  "why": "A hot bearing or seal in a pump room can ignite cargo vapour, so early warning and correct alarm settings prevent fire.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for operating, checking and testing the temperature sensing system",
+   "The monitoring panel: working, no faults, similar pumps showing similar readings, alarm settings displayed",
+   "Records of temperatures for pumps in operation",
+   "A demonstration of one alarm set point if safe",
+   "In the pump room: sensors connected, no temporary cooling, no mechanical seal leaks"
+  ],
+  "ready": [
+   "Company procedure covering recording, alarm actions, accuracy checks and set points",
+   "Readings records for bulkhead glands, bearings and casings of cargo, ballast and stripping pumps",
+   "Maker's manual and test records",
+   "Alarm set points confirmed, within company limit",
+   "Record of who can change alarm set points, and when",
+   "Audible and visual alarm test records"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer does not know the alarm settings or what to do on a high temperature alarm",
+   "No temperature records for pumps in operation",
+   "Sensors not checked or alarms not tested at the set frequency",
+   "Sensor out of service or disconnected",
+   "Alarm set higher than company limit allows",
+   "Temporary cooling on pump bearings",
+   "Seal leaking liquid or mist"
+  ],
+  "say": "We record temperatures of glands, bearings and casings while pumps run. Alarm settings are displayed and within our company limit. We check sensor accuracy and test the alarms at the set frequency. A high temperature alarm means we stop the pump and investigate.",
+  "practice": [
+   {
+    "q": "What do you do on a high temperature alarm?",
+    "a": [
+     "Follow the company procedure",
+     "Stop the pump and investigate",
+     "Do not use temporary cooling"
+    ]
+   },
+   {
+    "q": "Where are sensors fitted?",
+    "a": [
+     "Bulkhead shaft glands",
+     "Bearings",
+     "Pump casings"
+    ]
+   },
+   {
+    "q": "Which pumps are covered?",
+    "a": [
+     "Cargo pumps including slop pumps",
+     "Ballast pumps, stripping pumps and tank cleaning pumps (in the pump room, driven through bulkheads)"
+    ]
+   }
+  ],
+  "tip": "If the panel is only in the engine room, make sure the cargo watch officer knows the alarm indication in the CCR and records readings. Applies to ships with a pump room only.",
+  "refs": [
+   "SOLAS II-2/4.5.10",
+   "MSC.1/Circ.1321",
+   "ISGOTT 6 12.1",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.2.15",
+  "title": "Deck foam system and portable applicators",
+  "plain": "Do officers and ratings know how to use the deck foam system, monitors and applicators, and is it ready?",
+  "why": "Deck foam is the main weapon against spill fires and tank fires, and wrong connections or bad foam waste the first minutes.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Instructions in the working language posted at the foam room and control station",
+   "Valves identified with standby and operating status",
+   "Annual foam test certificate showing foam fit for use, foam tank at the right level",
+   "Foam compatible with the cargo carried",
+   "Isolating valves and monitors moved through their full range",
+   "A rating explaining use of foam monitors and applicators"
+  ],
+  "ready": [
+   "Foam concentrate certificates: first test not more than 3 years after manufacture, then yearly",
+   "Stability test for protein-based alcohol-resistant foam before delivery and yearly",
+   "Five-yearly proportioner test records",
+   "System manual showing foam quantity needed",
+   "Foam applicators set up on the foam main, not the fire main",
+   "Maintenance plan with monthly, quarterly, annual and five-year tasks"
+  ],
+  "traps": [
+   "Instructions not posted in the working language",
+   "Valves or controls not clearly identified",
+   "Foam tank not at required level",
+   "Foam test overdue or certificate says unfit",
+   "Foam incompatible with the cargo and no approved alternative",
+   "Proportioners not tested at five-yearly service",
+   "Officer or rating cannot explain the foam system or use",
+   "Monitors or valves stiff, applicators connected to the fire main",
+   "Plan or records incomplete, or system defective"
+  ],
+  "say": "Instructions are posted at the foam room and valves are marked. Our foam is tested yearly and is compatible with our cargoes. We can use it to fight spill fires, stop ignition of spilt oil and fight fires in a ruptured tank, and our ratings know the monitors and applicators.",
+  "practice": [
+   {
+    "q": "What is the deck foam system for?",
+    "a": [
+     "Extinguishing spill fires",
+     "Stopping ignition of spilt oil not yet burning",
+     "Fighting fires in ruptured tanks"
+    ]
+   },
+   {
+    "q": "What mistake with portable applicators is common?",
+    "a": [
+     "Connecting to the fire main instead of the foam main",
+     "Check the connection before starting"
+    ]
+   },
+   {
+    "q": "How often is foam concentrate tested?",
+    "a": [
+     "First test within 3 years of manufacture",
+     "Every year after that"
+    ]
+   }
+  ],
+  "tip": "Let a rating set up an applicator at the manifold during a drill and check which main it is connected to.",
+  "refs": [
+   "SOLAS II-2/10.8",
+   "FSS Code 14",
+   "MSC.1/Circ.1432",
+   "MSC.1/Circ.1312"
+  ]
+ }
+]

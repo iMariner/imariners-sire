@@ -1,0 +1,51 @@
+name: SIRE Telegram bot
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sire-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    # Does nothing until the Telegram secret is added (Settings > Secrets and variables > Actions).
+    if: ${{ vars.SIRE_BOT_ENABLED == 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Git identity
+        run: |
+          git config user.name "imariners-bot"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Run bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OWNER_ID: ${{ secrets.TELEGRAM_OWNER_ID }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          PRIVATE_REPO_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RAW_REPO: iMariner/imariners-sire-raw
+        run: python3 scripts/sire_bot.py
+      - name: Keep the schedule alive
+        # GitHub pauses scheduled workflows after 60 days without a commit. Commit a heartbeat after 45 quiet days.
+        run: |
+          last=$(git log -1 --format=%ct)
+          if [ $(( $(date +%s) - last )) -gt 3888000 ]; then
+            date -u +%FT%TZ > .heartbeat
+            git add .heartbeat && git commit -q -m "Heartbeat" && git push -q
+          fi

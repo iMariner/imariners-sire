@@ -1,0 +1,2396 @@
+[
+ {
+  "id": "8.8.1",
+  "title": "Cargo hold hatch covers",
+  "plain": "Do officers know the hatch cover procedures, and are the hatch covers gas tight and in good condition?",
+  "why": "On an OBO, a leaking hatch cover lets gas or oil escape onto the deck or into the holds.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for operating, inspecting, maintaining and testing hatch covers",
+   "Inspection and maintenance records",
+   "Sealing arrangements, P/V valves and hydraulic system on the covers",
+   "Hatch coaming corners and deck nearby for cracks or grab damage",
+   "Risk assessment for any gas or liquid leak"
+  ],
+  "ready": [
+   "Hatch cover procedure and maker's manual",
+   "Hatch covers in the planned maintenance system",
+   "Record of inert gas pressure test of the seals before liquid cargo",
+   "Record of seal check after loading",
+   "Risk assessments for any leak that could not be stopped"
+  ],
+  "traps": [
+   "Seals not dual seal type; hatch covers missing from the maintenance plan",
+   "No pressure test with inert gas before loading liquid cargo",
+   "Ongoing leak at seals or P/V valve flanges",
+   "Leak with no risk assessment",
+   "Oil leaking from hydraulics, cracks at coaming corners, unrepaired grab damage",
+   "Officer does not know the best tank pressure range for a good seal"
+  ],
+  "say": "Our SMS covers operation, inspection, testing and maintenance of the hatch covers, and they are in our maintenance plan. Before loading liquid cargo we pressure test the seals with inert gas and record it. After loading we check the seals again, and any leak we cannot stop goes to risk assessment.",
+  "practice": [
+   {
+    "q": "How do you prove the hatch seals are tight before loading oil?",
+    "a": [
+     "Pressurise holds with inert gas",
+     "Apply soapy solution to the seals",
+     "Adjust closing devices where it leaks",
+     "Record the result"
+    ]
+   },
+   {
+    "q": "What do you do if a hatch cover still leaks after adjusting?",
+    "a": [
+     "Mark and note the leak",
+     "Do a risk assessment",
+     "Plan repair of the joint at the earliest chance",
+     "Use extra sealing only as the risk assessment allows"
+    ]
+   }
+  ],
+  "tip": "Know the tank pressure range your procedure gives for a good seal. Inspectors ask for it.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.8.2",
+  "title": "Changing between wet and dry cargoes",
+  "plain": "Do officers know how to change cargo mode between oil and dry bulk, and are checklists and records available?",
+  "why": "A wrong changeover can leave oil, gas or residues in holds, lines or sounding pipes, and cause fire, explosion or contamination.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for changing cargo mode",
+   "Ship-specific changeover checklists",
+   "Completed checklists from past changeovers",
+   "Hold inspection records and repairs after dry cargo (discharge equipment damage)"
+  ],
+  "ready": [
+   "Changeover procedure with oil to dry and dry to oil checklists",
+   "Completed checklists from the last changeovers",
+   "Hold inspection records before changeover",
+   "Records of corrective action after grab damage"
+  ],
+  "traps": [
+   "No procedure for changing mode; checklists generic, not ship-specific",
+   "Checklists not completed as required",
+   "No records of previous changeovers",
+   "Records show the procedure was not followed",
+   "No hold inspection records before changeover",
+   "Officer not familiar with the procedure"
+  ],
+  "say": "Our procedure covers both directions of changeover with a ship-specific checklist. We complete every item, inspect the holds and record any damage and repairs. Records of past changeovers are available for you to review.",
+  "practice": [
+   {
+    "q": "What are the main steps going from oil to dry cargo?",
+    "a": [
+     "Wash and gas free holds and tanks",
+     "Flush and drain suctions and lines",
+     "Blank off suctions, droplines and gas lines",
+     "Check hatch seals and ballast spaces for gas"
+    ]
+   },
+   {
+    "q": "And from dry cargo to oil?",
+    "a": [
+     "Clean holds and remove residues",
+     "Remove blanks and set up venting",
+     "Clean strainers and hatch seals, prove valves and NRVs",
+     "Inert holds and check tightness before loading"
+    ]
+   }
+  ],
+  "tip": "Keep the changeover checklists together with the hold inspection reports so one folder tells the full story.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.99.1",
+  "title": "Cargo and ballast transfer planning and execution",
+  "plain": "Do officers know how to plan cargo and ballast transfers, and do records show the plan was followed?",
+  "why": "A poor or ignored plan leads to overfill, bad stress or trim, contamination, or spills.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for planning and recording cargo and ballast transfers",
+   "A recent plan: content, draught, trim and stress figures, signatures",
+   "Records of the same operation compared against the plan",
+   "Whether plan was updated and re-approved after any change"
+  ],
+  "ready": [
+   "Company procedures for planning and for record keeping",
+   "Plans and records of recent operations",
+   "Plan signed by C/O and deck officers, approved by Master, signed by terminal",
+   "Draught, trim and stress calculations for key stages",
+   "Records showing tanks, pumps and lines used at any time"
+  ],
+  "traps": [
+   "Plan missing key information or stress, trim and draught figures",
+   "Not signed by all officers, or not approved by Master",
+   "Sequence in records differs from the plan",
+   "Operations carried out that were not in the plan",
+   "Plan changed but not updated and re-approved",
+   "Records too thin to rebuild the operation; tank atmosphere or venting not as planned"
+  ],
+  "say": "We plan every cargo and ballast transfer in writing with our procedure, including stress, trim and draught checks. The Master approves it and the officers and terminal sign it. If anything changes we update the plan and get it approved again before continuing.",
+  "practice": [
+   {
+    "q": "What does your transfer plan contain?",
+    "a": [
+     "Sequence, rates and tank atmosphere or venting method",
+     "Draught, trim and stress at key stages",
+     "Any COW, tank cleaning or gas freeing",
+     "Emergency stop procedure"
+    ]
+   },
+   {
+    "q": "What if the sequence has to change during the operation?",
+    "a": [
+     "Update the plan",
+     "Master re-approves it",
+     "Officers involved acknowledge it",
+     "Record the change"
+    ]
+   }
+  ],
+  "tip": "Write rate change requests and confirmations in the log so you can rebuild the operation later.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code",
+   "ICS Tanker Safety Guide (Gas)",
+   "SIGTTO Gas Handling Principles"
+  ]
+ },
+ {
+  "id": "8.99.2",
+  "title": "Ship/Shore Safety Checklist (SSSCL)",
+  "plain": "Do cargo officers know the SSSCL, and is it completed and followed all through the operation?",
+  "why": "The checklist is the written agreement between ship and terminal that keeps the operation safe.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure requiring the SSSCL for every cargo, tank cleaning and ballast operation",
+   "Current and two earlier SSSCLs, with items picked at random for you to explain",
+   "Part 6 agreements and whether the plan reflects them",
+   "Part 8 repetitive checks and the deck check each watch",
+   "Open defects compared with SSSCL remarks"
+  ],
+  "ready": [
+   "Company procedure on SSSCL use",
+   "SSSCLs for current and at least two earlier operations",
+   "Cargo records and the Bridge Log Book",
+   "Evidence for any item needing documents",
+   "Open defect list matched to SSSCL remarks"
+  ],
+  "traps": [
+   "Relevant sections not completed or not in use",
+   "Open defect on relevant equipment not declared in SSSCL remarks",
+   "Defective equipment with no defect report and no remark",
+   "Item answered yes but ship is not in line with ISGOTT; ship breaking a Part 6 agreement",
+   "Plan not updated to match the pre-transfer agreements",
+   "No responsible officer deck check each watch, or officer cannot explain a check"
+  ],
+  "say": "We complete the relevant SSSCL sections for every operation and keep the agreements throughout. I can explain how each check is done and show the evidence. Any defect affecting the checklist is declared in the remarks to the terminal.",
+  "practice": [
+   {
+    "q": "Pick any item and show me how you check it.",
+    "a": [
+     "Explain the check in your own words",
+     "Show the record or evidence",
+     "Link it to the ISGOTT reference"
+    ]
+   },
+   {
+    "q": "How often are the repetitive checks done?",
+    "a": [
+     "As agreed in the pre-transfer conference",
+     "A responsible officer checks the deck at least once each watch",
+     "Recorded on the SSSCL"
+    ]
+   }
+  ],
+  "tip": "Before the inspector picks an item, check your SSSCL answers against what is actually on deck.",
+  "refs": [
+   "ISGOTT 6 Ch 25",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.99.3",
+  "title": "Cargo operations team composition",
+  "plain": "Do officers know the supervision level needed in cargo operations, and was the right team on duty?",
+  "why": "Too few or distracted people means leaks, mooring problems or slow reaction in an emergency.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure on supervision and support for cargo and port operations",
+   "Cargo plans showing manning for each stage",
+   "Team in the CCR and on deck during the inspection",
+   "Whether team members are pulled into other work (SIMOPS)",
+   "Senior officer supervision at critical stages"
+  ],
+  "ready": [
+   "Company procedure on cargo team and supervision",
+   "Cargo or port plans for current operation and last three months or six operations, whichever is fewer",
+   "Bridge Log Book",
+   "Plans that list manning for connecting hoses, start, bulk, topping off, COW, stripping, draining"
+  ],
+  "traps": [
+   "No procedure on supervision levels",
+   "Plan does not state supervision needed at each stage",
+   "Plan not in line with the procedure",
+   "Team on duty not matching the procedure",
+   "Deck watch distracted by SIMOPS or by sounding and surveying",
+   "Critical stage such as COW, start or finish of cargo without senior officer"
+  ],
+  "say": "Our procedure sets the minimum team and supervision for each stage of cargo work, and our plans state it. Moorings and access stay tended all the time. Critical stages like starting, topping off and COW have the senior officer present.",
+  "practice": [
+   {
+    "q": "Who is on duty during topping off?",
+    "a": [
+     "Officer on watch in CCR",
+     "Deck watch in contact by radio",
+     "Extra support for mooring and access",
+     "Senior officer if the procedure requires"
+    ]
+   },
+   {
+    "q": "What if SIMOPS happens during cargo?",
+    "a": [
+     "Extra people assigned to SIMOPS",
+     "Cargo and mooring watch not distracted",
+     "Plan states it"
+    ]
+   }
+  ],
+  "tip": "Check the watch list against your plan before each stage. Do not let one rating cover moorings, gangway and sounding at once.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code 6.2",
+   "MEG4",
+   "TMSA KPI 6.2.2"
+  ]
+ },
+ {
+  "id": "8.99.4",
+  "title": "Cargo and ballast valve testing",
+  "plain": "Do officers know how cargo and ballast valves are tested, and are the valves and remote control in good order?",
+  "why": "A valve that is slow, wrong in indication or stuck can cause surge pressure, spills or loss of control of the cargo.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "3o",
+    "2o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure with test frequency, records and valve timing",
+   "Records of actual opening and closing times",
+   "Local and remote valve indicator checks",
+   "Emergency valve control mode and local hand pump",
+   "Valves and hydraulic or pneumatic system on deck"
+  ],
+  "ready": [
+   "Valve test procedure and maker's manual",
+   "Ship drawings with design open and close times for each valve",
+   "Test records with actual times and indicator checks",
+   "Emergency mode and hand pump test records",
+   "Hydraulic system at normal pressure"
+  ],
+  "traps": [
+   "No procedure or no records of valve tests",
+   "Times not recorded, or valves outside optimum times; indicator shows wrong position",
+   "Remote valve isolated or operated manually due to hydraulic leak",
+   "Hydraulic pressure not held during transfer or no automatic pressure keeping",
+   "Excessive hydraulic oil loss",
+   "No working emergency hand pump, or officer cannot operate it"
+  ],
+  "say": "Our procedure sets how often we test valves, how we time them and how we check indicators, and we record the results. I know the design times for our valves, and what to do if one is out. I can also operate the emergency mode and hand pump.",
+  "practice": [
+   {
+    "q": "What do you do if a valve closes faster than its design time?",
+    "a": [
+     "Report and record it",
+     "Check against ship drawings and manual",
+     "Arrange repair or adjustment",
+     "Take care for surge risk until corrected"
+    ]
+   },
+   {
+    "q": "Show me how the emergency valve control works.",
+    "a": [
+     "Select emergency mode",
+     "Use the local hand pump",
+     "Know which valves it covers"
+    ]
+   }
+  ],
+  "tip": "Keep the design valve times in a simple table at the CCR so you can quote them quickly.",
+  "refs": [
+   "ISGOTT 6 12.1.3",
+   "ISM Code 7",
+   "SIGTTO Gas Handling Principles",
+   "TMSA KPI 4.1.1"
+  ]
+ },
+ {
+  "id": "8.99.5",
+  "title": "Fixed cargo tank level gauging system",
+  "plain": "Do officers know how the fixed level gauging system is run, tested and compared, and does it work?",
+  "why": "If the gauges are wrong or fail, you may not know the tank level, so overfill and spills become likely.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, maintenance, testing, calibration and comparison",
+   "Test, calibration and comparison records",
+   "You demonstrating the system",
+   "What you do if a gauge fails or is unreliable",
+   "Level alarm settings"
+  ],
+  "ready": [
+   "Procedure and maker's manual",
+   "Maintenance, test, calibration and comparison records",
+   "Comparison checks against portable or secondary gauges",
+   "Risk assessment based procedure for continuing cargo if gauging fails"
+  ],
+  "traps": [
+   "No procedure based on maker's instructions",
+   "Testing and calibration not done as required or no records",
+   "No comparison checks, or big differences found",
+   "No risk assessment procedure for gauge failure",
+   "System inoperative or unreliable and portable gauges in use",
+   "Level alarms silenced or inhibited; officer unsure of failure actions or alarm settings"
+  ],
+  "say": "We test, calibrate and compare the fixed gauges as our procedure and the maker require, and keep records. If a gauge is unreliable we follow our risk assessed procedure to continue safely. I can show you the system and the level alarm settings.",
+  "practice": [
+   {
+    "q": "What do you do if one tank gauge fails during loading?",
+    "a": [
+     "Follow the risk assessed company procedure",
+     "Use portable or secondary gauging as allowed",
+     "Report the defect",
+     "Check any replacement unit is compatible and calibrated"
+    ]
+   },
+   {
+    "q": "How do you check the fixed gauges are accurate?",
+    "a": [
+     "Compare with portable or secondary gauges",
+     "Record the result",
+     "Calibrate as the maker's manual says"
+    ]
+   }
+  ],
+  "tip": "If the ship has no fixed gauging, the guidance says to mark Not Answerable then Not Applicable. Know that your ship is truly exempt.",
+  "refs": [
+   "ISGOTT 6 12.8.6",
+   "IGC Code 13",
+   "IBC Code 13",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "8.99.6",
+  "title": "Stability and loading instruments",
+  "plain": "Do deck officers know the testing procedure for the stability and loading instruments, and are test records kept?",
+  "why": "If the instrument is wrong, stress and stability may be miscalculated and the ship overstressed.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for testing the instrument",
+   "Latest test using an approved test condition and maker's instructions",
+   "Test at special survey with a class surveyor present",
+   "You demonstrating the damage stability function",
+   "Instrument manual"
+  ],
+  "ready": [
+   "Company procedure and instruction manual",
+   "Regular test records by ship staff",
+   "Annual survey test records",
+   "Special survey test records with surveyor",
+   "Exemption certificate if no instrument is required"
+  ],
+  "traps": [
+   "No company procedure for periodic testing",
+   "Officer unfamiliar with testing or damage stability function",
+   "Periodic accuracy checks not done or no records",
+   "No record of test at special survey with class surveyor",
+   "Instrument defective",
+   "No instrument and no proof of exemption"
+  ],
+  "say": "Our procedure requires regular tests of the instrument with approved test conditions, at least at annual and special surveys. Records are kept and I can show them. I can also run the damage stability function.",
+  "practice": [
+   {
+    "q": "How do you test the loading instrument?",
+    "a": [
+     "Use an approved test condition, not an actual loading",
+     "Follow the maker's instructions",
+     "Compare to the approved results",
+     "Record it"
+    ]
+   },
+   {
+    "q": "Show me the damage stability function.",
+    "a": [
+     "Open the damage stability module",
+     "Run a condition",
+     "Explain the result"
+    ]
+   }
+  ],
+  "tip": "Practise the damage stability screen before the inspection. It is a common request.",
+  "refs": [
+   "IACS UR S1",
+   "IACS UR L5",
+   "MARPOL",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "8.99.7",
+  "title": "Loading limitations",
+  "plain": "If the ship has loading or stability limits, are there company procedures and do officers know them?",
+  "why": "Wrong tank filling levels or unmanaged free surface can overstress the structure or reduce stability.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Loading and stability manual: any density, filling height or stability limits",
+   "Whether the limits were declared correctly in the pre-inspection questionnaire",
+   "Company procedure that warns staff and says how to avoid or reduce the problem",
+   "Cargo and ballast plans addressing the limits",
+   "Warning signs in the CCR"
+  ],
+  "ready": [
+   "Loading and stability manual",
+   "Company procedure on loading limits and stability concerns",
+   "Recent plans and records showing the limits were followed",
+   "Evidence the loading instrument and stability booklet were updated after scrubber, BWTS or major modification"
+  ],
+  "traps": [
+   "Limits not declared in the questionnaire",
+   "No company procedure to manage the limits",
+   "No warning signs posted for cargo officers",
+   "Officer unaware of the limits on the ship",
+   "Plans do not address the limits, or records show they were not followed",
+   "Weight change from scrubber or BWTS but loading instrument and booklet not updated"
+  ],
+  "say": "Our loading manual and company procedure tell us about the limits on this ship, such as filling heights and free surface. They are posted in the CCR and built into our cargo plans. I can show you records that we followed them.",
+  "practice": [
+   {
+    "q": "What loading limits or stability concerns apply to this ship?",
+    "a": [
+     "Name them from the loading manual",
+     "Say which tanks or phases they apply to",
+     "Explain how the plan avoids or mitigates them"
+    ]
+   },
+   {
+    "q": "What happens to the stability booklet if a scrubber is fitted?",
+    "a": [
+     "Weight change must be assessed",
+     "Loading instrument and booklet updated",
+     "Evidence kept on board"
+    ]
+   }
+  ],
+  "tip": "If your ship has no restrictions, be ready to show the manual that says so. The question is then answered N/A.",
+  "refs": [
+   "ISGOTT 6 12.2",
+   "ISM Code 7",
+   "ICS Tanker Safety Guide (Gas)",
+   "TMSA KPI 6.2.1"
+  ]
+ },
+ {
+  "id": "8.99.8",
+  "title": "Cargo transfer hoses",
+  "plain": "Do officers know how cargo hoses are selected, inspected, tested and stored, and are the hoses in good condition?",
+  "why": "A failed or unsuitable hose means a spill or gas release at the manifold.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "3o",
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for selection, inspection, testing, storage and retirement",
+   "Hose markings, certificates and compatibility data",
+   "Test, elongation and electrical continuity records and service history",
+   "Hoses in use or stored on board",
+   "Your knowledge of pre-use checks and hose limits"
+  ],
+  "ready": [
+   "Hose procedure with retirement criteria",
+   "Certificates and compatibility data for each hose",
+   "Inspection records at least every 12 months",
+   "Hydrostatic test records at 1.5 times maximum working pressure, with elongation",
+   "Electrical continuity test since last hydrostatic test",
+   "Usage history for each hose"
+  ],
+  "traps": [
+   "Hose not clearly marked with required information",
+   "No inspection or pressure test in last 12 months; visual damage but hose not withdrawn",
+   "No electrical continuity test since the last pressure test",
+   "Hose not compatible with cargo or temperature, or working pressure under 1 MPa",
+   "Stored or used below minimum bend radius; poor storage, or flow rate above maker's limit",
+   "LNG hoses not tested before each use or under an alternative documented procedure"
+  ],
+  "say": "Our procedure covers selecting hoses for the cargo, inspecting them before every use, and testing at least yearly. Each hose has a certificate, markings and a service history. Damaged or expired hoses are withdrawn and the reason is recorded.",
+  "practice": [
+   {
+    "q": "What do you check before using a hose?",
+    "a": [
+     "Damage, slippage or misalignment of the assembly",
+     "Cuts or abrasions through the cover",
+     "Kinks, crushed areas, bulges",
+     "Marking and test date"
+    ]
+   },
+   {
+    "q": "How do you store the hoses?",
+    "a": [
+     "Follow the company procedure and maker's guidance",
+     "Keep above the minimum bend radius",
+     "Protect from sun and weather",
+     "For cryogenic hoses: blank flanges and nitrogen charged"
+    ]
+   }
+  ],
+  "tip": "Check the paint-stencilled test date on every hose against your records before the inspector does.",
+  "refs": [
+   "ISGOTT 6 18.2.6",
+   "OCIMF STS Hoses Guidelines",
+   "IGC Code",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "8.99.9",
+  "title": "Cargo and ballast controls, indicators and mimics",
+  "plain": "Are cargo and ballast controls and indicators checked for accuracy, and are clear up-to-date mimic or pipeline diagrams available?",
+  "why": "The cargo officer makes decisions from these readings, so wrong information can lead to wrong actions.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "3o",
+    "2e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Mimic or pipeline diagrams in the CCR and pumproom: legible and up to date",
+   "Pressure, temperature, draught, list and trim readings look sensible",
+   "Pumps controlled from CCR, not locally or from the engine room",
+   "Valve and pump status on mimic matches reality",
+   "Company procedure and records for periodic sensor checks"
+  ],
+  "ready": [
+   "Procedure for verifying sensors and displays",
+   "Records of pressure, temperature and draught gauge checks",
+   "Updated pipeline diagrams after any modification",
+   "Open defect reports for any known fault"
+  ],
+  "traps": [
+   "Diagrams missing, not legible or not updated after a modification",
+   "Pipe marking does not match the mimic; no procedure or no records of sensor accuracy checks",
+   "Pump run from the engine room or deck because remote control is faulty",
+   "Pump speed or load indicator wrong or out of service",
+   "Draught gauges or pressure and temperature displays inaccurate",
+   "Mimic showing wrong valve position, level, pressure or alarm status"
+  ],
+  "say": "We check our pressure, temperature, level and draught sensors and the mimic displays regularly under our procedure and keep records. The pipeline diagrams are current and posted in the CCR and pumproom. Any fault we cannot fix ourselves goes into the defect report.",
+  "practice": [
+   {
+    "q": "How do you know the mimic shows the true valve position?",
+    "a": [
+     "Periodic checks of indicators against local position",
+     "Records kept",
+     "Fault reported through defect system"
+    ]
+   },
+   {
+    "q": "What if a remote pump control fails?",
+    "a": [
+     "Report it as a defect",
+     "Follow company procedure",
+     "Avoid normalising running pump from engine room or locally"
+    ]
+   }
+  ],
+  "tip": "A single sensor fault that is already on an open defect report is not an observation. Keep the defect list up to date.",
+  "refs": [
+   "ISGOTT 6 11.3",
+   "ISM Code 10",
+   "TMSA KPI 6.1.2"
+  ]
+ },
+ {
+  "id": "8.99.10",
+  "title": "Cargo system bonding",
+  "plain": "Do officers know how cargo tanks, plant and pipelines are bonded, and are the bonding arrangements in good condition?",
+  "why": "Bonding stops static electricity building up and sparking in a flammable atmosphere.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspecting and maintaining bonding",
+   "Bonding straps on the deck, visible and in good condition",
+   "Ship drawings showing where bonding is required",
+   "Your understanding of what the bonding does"
+  ],
+  "ready": [
+   "Procedure, possibly in the planned maintenance system",
+   "Drawings or instruction books showing bonding as fitted",
+   "Inspection and maintenance records"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer unfamiliar with the ship's bonding arrangements",
+   "Required straps missing or mechanically damaged",
+   "Straps covered by paint or corrosion so they cannot be inspected or conduct poorly",
+   "Any bonding arrangement defective"
+  ],
+  "say": "Bonding is there to prevent static discharge between parts at different voltages. We inspect the straps under our maintenance plan, keep them clean, unpainted and undamaged, and repair or renew them to the original design.",
+  "practice": [
+   {
+    "q": "Where on this ship do you need bonding straps?",
+    "a": [
+     "Where pipes or tanks are not fixed to the hull",
+     "Spool piece connections",
+     "Wafer valves with non-conductive gaskets",
+     "Check the drawings"
+    ]
+   },
+   {
+    "q": "What can ruin a bonding strap?",
+    "a": [
+     "Mechanical damage",
+     "Corrosion",
+     "Paint",
+     "Strap missing after maintenance"
+    ]
+   }
+  ],
+  "tip": "After any pipe work or painting on deck, walk the area and check every strap is back and clean.",
+  "refs": [
+   "ISGOTT 6 3.2.2",
+   "IGC Code 5.7.4",
+   "IBC Code 10.2",
+   "IACS E9"
+  ]
+ },
+ {
+  "id": "8.99.11",
+  "title": "Independent check of cargo line-up",
+  "plain": "Is there a procedure for a second person to check the whole cargo, vapour and vent line-up before operations start?",
+  "why": "One missed valve or open drain can cause a spill, cross-contamination or overpressure.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure on independent cross-check: who, when, where recorded",
+   "Records of a recent operation showing the check was done",
+   "Drains, stubs, sampling points and vacuum breakers: valved, closed and capped or blanked",
+   "Your understanding of the procedure"
+  ],
+  "ready": [
+   "Procedure for second person cross-check",
+   "Cargo records or checklists with the check signed before start",
+   "Responsible officer sign-off for the line-up",
+   "Line-up verified against the cargo plan"
+  ],
+  "traps": [
+   "No procedure for independent check",
+   "No evidence it was done before starting",
+   "Drain, stub, sampling or vacuum breaker valve left open",
+   "One of those connections without a valve",
+   "Not capped or blanked where needed",
+   "Officer cannot say who does the cross-check or where it is recorded"
+  ],
+  "say": "Before every operation one officer sets the lines per the plan, and a second person checks the entire liquid, vapour and vent system independently. The responsible officer signs it in the cargo records. I also check that drains, sampling points and vacuum breakers are closed and capped.",
+  "practice": [
+   {
+    "q": "Who does the second check?",
+    "a": [
+     "A person other than the one who set the lines",
+     "Under the responsible officer's control",
+     "As the company procedure states"
+    ]
+   },
+   {
+    "q": "What else do you check besides the main valves?",
+    "a": [
+     "Drains and sampling connections closed and capped",
+     "Unused flanges blanked",
+     "Vacuum breakers, P/V valves and vapour lines set",
+     "Stern line isolated if not used"
+    ]
+   }
+  ],
+  "tip": "Check again after a change of grade. When the line-up changes for a grade change, check it again in the same way.",
+  "refs": [
+   "ISGOTT 6 12.1.2",
+   "ICS Tanker Safety Guide (Chemicals)",
+   "ICS Tanker Safety Guide (Gas)",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "9.1.1",
+  "title": "Mooring winch brake testing and operation",
+  "plain": "Do deck officers know how winch brakes are tested and operated, and do records show tests were done on time?",
+  "why": "A brake that slips early or holds too hard can part lines or fail to protect them in surge.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for use and testing of winch brakes",
+   "Mooring System Management Plan and brake test records",
+   "Test at least annually, after maintenance, or after premature slippage",
+   "Winch markings: test date, brake load, torque or pressure setting, reeling direction",
+   "Lines reeled correctly, brake condition, brake set as marked"
+  ],
+  "ready": [
+   "Mooring procedure and MSMP",
+   "Line Management Plan",
+   "Brake test records, with brake set to render at 60% of ship design MBL",
+   "Calibration certificate for the test gauge if carried",
+   "Maker's instructions and maintenance records after repairs",
+   "Photo of a brake mechanism uploaded to the portal"
+  ],
+  "traps": [
+   "No procedure, or no MSMP in line with MEG4; officer or crew unfamiliar with setting and operating the brakes",
+   "Brakes not tested periodically, after repair or after slippage",
+   "Drum not marked with test date, brake load, reeling direction or setting",
+   "A brake set wrongly on any drum in use; locking nut stopper on the tightening screw",
+   "Line reeled in wrong direction, or more than one layer on the tension side of a split drum",
+   "Brake linings or drums defective, or drums with more than light surface rust"
+  ],
+  "say": "Our procedure and mooring plan set when and how the brakes are tested and adjusted to 60% of the ship design MBL. Test dates, settings and reeling direction are marked on each winch. I know the signs that a brake needs retesting, and records are available.",
+  "practice": [
+   {
+    "q": "What do you do if a brake slips early during mooring?",
+    "a": [
+     "Report it",
+     "Retest and adjust the brake",
+     "Record the new test",
+     "Use correct reeling and layers"
+    ]
+   },
+   {
+    "q": "What should be marked on a winch drum?",
+    "a": [
+     "Last brake test date",
+     "Brake holding load",
+     "Reeling direction",
+     "Torque or hydraulic assist setting"
+    ]
+   }
+  ],
+  "tip": "Check the marking and tags on every winch before the inspection. Missing tags are easy observations.",
+  "refs": [
+   "MEG4 6.3.4 and 6.4.6",
+   "SOLAS II-1/3-8",
+   "ISM Code 10",
+   "TMSA KPI 6A.1.2"
+  ]
+ },
+ {
+  "id": "9.1.2",
+  "title": "Was the vessel satisfactorily moored",
+  "plain": "Is the ship moored in line with both the terminal mooring plan and the patterns allowed by our mooring plan?",
+  "why": "Too few lines or bad angles can let the ship move at the berth and break lines or hoses.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "MSMP: optimal, sub-optimal and alternate mooring patterns",
+   "Terminal mooring plan compared with the MSMP",
+   "Actual lines: number, services, horizontal and vertical angles",
+   "Swamp lines or shore lines required by terminal are in use",
+   "Mooring analysis or double banking plan, if any"
+  ],
+  "ready": [
+   "MSMP showing permitted patterns and angle limits",
+   "Terminal mooring plan from handbook or standard publication",
+   "Passage plan, pilot card or cargo plan showing the layout used",
+   "Mooring analysis or double banking plan where required"
+  ],
+  "traps": [
+   "No MSMP in line with MEG4, or no alternate patterns shown; no maximum angle limits in the plan",
+   "Officer cannot explain how terminal plan is compared with MSMP",
+   "Pattern not following the terminal plan or the MSMP",
+   "Line vertical angle above the limit in the MSMP",
+   "Fewer lines than either plan needs, or supplementary shore lines not used",
+   "Double banked with no analysis showing both ships are restrained"
+  ],
+  "say": "Before berthing we compare the terminal plan with the patterns allowed in our mooring plan. Where they differ in line numbers we follow the plan needing more lines. We check line angles and use any shore lines the terminal requires.",
+  "practice": [
+   {
+    "q": "The terminal plan asks for 8 lines and our plan for 10. What do you use?",
+    "a": [
+     "The plan needing more lines",
+     "Compare angles too",
+     "Record the decision"
+    ]
+   },
+   {
+    "q": "What if a shore hook is out of service?",
+    "a": [
+     "Check alternate patterns in the MSMP",
+     "Evaluate with the terminal",
+     "Use only permitted configurations"
+    ]
+   }
+  ],
+  "tip": "If the terminal has no published plan, keep proof that you asked your operator or agent for it.",
+  "refs": [
+   "MEG4 1.9.2",
+   "ISM Code 7",
+   "TMSA KPI 6A.2.1"
+  ]
+ },
+ {
+  "id": "9.1.3",
+  "title": "Line Management Plan (LMP)",
+  "plain": "Do officers and mooring ratings know the Line Management Plan, and is it kept up to date with certificates for every line, tail and shackle?",
+  "why": "Lines that are overused, damaged or unidentified can part in service and kill someone through snap-back.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "LMP follows MEG4 Table 5.2 and is easy to reach",
+   "Certificate for every line, tail and joining shackle, matched to its location",
+   "Service life, inspection history and end-for-ending records",
+   "Incident report for any line that parted in service",
+   "Lines, tails and shackles on deck: tagged, in good order, tails connected correctly",
+   "Splicing rules and who may splice"
+  ],
+  "ready": [
+   "Line Management Plan",
+   "Manufacturer certificates for all lines, tails and shackles, including spares",
+   "Inspection and maintenance records",
+   "Retirement criteria and elapsed time or hours in service",
+   "Incident investigation report for any line failure in last six months",
+   "Record of which tail is fitted to which line"
+  ],
+  "traps": [
+   "No LMP, or it does not follow MEG4 Table 5.2; certificates missing or not matched to location",
+   "Rating does not know the LMP exists or what it says for his job",
+   "LMP inaccurate: items in wrong place or not listed; inspections not done as the LMP says",
+   "Line or tail used past retirement criteria or badly damaged",
+   "Shackles fitted the wrong way round, or cow hitch or wrong shackle on a wire to tail",
+   "Splices not to maker's instructions, lines not end-for-ended; line parted in last six months with no investigation report"
+  ],
+  "say": "Our Line Management Plan covers maintenance, inspection, service life and retirement. Every line, tail and shackle is tagged and matched to its certificate. We inspect as the plan requires, and record any line change or failure.",
+  "practice": [
+   {
+    "q": "Where do you find the history of this mooring line?",
+    "a": [
+     "In the LMP, by the line tag",
+     "Certificate and inspection records linked",
+     "Know location and age"
+    ]
+   },
+   {
+    "q": "Can you move a line from one winch to another?",
+    "a": [
+     "Only with approval",
+     "Update the LMP records",
+     "Track the line's history"
+    ]
+   }
+  ],
+  "tip": "Walk the deck with the LMP list in hand and check tags against it. Swapped or untagged lines are common finds.",
+  "refs": [
+   "MEG4 5.4",
+   "OCIMF Effective Mooring",
+   "ISM Code 10",
+   "TMSA KPI 6A.2.4"
+  ]
+ },
+ {
+  "id": "9.1.4",
+  "title": "Mooring lines, tails and shackles",
+  "plain": "Do all lines, tails and joining shackles, including spares, meet industry strength guidelines?",
+  "why": "Lines or tails too weak, or shackles too small, can fail at the load they should be able to carry.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "MSMP: ship design MBL and working load limit of the lines",
+   "Line design break force 100 to 105% of ship design MBL",
+   "Tail design break force 125 to 130% of ship design MBL",
+   "Joining shackle safe working load at least the line working load limit",
+   "Spot check of the equipment list against certificates"
+  ],
+  "ready": [
+   "Mooring System Management Plan",
+   "List of loose equipment with LDBF and TDBF",
+   "File of manufacturer certificates for all lines, tails and shackles",
+   "Nylon lines certified for wet break test"
+  ],
+  "traps": [
+   "No MSMP, or no certificate file for all items",
+   "Any line, in use or spare, below 100% of ship design MBL",
+   "Any tail below 125% of ship design MBL",
+   "Joining shackle with safe working load below line working load limit",
+   "Values above range may be commented on by the inspector (lines over 105%, tails over 130%)"
+  ],
+  "say": "Our MSMP lists ship design MBL and line working load limit. All our lines, tails and shackles, including spares, have certificates and fall within the guideline ranges. I can show you the equipment list and certificates.",
+  "practice": [
+   {
+    "q": "What strength should a mooring line have compared with ship design MBL?",
+    "a": [
+     "Between 100 and 105%",
+     "Check on the certificate",
+     "Nylon is wet break tested"
+    ]
+   },
+   {
+    "q": "And the tail and the shackle?",
+    "a": [
+     "Tail 125 to 130% of ship design MBL",
+     "Shackle safe working load at least line working load limit",
+     "Safety factor three for shackles"
+    ]
+   }
+  ],
+  "tip": "Check the spares in the store too. A weak spare line is still an observation.",
+  "refs": [
+   "MEG4 5.2 and 5.8",
+   "MEG4 1.9",
+   "ISM Code 10",
+   "TMSA KPI 6A.2.4"
+  ]
+ },
+ {
+  "id": "9.2.1",
+  "title": "Emergency towing procedure and equipment",
+  "plain": "Do officers know the ship's emergency towing booklet, and is the towing gear ready for immediate use?",
+  "why": "After a breakdown, a quick and correct tow connection can stop a drifting loaded tanker grounding.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Ship-specific Emergency Towing Booklet (ETB) matching the equipment fitted",
+   "Copies on the bridge, in the forecastle, and in the ship's office or CCR",
+   "Condition of emergency towing arrangements, evidence of recent maintenance",
+   "Ancillary equipment listed in the ETB is in the right place",
+   "Your knowledge of how to deploy it"
+  ],
+  "ready": [
+   "ETB, three copies in correct places",
+   "Emergency towing gear at both ends (tankers of 20,000 dwt and above)",
+   "Maintenance records for the towing gear",
+   "Ancillary items checked against the ETB list"
+  ],
+  "traps": [
+   "ETB not based on the equipment actually fitted",
+   "ETB missing from bridge, forecastle or office or CCR",
+   "Officer unfamiliar with the ETB, equipment or deployment",
+   "Towing arrangement defective or not ready for immediate use",
+   "Ancillary equipment missing, defective or in the wrong place"
+  ],
+  "say": "Our ship-specific Emergency Towing Booklet is on the bridge, forecastle and in the CCR. The gear is maintained and ready for immediate use. I can explain how we would deploy it step by step.",
+  "practice": [
+   {
+    "q": "Where are the ETB copies kept?",
+    "a": [
+     "Bridge",
+     "Forecastle space",
+     "Ship's office or CCR"
+    ]
+   },
+   {
+    "q": "How would you rig the emergency towing arrangement?",
+    "a": [
+     "Follow the ETB for our equipment",
+     "Know who does what and where",
+     "Check ancillary gear is at the listed location"
+    ]
+   }
+  ],
+  "tip": "Walk the ETB with the bosun once, using the real gear. Everyone then knows where each item is.",
+  "refs": [
+   "SOLAS II-1/3-4",
+   "MSC.1/Circ.1255",
+   "ISM Code 8",
+   "TMSA KPI 11.1.1"
+  ]
+ },
+ {
+  "id": "9.3.1",
+  "title": "Anchoring operations",
+  "plain": "Do officers know the company anchoring procedures, and do records show recent anchoring followed them?",
+  "why": "Anchoring beyond equipment limits or in bad weather can damage the windlass or let the ship drag.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedures and checklists covering anchorage choice, depth, weather limits, team and supervision",
+   "Records of a recent anchoring: checklists, windlass and brake checks, weather and depth",
+   "Windlass, anchors, chain and stoppers condition",
+   "Anchor brake adjustment: can you show how it is checked",
+   "Anchors free to use: chain not hard against stopper bar, lashings off in port"
+  ],
+  "ready": [
+   "Anchoring procedure and checklists",
+   "Recent anchoring records, Bridge Log Book and bell book",
+   "Windlass brake check record",
+   "Maximum anchorage depth marked on the windlass or posted on the bridge"
+  ],
+  "traps": [
+   "No procedure or checklists, or missing depth, weather, team or supervision limits",
+   "Anchored or stayed at anchor beyond company weather limits",
+   "Anchored in water deeper than the company limit",
+   "Maximum anchorage depth not marked or posted; pre and post anchoring checks not done",
+   "Windlass system defective, or officer cannot show how to verify brake adjustment",
+   "Chain resting on stopper bar in coastal waters or port, so anchor not free"
+  ],
+  "say": "Our procedure sets anchorage selection, depth and weather limits, team and supervision, and equipment checks before and after use. We complete the checklists each time. Anchors are kept free for emergency use, and I can show how we check the windlass brake setting.",
+  "practice": [
+   {
+    "q": "What is the maximum depth you can anchor in?",
+    "a": [
+     "State the company limit",
+     "Show where it is marked",
+     "Explain windlass limits"
+    ]
+   },
+   {
+    "q": "When would you leave the anchorage?",
+    "a": [
+     "At the company weather limits in the procedure",
+     "Dragging",
+     "Plan for emergency departure"
+    ]
+   }
+  ],
+  "tip": "Put the max anchorage depth on the windlass and the bridge. It is a simple observation to avoid.",
+  "refs": [
+   "OCIMF Anchoring Systems and Procedures",
+   "INTERTANKO Anchoring Guidelines",
+   "ICS Bridge Procedures Guide",
+   "TMSA KPI 6A.2.2"
+  ]
+ },
+ {
+  "id": "9.4.1",
+  "title": "Mooring team supervision and composition",
+  "plain": "Do officers and ratings know who supervises each mooring and anchoring station and how many people are needed?",
+  "why": "Poor supervision and too few people on the mooring deck cause injuries and line failures.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure on supervisors, team size and roles for mooring and anchoring",
+   "MSMP sections on manning and training and operations plans",
+   "Whether a deck officer and a rating can say who supervises each station",
+   "Toolbox talks or risk assessment review before the operation",
+   "Hours of rest records against the real team used"
+  ],
+  "ready": [
+   "Company procedure on team composition and supervision",
+   "MSMP manning and operations plan sections",
+   "Hours of rest for the previous full month",
+   "Training and competence records if a non-officer supervises",
+   "Risk assessments for recent operations if required"
+  ],
+  "traps": [
+   "MSMP does not state team size or supervision per station",
+   "Officer cannot find the procedure on who supervises each station",
+   "Officer or rating unfamiliar with team or supervision expectations",
+   "Hours of rest show the team was not as required",
+   "Rating supervises with no evidence of training and competence assessment"
+  ],
+  "say": "Our procedure names who supervises each mooring station and the minimum team for each type of operation. We hold a toolbox talk before the operation and keep communications tested. Hours of rest records match the team we used.",
+  "practice": [
+   {
+    "q": "Who supervises the forward station?",
+    "a": [
+     "Name the role from the procedure",
+     "Minimum team size",
+     "Communications with the bridge"
+    ]
+   },
+   {
+    "q": "How are the team briefed?",
+    "a": [
+     "Toolbox talk",
+     "Risk assessment review",
+     "Roles and communication methods"
+    ]
+   }
+  ],
+  "tip": "If a rating may supervise a station, keep the training record handy. The inspector will ask for it.",
+  "refs": [
+   "MEG4 1.9",
+   "OCIMF Effective Mooring",
+   "STCW Code",
+   "ISM Code 6.2"
+  ]
+ },
+ {
+  "id": "9.4.2",
+  "title": "Dangers of working around mooring lines",
+  "plain": "Do deck officers and ratings know winch safe operation and the dangers around lines under tension?",
+  "why": "Snap-back from a parted line and unsafe winch use are leading causes of deaths on mooring decks.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Mooring procedure on safety during mooring and near tensioned lines",
+   "Winch drums out of gear with locking pins available",
+   "Control levers free, return to neutral and marked for heave and slack",
+   "No sign that controls were tied for unmanned use",
+   "Warning signs and barriers, safe access platforms",
+   "Interview: how were you told about snap-back"
+  ],
+  "ready": [
+   "Mooring procedure with supervisor and rating roles, hand signals, snap-back areas",
+   "Toolbox talk before every mooring",
+   "Clutch locking pins in place",
+   "Snap-back areas identified, warning signs and barriers in place"
+  ],
+  "traps": [
+   "No procedure on mooring safety; officer or rating does not know the procedure or snap-back danger",
+   "No toolbox talk before mooring",
+   "Stepping over a line under tension when another route exists; no warning signs or barriers",
+   "Drum left in gear while in service with brake on, or clutch pins missing",
+   "Levers stiff, not returning to neutral, not marked, or tied in heave or slack",
+   "Winch platforms damaged or with missing plates"
+  ],
+  "say": "We hold a toolbox talk before every mooring and use signs and barriers around snap-back areas. I know not to stand in the bight or step over a line under tension. Winch controls return to neutral, are marked, and clutches are locked with pins.",
+  "practice": [
+   {
+    "q": "Where is the snap-back danger zone?",
+    "a": [
+     "Any area the procedure identifies as at risk if a line parts",
+     "Warning signs and barriers keep people clear",
+     "Stay out during tension"
+    ]
+   },
+   {
+    "q": "What safety checks do you do on the winch before use?",
+    "a": [
+     "Lever returns to neutral",
+     "Direction marks clear",
+     "Clutch engaged and locked, drum in or out of gear as required"
+    ]
+   }
+  ],
+  "tip": "Never tie a control lever. If it is stiff, report and fix it before the next mooring.",
+  "refs": [
+   "OCIMF Effective Mooring",
+   "ISM Code 7",
+   "TMSA KPI 6A.1.1"
+  ]
+ },
+ {
+  "id": "9.5.1",
+  "title": "STS operations checklists",
+  "plain": "Were the right industry STS checklists used, and are full records of the operation kept?",
+  "why": "STS checklists catch hazards unique to two ships together, such as mooring, fenders, hose and electrical isolation.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure requiring OCIMF STS Guide checklists and record keeping",
+   "Current STS checklists, with a standard pre-transfer checklist and a vapour balancing checklist if used",
+   "Past STS records from the last twelve months or last six operations",
+   "That items ticked had the evidence",
+   "Checks and signatures from the other ship or terminal for in-port transfers"
+  ],
+  "ready": [
+   "STS procedure and checklists (at sea 1 to 5, in port 6 and 6A)",
+   "Joint Plan of Operation and service provider risk assessment",
+   "Mooring plan, fender and hose certificates, notification to coastal authority",
+   "Drill records, crew experience records, Master's post-operation feedback"
+  ],
+  "traps": [
+   "No procedure requiring the OCIMF checklists or keeping records",
+   "Wrong checklist set used, at sea for in port or the reverse",
+   "Checklist missing or not used, or items ticked with no evidence",
+   "Standard pre-transfer checklist not used with STS ones; no vapour balancing checklist when balancing",
+   "Repetitive checks not done, or checks not actually carried out on deck",
+   "Records for past operations incomplete, or second ship or terminal signatures missing"
+  ],
+  "say": "Our procedure requires the OCIMF STS checklists for the type of operation, together with the normal pre-transfer checklist. We complete them before, during and after the transfer, keep the full record file, and the other ship signs where required.",
+  "practice": [
+   {
+    "q": "Which checklists do you use for an at sea STS?",
+    "a": [
+     "Pre-fixture, before operations, before run-in and mooring",
+     "Before cargo transfer, before unmooring",
+     "Plus normal pre-transfer checklist"
+    ]
+   },
+   {
+    "q": "What records do you keep?",
+    "a": [
+     "JPO and risk assessment",
+     "Mooring plan and fender or hose certificates",
+     "Notifications, drills, crew experience, Master feedback"
+    ]
+   }
+  ],
+  "tip": "If the ship has never done STS and does not plan to, the guidance says to mark Not Answerable then Not Applicable. Be sure it is true.",
+  "refs": [
+   "OCIMF STS Transfer Guide",
+   "ISM Code 7",
+   "TMSA KPI 6A.2.1"
+  ]
+ },
+ {
+  "id": "9.5.2",
+  "title": "STS Joint Plan of Operation (JPO)",
+  "plain": "For at sea STS, is an accurate Joint Plan of Operation on board, known by officers, and followed?",
+  "why": "The JPO makes sure both ships and the service provider agree how mooring, transfer and unmooring will be done safely.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure requiring a JPO for every STS",
+   "JPO has all content from the OCIMF STS Guide for this operation",
+   "Risk assessment fits the location and the type of STS",
+   "How electrical arcing between the ships is prevented",
+   "Mandatory notifications made, mooring as agreed, environmental limits respected, unmooring sequence written"
+  ],
+  "ready": [
+   "Company procedure and the ship's STS Operations Plan",
+   "JPO from the service provider or POAC",
+   "Risk assessment for this location and operation",
+   "Evidence of notifications to authorities",
+   "Briefing record for officers and ratings"
+  ],
+  "traps": [
+   "No procedure requiring a JPO, or no JPO for the operation on board; JPO missing information required by the OCIMF guide",
+   "Officer does not know the JPO, or officer or rating not briefed before start",
+   "Risk assessment does not match the location or type of STS",
+   "JPO silent on arcing prevention, or measures not actually fitted",
+   "No evidence of mandatory notifications; not moored per JPO",
+   "Transfer continued after environmental limits were exceeded"
+  ],
+  "say": "Our procedure requires a JPO for every STS, and we review and brief it before starting. It covers mooring, transfer, environmental limits and unmooring, and how we prevent arcing between the ships. We moor as agreed and stop if limits are exceeded.",
+  "practice": [
+   {
+    "q": "How do you prevent sparks between the two ships?",
+    "a": [
+     "Single insulating flange at one manifold or in each hose string",
+     "Or a single length of electrically discontinuous hose",
+     "Or hoses built to prevent static build-up"
+    ]
+   },
+   {
+    "q": "When would you stop the transfer?",
+    "a": [
+     "When environmental limits in the JPO are exceeded",
+     "Disconnect and unmoor as the JPO sequence says",
+     "Inform the other ship and POAC"
+    ]
+   }
+  ],
+  "tip": "Brief the deck ratings on the JPO too. The inspector may interview a deck rating.",
+  "refs": [
+   "OCIMF STS Transfer Guide 5.2",
+   "ISM Code 7",
+   "TMSA KPI 6A.2.1"
+  ]
+ },
+ {
+  "id": "9.5.3",
+  "title": "STS Operations Plan",
+  "plain": "Are the Master, officers and deck ratings familiar with the ship's own STS Operations Plan?",
+  "why": "A ship-specific plan makes sure STS mooring and cargo work is done the same, planned way each time.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "ce",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Plan on board, with copies on the bridge, cargo transfer station and engine room",
+   "For oil cargo (MARPOL Annex I): approved by the Administration",
+   "For other cargoes: in line with OCIMF STS Guide Annex A",
+   "Updated with mooring plan and cargo plan of the current operation",
+   "Officer and a rating who took part recently: where it is and what it says"
+  ],
+  "ready": [
+   "STS Operations Plan, current and complete",
+   "Copies in bridge, cargo control and engine room",
+   "Administration approval for oil cargoes",
+   "Current mooring and cargo plans added",
+   "Contingency plan, spill reporting and ESD and breakaway procedures in the plan"
+  ],
+  "traps": [
+   "No plan at all, even if the ship has never done STS",
+   "Oil cargo plan not approved by flag",
+   "Plan out of date or incomplete",
+   "A copy missing from bridge, cargo station or engine room",
+   "Officer unfamiliar with where the plan is or what it says",
+   "Rating who took part recently does not know the plan"
+  ],
+  "say": "Our STS Operations Plan is approved where required and copies are on the bridge, cargo control and engine room. It gives the steps for mooring, transfer, ESD, breakaway and spill reporting. We update it with the mooring and cargo plans for each operation.",
+  "practice": [
+   {
+    "q": "Where is the STS Operations Plan kept?",
+    "a": [
+     "Bridge",
+     "Cargo transfer station",
+     "Engine room"
+    ]
+   },
+   {
+    "q": "What does it cover?",
+    "a": [
+     "Step-by-step operation, mooring and unmooring",
+     "Cargo and ballast transfer, hoses, topping off",
+     "Roles, ESD and breakaway, drip trays, spill reporting, contingency plan"
+    ]
+   }
+  ],
+  "tip": "If STS is never done on this ship, the guidance says Not Answerable then Not Applicable. Otherwise the plan must exist even if no STS has happened.",
+  "refs": [
+   "MARPOL Annex I Ch 8",
+   "OCIMF STS Transfer Guide",
+   "ISM Code 7",
+   "TMSA KPI 6A.2.1"
+  ]
+ },
+ {
+  "id": "9.6.1",
+  "title": "Vapour hose arrangement for buoy moorings",
+  "plain": "Are the vapour manifolds fitted for handling the vapour hose at buoy moorings?",
+  "why": "Without the right fittings the vapour hose cannot be supported or hung off safely, and liquid can carry into the floating hose.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Vapour manifold supported as strongly as cargo manifolds",
+   "Hose rails strong and the same along their length, extending beyond the vapour manifold, stopper plates at both ends",
+   "Closed chock at ship's side in line with the manifold",
+   "Cruciform bollard, and two deck pad-eyes for a 16-inch floating hose",
+   "SWL marked on securing fittings, and a low point drain on the vapour line"
+  ],
+  "ready": [
+   "Mooring arrangement plan showing deck fittings by the manifold",
+   "Fittings marked with SWL",
+   "Drain arrangement at the lowest point of the vapour line"
+  ],
+  "traps": [
+   "Vapour manifold not supported to same strength as cargo manifolds",
+   "Hose rails not extended, not uniform, or lacking stopper plates at both ends",
+   "Closed chocks, cruciform bollards or pad-eyes missing",
+   "Securing fittings not marked with SWL",
+   "No means to drain the vapour manifold, so liquid could reach the floating hose"
+  ],
+  "say": "Our vapour manifolds are built for buoy mooring work. Supports, hose rails, closed chock, cruciform bollard and pad-eyes are in place and marked with SWL. The vapour line has a drain at its lowest point.",
+  "practice": [
+   {
+    "q": "What fittings do you need at the vapour manifold for SPM work?",
+    "a": [
+     "Closed chock in line with manifold",
+     "Cruciform bollard for hang-off chain",
+     "Two pad-eyes for the hose",
+     "Hose rails with stopper plates"
+    ]
+   },
+   {
+    "q": "Why a drain at the low point?",
+    "a": [
+     "Stops liquid carrying into the floating hose",
+     "Keeps vapour line clear"
+    ]
+   }
+  ],
+  "tip": "Only applies if your vapour manifold is designed for single buoy use. Keep the mooring arrangement plan showing these fittings.",
+  "refs": [
+   "OCIMF/CDI Manifold Recommendations sections 5 and 9",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "9.6.2",
+  "title": "SPM mooring arrangements",
+  "plain": "Do officers know the procedures for mooring at an SPM or F(P)SO, and does the HVPQ describe the bow fittings correctly?",
+  "why": "A badly equipped or poorly maintained bow system can fail under load at an SPM or F(P)SO.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure: preparation, safe mooring instructions, inspection and maintenance of bow stoppers",
+   "Independent authority certificates for bow stoppers, closed fairleads and their foundations",
+   "Bow stopper marked with SWL and serial number, fairlead SWL not less than stopper",
+   "Records of bow stopper inspection and maintenance",
+   "Bow arrangement matches what the HVPQ says, pick-up line route clear"
+  ],
+  "ready": [
+   "SPM or F(P)SO mooring procedure",
+   "Mooring arrangement plan",
+   "Class certificates for stoppers, fairleads and structure",
+   "Inspection and maintenance records for stoppers",
+   "Surveys of stoppers, fairleads and structure at least every five years"
+  ],
+  "traps": [
+   "No procedure with preparation, instructions and stopper maintenance",
+   "Officer unfamiliar with the procedure; bow arrangements not as described in the HVPQ",
+   "Missing certificate for stopper, fairlead or foundation; stopper not marked with SWL and serial number",
+   "Fairlead SWL below the stopper SWL; no stopper inspection records; obstruction near the pick-up line route",
+   "Winch stowage drum too small, or warping drum used for the pick-up line",
+   "Wedges between pin and tongue, or a Smit bracket used as a stopper"
+  ],
+  "say": "Our procedure covers preparation, mooring and inspection of the bow stoppers for SPM and F(P)SO. The stoppers and fairleads are certified, marked with SWL and inspected. What the HVPQ says matches what you see on the forecastle.",
+  "practice": [
+   {
+    "q": "What must the bow stopper have?",
+    "a": [
+     "Certificate from independent authority such as Class",
+     "Permanent SWL and serial number marking",
+     "Inspection and maintenance records"
+    ]
+   },
+   {
+    "q": "How is the pick-up line handled?",
+    "a": [
+     "Stowage drum, not the warping drum",
+     "Drum big enough, no obstructions on the line route"
+    ]
+   }
+  ],
+  "tip": "Compare the HVPQ bow details with the actual forecastle before the inspection.",
+  "refs": [
+   "OCIMF Offshore Tanker Operations Guidelines 5.3",
+   "ISM Code 7",
+   "TMSA KPI 6A.2.1"
+  ]
+ },
+ {
+  "id": "9.7.1",
+  "title": "Shuttle tanker bow mooring system",
+  "plain": "Do officers know how to operate, inspect, test and maintain the bow mooring system for offshore terminals, and is it in good condition?",
+  "why": "The bow system takes huge hawser loads, and a failure or accidental chain release at an offshore terminal can be disastrous.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure, possibly in field operations manuals and maintenance plan",
+   "Inspection, test and maintenance records, including chain stopper open and close time within 30 seconds",
+   "Fairlead, hardwood deck protection, chain stopper, traction winch and manual brake release",
+   "Rope pulling unit, service crane, hydraulic power pack, messenger line cutter",
+   "Your answers on preventing accidental chafe chain release, brake release on power failure, and the messenger cutter"
+  ],
+  "ready": [
+   "Procedure and Field Offloading Manual",
+   "Maintenance and test records",
+   "Chain stopper marked with SWL",
+   "Tension monitor for the hawser load",
+   "Evidence of chain stopper timing test"
+  ],
+  "traps": [
+   "No company procedure, or officer unfamiliar with chain release prevention, manual brake release or messenger cutter",
+   "Records missing or incomplete, no chain stopper timing test within 30 seconds",
+   "Stopper not marked with SWL; fairlead not stainless steel or spark free cladding missing",
+   "Hardwood protection (75 mm) missing or damaged, or recess bolts without hardwood plugs; no hawser tension monitor",
+   "Manual brake release not in a safe place, winch parts or brakes unprotected, rope pulling unit without guards",
+   "Operator's view of the rope stowing area blocked"
+  ],
+  "say": "Our procedure covers operation, inspection, testing and maintenance of the bow mooring system. We guard against accidental chain release, and I know the manual brake release and the messenger line cutter. Records show the chain stopper operates within 30 seconds.",
+  "practice": [
+   {
+    "q": "What if the traction winch loses power?",
+    "a": [
+     "Use the manual brake release",
+     "Located in a safe area away from debris",
+     "Follow the procedure"
+    ]
+   },
+   {
+    "q": "What if the messenger line goes toward the thruster or propeller?",
+    "a": [
+     "Use the messenger line cutter",
+     "Cut the line to avoid fouling",
+     "Know where the cutter is and who uses it"
+    ]
+   }
+  ],
+  "tip": "Only for shuttle tankers with bow loading systems. Time the chain stopper and write it down.",
+  "refs": [
+   "OCIMF Offshore Tanker Operations Guidelines 5.4",
+   "NOG Guideline 140",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "10.1.1",
+  "title": "Chief Engineer's standing and daily orders",
+  "plain": "Has the Chief Engineer written standing orders and daily orders, and have all engineers signed them?",
+  "why": "Clear orders make every watchkeeper know what the company and the Chief expect in the engine room.",
+  "who": {
+   "lead": [
+    "ce"
+   ],
+   "also": [
+    "2e",
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure requiring standing and daily orders",
+   "Current standing orders signed and dated by CE and all engineers",
+   "Daily order book entries dated, timed and signed by CE and each watch officer",
+   "Engine room log book showing the daily orders were followed",
+   "Your knowledge of the orders"
+  ],
+  "ready": [
+   "Company procedure on writing orders",
+   "Standing orders, signed and dated by CE at takeover and by all engineers",
+   "Daily order book",
+   "Engine room log book and records for machinery mode changes"
+  ],
+  "traps": [
+   "No company procedure requiring orders; engineer cannot explain the orders",
+   "CE's own standing orders not written, signed and dated",
+   "Engineers on board have not signed (unless joined that day); orders conflict with company procedures",
+   "Standing orders missing UMS entry, alarm response, defect action, transfers, incinerator, hot and cold work",
+   "Daily orders not signed, dated and timed, or watch engineers not signed",
+   "Log shows orders not followed"
+  ],
+  "say": "I write standing orders to support the SMS and the daily orders for each day's operation. Every engineer signs, and the watch engineers sign the daily orders before taking over. The orders cover UMS entry, alarms, defects, transfers, incinerator and hot work.",
+  "practice": [
+   {
+    "q": "What do the standing orders say about alarms?",
+    "a": [
+     "Actions on alarm, especially critical equipment",
+     "When to call the CE",
+     "Record the action"
+    ]
+   },
+   {
+    "q": "What goes into daily orders?",
+    "a": [
+     "Timing of engine room status change and tests for manoeuvring",
+     "Generator changes",
+     "Fuel changeover timing",
+     "When incinerator or OWS may be used"
+    ]
+   }
+  ],
+  "tip": "Daily orders are not generally needed for days in open ocean with UMS. Do write them for port, manoeuvring and changes.",
+  "refs": [
+   "ICS Engine Room Procedures Guide 2.1",
+   "ISM Code 5.1",
+   "OCIMF Engineering Watch Handover Recommendations"
+  ]
+ },
+ {
+  "id": "10.1.2",
+  "title": "Testing propulsion, steering, thrusters and power plant",
+  "plain": "Do engineers know the tests before arrival and departure, and are checklists and log entries completed?",
+  "why": "Failure of propulsion or steering during manoeuvring can cause collision, grounding or a spill.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure listing what is tested, when, by whom and how it is recorded",
+   "Recent pre-arrival and pre-departure checklists and log entries",
+   "Whether you understand any test on the checklist you are asked",
+   "Local operation of the steering gear shown by the engineer",
+   "Defects found during tests reported to bridge and in the defect system"
+  ],
+  "ready": [
+   "Procedure and checklists matching the equipment fitted",
+   "Completed pre-arrival, pre-departure and pre-transit checklists",
+   "Engine log book entries, printer and data logger records",
+   "Defect reports for items found faulty in tests"
+  ],
+  "traps": [
+   "No documented procedure for tests at defined points",
+   "Engineer does not know a test on the checklist",
+   "Engineer cannot operate the steering gear locally",
+   "Checklists not matching the equipment fitted",
+   "Tests not done or not recorded",
+   "Defects found in testing not repaired or not reported"
+  ],
+  "say": "Our procedure and checklists define the tests before arrival, departure and transit, who does them and how they are recorded. Steering gear is checked and tested within 12 hours before departure, and our checklists cover main engine, generators and the other items. Any defect goes to the bridge and into the defect system.",
+  "practice": [
+   {
+    "q": "What do you test before departure?",
+    "a": [
+     "Steering gear primary and secondary",
+     "Main engine ahead and astern",
+     "Standby generator, emergency batteries, communications and alarms"
+    ]
+   },
+   {
+    "q": "Can you show local steering gear control?",
+    "a": [
+     "Change to local control",
+     "Operate the steering from the steering gear room",
+     "Communicate with the bridge"
+    ]
+   }
+  ],
+  "tip": "Practise local steering operation with the 3/E until it is automatic. It is a common request.",
+  "refs": [
+   "SOLAS V/26",
+   "ICS Engine Room Procedures Guide Annex A",
+   "ICS Bridge Procedures Guide 3.18",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.1.3",
+  "title": "Periodic machinery space rounds (non-UMS)",
+  "plain": "Do engineers know the company procedure for engine room rounds, and do logs and checklists show rounds were done?",
+  "why": "Regular rounds catch leaks, noises and temperatures early, before they become breakdowns or fires.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e"
+   ]
+  },
+  "checks": [
+   "Company procedure for routine engine room rounds",
+   "Vessel-specific round checklists covering all spaces and main machinery",
+   "Checklists and logs showing rounds were made as required",
+   "Local readings recorded against remote values",
+   "Your knowledge of an item you are asked about"
+  ],
+  "ready": [
+   "Procedure and ship-specific round checklists",
+   "Completed checklists and log book entries",
+   "Operational records for recent voyages"
+  ],
+  "traps": [
+   "No procedure requiring periodic rounds",
+   "Engineer does not know a check on the list",
+   "No ship-specific round checklists",
+   "Rounds not done as the procedure requires"
+  ],
+  "say": "Our procedure requires regular rounds by the watch engineer with a checklist for our machinery. I record local readings and compare them with the remote values, and report any abnormality to the Chief Engineer.",
+  "practice": [
+   {
+    "q": "Take any item on the round sheet. What do you check?",
+    "a": [
+     "What to look at, hear, smell or feel",
+     "What value to record",
+     "What to do if abnormal"
+    ]
+   },
+   {
+    "q": "Why compare local and remote readings?",
+    "a": [
+     "Find sensor errors",
+     "Catch problems early"
+    ]
+   }
+  ],
+  "tip": "This question is for ships without a UMS notation. Make sure the checklist covers every space and the main machinery.",
+  "refs": [
+   "ICS Engine Room Procedures Guide 8.5 and 8.9.3",
+   "SOLAS II-1/31",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.1.4",
+  "title": "Machinery space rounds, manned and UMS",
+  "plain": "Do engineers know the rounds and monitoring procedure for both manned and unmanned (UMS) periods, with records to prove it?",
+  "why": "Running unattended without the right checks and safeguards is how engine room fires and floods go unnoticed.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for manned rounds and checks before UMS",
+   "Pre-UMS checklist covering all SOLAS II-1 Part E systems",
+   "Maximum UMS period allowed by class or flag",
+   "Logs, checklists and alarm records for recent voyages",
+   "Your knowledge of an item on the checklist"
+  ],
+  "ready": [
+   "Procedure with manned and UMS round checklists",
+   "Completed checklists and engine log book",
+   "Alarm records for recent voyages",
+   "Evidence UMS equipment tested and working",
+   "Defect report for any reliability concern"
+  ],
+  "traps": [
+   "No procedure for rounds in manned periods and before UMS",
+   "No ship-specific checklists; engineer does not know the purpose of a check",
+   "Rounds not carried out as procedure says",
+   "UMS longer than allowed by company or class; UMS used when procedure required manned",
+   "Manned on open sea for reliability but cause not in the defect system",
+   "UMS with Part E equipment out of service or defective"
+  ],
+  "say": "Our procedure requires rounds in manned mode and a full round with checklist before going UMS. The checklist covers the systems required by SOLAS II-1 Part E. We respect the maximum UMS period and record any reliability reason for going manned.",
+  "practice": [
+   {
+    "q": "What do you do before leaving the engine room unmanned?",
+    "a": [
+     "Complete round with the pre-UMS checklist",
+     "Check alarms, safety and fire systems work",
+     "Hand over to duty engineer and bridge informed"
+    ]
+   },
+   {
+    "q": "When would the procedure make you manned?",
+    "a": [
+     "Circumstances in company procedure",
+     "Reliability concerns",
+     "Record reason in defect system"
+    ]
+   }
+  ],
+  "tip": "If you go manned because of a reliability worry, put the cause on a defect report so the shore side can fix it.",
+  "refs": [
+   "ICS Engine Room Procedures Guide 7.6.1",
+   "SOLAS II-1 Part E",
+   "SOLAS II-1/31",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "10.1.5",
+  "title": "Local control of propulsion machinery",
+  "plain": "Do engineers know how to operate, inspect and test local control of propulsion machinery if the remote control fails?",
+  "why": "If remote control fails during manoeuvring, you must take control locally fast to keep the ship safe.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "2o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure: actions on remote control failure, how often local control is inspected and tested",
+   "Manual controls or HMIs at local stations and instructions posted nearby",
+   "Inspection and test records, in the planned maintenance system if needed",
+   "Communication with the bridge at each local control station",
+   "For CPP: failure mode known by engineers and navigation officers, with a notice posted"
+  ],
+  "ready": [
+   "Procedure for local control operation, inspection and testing",
+   "Ship-specific operating instructions posted at each local control station",
+   "Test records and planned maintenance entries",
+   "Working communication to the bridge from each station",
+   "CPP failure mode notice on bridge and in machinery space, if fitted"
+  ],
+  "traps": [
+   "No company procedure; engineer does not know purpose, operation or testing of local control",
+   "Instructions not posted near the controls",
+   "Local control not in the planned maintenance system, or records incomplete",
+   "Maintenance records say done but local station shows it was not",
+   "Communication from a local station not ready or defective",
+   "No CPP failure mode notice, or navigation officer does not know the mode; local control systems defective"
+  ],
+  "say": "Our procedure covers what to do if remote control fails, and how often we inspect and test local control. Ship-specific instructions are posted at each station and we have communications with the bridge. I can demonstrate operation and testing.",
+  "practice": [
+   {
+    "q": "The bridge remote control fails during manoeuvring. What do you do?",
+    "a": [
+     "Go to local control as the posted instructions say",
+     "Use communication to the bridge",
+     "Follow company procedure and report the defect"
+    ]
+   },
+   {
+    "q": "What is the CPP failure mode on this ship?",
+    "a": [
+     "State it (full ahead, full astern or zero pitch)",
+     "Notice posted on bridge and in machinery space"
+    ]
+   }
+  ],
+  "tip": "Run a local control drill with the 3/E and a bridge call. It also proves the communication works.",
+  "refs": [
+   "SOLAS II-1/31",
+   "SOLAS II-1/49",
+   "ICS Engine Room Procedures Guide 10.2.2",
+   "ISM Code 6.3"
+  ]
+ },
+ {
+  "id": "10.2.1",
+  "title": "Emergency generator",
+  "plain": "Do officers know how to start the emergency generator, and do records prove it is tested as required?",
+  "why": "In a blackout the emergency generator keeps essential services running, so it must start every time.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "eto",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure with starting, supply to switchboard, fuel system, testing and frequency",
+   "Starting instructions posted at the generator, clear for non-engineers",
+   "Auto start and supply to emergency switchboard; witnessing start by primary and secondary means",
+   "Voltage and frequency on the emergency switchboard, fuel level, quick closing valve, fire-flaps",
+   "Test records on load, with consumers loaded, spare starter motor tested"
+  ],
+  "ready": [
+   "Company procedure and ship-specific start procedure",
+   "Posted starting instructions",
+   "Test records for generator, quick closing valve and spare starter motor",
+   "Fuel quantity for 18 hours marked on the tank gauge",
+   "Insulation mats in front of and behind the emergency switchboard"
+  ],
+  "traps": [
+   "No company procedure, or not set to start automatically; no posted instructions, or unclear instructions",
+   "Officers not familiar with starting and connecting to the switchboard; does not start within three attempts by primary or secondary means",
+   "Voltage or frequency out of limits; no spare starter motor where needed, or not tested",
+   "Tests or records missing, no on-load run, consumers not loaded",
+   "Fuel not enough for 18 hours or level not marked; fuel not suitable for sub-zero trading",
+   "Quick closing valve faulty, closed or hard to reach, fire-flaps do not operate; insulation mats missing, exhaust piping wasted"
+  ],
+  "say": "Our procedure covers primary and secondary starting, supply to the emergency switchboard, on-load testing and the fuel quick closing valve. Instructions are posted at the generator and all officers know them. Test records are available, with on-load runs and consumers checked.",
+  "practice": [
+   {
+    "q": "Show me how to start the emergency generator.",
+    "a": [
+     "Use ship-specific posted instructions",
+     "Primary and secondary starting methods",
+     "Connect to the emergency switchboard if not automatic"
+    ]
+   },
+   {
+    "q": "How much fuel must you have?",
+    "a": [
+     "Enough for full load for at least 18 hours",
+     "Minimum level marked on the gauge",
+     "Sub-zero grade if trading in cold"
+    ]
+   }
+  ],
+  "tip": "Deck officers can be interviewed too. Make sure they have read the start instructions. On-load test is not done during an inspection.",
+  "refs": [
+   "SOLAS II-1/43 and 44",
+   "SOLAS II-2/4",
+   "MGN 52",
+   "ISM Code 10.3"
+  ]
+ },
+ {
+  "id": "10.2.2",
+  "title": "Battery emergency source of power",
+  "plain": "Do engineers know how emergency batteries are inspected, maintained and tested, and are the batteries charged and in good condition?",
+  "why": "If the emergency source is batteries, they must carry the emergency load when main power fails.",
+  "who": {
+   "lead": [
+    "ce",
+    "eto"
+   ],
+   "also": [
+    "2e",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Company procedure: inspection, condition assessment, testing and retirement criteria",
+   "Records of inspections, voltage and specific gravity, blackout simulation test, installation date",
+   "Battery compartment: clean, terminals protected, vents clear, no storage",
+   "Batteries fully charged and charger working",
+   "Your knowledge of the blackout simulation test"
+  ],
+  "ready": [
+   "Procedure with retirement criteria based on age or condition",
+   "Inspection and condition records",
+   "Records of test bringing the battery system on load in a blackout simulation",
+   "Battery installation date",
+   "Maker's instructions for sealed, gel or NiFe batteries in the space"
+  ],
+  "traps": [
+   "No procedure, or no retirement criteria; officer unfamiliar with procedure or blackout simulation test",
+   "No records of inspection, maintenance or tests",
+   "Voltage or specific gravity records show poor condition",
+   "Batteries not replaced per retirement criteria or in poor physical state",
+   "Exposed terminals without caps; battery locker used for storage",
+   "Batteries not fully charged, charger defective"
+  ],
+  "say": "Our procedure covers regular inspection, voltage and specific gravity checks, and the full system test on load in a blackout simulation. We keep records, know the retirement criteria and the battery installation date. Terminals are protected and the locker is kept clear.",
+  "practice": [
+   {
+    "q": "How do you judge the condition of a battery?",
+    "a": [
+     "Measure specific gravity and voltage",
+     "Compare with maker's chart",
+     "Check electrolyte level, cleanliness, terminals, vents"
+    ]
+   },
+   {
+    "q": "How long must the emergency batteries last?",
+    "a": [
+     "Supply the designed load for up to 18 hours",
+     "Kept fully charged"
+    ]
+   }
+  ],
+  "tip": "Only applies if emergency power is batteries. Check the terminal caps and make sure nothing is stored in the locker.",
+  "refs": [
+   "SOLAS II-1/43",
+   "ISM Code 10.3",
+   "TMSA KPI 4A.1.4"
+  ]
+ },
+ {
+  "id": "10.2.3",
+  "title": "Exhaust gas cleaning system (EGCS)",
+  "plain": "Do engineers know how to operate, calibrate and maintain the scrubber safely and follow regulations?",
+  "why": "Scrubbers involve hazardous chemicals, gases and wash water, and non-compliance means breaking MARPOL or local rules.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure and risk assessments: hazards, training, PPE, signage, routine operation, calibration, failure actions, records",
+   "Required documents: SOx Emissions Compliance Plan, Technical Manual, Onboard Monitoring Manual, EGCS Record Book",
+   "You describing routine operation and failure actions",
+   "How to close the EGCS overboard valve in an emergency",
+   "Waste and chemical handling, planned maintenance records, training records"
+  ],
+  "ready": [
+   "Procedure and risk assessments",
+   "SOx Emissions Compliance Plan, Technical Manual, Onboard Monitoring Manual",
+   "EGCS Record Book or electronic log, kept current",
+   "Planned maintenance and calibration records",
+   "Training or familiarisation records",
+   "Notification record to authorities if the system failed"
+  ],
+  "traps": [
+   "No procedure or no risk assessment; officer does not know routine operation or how to shut the overboard valve",
+   "Used where company procedure or local rules prohibit it; waste, sludge or washwater not managed as required",
+   "Chemicals or calibration gases not stored per procedure",
+   "No training or familiarisation evidence; required document missing from board",
+   "Maintenance and calibration not in planned maintenance or not done; record book not maintained",
+   "System defective without notification to authorities per MEPC.1/Circ.883"
+  ],
+  "say": "We have a procedure and risk assessments covering hazards, PPE, training, routine operation, calibration and failures. The required documents and the record book are on board and current. I know how to close the overboard valve in an emergency.",
+  "practice": [
+   {
+    "q": "What if the scrubber fails or goes out of compliance?",
+    "a": [
+     "Follow the failure procedure and MEPC.1/Circ.883",
+     "Record start time, actions and resolution in the EGCS record book",
+     "Change to compliant fuel if not back in compliance within one hour",
+     "Report a failure over one hour, or repeated failures, to flag and port State"
+    ]
+   },
+   {
+    "q": "What goes into the EGCS record book?",
+    "a": [
+     "Entering or leaving ECA",
+     "Start and stop of each unit",
+     "Maintenance, filter and sensor cleaning",
+     "Out of compliance events"
+    ]
+   }
+  ],
+  "tip": "Only for ships with a scrubber. Know where the overboard valve is and how to close it.",
+  "refs": [
+   "MARPOL Annex VI Reg 4",
+   "MEPC.259(68)",
+   "MEPC.1/Circ.883",
+   "OCIMF EGCS Guide"
+  ]
+ },
+ {
+  "id": "10.2.4",
+  "title": "Seawater pipelines, sea chests and pumps",
+  "plain": "Are seawater pipes, sea chests and pumps in good condition and free of temporary repairs?",
+  "why": "A weak seawater system can fail and flood the machinery space.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e"
+   ]
+  },
+  "checks": [
+   "Seawater pipes, sea chests, storm valves, hull penetrations and pumps",
+   "Corrosion, pitting, hard rust, leaks, wasted pipe in way of clips",
+   "Bellows deformed, clips or supports missing or heavily corroded",
+   "Any temporary repairs, doublers, patent couplings, flexible hoses used as replacement",
+   "Class approval for completed repairs"
+  ],
+  "ready": [
+   "Machinery space pipeline drawings and specifications",
+   "Class approval for any permanent repair",
+   "Planned maintenance on seawater system",
+   "Clips and supports refitted after any repair"
+  ],
+  "traps": [
+   "Corroded piping with pitting or hard rust",
+   "Leaks on pipes, valves or pumps; deformed bellows",
+   "Pipe thinned at clips and supports, or clips missing",
+   "Temporary repair such as clamp or bandage",
+   "Unacceptable permanent repair such as welded doubler or coupling",
+   "No class approval for a pipe repair; flexible hose used instead of a failed metal pipe"
+  ],
+  "say": "We inspect the seawater system regularly, including outboard of ship-side valves, bends, clips, bellows and wet areas. Any local repair is treated as temporary until it is replaced by class approved pipe. We have no temporary repairs now.",
+  "practice": [
+   {
+    "q": "Where do you look for weak points in seawater pipes?",
+    "a": [
+     "Outboard of ship-side valves, bends and elbows",
+     "Clips and supports",
+     "Bellows and wet or hidden areas"
+    ]
+   },
+   {
+    "q": "What is acceptable as a permanent repair?",
+    "a": [
+     "Replace the length of pipe with class approved material",
+     "Examined and approved by class surveyor",
+     "Patent couplings only if part of original design"
+    ]
+   }
+  ],
+  "tip": "Look in the hidden corners behind pumps and under plates. Inspectors do.",
+  "refs": [
+   "ISM Code 10",
+   "TMSA KPI 4.1.1"
+  ]
+ },
+ {
+  "id": "10.2.5",
+  "title": "Bilge monitoring devices",
+  "plain": "Do officers know how bilge level devices and alarms are tested, and do records prove the tests were done?",
+  "why": "Bilge alarms give the first warning of flooding in the engine room, pumproom or thruster space.",
+  "who": {
+   "lead": [
+    "2e",
+    "co"
+   ],
+   "also": [
+    "ce",
+    "3e",
+    "3o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Procedure requiring all bilge level and flooding devices and alarms to be identified and tested",
+   "Test records including any activation delay",
+   "Alarm test during the tour: right places, delay as designed",
+   "Any device or alarm modified or inhibited",
+   "Protection of cargo pumproom, ballast pumproom, main machinery space and bow thruster space"
+  ],
+  "ready": [
+   "Company procedure and list of every bilge alarm fitted",
+   "Test records for each device, delay and alarm",
+   "Planned maintenance job instructions for bilge alarms",
+   "For OBO: alarms in forward ballast tanks and dry or void spaces forward of the foremost hold"
+  ],
+  "traps": [
+   "No procedure for testing all level devices",
+   "Officer not familiar with the procedure in own area",
+   "No records of testing, including delay",
+   "Device or alarm defective",
+   "Alarm modified or stopped from activating",
+   "One of the required spaces with no bilge level monitor"
+  ],
+  "say": "We identified every bilge and water level alarm on the ship and test each one with its activation delay under our procedure. The alarms activate at the places required. Records are available and nothing is inhibited.",
+  "practice": [
+   {
+    "q": "Which spaces need a bilge alarm?",
+    "a": [
+     "Cargo pumproom and ballast pumproom",
+     "Main machinery space",
+     "Bow thruster space",
+     "OBO: forward ballast tanks and dry spaces"
+    ]
+   },
+   {
+    "q": "What do you check in a test?",
+    "a": [
+     "Alarm at the correct level",
+     "Delay as designed",
+     "Remote alarm in the required locations"
+    ]
+   }
+  ],
+  "tip": "Test and log pumproom and bow thruster space alarms too, not only the engine room. Check where the alarm repeats on the bridge and CCR.",
+  "refs": [
+   "SOLAS II-1/48",
+   "SOLAS II-2/4",
+   "ISGOTT 6 12.1.15",
+   "ICS Engine Room Procedures Guide 8.4"
+  ]
+ },
+ {
+  "id": "10.2.6",
+  "title": "Emergency compressed air starting system",
+  "plain": "Do engineers know how to operate, inspect and test the emergency air compressor and reservoir, and are they in good condition?",
+  "why": "After a dead ship condition, the emergency air system must restart the machinery without outside help.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "3e"
+   ]
+  },
+  "checks": [
+   "Procedure for operating, inspecting and testing the emergency compressor and reservoir",
+   "Procedure for using them to bring machinery back from dead ship",
+   "Test and inspection records",
+   "Compressor condition and reservoir at required pressure",
+   "You explaining how to use them to start a generator engine"
+  ],
+  "ready": [
+   "Company procedures for operation, testing and dead ship use",
+   "Regular inspection and test records",
+   "Emergency reservoir at required pressure",
+   "Compressor regularly tested to the generator starting pressure",
+   "Power source known (hand-started diesel or electric from emergency source)"
+  ],
+  "traps": [
+   "No procedures for operation, testing or dead ship use",
+   "Officer not familiar with the procedure or with starting a generator from it",
+   "No records, or tests not as per procedure",
+   "Reservoir not at required pressure",
+   "Emergency compressor defective"
+  ],
+  "say": "Our procedure covers operating and testing the emergency air compressor and keeping the reservoir at pressure. I know how to use them to start a generator from dead ship. Test records are available.",
+  "practice": [
+   {
+    "q": "How do you restart from a dead ship?",
+    "a": [
+     "Use emergency compressor or reservoir",
+     "Start the diesel generator",
+     "Restore power and then machinery per procedure"
+    ]
+   },
+   {
+    "q": "How is the emergency compressor driven?",
+    "a": [
+     "Hand-started diesel engine or electric motor",
+     "If electric, from the emergency source",
+     "State what your ship has"
+    ]
+   }
+  ],
+  "tip": "Run the compressor to generator starting pressure at each test and write down the time and pressure.",
+  "refs": [
+   "SOLAS II-1/26",
+   "ICS Engine Room Procedures Guide 8.9.3",
+   "ISM Code 10.3",
+   "TMSA KPI 4A.1.4"
+  ]
+ }
+]

@@ -1,0 +1,2058 @@
+[
+ {
+  "id": "8.3.3",
+  "title": "Flue gas inert gas system",
+  "plain": "Do the officers know how the flue gas inert gas plant works, and is it run and maintained to the maker's instructions?",
+  "why": "A weak inert gas plant can send air or bad gas into cargo tanks, which risks fire and explosion.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedures for operating, inspecting, testing and maintaining the plant",
+   "Machinery space plant: leaks, pinholes, temporary repairs, vibration",
+   "Gas regulating valve and remote isolation valves working automatically or remotely",
+   "Temperature and pressure sensors connected and showing sensible values",
+   "Safe entry procedure posted if the plant is in an enclosed room"
+  ],
+  "ready": [
+   "Procedures covering boiler uptake valves, scrubber, demister, blowers and gas regulating valve",
+   "Manufacturer's instruction and maintenance manual",
+   "Record of inspection, testing and maintenance, with defects and how they were fixed",
+   "Planned maintenance records showing jobs done on time",
+   "Enclosed space entry notice at each entrance of the IG room"
+  ],
+  "traps": [
+   "No procedure covering all five main parts of the plant",
+   "Officer cannot explain how the plant is operated, inspected and tested",
+   "Gas regulating valve or remote valves running on local control",
+   "Sensors disconnected or defective",
+   "Gas or liquid leaks, or blower shaking badly",
+   "Records missing or incomplete",
+   "Posted entry rules do not match the SMS enclosed space procedure"
+  ],
+  "say": "Our SMS has a procedure for running, inspecting, testing and maintaining the flue gas plant, including the uptake valves, scrubber, demister, blowers and gas regulating valve. I can show you the maker's manual and our inspection and maintenance records, including defects and how we fixed them. Deck and engine departments work together on this plant.",
+  "practice": [
+   {
+    "q": "What are the main parts of your flue gas inert gas plant?",
+    "a": [
+     "Boiler uptake valves",
+     "Scrubber and demister",
+     "Blowers",
+     "Gas regulating valve"
+    ]
+   },
+   {
+    "q": "Where do I find proof that the plant is in good working order?",
+    "a": [
+     "Inspection and maintenance records",
+     "Defects and their rectification recorded",
+     "Planned maintenance history"
+    ]
+   }
+  ],
+  "tip": "Walk the IG room before the inspection and look for small leaks, temporary patches and valves left in local mode.",
+  "refs": [
+   "ISGOTT 6 11.1.5.2",
+   "FSS Code ch 15",
+   "SOLAS II-2/4",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.4",
+  "title": "Cargo tank high level and overfill alarms",
+  "plain": "Do the officers know how to maintain, test and set the high-level and high-high-level alarms, and do they all work and sit at the right settings?",
+  "why": "These alarms are the last warning before a tank overflows, which means pollution and fire risk.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for maintenance, setting and testing of both alarms",
+   "Alarm panel in the cargo control room: switched on, all tanks monitored",
+   "Audible and visible alarms in the control room and on deck",
+   "Test of a high-high alarm on a tank the inspector picks at random",
+   "Your knowledge of when alarms may be isolated and the safeguards"
+  ],
+  "ready": [
+   "Procedure with set points, test method and test frequency",
+   "Testing and maintenance records",
+   "Rules on use of automatic closing valves, if fitted",
+   "Risk-assessment-based procedure for loading on if an alarm fails",
+   "Panels and alarm units clearly labelled as high level or high-high level"
+  ],
+  "traps": [
+   "High-level and high-high alarms not independent of each other",
+   "High-high alarm not independent of the fixed gauging system",
+   "High-level set at or above the high-high point",
+   "High-high set too late to stop transfer before overflow, typically 98 percent",
+   "Alarms silenced, inhibited or not working in the control room or on deck",
+   "Alarms not tested to the manufacturer's instructions",
+   "Chemical ship: high-level alarm tied to the gauging system, or auto closing valves used without approval"
+  ],
+  "say": "Our SMS requires both alarms to be in use for every loading, discharge and transfer. Set points, test method, test frequency and records are all in our procedure. I can show you the test records and demonstrate a high-high alarm on any tank you choose. Any isolation follows the risk-assessed procedure.",
+  "practice": [
+   {
+    "q": "When can a tank alarm be isolated, and what protects you then?",
+    "a": [
+     "Only as the company procedure allows",
+     "Risk assessment-based safeguards in place",
+     "Alarms otherwise always in use during transfers"
+    ]
+   },
+   {
+    "q": "At what level are your high and high-high alarms set?",
+    "a": [
+     "Read the set points from the procedure",
+     "High-level typically 95 percent",
+     "High-high typically 98 percent, early enough to stop transfer"
+    ]
+   }
+  ],
+  "tip": "Test all alarms before cargo ops and write the test in the record the same day, so the paper matches the practice.",
+  "refs": [
+   "46 CFR 39.2007",
+   "IBC Code 15.19",
+   "ICS Tanker Safety Guide (Chemicals) 5.3.5",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.5",
+  "title": "Gauging and sampling static accumulator cargo in non-inerted tanks",
+  "plain": "Do crew know and follow the extra static electricity precautions when dipping, ullaging and sampling in non-inerted tanks?",
+  "why": "A static charge on the cargo can spark and ignite flammable vapour inside the tank.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for dipping, ullaging and sampling in non-inerted tanks",
+   "Equipment used, and how it is bonded, earthed and cleaned",
+   "Settling time observed after loading before gauging",
+   "Sounding pipe type and information displayed at the cargo control position",
+   "Cargo logs and records, and observation of gauging if possible"
+  ],
+  "ready": [
+   "Procedure covering equipment, bonding, earthing, cleaning and settling time",
+   "Plan for fixed gauging failure if fitted but no inert gas or full-depth sounding pipes",
+   "Drawings or plans of the tank sounding pipes",
+   "Cargo log books and records",
+   "No synthetic ropes or tapes for lowering equipment; natural fibre rope for sample holders"
+  ],
+  "traps": [
+   "No information on sounding pipe type at the control position",
+   "Metal gauging or sampling gear put in tank during loading or within 30 minutes after, without a full-length sounding pipe",
+   "Plastic sample container over one litre used in the same time window",
+   "Synthetic rope or tape used to lower equipment",
+   "Non-metal sample bottle rubbed dry before use",
+   "Metal parts of equipment not bonded to the ship",
+   "Sounding pipe not metal, not full depth or not bonded and earthed"
+  ],
+  "say": "Our procedure says what equipment we use, how it is bonded and earthed, and that we wait 30 minutes after loading before using metal gear unless we use a full-depth sounding pipe. We never use synthetic ropes or tapes. Our records show we follow this, and the sounding pipe details are displayed at the cargo control position.",
+  "practice": [
+   {
+    "q": "How long do you wait after loading before using metal gauging gear in a non-inerted tank?",
+    "a": [
+     "30 minutes settling time",
+     "Bond and earth before it enters the tank",
+     "Keep earthed until it is out"
+    ]
+   },
+   {
+    "q": "What rope do you use to lower sampling equipment?",
+    "a": [
+     "Natural fibre rope",
+     "Never synthetic ropes or tapes",
+     "Do not rub non-metal bottles dry"
+    ]
+   }
+  ],
+  "tip": "Ratings do the actual dipping, so brief the deck gang with this checklist at the pre-cargo toolbox talk.",
+  "refs": [
+   "ISGOTT 6 3.2",
+   "ISGOTT 6 12.8.2",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.6",
+  "title": "Loading static accumulator cargo into non-inerted tanks",
+  "plain": "Do officers know and follow the company procedure for loading static accumulator cargo into non-inerted tanks?",
+  "why": "Fast or splashing loading builds up static charge, which can ignite flammable vapour in the tank.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for identifying static accumulator cargoes and loading precautions",
+   "Initial and bulk loading rates in cargo plans and logs",
+   "Bottom entry loading, no free fall, no splashing",
+   "Whether lines were blown with compressed air after loading",
+   "Your knowledge of the procedure, and loading observed if possible"
+  ],
+  "ready": [
+   "Procedure covering water hazard, initial rate, bulk rate, spread loading, switch loading, additives, filters",
+   "Cargo plans and cargo log books",
+   "List or table of which cargoes are static accumulators",
+   "Loading rate records at each tank inlet",
+   "Procedure for loading into uncleaned tanks that held a more volatile cargo"
+  ],
+  "traps": [
+   "No procedure for spotting static accumulator cargoes",
+   "Initial rate over 1 m/s at the tank inlet",
+   "Initial slow rate held for too short a time",
+   "Bulk rate over 1 m/s when the cargo is not clean",
+   "Loading over the top or splash filling",
+   "Lines blown with compressed air after loading",
+   "Low volatility cargo into an uncleaned tank that held a high volatility cargo, without precautions"
+  ],
+  "say": "Our procedure tells us how to identify static accumulators and what to do when loading them into non-inerted tanks. We start at no more than 1 metre per second at the tank inlet and keep it there for the required time, load by bottom entry and do not blow lines with air. The logs show we follow it.",
+  "practice": [
+   {
+    "q": "What is your starting rate for a static accumulator in a non-inerted tank?",
+    "a": [
+     "Maximum 1 m/s at each tank inlet",
+     "For 30 minutes or two pipeline volumes, whichever is less",
+     "Must also cover the fill pipe to twice its diameter"
+    ]
+   },
+   {
+    "q": "When can you go above 1 m/s later in the load?",
+    "a": [
+     "Only if the product is clean",
+     "Less than 0.5 percent free water",
+     "Less than 10 mg/l suspended solids"
+    ]
+   }
+  ],
+  "tip": "If you are in doubt whether a product is a static accumulator, treat it as one, as the guidance says.",
+  "refs": [
+   "ISGOTT 6 3.2",
+   "ISGOTT 6 12.1.7",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.7",
+  "title": "Inert gas system oxygen analyser",
+  "plain": "Do officers know how the fixed IG oxygen analyser works and is calibrated, and has it been calibrated and maintained correctly?",
+  "why": "If the analyser reads wrong you could send gas with too much oxygen into the cargo tanks.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Procedure for operation, testing and calibration of the fixed analyser",
+   "Analyser itself, with zero and span calibration arrangements",
+   "Local reading compared with cargo control room and engine control room readings",
+   "Calibration records showing calibration within 24 hours before each IG start",
+   "Clear instructions for use and calibration near the analyser"
+  ],
+  "ready": [
+   "Procedure including calibration method, frequency and action if the analyser fails",
+   "Manufacturer's manual",
+   "Calibration records for every cargo, purging or inerting operation",
+   "Suitable, in-date zero and span gas available",
+   "Inspection and maintenance records for the IG plant"
+  ],
+  "traps": [
+   "Not calibrated within 24 hours before starting the IG for each operation",
+   "Zero or span gas unsuitable, out of date or missing",
+   "No clear instructions beside the analyser",
+   "Officer cannot explain calibration method or what to do on failure",
+   "Local and remote readings do not agree",
+   "Records missing or incomplete"
+  ],
+  "say": "We calibrate the fixed oxygen analyser within 24 hours before starting the inert gas plant for each cargo, purging or inerting job, using in-date zero and span gas. The record is kept and instructions are posted at the analyser. If it fails, we follow our procedure for failure of the analyser.",
+  "practice": [
+   {
+    "q": "How soon before starting IG must the analyser be calibrated?",
+    "a": [
+     "Not more than 24 hours before",
+     "Every cargo, purging or inerting operation",
+     "Recorded in the calibration log"
+    ]
+   },
+   {
+    "q": "What do you do if the fixed analyser fails?",
+    "a": [
+     "Follow the company failure procedure",
+     "Use the portable analyser as procedure allows",
+     "Report and repair, record the defect"
+    ]
+   }
+  ],
+  "tip": "Check the date on the calibration gas bottles every time you do the analyser calibration, not just when the inspector comes.",
+  "refs": [
+   "FSS Code ch 15",
+   "IMO Inert Gas Systems 3.14",
+   "ISGOTT 6 11.1.6",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.8",
+  "title": "ESD and cargo pump emergency stop controls",
+  "plain": "Do officers and ratings know the ESD system and cargo pump emergency stops, and has everything been tested as the company procedure requires?",
+  "why": "In an emergency the cargo system must be stopped quickly and safely to prevent spills and fire.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedure for operating and testing ESD and pump emergency stops",
+   "Latest test records: ESD, automatic pump shutdown, each emergency stop location, each pump before use",
+   "Emergency stop controls clearly marked, reachable and ready",
+   "Which alarm conditions cause a pump to stop automatically",
+   "Deck rating questions: where the stops are and what to do after"
+  ],
+  "ready": [
+   "Procedure covering ESD, auto pump shutdown and emergency stops",
+   "Test records for each system and each pump before every cargo operation",
+   "ESD plan and signal agreed with the terminal",
+   "Clear access to every emergency stop, no obstructions",
+   "Crew familiarisation records for shutdown controls"
+  ],
+  "traps": [
+   "No procedure describing testing and operation",
+   "Tests not done as the company procedure requires",
+   "System defective in any way",
+   "Manual ESD or pump stop not clearly marked or ready for immediate use",
+   "Access to a stop control blocked",
+   "Officer unfamiliar with what alarms trip a pump automatically",
+   "Rating does not know stop locations, when to use them or what to do after"
+  ],
+  "say": "Our procedure covers the ESD, the automatic pump shutdowns and the manual emergency stops, including testing before each cargo operation. I can show you the test records and the stop locations. Crew know when to hit the stop and that closing a manifold valve against the flow is dangerous.",
+  "practice": [
+   {
+    "q": "When would you press the cargo pump emergency stop?",
+    "a": [
+     "Spill, fire or abnormal condition",
+     "As the agreed ESD plan and procedure say",
+     "Then follow the actions in the procedure"
+    ]
+   },
+   {
+    "q": "Why not shut a manifold valve against the flow?",
+    "a": [
+     "Risk of pressure surge",
+     "Flow must be stopped by the pumps, ship or shore, as agreed in the ESD procedure",
+     "Follow the agreed ESD procedure"
+    ]
+   }
+  ],
+  "tip": "Ask every deck rating on watch to show you where each pump stop is. If they hesitate, run a quick drill.",
+  "refs": [
+   "ISGOTT 6 18.5",
+   "ISGOTT 6 12.1.6.3",
+   "33 CFR 155.780",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.9",
+  "title": "Pressure testing and inspection of cargo, inert gas and vapour pipelines",
+  "plain": "Do officers know the company rules for inspecting and testing cargo, vapour and IG pipelines, and are the records available?",
+  "why": "Hidden weak points in pipelines can leak cargo when the system is under pressure.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and testing of all three pipeline types",
+   "MAWP of the cargo transfer system determined and documented",
+   "Records: annual hydrostatic test at 100 percent MAWP, and 150 percent MAWP at least twice in any five years",
+   "Physical condition of pipelines, flanges, couplings, U-bolts",
+   "Your knowledge of how and when the last test was done"
+  ],
+  "ready": [
+   "Procedure with inspection frequency, test frequency and retest after repairs",
+   "MAWP calculation consistent with drawings and pump curves",
+   "Hydrostatic test records, including crude oil washing line if fitted",
+   "Pipelines marked with date and pressure of the last test",
+   "Inspection records for cargo, vapour and IG lines"
+  ],
+  "traps": [
+   "MAWP not determined or does not match drawings and pump curves",
+   "No hydrostatic test to 100 percent MAWP in the last 12 months",
+   "No 150 percent MAWP test at least twice in five years",
+   "Test done with compressed air or inert gas",
+   "Repairs or section replacement not retested",
+   "Pipelines not marked with date and pressure of last test",
+   "Visible poor condition not matching what the records say"
+  ],
+  "say": "Our procedure sets inspection frequencies, annual hydrostatic tests at 100 percent MAWP and 150 percent MAWP at least twice in five years, and retesting after repairs. The MAWP is documented. Lines are marked with the last test date and pressure, and I can show you the records.",
+  "practice": [
+   {
+    "q": "How do you work out the MAWP of the cargo system?",
+    "a": [
+     "Relief valve setting, if fitted",
+     "Otherwise maximum pump discharge pressure",
+     "Centrifugal pump: pressure at zero flow"
+    ]
+   },
+   {
+    "q": "Can you test the lines with compressed air?",
+    "a": [
+     "No, must be a hydrostatic test",
+     "Air or inert gas is not acceptable",
+     "Retest after repairs or modifications"
+    ]
+   }
+  ],
+  "tip": "Mark each cargo line with the date and pressure of the last test after every test. Unmarked lines are a negative finding.",
+  "refs": [
+   "ISGOTT 6 11.3.2",
+   "ISGOTT 6 12.1.15.3",
+   "46 CFR 35.35-70",
+   "33 CFR 156.170"
+  ]
+ },
+ {
+  "id": "8.3.10",
+  "title": "Vapour collection system",
+  "plain": "Do officers know the company procedures for inspecting, testing and running the vapour collection system, and is the equipment in good condition?",
+  "why": "Wrong operation can over or under pressurise tanks or release toxic and flammable vapour.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure and vapour collection system manual",
+   "Line diagram, relief settings, maximum transfer rate, pressure drop and pre-transfer tests",
+   "Main line pressure sensor with high and low pressure alarms at the cargo control room",
+   "Deck condition of the system and any vapour hoses on chemical ships",
+   "Training or familiarisation records for people in charge of transfer"
+  ],
+  "ready": [
+   "Procedure covering all items in the vapour system manual",
+   "Approval of the system by flag State or class",
+   "Records and checklists from the last time it was used",
+   "Training records for the person in charge",
+   "Maintenance and test records for vapour hoses on chemical tankers"
+  ],
+  "traps": [
+   "Procedure missing line diagram, transfer rates, pressure drop, relief settings or fault actions",
+   "Pressure sensor on the main vapour line not working",
+   "High or low pressure alarms defective or not set as procedure says",
+   "No evidence of training for the person in charge of transfer",
+   "Vapour system not approved by flag State or class",
+   "Vapour hoses on chemical tanker without maintenance and testing evidence"
+  ],
+  "say": "Our procedure covers the vapour line diagram, initial and maximum transfer rates, pressure drop, relief settings, pre-transfer tests and what to do on a fault. High and low pressure alarms work in the cargo control room. Persons in charge have been trained on our system.",
+  "practice": [
+   {
+    "q": "What tests do you do before using the vapour system?",
+    "a": [
+     "P/V valves",
+     "Tank level gauges and alarms",
+     "High and low pressure alarms"
+    ]
+   },
+   {
+    "q": "What if something goes wrong during vapour return?",
+    "a": [
+     "Follow the fault procedure",
+     "Stop or reduce the transfer as procedure says",
+     "Inform the terminal"
+    ]
+   }
+  ],
+  "tip": "Keep the vapour system manual next to the cargo control room copy of the procedures so it is found in seconds.",
+  "refs": [
+   "IMO MSC/Circ.585",
+   "ISGOTT 6 11.5",
+   "ICS Tanker Safety Guide (Chemicals) 5.9",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.11",
+  "title": "Tank cleaning in non-inert tanks",
+  "plain": "Do officers and ratings know and follow the company procedure for washing tanks in a non-inert atmosphere after volatile cargo?",
+  "why": "Washing creates static charge, so the tank atmosphere and ignition sources must both be controlled.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for non-inert tank washing after volatile cargo",
+   "Tank cleaning plans, risk assessments, logs and records",
+   "Electrical continuity test records for portable hoses and connections",
+   "Fixed and portable washing equipment condition and identification marking",
+   "Rating's knowledge of putting sounding rods and equipment into a tank during washing"
+  ],
+  "ready": [
+   "Procedure covering fuel and ignition control, bonding, hose testing, free fall, no steaming",
+   "Completed tank cleaning plans and risk assessments",
+   "Hose continuity test records, not more than 6 ohms per metre",
+   "Hoses indelibly marked for identification",
+   "Gas readings taken frequently at several levels"
+  ],
+  "traps": [
+   "Tank bottom or lines not flushed and stripped before washing",
+   "Atmosphere not ventilated to 10 percent LFL or below before washing",
+   "Washing continued above 35 percent LFL, or restarted above 10 percent",
+   "Wash water over the recommended throughput, or recirculated water used",
+   "Steam injected into a tank not gas free",
+   "Hoses not tested, not marked, or over 6 ohms per metre",
+   "Slop tank liquid not at least 1 metre above the inlets"
+  ],
+  "say": "Our procedure controls the gas and the ignition sources. We flush and strip first, ventilate to 10 percent LFL or less, stop at 35 percent LFL, test hoses for continuity and never use recirculated water or steam. Records and equipment are available to show.",
+  "practice": [
+   {
+    "q": "At what gas level do you stop washing?",
+    "a": [
+     "35 percent LFL anywhere in the tank",
+     "Resume only at 10 percent LFL or less",
+     "Keep ventilating"
+    ]
+   },
+   {
+    "q": "What do you check before using a portable washing hose?",
+    "a": [
+     "Electrical continuity, dry hose",
+     "Not over 6 ohms per metre",
+     "Hose marked and test recorded"
+    ]
+   }
+  ],
+  "tip": "Brief the deck rating on sounding gear rules before washing starts, because they are the ones asked by the inspector.",
+  "refs": [
+   "ISGOTT 6 12.3",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.12",
+  "title": "Portable UTI measurement and sampling equipment",
+  "plain": "Do officers know the company procedures for portable UTI and sampling gear, and is it in good condition and used correctly?",
+  "why": "Wrong or unbonded gauging gear can release vapour or cause a static spark.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for use, testing, calibration and servicing of portable UTI and sampling equipment",
+   "Service and calibration records and certificates for each unit",
+   "Two units tested: right rating, earth wire fixed, ullage and temperature work in a bucket of water",
+   "Control of who opens vapour locks and ullage ports",
+   "Rating's knowledge of earthing, PPE and RPE"
+  ],
+  "ready": [
+   "Procedure explaining closed, restricted and open measurement and when each is allowed",
+   "Manufacturer's manuals and pre-operation check records",
+   "Calibration certificates for every unit",
+   "Number of units onboard matching what the procedure requires",
+   "PPE and RPE ready for open gauging"
+  ],
+  "traps": [
+   "Equipment rating not suitable for the cargo, such as restricted gear where closed is required",
+   "Unit used without bonding in a non-inert tank",
+   "Vapour locks leaking, damaged, missing, or opened by unauthorised persons",
+   "Open tank openings left open after gauging",
+   "Service or calibration not done, or no certificate",
+   "Too few units: no fixed system and not enough units plus two spares",
+   "Officer or rating unaware of PPE, RPE or bonding rules"
+  ],
+  "say": "Our procedure explains closed, restricted and open gauging, the rating of each instrument, bonding, pre-use checks and PPE and RPE. All units are serviced and calibrated with certificates. Vapour locks are controlled, and tank openings are closed straight after use.",
+  "practice": [
+   {
+    "q": "Which type of gauging do you prefer, and why?",
+    "a": [
+     "Closed gauging, full containment",
+     "Open or restricted only where regulations allow",
+     "Pressure relieved before use"
+    ]
+   },
+   {
+    "q": "How do you check a UTI unit before use?",
+    "a": [
+     "Earth wire and clip fitted",
+     "Test sensor in a bucket of water",
+     "Compare temperature with a thermometer"
+    ]
+   }
+  ],
+  "tip": "Keep a bucket and a thermometer ready in the cargo control room so a quick UTI check can be shown any time.",
+  "refs": [
+   "ISGOTT 6 12.8",
+   "ISGOTT 6 3.2.2",
+   "IBC Code ch 17",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.13",
+  "title": "Secondary venting systems",
+  "plain": "Do officers know how the primary and secondary tank venting systems work under SOLAS, and are they set correctly?",
+  "why": "If the main vent fails or is closed by mistake, the secondary protection stops tanks bursting or collapsing.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for primary and secondary venting for each tank or tank group set-up",
+   "Venting arrangement compared with SOLAS and what the HVPQ says",
+   "Pressure and vacuum sensors working and alarms at correct settings, where fitted",
+   "Test and calibration records for the pressure sensors",
+   "Your knowledge of the required alarm settings"
+  ],
+  "ready": [
+   "Procedure with the primary and secondary system for each tank configuration",
+   "Ship's drawings of the venting arrangement",
+   "Cargo handling manual",
+   "Test and calibration records for tank pressure sensors",
+   "Alarm set points written down and known"
+  ],
+  "traps": [
+   "No procedure for primary and secondary venting for each tank set-up",
+   "Arrangement not as described in HVPQ or PIQ",
+   "Secondary means not meeting SOLAS full flow relief",
+   "Vapour isolating valves that can be damaged or closed by mistake, with no full-flow P/V valve or pressure monitoring",
+   "Chemical carrier with one P/V valve per tank and no secondary protection",
+   "Pressure sensors not working, inaccurate or alarms at wrong values",
+   "No sensor test or calibration records"
+  ],
+  "say": "Our procedure shows the primary and secondary venting for each tank arrangement and the alarm settings for the pressure and vacuum sensors. The sensors are tested and calibrated to the maker's instructions and I can show the records. Sensor alarms are set above the normal valve settings but always within tank design limits.",
+  "practice": [
+   {
+    "q": "What is your secondary protection against over or under pressure?",
+    "a": [
+     "Second full-flow P/V valve or pressure sensors in each tank",
+     "Alarm monitored in the cargo control room",
+     "As described in the HVPQ"
+    ]
+   },
+   {
+    "q": "Where are the pressure sensor alarms set?",
+    "a": [
+     "10 percent above the normal P/V valve settings, or per the flow diagrams on non-inerted ships",
+     "Never above tank design pressure",
+     "On inerted ships the low pressure alarm is set above zero"
+    ]
+   }
+  ],
+  "tip": "Know the set points by heart and keep the venting drawing handy. Officers who guess here usually get caught.",
+  "refs": [
+   "SOLAS II-2/4",
+   "SOLAS II-2/11",
+   "ISGOTT 6 11.1.8",
+   "IBC Code"
+  ]
+ },
+ {
+  "id": "8.3.14",
+  "title": "Cargo tank venting systems",
+  "plain": "Do officers know the company procedures for operating, inspecting, testing and maintaining the tank venting systems, and are they in good condition?",
+  "why": "Severely over or under pressurised tanks have caused serious accidents on tankers.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for P/V valves, high velocity vents, mast risers, vent stacks, vacuum valves, flame screens, vapour lines",
+   "Records of inspection, maintenance and pre-operation tests",
+   "Maximum permissible loading rate for each tank or tank group",
+   "Physical condition on deck, including flame screens",
+   "High velocity vents operated correctly, not jacked open"
+  ],
+  "ready": [
+   "Procedure covering all venting components",
+   "P/V valve and high velocity vent records, maybe in planned maintenance",
+   "Ship shore safety checklists showing free movement check, Part 1A item 6",
+   "Maximum loading rate information for each tank or group",
+   "Clean, intact flame screens"
+  ],
+  "traps": [
+   "No inspection, test and maintenance records",
+   "P/V valves or vents not checked for free movement before each cargo operation",
+   "No maximum loading rate information available",
+   "Flame screen damaged, clogged or missing",
+   "P/V valve passing vapour or drawing air inside its set pressure or vacuum",
+   "High velocity vents jacked open during cargo operations",
+   "Vapour line heavily corroded or with soft patches"
+  ],
+  "say": "Our procedure covers every part of the venting system, and we check P/V valves and high velocity vents for free movement before each cargo operation, as the safety checklist requires. The maximum permissible loading rate for each tank or tank group is available. We never jack high velocity vents open.",
+  "practice": [
+   {
+    "q": "When do you check the P/V valves for free movement?",
+    "a": [
+     "Before every cargo operation",
+     "Recorded on the ship shore checklist",
+     "Defects reported and repaired"
+    ]
+   },
+   {
+    "q": "Why must you not jack a high velocity vent open?",
+    "a": [
+     "It needs pressure build-up to open at set point",
+     "Gives the high exit velocity of at least 30 m/s",
+     "Jacking defeats its protection"
+    ]
+   }
+  ],
+  "tip": "Look up at the mast risers and flame screens during your pre-inspection walk. Clogged screens are easy to miss from the deck.",
+  "refs": [
+   "ISGOTT 6 11.1.8",
+   "SOLAS II-2/11",
+   "IMO Inert Gas Systems 3.9.12",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.15",
+  "title": "Deepwell pump cofferdam purging",
+  "plain": "Do officers know how to monitor leakage into deepwell pump cofferdams, and has regular purging been done to spot excessive leakage?",
+  "why": "Purging shows if shaft seals are failing before cargo or hydraulic oil leaks into the cofferdam and the pump fails.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "ratings",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for monitoring cofferdam leakage",
+   "Purging records for each deepwell pump",
+   "Your knowledge of connections, controls and indicators used when purging",
+   "Maximum purge medium pressure and the medium required for recent cargoes",
+   "Pumpman's knowledge of safety precautions while purging"
+  ],
+  "ready": [
+   "Procedure covering purging, precautions, medium and pressure, frequency, records, acceptable leakage and actions",
+   "Manufacturer's instruction manual for the pumps",
+   "Detailed purging records with results reviewed",
+   "Defect reports for any pump with high leakage or a blocked cofferdam",
+   "PPE for the person purging"
+  ],
+  "traps": [
+   "No company procedure for monitoring leakage",
+   "Purging not done as the procedure says",
+   "No detailed records of purging",
+   "Leakage above manufacturer's limits but no defect report raised",
+   "Apparently blocked cofferdam but no defect report",
+   "Rating does not know the purging safety precautions",
+   "Officer unsure of the maximum purge pressure or correct purge medium"
+  ],
+  "say": "We purge the deepwell cofferdams on the frequency in our procedure, using the medium and maximum pressure in the maker's manual, with proper PPE. Results are recorded and compared with the manufacturer's limits, and any high leakage or blockage gets a defect report.",
+  "practice": [
+   {
+    "q": "Why do you purge the cofferdams?",
+    "a": [
+     "Check shaft seals for leakage",
+     "Detect cargo, hydraulic or lube oil leaking in",
+     "Act early on abnormal results"
+    ]
+   },
+   {
+    "q": "What are the safety precautions when purging?",
+    "a": [
+     "Exhaust gas and liquid may be hazardous",
+     "Wear suitable PPE",
+     "Use the right medium and pressure limit"
+    ]
+   }
+  ],
+  "tip": "Write the purge result as a number or description every time, not just a tick, so trends can be seen.",
+  "refs": [
+   "ICS Tanker Safety Guide (Chemicals) 5.5.2",
+   "TMSA 4.1.1",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.16",
+  "title": "Inert gas system non-return devices",
+  "plain": "Do officers know the purpose, operation, testing and maintenance of the IG non-return devices, and are they in good condition?",
+  "why": "These devices stop cargo vapour or liquid flowing back into the engine room or other gas-safe spaces.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "ce",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure covering deck seal or double block and bleed, and the non-return valve",
+   "IG main non-return valve opened and inspected as the procedure requires",
+   "Deck seal: clear level gauge, correct water level, condition of seal and pipework",
+   "Double block and bleed valves operating automatically and tested for tightness",
+   "Records of inspection, testing and maintenance"
+  ],
+  "ready": [
+   "Procedure for the deck seal or block and bleed and non-return valve",
+   "Evidence the non-return valve was opened and inspected",
+   "Evidence the deck seal was opened and inspected, including pipework",
+   "Test records for block and bleed valves",
+   "IG plant inspection and maintenance record with defects and fixes"
+  ],
+  "traps": [
+   "No procedure including the deck seal or block and bleed and the non-return valve",
+   "No evidence non-return valve was opened and inspected",
+   "Deck seal level gauge not clear or readable",
+   "Deck seal water level not as required",
+   "Seal or pipework in poor condition",
+   "Block and bleed valves not operating automatically, or no test evidence",
+   "Device defective in any way"
+  ],
+  "say": "Our procedure covers the deck seal or block and bleed arrangement and the non-return valve. The non-return valve and deck seal have been opened and inspected as our procedure requires, and I can show the records. The level gauge is clear and the water level is correct.",
+  "practice": [
+   {
+    "q": "What is the purpose of the non-return devices?",
+    "a": [
+     "Stop vapour and liquid returning to the IG plant",
+     "Protect engine room and gas-safe spaces",
+     "Two devices required, deck seal or block and bleed first"
+    ]
+   },
+   {
+    "q": "How do you know the deck seal is working properly?",
+    "a": [
+     "Clear gauge showing correct level",
+     "Inspection of seal and pipework",
+     "Opened and inspected as per procedure"
+    ]
+   }
+  ],
+  "tip": "If your ship has a dry type deck seal, be ready to explain it, because the inspector notes it in the report.",
+  "refs": [
+   "FSS Code ch 15 2.2.3",
+   "ISGOTT 6 11.1.5.2",
+   "IMO Inert Gas Systems 9.4",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.17",
+  "title": "Manifold reducers and spool pieces",
+  "plain": "Do officers know the company rules for using, inspecting and testing reducers, spool pieces and portable pipework, and are they in good condition and fitted correctly?",
+  "why": "Under-rated or damaged reducers can leak at the flange face during cargo transfer.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure covering use, certificates, storage, inspection and testing",
+   "Inventory of reducers, spool pieces and other portable pipework",
+   "Test certificates and records, including annual pressure testing",
+   "Flange faces of a stored reducer, with covers removed",
+   "Fitted arrangement: only one reducer or spool piece, supported if long"
+  ],
+  "ready": [
+   "Procedure with correct use, certification, storage, inspection and annual pressure test",
+   "Complete inventory",
+   "Pressure test certificates showing same or higher rating than fixed manifold",
+   "Each item marked with date and pressure of last test",
+   "Flange face covers fitted in storage"
+  ],
+  "traps": [
+   "No inventory or test certificate for an item",
+   "Not pressure tested to 100 percent MAWP in the last 12 months",
+   "Not marked with date and pressure of last test",
+   "Rating lower than the fixed manifold piping",
+   "Lifting lugs or handles interfering with couplers or bolting",
+   "More than one reducer or spool piece between manifold and presented flange",
+   "Flange face damaged or corroded, or repaired item not retested"
+  ],
+  "say": "Our procedure covers correct use, certification, storage with protected flange faces, regular inspection and annual pressure testing. We have an inventory, and each item has a certificate and is marked with the last test date and pressure. Only one reducer is fitted between the manifold and the connection.",
+  "practice": [
+   {
+    "q": "How often must reducers be pressure tested?",
+    "a": [
+     "At least annually",
+     "To 100 percent MAWP",
+     "Marked with date and pressure"
+    ]
+   },
+   {
+    "q": "What rating must a reducer have?",
+    "a": [
+     "Same or higher than the fixed manifold piping",
+     "Certified with test certificate",
+     "Not more than one between flanges"
+    ]
+   }
+  ],
+  "tip": "Check the paint marks and flange covers on stored reducers before the inspector does. A new test mark is the easiest evidence.",
+  "refs": [
+   "ISGOTT 6 23.6.3",
+   "OCIMF/CDI Manifold Recommendations",
+   "33 CFR 156.170",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.18",
+  "title": "Inert gas system P/V breaking devices",
+  "plain": "Do officers know the purpose, operation and maintenance of the P/V breaker in the IG main, and is it in good condition?",
+  "why": "The breaker stops tanks having too much pressure or vacuum if the IG system fails or venting is misused.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure covering the P/V breaking devices",
+   "Marking on the breaker: pressure and vacuum settings, last inspection date, anti-freeze type and lowest temperature",
+   "Fabric condition and flame screens",
+   "Liquid level and clear, readable level gauge",
+   "Your knowledge of purpose and how to check liquid level"
+  ],
+  "ready": [
+   "Procedure covering inspection, testing and maintenance of the breaker",
+   "Inspection and maintenance records with defects",
+   "Correct liquid and anti-freeze, at the right level",
+   "Flame screens with correct mesh, undamaged",
+   "Setting that is higher than secondary venting and within tank structure limits"
+  ],
+  "traps": [
+   "No procedure including the P/V breaking devices",
+   "Poor fabric condition of the breaker",
+   "Flame screens damaged, missing, gapped or repaired with wrong mesh",
+   "Liquid level not at design setting, or gauge not readable",
+   "Breaker not marked with settings, inspection date, anti-freeze details",
+   "Breaker set lower than the secondary venting, or outside safe tank limits",
+   "Officer cannot explain purpose or how to verify liquid level"
+  ],
+  "say": "The P/V breaker protects the tanks from over pressure and vacuum if the IG fails or venting is misused. It is marked with its settings, last inspection date and anti-freeze details, and the liquid level is correct. It is set higher than our secondary venting and within tank design limits.",
+  "practice": [
+   {
+    "q": "What is the P/V breaker for?",
+    "a": [
+     "Prevent excess pressure in the tanks",
+     "Prevent excess vacuum if IG blowers fail",
+     "Backup if venting is misused"
+    ]
+   },
+   {
+    "q": "How do you check the liquid level?",
+    "a": [
+     "Read the clear level gauge",
+     "Know the correct liquid density",
+     "Level may be verifiable only at atmospheric pressure"
+    ]
+   }
+  ],
+  "tip": "Learn how your ship's gauge reads when the IG is pressurised versus at atmosphere, because the inspector may ask.",
+  "refs": [
+   "SOLAS II-2/11 6.3.4",
+   "ISGOTT 6 11.1.8.1",
+   "IMO Inert Gas Systems 3.9.12",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.19",
+  "title": "Indicators and alarms for the inert gas system",
+  "plain": "Do officers know the purpose, operation and testing of the IG indicators and alarms, and have they been tested and calibrated correctly?",
+  "why": "The IG indicators and alarms tell you when the gas is bad or pressure is lost, before air gets into the tanks.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company procedure covering testing and calibration of IG indicators and alarms",
+   "Control panel recorders showing oxygen and main line pressure against date and time",
+   "Lamp and alarm test used to prove lamps and alarms work",
+   "Local and remote readings consistent: cargo control room, engine room, bridge, deck",
+   "Test and calibration records for instruments and alarms"
+  ],
+  "ready": [
+   "Procedure with test and calibration method, frequency and action on failure",
+   "Manufacturer's manuals for all instruments and alarms",
+   "Test and calibration records",
+   "IG plant inspection and maintenance record with defects and fixes",
+   "Calibration facilities and clear instructions at the instruments"
+  ],
+  "traps": [
+   "Pressure or oxygen indicator or recorder defective, or not matching local readings",
+   "Bridge pressure indicator not working or not matching the control panel",
+   "Engine room oxygen indicator not working or not matching the analyser",
+   "Required audible and visual alarms not working",
+   "Independent low-low pressure alarm or pump shutdown not working",
+   "No calibration records, facilities or clear instructions",
+   "Instruments not in a consistent system of units"
+  ],
+  "say": "Our procedure sets how and when we test and calibrate the IG indicators and alarms, and what to do if one fails. I can show the recorders working, run the lamp and alarm test, and show our calibration records. I know the actions for each alarm, such as high oxygen or low pressure.",
+  "practice": [
+   {
+    "q": "What do you do if the oxygen alarm activates?",
+    "a": [
+     "Follow the company action for the alarm",
+     "Stop sending off-spec gas to the tanks",
+     "Investigate and record the cause"
+    ]
+   },
+   {
+    "q": "How do you check the indicators agree?",
+    "a": [
+     "Compare local and remote readings",
+     "Control room, engine room, bridge and deck",
+     "Fix any difference and record it"
+    ]
+   }
+  ],
+  "tip": "Run the lamp and alarm test before the inspector arrives so any dead lamps are replaced in advance.",
+  "refs": [
+   "FSS Code ch 15 2.2.4",
+   "IMO Inert Gas Systems 3.14",
+   "ISGOTT 6 Part 1B checklist",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.3.20",
+  "title": "Connections and interconnections to the inert gas system",
+  "plain": "Do officers know the IG connections and interconnections, such as emergency external supply and double-hull connections, and are they in good condition and marked?",
+  "why": "In an IG failure or when inerting double-hull spaces, the right connections must be ready and safely isolated from the cargo system.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure covering emergency supply to double-hull spaces, external IG supply and cargo piping link",
+   "Connection for external IG supply, clearly marked with its purpose",
+   "Portable hoses for double-hull space connection, damaged or missing",
+   "Isolation between IG main and cargo piping: spool piece, valves, non-return valve",
+   "Your knowledge of the arrangements, including the forepeak where next to cargo"
+  ],
+  "ready": [
+   "Procedure for the three arrangements as fitted",
+   "Detailed IG instruction manuals",
+   "Cargo and IG operation log books",
+   "Inspection and maintenance records for connections and the non-return valve",
+   "Hoses and blanks stored, labelled and in good order"
+  ],
+  "traps": [
+   "No procedure covering all fitted arrangements",
+   "External IG connection not marked with its purpose",
+   "Spool piece left in place between IG main and cargo piping",
+   "No evidence of inspecting the non-return valve between IG main and cargo piping",
+   "Portable hoses damaged or missing",
+   "Officer does not know the double-hull or external supply arrangements"
+  ],
+  "say": "Our procedure covers emergency IG supply to the double-hull spaces, the external IG supply connection, and the link to the cargo piping where fitted. The external connection is marked, the hoses are in good order, and the non-return valve has been inspected. I know what we do if the IG fails.",
+  "practice": [
+   {
+    "q": "What do you do if the IG system fails completely?",
+    "a": [
+     "Stop all cargo tank operations",
+     "Close the deck isolating valve and open the vent between it and the regulating valve",
+     "Repair quickly, use external IG supply if needed to keep tanks inert"
+    ]
+   },
+   {
+    "q": "Which spaces need an IG connection?",
+    "a": [
+     "Double-hull ballast tanks and void spaces next to cargo tanks",
+     "Includes forepeak where next to cargo",
+     "Not the cargo or ballast pump rooms"
+    ]
+   }
+  ],
+  "tip": "Find the external IG flange and the portable hoses on deck and check the labels before the inspection day.",
+  "refs": [
+   "SOLAS II-2/4",
+   "FSS Code ch 15 2.2.3.2",
+   "IMO Inert Gas Systems 8",
+   "IACS UI SC 272"
+  ]
+ },
+ {
+  "id": "8.3.21",
+  "title": "Cargo heating system",
+  "plain": "Do officers know the company procedure for cargo heating, and is the heating system in good condition, tested and used as the procedure says?",
+  "why": "Wrong heating can damage tank coatings and structure, or let heating medium and cargo mix and contaminate each other.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2e",
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, testing and maintenance of heating, specific to ship and cargo",
+   "Coil manifolds, deck heat exchangers, pipework, observation tank or hot well",
+   "Records of heating, daily cargo temperatures and system testing",
+   "Remote temperature indication and alarms",
+   "Your knowledge of cargo temperature limits"
+  ],
+  "ready": [
+   "Procedure covering testing, return monitoring, pressure, blanking, temperature checks and alarms",
+   "Operation manuals for the heating system",
+   "Heating usage records and daily temperature records",
+   "Records of regular monitoring of system return for leaks",
+   "Cargo temperature limits set by operator, class or coating maker"
+  ],
+  "traps": [
+   "No procedure or no testing and heating records",
+   "Heating not isolated or blanked where the procedure requires",
+   "No records of regular return checks, or oil layer in the hot well",
+   "Leaks of heating medium on deck or in the engine room",
+   "Defective temperature sensors",
+   "Cargo temperature limits exceeded in the records",
+   "Heavy corrosion, soft patches or temporary repairs on heating pipework"
+  ],
+  "say": "Our procedure for this ship and cargo covers testing the heating, checking the system return for leaks, keeping the right pressure, blanking coils when needed and watching temperature limits. I can show heating and temperature records, and the observation tank is clean. Temperature alarms are tested.",
+  "practice": [
+   {
+    "q": "How do you know if a steam heating coil is leaking?",
+    "a": [
+     "Check the observation tank or hot well",
+     "A layer of oil on the surface is a problem",
+     "Very small traces can be normal"
+    ]
+   },
+   {
+    "q": "When do you blank the heating coils?",
+    "a": [
+     "Cargo must not get excess heat",
+     "Heating or cooling medium incompatible with cargo",
+     "As the company procedure says"
+    ]
+   }
+  ],
+  "tip": "Record every check of the hot well or observation tank during a heated cargo, as the procedure requires. A gap in the record is easy for the inspector to spot.",
+  "refs": [
+   "ISGOTT 6 12.1.11.1",
+   "ICS Tanker Safety Guide (Chemicals) 5.10",
+   "IBC Code 7.1",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.22",
+  "title": "Cargo doping and additives",
+  "plain": "Do officers know the company procedure for onboard doping, and did they follow it?",
+  "why": "Adding additives by hand can expose people to toxic or flammable hazards and create static risk if not planned and controlled.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for managing onboard doping operations",
+   "Doping plans and risk assessments from current or past operations",
+   "Doping method, crew supervision, PPE and anti-static precautions, if one is in progress",
+   "Stowage of any additives onboard",
+   "Safety data sheets for additives"
+  ],
+  "ready": [
+   "Procedure covering plan review, risk assessment and supervision",
+   "Supplier or contractor doping plan before the operation",
+   "Ship's own risk assessment, discussed with ship and terminal people",
+   "Safety data sheets near the doping point",
+   "Pressure test records for any injection system used"
+  ],
+  "traps": [
+   "No procedure, or no doping plan received from supplier",
+   "No risk assessment based on the doping plan",
+   "Plan or risk assessment missing hazards, method, supervision, PPE, clean-up or storage",
+   "No evidence it was discussed with everyone involved, including contractors",
+   "No safety data sheet available or at the doping point",
+   "Open tank lid used when another method was possible, or additives free-falling into non-inerted tanks",
+   "PPE not used, or contractors not supervised by ship's crew"
+  ],
+  "say": "Our procedure requires us to review the doping plan, do a risk assessment and supervise the operation. We prefer shore or in-line injection, and open tank lid only in exceptional cases. The safety data sheet is kept at the doping point and the plan is discussed with everyone involved.",
+  "practice": [
+   {
+    "q": "What must the doping plan and risk assessment cover?",
+    "a": [
+     "Flammable or toxic hazards, method, supervision",
+     "PPE and handling equipment, spill clean-up",
+     "Storage and anti-static precautions if not inerted"
+    ]
+   },
+   {
+    "q": "What is the preferred way of doping?",
+    "a": [
+     "Ashore or by in-line injection",
+     "Or through the tank vapour locks",
+     "Open tank lid only in exceptional cases"
+    ]
+   }
+  ],
+  "tip": "Keep a blank doping risk assessment form ready, so you can start it the moment the supplier's plan arrives.",
+  "refs": [
+   "ISGOTT 6 12.1.6.16",
+   "ICS Tanker Safety Guide (Chemicals) 6.3.5",
+   "TMSA 6.3.3",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.23",
+  "title": "Cargo tank temperature monitoring systems",
+  "plain": "Do officers know the procedures for maintaining, testing and calibrating cargo temperature monitoring equipment, and is it in good condition?",
+  "why": "Temperature readings protect tank coatings and structure and are needed to calculate the cargo quantity.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "eto",
+    "2e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for maintenance, testing and calibration",
+   "Demonstration of fixed temperature monitoring equipment and alarms",
+   "Manufacturer's manuals and instructions",
+   "Records of checks, tests and calibration",
+   "Portable temperature equipment serviced and calibrated"
+  ],
+  "ready": [
+   "Procedure following manufacturer's instructions, maybe in planned maintenance",
+   "Manufacturer's manuals for the fixed system",
+   "Calibration records, fixed system within the last 30 months",
+   "Calibration certificates for portable instruments",
+   "Cross-check of fixed against portable readings"
+  ],
+  "traps": [
+   "No procedure or no records of checks, tests or calibration",
+   "Officer cannot demonstrate the fixed equipment and alarms",
+   "Fixed equipment not calibrated within the last 30 months",
+   "Not tested and calibrated to manufacturer's instructions, fixed or portable",
+   "One or more temperature sensors defective",
+   "Visible or audible alarm defective"
+  ],
+  "say": "Our procedure covers maintenance, testing and calibration to the manufacturer's instructions. I can show the fixed system and its alarms working. Calibration of the fixed system has been done within 30 months and the records are here. We also compare portable and fixed readings as a cross-check.",
+  "practice": [
+   {
+    "q": "How often is the fixed temperature system calibrated?",
+    "a": [
+     "Per manufacturer's instructions",
+     "Preferably not more than 30 months apart",
+     "Often done during repair periods"
+    ]
+   },
+   {
+    "q": "How do you check a fixed sensor between calibrations?",
+    "a": [
+     "Compare against a portable instrument",
+     "Record the comparison",
+     "Report any sensor that disagrees"
+    ]
+   }
+  ],
+  "tip": "Put the next calibration due date for the fixed system on the planned maintenance calendar so it is never missed.",
+  "refs": [
+   "ISGOTT 6 12.8.6",
+   "IBC Code 7.1.5",
+   "ICS Tanker Safety Guide (Chemicals) 5.3.7",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.24",
+  "title": "Cargo manifold arrangements",
+  "plain": "Do officers know the company procedures for managing cargo and vapour connections at the manifolds, and are the manifolds in good condition?",
+  "why": "Poorly made-up or unblanked manifold connections are a common source of spills and leaks.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for managing cargo and vapour connections at manifolds",
+   "Manifold connections: full bolting, hose or arm support, pressure gauges",
+   "Blanks on unused connections, drains and sample points",
+   "Drip trays: present, clean and drained, no covers over gratings",
+   "Bow and stern manifolds, vapour manifold keying and marking, platform edge protection"
+  ],
+  "ready": [
+   "Procedure covering connections, gauges, blanks, drip trays, vapour manifolds, platforms, hose support, crane use, bow and stern manifolds",
+   "Documentation for blank flange pressure rating where blanks are not the same thickness",
+   "Clean drip trays with working drains, valves capped",
+   "Pressure gauge on each connection outboard of the valve, with valve and cap when not fitted",
+   "Spray guards for acids or toxic or corrosive cargo on chemical ships"
+  ],
+  "traps": [
+   "Bolts damaged or wrong size, or not a bolt in every hole",
+   "Improvised G-clamp or camlocks not fully engaged",
+   "Loading arm supported on items not meant to carry load",
+   "Cargo hose not properly supported",
+   "Unused manifold not blanked, or leaking, or drain or sample point not capped",
+   "No drip tray, dirty drip trays, plastic trays not bonded, or manifolds drained into open trays",
+   "Midships crane used for stores during cargo, or edge protection missing on high platform",
+   "Stern manifold not isolated, or three-metre danger area not marked"
+  ],
+  "say": "Our procedure covers hose or arm connections, pressure gauges, blanks on all unused connections, drains and sample points, drip trays, vapour manifolds and safe work on the platform. Every flange has a bolt in every hole, and drip trays are clean and drained. Unused lines are blanked, not just closed by valves.",
+  "practice": [
+   {
+    "q": "Why blank unused manifolds instead of relying on the valve?",
+    "a": [
+     "Valve tightness cannot be relied on",
+     "Prevents leaks and seepage",
+     "Blanks fully bolted and rated for the line"
+    ]
+   },
+   {
+    "q": "How do you avoid mixing up vapour and liquid connections?",
+    "a": [
+     "Keyed flange with a stud at 12 o'clock",
+     "Vapour connections painted or marked",
+     "Check at pre-transfer"
+    ]
+   }
+  ],
+  "tip": "Walk the manifold with the bosun before each cargo and check bolts, blanks, drip trays and gauges as a fixed routine.",
+  "refs": [
+   "ISGOTT 6 23.6",
+   "ISGOTT 6 23.7",
+   "OCIMF/CDI Manifold Recommendations",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.25",
+  "title": "Receiving nitrogen from shore",
+  "plain": "Do officers know the company procedure for receiving shore nitrogen to inert, purge, pad tanks or clear lines?",
+  "why": "Shore nitrogen can come at high pressure and flow, and can over-pressurise and damage cargo tanks very quickly.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for receiving nitrogen from shore",
+   "Risk assessments and records from at least one operation in the last six months",
+   "Ship shore safety checklist showing agreed procedure, maximum pressure and flow rate",
+   "Your knowledge of how the incoming flow is controlled",
+   "Whether flammable-cargo lines were cleared to the ship with nitrogen, not compressed air"
+  ],
+  "ready": [
+   "Procedure covering risk assessment, connection and piping choice, and flow control",
+   "Completed risk assessment for each nitrogen receipt",
+   "Completed ship shore checklist items on nitrogen, pressure and flow",
+   "Records of the latest operation within six months",
+   "Plan to pad through the vapour system where possible"
+  ],
+  "traps": [
+   "No procedure for receiving nitrogen for inerting, purging, padding or line clearing",
+   "Procedure does not cover risk assessment, connection choice or flow control",
+   "Risk assessment not available for a past nitrogen receipt",
+   "Checklist did not record agreed pressure and flow rate",
+   "Hoses or arms with flammable cargo cleared to the ship using compressed air",
+   "Officer unfamiliar with the procedure"
+  ],
+  "say": "Before we take nitrogen from shore we carry out a risk assessment and agree the pressure and flow rate with the terminal on the checklist. We control the incoming flow so it never exceeds what our vents can pass. We pad through the vapour system where possible and never clear flammable lines with compressed air.",
+  "practice": [
+   {
+    "q": "What is the main danger of shore nitrogen?",
+    "a": [
+     "High pressure and flow can over-pressurise tanks quickly",
+     "Flow may exceed P/V valve capacity",
+     "Possible structural damage and loss of containment"
+    ]
+   },
+   {
+    "q": "How do you control the incoming flow?",
+    "a": [
+     "Agree pressure and flow with the terminal",
+     "Restrict flow to what vents or vapour return can pass",
+     "Do not throttle with the manifold valve; use it only as an emergency stop"
+    ]
+   }
+  ],
+  "tip": "Brief the whole watch at the pre-transfer conference on who watches tank pressure and who can stop the flow.",
+  "refs": [
+   "ISGOTT 6 12.1.14.8",
+   "ICS Tanker Safety Guide (Chemicals) 7.4.9",
+   "CDI Nitrogen Best Practice",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.4.1",
+  "title": "Carriage of inhibited cargoes",
+  "plain": "Do officers know the company procedures for carrying inhibited cargoes, and were they followed?",
+  "why": "If an inhibited cargo starts to self-react, it can heat up and form solids or explosive peroxides.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for carriage of inhibited cargoes",
+   "Inhibitor certificate with the minimum required information",
+   "Cargo logs, temperature records and inert gas logs",
+   "Contingency plan for uncontrolled polymerisation",
+   "Your knowledge of the procedure, as cargo planning officer"
+  ],
+  "ready": [
+   "Procedure covering certificates, temperature checks, inerting, reliquefaction draining, anti-freeze, water, recirculation, adding inhibitor, toxicity, contingency",
+   "Inhibitor certificate: name and amount, date added and effective life, temperature limits, action if voyage is longer",
+   "Daily temperature records of inhibited cargo",
+   "Cargo plans for load and discharge",
+   "Oxygen records below 0.1 percent for inert gas on vinyl chloride, where relevant"
+  ],
+  "traps": [
+   "No procedure covering all required items",
+   "No certificate on board, or certificate missing minimum information",
+   "Inhibitor effectiveness period expired before discharge",
+   "Temperature not checked at least daily, or as the maker advises",
+   "No contingency plan for uncontrolled polymerisation and rapid temperature rise",
+   "No records that inert gas oxygen was below 0.1 percent where vinyl chloride was protected by inert gas"
+  ],
+  "say": "Our procedure covers the inhibitor certificate, temperature monitoring, inerting, purging the reliquefaction system, water exclusion, cargo recirculation and what to do for uncontrolled polymerisation. We would refuse an inhibited cargo without a proper certificate. Temperatures are recorded daily during the voyage.",
+  "practice": [
+   {
+    "q": "What must the inhibitor certificate tell you?",
+    "a": [
+     "Name and amount of inhibitor",
+     "Date added and how long it works",
+     "Temperature limits and what to do if voyage is longer"
+    ]
+   },
+   {
+    "q": "What do you do about the reliquefaction system when it is shut down?",
+    "a": [
+     "Drain or purge it with inhibited cargo",
+     "Inhibitor may not boil off with the cargo",
+     "Prevents self-reaction in the system"
+    ]
+   }
+  ],
+  "tip": "If no inhibited cargo was carried in the last six months, be ready to say when the last one was and show that record.",
+  "refs": [
+   "IGC Code 17.8",
+   "ICS Tanker Safety Guide (Gas) 1.4.1",
+   "SIGTTO Handling Principles 2.4.2",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.4.2",
+  "title": "Cargo sampling",
+  "plain": "Do officers know the company procedures for cargo sampling on an LPG ship?",
+  "why": "Sampling releases cargo near people, so poor equipment or control can lead to exposure, fire or toxic vapour release.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for sampling every cargo on the Certificate of Fitness",
+   "Sampling equipment and connections for compatibility",
+   "Marking of sample connections, and whether they are capped when not in use",
+   "Sampling in progress, if any, with responsible officer present",
+   "Your knowledge of PPE, equipment, connections and locations"
+  ],
+  "ready": [
+   "Procedure, possibly in the cargo system operation manual",
+   "Compatible equipment with correctly marked connections, double valves on liquid samples",
+   "Closed-loop equipment for toxic cargoes",
+   "PPE and SCBA for toxic cargoes",
+   "Certified safe electrical equipment if used"
+  ],
+  "traps": [
+   "Sampling with no responsible officer present",
+   "Sample equipment not compatible with connections, or badly connected",
+   "Open-loop sampling used on a toxic cargo",
+   "No double valves on liquid sampling, or neither valve multi-turn",
+   "Inerting or gassing-up connections used for cargo sampling",
+   "Missing PPE, or no SCBA for toxic cargo",
+   "Sample connection not capped, or vapour-contaminated containers stored in an unventilated space",
+   "Plastic vapour bags used for liquid samples"
+  ],
+  "say": "A responsible officer authorises and directly supervises every sampling job. We use only compatible equipment, minimise venting, purge and ullage containers in a safe place, and use closed-loop equipment with SCBA for toxic cargoes. Connections are marked and capped when not in use.",
+  "practice": [
+   {
+    "q": "When must closed-loop sampling be used?",
+    "a": [
+     "When sampling toxic products",
+     "Open loop may be used for flammable-only cargoes, with release kept to a minimum",
+     "Minimise venting always"
+    ]
+   },
+   {
+    "q": "What PPE do you use for sampling?",
+    "a": [
+     "Gloves, goggles and protective clothing for cold cargo",
+     "SCBA for toxic cargo",
+     "Not just a respirator in an enclosed space"
+    ]
+   }
+  ],
+  "tip": "Always check the sample container fits the connection before you start. If it does not, any fix must not affect the gastight integrity of the ship's system.",
+  "refs": [
+   "ICS Tanker Safety Guide (Gas) 6.19",
+   "SIGTTO LPG Sampling Procedures 2010",
+   "IGC Code",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.4.3",
+  "title": "Segregating incompatible cargoes and refrigerants",
+  "plain": "Do officers know how to spot and separate incompatible cargoes and refrigerants when planning cargo stowage, and was it done?",
+  "why": "Mixing incompatible cargoes or refrigerants can cause dangerous reactions and contamination.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure for identifying and segregating incompatible cargoes and refrigerants",
+   "Compatibility chart from a recognised body, and data used",
+   "Current and previous cargo stowage plans",
+   "Spool pieces, spectacle flanges or blanks as shown in the stowage plan",
+   "Your knowledge of the chart and procedure, as the stowage planner"
+  ],
+  "ready": [
+   "Procedure covering how to identify, document and achieve segregation",
+   "Recognised compatibility chart and safety data sheets",
+   "Stowage plans that show where care is needed, which cargoes and the segregation method",
+   "Cargo log entries of pipeline isolation before incompatible loading",
+   "Segregation drawings in the cargo system operation manual"
+  ],
+  "traps": [
+   "No procedure covering identification, documentation and means of segregation",
+   "Officer unfamiliar with the procedure or the chart",
+   "No compatibility chart from a recognised body onboard",
+   "Incompatible cargoes stowed next to each other without positive segregation",
+   "Segregation fitted on the ship not as shown in the stowage plan",
+   "Stowage plan not showing when and where to avoid mixing",
+   "No cargo log entry of isolating pipelines before loading incompatible cargoes"
+  ],
+  "say": "Our procedure uses the charterer's instructions, the compatibility chart and shipper's data to identify incompatible cargoes and refrigerants. The stowage plan shows which cargoes are involved and how we segregate them, using spool pieces or blanks. The isolation is logged, and if in doubt we treat cargoes as incompatible.",
+  "practice": [
+   {
+    "q": "What do you do if you are unsure two cargoes are compatible?",
+    "a": [
+     "Check data sheets and compatibility chart",
+     "Seek advice from shippers",
+     "If still unclear, treat as incompatible and use positive segregation"
+    ]
+   },
+   {
+    "q": "What is positive segregation?",
+    "a": [
+     "Removable spool pieces or pipe sections",
+     "Applies to liquid, vapour and vent lines",
+     "Record the isolation in the cargo log"
+    ]
+   }
+  ],
+  "tip": "Walk the plan on deck: confirm every spool piece and blank shown on paper is actually fitted or removed.",
+  "refs": [
+   "ICS Tanker Safety Guide (Gas) 6.13",
+   "IGC Code 7.3.2",
+   "46 CFR Part 150",
+   "SIGTTO Handling Principles 2.3.2"
+  ]
+ },
+ {
+  "id": "8.4.4",
+  "title": "Carriage of propylene oxide and ethylene oxide",
+  "plain": "Do officers know the company procedures for safely carrying propylene oxide, ethylene oxide and PO-EO mixtures?",
+  "why": "These cargoes are flammable, toxic and self-reactive, so mistakes can lead to fire, explosion or serious exposure.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure, approved cargo handling plans and the P&A Manual",
+   "If carried in the last 12 months: segregation certificate, last three cargoes, tank inspection and cleaning records",
+   "Records of tank pressure, oxygen, and hold space monitoring",
+   "If loaded now: seals on pipeline blanks, and water spray system ready",
+   "Your knowledge of the procedure topics"
+  ],
+  "ready": [
+   "Procedure covering tank preparation, separation of pipelines and compressors, relief valve settings, nitrogen, discharge, vapour return, temperature, hold spaces, sampling, emergencies",
+   "Certificate of Fitness or NLS certificate listing these cargoes",
+   "Segregation certificate issued by the shore authority before loading",
+   "Records of the last three cargoes before PO or EO",
+   "Jettison equipment and water spray system in working order"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with the topics",
+   "Cargo not on the Certificate of Fitness or NLS certificate, no approved handling plan or no P&A Manual",
+   "No segregation certificate before loading",
+   "Ethylene oxide carried in deck tanks",
+   "Pipeline blanks not sealed while handling",
+   "Tank pressure not kept above 0.007 MPa gauge during discharge",
+   "Hoses not marked 'for alkylene oxide transfer only'",
+   "No hold space monitoring records, hold oxygen over 2 percent where inerting required",
+   "Water spray not working, no jettison equipment, no cooling system where required"
+  ],
+  "say": "Our procedure covers tank preparation and compatibility with previous cargoes, separation of pipelines and compressors, nitrogen padding, pressure settings, discharge, vapour return, temperature control, hold space monitoring, sampling and emergencies. We have the segregation certificate, the P&A Manual and approved handling plans, and the water spray system is ready.",
+  "practice": [
+   {
+    "q": "Why are PO and EO carried under nitrogen?",
+    "a": [
+     "They are self-reactive, especially with air",
+     "Cannot be inhibited, so inert gas used",
+     "Keep a positive pressure and low oxygen"
+    ]
+   },
+   {
+    "q": "What documents must be on board for these cargoes?",
+    "a": [
+     "Certificate of Fitness or NLS certificate listing them",
+     "Approved cargo handling plan",
+     "P&A Manual and segregation certificate"
+    ]
+   }
+  ],
+  "tip": "If your ship is not certified for PO or EO, tell the inspector at the start so the question can be marked not applicable.",
+  "refs": [
+   "IGC Code",
+   "SIGTTO Handling Principles 2.2",
+   "ICS Tanker Safety Guide (Gas) 1.4.1.2",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.4.5",
+  "title": "Escape sets required by the IGC Code",
+  "plain": "Are there enough escape sets for everyone on board, giving proper breathing and eye protection?",
+  "why": "In a toxic gas leak, every person needs a set to get out of the hazardous area safely.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Inspection and maintenance records for escape sets in the maintenance plan",
+   "Two escape sets picked at random and inspected",
+   "Number of sets against everyone on board while underway, including visitors and contractors",
+   "Marking: not for fire-fighting or cargo handling",
+   "Rating's knowledge of location, purpose and operation"
+  ],
+  "ready": [
+   "Sets for every person, in addition to the SOLAS EEBDs in accommodation and machinery spaces",
+   "Duration of at least 15 minutes, no filter-type sets, eye protection included",
+   "Sets fully charged and marked not for fire-fighting or cargo handling",
+   "Company procedure covering use and maintenance",
+   "Maintenance records within the planned maintenance system"
+  ],
+  "traps": [
+   "Set duration under 15 minutes, or filter-type protection",
+   "No suitable eye protection",
+   "Not marked as not for fire-fighting or cargo handling",
+   "Not in addition to the SOLAS EEBDs, or not in the procedures and maintenance plan",
+   "Set not fully charged, or not inspected as the plan says",
+   "Set used for fire-fighting, cargo handling or as the main way to enter unsafe spaces",
+   "Too few sets for everyone including contractors and visitors",
+   "Rating does not know where sets are or how to use them"
+  ],
+  "say": "We carry escape sets for everyone on board, in addition to the SOLAS EEBDs. They give at least 15 minutes, include eye protection, and are marked not for fire-fighting or cargo handling. They are in our maintenance plan, and I can show the records.",
+  "practice": [
+   {
+    "q": "Can you use an escape set to enter a tank space?",
+    "a": [
+     "No, escape only",
+     "Not the main way to enter unsafe atmospheres",
+     "Not for fire-fighting or cargo handling"
+    ]
+   },
+   {
+    "q": "How many sets do you need?",
+    "a": [
+     "One for every person on board while underway",
+     "Include contractors and visitors",
+     "In addition to SOLAS EEBDs"
+    ]
+   }
+  ],
+  "tip": "Update the headcount for the sets whenever supernumeraries or contractors join, so the number never falls short.",
+  "refs": [
+   "IGC Code 14.4.2",
+   "ICS Tanker Safety Guide (Gas) 3.11.5",
+   "ISGOTT 6 10.13.3",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.4.6",
+  "title": "Cargo tank insulation",
+  "plain": "Do officers know the company procedure for inspecting and maintaining cargo tank insulation, and is the insulation reported as in good condition?",
+  "why": "Insulation limits heat getting into the cargo and protects the hull steel from cold damage.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and maintenance of tank insulation",
+   "Records of inspection, maintenance and repair",
+   "Defect reports for any defects found in inspections",
+   "Enclosed space entry records for recent insulation inspections",
+   "Your knowledge of the procedure"
+  ],
+  "ready": [
+   "Procedure covering scope, frequency, maintenance, records and fire safety near insulation",
+   "Inspection and repair records, maybe within the maintenance plan or hold space inspections",
+   "Open defect reports with follow-up action",
+   "Enclosed space entry permits for inspections",
+   "Hot work precautions covering gas in insulation"
+  ],
+  "traps": [
+   "No procedure covering scope and frequency, maintenance, records and fire safety",
+   "Officer unfamiliar with the procedure",
+   "No inspection, maintenance or repair records",
+   "Inspections not done as the procedure says",
+   "Defect noted in an inspection but no defect report raised"
+  ],
+  "say": "Our procedure covers the scope and frequency of insulation inspections, maintenance, records, and fire precautions for any work near the insulation. Inspections are done with enclosed space entry permits and recorded. Any defects found get a defect report for follow-up.",
+  "practice": [
+   {
+    "q": "What do you check for during an insulation inspection?",
+    "a": [
+     "Condition of insulation and vapour barrier",
+     "Signs of moisture or damage",
+     "Record defects and raise a defect report"
+    ]
+   },
+   {
+    "q": "What fire precautions apply when hot work is near insulation?",
+    "a": [
+     "Check area for gas in the insulation",
+     "Cover exposed insulation with non-flammable material",
+     "Insulation may be combustible"
+    ]
+   }
+  ],
+  "tip": "Link the insulation inspection to your hold space inspection routine so it is never missed.",
+  "refs": [
+   "IGC Code 4.10",
+   "SIGTTO Handling Principles 3.7.2",
+   "SIGTTO Fire Hazard Management 5.4",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.4.7",
+  "title": "Vent outlet protection screens or flame screens",
+  "plain": "Are the cargo vent outlets fitted with the right protection screen or flame screen for the cargo, and are they in good condition?",
+  "why": "Some cargoes need flame screens to stop a vent mast fire or lightning strike reaching the tank, and a blocked screen can raise tank pressure.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Cargo records or maintenance plans showing correct screen for the cargo carried",
+   "Condition of screens on vent outlets: not blocked, painted or damaged",
+   "Storage of any flame screens not in use",
+   "Flame screens available on board if the ship has an NLS certificate",
+   "Carbon dioxide cargo: no screens fitted"
+  ],
+  "ready": [
+   "Protection screens up to 13 mm square mesh for gas cargoes in general",
+   "Flame screens or safety heads for the listed NLS cargoes",
+   "Flame screens stored safely and clearly marked so they can be found",
+   "Maintenance records showing inspection of screens",
+   "Cargo plan showing which screen suits the cargo"
+  ],
+  "traps": [
+   "Wrong or no screen fitted for the cargo",
+   "Screen blocked, clogged, painted over or damaged",
+   "Flame screens not in use stored badly or not marked",
+   "NLS certificate on ship but no flame screens available onboard",
+   "Screens fitted on vent outlets while carrying carbon dioxide"
+  ],
+  "say": "Our cargo plan shows which screen goes on the vent outlets for each cargo. Flame screens go on for the listed NLS cargoes and the coarse protection screens are used otherwise. We never paint screens, and unused flame screens are stored and marked so they are easy to find.",
+  "practice": [
+   {
+    "q": "Which screen do you fit for normal LPG cargoes?",
+    "a": [
+     "Protection screen, not more than 13 mm square mesh",
+     "Stops foreign objects entering",
+     "Must not hinder vent flow"
+    ]
+   },
+   {
+    "q": "What is different for carbon dioxide?",
+    "a": [
+     "No flame screens or protection screens on vent outlets",
+     "Cargo may solidify and block",
+     "Follow the IGC Code requirement"
+    ]
+   }
+  ],
+  "tip": "Before loading an NLS cargo, check the flame screens are actually onboard and fit the mast, not just listed.",
+  "refs": [
+   "IGC Code 8.2.15",
+   "IGC Code 17.9",
+   "ICS Tanker Safety Guide (Gas) 5.9.2",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "8.5.1",
+  "title": "Custody transfer measurement system (CTMS)",
+  "plain": "Do officers know the company procedures for operating, testing and calibrating the CTMS, and is the system in good condition?",
+  "why": "The CTMS gives the official cargo quantity, which is used for sale and tax, so errors are costly.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, testing and calibration",
+   "Manufacturer's manuals",
+   "Records of pre-operational tests and service and calibration records",
+   "Current calibration certificate onboard",
+   "Your knowledge of the procedure"
+  ],
+  "ready": [
+   "Procedure covering pre-arrival checks, servicing and periodic calibration",
+   "Manufacturer's manuals and instructions",
+   "Pre-operational test record for this loading or discharge",
+   "Current calibration certificate",
+   "Service and calibration records"
+  ],
+  "traps": [
+   "No procedure for operation, testing and calibration",
+   "Not calibrated as the procedure requires",
+   "No current calibration certificate onboard",
+   "No records of pre-operational tests, or no test before the current operation",
+   "System defective in any way"
+  ],
+  "say": "Our procedure covers pre-arrival checks, servicing and periodic calibration of the CTMS. The calibration certificate is current, and we test the system before each loading or discharge and record it. I can show the manuals and records.",
+  "practice": [
+   {
+    "q": "What does the CTMS do?",
+    "a": [
+     "Takes level, temperature, pressure, trim and list readings",
+     "Calculates volume and average temperatures",
+     "Gives the official record of quantity transferred"
+    ]
+   },
+   {
+    "q": "When is the CTMS calibrated?",
+    "a": [
+     "As the company procedure requires",
+     "Commonly at each drydocking",
+     "In-service verification can be done at mid-cycle"
+    ]
+   }
+  ],
+  "tip": "Keep the latest calibration certificate in the cargo control room folder so you can hand it over at once.",
+  "refs": [
+   "ICS Tanker Safety Guide (Gas) 6.20",
+   "GIIGNL Custody Transfer Handbook",
+   "SIGTTO Handling Principles 4.11.6",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.5.2",
+  "title": "Gas combustion unit (GCU)",
+  "plain": "Do officers know the company procedures for operating, inspecting, maintaining and testing the GCU?",
+  "why": "The GCU burns excess boil-off gas safely, so venting methane is avoided and tank pressure stays under control.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "co",
+    "eto",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, inspection, maintenance and testing of the GCU",
+   "Records of inspection, maintenance and testing, including alarms",
+   "GCU and its equipment in the engine room",
+   "Your knowledge of failure actions, manual gas isolation and alarm tests",
+   "Space ventilation, gas and fire detection, and flame screens on vents or bleed lines"
+  ],
+  "ready": [
+   "Procedure covering who supervises, hazards, controls, failure in auto mode and manual operation",
+   "Test records for alarms: flame failure, combustion air, cooling air, BOG inlet temperature, exit temperature, methane in duct, duct ventilation or nitrogen pressure",
+   "Records of inspection and maintenance in the maintenance plan",
+   "Manual gas fuel isolation from a safe accessible position",
+   "Working ventilation, gas detection and fire detection in the GCU space"
+  ],
+  "traps": [
+   "No procedure for the GCU",
+   "Officer unfamiliar with failure in automatic mode and manual operation",
+   "Officer unaware of manual gas isolation position",
+   "Officer unfamiliar with GCU alarm tests",
+   "Inspections, tests or maintenance not done as required",
+   "Defective GCU, space ventilation, gas detection or fire detection",
+   "Vents or bleed lines that may hold gas fuel not fitted with flame screens"
+  ],
+  "say": "Our procedure says who supervises the GCU, the hazards and how we control them, and what we do if automatic mode fails, including manual operation. We test the alarms, such as flame failure and high exit temperature at 535 degrees C, and keep the records. I can show the manual gas isolation point.",
+  "practice": [
+   {
+    "q": "Why do you have a GCU?",
+    "a": [
+     "Burn excess boil-off gas safely",
+     "Avoid venting methane",
+     "Handles gas when it cannot be used as fuel or reliquefied"
+    ]
+   },
+   {
+    "q": "What alarms do you test on the GCU?",
+    "a": [
+     "Flame failure, loss of combustion or cooling air",
+     "BOG inlet and exit gas temperature, high-high at 535 degrees C",
+     "Methane in gas duct, duct ventilation or nitrogen pressure"
+    ]
+   }
+  ],
+  "tip": "Make sure the GCU is left in automatic mode, as the guidance expects, and know how to take over manually.",
+  "refs": [
+   "IGC Code 7.4",
+   "SIGTTO Handling Principles 4.8.3",
+   "ICS Tanker Safety Guide (Gas) A3.6",
+   "ISM Code 7"
+  ]
+ }
+]

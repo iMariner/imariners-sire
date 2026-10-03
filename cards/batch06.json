@@ -1,0 +1,1914 @@
+[
+ {
+  "id": "6.2.1",
+  "title": "Flooding or accidental leakage of cargo pumproom bilges",
+  "plain": "Can the officers pump out a flooded cargo pumproom, and are the bilge arrangements in good order?",
+  "why": "A flooded pumproom must be pumped out quickly and without pollution, even if nobody can safely go inside.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for draining the pumproom bilges",
+   "Remote controls for bilge pump and valves on the upper deck",
+   "Valves that must stay open are set correctly and marked",
+   "Officer can explain the line-up to a slop or cargo tank",
+   "Test records and Oil Record Book Part II entries"
+  ],
+  "ready": [
+   "Procedure for draining pumproom bilges",
+   "Emergency response plan for pumproom flooding",
+   "Oil Record Book Part II with bilge disposals entered",
+   "Records of periodic tests of the bilge arrangements",
+   "Valves and remote controls labelled with their purpose"
+  ],
+  "traps": [
+   "No procedure or no pumproom flooding emergency plan",
+   "Officer cannot explain the remote pumping line-up",
+   "Remote controls missing, defective or officer does not know where they are",
+   "Steam or condensate valves needed for pumping left shut",
+   "No evidence of periodic testing of the arrangements",
+   "Bilge pump defective, or bilge disposal not in the ORB Part II"
+  ],
+  "say": "Our SMS has a procedure for draining the pumproom bilges to a slop or cargo tank. I can show you the remote controls for the bilge pump and valves on the upper deck, and they are tested periodically. Any disposal of bilge contents is recorded in the Oil Record Book Part II.",
+  "practice": [
+   {
+    "q": "If the pumproom floods, how would you pump it out?",
+    "a": [
+     "Use remote controls from the upper deck, not by entering",
+     "Line up bilge pump to slop or cargo tank",
+     "Check required valves are open, including steam and condensate",
+     "Follow the pumproom flooding emergency plan"
+    ]
+   },
+   {
+    "q": "How do you know the arrangement works?",
+    "a": [
+     "Periodic tests are done and recorded",
+     "Valves and controls are marked with purpose",
+     "Defects are reported and repaired"
+    ]
+   }
+  ],
+  "tip": "Walk the remote controls on the upper deck before the inspection and check every label is readable.",
+  "refs": [
+   "MARPOL Annex I",
+   "ISM Code 6.3",
+   "46 CFR 32.52-5"
+  ]
+ },
+ {
+  "id": "6.2.2",
+  "title": "Cargo system overboard and sea suction valves",
+  "plain": "Are sea and overboard valves checked closed and secured before cargo transfer, and is leakage monitored and tested?",
+  "why": "A leaking or open sea valve can send cargo straight overboard.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2e",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for sea valves, ballasting through sea suction and line displacement",
+   "Valves closed and secured with lock-out/tag-out, in-line blanks fitted",
+   "Records of checks before each cargo transfer",
+   "Leak detection gauge between inboard and outboard valves",
+   "Records of integrity tests between dry-dockings"
+  ],
+  "ready": [
+   "Procedure with test pressure limit stated",
+   "Bridge or cargo logbook entries showing valves checked closed and secured",
+   "Records of leakage checks and dry-dock integrity tests",
+   "Pressure/vacuum gauge in good order",
+   "Anti-pollution notices at each valve and at the pump operating position"
+  ],
+  "traps": [
+   "Valves not fully closed or not locked before cargo transfer",
+   "No lock-out/tag-out, or no marking on hydraulic valves",
+   "In-line blanks not inserted where provided",
+   "No record of pre-transfer checks or leakage checks",
+   "Gauge shows leakage, damaged, or only a pressure gauge fitted",
+   "Notice 'start pump before opening sea suction' missing"
+  ],
+  "say": "Before every cargo transfer we check the sea and overboard valves are closed and secured, and we record it in the logbook. Where leak monitoring is fitted we read the gauge and note any leakage. Integrity tests are done between dry-dockings, within the test pressure in our procedure.",
+  "practice": [
+   {
+    "q": "How do you secure the sea valves during cargo operations?",
+    "a": [
+     "Closed and secured with lock-out/tag-out",
+     "In-line blanks inserted where fitted",
+     "Hydraulic valves clearly marked as to stay closed",
+     "Check recorded before transfer"
+    ]
+   },
+   {
+    "q": "How do you start ballasting through a sea suction?",
+    "a": [
+     "Start the pump before opening the sea suction",
+     "Vent the pump so no oil escapes overboard",
+     "Watch the gauge for vacuum or leakage"
+    ]
+   }
+  ],
+  "tip": "Read the leak gauge yourself during the walk-round so you can tell the inspector the actual reading.",
+  "refs": [
+   "ISGOTT 6",
+   "OCIMF/ICS Prevention of Oil Spillages through Cargo Pumproom Sea Valves",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "6.2.3",
+  "title": "Bunker pipeline system pressure testing",
+  "plain": "Do officers know how the bunker pipelines are inspected and pressure tested, and are the tests recorded?",
+  "why": "Regular testing finds weak points and leaks before they cause a bunker spill.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and pressure testing of the bunker line",
+   "Test records: date, pressure, method and test liquid",
+   "Pipelines marked with date and pressure of last test",
+   "Records of liquid disposal after testing",
+   "Relief valve and tank level alarm test records"
+  ],
+  "ready": [
+   "Procedure covering equipment, frequency, method, pressure, disposal, records",
+   "Test records, possibly in the maintenance plan",
+   "Records of relief valve and level alarm tests",
+   "Records showing disposal of the test liquid",
+   "Test date and pressure marked on the lines"
+  ],
+  "traps": [
+   "No procedure, or officer cannot explain the test method",
+   "No test records or no disposal records",
+   "Lines not marked with last test date and pressure",
+   "Not tested to 100 percent of MAWP in last 12 months",
+   "Not tested to 150 percent of MAWP twice in last 5 years",
+   "Tested with air or inert gas instead of a suitable liquid"
+  ],
+  "say": "Our procedure covers what is tested, how often, the method, the test pressure and where the test liquid goes. Tests are hydrostatic, never with air or gas. Each line is marked with the last test date and pressure, and records are in the maintenance plan.",
+  "practice": [
+   {
+    "q": "How do you pressure test the bunker lines?",
+    "a": [
+     "Hydrostatic test with a suitable liquid",
+     "Pressure as set in company procedure, based on MAWP",
+     "Record date, pressure, method and medium"
+    ]
+   },
+   {
+    "q": "What if the drawings do not show MAWP?",
+    "a": [
+     "Use relief valve set pressure",
+     "Or maximum pump discharge pressure including hydraulic shock if no relief valve"
+    ]
+   }
+  ],
+  "tip": "Check the line markings on deck match the dates in your maintenance records.",
+  "refs": [
+   "ISM Code 7",
+   "33 CFR 156.170",
+   "USCG Marine Safety Manual Vol II"
+  ]
+ },
+ {
+  "id": "6.3.1",
+  "title": "Ballast water management system (BWMS)",
+  "plain": "Do officers know how to run the BWMS safely, and is it working and used as per procedure and maker's manual?",
+  "why": "The system can create toxic gas or chemical hazards, and a faulty or bypassed unit means ballast is not properly treated.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "eto",
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure and maker's operation and safety manual",
+   "Control panel: system operational, no faults or alarms",
+   "Self-monitoring data from the last ballast operation",
+   "Unit intact, not modified or bypassed",
+   "Chemical stock, storage and handling if used"
+  ],
+  "ready": [
+   "Procedure naming who supervises and who may operate the BWMS",
+   "Maker's operation and safety manual",
+   "Maintenance and inspection records in the plan",
+   "Operation records for each ballast operation",
+   "Enclosed space procedure posted for the BWMS room"
+  ],
+  "traps": [
+   "No procedure covering hazards, chemicals, by-products and failure actions",
+   "Officer does not know hazards or what to do if the BWMS fails",
+   "No maintenance records in the plan or no operation records",
+   "Pumps, filters or back-flush not working",
+   "Self-monitoring data shows it did not work properly last time",
+   "BWMS modified or bypassed, or not enough chemicals, or poor chemical storage"
+  ],
+  "say": "Our SMS says who supervises and who may operate the BWMS, and lists the hazards and controls. We follow the maker's manual, keep operation and maintenance records, and know the actions if it fails. Chemicals are stored and handled as per the procedure.",
+  "practice": [
+   {
+    "q": "What hazards does the BWMS present?",
+    "a": [
+     "Toxic or flammable gas, such as hydrogen from electrolysis systems",
+     "Chemicals used for disinfection or neutralisation",
+     "Treatment room treated as an enclosed space"
+    ]
+   },
+   {
+    "q": "What do you do if the BWMS fails?",
+    "a": [
+     "Follow the failure actions in the company procedure",
+     "Know these actions before the operation starts",
+     "Record the failure"
+    ]
+   }
+  ],
+  "tip": "Check the BWMS room entry notice matches your enclosed space entry procedure, or you collect a second observation under 5.5.1.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code 7",
+   "BWM Convention D-3"
+  ]
+ },
+ {
+  "id": "6.4.1",
+  "title": "Main deck oil or chemical spill clean up equipment",
+  "plain": "Do crew know how to clean up small spills on deck, and is the equipment ready, in good order and used well?",
+  "why": "A small deck spill must be contained and cleaned quickly so it never reaches the sea or becomes a fire risk.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "SOPEP or SMPEP and company procedure for deck spills",
+   "Inventory of spill equipment and inspection records",
+   "Equipment at the manifold, quantities match the inventory",
+   "Dump valves or other disposal means aft on both sides",
+   "Portable pump demonstrated, and a rating asked about equipment and PPE"
+  ],
+  "ready": [
+   "SOPEP or SMPEP and spill procedure",
+   "Inventory kept by a designated officer, with periodic checks",
+   "Instructions for safe use including PPE",
+   "Non-sparking scoops, shovels, buckets, sorbents, scupper plugs",
+   "Portable pump bonded, fixed down, with air ready"
+  ],
+  "traps": [
+   "No inventory, or inspection records missing, or quantities differ from the inventory",
+   "Equipment missing at the manifold or in short supply",
+   "Scoops or buckets not non-sparking",
+   "Portable pump not bonded, not secured, no air, or hose through a sighting port",
+   "Dump valves would not drain, or limits not posted",
+   "No spill tank or drip tray under each manifold connection, or an unbonded plastic tray"
+  ],
+  "say": "Our spill equipment is kept at the manifold and listed in an inventory kept by a designated officer, with periodic inspections. The crew are trained and know the PPE for the cargo carried. The portable pump is bonded and ready, and recovered waste is disposed of as per our procedure.",
+  "practice": [
+   {
+    "q": "A small spill happens at the manifold. What do you do?",
+    "a": [
+     "Stop the operation and raise the alarm",
+     "Contain it with scupper plugs and sorbents",
+     "Remove with non-sparking tools and pump, then dispose properly"
+    ]
+   },
+   {
+    "q": "Rating: where is the spill kit and what PPE do you wear?",
+    "a": [
+     "Know the location of the equipment",
+     "Use PPE required for the cargo being handled",
+     "Know what each item is for"
+    ]
+   }
+  ],
+  "tip": "Ratings are asked this question directly, so run a quick spill kit talk with the deck team before the inspection.",
+  "refs": [
+   "SOPEP/SMPEP",
+   "ISGOTT 6",
+   "MARPOL Annex II Reg 17",
+   "33 CFR 155.205"
+  ]
+ },
+ {
+  "id": "6.4.2",
+  "title": "Disposal of oily water in the forecastle and other internal spaces",
+  "plain": "Do officers know how to dispose of oily or polluted water collected in the forecastle and similar spaces?",
+  "why": "Oil from a hydraulic leak in a bilge well must not go overboard and must be traceable.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure for bilge wells in internal spaces",
+   "Records of disposals",
+   "Bilge wells in forecastle, pumproom and steering gear",
+   "How levels are monitored and how unauthorised discharge is prevented",
+   "Pollution notices and secured overboard valves where pumps or ejectors fitted"
+  ],
+  "ready": [
+   "Procedure listing spaces, minimising waste, monitoring, disposal and records",
+   "Disposal records for any past leaks",
+   "Notices posted and overboard valves secured",
+   "Bilge wells clean and checked",
+   "Pump testing in the maintenance plan"
+  ],
+  "traps": [
+   "No procedure or officer does not know it",
+   "Evidence of a leak but no record of how it was disposed of",
+   "Disposal arrangements or discharge prevention inadequate",
+   "Bilge well with a significant amount of oil or pollutant",
+   "Spaces not identified in the procedure"
+  ],
+  "say": "Our procedure lists the spaces with bilge wells, how levels are checked and how oily water is disposed of. Every disposal is recorded. Where pumps are fitted, overboard valves are secured and notices are posted.",
+  "practice": [
+   {
+    "q": "What if you find oily water in the forecastle bilge well?",
+    "a": [
+     "Find and stop the source",
+     "Dispose ashore or to a proper tank, never overboard",
+     "Record how it was disposed of"
+    ]
+   },
+   {
+    "q": "How do you stop accidental discharge?",
+    "a": [
+     "Overboard valves secured",
+     "Pollution notices posted",
+     "Regular inspection of bilge levels"
+    ]
+   }
+  ],
+  "tip": "Look in the forecastle bilge well the day before: a small hydraulic leak with no record is a classic finding.",
+  "refs": [
+   "MEPC.1/Circ.759",
+   "ISM Code 1.2.3"
+  ]
+ },
+ {
+  "id": "6.5.1",
+  "title": "Emergency arrangements to pump out the machinery space bilges",
+  "plain": "Do engineers know how to pump out a flooded engine room, and are valves marked and in good order?",
+  "why": "In a flooding the engine room must be pumped out fast, without misuse of the emergency suction for daily bilges.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for emergency bilge pumping",
+   "Emergency bilge suction valve accessible and clearly marked",
+   "Valves marked, and which pump to start is shown",
+   "Warning signs on emergency overboard valves, and seals",
+   "Engineer explains sequence for sea water pipe failure and other flooding"
+  ],
+  "ready": [
+   "Procedure and machinery space flooding emergency plan",
+   "Marked valves and suction, pump indication",
+   "Warning notices posted",
+   "Numbered easily breakable seals recorded in log or ORB Part I",
+   "Valves free to operate, not seized"
+  ],
+  "traps": [
+   "No procedure or no flooding emergency plan",
+   "Engineer cannot explain the valve and pump sequence",
+   "Emergency suction not accessible or not marked",
+   "No warning notice on emergency overboard valve",
+   "Seals missing, not as procedure, or not easily breakable",
+   "Evidence emergency discharge used for daily bilge disposal"
+  ],
+  "say": "Our procedure covers the bilge pumps, direct suctions and the emergency bilge suction. Valves are marked and sealed with numbered breakable seals recorded in the log. I can explain the sequence for a sea water pipe failure and for other flooding. The emergency line is never used for daily bilges.",
+  "practice": [
+   {
+    "q": "The engine room is flooding. What do you do?",
+    "a": [
+     "Follow the flooding emergency plan and procedure",
+     "Line up the emergency bilge suction and overboard valves in the sequence in the procedure",
+     "Start the pump marked for the emergency suction",
+     "Break the seal and inform the bridge"
+    ]
+   },
+   {
+    "q": "Can you use this line for daily bilge disposal?",
+    "a": [
+     "No, emergency use only",
+     "MARPOL exceptions: to secure ship safety or save life, or after damage to ship or equipment",
+     "Seal numbers recorded"
+    ]
+   }
+  ],
+  "tip": "Know which pump serves the emergency suction and be able to point to it without looking at the drawing.",
+  "refs": [
+   "SOLAS II-1/35-1",
+   "SOLAS II-1/48.3",
+   "MSC.1/Circ.1424",
+   "MARPOL Annex I"
+  ]
+ },
+ {
+  "id": "6.5.2",
+  "title": "Incinerator operation",
+  "plain": "Do engineers know how to use the incinerator safely and legally, and is it in good order?",
+  "why": "Burning the wrong waste breaks MARPOL and creates fire, fume and health risks.",
+  "who": {
+   "lead": [
+    "2e",
+    "3e"
+   ],
+   "also": [
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure and risk assessment for safe incinerator use",
+   "Operating instructions posted at the controls",
+   "List of items not to be incinerated posted in the space",
+   "Loading chute interlocks working and not bypassed",
+   "Engineer explains PPE, loading, emergency stop and prohibited items"
+  ],
+  "ready": [
+   "Procedure and risk assessment",
+   "Operation and maintenance manual",
+   "Prohibited items list posted",
+   "Separated waste stored for disposal ashore",
+   "Clean incinerator space with no waste piled up"
+  ],
+  "traps": [
+   "No procedure or no risk assessment",
+   "Engineer unsure about PPE, loading, prohibited items or failure actions",
+   "Incinerator out of service or defective; no instructions or prohibited list posted",
+   "Overheated casing, fume leaks, or oil dripping around casing; interlocks defective or bypassed",
+   "Burning in places or times where MARPOL, local rules or company procedure forbid it",
+   "Waste left to pile up around the space"
+  ],
+  "say": "Our procedure says who may use the incinerator, when it must not be used, and what may and may not be burned. The risk assessment covers the chute interlocks. Instructions and the prohibited items list are posted at the incinerator, and I know the PPE and emergency stop.",
+  "practice": [
+   {
+    "q": "What must you never burn in the incinerator?",
+    "a": [
+     "Cargo residues and PCBs",
+     "Exhaust gas cleaning residues",
+     "PVC unless in a type-approved incinerator",
+     "Items on the posted prohibited list"
+    ]
+   },
+   {
+    "q": "When is incinerator use not allowed?",
+    "a": [
+     "Where MARPOL, local rules or company procedure forbid it",
+     "Sludge in ports, harbours and estuaries"
+    ]
+   }
+  ],
+  "tip": "Test that the interlock really prevents the chute opening while the furnace is hot, as far as possible with the unit stopped.",
+  "refs": [
+   "MARPOL Annex VI Reg 16",
+   "MEPC.244(66)",
+   "ICS Engine Room Procedures Guide",
+   "ISM Code 1.2.3"
+  ]
+ },
+ {
+  "id": "6.6.1",
+  "title": "Oil filtering equipment",
+  "plain": "Do engineers know how to use the oily water separator, and is it working, sealed and used per MARPOL?",
+  "why": "Bilge discharges must stay within MARPOL limits, and tampering or misuse means illegal pollution.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for use of the oil filtering equipment",
+   "Overboard valve closed, secured and sealed with a warning sign",
+   "Flanges and connections sealed with no signs of tampering",
+   "15 ppm alarm calibration certificate",
+   "Engineer demonstrates alarm, automatic stopping device and recorder using the test facility"
+  ],
+  "ready": [
+   "Procedure and maker's manuals",
+   "Bilge alarm calibration certificate",
+   "Maintenance records in the plan",
+   "Oil Record Book Part I with any out-of-service entries",
+   "Bilge alarm data kept as the procedure says"
+  ],
+  "traps": [
+   "No procedure, or officer cannot explain the restrictions and fault actions",
+   "Alarm not calibrated within five years or the maker's period if shorter",
+   "Overboard valve open, unsealed or no warning sign",
+   "Signs of tampering or unsealed flanges; equipment defective, or no maintenance records",
+   "Engineer cannot demonstrate alarm, stopping device or recorder",
+   "Out of service with no Oil Record Book Part I entry"
+  ],
+  "say": "Our procedure says who may use the separator and when overboard discharge is allowed. The overboard valve is locked and sealed, with the key held as per procedure. I can demonstrate the alarm, stopping device and recorder, and any breakdown is entered in the ORB Part I.",
+  "practice": [
+   {
+    "q": "The separator breaks down. What do you do?",
+    "a": [
+     "Stop use and follow the company procedure",
+     "Record time out of service and returned in ORB Part I",
+     "Retain bilges onboard or land ashore"
+    ]
+   },
+   {
+    "q": "What if you find a flange or pipe has been tampered with?",
+    "a": [
+     "Report to Chief Engineer and Master",
+     "Follow the company procedure",
+     "Do not use the equipment"
+    ]
+   }
+  ],
+  "tip": "Practise the test facility demonstration before the inspector asks, including the recorder print-out.",
+  "refs": [
+   "MARPOL Annex I Reg 14",
+   "MEPC.107(49)",
+   "ICS Engine Room Procedures Guide",
+   "Polar Code Part II-A"
+  ]
+ },
+ {
+  "id": "6.6.2",
+  "title": "Oil discharge monitoring and control system (ODME)",
+  "plain": "Do officers know how to use the ODME, and is it working and used as per procedure, maker and MARPOL?",
+  "why": "ODME keeps discharges from cargo and ballast spaces within MARPOL limits and records them.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company procedure for ODME use and authorisation",
+   "Control panel with no faults or alarms",
+   "Printout or stored data legible and available",
+   "Speed, position and GMT time inputs correct",
+   "Records for any manual-mode discharge and failures"
+  ],
+  "ready": [
+   "Procedure and maker's manuals",
+   "Maintenance and test records",
+   "ODME printouts or downloadable data",
+   "Oil Record Book Part II and bridge logbook",
+   "Written shore approval if any manual mode discharge was done"
+  ],
+  "traps": [
+   "No procedure or officer does not know manual mode and fault actions",
+   "System defective, modified or extra connections added",
+   "Maintenance and testing not as maker and procedure say",
+   "Manual mode discharge with no shore management approval",
+   "Printout illegible or data not available",
+   "Out of service with no ORB Part II entry"
+  ],
+  "say": "Our procedure covers who may operate ODME, checks before and after discharge, lookouts and what to do if it fails. We keep the printouts and enter everything in the ORB Part II. Manual mode is never used without approval from shore management.",
+  "practice": [
+   {
+    "q": "ODME fails during discharge. What do you do?",
+    "a": [
+     "Stop the discharge",
+     "Record the defect in ORB Part II",
+     "Inform shore management and get approval before any manual mode"
+    ]
+   },
+   {
+    "q": "What if the lookout sees a slick astern?",
+    "a": [
+     "Stop the discharge immediately",
+     "Inform the bridge and Master",
+     "Follow the pollution emergency plan"
+    ]
+   }
+  ],
+  "tip": "Check the speed, position and GMT time on the ODME panel are correct before the inspector looks.",
+  "refs": [
+   "MARPOL Annex I Reg 31",
+   "MEPC.108(49)",
+   "ISM Code 1.2.3"
+  ]
+ },
+ {
+  "id": "7.1.1",
+  "title": "Security threat and risk assessment during passage planning",
+  "plain": "Is security risk assessed in voyage planning, and does the passage plan carry security information for each leg?",
+  "why": "Piracy and armed robbery risks must be planned for before entering an area, not met by surprise.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Security charts and BMP or regional guidance on the bridge",
+   "Passage plan and security risk assessment for a recent voyage",
+   "Security notes on each leg, reporting points, speed, bridge manning",
+   "Review of the assessment before entering an increased risk area",
+   "Bridge security cards or checklists"
+  ],
+  "ready": [
+   "UKHO or equivalent security charts",
+   "BMP and regional guidance such as ReCAAP",
+   "Passage plan, appraisal form and risk assessment for a completed voyage",
+   "Company advice on routeing, speed, waiting areas",
+   "Bridge logbook and bridge security cards"
+  ],
+  "traps": [
+   "Security charts or BMP publications missing",
+   "No security risk assessment for a recent voyage",
+   "Assessment lists no ship protection measures where needed",
+   "No company routeing guidance for a high-risk transit",
+   "Assessment not reviewed or plan not updated before entering the area",
+   "Passage plan has no security information for each leg; bridge security cards missing"
+  ],
+  "say": "We do a ship-specific threat and risk assessment for every voyage, using current security charts, BMP and company guidance. The passage plan marks security levels, reporting points, extra lookouts and speed. We review it before entering an increased risk area. The security plan is confidential, so I will describe it only in general.",
+  "practice": [
+   {
+    "q": "What security information is in your passage plan?",
+    "a": [
+     "Reporting points such as entering a VRA",
+     "Bridge manning, speed and day or night transit",
+     "Security level changes and hardening points"
+    ]
+   },
+   {
+    "q": "When do you review the risk assessment?",
+    "a": [
+     "Before entering an area needing higher vigilance",
+     "Update the passage plan if needed"
+    ]
+   }
+  ],
+  "tip": "If the company tells you not to report to a VRA, annotate the plan so the reporting points are shown as not to be used.",
+  "refs": [
+   "Global Counter Piracy Guidance",
+   "BMP5",
+   "BMP West Africa",
+   "ReCAAP Regional Guide"
+  ]
+ },
+ {
+  "id": "7.2.1",
+  "title": "Vessel hardening",
+  "plain": "Do officers know how to harden the ship for areas of increased security risk, and is there a Vessel Hardening Plan?",
+  "why": "Hardening makes it much harder to board the ship, but it must not block escape routes or lifesaving gear.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure and ship-specific Vessel Hardening Plan (VHP)",
+   "VHP lists materials and quantities needed",
+   "Inventory of hardening materials against stock onboard",
+   "Maintenance records for water cannons, CCTV, cameras",
+   "Security officer explains the plan, LSA and FFA stay accessible"
+  ],
+  "ready": [
+   "Vessel Hardening Plan, which can sit in the SSP",
+   "Inventory of hardening materials",
+   "Inspection and maintenance records for security equipment",
+   "Records of past implementation such as logs, work plans, photographs",
+   "Safety guidance for rigging razor wire and working near the ship's side"
+  ],
+  "traps": [
+   "No procedure or no VHP",
+   "VHP not ship-specific, or lacks materials list and quantities",
+   "No inventory, or inventory does not match actual stock",
+   "No maintenance records for security equipment",
+   "No record that the VHP was implemented before the area",
+   "Security officer not familiar with the plan"
+  ],
+  "say": "Our VHP is specific to this ship and lists the materials and quantities needed. We keep an inventory and maintain the security equipment. When hardened, lifeboats, life rafts and firefighting gear stay clear. The security plan is confidential, so I can show the cover and review date.",
+  "practice": [
+   {
+    "q": "What does the VHP include?",
+    "a": [
+     "Ship-specific measures and materials list with quantities",
+     "Inventory and when materials are kept onboard",
+     "Maintenance of security equipment",
+     "Safety guidance for rigging"
+    ]
+   },
+   {
+    "q": "What must hardening not interfere with?",
+    "a": [
+     "Escape routes",
+     "Lifesaving appliances and firefighting equipment",
+     "Response to non-security emergencies"
+    ]
+   }
+  ],
+  "tip": "Count the hardening materials against the inventory before the inspection, since a mismatch is easy to spot.",
+  "refs": [
+   "OCIMF Guidelines to Harden Vessels",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "7.2.2",
+  "title": "Controlling access to the vessel",
+  "plain": "Do crew control who comes onboard in port and make sure visitors know the hazards and safety rules?",
+  "why": "Unchecked visitors are a security risk, and visitors who do not know the hazards are a safety risk.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Gangway watch continuous and watchman knows the procedure",
+   "Visitor photo ID, passes, log, escort to accommodation",
+   "Notice board at the gangway with warnings",
+   "Visitor information card or briefing on hazards and rules",
+   "Deck patrols for unauthorised access points such as hawse pipes and mooring ropes"
+  ],
+  "ready": [
+   "Access control procedure, in or outside the SSP",
+   "Visitor log with entries in and out",
+   "Visitor passes and information cards",
+   "Gangway notice board with warnings in suitable languages",
+   "List of approved visitors sent to the terminal, including the SIRE inspector"
+  ],
+  "traps": [
+   "No continuous gangway watch, or watchman unfamiliar with procedure",
+   "No list of approved visitors given to the terminal",
+   "No deck patrols, or CCTV not monitored",
+   "No photo ID, passes or visitor records",
+   "Visitors not escorted or baggage not searched per security level",
+   "No notice board, or visitors not briefed on smoking, phones, PPE, cargo hazards, emergency signals, drug and alcohol policy"
+  ],
+  "say": "We keep a continuous gangway watch, check photo ID, issue passes and log every visitor. Visitors are escorted and given an information card on hazards, PPE, smoking, phones and emergency signals. We patrol the deck for other access points and gave the terminal our approved visitors list.",
+  "practice": [
+   {
+    "q": "Gangway watch: what do you do when a visitor arrives?",
+    "a": [
+     "Check photo ID and approved list",
+     "Issue a pass and record in log",
+     "Brief on hazards, give PPE if needed, and escort"
+    ]
+   },
+   {
+    "q": "What else do you watch besides the gangway?",
+    "a": [
+     "Hawse pipes and mooring ropes",
+     "CCTV where fitted",
+     "Regular deck patrols"
+    ]
+   }
+  ],
+  "tip": "Brief the gangway watchman on exactly what the visitor card says. He is the first person the inspector meets.",
+  "refs": [
+   "ISGOTT 6",
+   "ICS Tanker Safety Guide (Chemicals)",
+   "ISM Code 7",
+   "ISPS Code"
+  ]
+ },
+ {
+  "id": "7.3.1",
+  "title": "Ship security reporting and communications",
+  "plain": "Do the Master and officers know the regional security reporting rules and how the SSAS works, and is it tested?",
+  "why": "Authorities can only help if they know where you are and your alert system works when needed.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "24-hour contact details of the Company Security Officer, posted",
+   "Master and SSO know voluntary reporting procedure for VRAs",
+   "SSAS, LRIT and any standalone security comms regularly tested",
+   "Officers know where the SSAS buttons are and how it works",
+   "Whether VRA reporting was considered in passage planning"
+  ],
+  "ready": [
+   "CSO name and 24-hour contacts posted",
+   "Records of voluntary security reporting",
+   "Test records for SSAS and LRIT kept per the SSP",
+   "Passage plan marking VRA reporting points",
+   "Annotations if company told you not to report"
+  ],
+  "traps": [
+   "Officer does not know the CSO 24-hour contacts, or not posted",
+   "Master or SSO not familiar with VRA reporting procedure",
+   "No evidence VRA participation considered in planning",
+   "Company required reporting but no reports made; no records of regular SSAS or LRIT testing",
+   "Officer cannot explain purpose and operation of SSAS or LRIT",
+   "Security communication equipment defective"
+  ],
+  "say": "The CSO name and 24-hour contacts are posted on the bridge. We consider VRA reporting at passage planning and report as our procedure requires. SSAS and LRIT are tested regularly and I know where the activation buttons are.",
+  "practice": [
+   {
+    "q": "Where are the SSAS buttons and what do they do?",
+    "a": [
+     "Know all locations",
+     "Send a covert alert to company and authorities",
+     "Used in a real security threat, not casually"
+    ]
+   },
+   {
+    "q": "How do you report in a VRA?",
+    "a": [
+     "Register and report to the centre as company procedure says",
+     "Continue reports while transiting",
+     "Or annotate plan if company says not to report"
+    ]
+   }
+  ],
+  "tip": "The inspector will not ask you for equipment details, so know purpose and operation, not just that tests are done.",
+  "refs": [
+   "ISPS Code Guide",
+   "BMP5",
+   "BMP West Africa",
+   "ReCAAP Regional Guide"
+  ]
+ },
+ {
+  "id": "7.4.1",
+  "title": "Ship Security Officer (SSO)",
+  "plain": "Does the SSO hold a valid certificate, understand the role, and are security records for port calls kept?",
+  "why": "A trained SSO and proper port call records show security is actually run onboard, not just written down.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "ratings"
+   ]
+  },
+  "checks": [
+   "SSO Certificate of Proficiency, valid",
+   "SMS names the SSO and lists the role and duties",
+   "SSO is a crew member, not an outside consultant",
+   "Evidence of regular security inspections by the SSO",
+   "Security records for the last 10 port calls, and a rating's knowledge of security procedures"
+  ],
+  "ready": [
+   "SSO Certificate of Proficiency",
+   "SMS section on ship security with SSO duties",
+   "Records of regular security inspections",
+   "Port call security records for last 10 calls",
+   "Contact details of the CSO"
+  ],
+  "traps": [
+   "SMS does not clearly name the SSO or list the duties",
+   "SSO certificate not valid, or SSO is not a crew member",
+   "SSO unsure of the SSP purpose, equipment testing, hardening plan, CSO or PFSO role",
+   "Rating knows nothing about security procedures or alarm response",
+   "No evidence of regular security inspections",
+   "Port call security records not kept for the last 10 calls"
+  ],
+  "say": "Our SMS names the SSO and lists his duties. I hold a valid Certificate of Proficiency. I carry out regular security inspections and keep the records for the last 10 port calls. The security plan itself is confidential, but I can explain my role and who the CSO is.",
+  "practice": [
+   {
+    "q": "What are your duties as SSO?",
+    "a": [
+     "Regular security inspections and keeping the SSP up to date",
+     "Security awareness, training and drills",
+     "Make sure security equipment is tested and maintained",
+     "Report incidents and liaise with CSO and PFSO"
+    ]
+   },
+   {
+    "q": "What security records do you keep?",
+    "a": [
+     "Records for the last 10 port calls",
+     "Security level and any special measures taken",
+     "Inspection and drill records"
+    ]
+   }
+  ],
+  "tip": "Brief ratings on the alarm signal and their first action, because the inspector may ask one of them.",
+  "refs": [
+   "SOLAS XI-2/9",
+   "ISPS Code Guide",
+   "ISGOTT 6",
+   "ISM Code 6.2"
+  ]
+ },
+ {
+  "id": "7.5.1",
+  "title": "Cyber security risk management",
+  "plain": "Do officers know the company cyber procedures, and are they actually in place onboard?",
+  "why": "A cyber incident can take out navigation, cargo or propulsion systems, so protection and a backup plan must be real.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "eto",
+    "ce",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company cyber risk procedures and the officer responsible onboard",
+   "Register of sensitive IT and OT systems",
+   "Locked spaces and secured USB or network ports",
+   "Control of admin profiles, passwords, portable media and visitor access",
+   "Hard copy cyber contingency plans and IT support contacts"
+  ],
+  "ready": [
+   "Cyber risk management procedure",
+   "Inventory of sensitive IT and OT systems",
+   "Approval records for technicians and remote access",
+   "Cyber training records",
+   "Printed contingency plans and IT support contact details"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it",
+   "Spaces with sensitive equipment unlocked, or USB ports open",
+   "No inventory of IT and OT systems; admin profile held by someone other than a senior officer",
+   "Passwords posted at workstations, no password needed, or shared at crew change",
+   "Anti-virus or patches not updated, or portable media not scanned offline",
+   "No contingency plans or no hard copy; no approval for a technician working on ECDIS or similar"
+  ],
+  "say": "Our procedure names who is responsible for cyber risk onboard and lists our IT and OT systems. Only senior officers hold admin profiles, passwords are changed regularly, and USB ports are secured. We have printed contingency plans and IT support contacts if systems are lost.",
+  "practice": [
+   {
+    "q": "A technician wants to update the ECDIS. What do you do?",
+    "a": [
+     "Get formal approval before access",
+     "Supervise the work",
+     "Record the access",
+     "Check media offline for malware"
+    ]
+   },
+   {
+    "q": "What if you lose GNSS or navigation data?",
+    "a": [
+     "Use the contingency plan",
+     "Revert to other position fixing and backups",
+     "Inform company IT and shore support"
+    ]
+   }
+  ],
+  "tip": "Keep the contingency plan printed at the bridge, not only on a computer that may be the target.",
+  "refs": [
+   "MSC-FAL.1/Circ.3",
+   "MSC.428(98)",
+   "Guidelines on Cyber Security Onboard Ships v4",
+   "ISGOTT 6"
+  ]
+ },
+ {
+  "id": "8.1.1",
+  "title": "Inert gas system usage on oil tankers",
+  "plain": "Do officers know the IG procedures, and are cargo tanks kept inert at all times except when gas-free for entry?",
+  "why": "Inert tanks cannot burn or explode, so any lapse in IG use puts the whole ship at risk.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for IG operation",
+   "Oxygen in the IG main at 5 percent or less",
+   "Tank pressure within the range in the cargo and ballast plan",
+   "Oxygen in a random tank less than 8 percent",
+   "Cargo, tank cleaning and gas freeing records for last three months"
+  ],
+  "ready": [
+   "IG procedure and instruction manuals",
+   "Cargo and IG records for three months or three voyages",
+   "Positive pressure of at least 100 mm WG maintained",
+   "Portable oxygen analyser working",
+   "Failure action steps known"
+  ],
+  "traps": [
+   "No procedure, or officer cannot explain IG failure actions",
+   "IG not in use when required",
+   "Tanks below 100 mm WG, or pressure outside plan values",
+   "IG main oxygen over 5 percent, or tank over 8 percent",
+   "No periodic oxygen checks",
+   "Records missing or show IG not used per procedure"
+  ],
+  "say": "We keep cargo tanks inert at all times except when gas-free for entry, with at least 100 mm WG pressure. Oxygen is not more than 5 percent in the IG main and not more than 8 percent in the tanks. If IG fails, we stop discharge, close the deck isolating valve, open the vent and repair.",
+  "practice": [
+   {
+    "q": "What do you do if the IG system fails?",
+    "a": [
+     "Stop cargo and ballast discharge from inerted tanks",
+     "Close the IG deck isolating valve and open the vent valve",
+     "Repair immediately and report as required"
+    ]
+   },
+   {
+    "q": "How do you gas free a tank?",
+    "a": [
+     "Purge with IG until hydrocarbon is below the critical dilution line",
+     "Never pass through the flammable range"
+    ]
+   }
+  ],
+  "tip": "Know the oxygen reading in the main and in a tank at any time, since the inspector may ask you to measure.",
+  "refs": [
+   "SOLAS II-2",
+   "ISGOTT 6",
+   "OCIMF Inert Gas Systems",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.1.2",
+  "title": "Crude oil washing operations (COW)",
+  "plain": "Do officers know how to plan, prepare, run and record COW, and is the COW system in good order?",
+  "why": "COW is risky: a leak, wet oil or too much oxygen can cause fire or static explosion.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedures and the COW manual",
+   "COW plan, checklists, SSSCL and records for current or last operation",
+   "Oxygen tested in each tank within 30 minutes before COW and at 8 percent or less",
+   "Pressure gauges, lines, machines and heater blanked if outside engine room",
+   "Person in charge explains procedures and qualification"
+  ],
+  "ready": [
+   "COW manual approved and updated for any changes",
+   "Completed COW checklists and plan",
+   "Records: tanks, machines, start and end times, pattern, pressure, how dry",
+   "Evidence line pressure tested and checked for leaks before arrival",
+   "Oil Record Book Part II"
+  ],
+  "traps": [
+   "No procedure, or PIC unfamiliar or not suitably qualified",
+   "No approved COW manual, or manual not updated after alterations",
+   "Oxygen above 8 percent, or not tested within 30 minutes; records or checklists incomplete",
+   "Leaks, defective gauges, or machines turning in tanks not being washed",
+   "Source tank not de-bottomed 1 m, slop tank not discharged first",
+   "Heater not blanked, hydrants not capped, or washing cycles not as the manual says"
+  ],
+  "say": "Our procedure covers roles, planning, checklists and records. We test oxygen in each tank within 30 minutes before washing and it must not be more than 8 percent. We pressure test the line before arrival, use dry crude, blank the heater and watch the line for leaks throughout.",
+  "practice": [
+   {
+    "q": "What checks before COW starts?",
+    "a": [
+     "Oxygen tested in each tank at 8 percent or less",
+     "Line pressure tested and leak checked",
+     "Tank cleaning heater blanked, hydrants capped",
+     "Checklists completed"
+    ]
+   },
+   {
+    "q": "Why use dry crude?",
+    "a": [
+     "Oil and water mist builds higher static charge",
+     "De-bottom source tank by 1 m",
+     "Fully discharge slop tank before using it as source"
+    ]
+   }
+  ],
+  "tip": "If no COW is planned, the inspector uses your last record, so keep that file complete.",
+  "refs": [
+   "MARPOL Annex I Reg 33",
+   "MARPOL Annex I Reg 35",
+   "ISGOTT 6",
+   "IMO COW Systems"
+  ]
+ },
+ {
+  "id": "8.1.3",
+  "title": "Cargo tank isolation from venting system",
+  "plain": "Do officers know how to control the isolating valves between each tank and the common vent line?",
+  "why": "A wrongly set isolating valve can over or under pressurise a tank and damage the structure.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for isolating valves",
+   "Record or display of the current valve status",
+   "Valves on deck: correct position, locked, visibly indicated",
+   "Records of tests, maintenance and pre-operation checks",
+   "Officer explains who may operate them"
+  ],
+  "ready": [
+   "Isolation procedure",
+   "Status record or display at the CCR matching actual valve positions",
+   "Locks controlled by the Responsible Officer",
+   "Maintenance and pre-operational test records",
+   "Authorised personnel list"
+  ],
+  "traps": [
+   "No procedure or officer unfamiliar with it",
+   "Valve incorrectly set, or status differs from the record",
+   "No record or display of valve status",
+   "Valve not locked, or locks not under the Responsible Officer",
+   "No maintenance, testing or pre-operation check records",
+   "No clear visual indication of position; anyone allowed to operate valves"
+  ],
+  "say": "Each tank isolating valve has a lock under the Responsible Officer's control and a clear position indication. We record valve status in the CCR and check it before every operation. Only authorised persons operate them, and they are tested and maintained.",
+  "practice": [
+   {
+    "q": "Why isolate a tank, and what must you check before cargo or ballast?",
+    "a": [
+     "Isolating valves are opened before loading, ballasting or discharging that tank",
+     "Check status against the record",
+     "Locks under the control of the responsible officer"
+    ]
+   },
+   {
+    "q": "What can cause over pressurisation?",
+    "a": [
+     "Incorrect valve setting",
+     "Failure of an isolating valve",
+     "Casual operation of valves"
+    ]
+   }
+  ],
+  "tip": "Walk the deck and compare every valve with the CCR status board before the inspection.",
+  "refs": [
+   "SOLAS II-2/4",
+   "ISGOTT 6",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.1.4",
+  "title": "Oil cargo tank cleaning procedures",
+  "plain": "Do deck officers know how to plan, run and record tank cleaning and gas freeing after volatile cargoes?",
+  "why": "Tank cleaning and gas freeing are among the most hazardous tanker jobs, so every step must be planned and supervised.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company tank cleaning and gas freeing procedures",
+   "Plans, risk assessments, logs and records for recent cleaning",
+   "Tank washing done in an inert atmosphere",
+   "Supervision by a Responsible Officer and crew briefing",
+   "Special methods: steaming, chemicals, slops, purging"
+  ],
+  "ready": [
+   "Tank washing and gas freeing plans",
+   "Risk assessments including any cleaning additives",
+   "Logs and records following company procedure",
+   "SDS for tank cleaning chemicals",
+   "Brief records showing roles and responsibilities explained"
+  ],
+  "traps": [
+   "No procedure, or officer not familiar; no plans or supporting records for recent cleaning",
+   "Plan not followed, or cleaning not carefully planned",
+   "Washing without inert gas, including after slop discharge",
+   "Hazards or additive risks not assessed, no ALARP measures",
+   "No Responsible Officer supervision or crew briefing",
+   "Steam into a tank that might be flammable"
+  ],
+  "say": "Every tank washing and gas freeing job has a plan and risk assessment, supervised by a Responsible Officer. The crew are briefed on their roles. We wash in an inert atmosphere, steam only inerted or gas-free tanks, and purge before gas freeing. Everything is recorded.",
+  "practice": [
+   {
+    "q": "When can you steam a tank?",
+    "a": [
+     "Only after inerting, or water washing and gas freeing",
+     "Flammable gas not over 10 percent LFL",
+     "Avoid steam pressure build-up"
+    ]
+   },
+   {
+    "q": "What do you plan before tank washing?",
+    "a": [
+     "Risk assessment including chemicals",
+     "Atmosphere control, supervision and briefing",
+     "Slops handling and records"
+    ]
+   }
+  ],
+  "tip": "Keep the plan, risk assessment and log for each wash together in one file so records match.",
+  "refs": [
+   "ISGOTT 6",
+   "EI HM50 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.2.1",
+  "title": "Chemical tanker inert gas system usage",
+  "plain": "Do officers know the IG procedures and use the IG as required by SOLAS, IBC and company procedure?",
+  "why": "Inert gas prevents fire and explosion, and some chemicals must be inerted or must not be, so using it wrongly is dangerous.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company IG procedure and instruction manuals",
+   "IG oxygen in the main 5 percent or less, tank oxygen under 8 percent",
+   "Positive pressure kept in inerted tanks",
+   "Records for last three months or three voyages",
+   "Officer knows when IG must be used for each cargo and operation"
+  ],
+  "ready": [
+   "IG procedure covering inerting, padding, discharge, tank cleaning, purging, topping up, failure",
+   "Cargo and IG records",
+   "Tank oxygen and pressure readings logged",
+   "Inerting before discharge continued until oxygen at or below 8 percent",
+   "Cargo specifications for oxygen-dependent inhibitors"
+  ],
+  "traps": [
+   "No procedure, or officer cannot explain IG failure actions",
+   "IG not in use when required by SOLAS, IBC or procedure",
+   "Tanks not at positive pressure",
+   "IG main oxygen over 5 percent, tank over 8 percent; no periodic oxygen checks",
+   "Loaded tank inerted before discharge but stopped before oxygen reached 8 percent",
+   "Records missing or incomplete"
+  ],
+  "say": "Our procedure tells us for each cargo and operation whether IG or nitrogen is needed. We keep positive pressure, check oxygen regularly and record it. Where an oxygen-dependent inhibitor is carried, we only inert before discharge and keep oxygen at or above the minimum the inhibitor needs. If the system fails, we stop discharge and prevent air entering the tanks.",
+  "practice": [
+   {
+    "q": "How do you know when IG must be used?",
+    "a": [
+     "Check cargo requirements in IBC and SOLAS",
+     "Follow cargo specification and company procedure",
+     "Special case for oxygen-dependent inhibitors"
+    ]
+   },
+   {
+    "q": "How do you inert a loaded tank before discharge?",
+    "a": [
+     "Introduce inert gas through the distribution system while venting",
+     "Continue until oxygen is at or below 8 percent",
+     "Vapours vented may be flammable and toxic"
+    ]
+   }
+  ],
+  "tip": "Remember the difference between inerting, padding and purging: inspectors like clear definitions.",
+  "refs": [
+   "SOLAS II-2",
+   "IBC Code",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed",
+   "MSC.1/Circ.1501"
+  ]
+ },
+ {
+  "id": "8.2.2",
+  "title": "Carriage of inhibited chemical cargoes",
+  "plain": "Do officers know the procedures for carrying inhibited cargoes and follow them?",
+  "why": "If the inhibitor fails or is used up, cargo can polymerise, heat up and rupture the tank.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for inhibited cargoes",
+   "Certificate of protection on board and inhibitor duration not expired",
+   "Cargo and adjacent space temperatures monitored at least daily",
+   "Oxygen level watched for oxygen-dependent inhibitors, no inerting before loading or in transit",
+   "Contingency plan for uncontrolled polymerisation"
+  ],
+  "ready": [
+   "Procedure covering certificates, temperatures, inerting, vent blockage, nitrogen hose clearing, extra inhibitor, contingency",
+   "Certificate of protection for each inhibited cargo",
+   "Temperature and inert gas logs",
+   "Cargo plans and logbooks",
+   "Written contingency plan"
+  ],
+  "traps": [
+   "No procedure or responsible officer unfamiliar; no certificate of protection on board",
+   "Inhibitor effectiveness period expired before discharge",
+   "Temperature not monitored daily, or adjacent spaces not monitored",
+   "Oxygen not monitored, or cargo inerted before loading or during carriage",
+   "Vent system not checked for solid polymer, or blocked",
+   "Compressed nitrogen used to clear hoses after loading; no contingency plan for rapid temperature rise"
+  ],
+  "say": "We do not load an inhibited cargo without a certificate of protection. We check the inhibitor duration against the voyage, record cargo and adjacent space temperatures daily, watch oxygen for oxygen-dependent inhibitors, and inspect the vents for polymer. We have a contingency plan if temperature rises unexpectedly.",
+  "practice": [
+   {
+    "q": "The cargo temperature rises with no weather reason. What do you do?",
+    "a": [
+     "Suspect polymerisation",
+     "Follow the contingency plan and shipper advice",
+     "Add inhibitor or cool adjacent structures",
+     "Rapid rise may need jettison"
+    ]
+   },
+   {
+    "q": "Why not bubble nitrogen through an inhibited cargo?",
+    "a": [
+     "Nitrogen depletes dissolved oxygen the inhibitor needs",
+     "Do not clear hoses with compressed nitrogen after loading oxygen-dependent cargo",
+     "Ask the shipper if unsure"
+    ]
+   }
+  ],
+  "tip": "If no inhibited cargo was carried in six months, the inspector will focus on procedures and interviews, so know the plan well.",
+  "refs": [
+   "IBC Code 15.13.3",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed",
+   "ISGOTT 6",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.2.3",
+  "title": "Procedures and Arrangements Manual",
+  "plain": "Do officers know the P&A Manual, Certificate of Fitness, IBC Code and latest MEPC.2/Circular, and can they get them easily?",
+  "why": "Cargo planning and MARPOL residue rules depend on these documents, so officers must know what is allowed and how.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "P&A Manual available, in English, French or Spanish for international voyages",
+   "List of permitted cargoes with the Certificate of Fitness",
+   "IBC Code on board",
+   "Latest MEPC.2/Circular, issued each year in December",
+   "Officer knows stripping quantities for each tank and P&A sections for their duties"
+  ],
+  "ready": [
+   "P&A Manual in hard copy or digital",
+   "Certificate of Fitness with cargo list",
+   "IBC Code, chapters 17 and 18 easy to find",
+   "Current MEPC.2/Circular",
+   "Stripping quantity for each tank known"
+  ],
+  "traps": [
+   "Officer unfamiliar with P&A Manual, CoF, IBC or Circular",
+   "Officer does not know stripping quantities",
+   "P&A Manual not readily available, or not in English, French or Spanish",
+   "IBC Code or cargo list not readily available",
+   "MEPC.2/Circular missing, or not the latest edition"
+  ],
+  "say": "The P&A Manual, cargo list, IBC Code and the latest MEPC.2/Circular are all available to officers planning cargo. I know the stripping quantities for each tank and the P&A sections for my duties on tank cleaning, slops and ballasting.",
+  "practice": [
+   {
+    "q": "What does the P&A Manual tell you?",
+    "a": [
+     "Physical arrangements and operating procedures to comply with MARPOL Annex II",
+     "Cargo handling, tank cleaning, slops and ballasting",
+     "Stripping quantities for each tank"
+    ]
+   },
+   {
+    "q": "How do you know a cargo is permitted?",
+    "a": [
+     "Check it is on the Certificate of Fitness list",
+     "Get full IBC shipping name from shipper",
+     "Check latest MEPC.2/Circular for new products"
+    ]
+   }
+  ],
+  "tip": "Check you have this year's MEPC.2/Circular after the December reissue, because an old one is a common finding.",
+  "refs": [
+   "MARPOL Annex II Reg 14",
+   "IBC Code 16.2",
+   "MEPC.2/Circ.25",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed"
+  ]
+ },
+ {
+  "id": "8.2.4",
+  "title": "Chemical tank cleaning procedures",
+  "plain": "Do deck officers know how to plan, run and record tank cleaning after volatile or toxic cargoes?",
+  "why": "Tank cleaning exposes crew to toxic and flammable vapours and creates MARPOL slop rules to follow.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedures and P&A Manual",
+   "Written tank cleaning and gas freeing plans, risk assessments, records",
+   "Cleaning guidelines for expected cargoes and coating manufacturer's guidelines",
+   "Latest MEPC.2/Circular for approved cleaning agents",
+   "Observing a cleaning operation and mandatory prewash"
+  ],
+  "ready": [
+   "Written plan for each cleaning with cargo, SDS, risks, PPE, sequence, slops",
+   "Cleaning guidelines for all expected cargoes",
+   "Coating manufacturer's guidelines",
+   "Cargo Record Book entries",
+   "Additives stored per IMDG Code"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with P&A sections, guidelines or coating limits",
+   "Guidelines, coating guidelines or latest MEPC.2/Circular missing; written plans missing or not followed",
+   "Plan lacks cargo hazards, PPE, slops segregation or deck vapour control",
+   "No Responsible Officer supervision or crew briefing",
+   "Portable machines used but tank not treated as non-inert; steam into a tank that may be flammable",
+   "Additives not stored per IMDG, or other washing medium not covered in P&A Manual"
+  ],
+  "say": "We write a tank cleaning plan for every operation, covering the cargo and SDS, risks, PPE, method, slops and deck vapour control. The responsible officer supervises and briefs the crew first. We follow the P&A Manual, including mandatory prewash, and record everything.",
+  "practice": [
+   {
+    "q": "What is in a written tank cleaning plan?",
+    "a": [
+     "Cargo, SDS and additives with hazards",
+     "Cleaning method and sequence, gas freeing",
+     "PPE, slops disposal and segregation",
+     "Keeping deck free from vapours"
+    ]
+   },
+   {
+    "q": "Washing with portable machines: what atmosphere do you assume?",
+    "a": [
+     "Treat the tank as non-inert",
+     "Overpressure of inert gas cannot be ensured",
+     "Air may enter and raise oxygen"
+    ]
+   }
+  ],
+  "tip": "Hold the pre-cleaning meeting properly and note it, as the inspector looks for crew briefing evidence.",
+  "refs": [
+   "ICS Tanker Safety Guide (Chemicals) 5th ed",
+   "ISGOTT 6",
+   "MARPOL Annex II",
+   "MEPC.2/Circ"
+  ]
+ },
+ {
+  "id": "8.2.5",
+  "title": "Chemical cargo compatibility charts",
+  "plain": "Do officers know how to spot and separate incompatible cargoes when planning stowage?",
+  "why": "Incompatible cargoes or vapours mixing can cause toxic gas, heat, fire or tank rupture.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for identifying and segregating incompatible cargoes",
+   "Compatibility chart in use with latest information",
+   "Current and previous stowage plans",
+   "Segregation means on deck such as spool pieces or spectacle flanges",
+   "Officer explains chart use and exceptions"
+  ],
+  "ready": [
+   "Procedure naming charts and segregation methods",
+   "Recognised chart with exception lists, latest version",
+   "Stowage plans marking incompatible pairs and how separated",
+   "Ship drawings showing segregation",
+   "P&A Manual"
+  ],
+  "traps": [
+   "No procedure, or officer cannot use the chart",
+   "No chart from a recognised authority, or it is out of date",
+   "Footnotes and cargo data sheets not checked; incompatible cargoes adjacent, without double barrier",
+   "Incompatible cargoes sharing a venting system",
+   "Tank cleaning after incompatible cargoes without mitigations in the plan",
+   "Segregation on deck differs from the stowage plan"
+  ],
+  "say": "We check every pair of cargoes against the compatibility chart and its exceptions, then check footnotes and data sheets. The stowage plan shows which cargoes are incompatible and how we separate them, covering tanks, pipelines, vents and drip trays.",
+  "practice": [
+   {
+    "q": "How do you separate incompatible cargoes?",
+    "a": [
+     "Cofferdam, void space, pumproom, empty tank or compatible cargo between",
+     "Separate pumping, piping and venting",
+     "Spool pieces removed or double spectacle flanges"
+    ]
+   },
+   {
+    "q": "What do you check besides the chart?",
+    "a": [
+     "Chart footnotes and exceptions",
+     "Data sheets for both cargoes",
+     "Latest updated information"
+    ]
+   }
+  ],
+  "tip": "Show the segregation on the stowage plan physically on deck, such as removed spool pieces, matching the plan.",
+  "refs": [
+   "IBC Code 3.1",
+   "46 CFR Part 150",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.2.6",
+  "title": "Escape sets required by IBC Code",
+  "plain": "Are there enough escape sets for everyone onboard, and do they protect breathing and eyes?",
+  "why": "If cargo vapour escapes, everyone onboard needs to get out quickly and safely.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Maintenance records for EEBDs in the maintenance plan",
+   "Two escape sets inspected at random: charged, marked, eye protection",
+   "Enough for everyone on board including visitors and contractors",
+   "Additional to SOLAS EEBDs in accommodation and machinery spaces",
+   "A rating explains location, purpose and use"
+  ],
+  "ready": [
+   "Escape sets for every person, at least 15 minutes duration",
+   "No filter-type sets",
+   "Marked as not for fire-fighting or cargo handling",
+   "Included in the company procedure and maintenance plan",
+   "Counted against the people onboard"
+  ],
+  "traps": [
+   "Duration under 15 minutes, or filter-type protection; no eye protection",
+   "Not marked 'not for fire-fighting or cargo handling'",
+   "Not additional to the SOLAS EEBDs; set not fully charged or not maintained per plan",
+   "Used for fire-fighting, cargo work or as the main means to enter bad atmospheres",
+   "Not enough sets for visitors, contractors, supernumeraries",
+   "Rating does not know where or how to use them"
+  ],
+  "say": "We carry escape sets for every person onboard, plus the SOLAS EEBDs. They give at least 15 minutes, with eye protection, no filters, and are marked not for fire-fighting or cargo work. They are inspected under the maintenance plan and the crew are trained.",
+  "practice": [
+   {
+    "q": "Rating: where is your escape set and how do you use it?",
+    "a": [
+     "Know the location",
+     "Open it and don the hood or mask properly",
+     "Use only to escape, not to enter spaces"
+    ]
+   },
+   {
+    "q": "Can you use the EEBD to enter a tank?",
+    "a": [
+     "No, emergency escape only",
+     "Not for fire-fighting or cargo handling"
+    ]
+   }
+  ],
+  "tip": "Count sets against the people list including visitors and contractors on the day.",
+  "refs": [
+   "IBC Code 14.3",
+   "ISGOTT 6",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed"
+  ]
+ },
+ {
+  "id": "8.2.7",
+  "title": "Safety equipment required by the IBC Code",
+  "plain": "Do officers know the procedures for IBC safety equipment including SCBAs, and is it ready for immediate use?",
+  "why": "If rescue or work in a gas-filled space is needed, the equipment must be complete, charged and quick to don.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for stowage, readiness, testing and non-emergency SCBA use",
+   "At least three complete sets in addition to SOLAS firefighting sets",
+   "Each set: SCBA, protective suit, boots, gloves, goggles, fireproof lifeline, explosion-proof lamp",
+   "Spare air bottles or compressor arrangement",
+   "Monthly inspection logged and annual expert test"
+  ],
+  "ready": [
+   "Three complete sets stowed outside hazardous areas, marked, accessible",
+   "Fully charged cylinders and spares, straps slack",
+   "Monthly officer inspection in the logbook",
+   "Annual service by an expert, with training certificate if crew did it",
+   "Suits suitable for cargoes on the CoF and flammable atmospheres"
+  ],
+  "traps": [
+   "Fewer than three complete sets; set missing SCBA, suit, lifeline or lamp",
+   "Suits not suitable for cargoes carried or flammable atmosphere",
+   "No spare bottles, compressor, charging manifold or 6,000 litre air capacity",
+   "Not stowed outside hazardous areas or not marked and accessible",
+   "Cylinders not charged, straps tight, clothing not ready; no monthly inspection or annual expert test",
+   "Crew expert without manufacturer course certificate or special test equipment"
+  ],
+  "say": "We have the three complete IBC sets plus the SOLAS firefighting sets, stowed outside hazardous areas and marked. Cylinders are fully charged with spares, and straps are slack for quick donning. We inspect monthly, log it, and have an annual expert test.",
+  "practice": [
+   {
+    "q": "What is in one complete set?",
+    "a": [
+     "Air-breathing apparatus, not stored oxygen",
+     "Protective clothing, boots, gloves, tight goggles",
+     "Fireproof lifeline and belt",
+     "Explosion-proof lamp"
+    ]
+   },
+   {
+    "q": "Who can do the annual SCBA test?",
+    "a": [
+     "An expert, which can be crew",
+     "Crew member with manufacturer course within five years",
+     "Specialist test equipment onboard and certificate kept"
+    ]
+   }
+  ],
+  "tip": "Check the certificate and test equipment if the crew did the annual test, as the inspector asks for both.",
+  "refs": [
+   "IBC Code 14.2",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed",
+   "SOLAS II-2/10.10",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.2.8",
+  "title": "Protective equipment required by the IBC Code",
+  "plain": "Do officers know the procedures for protective equipment, and is the PPE in good order and right for the cargo?",
+  "why": "Wrong or damaged PPE gives no barrier against toxic or corrosive cargo.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure and cargo-specific PPE matrix",
+   "Records of PPE inspections and inventory",
+   "PPE in storage and in use on deck",
+   "Chemical resistance list for the suits, suitable for flammable atmospheres",
+   "A deck officer or rating demonstrates selecting and donning a full set"
+  ],
+  "ready": [
+   "Procedure with PPE matrix by cargo and operation",
+   "Inventory and inspection records",
+   "SDS for cargoes handled",
+   "Chemical resistance list for suits",
+   "Suits, gloves, boots, head gear of matching resistance, in suitable sizes"
+  ],
+  "traps": [
+   "No procedure covering the listed topics, or matrix not cargo-specific; PPE terms differ between documents",
+   "Crew not wearing PPE, or wearing it wrongly, for toxic or corrosive risk; PPE does not match the SDS",
+   "Face shields used at the manifold, or safety spectacles in a chemical area",
+   "Stored in an unsuitable place or in accommodation, in poor condition",
+   "No chemical resistance list or no flammable atmosphere evidence",
+   "Gloves or boots weaker than suit, not enough sizes; crew unfamiliar with donning a suit"
+  ],
+  "say": "Our procedure has a cargo-specific PPE matrix based on risk assessment and SDS. Crew are trained, a second person checks the suit before entry, and we manage time limits and fitness. Suits are cleaned, stored in a ventilated space, inspected and repaired or removed if defective.",
+  "practice": [
+   {
+    "q": "What eye protection at the manifold when disconnecting a hose?",
+    "a": [
+     "Chemical splash goggles or spray hood",
+     "Face shields and safety spectacles are not suitable"
+    ]
+   },
+   {
+    "q": "How do you check a suit before using it?",
+    "a": [
+     "Check against chemical resistance list and SDS",
+     "Second trained person checks it is worn correctly",
+     "Inspect for defects, remove from service if damaged"
+    ]
+   }
+  ],
+  "tip": "Have someone ready to demonstrate donning a full set. Practise with the second-person check.",
+  "refs": [
+   "IBC Code",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "8.3.1",
+  "title": "Inert gas generator",
+  "plain": "Do officers know how the IG generator works and is tested, and is it run and maintained as per maker and company?",
+  "why": "The generator must reliably give inert gas to the design standard, or tanks lose their protection.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "co",
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedures for IG generator and gas regulating valve",
+   "Plant in good order: no leaks, no pinholes or temporary repairs",
+   "Blowers free of excess vibration, spares if only one blower",
+   "Gas regulating and isolation valves working automatically or remotely",
+   "Records of inspection, testing and maintenance, and safe entry procedures posted"
+  ],
+  "ready": [
+   "Procedure for operation, inspection, testing, maintenance",
+   "Maker's instruction and maintenance manual",
+   "Inspection records with defects and rectification",
+   "Temperature and pressure sensors connected and reading sensibly",
+   "Entry procedure posted at the room matching the SMS"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar; records missing or incomplete",
+   "Gas regulating or remote valves run on local control",
+   "Sensors disconnected or defective",
+   "Significant gas or liquid leaks, or excess blower vibration",
+   "One blower with insufficient spares; no positive pressure ventilation where required",
+   "Entry procedure missing, or not matching SMS (also affects 5.5.1)"
+  ],
+  "say": "Deck and engine departments work together to run the IG plant. We follow the maker's manual and company procedure for the generator and gas regulating valve, keep inspection and maintenance records including defects, and have entry procedures posted at the space.",
+  "practice": [
+   {
+    "q": "What does the IG plant do?",
+    "a": [
+     "Supplies, cools, cleans, pressurises, monitors and controls inert gas delivery",
+     "Keeps inert gas within design criteria"
+    ]
+   },
+   {
+    "q": "What would you check on a walk-round?",
+    "a": [
+     "Leaks and pinholes on pipes and scrubber lines",
+     "Blower vibration",
+     "Valves in automatic or remote, sensors working"
+    ]
+   }
+  ],
+  "tip": "If entry procedures posted at the IG room differ from your SMS enclosed space procedure, you pick up a second observation.",
+  "refs": [
+   "SOLAS II-2/4",
+   "FSS Code Ch 15",
+   "ISGOTT 6",
+   "ISM Code 10.1"
+  ]
+ },
+ {
+  "id": "8.3.2",
+  "title": "Nitrogen generator inert gas system",
+  "plain": "Do officers know how the nitrogen generator works and is tested, and is it run and maintained as per maker and company?",
+  "why": "Nitrogen leaks cause oxygen deficiency and the waste gas is oxygen enriched, both serious hazards.",
+  "who": {
+   "lead": [
+    "2e",
+    "ce"
+   ],
+   "also": [
+    "co",
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure covering nitrogen generator and equipment",
+   "Compressor, air treatment, PSA or membrane units, receiver or buffer tank",
+   "Alarms: heater failure, low feed-air pressure, high air temperature, high condensate level",
+   "Extraction ventilation, safe entry procedure and asphyxiation warning signs",
+   "Officer explains hazards of nitrogen leaks and oxygen-enriched exhaust"
+  ],
+  "ready": [
+   "Procedure for operation, inspection, testing, maintenance",
+   "Maker's manual",
+   "Inspection and maintenance records including defects",
+   "Working visual and audible alarms",
+   "Warning signs for asphyxiation and for oxygen-enriched waste gas"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar",
+   "Officer unaware of oxygen deficiency or oxygen-enriched exhaust dangers",
+   "Records missing or incomplete; any of the four alarms not working",
+   "Extraction ventilation not working in a dedicated compartment",
+   "No safe entry procedure at the entrance; equipment defective in any respect",
+   "Entry procedure not matching SMS (also affects 5.5.1)"
+  ],
+  "say": "We run the nitrogen generator per the maker's manual and our procedure, with records of inspection and maintenance. I know the two main dangers: oxygen deficiency from nitrogen leaks, and oxygen-enriched waste gas. Warning signs are posted, and the extraction ventilation and alarms are tested.",
+  "practice": [
+   {
+    "q": "What dangers does the nitrogen generator bring?",
+    "a": [
+     "Nitrogen leak makes an oxygen-deficient atmosphere",
+     "Waste gas contains over 23.5 percent oxygen",
+     "Oil with oxygen-enriched air can react violently"
+    ]
+   },
+   {
+    "q": "Which alarms must work?",
+    "a": [
+     "Electric heater failure, if fitted",
+     "Low feed-air pressure or flow",
+     "High air temperature",
+     "High condensate level at water separator drain"
+    ]
+   }
+  ],
+  "tip": "Test the four alarms before the inspector asks, since any inoperative alarm is a negative.",
+  "refs": [
+   "FSS Code Ch 15",
+   "SOLAS II-2/4",
+   "EIGA PSA and Membrane Generators",
+   "ISGOTT 6"
+  ]
+ }
+]

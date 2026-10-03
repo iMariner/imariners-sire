@@ -1,0 +1,56 @@
+name: Rebuild SIRE data
+
+# Runs when cards or reports are changed by a person (GitHub web, or a pull request merged on GitHub).
+# The bot rebuilds inline itself, because pushes made with GITHUB_TOKEN do not trigger workflows.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cards/**"
+      - "scripts/build_data.py"
+      - "field/reports/**"
+      - "field/topics.json"
+      - "field/scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sire-bot
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSON
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          bad = 0
+          for f in glob.glob("cards/*.json") + glob.glob("field/reports/*.json"):
+              try:
+                  json.load(open(f))
+              except Exception as e:
+                  print("BAD", f, e); bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+      - name: Build
+        run: |
+          python3 scripts/build_data.py
+          python3 field/scripts/aggregate.py
+      - name: Commit and purge CDN
+        run: |
+          git add sire-data.json field-data.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git config user.name "imariners-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -q -m "Rebuild sire-data.json and field-data.json"
+          git push -q
+          curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/sire-data.json > /dev/null
+          curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/field-data.json > /dev/null

@@ -1,0 +1,2338 @@
+[
+ {
+  "id": "5.2.16",
+  "title": "Fire doors",
+  "plain": "Do crew know where the fire doors are and how they work, and are the doors in good order and never propped open?",
+  "why": "A fire door that is tied open or damaged lets fire and smoke spread, especially from the engine room to the steering gear.",
+  "who": {
+   "lead": [
+    "2e",
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Sample of fire doors in accommodation, machinery and store spaces",
+   "Self-closing doors that close and latch by themselves",
+   "No hooks, wedges or tiebacks holding doors open",
+   "Condition of door, frame, seals, lock and hinges",
+   "Replacement doors match the rating on the Fire Control Plan"
+  ],
+  "ready": [
+   "Maintenance plan for fire protection systems including fire doors",
+   "Records of weekly, quarterly and annual fire door tests",
+   "Fire Control Plan showing door ratings",
+   "Company procedure with test frequency for fire doors",
+   "Doors clear of obstructions"
+  ],
+  "traps": [
+   "Engine room to steering gear door tied open",
+   "Hold-back hooks, wedges or ropes on self-closing doors",
+   "Self-closing device does not fully close or latch",
+   "Corrosion, gaps, punctures or damaged packing",
+   "Cables passed through the door or frame",
+   "Records say tested but the door is defective"
+  ],
+  "say": "Our fire doors are listed in the maintenance plan and tested at the intervals in our SMS. I can show you the records and the Fire Control Plan. Doors that must self-close are never held open, and any defect is reported and repaired straight away.",
+  "practice": [
+   {
+    "q": "Where are the fire doors in the machinery space and what are they for?",
+    "a": [
+     "Name the main locations from the Fire Control Plan",
+     "They stop fire and smoke spreading between spaces",
+     "They must be kept closed or self-closing"
+    ]
+   },
+   {
+    "q": "How do you test the fire doors and how often?",
+    "a": [
+     "Weekly check of control panel indicators",
+     "Quarterly local operation test of main vertical zone doors",
+     "Annual test of remote release, all recorded"
+    ]
+   },
+   {
+    "q": "Can you hold this self-closing door open while working?",
+    "a": [
+     "No, no tiebacks, hooks or wedges",
+     "Only approved fail-safe hold-back with remote release",
+     "Close it again after use"
+    ]
+   }
+  ],
+  "tip": "Check the engine room and steering gear doors on your rounds and take out any wedge or rope you find. Inspectors look there first.",
+  "refs": [
+   "SOLAS II-2/9",
+   "SOLAS II-2/15",
+   "MSC.1/Circ.1432",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.3.1",
+  "title": "Firefighter's outfits and SCBA",
+  "plain": "Do crew know where the firefighter's outfits and breathing apparatus are, how to use them, and are they ready to use?",
+  "why": "Fire and enclosed space rescue depend on breathing apparatus that works and people who can put it on correctly.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Outfit storage areas and the outfits ready for immediate use",
+   "Inventory and condition of one selected outfit",
+   "SCBA fully charged with the right number of full spare bottles",
+   "Harness and facemask laid out for quick donning",
+   "Demonstration of donning, leak test, mask seal test and low air alarm"
+  ],
+  "ready": [
+   "Maintenance plan including outfits, SCBA and compressor",
+   "Records of monthly outfit checks and weekly and annual SCBA checks",
+   "Five-year hydrostatic test records for cylinders",
+   "Compressor usage log and air quality test records",
+   "Company procedure for use and maintenance of outfits and SCBA"
+  ],
+  "traps": [
+   "Outfits or SCBA not in the place shown on the fire plan",
+   "Outfit incomplete or any item defective",
+   "Cylinder not fully charged or spare bottles missing",
+   "Cylinders not interchangeable or not pressure tested on time",
+   "Officer cannot explain cylinder endurance, filling pressure or compressor use",
+   "Safety lamps not explosion proof, or not enough intrinsically safe radios for the fire teams",
+   "Crew cannot don the SCBA and do the safety checks"
+  ],
+  "say": "Our outfits and SCBA are kept ready in the locations on the fire plan and checked as set out in our maintenance plan. I can show the records, the compressor log and air quality results. I can also don the set and carry out the leak, mask seal and low air alarm checks.",
+  "practice": [
+   {
+    "q": "Please put on the SCBA and do the checks before entering.",
+    "a": [
+     "Check cylinder pressure and open valve",
+     "Test for air leaks",
+     "Test mask seal on the face",
+     "Test low air alarm"
+    ]
+   },
+   {
+    "q": "How do you refill the bottles and keep the air safe?",
+    "a": [
+     "Use the compressor following the procedure",
+     "Log usage and test air quality at the set interval",
+     "Follow instructions to avoid overfilling bottles of different pressure"
+    ]
+   },
+   {
+    "q": "How long does a full cylinder last and who checks the sets?",
+    "a": [
+     "State the endurance for our sets",
+     "Checks follow the maintenance plan and are recorded",
+     "Defects fixed promptly, bottles recharged after use"
+    ]
+   }
+  ],
+  "tip": "Practise donning with a stopwatch and a partner. Know your cylinder endurance and filling pressure by heart, as officers are asked.",
+  "refs": [
+   "SOLAS II-2/10",
+   "ISGOTT 6",
+   "MSC.1/Circ.1432",
+   "FSS Code"
+  ]
+ },
+ {
+  "id": "5.3.2",
+  "title": "Fire hoses, nozzles and international shore connection",
+  "plain": "Do crew know the fire hoses, nozzles and shore connection, and are they complete, working and ready for immediate use?",
+  "why": "In a fire you need water now, so missing hose parts or a shore connection without bolts can cost the ship.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Random hoses and nozzles in accommodation, machinery spaces and main deck",
+   "Washers, spanners, couplings and nozzle jet and spray controls",
+   "Hydrant washers and connections",
+   "International shore connection with nuts, bolts, gasket and two spanners",
+   "Rating questioned on purpose and operation"
+  ],
+  "ready": [
+   "Maintenance plan covering hoses, nozzles and shore connection",
+   "Records of monthly, quarterly and annual checks",
+   "Fire Control Plan showing hose locations",
+   "Procedure with test frequency, hose pressure test and replacement criteria",
+   "Shore connection stowed ready and clearly marked"
+  ],
+  "traps": [
+   "Hoses or nozzles missing from the places on the fire plan",
+   "Shore connection missing bolts, nuts, washers, gasket or spanners",
+   "Hose shorter than 10 m or longer than allowed for its location",
+   "Leaking, worn or defective hoses and couplings",
+   "Rating cannot explain what the shore connection is for",
+   "Records incomplete or not matching the equipment"
+  ],
+  "say": "Hoses and nozzles are in the places shown on the Fire Control Plan and checked under our maintenance plan. The international shore connection is marked, protected and complete with bolts, gasket and spanners. I can show the records and demonstrate the equipment.",
+  "practice": [
+   {
+    "q": "What is the international shore connection and where is it?",
+    "a": [
+     "Standard flange that links shore fire main to ship's hydrant",
+     "Say where it is stowed and that it can be used on either side",
+     "Discussed in the ship/shore checklist"
+    ]
+   },
+   {
+    "q": "What should be with the shore connection?",
+    "a": [
+     "Nuts, bolts and gasket",
+     "Two correctly sized spanners",
+     "Kept ready for immediate use"
+    ]
+   },
+   {
+    "q": "How do you check a fire hose and nozzle?",
+    "a": [
+     "Length, condition and couplings",
+     "Washers and spanner present",
+     "Nozzle jet and spray control works"
+    ]
+   }
+  ],
+  "tip": "Hoses laid out for cargo or bunkering should be back at their locations at other times. Ratings should know the shore connection by sight.",
+  "refs": [
+   "SOLAS II-2/10",
+   "ISGOTT 6",
+   "FSS Code",
+   "MSC.1/Circ.1432"
+  ]
+ },
+ {
+  "id": "5.3.3",
+  "title": "Portable fire extinguishers",
+  "plain": "Are portable extinguishers in the right places, charged, clearly marked and understood by the crew?",
+  "why": "A small fire is stopped by a working extinguisher in the first minute, if people know which one to use.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Sample of each type of extinguisher",
+   "Required markings, last annual service date and last ship check date",
+   "Position matches the Fire Control Plan",
+   "Spare charges or spare extinguishers inventory",
+   "One officer or rating explains how a chosen extinguisher works"
+  ],
+  "ready": [
+   "Fire Control Plan",
+   "Maintenance plan including extinguishers",
+   "Inspection and service records, annual service at intervals not over one year",
+   "Inventory of spare charges or extinguishers",
+   "Company procedure for maintenance including service agents"
+  ],
+  "traps": [
+   "Extinguisher missing or not where the fire plan shows",
+   "Not fully charged or not ready for use",
+   "Markings or instructions unreadable or missing",
+   "No date of last onboard check or annual service",
+   "Not enough spare charges",
+   "Fire plan distribution does not meet the number rules for ships built from 1 January 2009",
+   "Crew unfamiliar with using the extinguisher"
+  ],
+  "say": "Our extinguishers are placed as on the Fire Control Plan, checked by the crew and serviced at intervals not over one year. Each one carries its instructions and service dates. I can show the records and the spares inventory.",
+  "practice": [
+   {
+    "q": "Which extinguisher would you use on this type of fire and how do you operate it?",
+    "a": [
+     "Match type to the fire using the marking",
+     "Pull pin, aim at base, squeeze",
+     "Know the range and duration"
+    ]
+   },
+   {
+    "q": "How do you know this extinguisher is in good order?",
+    "a": [
+     "Gauge or weight and seal check",
+     "Dates of last ship check and annual service",
+     "Record in the maintenance plan"
+    ]
+   },
+   {
+    "q": "How do you manage spares?",
+    "a": [
+     "Inventory of spare charges or units",
+     "Enough for each type required",
+     "Replace used units promptly"
+    ]
+   }
+  ],
+  "tip": "After any use or drill, recharge or replace the extinguisher as soon as possible and update the inventory. Check tags have both dates.",
+  "refs": [
+   "SOLAS II-2/10",
+   "A.951(23)",
+   "MSC.1/Circ.1275",
+   "MSC.1/Circ.1432"
+  ]
+ },
+ {
+  "id": "5.3.4",
+  "title": "Emergency Escape Breathing Devices (EEBDs)",
+  "plain": "Do crew know where the EEBDs are and what they are for, and are they in date, marked and ready?",
+  "why": "EEBDs give a few minutes of air to escape smoke or gas, but only if they are in the right place and not expired.",
+  "who": {
+   "lead": [
+    "2e",
+    "co"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Sample EEBDs in machinery spaces, pumproom and accommodation",
+   "Position matches the Fire Control Plan",
+   "Expiry date, pressure and readable donning instructions",
+   "Required markings on each unit",
+   "Two ratings asked about location and purpose"
+  ],
+  "ready": [
+   "Company procedure on use, number, location and training of EEBDs",
+   "Inspection and maintenance records in the maintenance plan",
+   "Spare EEBDs as shown on the Fire Control Plan",
+   "Hydrostatic test records for rechargeable cylinders",
+   "Training units clearly marked"
+  ],
+  "traps": [
+   "EEBDs not where the fire control plan shows them",
+   "Fewer spares than the plan says",
+   "Past expiry date or cylinder pressure out of range",
+   "Donning instructions unreadable",
+   "Missing marking of serial number, trademark, shelf life or approval",
+   "Training units not clearly marked",
+   "Rechargeable cylinders not hydrostatically tested on time"
+  ],
+  "say": "Our EEBDs are placed as shown on the fire plan and checked under our procedure. Each is in date, marked and has readable instructions. They are only for escape, not firefighting, and crew are trained to put them on before leaving a space.",
+  "practice": [
+   {
+    "q": "Where is the nearest EEBD and when do you use it?",
+    "a": [
+     "Point out the location from the plan",
+     "Use it to escape a hazardous atmosphere",
+     "Don it before leaving the space"
+    ]
+   },
+   {
+    "q": "Can you use an EEBD for firefighting or entering a tank?",
+    "a": [
+     "No, escape only",
+     "Use SCBA for firefighting or oxygen deficient spaces"
+    ]
+   },
+   {
+    "q": "How do you check the EEBDs?",
+    "a": [
+     "Expiry date and pressure",
+     "Instructions readable and markings present",
+     "Records in the maintenance plan"
+    ]
+   }
+  ],
+  "tip": "Hang a quick check tag on each EEBD showing the date. Show crew how long the device lasts, at least 10 minutes by guideline.",
+  "refs": [
+   "SOLAS II-2/13",
+   "MSC/Circ.849",
+   "MSC/Circ.1081",
+   "ISGOTT 6"
+  ]
+ },
+ {
+  "id": "5.3.5",
+  "title": "Wheeled (mobile) fire extinguishers",
+  "plain": "Do engineers know the wheeled extinguishers, and are they in place, charged, marked and ready?",
+  "why": "Wheeled units are the main tool against an engine room oil fire before the fixed system is used.",
+  "who": {
+   "lead": [
+    "2e",
+    "3e"
+   ],
+   "also": [
+    "ce",
+    "co",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "All wheeled extinguishers in the machinery spaces",
+   "Required marking, annual service date and last ship check date",
+   "Position matches the Fire Control Plan",
+   "Inventory of spare charges",
+   "Engineer officer or rating asked how to operate one"
+  ],
+  "ready": [
+   "Fire Control Plan",
+   "Maintenance plan with monthly, annual, five-yearly and ten-yearly items",
+   "Records of inspections, tests and servicing",
+   "Inventory of spare charges",
+   "Instructions readable on each unit"
+  ],
+  "traps": [
+   "Unit not fully charged or not ready to use",
+   "Missing or not at the plan location",
+   "Markings or service dates missing",
+   "Not included in the maintenance plan",
+   "Not enough spare charges",
+   "Records incomplete or not matching condition",
+   "Engineer cannot explain how to operate it"
+  ],
+  "say": "Our wheeled extinguishers are in the engine room as shown on the fire plan and are checked monthly and serviced as in the maintenance plan. I can show the records and the spare charges list, and I can operate the unit.",
+  "practice": [
+   {
+    "q": "How do you use this wheeled extinguisher?",
+    "a": [
+     "Wheel to the fire, unreel hose",
+     "Open as per marked instructions",
+     "Direct at base of fire from a safe distance"
+    ]
+   },
+   {
+    "q": "What checks are done and how often?",
+    "a": [
+     "Monthly inspection",
+     "Annual maintenance and inspection",
+     "Five-yearly and ten-yearly tests including hydrostatic"
+    ]
+   },
+   {
+    "q": "What spares do you carry?",
+    "a": [
+     "Spare charges for each unit",
+     "Listed in the inventory",
+     "Kept ready on board"
+    ]
+   }
+  ],
+  "tip": "If the ship has no wheeled extinguishers, this question is marked not answerable, so know whether yours are fitted.",
+  "refs": [
+   "SOLAS II-2/10",
+   "ISGOTT 6",
+   "MSC.1/Circ.1432",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.4.1",
+  "title": "Davit-launched lifeboats, release gear and launching appliances",
+  "plain": "Do officers know how the lifeboats, release gear and davits work, and are they in good order with inspection and test records?",
+  "why": "Poor maintenance of survival craft has caused many accidents, so the boat must work when needed.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for periodic inspection and testing",
+   "Weekly, monthly, annual and five-yearly records",
+   "Lifting hooks and keel structure free of corrosion",
+   "Engine started with propeller shown moving ahead and astern",
+   "Officer explains items from the SOLAS III/36 monthly checklist"
+  ],
+  "ready": [
+   "Monthly inspection checklist and weekly records",
+   "Annual and five-yearly thorough examination reports",
+   "Maintenance manuals for boats and davits on board",
+   "Bridge Log Book entries",
+   "Records for fall renewal"
+  ],
+  "traps": [
+   "Records of weekly, monthly, annual or five-yearly checks incomplete",
+   "Falls in service longer than five years",
+   "No clear on-load release instructions or release control not in contrasting colour",
+   "Engine will not start or no engine instructions near the controls",
+   "Missing or badly stowed equipment",
+   "Davit limit switches stuck, gearcase breather blocked or painted over",
+   "Boat, davit or locations not marked with required symbols"
+  ],
+  "say": "Our lifeboats and davits are inspected weekly and monthly under our SMS, with annual and five-yearly examinations by authorised service providers. I can show the checklists and records, start the engine and explain the monthly checks and the release gear.",
+  "practice": [
+   {
+    "q": "Start the lifeboat engine and show ahead and astern.",
+    "a": [
+     "Follow the starting instructions",
+     "Engage the gear, check propeller turns both ways",
+     "Stop safely and record"
+    ]
+   },
+   {
+    "q": "Explain the on-load and off-load release.",
+    "a": [
+     "Two release capabilities, normal and on-load",
+     "Green means reset, red means danger",
+     "Know the safety steps before using on-load"
+    ]
+   },
+   {
+    "q": "When were the falls last renewed?",
+    "a": [
+     "Check the records",
+     "Not older than five years",
+     "Inspect falls and gripes for condition"
+    ]
+   }
+  ],
+  "tip": "Check the gearcase breather vent and limit switches each month. Painted-over vents are a classic finding.",
+  "refs": [
+   "SOLAS III/36",
+   "LSA Code",
+   "MSC.402(96)",
+   "OCIMF Survival Craft"
+  ]
+ },
+ {
+  "id": "5.4.2",
+  "title": "Free-fall lifeboat, release systems and launching appliance",
+  "plain": "Do officers know the free-fall lifeboat and its release and recovery gear, and is it in good order with records?",
+  "why": "A free-fall boat only helps if its release, ramp and restraints are ready and safe when the crew abandon ship.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and testing",
+   "Boat, equipment and release system against the monthly checklist",
+   "Launching, recovery and stowage systems",
+   "Engine started with propeller shown moving ahead and astern",
+   "Officer explains items from the monthly checklist"
+  ],
+  "ready": [
+   "SOLAS III/36 monthly checklist",
+   "Weekly and monthly inspection records",
+   "Annual and five-yearly thorough examination reports",
+   "Bridge Log Book",
+   "Maintenance manuals on board"
+  ],
+  "traps": [
+   "Records incomplete or checklist missing",
+   "Falls in service more than five years",
+   "Release not protected against accidental release or not in a contrasting colour",
+   "Seat harnesses not in good order",
+   "Safety or maintenance chains or pins left in place",
+   "Hydraulic hoses, rollers or skid ramp in poor condition",
+   "Boat not properly secured in stowed position",
+   "Engine would not start"
+  ],
+  "say": "Our free-fall lifeboat is checked under our SMS with weekly, monthly, annual and five-yearly records. Safety pins are removed after checks so it is ready to launch. I can show the checklist, start the engine and explain the release system.",
+  "practice": [
+   {
+    "q": "What do you do after recovering or testing the boat?",
+    "a": [
+     "Leave it ready for immediate launch",
+     "Remove safety and maintenance chains and pins",
+     "Record the work"
+    ]
+   },
+   {
+    "q": "How is the release protected from accidental release?",
+    "a": [
+     "Protected release control",
+     "Clear instructions in the boat",
+     "Contrasting colour marking"
+    ]
+   },
+   {
+    "q": "What do you check on the ramp and launching gear?",
+    "a": [
+     "Skid plates and rollers",
+     "Hydraulic hoses",
+     "Recovery limit switches and securing means"
+    ]
+   }
+  ],
+  "tip": "Make a pre-inspection routine: pins out, harnesses checked, rollers free. Keep it written on the checklist.",
+  "refs": [
+   "SOLAS III/36",
+   "LSA Code",
+   "MSC.402(96)",
+   "OCIMF Survival Craft"
+  ]
+ },
+ {
+  "id": "5.4.3",
+  "title": "Dedicated rescue boat and launching appliance",
+  "plain": "Do officers know the rescue boat and its davit, and are they in good order with inspection and test records?",
+  "why": "The rescue boat must be ready at once to recover a person, with an engine that starts and a davit that works.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and testing",
+   "Records of periodic inspections and tests",
+   "Engine started and drive engaged",
+   "Davit slewed manually and by reserve power",
+   "Officer explains operation, inspection and testing"
+  ],
+  "ready": [
+   "Weekly and monthly inspection checklist",
+   "Annual and five-yearly examination records",
+   "Full maintenance manuals on board",
+   "Bridge Log Book",
+   "Rescue boat equipment complete and stowed"
+  ],
+  "traps": [
+   "Records of checks incomplete",
+   "Manuals for boat and davit not on board",
+   "Emergency repair to inflatable still pending permanent repair",
+   "Inflatable not fully inflated, not in continuous readiness",
+   "Engine will not start or no starting instructions near controls",
+   "Davit cannot be slewed manually or by reserve power",
+   "No checklist or missing symbols marking"
+  ],
+  "say": "Our rescue boat is kept ready, inspected and tested under our SMS, with annual and five-yearly service by authorised providers. I can show records, start the engine, engage the drive and slew the davit by hand and reserve power.",
+  "practice": [
+   {
+    "q": "Show me how you start the rescue boat engine.",
+    "a": [
+     "Follow instructions near the controls",
+     "Start and engage drive",
+     "Check ahead and astern"
+    ]
+   },
+   {
+    "q": "How do you slew the davit without main power?",
+    "a": [
+     "By hand or reserve power as per instructions",
+     "Demonstrate it works",
+     "Record in checklist"
+    ]
+   },
+   {
+    "q": "What if the inflatable boat has a repair?",
+    "a": [
+     "Permanent repair at an approved service station",
+     "Emergency repair is not acceptable long term",
+     "Keep fully inflated and ready"
+    ]
+   }
+  ],
+  "tip": "Practise the manual slew regularly. It is the step crews forget.",
+  "refs": [
+   "SOLAS III",
+   "LSA Code",
+   "MSC.402(96)",
+   "OCIMF Survival Craft"
+  ]
+ },
+ {
+  "id": "5.4.4",
+  "title": "Rocket parachute flares and line throwing appliances",
+  "plain": "Do officers know where the flares and line throwing gear are and how they work, and are they in date and ready?",
+  "why": "Distress flares and line throwers are used when seconds matter, so they must be complete, in date and stowed on the bridge.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Stowage place on or near the bridge",
+   "Flares and line throwing appliances for number and condition",
+   "Expiry dates of flares, rockets and lines",
+   "Rockets and lines stowed together and ready",
+   "Officer explains purpose, use and inspection"
+  ],
+  "ready": [
+   "Company procedure for periodic inspection",
+   "Inspection records",
+   "Stowage marked with LSA symbol and number of devices",
+   "Table of life-saving signals on the bridge",
+   "Waterproof and weatherproof stowage"
+  ],
+  "traps": [
+   "Fewer than 12 rocket parachute flares or no line throwing appliance",
+   "Not stowed on or near the bridge",
+   "Stowage not marked with symbols and number",
+   "Stowage not weatherproof",
+   "No brief operating instructions on the items",
+   "Any item past expiry date",
+   "Rockets and lines stowed apart",
+   "No table of life-saving signals on the bridge"
+  ],
+  "say": "Flares and the line throwing appliance are stowed on the bridge, marked with the correct symbols and checked under our SMS. All items are in date and the line throwing set is assembled and ready. A table of life-saving signals is on the bridge.",
+  "practice": [
+   {
+    "q": "How many parachute flares must you carry and where?",
+    "a": [
+     "Not less than 12",
+     "On or near the navigation bridge",
+     "In date and with instructions"
+    ]
+   },
+   {
+    "q": "How do you use the line throwing appliance?",
+    "a": [
+     "Follow the instructions on the unit",
+     "Rocket and line ready together",
+     "Fire in a safe direction"
+    ]
+   },
+   {
+    "q": "Where are the life-saving signals?",
+    "a": [
+     "Illustrated table on the bridge",
+     "Available to the officer of the watch"
+    ]
+   }
+  ],
+  "tip": "Put a list of expiry dates on the stowage door and check it at each monthly inspection.",
+  "refs": [
+   "SOLAS III/6",
+   "SOLAS III/18",
+   "SOLAS V/29",
+   "LSA Code"
+  ]
+ },
+ {
+  "id": "5.4.5",
+  "title": "Liferafts, hydrostatic releases and liferaft launching appliances",
+  "plain": "Do officers know the liferafts, hydrostatic releases and davits, and are they stowed, serviced and ready to use?",
+  "why": "Liferafts must float free and be ready within minutes, and servicing or release units out of date can fail them.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure and servicing records from approved station",
+   "Liferafts stowed and ready for immediate release",
+   "Hydrostatic releases rigged as per manufacturer and in date",
+   "Painters attached permanently to the ship",
+   "Officer explains operation, inspection and testing"
+  ],
+  "ready": [
+   "Servicing certificates for rafts and release units",
+   "Weekly and monthly inspection records",
+   "Bridge Log Book",
+   "Embarkation ladders in good condition with handholds",
+   "Lighting and lifejackets for remote rafts"
+  ],
+  "traps": [
+   "Not enough liferaft capacity for everyone on board",
+   "Raft not in continuous readiness",
+   "Painter not permanently attached to ship",
+   "Hydrostatic release rigged wrongly, unmarked or past expiry",
+   "Raft or release not serviced at the required interval",
+   "Embarkation ladder missing or poor, no handholds",
+   "Remote raft without lights or means of embarkation",
+   "Battery lamps without recent proof of three hours of light"
+  ],
+  "say": "Our liferafts and hydrostatic releases are serviced by an authorised station at the required intervals and checked onboard weekly and monthly. Painters are attached, releases are rigged to the manufacturer's instructions, and I can show the certificates and records.",
+  "practice": [
+   {
+    "q": "How does the hydrostatic release work and when does it expire?",
+    "a": [
+     "Releases the raft automatically at depth",
+     "Check date or expiry marking",
+     "Rigged as per manufacturer"
+    ]
+   },
+   {
+    "q": "How are the liferafts stowed?",
+    "a": [
+     "Ready for release one at a time",
+     "Painter permanently attached",
+     "Float free except remote rafts"
+    ]
+   },
+   {
+    "q": "What is needed for a remotely stowed raft?",
+    "a": [
+     "Lifejackets and immersion suits",
+     "Illumination for raft and water",
+     "Embarkation ladder, not a knotted rope"
+    ]
+   }
+  ],
+  "tip": "If rafts have an extended service interval with an onboard kit, have the flag acceptance and training evidence ready.",
+  "refs": [
+   "SOLAS III/13",
+   "SOLAS III/11",
+   "LSA Code",
+   "MSC.1/Circ.1490"
+  ]
+ },
+ {
+  "id": "5.4.6",
+  "title": "Lifebuoys, lights, smoke floats and lifelines",
+  "plain": "Are lifebuoys, their lights, smoke floats and lines in good order, clearly marked and placed correctly around the ship?",
+  "why": "A person overboard needs a lifebuoy within reach on either side, with a light by night and a line where needed.",
+  "who": {
+   "lead": [
+    "2o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Number of lifebuoys and spread on both sides, each open deck and near the stern",
+   "Lights, smoke floats and buoyant lifelines",
+   "Stowage marked with symbols and lifebuoys marked with ship name and port",
+   "Retro-reflective tape and quick release freedom",
+   "Monthly checklist and log"
+  ],
+  "ready": [
+   "Company procedure for lifebuoys and associated gear",
+   "Monthly inspection checklist and log records",
+   "Battery-type self-igniting lights",
+   "Smoke floats in date with free quick release from the bridge",
+   "Marking of any non-intrinsically safe lights"
+  ],
+  "traps": [
+   "Fewer lifebuoys than required",
+   "Too few lifebuoys with lights",
+   "A lifebuoy fitted with both a light and a lifeline",
+   "No buoyant lifeline of the right length on each side",
+   "Lifebuoys lashed in brackets or not marked with name and port",
+   "Retro-reflective tape missing",
+   "Smoke float expired, stuck release, or its lifebuoy under 4 kg",
+   "Non-intrinsically safe light inside the gas hazardous area"
+  ],
+  "say": "Our lifebuoys are spread on both sides and near the stern, free to cast loose and marked with the ship's name and port. Lights, smoke floats and lifelines are checked monthly and recorded under our SMS. Non-intrinsically safe lights are controlled so they stay out of gas zones.",
+  "practice": [
+   {
+    "q": "Which lifebuoys have lights, lifelines and smoke floats?",
+    "a": [
+     "Lifelines on at least one each side",
+     "At least half have self-igniting lights",
+     "Smoke floats on bridge release, not on lifeline buoys"
+    ]
+   },
+   {
+    "q": "How do you keep non-intrinsically safe lights out of the cargo area?",
+    "a": [
+     "Marked or highlighted",
+     "Strict control in procedure",
+     "Use only intrinsically safe lights in the hazardous area"
+    ]
+   },
+   {
+    "q": "What is checked at the monthly inspection?",
+    "a": [
+     "Condition, marking and tape",
+     "Lights, smoke float expiry and quick release",
+     "Recorded on the checklist"
+    ]
+   }
+  ],
+  "tip": "Tag the non-intrinsically safe lights clearly and check each month that none has moved to the tank deck.",
+  "refs": [
+   "SOLAS III/7",
+   "SOLAS III/32",
+   "LSA Code",
+   "A.658(16)"
+  ]
+ },
+ {
+  "id": "5.4.7",
+  "title": "Immersion suits",
+  "plain": "Do crew know the immersion suits, and are they in good order, easy to reach and clearly shown on the ship?",
+  "why": "In cold water an immersion suit protects against hypothermia, so it must fit, be undamaged and be quick to put on.",
+  "who": {
+   "lead": [
+    "3o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Suits at one stowage place and sight of other places",
+   "Monthly inspection and air-pressure test records",
+   "Suit size and type match the storage bag",
+   "Zips, seams, tape, whistles and lights",
+   "An officer or rating shows donning"
+  ],
+  "ready": [
+   "Company procedure with number, type, sizes and location of suits",
+   "Records of monthly inspections",
+   "Records of air-pressure tests at intervals not over three years, or more often for suits over ten years old",
+   "Stowage marked with symbols and number of suits",
+   "Suits at the forward liferaft or other remote location"
+  ],
+  "traps": [
+   "No suit of the right size for each person",
+   "Stowage not marked with symbols and number",
+   "No suits at the remote liferaft location",
+   "Donning instructions unreadable",
+   "Bag label does not match the suit inside",
+   "Failed seams, stuck zips or damaged tape",
+   "Whistle or light missing, or battery out of date",
+   "Vacuum-packed suits with damaged packing and no loose suits for training"
+  ],
+  "say": "Our immersion suits are stowed and marked as in our SMS, with the right sizes for everyone. We inspect them monthly and air-pressure test them at the intervals we have set. I can show the records and put on a suit myself.",
+  "practice": [
+   {
+    "q": "Show me how to put on an immersion suit.",
+    "a": [
+     "Unpack and don it without help",
+     "Zip fully and check hood and gloves",
+     "Know the suit is worn with a lifejacket if marked"
+    ]
+   },
+   {
+    "q": "How do you inspect the suits monthly?",
+    "a": [
+     "Bag, instructions and size",
+     "Dry inside and out, no damage, zip easy",
+     "Tape, whistle, light and battery date"
+    ]
+   },
+   {
+    "q": "How are vacuum-packed suits handled?",
+    "a": [
+     "Follow manufacturer's instructions",
+     "Keep loose suits for training",
+     "Damaged pack is treated as non vacuum-packed"
+    ]
+   }
+  ],
+  "tip": "Use the monthly check as a donning practice for new joiners, and put the air-pressure test dates on a wall chart.",
+  "refs": [
+   "SOLAS III/20",
+   "LSA Code",
+   "MSC/Circ.1047",
+   "MSC/Circ.1114"
+  ]
+ },
+ {
+  "id": "5.4.8",
+  "title": "Lifejackets and personal flotation devices (PFDs)",
+  "plain": "Do crew know the lifejackets and working lifejackets, and are they in good condition, easy to reach and maintained?",
+  "why": "A lifejacket that is missing, damaged or out of reach, or not worn for work over the side, can turn a fall into a death.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Lifejackets at one stowage place and sight of others",
+   "Company procedures including working lifejackets",
+   "Sample of working lifejackets",
+   "Monthly inspection and inflatable annual service records",
+   "Rating asked about use of working lifejackets"
+  ],
+  "ready": [
+   "Company procedure for lifejackets and working lifejackets",
+   "Monthly inspection records",
+   "Annual service records for inflatable lifejackets if carried",
+   "Marked stowage with symbols and numbers",
+   "Extra lifejackets on bridge, ECR, forward raft and other watch stations"
+  ],
+  "traps": [
+   "No procedure for working lifejackets",
+   "Lifejackets not suited to the type of lifeboat",
+   "Stowage not marked with symbols and number",
+   "Not enough on bridge, engine room or forward liferaft",
+   "Retro-reflective tape, whistles or lights missing or out of date",
+   "Buoyant line or lifting means missing or defective",
+   "Inflatable not serviced annually",
+   "No working lifejackets for overside or exposed work"
+  ],
+  "say": "Lifejackets are stowed and marked for everyone, with extra sets at watch stations and remote craft. We check them monthly and service inflatables as required. Working lifejackets are used for overside and exposed work as in our SMS.",
+  "practice": [
+   {
+    "q": "When must a working lifejacket be worn?",
+    "a": [
+     "Work overside or in an exposed position",
+     "Risk of falling or being washed overboard",
+     "Work in or from a ship's boat"
+    ]
+   },
+   {
+    "q": "What do you check on a lifejacket?",
+    "a": [
+     "Whistle, light and battery date",
+     "Retro-reflective tape",
+     "Buoyant line, lifting means and general condition"
+    ]
+   },
+   {
+    "q": "How often are inflatable lifejackets serviced?",
+    "a": [
+     "At least every 12 months",
+     "By an approved servicing station",
+     "Records kept on board"
+    ]
+   }
+  ],
+  "tip": "Hang working lifejackets near the work area and brief ratings at toolbox talks. Ratings are interviewed on this.",
+  "refs": [
+   "SOLAS III/7",
+   "SOLAS III/20",
+   "LSA Code",
+   "MCA Code of Safe Working Practices"
+  ]
+ },
+ {
+  "id": "5.4.9",
+  "title": "Emergency lighting",
+  "plain": "Do officers know how emergency lighting is tested and maintained, is testing recorded, and does the system work?",
+  "why": "If the main power fails, emergency lights guide people to muster stations, boats and escape routes.",
+  "who": {
+   "lead": [
+    "eto",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and testing of emergency lighting",
+   "Test records against the procedure",
+   "Demonstration of the emergency lighting",
+   "Sample of emergency lights working",
+   "Lighting for the water where survival craft launch"
+  ],
+  "ready": [
+   "Procedure stating instructions, frequency and recording",
+   "Records of weekly testing",
+   "Location of the switches for the emergency lighting",
+   "Clean and dry emergency light fittings",
+   "Lighting over the side at boats and remote liferaft"
+  ],
+  "traps": [
+   "No procedure for testing",
+   "Procedure does not require testing at least weekly",
+   "Records missing or not matching the procedure",
+   "Responsible officer does not know the procedure",
+   "Officer does not know where the emergency light switches are",
+   "Lights not working, dirty or full of water",
+   "Lighting of the launch water area in poor condition"
+  ],
+  "say": "Our SMS requires emergency lighting to be tested weekly and recorded. I know where the switches are and can demonstrate the system. Defective or dirty lights are reported and fixed.",
+  "practice": [
+   {
+    "q": "How often do you test the emergency lighting?",
+    "a": [
+     "At least once a week by our procedure",
+     "Result recorded",
+     "Also tested at abandon ship drills"
+    ]
+   },
+   {
+    "q": "Where are the switches for the emergency lighting?",
+    "a": [
+     "Say the exact locations",
+     "Show the demonstration",
+     "Know what comes on and for how long"
+    ]
+   },
+   {
+    "q": "What areas need emergency light?",
+    "a": [
+     "Muster and embarkation stations and over the side",
+     "Alleyways, machinery spaces and steering gear",
+     "Firemen's outfit stowage and pumproom"
+    ]
+   }
+  ],
+  "tip": "While testing, walk the ship and note dirty or flooded fittings at the same time. It is easy to fix and often found.",
+  "refs": [
+   "SOLAS II-1/43",
+   "SOLAS III/11",
+   "SOLAS III/16",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.5.1",
+  "title": "Enclosed space entry procedures",
+  "plain": "Do crew know the enclosed space entry procedure, and can you show every entry followed it strictly?",
+  "why": "People die in enclosed spaces from low oxygen or toxic gas, so entry must be controlled every time.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2e",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure and the list of spaces needing a permit",
+   "At least two permits from different space types",
+   "Risk assessment, validity not over 12 hours, atmosphere tests, isolation",
+   "Signatures by master or responsible person, attendant, entrants and supervisor",
+   "A rating asked about their role and signing the permit"
+  ],
+  "ready": [
+   "Enclosed space entry procedure and space categorisation",
+   "Entry permits from the last six months for deck and engine spaces",
+   "Pumproom and similar room entry records for the last two months",
+   "Bridge Log Book and planned maintenance system",
+   "Rescue and resuscitation equipment in good condition"
+  ],
+  "traps": [
+   "No procedure, or not all enclosed spaces identified",
+   "No risk assessment before each entry",
+   "Permit missing, incomplete or approved by the person entering",
+   "Not all gases tested that suit the previous contents",
+   "No record of blanking or isolation of pipes and power",
+   "Cargo tank entered without cleaning as per procedure",
+   "Breathing sets used routinely instead of cleaning and gas freeing",
+   "No gas readings or entry and exit times for pumproom entry without a permit",
+   "Personal multi-gas detectors not required"
+  ],
+  "say": "No one enters an enclosed space without our permit or the documented alternative process. We risk assess, ventilate, test the atmosphere, isolate and brief before each entry. I can show recent permits and explain each person's role.",
+  "practice": [
+   {
+    "q": "What readings must you have before entry?",
+    "a": [
+     "Oxygen 21 percent, do not enter if lower until the cause is found and resolved",
+     "Flammable vapour below 1 percent of LFL",
+     "Toxic gases no more than 50 percent of OEL"
+    ]
+   },
+   {
+    "q": "How long is a permit valid?",
+    "a": [
+     "Not more than 12 hours",
+     "Valid only while conditions are met",
+     "Ventilation continues during entry"
+    ]
+   },
+   {
+    "q": "As an attendant, what is your job?",
+    "a": [
+     "Stay outside and keep contact",
+     "Sign the permit",
+     "Raise the alarm and do not enter to rescue"
+    ]
+   }
+  ],
+  "tip": "Check that the person who approves the permit is never the person entering. Keep two months of pumproom logs handy.",
+  "refs": [
+   "ISGOTT 6 Ch 10",
+   "A.1050(27)",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.5.2",
+  "title": "Hot work procedure",
+  "plain": "Do crew know the hot work procedure, and can you show all hot work was done by the procedure and with a permit?",
+  "why": "Sparks and heat on a tanker can ignite gas, oil or cargo, so hot work must be tightly controlled.",
+  "who": {
+   "lead": [
+    "ce",
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company hot work procedure",
+   "Up to two recent permits with risk assessment, work plan and planning meeting",
+   "Shore management approval where required",
+   "Instructions posted in the designated hot work space",
+   "No undocumented hot work seen during the inspection"
+  ],
+  "ready": [
+   "Hot work procedure in line with ISGOTT Chapter 9",
+   "Hot work permits from the last six months with risk assessments and work plans",
+   "Records of planning meetings and shore approvals",
+   "Posted instructions in the workshop or designated space",
+   "Shield or curtain for the designated space"
+  ],
+  "traps": [
+   "No hot work procedure or not matching ISGOTT Chapter 9",
+   "Hot work outside the designated space without a permit",
+   "Permit without risk assessment, work plan or planning meeting",
+   "Shore approval missing where the procedure needs it",
+   "Master or responsible officer approval missing",
+   "No instructions posted in the designated space",
+   "Instructions do not say when, who, shield or Master permission",
+   "Engine rating cannot explain the instructions"
+  ],
+  "say": "All hot work outside our designated space is under a permit, with a risk assessment, work plan and planning meeting. In the workshop we follow the posted instructions, use a shield and get the Master's or responsible officer's permission first. Hot work stops during bunkering, cargo operations and tank cleaning.",
+  "practice": [
+   {
+    "q": "What counts as hot work?",
+    "a": [
+     "Welding, cutting, burning, gouging, heating, soldering",
+     "Power tools, non-intrinsically safe electronics and combustion engines in a hazardous area",
+     "If the SMS has no guidance, work is prohibited"
+    ]
+   },
+   {
+    "q": "When is hot work not allowed in the designated space?",
+    "a": [
+     "During bunkering and cargo operations",
+     "During crude oil washing and tank cleaning",
+     "Whenever cargo vapours are released"
+    ]
+   },
+   {
+    "q": "What approval is needed for hot work in a hazardous area?",
+    "a": [
+     "Hot work plan and risk assessment",
+     "Planning meeting",
+     "Shore management approval and a permit approved onboard"
+    ]
+   }
+  ],
+  "tip": "Remember the fire alarm: cover or isolate the smoke detector only as the procedure says, and restore it after.",
+  "refs": [
+   "ISGOTT 6 Ch 9",
+   "MSC/Circ.1084",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.5.3",
+  "title": "Working at height",
+  "plain": "Do crew know the working at height procedure, and is a permit or risk assessment used every time?",
+  "why": "Falls from height are a leading cause of serious injury and death at sea.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure with the height that triggers controls",
+   "Recent permits or risk assessments match the real job and are approved correctly",
+   "Inventory and periodic checks of harnesses and equipment",
+   "Sample of PPE and equipment condition",
+   "Rating questioned on the procedure and permit process"
+  ],
+  "ready": [
+   "Working at height procedure",
+   "Permits or risk assessments for the last two months",
+   "Inventory and periodic inspection records of PPE and equipment",
+   "Harnesses, lifelines, fall arresters, bosun's chairs, stages in good condition",
+   "Checks before each use, as the procedure requires"
+  ],
+  "traps": [
+   "No procedure that covers working at height",
+   "No permit or risk assessment where one was needed",
+   "Permit does not fit the actual job or ship",
+   "Approved at the wrong level",
+   "No inventory or periodic check records",
+   "PPE or equipment in poor condition",
+   "Officer or rating unfamiliar with the procedure"
+  ],
+  "say": "Before any work at height, we do a risk assessment or permit as our SMS requires, approved at the right level. Harnesses and equipment are checked before every use and periodically, and the records are here. Everyone doing the job knows the controls.",
+  "practice": [
+   {
+    "q": "From what height do your controls apply?",
+    "a": [
+     "State the height in our SMS",
+     "Documented risk control before work",
+     "Check any exclusions in the procedure"
+    ]
+   },
+   {
+    "q": "What do you check before using a harness or bosun's chair?",
+    "a": [
+     "Condition, webbing, stitching, hooks",
+     "Inspect before each use",
+     "Periodic inspection recorded"
+    ]
+   },
+   {
+    "q": "Who approves the permit?",
+    "a": [
+     "The level named in our procedure",
+     "Supervision during the job",
+     "Any additional permits needed"
+    ]
+   }
+  ],
+  "tip": "Make sure the permit describes the job being done today, not a copied one from last month.",
+  "refs": [
+   "MCA Code of Safe Working Practices Ch 17",
+   "MCA Code Ch 14",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.5.4",
+  "title": "Working over the side",
+  "plain": "Do crew know the over-the-side work procedure, and are standard procedures, permits or risk assessments used every time?",
+  "why": "A person who falls overboard may not be seen or recovered, so work over the side needs strict control.",
+  "who": {
+   "lead": [
+    "co",
+    "master"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure including the ban on working over the side underway",
+   "Standard procedures for ladder and gangway rigging",
+   "Recent permits or risk assessments match the real work",
+   "Inventory and checks of PPE and equipment",
+   "Deck rating asked about rigging ladders underway and supervision"
+  ],
+  "ready": [
+   "Working over the side procedure",
+   "Standard work procedures for combination ladder, accommodation ladder and gangway",
+   "Permits or risk assessments from the last six months",
+   "Records of periodic checks of PPE and equipment",
+   "Lifejackets, lifelines, harnesses and fall arresters in good order"
+  ],
+  "traps": [
+   "No procedure that covers working over the side",
+   "No permit or risk assessment and no standard procedure",
+   "Permit does not match the real work",
+   "Approval at the wrong level",
+   "No inventory or checks of equipment",
+   "Equipment in poor condition",
+   "Rating cannot explain supervision on deck and bridge while underway"
+  ],
+  "say": "We do not work over the side while underway except in defined cases such as rigging a ladder or boat exercises. Those have a standard procedure or a permit, lifejackets, lines and supervision on deck and bridge. Boats are ready, and equipment is checked and recorded.",
+  "practice": [
+   {
+    "q": "When can work over the side be done underway?",
+    "a": [
+     "Only in defined cases, such as rigging ladders or boat drills",
+     "Under a standard procedure or permit",
+     "Rescue boat ready and watcher in place"
+    ]
+   },
+   {
+    "q": "What protection do you wear when rigging a pilot ladder?",
+    "a": [
+     "Lifejacket",
+     "Safety line or fall prevention device and harness",
+     "Supervision on deck and bridge informed"
+    ]
+   },
+   {
+    "q": "What does the bridge need to do while ladder work is going on underway?",
+    "a": [
+     "Keep supervision as per our procedure",
+     "Know engine status and speed limit",
+     "Keep in contact with deck"
+    ]
+   }
+  ],
+  "tip": "Brief deck ratings on the standard procedure for ladder rigging. Interviewers often ask about it.",
+  "refs": [
+   "MCA Code of Safe Working Practices Ch 10",
+   "MCA Code Ch 17",
+   "MCA Code Ch 14"
+  ]
+ },
+ {
+  "id": "5.5.5",
+  "title": "Working on electrical equipment and systems",
+  "plain": "Do officers know the electrical work procedure, and are permits or risk assessments used every time electrical work is done?",
+  "why": "Electric shock can kill at low voltage on board, and a wrong isolation can kill or ignite gas.",
+  "who": {
+   "lead": [
+    "eto",
+    "2e"
+   ],
+   "also": [
+    "ce",
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for electrical work",
+   "At least two recent permits or risk assessments match the job",
+   "Notices on treatment of electric shock in spaces with switchgear",
+   "Planned maintenance system and daily planning records",
+   "Electrician or engineer asked about high voltage, live work and hazardous areas"
+  ],
+  "ready": [
+   "Electrical work procedure with general and high voltage definitions",
+   "Permits or risk assessments from the last two months",
+   "Electric shock treatment notices posted",
+   "Insulating mats, gloves and PPE checked",
+   "Supervision records where the procedure requires them"
+  ],
+  "traps": [
+   "No procedure covering electrical work",
+   "No permit or risk assessment required or completed",
+   "Permit does not fit the job or is approved at the wrong level",
+   "No documented supervision where the procedure needs it",
+   "Electric shock notices missing",
+   "Electrician unfamiliar with high voltage, live work, test bench or hazardous area controls"
+  ],
+  "say": "Electrical work follows our SMS, with a permit or risk assessment and isolation before work starts. Extra controls apply to high voltage, live work, test benches and hazardous areas. Electric shock treatment notices are posted in switchgear spaces.",
+  "practice": [
+   {
+    "q": "How do you make equipment safe before you work on it?",
+    "a": [
+     "Remove fuses or open breakers, lock open if possible",
+     "Make sure circuits are dead",
+     "Permit and competent person in charge"
+    ]
+   },
+   {
+    "q": "What extra controls apply to high voltage work?",
+    "a": [
+     "Additional documented precautions",
+     "Authorised competent person",
+     "Approval at the level set in the procedure"
+    ]
+   },
+   {
+    "q": "What PPE do you use?",
+    "a": [
+     "Insulating mats and gloves",
+     "Eye protection, no metal fittings or jewellery",
+     "Check equipment before each use"
+    ]
+   }
+  ],
+  "tip": "If no electrical permit was done in the last two months, be ready to say when the last one was.",
+  "refs": [
+   "MCA Code of Safe Working Practices Ch 20",
+   "MCA Code Ch 14",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.5.6",
+  "title": "Control of hazardous energy",
+  "plain": "Do officers know how hazardous energy is identified and isolated before work, and is it documented every time?",
+  "why": "Stored pressure, power or stuck valves can injure people or spill pollution if not isolated and checked first.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company control of hazardous energy procedure",
+   "At least two permits or risk assessments showing isolation points",
+   "Planned maintenance tasks that need isolation have the paperwork",
+   "LO/TO equipment fitted has a matching permit and inventory exists",
+   "Officer explains how zero energy is verified"
+  ],
+  "ready": [
+   "Hazardous energy and LO/TO procedure",
+   "Permits or risk assessments from the last three months",
+   "Daily work planning records and logbooks",
+   "Inventory of LO/TO equipment",
+   "Training records for people doing isolations"
+  ],
+  "traps": [
+   "No procedure and no LO/TO equipment",
+   "No inventory of LO/TO equipment",
+   "Work done with no documented energy control",
+   "Locks or tags on equipment but no permit or reason",
+   "Permit lists isolation points that were not locked or tagged",
+   "Machinery opened with no isolation at all",
+   "Officer cannot explain zero energy verification"
+  ],
+  "say": "Before work, we identify energy sources such as pressure, electrical or stored energy, and isolate them with lock-out and tag-out. We verify a zero energy state independently and record it on the permit. After work we reinstate and test.",
+  "practice": [
+   {
+    "q": "What counts as hazardous energy?",
+    "a": [
+     "Pressure in pipes or air reservoirs, electrical stored energy",
+     "Hydrostatic pressure on sea valves, gravity, heat and motion",
+     "Anything that could harm people"
+    ]
+   },
+   {
+    "q": "How do you know the system is safe to open?",
+    "a": [
+     "Isolate and lock or tag",
+     "Verify zero energy independently",
+     "If not possible, stop and re-assess"
+    ]
+   },
+   {
+    "q": "Who can do and check the isolation?",
+    "a": [
+     "People named in our procedure",
+     "Independent verification",
+     "Approved on the permit by the authorised person"
+    ]
+   }
+  ],
+  "tip": "Match every lock or tag on board to a permit. A tag with no paperwork is a finding.",
+  "refs": [
+   "ISGOTT 6 Ch 4",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.6.1",
+  "title": "Portable and personal gas measurement instruments",
+  "plain": "Do officers know the gas meters, and are there enough, working, tested and calibrated on time?",
+  "why": "Gas readings decide whether people can safely enter a space or handle cargo, so the meters must be right.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, testing and calibration",
+   "Instruments, spare parts, test gases and tubes or chips",
+   "Sampling hoses long enough for the deepest tank",
+   "Inventory, test and calibration records, disposable monitor start dates",
+   "Officer demonstrates the pre-use accuracy test"
+  ],
+  "ready": [
+   "Procedure for testing, calibration and maintenance",
+   "Inventory of instruments, spares, test gases and consumables",
+   "Manuals in the working language of the ship",
+   "Test and calibration records",
+   "Commissioning dates for disposable personal monitors"
+  ],
+  "traps": [
+   "Fewer than two instruments measuring oxygen, LFL, H2S and CO",
+   "No means to measure toxic gases of the cargoes carried",
+   "Not enough or expired tubes or chips",
+   "Sampling hose too short for the deepest tank",
+   "No oxygen and hydrocarbon meter for inert atmosphere on IG or nitrogen ships",
+   "Wrong or insufficient test gas, or wrong gas used",
+   "Calibration and testing records missing",
+   "Disposable monitors used past expiry or start date not recorded",
+   "Manuals not in working language"
+  ],
+  "say": "We carry at least two instruments for oxygen, LFL, H2S and CO plus means for cargo toxic gases and inert gas. They are tested and calibrated per the SMS and manufacturer, with records. I can show the inventory and do the pre-use accuracy test.",
+  "practice": [
+   {
+    "q": "How do you test the gas meter before use?",
+    "a": [
+     "Follow manufacturer's pre-use check",
+     "Use the correct test gas",
+     "Record the result"
+    ]
+   },
+   {
+    "q": "How often are the instruments tested?",
+    "a": [
+     "Self-test before daily use",
+     "Tested with test gas at least monthly or after any fault",
+     "Calibration as manufacturer states"
+    ]
+   },
+   {
+    "q": "What are the limits of your instruments?",
+    "a": [
+     "Sensor type and what it can measure",
+     "Whether usable in inert atmosphere or above atmospheric pressure",
+     "What can poison the sensor"
+    ]
+   }
+  ],
+  "tip": "Defective meters marked out of service and reported are not a finding if you still have enough working ones. Mark them clearly.",
+  "refs": [
+   "ISGOTT 6",
+   "SOLAS XI-1/7",
+   "MSC.1/Circ.1477",
+   "MSC.1/Circ.1456"
+  ]
+ },
+ {
+  "id": "5.6.2",
+  "title": "Testing double-hull and double bottom spaces for flammable gas",
+  "plain": "Do deck officers know how double-hull and double bottom spaces are tested for flammable gas, with records to show it?",
+  "why": "Gas in ballast or void spaces next to cargo tanks is an early sign of a leak or structural crack.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for method and frequency of monitoring",
+   "Records of gas measurements in double hull, double bottom and void spaces",
+   "Fixed system sensors isolated only in line with ballast level",
+   "Manual readings where a sensor was isolated",
+   "Alarm set not above 30 percent LFL and calibration records"
+  ],
+  "ready": [
+   "Procedure describing monitoring, recording and action if gas is found",
+   "Portable meter readings log",
+   "Records of fixed system operation and sensor isolation times",
+   "Sensor calibration records",
+   "Incident reports for any gas detected"
+  ],
+  "traps": [
+   "No procedure with method and frequency",
+   "Deck officer does not know the procedure",
+   "No or incomplete gas measurement records",
+   "Fixed sensors isolated with no manual readings",
+   "Fixed system defective, uncalibrated or alarm set wrongly",
+   "No working portable flammable gas meter",
+   "Flammable gas detected from a structural defect within the last 12 months"
+  ],
+  "say": "Our procedure sets how often we test the double-hull, double bottom and void spaces and how we record the results. Where the fixed system sensors are isolated for ballast, we take manual readings. I can show the logs, alarm settings and calibration records.",
+  "practice": [
+   {
+    "q": "How do you monitor these spaces?",
+    "a": [
+     "Fixed hydrocarbon system where fitted",
+     "Portable meter readings where required",
+     "Record results as per procedure"
+    ]
+   },
+   {
+    "q": "What if the fixed system is out of order?",
+    "a": [
+     "Use portable instruments",
+     "Record measurements",
+     "Report the defect"
+    ]
+   },
+   {
+    "q": "What do you do if gas is found?",
+    "a": [
+     "Follow the company procedure",
+     "Investigate for leak or structural defect",
+     "Record and report"
+    ]
+   }
+  ],
+  "tip": "Write the sensor isolation and reconnection times in the log each time ballast is moved.",
+  "refs": [
+   "SOLAS II-2/4",
+   "FSS Code Ch 16",
+   "ISGOTT 6"
+  ]
+ },
+ {
+  "id": "5.6.3",
+  "title": "Fixed gas detection systems required by the IGC Code",
+  "plain": "Do officers know the fixed gas detection system, and is it working, maintained and calibrated with correct alarm settings?",
+  "why": "On gas carriers early detection of a leak prevents vapour cloud fires and asphyxiation.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation and maintenance",
+   "Central control station: all sensors monitored, no faults, normal readings",
+   "Alarm set points match the IGC Code, company procedure and the cargo carried",
+   "Calibration data, calibration gases and equipment",
+   "Portable detectors listed for IGC Code and toxic gas records if used"
+  ],
+  "ready": [
+   "Procedure with calibration, alarm test and shutdown test frequencies",
+   "List of sensors with alarm and shutdown set points",
+   "Manufacturer's calibration instructions",
+   "Calibration gas inventory in date and correct type",
+   "Maintenance plan records and toxic gas monitoring records"
+  ],
+  "traps": [
+   "No procedure for the fixed system",
+   "Not all sensors monitored, system fault or defective sensor showing",
+   "Set points not as required or not changed for the cargo carried",
+   "Sensors not calibrated as manufacturer and company require",
+   "Wrong or expired calibration gas, or missing calibration equipment",
+   "Sealed cabinet for gas detection equipment open or not sealable",
+   "Portable detectors required by the Code missing",
+   "Maintenance plan missing the gas system or calibrations"
+  ],
+  "say": "Our fixed gas detection monitors all sensors with no faults showing. Alarm and shutdown points follow the IGC Code and are set for the cargo on board. I can show calibration records and in-date calibration gas.",
+  "practice": [
+   {
+    "q": "What alarm level do sensors in inert spaces use?",
+    "a": [
+     "Set to the equivalent of 30 percent LFL in air",
+     "Adjusted for the cargo carried",
+     "Confirmed against the company procedure"
+    ]
+   },
+   {
+    "q": "How do you calibrate the sensors?",
+    "a": [
+     "Follow manufacturer's instructions and company frequency",
+     "Use correct in-date gas and equipment",
+     "Record results and confirm set points"
+    ]
+   },
+   {
+    "q": "Where do alarms sound?",
+    "a": [
+     "Navigation bridge",
+     "Relevant control stations",
+     "At the gas detector readout"
+    ]
+   }
+  ],
+  "tip": "Change set points when you change cargo grade and write it in the log. Inspectors check this.",
+  "refs": [
+   "IGC Code 13.6",
+   "SIGTTO Liquefied Gas Handling Principles",
+   "ISM Code 6"
+  ]
+ },
+ {
+  "id": "5.6.4",
+  "title": "Fixed gas detection system required by the IGF Code",
+  "plain": "Do officers know the fixed gas detection for gas-fuelled systems, and is it working, calibrated and maintained?",
+  "why": "A leak from the gas or low-flashpoint fuel system must be caught fast to protect the ship and crew.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "ce",
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation and testing",
+   "Central control station fully working with no faults",
+   "Alarm set point for a selected sensor matches the IGF Code",
+   "Calibration and shutdown test records at the set frequency",
+   "Calibration gas meets the manufacturer's specification"
+  ],
+  "ready": [
+   "Procedure defining calibration, set point checks, alarm tests and shutdown tests",
+   "Manufacturer's instruction manual",
+   "Maintenance plan with frequencies",
+   "Calibration and test records",
+   "In-date calibration gas"
+  ],
+  "traps": [
+   "No procedure for the system",
+   "Maintenance plan without the system or without frequencies",
+   "Officer does not know calibration or shutdown test tasks",
+   "Sensors not calibrated per the plan",
+   "Calibration gas out of date or not to specification",
+   "Bridge or control room alarms not tested",
+   "Alarm or shutdown set points not per the IGF Code",
+   "Sensors out of service, inhibited or disconnected"
+  ],
+  "say": "Our system is covered by a company procedure and the maintenance plan with calibration and shutdown test frequencies. Alarms are checked on the bridge or control station and calibration gas is in date. I can show records and the set points.",
+  "practice": [
+   {
+    "q": "What are the alarm and shutdown set points?",
+    "a": [
+     "Alarm at 20 percent of lower explosion limit",
+     "Safety system at 40 percent at two detectors",
+     "Ducts around gas pipes may use 30 and 60 percent"
+    ]
+   },
+   {
+    "q": "How often is calibration and shutdown tested?",
+    "a": [
+     "State the frequency from the maintenance plan",
+     "Records show it was done",
+     "Alarms also tested at set intervals"
+    ]
+   },
+   {
+    "q": "What if a sensor is faulty?",
+    "a": [
+     "Report and repair",
+     "Follow the company procedure",
+     "Do not leave it inhibited without control"
+    ]
+   }
+  ],
+  "tip": "Check no sensor is left inhibited after a test. It is an easy negative observation.",
+  "refs": [
+   "IGF Code 15.8",
+   "A.1140(31)",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "5.6.5",
+  "title": "Cargo pump room fixed gas detection system",
+  "plain": "Do officers know the pumproom gas detection, and is it working with calibrated sensors and correctly set alarms?",
+  "why": "Pumproom leaks build up fast, so the alarms must work and be set low enough to give early warning.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation and maintenance",
+   "Control station fully working with no faults",
+   "Hydrocarbon alarm set point not higher than 10 percent LFL",
+   "Calibration records and span gas suitability",
+   "Alarms tested in pumproom, cargo control room and bridge"
+  ],
+  "ready": [
+   "Procedure with actions for alarm, low oxygen alarm and system failure",
+   "Manufacturer's manual",
+   "Maintenance and calibration records, monthly checks and after faults",
+   "In-date span gas",
+   "Manual atmosphere readings logged if the system was out of service"
+  ],
+  "traps": [
+   "No procedure for the system",
+   "Any hydrocarbon alarm above 10 percent LFL",
+   "Sensors not calibrated at the company frequency",
+   "Alarms in the cargo control room, pumproom or bridge not tested",
+   "Span gas expired or wrong",
+   "Sensors out of service, inhibited or disconnected",
+   "No manual readings while the system was out of service"
+  ],
+  "say": "Our pumproom system alarms no higher than 10 percent LFL and is calibrated and tested at the interval in our procedure. Alarms sound in the pumproom, cargo control room and bridge. If it fails we take manual readings and record them.",
+  "practice": [
+   {
+    "q": "What do you do when the pumproom gas alarm sounds?",
+    "a": [
+     "Follow the company procedure",
+     "Vacate the space and stop cargo pumps as set out",
+     "Investigate only with proper precautions"
+    ]
+   },
+   {
+    "q": "What maintenance is done and when?",
+    "a": [
+     "Monthly and after any fault",
+     "Visual inspection, alarm test and span gas check",
+     "Calibration at the company frequency"
+    ]
+   },
+   {
+    "q": "Do you check alarm levels when changing cargo?",
+    "a": [
+     "Verify set points suit the cargo",
+     "Record the check",
+     "Report any problem"
+    ]
+   }
+  ],
+  "tip": "Exhaust duct sensors do not count for this question, so concentrate on the pumproom sensors.",
+  "refs": [
+   "SOLAS II-2/4",
+   "ISGOTT 6",
+   "MSC.1/Circ.1321",
+   "MSC/Circ.1120"
+  ]
+ },
+ {
+  "id": "5.6.6",
+  "title": "Oxygen sensors in inert gas system spaces",
+  "plain": "Do officers know the oxygen sensors and alarms in the inert gas plant space, and are they working, calibrated and set right?",
+  "why": "Inert gas, CO2 or nitrogen can quietly remove oxygen, so the plant room must warn people before they collapse.",
+  "who": {
+   "lead": [
+    "2e",
+    "eto"
+   ],
+   "also": [
+    "ce",
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for the sensors and alarms",
+   "Control panel working with no faults",
+   "Alarm setting matches the company procedure",
+   "Calibration with proper span gas at the company frequency",
+   "Alarms tested at the company frequency"
+  ],
+  "ready": [
+   "Procedure with calibration interval, alarm values and actions on failure or low oxygen",
+   "Manufacturer's manual",
+   "Maintenance and calibration records",
+   "In-date span gas",
+   "Manual readings record for entry if sensors were out of service"
+  ],
+  "traps": [
+   "No procedure for the sensors and alarms",
+   "Sensors not calibrated at the company frequency",
+   "Audible or visual alarms not tested as required",
+   "Calibration gas out of date or unsuitable",
+   "Sensors out of service, inhibited or disconnected",
+   "No manual gas readings before and during entry when sensors were out of service"
+  ],
+  "say": "Our oxygen sensors in the inert gas plant space and their alarms are calibrated and tested at the company interval. I know the alarm values and what to do on a low oxygen alarm. If a sensor fails, we take manual readings before and during entry.",
+  "practice": [
+   {
+    "q": "At what oxygen level does the alarm activate?",
+    "a": [
+     "Sensors alarm if oxygen falls below 19 percent",
+     "Visible and audible inside and outside the space",
+     "Check our procedure value"
+    ]
+   },
+   {
+    "q": "What do you do on a low oxygen alarm?",
+    "a": [
+     "Leave the space and keep others out",
+     "Report and follow the procedure",
+     "Investigate and ventilate with precautions"
+    ]
+   },
+   {
+    "q": "What if the sensors fail?",
+    "a": [
+     "Take manual readings before and during entry",
+     "Record them",
+     "Repair the sensors"
+    ]
+   }
+  ],
+  "tip": "This applies to ships built from 2016 or older ships that fitted the sensors. Know which applies to yours.",
+  "refs": [
+   "FSS Code Ch 15",
+   "SOLAS II-2/4",
+   "ISGOTT 6"
+  ]
+ },
+ {
+  "id": "5.7.1",
+  "title": "Incident investigation reports for defined incidents",
+  "plain": "Were all incidents reported and investigated, with a report or lessons learned bulletin for each serious one?",
+  "why": "A ship only becomes safer if every incident is investigated and the lessons are shared with the crew.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "ce",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Incidents declared in the HVPQ and PIQ",
+   "A report or lessons learned bulletin onboard for each completed investigation",
+   "The onboard system for tracking incidents and near-misses",
+   "That no listed incident in the last 12 months is missing from the declaration",
+   "Inspector does not judge the quality of the report"
+  ],
+  "ready": [
+   "Company procedure for prompt reporting and investigation",
+   "Incident and near-miss tracking system",
+   "Investigation reports or lessons learned bulletins for each incident",
+   "Dates and status for ongoing investigations",
+   "List of incidents for the last 18 months"
+  ],
+  "traps": [
+   "No report or bulletin for an incident declared as completed",
+   "An incident in the last 12 months not declared in the HVPQ or PIQ",
+   "Not recognising an event as a defined incident",
+   "Investigation shown as ongoing without an expected date"
+  ],
+  "say": "All incidents and near-misses are reported and tracked under our SMS. For each defined incident we hold an investigation report or lessons learned bulletin. I can show the list and the documents.",
+  "practice": [
+   {
+    "q": "What events are counted as incidents?",
+    "a": [
+     "Pollution, grounding, collision or allision",
+     "Blackout, loss of propulsion or steering",
+     "Fire, flooding, spill over 1 cubic metre, lost time injury"
+    ]
+   },
+   {
+    "q": "Where is the report for this incident?",
+    "a": [
+     "Show the report or bulletin",
+     "Explain status if ongoing",
+     "Show it is in the tracking system"
+    ]
+   },
+   {
+    "q": "How do you tell the crew the outcome?",
+    "a": [
+     "Safety meetings and notice boards",
+     "Lessons learned bulletins",
+     "Reading and signing by crew"
+    ]
+   }
+  ],
+  "tip": "Include touching bottom, a breakaway from the berth and accommodation ladder hoisting wire failure. They are on the list.",
+  "refs": [
+   "ISM Code 9",
+   "OCIMF/INTERTANKO Sharing Lessons Learned"
+  ]
+ },
+ {
+  "id": "5.7.2",
+  "title": "Incident and near-miss reporting procedure",
+  "plain": "Do crew know how to report incidents and near-misses, and can you show reports were investigated and closed out?",
+  "why": "Near-misses show what could hurt someone next time, but only if everyone reports and follow-up happens.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for prompt reporting by all ranks",
+   "Two reports from the tracking system, in the right format",
+   "Reported to shore in the time limit and acknowledged",
+   "Investigated at the right level with corrective actions done",
+   "A rating asked how to report a near-miss"
+  ],
+  "ready": [
+   "Reporting and investigation procedure",
+   "Incident and near-miss tracking system",
+   "Reports from the last three months",
+   "Shore acknowledgements and investigation reports",
+   "Evidence outcomes were shared with the crew"
+  ],
+  "traps": [
+   "No procedure requiring reports from all ranks",
+   "Officer cannot explain tracking, reporting, investigating or closing out",
+   "Reports late or not acknowledged by shore",
+   "Corrective actions not carried out or closed out",
+   "No tracking system",
+   "Rating does not know how to report a near-miss",
+   "Outcome not shared with the crew"
+  ],
+  "say": "Anyone on board can report a near-miss under our SMS. Reports go to shore within the set time, are investigated at the right level and tracked until actions are closed. We share the outcome with the crew.",
+  "practice": [
+   {
+    "q": "What is a near-miss?",
+    "a": [
+     "An event that could have caused loss but did not by chance",
+     "Includes unsafe conditions found after the danger passed",
+     "Report it even if nothing happened"
+    ]
+   },
+   {
+    "q": "How do you report one?",
+    "a": [
+     "Fill the form in our system",
+     "Tell the officer or master",
+     "Goes to shore in the set time frame"
+    ]
+   },
+   {
+    "q": "What happens after the report?",
+    "a": [
+     "Investigation and corrective action",
+     "Tracked to close out",
+     "Outcome shared with the crew"
+    ]
+   }
+  ],
+  "tip": "If there were none in three months, be ready to state the date of the last near-miss report.",
+  "refs": [
+   "ISM Code 9",
+   "MSC-MEPC.7/Circ.7",
+   "MSC-MEPC.7/Circ.8",
+   "OCIMF/INTERTANKO Sharing Lessons Learned"
+  ]
+ },
+ {
+  "id": "5.7.3",
+  "title": "Shipboard safety meetings",
+  "plain": "Do crew know how safety meetings are held and recorded, and did shore management answer the concerns raised?",
+  "why": "Safety meetings give crew a voice, and shore response shows that problems get fixed.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for holding and recording meetings",
+   "Minutes for the last six months, one in detail",
+   "Roughly monthly meetings and an extra meeting after a serious incident or shore visit",
+   "Minutes sent to shore and shore response addressing issues",
+   "A rating asked if they attended and how they raise concerns"
+  ],
+  "ready": [
+   "Safety meeting procedure",
+   "Minutes in the company format with attendance",
+   "Proof minutes were submitted to shore",
+   "Shore responses and acknowledgements",
+   "Safety representative arrangement for those who cannot attend"
+  ],
+  "traps": [
+   "No procedure for meetings, minutes and shore review",
+   "Meetings not held about monthly or per the procedure",
+   "No extra meeting after a serious incident or shore visit",
+   "Minutes not in the right format or not sent to shore",
+   "Shore did not acknowledge or act on requests",
+   "Meeting held on the bridge at sea or at anchor, or in the CCR during cargo or tank cleaning",
+   "Rating does not know how to contribute"
+  ],
+  "say": "We hold safety meetings about monthly and after any serious incident. Minutes go to the office, which acknowledges them and responds to points needing help. Anyone who cannot attend can pass concerns through the safety representative.",
+  "practice": [
+   {
+    "q": "How often do you hold safety meetings?",
+    "a": [
+     "At the interval in our SMS, about monthly",
+     "Extra meeting after a serious incident",
+     "Also during shore management visits where practical"
+    ]
+   },
+   {
+    "q": "How can you raise a concern if you miss the meeting?",
+    "a": [
+     "Tell the safety representative",
+     "Concern goes to the safety committee",
+     "Appears in the minutes"
+    ]
+   },
+   {
+    "q": "How do you know shore saw the minutes?",
+    "a": [
+     "Submission record",
+     "Shore acknowledgement",
+     "Reply to any requests"
+    ]
+   }
+  ],
+  "tip": "Hold meetings in the mess or a meeting room. Meetings on the bridge at sea or in the CCR during cargo are a finding. Do not use them for training.",
+  "refs": [
+   "ISM Code 9",
+   "MCA Code of Safe Working Practices"
+  ]
+ },
+ {
+  "id": "5.7.4",
+  "title": "Work planning procedure",
+  "plain": "Do crew know the work planning procedure, and are planning meetings held and recorded as required?",
+  "why": "Planning the work together avoids clashes, missed permits and unsafe surprises.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for documented work planning meetings",
+   "Several meeting records from the last month",
+   "Records follow the company format, approved onboard, and match what the ship did",
+   "A task needing a permit or risk assessment has the document",
+   "A rating asked where to find today's plan"
+  ],
+  "ready": [
+   "Work planning procedure",
+   "Daily plan records for the previous month",
+   "Permits, risk assessments and detailed work plans referenced in the plan",
+   "Evidence of shore approval where needed",
+   "Plan available in the place ratings know"
+  ],
+  "traps": [
+   "No procedure for documented work planning",
+   "Meetings not held at the required frequency",
+   "Records not approved or not in the correct format",
+   "Not enough detail to understand the job",
+   "Planned tasks needed permits or risk assessments but none available",
+   "Plan does not match the real work of the ship",
+   "Shore approval needed but not shown",
+   "Rating does not know where the plan is"
+  ],
+  "say": "We hold a work planning meeting as per our SMS, usually daily, with those doing the work. The record shows tasks, permits, risk assessments, PPE, supervisors and any shore approval, and it is approved onboard. Any new task is added and communicated before work starts.",
+  "practice": [
+   {
+    "q": "What is covered in the work planning meeting?",
+    "a": [
+     "Scope of work and conflicts between departments",
+     "People, tools, PPE and rest hours",
+     "Permits, risk assessments and isolations"
+    ]
+   },
+   {
+    "q": "What if an unplanned job comes up?",
+    "a": [
+     "Review and update the plan record",
+     "Approve at the right level",
+     "Tell those who will do the job"
+    ]
+   },
+   {
+    "q": "Where do you find today's plan?",
+    "a": [
+     "Say the exact place",
+     "Available before work starts",
+     "Matches the actual work"
+    ]
+   }
+  ],
+  "tip": "Make sure each task on the plan says whether a permit is needed and then keep that permit with the plan.",
+  "refs": [
+   "ISGOTT 6 Ch 4",
+   "ISM Code 5"
+  ]
+ },
+ {
+  "id": "5.7.5",
+  "title": "Stop Work Authority",
+  "plain": "Does everyone know they can stop unsafe work, and how to do it, without being blamed?",
+  "why": "A single person speaking up can stop an accident before it happens.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company Stop Work Authority policy and procedure",
+   "Three to five crew members questioned at random",
+   "Stop Work Authority mentioned in toolbox talks, risk assessments, planning and safety meetings",
+   "Inspector will not test crew by committing unsafe acts",
+   "If a crew member stops work during the inspection, work stops"
+  ],
+  "ready": [
+   "Company Stop Work Authority policy and procedure",
+   "Toolbox talk and planning meeting records that mention it",
+   "Safety meeting minutes covering it",
+   "Shared understanding of how to give the stop instruction clearly",
+   "Knowledge of the five steps"
+  ],
+  "traps": [
+   "No Stop Work Authority policy or procedure",
+   "No evidence it is included in planning, risk assessments or meetings",
+   "More than one crew member does not know the policy"
+  ],
+  "say": "Anyone on board, including contractors, has the right and duty to stop unsafe work. We stop the activity, tell the person in charge, discuss and fix the issue, then restart and share what we learned. No one is blamed for using it.",
+  "practice": [
+   {
+    "q": "What would you do if you saw unsafe work?",
+    "a": [
+     "Stop the activity",
+     "Tell the person in charge",
+     "Discuss and correct before restarting"
+    ]
+   },
+   {
+    "q": "Could you be punished for stopping a job?",
+    "a": [
+     "No, never disciplined",
+     "Even if the danger turns out not to be real",
+     "Company supports it at all levels"
+    ]
+   },
+   {
+    "q": "How do you give the stop instruction?",
+    "a": [
+     "Clear and direct so it is not misunderstood",
+     "Everyone stops and waits",
+     "Share lessons afterwards"
+    ]
+   }
+  ],
+  "tip": "Mention Stop Work Authority at every toolbox talk. Ratings are asked in the inspection, and more than one wrong answer is a finding.",
+  "refs": [
+   "ISGOTT 6 Ch 4",
+   "ISM Code 3"
+  ]
+ }
+]

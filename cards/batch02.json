@@ -1,0 +1,2438 @@
+[
+ {
+  "id": "3.5.3",
+  "title": "ECDIS familiarisation",
+  "plain": "Have the Master and deck officers been familiarised with our ECDIS, and are the records on board?",
+  "why": "An officer who cannot use the ship's own ECDIS properly can miss a grounding danger on watch.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure for ECDIS familiarisation before taking a watch",
+   "Familiarisation checklists signed for the Master and each deck officer",
+   "Officer asked to demonstrate two items from the checklist",
+   "Whether anyone kept a watch before being familiarised"
+  ],
+  "ready": [
+   "Company ECDIS familiarisation procedure",
+   "Completed checklists for every deck officer, including the back-up unit",
+   "Type-specific training certificates, if your company process needs them",
+   "Nautical Institute checklist or equivalent company or maker checklist"
+  ],
+  "traps": [
+   "No procedure covering time scale, method, place, trainer, competency proof and records",
+   "Checklist missing or incomplete for an officer",
+   "Officer stood a watch before familiarisation was done",
+   "Officer cannot show checklist items on the ECDIS",
+   "Checklist much thinner than the Nautical Institute annex",
+   "Just watching another officer used as 'familiarisation'"
+  ],
+  "say": "Every deck officer completes a structured ECDIS familiarisation on our own units before taking a watch, as set out in our SMS. The checklist is signed off by an authorised trainer and kept on board. I can show you any item on the list on the ECDIS now.",
+  "practice": [
+   {
+    "q": "How were you familiarised with this ECDIS when you joined?",
+    "a": [
+     "Structured checklist, not just observing",
+     "Done before keeping a watch",
+     "Signed off and recorded"
+    ]
+   },
+   {
+    "q": "Show me how you would change the safety contour on this unit.",
+    "a": [
+     "Know the menu path",
+     "Value as set by company procedure and the passage plan",
+     "Check the change is applied on the screen"
+    ]
+   }
+  ],
+  "tip": "Keep your own signed checklist copy handy and practise two or three items on the ECDIS before the inspector arrives.",
+  "refs": [
+   "ISM Code",
+   "STCW.7/Circ.24",
+   "Nautical Institute ECDIS familiarisation",
+   "OCIMF ECDIS guide 1st ed"
+  ]
+ },
+ {
+  "id": "4.1.1",
+  "title": "ECDIS set up and operation",
+  "plain": "Do officers know the company ECDIS procedures, and do records show ECDIS was used correctly through each voyage?",
+  "why": "Wrong ECDIS settings or ignored alarms are a common cause of groundings.",
+  "who": {
+   "lead": [
+    "2o",
+    "master"
+   ],
+   "also": [
+    "3o",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company ECDIS procedure and checklists, including display and alarm settings",
+   "Safety contour and safety depth set for the ship's draught; safety frame set for speed and manoeuvring",
+   "Alarm history for alarms that proper set up should have avoided",
+   "Second ECDIS set up as the back-up in the same way"
+  ],
+  "ready": [
+   "ECDIS procedure, checklists and quick reference guides",
+   "Records of software updates done as the maker instructs",
+   "Records of periodic maker-required tests",
+   "Records showing settings checked regularly during each voyage",
+   "Defect entry for any faulty unit"
+  ],
+  "traps": [
+   "No procedure, or unclear on display, alarms, safety contours, safety frame or route checking",
+   "Officer cannot explain or operate the ECDIS fitted",
+   "Any ECDIS unit defective",
+   "Second ECDIS not set up as back-up",
+   "Settings wrongly entered at some point in the voyage",
+   "Passage plan does not mention needed ECDIS setting changes"
+  ],
+  "say": "Our SMS gives us checklists for setting up ECDIS, including display layers, safety contour and alarms. We check the settings regularly during the voyage and record it. If one unit fails, we use the back-up as per our contingency procedure.",
+  "practice": [
+   {
+    "q": "Which safety settings do you check before departure?",
+    "a": [
+     "Safety contour and safety depth for draught",
+     "Safety frame or look-ahead zone",
+     "Alarm settings as in the passage plan"
+    ]
+   },
+   {
+    "q": "What do you do if the main ECDIS fails?",
+    "a": [
+     "Switch to back-up unit",
+     "Inform the Master",
+     "Follow company contingency steps"
+    ]
+   }
+  ],
+  "tip": "Know where your alarm log is and be ready to explain any repeated alarm in it.",
+  "refs": [
+   "ISM Code",
+   "ICS BPG 5th ed",
+   "OCIMF ECDIS guide 1st ed"
+  ]
+ },
+ {
+  "id": "4.1.2",
+  "title": "Radar and ARPA",
+  "plain": "Do officers know how to operate and test the radar/ARPA, and do records show it was done?",
+  "why": "Radar and ARPA are the main tools for spotting collision risk, so they must work and be used well.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for radar/ARPA use and performance checks",
+   "CPA and BCR alarm settings, with audible and visual alarms working",
+   "Parallel index set up compared with the passage plan",
+   "Heading, speed and position inputs match the master equipment",
+   "Magnetron change records"
+  ],
+  "ready": [
+   "Radar/ARPA procedure and quick reference guide",
+   "Records of operation and performance checks",
+   "Blind sector information for each radar",
+   "Magnetron change records against the planned interval",
+   "Parallel index data from the last passage"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer unaware of the danger of using AIS vectors for collision avoidance",
+   "Officer cannot explain X-band (9 GHz) and S-band (3 GHz) differences",
+   "Radar not in use or tested as the procedure requires",
+   "Wrong heading, speed or position feed",
+   "No blind sector indication, or magnetrons not changed on schedule"
+  ],
+  "say": "Our SMS says when radars are on, how we check them and what CPA and BCR alarms to set. I know X-band gives better detail and S-band copes better in rain and clutter. I do not rely on AIS vectors alone for collision avoidance.",
+  "practice": [
+   {
+    "q": "What is the difference between X-band and S-band radar?",
+    "a": [
+     "X-band: better resolution, more affected by weather",
+     "S-band: better in rain and sea clutter",
+     "Use both together"
+    ]
+   },
+   {
+    "q": "Why not use AIS for collision avoidance on its own?",
+    "a": [
+     "AIS data may be wrong or missing",
+     "Not all ships transmit",
+     "Radar and visual look-out remain primary"
+    ]
+   }
+  ],
+  "tip": "Know where the blind sectors are and show the marked diagram without being asked.",
+  "refs": [
+   "SOLAS V/19",
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.1.3",
+  "title": "Steering control systems",
+  "plain": "Do officers know how to operate, test and change over the steering systems, and are test records kept?",
+  "why": "Loss of steering near land or traffic leaves very little time to react.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure for modes, testing and changeover",
+   "Test records showing all modes tested from each location",
+   "Changeover instructions and block diagram posted on the bridge",
+   "Officer knows what to do when a steering alarm sounds"
+  ],
+  "ready": [
+   "Steering procedure and vessel-specific changeover steps",
+   "Emergency steering procedure",
+   "Block diagram for changeover of remote controls and power units",
+   "Steering test records from a recent voyage"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer unfamiliar with changing modes or reacting to steering alarms",
+   "Block diagram not permanently displayed on the bridge",
+   "Steering not tested or operated as the procedure says",
+   "Any steering control defect"
+  ],
+  "say": "We test steering before departure and arrival and during the voyage as our SMS requires, from every control position and mode. The changeover instructions and block diagram are posted here. If an alarm sounds, I follow the posted steps and call the Master.",
+  "practice": [
+   {
+    "q": "Take me through changing to the other steering system.",
+    "a": [
+     "Follow the posted changeover steps",
+     "Use the bridge control or the steering room as procedure says",
+     "Inform the Master and engine room"
+    ]
+   },
+   {
+    "q": "What do you test before departure?",
+    "a": [
+     "All steering modes and control positions",
+     "Alarms and rudder angle indicators",
+     "Communication with steering gear room"
+    ]
+   }
+  ],
+  "tip": "Practise explaining the changeover while standing next to the posted block diagram.",
+  "refs": [
+   "SOLAS V/24, 25, 26",
+   "ISM Code 7",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "4.1.4",
+  "title": "Automatic Identification System (AIS)",
+  "plain": "Do officers know the company AIS procedure, and do records show regular AIS checks and tests?",
+  "why": "Wrong AIS data misleads other ships, and an AIS left on in a gas area is an ignition risk.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company AIS procedure including switching on and off",
+   "Records of checks and performance tests",
+   "Heading, speed and position feeds match the master equipment",
+   "Static data entered correctly",
+   "Company guidance on AIS in collision avoidance"
+  ],
+  "ready": [
+   "AIS operation and testing procedure",
+   "Check and performance test records",
+   "Company guidance on use of AIS data for collision avoidance",
+   "Record of static data check"
+  ],
+  "traps": [
+   "No AIS procedure or no collision avoidance guidance",
+   "Officer unfamiliar with either",
+   "No records of checks and tests",
+   "AIS defective, wrong data feed or wrong static data",
+   "AIS left on alongside in a possible gas area without aerial isolation or dummy load, unless the shore asked for it"
+  ],
+  "say": "Our SMS covers AIS set up, data checks and tests. I check that static and voyage data are correct and the feeds match our master equipment. Alongside, AIS is switched off or the aerial isolated with a dummy load unless the terminal asks otherwise.",
+  "practice": [
+   {
+    "q": "What do you do with AIS alongside the terminal?",
+    "a": [
+     "Gas risk: switch off or isolate aerial with dummy load",
+     "Follow terminal and port requirements",
+     "Reactivate on leaving the berth"
+    ]
+   },
+   {
+    "q": "How can AIS help with collision avoidance?",
+    "a": [
+     "Extra information only",
+     "Never the sole source",
+     "Rule 7 still applies"
+    ]
+   }
+  ],
+  "tip": "Check your static data page before each port arrival and note it in the checklist.",
+  "refs": [
+   "IMO A.1106(29)",
+   "ISGOTT 6",
+   "ICS BPG 5th ed",
+   "SOLAS V/19"
+  ]
+ },
+ {
+  "id": "4.1.5",
+  "title": "Bridge watch alarm (BNWAS)",
+  "plain": "Do officers know the BNWAS procedure, and do records show it was on and tested as required?",
+  "why": "BNWAS calls for help if the officer on watch is incapacitated or asleep, so the bridge is never unwatched.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company BNWAS procedure: when on, who activates, who has the key or password",
+   "Bridge log and checklists showing BNWAS on and tested",
+   "Officer can explain or show activation and deactivation",
+   "Officer knows what to do at a stage 2 or 3 alarm"
+  ],
+  "ready": [
+   "BNWAS procedure",
+   "Bridge log book",
+   "Bridge checklists with BNWAS tests",
+   "Password or key arrangement limited to Master and authorised deputy"
+  ],
+  "traps": [
+   "No company BNWAS procedure",
+   "Officer unfamiliar with the procedure or the tests",
+   "BNWAS defective",
+   "Password or key known to people beyond the Master and authorised deputy",
+   "No records of operation or testing",
+   "Any modification to defeat the BNWAS",
+   "Procedure does not require BNWAS on at anchor (process negative)"
+  ],
+  "say": "Our SMS requires BNWAS on at sea and at anchor. Only the Master and his authorised deputy hold the password. We test it as the procedure says and record it, and I know the actions at each alarm stage.",
+  "practice": [
+   {
+    "q": "When must BNWAS be on?",
+    "a": [
+     "Underway at sea, including when autopilot is used",
+     "Also at anchor per OCIMF expectation",
+     "Set as in standing orders"
+    ]
+   },
+   {
+    "q": "What happens if you do not reset it?",
+    "a": [
+     "Visual indication then audible alarms in stages",
+     "Alarm reaches Master or other officers",
+     "Reset only from the bridge lookout area"
+    ]
+   }
+  ],
+  "tip": "Check the BNWAS is switched on at anchor and logged, since many procedures miss that.",
+  "refs": [
+   "SOLAS V/19",
+   "IMO MSC.128(75)",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "4.1.6",
+  "title": "GNSS receivers",
+  "plain": "Do officers know how the GNSS receivers are set up and checked, and was it done to company procedure?",
+  "why": "Wrong GNSS position or datum feeds into ECDIS, AIS and radar and can mislead the whole bridge.",
+  "who": {
+   "lead": [
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "master",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company GNSS procedure and receiver configuration",
+   "Antenna offset data entered correctly",
+   "WGS84 datum set",
+   "Periodic checks and test records",
+   "Position feed to two or more systems is correct",
+   "Posted instructions for any inter-switch arrangement"
+  ],
+  "ready": [
+   "GNSS management procedure",
+   "Records of periodic checks and tests",
+   "Antenna offset measurements",
+   "Posted switching instructions for the receivers",
+   "Procedure for single and multiple receiver failure"
+  ],
+  "traps": [
+   "No procedure for the receivers",
+   "Officer unfamiliar with procedure or equipment",
+   "Not configured per company needs, or antenna coordinates wrong",
+   "Periodic checks not done",
+   "Receiver defective",
+   "Wrong position going to AIS, ARPA or GMDSS equipment"
+  ],
+  "say": "Our SMS defines how the GNSS receivers are configured and checked. They are set to WGS84, and the antenna offsets are entered from the ship's measurements. I compare the receivers regularly and know what to do if one or all fail.",
+  "practice": [
+   {
+    "q": "What datum should the GNSS be set to?",
+    "a": [
+     "WGS84",
+     "Check at each periodic check"
+    ]
+   },
+   {
+    "q": "What if one GNSS receiver fails?",
+    "a": [
+     "Switch output to the other receiver",
+     "Check position on all systems",
+     "Inform the Master, use other fixing methods"
+    ]
+   }
+  ],
+  "tip": "Keep the antenna offset sheet with the GNSS records so you can show it quickly.",
+  "refs": [
+   "SOLAS V/19",
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.1.7",
+  "title": "Echo sounder",
+  "plain": "Do officers know how to use and check the echo sounder, and do records show it was used as required?",
+  "why": "The echo sounder is the check on under-keel clearance when charts or positions may be wrong.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company echo sounder procedure",
+   "Recorder in use on a recent passage as required",
+   "Depth alarm set as the procedure says",
+   "Accuracy check records against water of known depth",
+   "Officer shows the reading under the keel now"
+  ],
+  "ready": [
+   "Echo sounder procedure",
+   "Records of recorder use and any time or position marks",
+   "Records of accuracy comparison",
+   "Depth alarm criteria",
+   "Notes for forward and aft transducer set up where fitted"
+  ],
+  "traps": [
+   "No procedure for the echo sounder and recorder",
+   "Officer unfamiliar with the procedure",
+   "Officer cannot calculate depth under keel or verify accuracy",
+   "Echo sounder not operated or tested as procedure and maker require",
+   "Reading not as expected at inspection",
+   "Echo sounder or recorder defective, or alarm not set per procedure"
+  ],
+  "say": "Our SMS says when the echo sounder and recorder must run and how to set the depth alarm. We compare it with a known depth periodically and record it. I can show the depth under the keel and how I worked it out.",
+  "practice": [
+   {
+    "q": "How do you work out the depth under the keel?",
+    "a": [
+     "Read depth displayed",
+     "Allow for transducer position and draught",
+     "Compare with charted depth"
+    ]
+   },
+   {
+    "q": "When must the echo sounder be on?",
+    "a": [
+     "Landfall, coastal and pilotage waters",
+     "As the company procedure says",
+     "Depth alarm set to a safe value"
+    ]
+   }
+  ],
+  "tip": "Know the transducer offset and the ship's draught by heart, because the inspector may ask you to calculate on the spot.",
+  "refs": [
+   "SOLAS V/19",
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.1.8",
+  "title": "Speed and distance measuring devices",
+  "plain": "Do officers know how the speed log is tested and used, and are the periodic test records available?",
+  "why": "Wrong speed input gives wrong ARPA, AIS and ECDIS information, hiding collision and grounding danger.",
+  "who": {
+   "lead": [
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation and testing of logs",
+   "Speed shown at repeaters, ARPA and ECDIS matches the master log",
+   "Ground speed on ECDIS matches the dual axis log, where fitted",
+   "Periodic function and accuracy test records",
+   "Records that speed input to ARPA, AIS and ECDIS was verified"
+  ],
+  "ready": [
+   "Speed log procedure and maker instructions",
+   "Periodic accuracy and function test records",
+   "Records of speed input verification to ARPA, AIS and ECDIS",
+   "Knowledge of which speed input each system uses"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer unfamiliar with the procedure",
+   "Periodic log tests not completed as required",
+   "Speed input checks to navigation equipment not done",
+   "Remote displays or ARPA, AIS, ECDIS speeds differ from the master log",
+   "Log defective in any way"
+  ],
+  "say": "Our SMS sets periodic checks of the speed log and of the speed going to ARPA, AIS and ECDIS. I compare displays against the master log and record the result. I know which speed input each system should use.",
+  "practice": [
+   {
+    "q": "Which speed input should the ARPA use?",
+    "a": [
+     "As set by company procedure",
+     "Water speed for collision avoidance",
+     "Check it matches the log"
+    ]
+   },
+   {
+    "q": "How do you check the log is accurate?",
+    "a": [
+     "Compare with GNSS and set or drift",
+     "Follow maker instructions",
+     "Record the result"
+    ]
+   }
+  ],
+  "tip": "Check the speed input setting on every system at the same time, so any mismatch is found in one go.",
+  "refs": [
+   "SOLAS V/19",
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.1.9",
+  "title": "Navigation lights and shapes",
+  "plain": "Do officers know how navigation lights and shapes are tested, and is there proof they work and are visible correctly?",
+  "why": "Wrong or failed lights and shapes mislead other ships about what you are and where you are heading.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "co",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for tests of lights, controller and shapes",
+   "Pre-departure, pre-arrival and daily checklists",
+   "Officer demonstrates the light controller and its alarms",
+   "Spare lamp inventory against each light fitted",
+   "LED lamp lifespan method",
+   "Shapes and portable lights sighted"
+  ],
+  "ready": [
+   "Navigation light test procedure and checklists",
+   "Spare lamp inventory with luminosity or wattage and where each fits",
+   "LED usage or lifespan records, if LED lamps are fitted",
+   "Three balls, one cylinder and one diamond in good condition",
+   "Portable lights with lanyards, where required"
+  ],
+  "traps": [
+   "No procedure for lights, controller and shapes",
+   "Lights or controller not tested as procedure says",
+   "Lights, screens damaged, moved or obscured so arcs or spacing are wrong",
+   "Shapes missing or unusable",
+   "Portable lights defective or not ready to rig",
+   "Spare lamps missing or wrong size, focal plane, luminosity or wattage",
+   "No guidance or method for LED lifespan, or LEDs used beyond their lifespan or in alarm"
+  ],
+  "say": "Our SMS has regular checks of the lights, the controller and its power failure alarm. Spare lamps match the maker's specification and are listed in the inventory. For LED lamps we track usage against the maker's lifespan. Shapes and portable lights are checked and ready.",
+  "practice": [
+   {
+    "q": "What does the navigation light controller check for you?",
+    "a": [
+     "Primary and secondary lights working",
+     "Primary and secondary power supply",
+     "Power failure alarm"
+    ]
+   },
+   {
+    "q": "How do you know the LED lights are still bright enough?",
+    "a": [
+     "Alarm for reduced intensity, or usage records",
+     "Maker's lifespan not exceeded",
+     "Record kept"
+    ]
+   }
+  ],
+  "tip": "Check the spare lamp list against the actual lamps in the store, not just on paper.",
+  "refs": [
+   "COLREG Part C and Annex 1",
+   "IMO MSC.253(83)",
+   "ICS BPG 5th ed",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "4.1.10",
+  "title": "NAVTEX and SafetyNET",
+  "plain": "Do officers manage NAVTEX and SafetyNET messages properly, and are warnings plotted on the voyage charts?",
+  "why": "Missed navigational warnings can leave a ship heading into wrecks, lost cargo or restricted areas without knowing.",
+  "who": {
+   "lead": [
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for handling maritime safety information",
+   "NAVTEX set for the right coast stations",
+   "SafetyNET receiver set for correct NAVAREA and coastal warning areas",
+   "Messages read, acknowledged, filed and plotted on charts",
+   "Expired warnings removed from charts"
+  ],
+  "ready": [
+   "MSI management procedure",
+   "Filed NAVTEX and SafetyNET messages",
+   "Current NAVAREA and coastal warnings on board",
+   "Charts, paper and electronic, showing plotted warnings"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer unfamiliar with procedure or equipment",
+   "NAVTEX or EGC receiver defective",
+   "NAVTEX not set to stations on the route",
+   "SafetyNET not set to the right areas",
+   "Messages not acknowledged and filed per procedure"
+  ],
+  "say": "Our SMS says NAVTEX and SafetyNET must be set for our route, and every message is read, acknowledged and filed. Warnings affecting us go onto the paper and electronic charts, and are removed when cancelled.",
+  "practice": [
+   {
+    "q": "How do you set NAVTEX for this voyage?",
+    "a": [
+     "Select stations along the route",
+     "Check message types are enabled",
+     "Update at each area change"
+    ]
+   },
+   {
+    "q": "What do you do with a warning that affects our route?",
+    "a": [
+     "Plot on paper and electronic charts",
+     "Tell the Master and update the plan",
+     "File the message, remove when cancelled"
+    ]
+   }
+  ],
+  "tip": "Review NAVTEX settings at every change of coast station area and note it in the handover.",
+  "refs": [
+   "SOLAS IV/12",
+   "MSC.1/Circ.1310/Rev.1",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "4.1.11",
+  "title": "Preserving VDR data",
+  "plain": "Do officers know how to save VDR data after an incident, and are the VDR tests on record?",
+  "why": "If VDR data is overwritten, investigators lose the facts, and VDR faults are often only found after an accident.",
+  "who": {
+   "lead": [
+    "2o",
+    "master"
+   ],
+   "also": [
+    "3o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for VDR set up, use, testing and data preservation",
+   "Save instructions posted near the VDR controls",
+   "Annual performance test by an approved facility",
+   "Test after repair or upgrade of the VDR or of equipment feeding it",
+   "Retention period declared in the pre-inspection questionnaire"
+  ],
+  "ready": [
+   "VDR procedure including when to preserve data",
+   "Emergency checklist that includes VDR data saving",
+   "Annual performance test report",
+   "Records of tests after maintenance or repair of the VDR or feeds",
+   "VDR specification showing how long data is kept"
+  ],
+  "traps": [
+   "No VDR procedure or no clear rule on preserving data",
+   "Officer unfamiliar with VDR management or data saving",
+   "VDR defective",
+   "Annual test not done by an authorised agent",
+   "No test after VDR repair, or after repair of equipment giving it data",
+   "Declared retention too short: minimum 12 hours if installed before 1 July 2014, 720 hours after"
+  ],
+  "say": "Our SMS tells us to save VDR data after any incident, not only navigation ones. The saving steps are posted at the VDR. The annual test was done by an approved service agent, and we test after any repair to the VDR or its data sources.",
+  "practice": [
+   {
+    "q": "Something has happened. What do you do about the VDR?",
+    "a": [
+     "Save the data immediately as posted",
+     "Inform the Master",
+     "Follow the emergency checklist"
+    ]
+   },
+   {
+    "q": "When must the VDR be tested?",
+    "a": [
+     "Annually by approved facility",
+     "After VDR repair or upgrade",
+     "After repair of equipment feeding it"
+    ]
+   }
+  ],
+  "tip": "Be able to point to the save button and the posted instruction without searching.",
+  "refs": [
+   "SOLAS V/20",
+   "MSC.1/Circ.1222/Rev.1",
+   "MSC.333(90)",
+   "OCIMF VDR guidance"
+  ]
+ },
+ {
+  "id": "4.1.12",
+  "title": "Magnetic and gyro compasses",
+  "plain": "Do officers know the company compass procedures, and do records show the compasses are accurate and reliable?",
+  "why": "Wrong heading feeds into radar, ECDIS and AIS and can throw out the whole navigation picture.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company compass procedure",
+   "Magnetic, gyro and repeaters show consistent headings, illumination works",
+   "Compass error records for each compass",
+   "Deviation card and adjustment certificate",
+   "Gyro service records"
+  ],
+  "ready": [
+   "Compass management procedure",
+   "Compass adjustment and residual deviation certificate",
+   "Compass error log for each compass",
+   "Up-to-date deviation card on the bridge",
+   "Gyro service records"
+  ],
+  "traps": [
+   "No procedure for compasses",
+   "Officer unfamiliar with procedure or equipment",
+   "Compass error not recorded for each compass",
+   "Magnetic compass deviation regularly over company tolerance",
+   "Compass or repeater showing wrong heading",
+   "Manual speed or latitude correction set wrongly on gyro",
+   "Gyro service overdue by more than 5% of interval"
+  ],
+  "say": "We check compass errors each watch where possible and record them. The deviation card is on the bridge and the gyro is serviced to the maker's schedule. I know our company tolerance and when the magnetic compass needs adjustment.",
+  "practice": [
+   {
+    "q": "How often do you check compass error?",
+    "a": [
+     "Each watch where possible",
+     "By azimuth or transit bearings",
+     "Record it in the log"
+    ]
+   },
+   {
+    "q": "When should the magnetic compass be adjusted?",
+    "a": [
+     "Deviation regularly beyond company limit",
+     "Unreliable or damaged",
+     "No error records for two years"
+    ]
+   }
+  ],
+  "tip": "Check repeater headings against the master gyro every watch and after big manoeuvres, and log it.",
+  "refs": [
+   "SOLAS V/19",
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.1.13",
+  "title": "VHF/DSC radios",
+  "plain": "Do officers know how the VHF/DSC radios are used and tested, and are the checks recorded?",
+  "why": "VHF is vital for distress and bridge communication, but misused for collision avoidance it causes confusion and errors.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company VHF/DSC procedure and Master's standing orders on VHF",
+   "Test records and the GMDSS radio log",
+   "Correct channels monitored at sea and in the passage plan",
+   "Static and dynamic data correct on the DSC units",
+   "Which VHF units are not connected to the VDR"
+  ],
+  "ready": [
+   "VHF/DSC use and testing procedure",
+   "GMDSS radio log book",
+   "Periodic test checklists",
+   "Master's standing orders",
+   "Marked list of VHF units not connected to the VDR and rules for their use"
+  ],
+  "traps": [
+   "No procedure for use and testing",
+   "Officer unfamiliar with procedure or equipment",
+   "Officer unaware of hazards of using VHF in collision avoidance",
+   "Tests not done, or critical communications not recorded",
+   "Wrong channels monitored",
+   "Wrong DSC position or MMSI data",
+   "Non-VDR VHF units not identified, with no limits on use for critical calls"
+  ],
+  "say": "Our SMS sets which channels we monitor, the tests and what we log. DSC data is checked as part of our routine tests. I do not use VHF to agree collision avoidance action, because it can cause confusion.",
+  "practice": [
+   {
+    "q": "Why not agree passing actions by VHF?",
+    "a": [
+     "Risk of confusion and wrong identification",
+     "Language and misunderstanding",
+     "Follow COLREG instead"
+    ]
+   },
+   {
+    "q": "Which VHF channels must you monitor?",
+    "a": [
+     "Channel 16 and DSC channel 70 at sea",
+     "Others as the passage plan and company say",
+     "Record significant calls"
+    ]
+   }
+  ],
+  "tip": "Mark non-VDR handsets clearly so a critical call is never made on an unrecorded set.",
+  "refs": [
+   "SOLAS IV/7",
+   "MSC.131(75)",
+   "IMO A.954(23)",
+   "ISGOTT 6"
+  ]
+ },
+ {
+  "id": "4.1.14",
+  "title": "Daylight signalling lamp",
+  "plain": "Do officers know how to test and use the daylight signalling lamp?",
+  "why": "It is the visual way to get another ship's attention by day or night if other means fail.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for use and testing",
+   "Test records in bridge equipment checks",
+   "Lamp tested on battery and on mains power",
+   "At least three spare bulbs of the right specification"
+  ],
+  "ready": [
+   "Procedure on attracting attention of another vessel and testing the lamp",
+   "Bridge equipment test records",
+   "Three or more correct spare bulbs",
+   "Charged battery"
+  ],
+  "traps": [
+   "No procedure for use and testing",
+   "Officer unfamiliar with the procedure",
+   "Lamp defective, including battery operation",
+   "Fewer than three spare bulbs, or wrong type"
+  ],
+  "say": "Our SMS covers when we use the daylight signalling lamp and how we test it. I test it on both battery and mains power. At least three correct spare bulbs are kept on board.",
+  "practice": [
+   {
+    "q": "Show me that the lamp works on battery.",
+    "a": [
+     "Disconnect mains supply",
+     "Operate the lamp",
+     "Reconnect and record the test"
+    ]
+   },
+   {
+    "q": "How many spare bulbs do you carry?",
+    "a": [
+     "At least three",
+     "Match the lamp maker's specification",
+     "Kept on board and listed"
+    ]
+   }
+  ],
+  "tip": "Count the spare bulbs at every test and write the number in the record.",
+  "refs": [
+   "SOLAS V/19",
+   "IMO MSC.95(72)",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "4.1.15",
+  "title": "Sound signalling equipment",
+  "plain": "Do officers know how to use and test whistle, bell and gong, and do records show sound signals were made in restricted visibility?",
+  "why": "In fog, sound signals are the only way other ships know you are there.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure for use of sound signals",
+   "Periodic test records for whistle, bell, gong and automation",
+   "Bridge log or restricted visibility checklist entries for sound signals",
+   "Last month's records for periods of restricted visibility"
+  ],
+  "ready": [
+   "Sound signalling procedure",
+   "Bridge equipment test records",
+   "Bridge log book",
+   "Completed restricted visibility checklists (BPG B13 or equivalent)",
+   "Evidence from the last three restricted visibility occasions"
+  ],
+  "traps": [
+   "No company procedure on sound signals in restricted visibility, collision avoidance and manoeuvring",
+   "Officer unfamiliar with the expectations",
+   "No test records for equipment and its automation",
+   "Equipment or automation defective",
+   "No record that signals were made in restricted visibility"
+  ],
+  "say": "Our SMS says what signals we sound in restricted visibility, when manoeuvring and at anchor. We test whistle, bell, gong and the automation regularly and record it. I can show you the log entries from our last fog periods.",
+  "practice": [
+   {
+    "q": "What do you do when visibility drops?",
+    "a": [
+     "Follow company and standing orders",
+     "Start sound signals per COLREG",
+     "Record it in the log"
+    ]
+   },
+   {
+    "q": "How do you test the sound signals?",
+    "a": [
+     "Whistle, bell, gong and automation",
+     "Periodic test as per procedure",
+     "Record the result"
+    ]
+   }
+  ],
+  "tip": "Write the start and stop time of fog signals in the log every time, because that is what the inspector will look for.",
+  "refs": [
+   "COLREG Rule 33",
+   "COLREG Part D",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "4.2.1",
+  "title": "Passage planning",
+  "plain": "Is every voyage planned berth to berth, checked, approved and followed, and can the officers explain the plan?",
+  "why": "Most groundings and collisions start with a plan that was weak, not checked or not followed.",
+  "who": {
+   "lead": [
+    "2o",
+    "master"
+   ],
+   "also": [
+    "3o",
+    "co",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company passage planning and record keeping procedures",
+   "A recent plan in the company format, approved by the Master and signed",
+   "The same plan on ECDIS and paper charts with required information",
+   "Route checking done, and repeated after any change",
+   "Passage briefing with Master, navigation officers and an engineer",
+   "Position fixing at the planned method and interval"
+  ],
+  "ready": [
+   "Passage planning procedure",
+   "Appraisal form or checklist for a recent voyage",
+   "Signed passage plan",
+   "ECDIS or chart showing monitoring history",
+   "Bridge log, movement book and other voyage records",
+   "Plan on both ECDIS units where two are fitted"
+  ],
+  "traps": [
+   "No standard plan form or no appraisal checklist",
+   "Charted plan missing information the procedure requires",
+   "Plan not reviewed or approved as per procedure",
+   "Route check not done before sailing or after changes",
+   "Plan not followed, such as passing a mark on the wrong side",
+   "Manual position fixes not made as planned",
+   "Voyage records not kept"
+  ],
+  "say": "We plan every voyage berth to berth: appraise, plan, brief, execute and monitor. The Master approves after route checking and we brief with an engineer present. If conditions force a change, we re-check and re-approve the route before following it.",
+  "practice": [
+   {
+    "q": "Take me through how this passage was planned.",
+    "a": [
+     "Appraisal of all information",
+     "Plan berth to berth with no-go areas and fixing methods",
+     "Route check, Master approval, briefing"
+    ]
+   },
+   {
+    "q": "What do you do if you must leave the planned track?",
+    "a": [
+     "Keep safe and follow COLREG",
+     "Inform Master",
+     "Update, re-check and re-approve the plan"
+    ]
+   }
+  ],
+  "tip": "Know where your contingency and abort positions are on the plan, since inspectors like to ask about them.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "ISM Code",
+   "SOLAS V",
+   "IMO A.893(21)"
+  ]
+ },
+ {
+  "id": "4.2.2",
+  "title": "Under keel clearance (UKC) policy",
+  "plain": "Do officers know the company UKC policy, and do records show UKC was calculated and kept as required?",
+  "why": "Too little water under the keel means grounding, and many factors reduce it beyond the charted depth.",
+  "who": {
+   "lead": [
+    "2o",
+    "master"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company UKC policy and minimum values for each phase",
+   "Calculation for a recent voyage with all required factors",
+   "Calculation done for the time of passing the critical area",
+   "UKC reviewed in the Master and pilot exchange",
+   "Squat information available on the bridge for loaded and ballast",
+   "Values in the pre-inspection questionnaire match the policy"
+  ],
+  "ready": [
+   "UKC policy and procedure",
+   "UKC calculations for recent voyages",
+   "Passage plan documents",
+   "Master and pilot exchange form with UKC data",
+   "Squat data for loaded and ballast",
+   "Echo sounder records and logs to prove passing times"
+  ],
+  "traps": [
+   "No UKC policy, or no required calculation points",
+   "Officer unfamiliar with how to calculate and record UKC",
+   "Required calculations not done",
+   "Policy broken without company permission",
+   "Calculation not made for the expected time of passing the critical point",
+   "Speed more than 10% above the calculated speed at the critical point",
+   "Error in the data or the calculation",
+   "Squat information not at hand on the bridge"
+  ],
+  "say": "Our SMS sets the minimum UKC for open sea, coastal, port, anchor and berth. We calculate with tide, density, squat, heel, wave response and chart reliability, for the time we actually pass the critical point. The numbers go into the Master and pilot exchange.",
+  "practice": [
+   {
+    "q": "What factors go into your UKC calculation?",
+    "a": [
+     "Tide, density, squat and heel",
+     "Wave response and chart accuracy (CATZOC)",
+     "Draught reliability and obstructions"
+    ]
+   },
+   {
+    "q": "What if the passage is delayed?",
+    "a": [
+     "Recalculate for the new time over the critical area",
+     "Inform Master",
+     "Follow company action if UKC cannot be kept"
+    ]
+   }
+  ],
+  "tip": "Keep a worked UKC sheet for the current passage ready, and update the tide time if the ETA changes.",
+  "refs": [
+   "IMO A.893(21)",
+   "ISM Code 7",
+   "OCIMF ECDIS guide 1st ed"
+  ]
+ },
+ {
+  "id": "4.2.3",
+  "title": "Master's standing orders and daily orders",
+  "plain": "Has the Master written standing orders and daily orders covering key navigation rules, and have all navigation officers signed them?",
+  "why": "Officers on watch need the Master's clear limits and call-me rules, written down, so they act early.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure requiring standing and daily orders",
+   "Standing orders signed by the Master and by each navigation officer",
+   "Content: restricted visibility, CPA and BCR, passing distances, ECDIS alarms and layers, calling the Master, taking the con",
+   "Bridge order book entries at least daily, dated, timed and signed",
+   "Each officer signs daily orders before taking the watch"
+  ],
+  "ready": [
+   "Master's standing orders, signed and dated on joining or at update",
+   "Bridge order book with current daily entries",
+   "Signatures of all navigation officers on standing orders",
+   "Orders that refer to SMS procedures and do not weaken them"
+  ],
+  "traps": [
+   "Master has no own signed standing orders",
+   "Officers have not signed them (unless joined that day)",
+   "Orders weaker than the company SMS, in standing or daily orders",
+   "Missing items: restricted visibility, CPA/BCR, passing distance, ECDIS alarms and layers, calling the Master, taking the con, AIS and VHF limits",
+   "Daily orders not written, signed, dated and timed, or do not suit the voyage",
+   "OOW has not signed daily orders",
+   "Records show orders were not followed"
+  ],
+  "say": "The Master's standing orders support our SMS and are signed by every navigation officer when they join. Daily orders are written each day for the voyage conditions and I sign them before I take the watch. I know the CPA, passing distance and call-the-Master limits.",
+  "practice": [
+   {
+    "q": "When must you call the Master?",
+    "a": [
+     "As listed in standing orders",
+     "Any doubt about safety",
+     "Call early, do not wait"
+    ]
+   },
+   {
+    "q": "What are the minimum CPA and passing distances in the orders?",
+    "a": [
+     "State the values in the standing orders",
+     "What to do if they cannot be kept",
+     "Master informed"
+    ]
+   }
+  ],
+  "tip": "Read the orders again at each watch handover, so you can quote the limits without opening the book.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "ISM Code 5.1",
+   "STCW Code Part A Ch VIII"
+  ]
+ },
+ {
+  "id": "4.2.4",
+  "title": "Electronic chart management",
+  "plain": "Are electronic charts (ENC and RNC) official, permitted, fully corrected and used correctly?",
+  "why": "An out-of-date or unpermitted chart can hide a new danger and leave the ECDIS unfit for navigation.",
+  "who": {
+   "lead": [
+    "2o"
+   ],
+   "also": [
+    "master",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for obtaining, permitting and correcting ENCs and RNCs",
+   "System that tracks which charts have valid permits",
+   "Charts for the last voyage were available and permitted on each ECDIS",
+   "Update history shows latest notices applied, including T and P notices",
+   "Officer shows how T and P notices are applied",
+   "Any RNC use only in RCDS mode with ENC not available and paper charts corrected"
+  ],
+  "ready": [
+   "Electronic chart management procedure",
+   "List of active permits or Pay As You Sail records",
+   "ENC status report, where available",
+   "Passage plan records showing the charts used",
+   "Update records to the latest notices to mariners",
+   "Plan for any gap in ENC coverage"
+  ],
+  "traps": [
+   "No procedure for ENCs and RNCs",
+   "Wrong declaration of primary means of navigation",
+   "Officer unfamiliar with correcting charts or applying T and P notices",
+   "No system tracking permits",
+   "Permits expired before or during a voyage",
+   "Voyage made with missing chart coverage",
+   "Charts not updated to latest notice",
+   "RNCs used when ENCs existed, or RCDS used without corrected paper charts",
+   "No system tracking corrections applied"
+  ],
+  "say": "Our SMS defines which charts we carry, how we track permits and how we apply updates and T and P notices. I can show the update history for any ENC. If ENC coverage is missing, we plan for it with fully corrected paper charts.",
+  "practice": [
+   {
+    "q": "How do you know the ENCs are up to date?",
+    "a": [
+     "Check update history or ENC status report",
+     "Latest weekly notices applied",
+     "T and P notices applied or overlay used"
+    ]
+   },
+   {
+    "q": "When can RNC be used?",
+    "a": [
+     "Only if no ENC is available",
+     "ECDIS in RCDS mode",
+     "With corrected paper charts too"
+    ]
+   }
+  ],
+  "tip": "Check permit expiry dates for the next voyage at the planning stage, not on sailing day.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "SOLAS V/19",
+   "IHO ENC and ECDIS standards",
+   "OCIMF ECDIS guide 1st ed"
+  ]
+ },
+ {
+  "id": "4.2.5",
+  "title": "Paper chart management",
+  "plain": "Are paper charts official, corrected and kept in good condition, and do officers know the company procedure?",
+  "why": "An uncorrected or worn paper chart can give wrong or hidden hazard information.",
+  "who": {
+   "lead": [
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company paper chart procedure",
+   "Chart portfolio list with edition dates",
+   "At least two charts for a recent voyage spot checked for corrections",
+   "T and P notices and NAVTEX or NAVAREA warnings applied, and removed when cancelled",
+   "Largest scale charts for the passage on board and used"
+  ],
+  "ready": [
+   "Paper chart management procedure",
+   "Chart portfolio records and correction records",
+   "Passage plan record of charts used",
+   "Weekly and cumulative notices to mariners",
+   "Company-agreed plan if charts were missing for a port"
+  ],
+  "traps": [
+   "No paper chart procedure",
+   "Officer unfamiliar with the correction procedure",
+   "Voyage with missing or wrong scale charts, with no company mitigation",
+   "No systematic process to apply and remove T and P and warnings",
+   "Charts not corrected to the latest notice, or old editions used",
+   "Charts torn, stained or worn so detail is hidden"
+  ],
+  "say": "Our SMS covers identifying charts for the voyage, correcting them before planning, and tracking those not in use. Temporary notices and warnings are applied and removed when cancelled. I can show you the portfolio list and the corrections on any chart we used.",
+  "practice": [
+   {
+    "q": "How do you correct a chart?",
+    "a": [
+     "From weekly notices to mariners",
+     "Record the correction",
+     "Check it against the last one applied"
+    ]
+   },
+   {
+    "q": "What if we are sent to a port and lack the charts?",
+    "a": [
+     "Tell the company",
+     "Agree a mitigation plan",
+     "Order charts as soon as possible"
+    ]
+   }
+  ],
+  "tip": "Keep the correction log tidy and in date order, since that is the first thing an inspector opens.",
+  "refs": [
+   "SOLAS V/19",
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.2.6",
+  "title": "Testing navigation equipment, engine, steering and thrusters",
+  "plain": "Are navigation equipment, main engine, steering and thrusters tested before use and before critical phases, with checklists to prove it?",
+  "why": "Finding a defect in steering or engine before arrival is far safer than finding it in restricted waters.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure on testing at defined points",
+   "Vessel-specific checklists for steering test, preparation for sea and preparation for arrival",
+   "Completed checklists and bridge and engine logs from a recent voyage",
+   "Defects from tests entered into the defect system",
+   "Rudder timing checked hard-over to hard-over against earlier tests and maker's data",
+   "Flag waiver on board if steering tests are weekly on short voyages"
+  ],
+  "ready": [
+   "Testing procedure and vessel-specific checklists",
+   "Completed checklists for recent voyages",
+   "Bridge and engine log books",
+   "Defect reports for any problems found",
+   "Rudder timing records",
+   "Flag waiver, if used"
+  ],
+  "traps": [
+   "No procedure with defined test points",
+   "Officer unfamiliar with the procedure or with a checklist item",
+   "No evidence rudder hard-over timing was checked",
+   "Tests required by procedure not done",
+   "No flag waiver where tests were not within 12 hours before departure",
+   "Defect not entered in the defect system",
+   "Open defect at inspection (also hardware negative)"
+  ],
+  "say": "Our SMS defines tests before sailing, before arrival and before critical phases, using vessel-specific checklists. We test steering within 12 hours before departure and record rudder timing. Any defect goes straight into the defect system.",
+  "practice": [
+   {
+    "q": "What do you test before departure?",
+    "a": [
+     "Steering, engine ahead and astern, alarms",
+     "Navigation equipment and communications",
+     "Record on the checklist"
+    ]
+   },
+   {
+    "q": "What do you do with a defect found during testing?",
+    "a": [
+     "Tell the Master and engine room",
+     "Enter in the defect reporting system",
+     "Plan the repair and any mitigation"
+    ]
+   }
+  ],
+  "tip": "Write the rudder hard-over times each test so you can compare them quickly if asked.",
+  "refs": [
+   "SOLAS V/26",
+   "ICS BPG 5th ed",
+   "USCG 33 CFR 164.25",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.2.7",
+  "title": "Nautical publications",
+  "plain": "Are the required nautical publications on board, up to date, and managed to company procedure?",
+  "why": "Old or missing publications give outdated information on lights, tides, routeing and port rules.",
+  "who": {
+   "lead": [
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for managing, ordering and updating publications",
+   "List of mandatory and discretionary publications",
+   "Latest editions on board and corrected",
+   "Electronic publications accepted by flag, with back-up as on the Safety Equipment Certificate Form E",
+   "Hard copy of International Code of Signals and IAMSAR on board"
+  ],
+  "ready": [
+   "Publications procedure",
+   "Inventory with edition date and latest correction",
+   "Flag approval for electronic publications, where used",
+   "Back-up arrangement evidence",
+   "Printed International Code of Signals and IAMSAR"
+  ],
+  "traps": [
+   "No procedure for managing and updating publications",
+   "Officer unfamiliar with the procedure",
+   "No inventory of mandatory and discretionary titles",
+   "Publications missing, obsolete or uncorrected",
+   "Electronic publications without flag approval or required back-up"
+  ],
+  "say": "Our SMS lists the mandatory and discretionary publications and how we update them. The inventory shows each edition and last correction. Electronic publications are flag-accepted with back-up, and the emergency books are in hard copy.",
+  "practice": [
+   {
+    "q": "Which publications must be in hard copy?",
+    "a": [
+     "International Code of Signals",
+     "IAMSAR manual",
+     "Ready for emergency use"
+    ]
+   },
+   {
+    "q": "How do you know a publication is current?",
+    "a": [
+     "Inventory with edition and correction date",
+     "Latest notices applied",
+     "Company ordering process"
+    ]
+   }
+  ],
+  "tip": "Check the inventory against the shelf regularly, and always before an inspection, and tick the list.",
+  "refs": [
+   "SOLAS V/27",
+   "MSC-MEPC.2/Circ.2",
+   "ICS BPG 5th ed"
+  ]
+ },
+ {
+  "id": "4.3.1",
+  "title": "Minimum bridge team composition",
+  "plain": "Do officers know the minimum bridge team and engine room mode for each stage of a voyage, and did recent voyages follow it?",
+  "why": "A short-handed bridge or unprepared engine room in a risky area removes the safety margin.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "3o",
+    "ce"
+   ]
+  },
+  "checks": [
+   "Company procedure for bridge team and engine room mode in all conditions",
+   "Plan shows expected bridge team and engine room mode changes",
+   "Logs show the plan was followed",
+   "Hand steering used when required, OOW not sole lookout against procedure",
+   "Changes in bridge team level and times are logged"
+  ],
+  "ready": [
+   "Bridge team composition procedure",
+   "Passage plans showing team and machinery status changes",
+   "Bridge log book, bell book and checklists",
+   "Bridge manning matrix with role of each team member"
+  ],
+  "traps": [
+   "No procedure for all stages including anchor, drifting, at-sea STS, DP work or underway transfers",
+   "No procedure on engine room status and manning",
+   "Officer unfamiliar with the procedures",
+   "Procedure unclear on hand steering",
+   "Plan lacks team composition or engine room mode, or has them wrong",
+   "Plan not followed at any stage",
+   "OOW as sole lookout against procedure",
+   "Changes in bridge team level and time not logged"
+  ],
+  "say": "Our SMS sets the minimum bridge team and engine room mode by hazards, traffic, weather and visibility. The passage plan shows when they change, and we log each change with the time. The OOW is not sole lookout unless the procedure allows it.",
+  "practice": [
+   {
+    "q": "What bridge team do you need now and when does it change?",
+    "a": [
+     "As per passage plan and procedure",
+     "Higher level in traffic, poor visibility, near hazards",
+     "Log the time of every change"
+    ]
+   },
+   {
+    "q": "When is hand steering required?",
+    "a": [
+     "As the procedure defines",
+     "Restricted waters, traffic, visibility",
+     "Order given early"
+    ]
+   }
+  ],
+  "tip": "Add team level changes to the passage plan sheet as waypoints, so the log matches the plan.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.3.2",
+  "title": "Machinery space team composition",
+  "plain": "Do engineers know when the machinery space is attended or unattended and the team needed, and do records confirm it?",
+  "why": "The bridge needs engine response at the right time, especially in confined waters, traffic or poor visibility.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "3e",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for machinery space mode and team at each stage",
+   "Engine room log book and daily order book from a recent voyage",
+   "Planned status changes communicated to engineers at planning and daily",
+   "Roles of each team member when attended",
+   "Records of changes in status and team composition"
+  ],
+  "ready": [
+   "Machinery space status and manning procedure",
+   "Engine room log book",
+   "Engine room daily order book",
+   "Passage plan showing when to attend the machinery space",
+   "Records of status changes"
+  ],
+  "traps": [
+   "No procedure for attended or unattended mode, including anchor, drifting, STS, DP or underway transfers",
+   "No procedure for team composition",
+   "Engineer unfamiliar with the procedure",
+   "Required status not communicated to engineers",
+   "Records show the plan was not followed",
+   "Team not as the procedure requires when attended",
+   "No records of status or team"
+  ],
+  "say": "Our SMS sets when the engine room must be attended and with which team, based on hazards, traffic and visibility. The Chief Engineer and Master agree this at planning, and it goes in the daily order book. I can show the log entries for recent status changes.",
+  "practice": [
+   {
+    "q": "When does the engine room go from unattended to attended?",
+    "a": [
+     "As per passage plan and company procedure",
+     "Before restricted waters, traffic or low visibility",
+     "Time recorded in log"
+    ]
+   },
+   {
+    "q": "How do you know the plan ahead?",
+    "a": [
+     "Passage plan briefing",
+     "Daily order book",
+     "Bridge and engine room communication"
+    ]
+   }
+  ],
+  "tip": "Write the expected status change times in the daily order book each day, so night engineers know.",
+  "refs": [
+   "ICS Engine Room Procedures Guide 1st ed",
+   "ICS BPG 5th ed",
+   "SOLAS II-1/46",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.3.3",
+  "title": "Integrating the pilot into the bridge team",
+  "plain": "Is the pilot (or similar role) brought into the bridge team by a documented Master and pilot exchange?",
+  "why": "Many accidents happen when the pilot and the bridge team do not share the same plan.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for integrating a pilot or similar role",
+   "Master and pilot exchange and pilot card from two recent operations",
+   "Time of exchange completion and time of transfer of the conn recorded",
+   "Defects noted on the pilot card",
+   "Officer understands every item on the checklists"
+  ],
+  "ready": [
+   "Pilot integration procedure",
+   "Completed master and pilot exchange and pilot card forms",
+   "Bridge log and bell book with conn handover times",
+   "List of equipment defects to tell the pilot"
+  ],
+  "traps": [
+   "No procedure or no checklists",
+   "Officer not familiar with the procedure or the checklist items",
+   "Forms missing for operations with a pilot",
+   "Forms incomplete or with wrong safety information",
+   "Time of exchange completion not recorded",
+   "Conn transfer times not recorded",
+   "Defects affecting navigation or mooring not shown on the pilot card"
+  ],
+  "say": "Before the pilot takes the conn, we complete the exchange: ship particulars, plan, ECDIS settings, UKC, tugs, mooring and any defects. We record when the exchange is complete and when the conn changes hands. It is repeated for a change of pilot.",
+  "practice": [
+   {
+    "q": "What do you tell the pilot on boarding?",
+    "a": [
+     "Pilot card and ship manoeuvring data",
+     "Passage plan, UKC and ECDIS status",
+     "Defects, tugs and mooring plans"
+    ]
+   },
+   {
+    "q": "What if the pilot refuses to sign?",
+    "a": [
+     "Record the time of completed exchange",
+     "Note refusal",
+     "Master informed"
+    ]
+   }
+  ],
+  "tip": "Have the pilot card and defect list ready on the bridge before the pilot boards, so the exchange happens before the conn moves.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "IMPA Master-Pilot Exchange",
+   "IMO A.960(23)",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.3.4",
+  "title": "Bridge distractions",
+  "plain": "Do officers know the company rules to prevent distraction on the bridge, and are they followed?",
+  "why": "Distracted watchkeepers miss targets and hazards.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure on bridge access, phones and devices, communications, non-essential activity, internet and email",
+   "Any sign on the bridge of the rules being broken",
+   "Officer explains the rules",
+   "Management of cargo or machinery monitoring if the bridge is multi-function"
+  ],
+  "ready": [
+   "Bridge distraction procedure",
+   "Posted bridge access and device rules",
+   "Internet and email rule for the bridge",
+   "If a combined bridge: how cargo and machinery monitoring is managed without distracting the team"
+  ],
+  "traps": [
+   "No procedure, or a gap in any area: access, devices, communications, non-essential activity, internet and email, combined bridge",
+   "Officer unfamiliar with the rules",
+   "Rules visibly not followed (phones, visitors, non-essential tasks)"
+  ],
+  "say": "Our SMS limits bridge access to those with a bridge duty, controls phones and personal devices, and keeps calls and internet use to safe navigation needs. We keep the bridge free from non-essential tasks.",
+  "practice": [
+   {
+    "q": "Who may come onto the bridge?",
+    "a": [
+     "Only people with operational duties",
+     "Others with Master's permission",
+     "Keep visits short and limited"
+    ]
+   },
+   {
+    "q": "Can you use your phone on watch?",
+    "a": [
+     "Only if the Master approves the situation",
+     "Operational use only",
+     "Internet and email for navigation needs only"
+    ]
+   }
+  ],
+  "tip": "Put the access and phone rules where visitors see them at the bridge door.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "ISM Code 1.4"
+  ]
+ },
+ {
+  "id": "4.4.1",
+  "title": "EPIRB",
+  "plain": "Do officers know how to operate and test the EPIRB, and is it in good order with inspection records?",
+  "why": "The EPIRB is the ship's automatic distress alert. If it does not float free and transmit, rescue is delayed.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection, testing and maintenance",
+   "EPIRB armed, able to float free, clear of obstruction, undamaged",
+   "Battery and hydrostatic release expiry dates",
+   "Lanyard fitted, neatly stowed, not tied to the ship or bracket",
+   "Instructions and manual present at the beacon",
+   "Officer explains self-test, manual operation and what to do after an accidental activation"
+  ],
+  "ready": [
+   "EPIRB procedure",
+   "GMDSS radio log book with inspections and self-tests",
+   "Annual test record",
+   "Five-yearly shore-based maintenance record (or sooner if flag requires)",
+   "Pictorial operating instructions at the beacon and the manual"
+  ],
+  "traps": [
+   "Officer cannot explain self-test, accidental activation or manual operation",
+   "EPIRB not armed, or not able to float free",
+   "Missing markings, instructions or manual",
+   "Casing damage, cracks or water ingress",
+   "Battery or hydrostatic release past expiry",
+   "Lanyard tied to the ship or bracket, or in poor condition",
+   "Incomplete records of inspections, self-tests, annual test or shore maintenance",
+   "EPIRB defective"
+  ],
+  "say": "We inspect the EPIRB and self-test it as the maker says, and record it in the GMDSS log. Battery and release dates are in date, and annual and five-year servicing are on record. If it is activated by mistake, I stop it and contact the rescue centre straight away.",
+  "practice": [
+   {
+    "q": "What do you do if the EPIRB is activated by accident?",
+    "a": [
+     "Stop the transmission at once",
+     "Call the local rescue coordination centre",
+     "Record the event"
+    ]
+   },
+   {
+    "q": "How do you self-test it?",
+    "a": [
+     "Use the self-test switch only as maker says",
+     "Do not hold it long, to save battery",
+     "Never test by real activation"
+    ]
+   }
+  ],
+  "tip": "Check the lanyard during your routine rounds, since it is the item most often found tied to the bracket.",
+  "refs": [
+   "SOLAS IV/7",
+   "MSC.1/Circ.1039",
+   "MSC.1/Circ.1040/Rev.2",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "4.4.2",
+  "title": "Search and rescue transmitters (SARTs)",
+  "plain": "Do officers know how to use and test SARTs, and are the SARTs in good order with records?",
+  "why": "A SART shows rescuers where a lifeboat or raft is, and a flat battery or wrong stowage defeats that.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection and testing",
+   "Self-test shown for each type of SART carried",
+   "SART stowed where it can be placed quickly in a survival craft, and marked with symbols",
+   "Operating and testing instructions and battery expiry marked on each unit",
+   "Officer explains how a SART shows on a radar screen and how to mount it",
+   "Lanyard present"
+  ],
+  "ready": [
+   "SART procedure",
+   "GMDSS radio log book",
+   "Inspection and self-test records",
+   "Stowage position with correct symbol",
+   "Battery expiry dates clear on each SART"
+  ],
+  "traps": [
+   "No company procedure",
+   "Officer unfamiliar with purpose or operation",
+   "Officer cannot show how to mount it in a lifeboat or raft",
+   "Officer cannot describe radar display or explain self-test",
+   "Stowage place not marked with symbols",
+   "Operating instructions or battery expiry not marked",
+   "Battery out of date or lanyard missing",
+   "SART not where required or defective",
+   "Incomplete inspection and test records"
+  ],
+  "say": "Our SMS sets regular inspection and self-test of each SART. I can show how to mount one in a survival craft, and what it looks like on a radar: a line of dots. Batteries are in date and stowage is marked.",
+  "practice": [
+   {
+    "q": "What would a SART look like on a rescue ship's radar?",
+    "a": [
+     "Series of equally spaced dots",
+     "Shows the position of the craft in distress",
+     "AIS-SART shows on AIS display instead"
+    ]
+   },
+   {
+    "q": "How often do you self-test it?",
+    "a": [
+     "As company procedure and maker say",
+     "Short test only, to save battery",
+     "Record the test"
+    ]
+   }
+  ],
+  "tip": "Practise the self-test on each type of SART you carry, since they work differently.",
+  "refs": [
+   "SOLAS III/6",
+   "SOLAS IV/7",
+   "IMO A.802(19)",
+   "IMO MSC.246(83)"
+  ]
+ },
+ {
+  "id": "4.4.3",
+  "title": "Survival craft portable VHF radios",
+  "plain": "Do officers know where the survival craft VHF radios are, how to use them, and that they are in good order with records?",
+  "why": "These handhelds are the link between lifeboats, rafts, the ship and rescuers.",
+  "who": {
+   "lead": [
+    "2o",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "co"
+   ]
+  },
+  "checks": [
+   "Company procedure for inspection, testing and non-emergency use",
+   "Records of inspection and tests",
+   "Enough radios on board, stowage marked with symbol and number",
+   "Colour or yellow/orange marking, operating instructions and battery expiry on the radio",
+   "Seal on primary battery intact, strap with weak link, clothing attachment",
+   "Controls so radios used on board are not taken into gas hazardous areas"
+  ],
+  "ready": [
+   "Survival craft VHF procedure including non-emergency use",
+   "GMDSS radio log book",
+   "Inspection and test records",
+   "Spare primary batteries, sealed and in date",
+   "Marked stowage location"
+  ],
+  "traps": [
+   "No procedure, or no guidance on non-emergency use",
+   "Officer unfamiliar with purpose, operation or testing",
+   "Too few radios",
+   "Stowage not marked with symbol and number",
+   "Radio or battery not yellow/orange or marked",
+   "Missing operating instructions",
+   "Battery past expiry or seal broken",
+   "Other batteries not clearly different from distress batteries",
+   "No clothing attachment or strap with weak link",
+   "Incomplete records or defective radios"
+  ],
+  "say": "The survival craft radios are tested to our SMS and logged. Distress batteries are sealed and in date. If we use them for shipboard work, our procedure keeps them out of gas hazardous areas.",
+  "practice": [
+   {
+    "q": "Where are the survival craft VHF radios kept?",
+    "a": [
+     "Marked stowage with symbol and number",
+     "Ready to go to the craft",
+     "Number as required for the ship"
+    ]
+   },
+   {
+    "q": "Can you use these for daily work?",
+    "a": [
+     "Yes, if procedure allows and frequencies suit",
+     "Not in gas hazardous areas unless intrinsically safe",
+     "Keep sealed distress battery for emergencies"
+    ]
+   }
+  ],
+  "tip": "Count radios and check seals at the same time as the monthly LSA inspection.",
+  "refs": [
+   "SOLAS III/6",
+   "IMO MSC.149(77)",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "4.4.4",
+  "title": "Distress, urgency and safety messages",
+  "plain": "Do officers know how to send and receive distress, urgency and safety messages, with instructions posted at the GMDSS station?",
+  "why": "In an emergency, correct and prompt messages bring help, and errors cost time.",
+  "who": {
+   "lead": [
+    "2o",
+    "master"
+   ],
+   "also": [
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure for emergency communications with responsibility assigned",
+   "Qualified GMDSS operator named in the emergency station bill",
+   "Instructions for sending distress and urgency messages posted at the equipment",
+   "IAMSAR Vol III, latest edition, at the GMDSS station",
+   "GMDSS log entries for received distress, urgency and safety messages",
+   "Officer explains how to send an alert and record messages"
+  ],
+  "ready": [
+   "Emergency communications procedure",
+   "Station bill naming the GMDSS operator",
+   "Posted instructions at the radio station",
+   "IAMSAR Vol III",
+   "GMDSS radio log book"
+  ],
+  "traps": [
+   "No procedure designating responsibility for distress communications",
+   "No qualified GMDSS operator named in the station bill",
+   "Instructions not displayed at the equipment",
+   "No IAMSAR Vol III at the station",
+   "Officer unfamiliar with procedure, watchkeeping requirements, how to send, or how to log messages"
+  ],
+  "say": "Our station bill names the GMDSS operator for a distress, and instructions are posted at the radio station. I know how to send a DSC distress alert and follow with a voice message, and I log all messages received. IAMSAR Vol III is at the console.",
+  "practice": [
+   {
+    "q": "How would you send a distress alert?",
+    "a": [
+     "Use DSC or other GMDSS equipment",
+     "Follow with a voice message on the associated frequency, such as VHF channel 16 or 2182 kHz",
+     "Take care to avoid false alerts"
+    ]
+   },
+   {
+    "q": "What do you do with a message you receive?",
+    "a": [
+     "Record it in the GMDSS log",
+     "Tell the Master",
+     "Act as per procedure and IAMSAR"
+    ]
+   }
+  ],
+  "tip": "Make sure the posted instructions are readable and match the equipment actually fitted.",
+  "refs": [
+   "ICS BPG 5th ed",
+   "IAMSAR Vol III",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.4.5",
+  "title": "GMDSS station operation and testing",
+  "plain": "Do officers know how to operate, test and maintain the GMDSS radios, and is the equipment in good order with records?",
+  "why": "GMDSS is the ship's link for distress and safety, and daily tests find faults before an emergency does.",
+  "who": {
+   "lead": [
+    "2o",
+    "eto"
+   ],
+   "also": [
+    "3o",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for operation, testing, maintenance and log keeping",
+   "Officer explains daily, weekly and monthly tests",
+   "GMDSS radio log, Form R or C record of equipment",
+   "Reserve battery locker, charging, and capacity test within 12 months",
+   "Shore-based maintenance agreement or other maintenance method",
+   "Aerials, GMDSS printer, radio station emergency lighting"
+  ],
+  "ready": [
+   "GMDSS procedure",
+   "GMDSS radio log book",
+   "Record of Equipment (Form R or C)",
+   "Reserve battery capacity test record",
+   "Shore-based maintenance records, in date",
+   "Printer paper in stock"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with operation",
+   "Cannot describe daily, weekly and monthly tests or no evidence they were done",
+   "Reserve batteries not charging correctly",
+   "No battery capacity test in last 12 months",
+   "Battery locker damaged batteries, not weather tight, poorly ventilated or with other items",
+   "No goggles, gloves, apron and eye-wash bottle at the locker where lead-acid or alkaline batteries are used",
+   "Log does not record all radio events",
+   "No shore-based maintenance evidence, or certificate expired",
+   "Equipment, printer, aerials or radio station lighting defective"
+  ],
+  "say": "We do GMDSS tests daily, weekly and monthly as per our SMS and log them. The reserve batteries are tested for capacity yearly. Our maintenance method is on record, and the log shows daily positions and any difficulties.",
+  "practice": [
+   {
+    "q": "What are the daily GMDSS tests?",
+    "a": [
+     "DSC function by built-in test",
+     "Battery supplies and charge condition",
+     "Log it, avoid false alerts"
+    ]
+   },
+   {
+    "q": "What is on a monthly test?",
+    "a": [
+     "EGC function",
+     "Condition and security of batteries",
+     "Condition of aerials and insulators"
+    ]
+   }
+  ],
+  "tip": "Check the battery locker PPE and ventilation at the monthly test, not just the batteries.",
+  "refs": [
+   "SOLAS IV/13",
+   "IMO A.702(17)",
+   "ICS BPG 5th ed",
+   "ISM Code 10"
+  ]
+ },
+ {
+  "id": "4.4.6",
+  "title": "Radio and mobile phone use during cargo and ballast",
+  "plain": "Does everyone know the danger of radios and mobile phones during cargo and ballast work, and are there enough intrinsically safe radios?",
+  "why": "Radio energy or a phone battery can make a spark in a gas area.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for radio and phone use in cargo and ballast work",
+   "No MF/HF transmissions, main antennae earthed or isolated",
+   "Fixed VHF/UHF on low power (one watt or less), portable radios one watt or less",
+   "Enough intrinsically safe portable radios in good order for cargo, ballast and bunkers",
+   "Phone restrictions shown at the gangway; non-intrinsically safe phones not outside accommodation",
+   "Any radio or radar repair raised at the pre-transfer conference"
+  ],
+  "ready": [
+   "Radio and phone procedure",
+   "Inventory of intrinsically safe VHF/UHF radios",
+   "Certificates for any intrinsically safe phones used outside accommodation",
+   "Phone rule notice at the gangway",
+   "Damaged radios withdrawn and marked"
+  ],
+  "traps": [
+   "No procedure, or Master, officer or rating unfamiliar with it",
+   "Too few intrinsically safe radios in working order",
+   "MF/HF repair or service not discussed at the pre-transfer conference",
+   "MF/HF transmissions during cargo or ballast",
+   "Main antennae not earthed or isolated",
+   "Fixed VHF/UHF not on low power",
+   "Portable radio over one watt, or a damaged radio used",
+   "Phone rules not shown at the gangway",
+   "Ordinary phone used outside accommodation, or intrinsically safe phone not marked or certified"
+  ],
+  "say": "At the berth we make no MF/HF transmissions and the antennae are earthed or isolated. Fixed VHF is on low power and our portable radios are intrinsically safe at one watt or less. Ordinary mobile phones stay inside the accommodation.",
+  "practice": [
+   {
+    "q": "Why are MF/HF transmissions banned alongside?",
+    "a": [
+     "Radiated energy can induce a spark",
+     "Unearthed rigging or insulator arcing risk",
+     "Antennae earthed or isolated"
+    ]
+   },
+   {
+    "q": "Where can phones be used?",
+    "a": [
+     "Non-intrinsically safe phones only in accommodation",
+     "Notice at gangway",
+     "Intrinsically safe phones only if marked and certified"
+    ]
+   }
+  ],
+  "tip": "Check the radio count and condition at each pre-arrival check, not only at the pre-transfer conference.",
+  "refs": [
+   "ISGOTT 6",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "4.5.1",
+  "title": "Annual DP trial report and drills",
+  "plain": "Is the latest annual DP trial report on board, do officers know it, and have they done DP scenario drills?",
+  "why": "The trial proves the DP system still works and keeps its redundancy, and drills prepare the team for a real failure.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure for annual DP trials",
+   "Latest and previous trial reports on board",
+   "Trial within three months either side of the anniversary of the first FMEA proving trial",
+   "Report has findings list, close-out actions and a fitness statement for the DP class",
+   "Records of onboard DP training and drills",
+   "Officer explains the trial procedure and report contents"
+  ],
+  "ready": [
+   "Latest and earlier annual DP trial reports",
+   "Findings list with close-out records",
+   "Evidence of independent, competent witness",
+   "PMS test sheets, signed, if testing is a rolling programme",
+   "Records of DP scenario drills and training"
+  ],
+  "traps": [
+   "No procedure on annual DP trials",
+   "Latest or earlier reports not on board",
+   "Trial outside the three-month window, or date not reset after a new FMEA proving trial",
+   "No evidence of a competent independent witness",
+   "Rolling programme with no independent scrutiny, or incomplete and unsigned test sheets",
+   "Category A findings not shown as fixed, or findings open with no close-out or not in the SMS",
+   "No fitness statement or no findings list in the report",
+   "No evidence of DP drills",
+   "Officer unfamiliar with procedure or report"
+  ],
+  "say": "Our SMS sets the annual DP trial within three months of the anniversary date, with an independent witness. The latest report with its findings and close-outs is on board. We use the findings in our DP scenario drills, and records are kept.",
+  "practice": [
+   {
+    "q": "When must the annual DP trial be done?",
+    "a": [
+     "Within three months before or after the anniversary",
+     "Reset after a new FMEA proving trial",
+     "Also after changes to the DP system"
+    ]
+   },
+   {
+    "q": "What is in the report that matters to you?",
+    "a": [
+     "Findings and close-out status",
+     "Statement the vessel is fit for its DP class",
+     "Lessons used in drills"
+    ]
+   }
+  ],
+  "tip": "Review the open findings from the last report before the inspection so you can say how each was closed.",
+  "refs": [
+   "IMCA M 190",
+   "IMO MSC.1/Circ.1580",
+   "IMCA M 117",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "4.5.2",
+  "title": "DP position reference systems",
+  "plain": "Do officers know the company procedures for position reference systems (PRS), and are the sensors in good order with offset data to hand?",
+  "why": "DP only holds position if its position references are reliable, independent and correctly set up.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "3o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedures for PRS use at each offtake location",
+   "At least three different working PRS available to the DPO on offtake",
+   "Two independent differential satellite systems",
+   "PRS controls within easy reach of the DP control station",
+   "Sensor offset file with common reference point and sign convention",
+   "DP logbook and data log for PRS faults"
+  ],
+  "ready": [
+   "PRS procedures or field operator procedures",
+   "Sensor offset data file, updated after any sensor move",
+   "DP logbook",
+   "DP data log",
+   "Records of system or sensor changes with dates"
+  ],
+  "traps": [
+   "No procedures for PRS use at each offtake location",
+   "Officer unfamiliar with them",
+   "A PRS not in satisfactory condition",
+   "Fewer than three different working PRS on DP2 or DP3 during an offtake",
+   "Fewer than two independent differential satellite systems",
+   "PRS controls out of reach of the DP station",
+   "Offsets not filed or not readily available to DPOs"
+  ],
+  "say": "Our procedures and the field manual set which PRS we use at each location, and we keep at least three different working systems on offtake. The offset file is at the DP desk, measured from the common reference point, and updated when a sensor is moved.",
+  "practice": [
+   {
+    "q": "How many position references do you need on offtake?",
+    "a": [
+     "At least three different types",
+     "Not all based on the same principle",
+     "Two independent differential satellite systems"
+    ]
+   },
+   {
+    "q": "Where are the sensor offsets?",
+    "a": [
+     "Filed and at the DP control station",
+     "Measured from common reference point",
+     "Updated after any sensor change"
+    ]
+   }
+  ],
+  "tip": "Mark the common reference point and sign convention on the offset sheet so any DPO reads it the same way.",
+  "refs": [
+   "OCIMF Offshore Tanker Guidelines",
+   "IMO MSC.1/Circ.1580",
+   "IMCA sensor sharing guidance",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.5.3",
+  "title": "DP events and incidents",
+  "plain": "Do officers know how to record, report and investigate DP events, and are DP parameters logged?",
+  "why": "Loss of position incidents repeat unless events are reported, investigated and the lessons are shared.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "ce",
+    "2e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for recording, reporting and investigating DP incidents, undesired events and observations",
+   "Records of events and the DP fault log kept on board",
+   "Independent data logger fitted, working, data kept at least one year",
+   "If no independent logger: procedure to secure data after an incident",
+   "System to share lessons from events",
+   "Investigations closed out in reasonable time"
+  ],
+  "ready": [
+   "DP event reporting procedure (ISM or IMCA M 103 method)",
+   "DP incident and event reports with close-outs",
+   "DP fault log",
+   "Independent data logger records for a minimum of one year",
+   "Evidence of experience transfer"
+  ],
+  "traps": [
+   "No procedure for recording, reporting and investigating",
+   "Events not reported by ISM or IMCA M 103 method",
+   "Reports not kept on board",
+   "Investigation not closed in reasonable time",
+   "DP fault records not kept on board",
+   "Logger data kept less than one year",
+   "No independent logger and no procedure to secure data",
+   "Logger defective",
+   "No system to share lessons",
+   "Officer unfamiliar with the procedure"
+  ],
+  "say": "We record DP incidents, undesired events and observations, and report them through our SMS or IMCA M 103. Reports and the fault log stay on board. Logger data is kept for at least a year, and lessons are shared across the fleet.",
+  "practice": [
+   {
+    "q": "What is a DP undesired event?",
+    "a": [
+     "System or human failure causing loss of redundancy",
+     "Or compromised DP capability",
+     "Different from an incident, which is total loss of DP"
+    ]
+   },
+   {
+    "q": "What do you do after an event?",
+    "a": [
+     "Secure the data",
+     "Report as company procedure says",
+     "Investigate and close out actions"
+    ]
+   }
+  ],
+  "tip": "Report observations too, since reporting small events is what lets the company spot patterns.",
+  "refs": [
+   "IMCA M 103",
+   "OCIMF Offshore Tanker Guidelines",
+   "Norwegian Oil and Gas Guideline 140",
+   "ISM Code 9"
+  ]
+ },
+ {
+  "id": "4.5.4",
+  "title": "DP operations manual",
+  "plain": "Is there a full DP operations manual, and do officers know its checklists, capability plots, consequence analysis and ASOG?",
+  "why": "The manual tells the DP team what to do in each condition and after a failure, so decisions are made before trouble starts.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "ce",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Vessel-specific manual at the DP control station",
+   "Completed location and watchkeeping checklists",
+   "Hard copy capability plots at the DP control location",
+   "DP footprint records compared with capability plots",
+   "Risk assessments for specific operations and locations",
+   "Officer explains capability plots, footprints, consequence analysis and ASOG"
+  ],
+  "ready": [
+   "DP operations manual in a language the DPOs understand",
+   "Completed DP checklists",
+   "Hard copy capability plots",
+   "DP footprint records",
+   "DP risk assessments, reviewed after changes",
+   "Consequence analysis software on DP2 or DP3"
+  ],
+  "traps": [
+   "No manual on board, or not vessel specific",
+   "Not in a language DP operators understand",
+   "Manual missing checklists, instructions, risk assessment reviews or guidance on plots, footprints, consequence analysis and ASOG",
+   "Officer unfamiliar with contents",
+   "Checklists not completed, or no risk assessments for operations or locations",
+   "Manual or plots not readily at the DP station, no hard copy plots",
+   "No footprint plots to compare",
+   "No consequence analysis on DP2 or DP3",
+   "No risk assessment after a DP component failure before resuming"
+  ],
+  "say": "The vessel-specific DP manual and hard copy capability plots are at the DP station. We complete the location and watchkeeping checklists and review risk assessments when locations or sensors change. Our ASOG sets generator numbers and power policy for each activity.",
+  "practice": [
+   {
+    "q": "What does consequence analysis tell you?",
+    "a": [
+     "Checks that the vessel keeps position after worst-case failure",
+     "Alarm if thrust would be insufficient",
+     "Based on current weather inputs"
+    ]
+   },
+   {
+    "q": "What is ASOG?",
+    "a": [
+     "Activity specific operating guidelines",
+     "Sets generators online, power use and standby policy",
+     "Used as a decision support tool"
+    ]
+   }
+  ],
+  "tip": "Keep the capability plots for each location at the DP desk in hard copy, with the footprint plots next to them.",
+  "refs": [
+   "IMCA M 103",
+   "IMO MSC.1/Circ.1580",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "4.5.5",
+  "title": "Field operations manuals",
+  "plain": "Are current field operations manuals on board for each offshore terminal, and are regular communication checks recorded?",
+  "why": "Each field has its own rules, limits and contacts, and acting on old or missing information is dangerous.",
+  "who": {
+   "lead": [
+    "master",
+    "2o"
+   ],
+   "also": [
+    "co",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company procedure to keep the latest editions on board",
+   "Manual on board for each terminal the vessel trades to",
+   "Officer knows the contents, FSOG, contact numbers, call signs and channels",
+   "Officer explains how to check the manual is the latest edition",
+   "Records of regular communication checks required by FSOG at the last terminal"
+  ],
+  "ready": [
+   "Procedure for keeping manuals current",
+   "Latest field operations manual for each terminal",
+   "FSOG for each field",
+   "Contact numbers, call signs and channels, operational and emergency",
+   "Records of communication checks from the last visit"
+  ],
+  "traps": [
+   "No procedure to ensure latest editions",
+   "No manual for a terminal the vessel trades to",
+   "Officer unfamiliar with how to confirm the edition is the latest",
+   "Officer unfamiliar with contents, FSOG, contacts and channels for the last terminal",
+   "No communication check records at the last terminal"
+  ],
+  "say": "Our SMS makes sure we hold the latest field manual for each terminal we visit, and I confirm the edition before arrival. I know the FSOG, the contact details, call signs and channels, and the communication checks are logged during the operation.",
+  "practice": [
+   {
+    "q": "How do you know this manual is current?",
+    "a": [
+     "Check edition with the company or field operator",
+     "Follow the procedure for updates",
+     "Replace the old copy"
+    ]
+   },
+   {
+    "q": "What communication checks does the FSOG require?",
+    "a": [
+     "Regular prescribed checks with the installation",
+     "State the interval in the FSOG",
+     "Record each check"
+    ]
+   }
+  ],
+  "tip": "Keep a one-page list of channels and emergency contacts for each field at the bridge desk.",
+  "refs": [
+   "OCIMF Offshore Tanker Guidelines",
+   "ISM Code 11"
+  ]
+ }
+]

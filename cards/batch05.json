@@ -1,0 +1,2061 @@
+[
+ {
+  "id": "5.7.6",
+  "title": "Risk assessments for new, non-routine, unplanned or specified tasks",
+  "plain": "Do officers and ratings know the risk assessment procedure, and are risk assessments made and reviewed as the procedure says?",
+  "why": "Jobs with no written procedure, and high-risk jobs like enclosed space entry, injure people when nobody stops to think first.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure: when to make a new risk assessment and when to review one",
+   "Two sample risk assessments from the last three months",
+   "Whether each one fits our ship, our equipment and the actual job",
+   "Whether it was approved at the level the procedure says",
+   "Questions to a senior officer and to a rating who took part"
+  ],
+  "ready": [
+   "Risk assessment procedure and the standard recording form",
+   "All risk assessments from the last three months",
+   "Approval signatures at the correct management level",
+   "Records showing the crew reviewed the assessment before starting work",
+   "Date of last assessment, if none in three months"
+  ],
+  "traps": [
+   "Generic library risk assessment not adjusted to our ship or equipment",
+   "Assessment not approved at the level the company procedure requires",
+   "Specified task (hot work, enclosed space, working aloft) done without reviewing the assessment",
+   "New or unplanned job done with no risk assessment at all",
+   "Rating cannot say what the risk assessment for his job said",
+   "Procedure does not say who completes, approves or reviews the assessment"
+  ],
+  "say": "Under our SMS, any new, non-routine or unplanned job gets a risk assessment before work starts. For jobs like enclosed space entry, working aloft or hot work outside the workshop, we review the existing assessment with the team first. We record it on the company form and it is approved at the level the procedure requires.",
+  "practice": [
+   {
+    "q": "When do you need a new risk assessment, and when do you only review one?",
+    "a": [
+     "New: any new, non-routine or unplanned task with no procedure",
+     "Review: specified tasks such as enclosed space entry, hot work, working aloft or over the side",
+     "Both are done before work starts"
+    ]
+   },
+   {
+    "q": "Who takes part and who approves it?",
+    "a": [
+     "A team, not one person, with suitable training and experience",
+     "Approval at the level set in the company procedure",
+     "Crew doing the job review it before starting"
+    ]
+   },
+   {
+    "q": "(To a rating) Were you told about the risk assessment for this job?",
+    "a": [
+     "Say what the hazards were",
+     "Say what controls were agreed",
+     "Say that you reviewed it before starting"
+    ]
+   }
+  ],
+  "tip": "Take a library risk assessment and edit it for the real job: name the actual equipment and the actual hazards before it goes for approval.",
+  "refs": [
+   "ISM Code 1.2.2",
+   "ISGOTT 6 ch 4.2.2",
+   "IACS Rec 127",
+   "MCA Code of Safe Working Practices 1.25"
+  ]
+ },
+ {
+  "id": "5.7.7",
+  "title": "Safety Data Sheets",
+  "plain": "Is a Safety Data Sheet on board for every cargo, bunker, chemical and paint, and do crew know how to use it?",
+  "why": "Without the right data sheet, crew do not know the health hazards, PPE or first aid for what they are handling.",
+  "who": {
+   "lead": [
+    "co",
+    "ce"
+   ],
+   "also": [
+    "2o",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "SDS for the cargo and bunkers on board during the inspection",
+   "SDS kept at each store where chemicals and paints are kept",
+   "PPE, first aid and eyewash at those storage places",
+   "How containers are stowed, labelled and closed",
+   "Whether the officer knows what the SDS is for and what it says"
+  ],
+  "ready": [
+   "SDS for all cargoes and every grade of bunkers",
+   "SDS for hydraulic oils, lube oils, paints, coatings, thinners and chemicals",
+   "SDS posted or kept close to where each product is stored",
+   "Company procedure for keeping SDS up to date",
+   "Cargo SDS in the format required by MSC.286(86) for Annex I cargo and fuel oil"
+  ],
+  "traps": [
+   "No SDS for the cargo or fuel oil on board",
+   "Annex I cargo or fuel oil SDS not in MSC.286(86) format",
+   "Benzene cargo SDS not meeting MSC.286(86)",
+   "Annex II or gas cargo SDS missing the safe carriage information",
+   "No local SDS at a chemical or paint store",
+   "No PPE, first aid or eyewash at the storage place",
+   "Unmarked, wrongly marked or unsuitable containers, or incompatible products stowed together",
+   "Officer does not know the purpose or content of the SDS"
+  ],
+  "say": "Our procedure requires an up to date SDS for every cargo, bunker, oil, paint and chemical we carry. They are kept at the point of use and the cargo and bunker SDS are in the cargo office. Everyone who handles a product knows to read the SDS for hazards, PPE and first aid before use.",
+  "practice": [
+   {
+    "q": "What does this SDS tell you about the hazards and first aid?",
+    "a": [
+     "Show the hazard section and any toxic parts such as H2S or benzene",
+     "Show the PPE required",
+     "Show the first aid and spill action"
+    ]
+   },
+   {
+    "q": "What do you do if a chemical comes on board with no SDS?",
+    "a": [
+     "Isolate it and store it as the container says",
+     "Do not use it until proper information is available",
+     "Report it and get the SDS"
+    ]
+   },
+   {
+    "q": "Where do you keep the SDS for paints and chemicals?",
+    "a": [
+     "At or near the storage place",
+     "Printed on container, or posted where users can see it"
+    ]
+   }
+  ],
+  "tip": "Walk every store before the inspection and match each product on the shelf to an SDS in the folder. Anything with no sheet gets isolated.",
+  "refs": [
+   "SOLAS VI/5-1",
+   "MSC.286(86)",
+   "ISGOTT 6 1.4.4 and 13.2.1",
+   "IBC/IGC Code"
+  ]
+ },
+ {
+  "id": "5.7.8",
+  "title": "Simultaneous Operations (SIMOPS) procedure",
+  "plain": "Do the crew know the SIMOPS procedure, and did we plan for jobs happening at the same time with controls in place?",
+  "why": "Two jobs together, such as repairs during cargo work, create risks that neither job shows alone.",
+  "who": {
+   "lead": [
+    "co",
+    "2o"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company SIMOPS procedure and its definition",
+   "Decision matrix and matrix of permitted operations, if you use them",
+   "Work planning meeting records, risk assessments and SIMOPS plans",
+   "How an officer explains SIMOPS on this ship",
+   "How a rating is told about SIMOPS and what he must do"
+  ],
+  "ready": [
+   "SIMOPS procedure",
+   "Decision matrix and matrix of permitted operations, if part of the procedure",
+   "Daily work planning meeting records",
+   "SIMOPS risk assessments from the last three months",
+   "SIMOPS plans or interface documents and the Bridge Log Book",
+   "Date of last documented SIMOPS if none in three months"
+  ],
+  "traps": [
+   "No SIMOPS procedure",
+   "Officer does not know the procedure or the matrices",
+   "No record that SIMOPS was considered in work planning",
+   "Controls not recorded in meeting notes, risk assessments or plans",
+   "SIMOPS happening without the required review and records",
+   "A SIMOPS the procedure specifically prohibits was taking place",
+   "Rating does not know the term SIMOPS or his own duty during it"
+  ],
+  "say": "SIMOPS means activities happening at the same time or place that can affect each other's safety. We raise them in the daily work planning meeting, risk assess the combined job, and use our matrix to see if it is allowed, restricted or not permitted. Toolbox talks make sure everyone knows the controls.",
+  "practice": [
+   {
+    "q": "What is SIMOPS and can you give an example on this ship?",
+    "a": [
+     "Activities at the same time or in the same area that affect each other",
+     "Example: maintenance or bunkering during cargo operations",
+     "Avoid it where practicable, manage it where not"
+    ]
+   },
+   {
+    "q": "How do you decide if two jobs can go together?",
+    "a": [
+     "Use the decision matrix and the matrix of permitted operations",
+     "Risk assess the combined job",
+     "Approval at the level the procedure states"
+    ]
+   },
+   {
+    "q": "(To a rating) What do you do when SIMOPS are ongoing?",
+    "a": [
+     "Stay focused on your own task",
+     "Follow the controls from the toolbox talk",
+     "Stop and report if something changes"
+    ]
+   }
+  ],
+  "tip": "Write SIMOPS in the daily work plan every time, even when you decide the jobs can go ahead. That entry is your proof.",
+  "refs": [
+   "ISM Code 7",
+   "ISGOTT 6 ch 4.6",
+   "TMSA KPI 9.2.4"
+  ]
+ },
+ {
+  "id": "5.8.1",
+  "title": "Safety inspection of the main deck and mooring areas",
+  "plain": "Do officers know the main deck safety inspection procedure, and do the inspections really find hazards?",
+  "why": "The main deck is where slips, leaks, poor lighting and damaged mooring gear cause injuries and spills.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedure for deck safety inspections by the designated Safety Officer",
+   "Inspection records and checklists",
+   "Deck lights tested, even in daylight",
+   "Walk of the main deck and mooring areas for anything inspections should have caught",
+   "Officer's knowledge of the checklist items"
+  ],
+  "ready": [
+   "Company procedure and the main deck checklist",
+   "Completed inspection records at the set intervals",
+   "Working deck lighting at all areas",
+   "Marked non-skid areas and trip hazards",
+   "Mooring fittings marked with SWL in tonnes",
+   "Drums and stores lashed on pallets, away from deck fittings"
+  ],
+  "traps": [
+   "No checklist, or records missing or incomplete",
+   "No non-skid coating on walkways and working areas, or areas not marked",
+   "Trip hazards not marked with contrasting paint",
+   "Cracked or broken light fittings, gaps in flameproof enclosures, paint over relief holes",
+   "Leaks from cargo, heating, inert gas or hydraulic systems",
+   "Deck lights out or lighting too poor for mooring or spill watch",
+   "Fairleads and rollers seized, or grooved and rough with synthetic lines",
+   "SWL not marked in tonnes by weld bead outline",
+   "Flammable liquids in a deck house not designed for it, or loose drums on deck"
+  ],
+  "say": "The Safety Officer inspects the main deck and mooring areas at the intervals in our procedure, using the company checklist. We record and close out each finding. Today you will see lights working, walkways marked and mooring gear free to turn, because we check these on every round.",
+  "practice": [
+   {
+    "q": "What do you check on the main deck during your safety inspection?",
+    "a": [
+     "Non-skid, markings and trip hazards",
+     "Leaks, lighting and electrical fittings",
+     "Mooring fittings, fairleads and SWL markings",
+     "Weathertight doors and stowage of drums and stores"
+    ]
+   },
+   {
+    "q": "What do you do with a finding?",
+    "a": [
+     "Record it on the checklist",
+     "Fix it or raise the job",
+     "Follow up until closed"
+    ]
+   },
+   {
+    "q": "Why must deck lighting be tested?",
+    "a": [
+     "Safe access and mooring work",
+     "Spotting spills and leaks",
+     "Watching for unauthorised access"
+    ]
+   }
+  ],
+  "tip": "Do one walk at night with the deck lights on. You will find dark spots and broken fittings that daylight hides.",
+  "refs": [
+   "ISM Code 7",
+   "ISGOTT 6 4.8.2",
+   "MEG4 5.7 and 7.3.7",
+   "TMSA KPI 9A.1.1"
+  ]
+ },
+ {
+  "id": "5.8.2",
+  "title": "Safety inspection of the machinery space",
+  "plain": "Do officers know the machinery space safety inspection procedure, and do inspections find hazards before the inspector does?",
+  "why": "Oil leaks, hot surfaces, loose plates and tied-open fire doors are the main fire and injury risks in an engine room.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e",
+    "eto",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedure for machinery space safety inspections and the checklist",
+   "Inspection records",
+   "Walk through purifier room, workshops, steering gear, boiler room and stores",
+   "Lagging, guards, leaks, bilges, floor plates and fire doors",
+   "Officer explaining a few checklist items"
+  ],
+  "ready": [
+   "Company procedure, machinery space checklist and completed records",
+   "Covered metal bins for rags, emptied often",
+   "Lagging in place and free of oil",
+   "Guards on all rotating machinery",
+   "Clean light-coloured tank tops and bilges",
+   "Fire doors free of tiebacks, wedges or hooks, especially to the steering gear"
+  ],
+  "traps": [
+   "Checklist or records missing or incomplete",
+   "Paint, solvents, oil or wood stored in machinery space or steering gear room",
+   "Lagging missing, damaged or soaked in oil",
+   "Oil leaks, waste oil in bilges or save-alls, rubbish in bilges",
+   "Floor plates removed with open holes, or loose and uneven",
+   "Guards missing, spare gear or tools left near switchboards, batteries or steering rams",
+   "Gauge glass closing devices inhibited, or sounding caps missing",
+   "Fire doors held open with wedges or hooks",
+   "Broken lights, missing signs, pipelines not colour coded or labelled"
+  ],
+  "say": "The designated Safety Officer inspects the machinery spaces at the interval in our procedure, using the company checklist. We look at leaks, lagging, guards, bilges, floor plates and fire doors, and we record and close each finding. I can show you any item on the checklist.",
+  "practice": [
+   {
+    "q": "Why must fire doors to the steering gear room not be tied open?",
+    "a": [
+     "They are self-closing fire protection",
+     "Machinery space fires are a high risk",
+     "Wedges, hooks and tiebacks are not approved"
+    ]
+   },
+   {
+    "q": "What do you look for on hot surfaces?",
+    "a": [
+     "Lagging in place and in good condition",
+     "Free from oil",
+     "Particularly near oil systems"
+    ]
+   },
+   {
+    "q": "What would you check around the bilges and tank tops?",
+    "a": [
+     "No waste oil built up",
+     "Painted light colour to show leaks",
+     "No rubbish blocking the mud boxes"
+    ]
+   }
+  ],
+  "tip": "Do your own walk-round the day before, starting at the steering gear and ending in the purifier room. Check fire doors, floor plates and gauge glasses first.",
+  "refs": [
+   "ISM Code 7",
+   "SOLAS",
+   "MCA Code of Safe Working Practices 5.5 and 20",
+   "ICS Engine Room Procedures Guide 11.14"
+  ]
+ },
+ {
+  "id": "5.8.3",
+  "title": "Safety inspections of the cargo pumproom",
+  "plain": "Do officers know the pumproom safety inspection procedure, and do the inspections catch hazards in the pumproom?",
+  "why": "A pumproom can hold flammable gas, so a leak, a bad light or a failing fan can lead to fire or explosion.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedure for pumproom safety inspections and the checklist",
+   "Inspection records",
+   "Pumproom walk: lights, ventilation, bilges, leaks, guards, rescue harness",
+   "Entry procedures posted at the entrance",
+   "Officer explaining checklist items"
+  ],
+  "ready": [
+   "Company procedure, pumproom checklist and completed records",
+   "Entry procedure at the door that matches the SMS enclosed space entry procedure",
+   "Lights and flameproof fittings in good condition",
+   "Ventilation on extraction, interlocked with lights, lower suctions open",
+   "Clean dry bilges and no flammable stores",
+   "Rescue harness rigged ready, safety chains in place, emergency stops marked, telephone working"
+  ],
+  "traps": [
+   "Records or checklist missing, or officer unfamiliar with the checks",
+   "Lights not working, or cracked glass, missing bolts or gaskets on flameproof fittings",
+   "Ventilation not on extraction, not interlocked with lights, or wrong suctions open",
+   "Fans noisy or vibrating",
+   "Wet or dirty bilges, or cargo drained to the pumproom bilge",
+   "Leaks from pumps, lines or glands, or bandage repairs on pipes",
+   "Spray shields missing, bulkhead seals defective, shafts unguarded",
+   "Paint or flammables stored, loose items, oil-soaked lagging",
+   "Rescue harness not ready, safety chains missing, emergency stops unmarked, telephone defective"
+  ],
+  "say": "The Safety Officer inspects the pumproom at the interval in our procedure, using the company checklist, and records the result. Before entry we follow the enclosed space procedure in our SMS. I can show you ventilation, lighting, bilges, rescue gear and emergency stops.",
+  "practice": [
+   {
+    "q": "How should pumproom ventilation be working during cargo operations?",
+    "a": [
+     "Mechanical extraction running",
+     "Interlocked with the pumproom lights",
+     "Lower suctions open"
+    ]
+   },
+   {
+    "q": "Can you drain line contents to the pumproom bilge?",
+    "a": [
+     "No, it is an unsafe practice",
+     "Volatile product should not go to the bilge"
+    ]
+   },
+   {
+    "q": "What rescue arrangements must be ready at the pumproom?",
+    "a": [
+     "Rescue harness and rope rigged for immediate use",
+     "Checked regularly",
+     "Escape routes marked and clear"
+    ]
+   }
+  ],
+  "tip": "The entry procedure posted at the pumproom door must be in line with the SMS enclosed space entry procedure. Compare them before the inspection.",
+  "refs": [
+   "ISM Code 7",
+   "ISGOTT 6 4.11.7 and 12.1.15",
+   "MSC.1/Circ.1321 Part IV",
+   "TMSA KPI 9A.1.1"
+  ]
+ },
+ {
+  "id": "5.8.4",
+  "title": "Cargo machinery rooms safety inspections",
+  "plain": "Do officers know the safety inspection procedure for cargo compressor and motor rooms, and do inspections find hazards?",
+  "why": "Cargo vapour can collect in compressor rooms, so ventilation, airlocks and seals must work or gas and fire become a risk.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Procedure for cargo machinery room inspections and the checklist",
+   "Inspection records and airlock alarm and shutdown test records",
+   "Entry and ventilation notices at the entrance",
+   "Ventilation pressure, fans, gas sampling heads and airlock condition",
+   "Officer explaining checklist items"
+  ],
+  "ready": [
+   "Company procedure, checklist and completed records",
+   "Records of airlock audible and visual alarm and shutdown tests",
+   "Entry and ventilation requirements posted at the entrance",
+   "Gas sampling heads set for the cargo carried",
+   "Bulkhead seal lubricator reservoirs topped up (or nitrogen seal working on LNG)",
+   "Oxide cargoes: compressor piping blanked or isolated"
+  ],
+  "traps": [
+   "No entry or ventilation notice at the entrance",
+   "Compressor room not at negative pressure, motor room or airlock not at positive pressure",
+   "Noisy or vibrating fans, blocked inlet or outlet grilles",
+   "Gas leak in the compressor room",
+   "Gas sampling heads or ventilation points wrongly set for the cargo, officer unsure where they are",
+   "Airlock alarms not working, no test records, damaged door seals, doors held open",
+   "Damaged or modified electrical fittings, cracked flameproof enclosures",
+   "Bulkhead seal lube reservoir low, unguarded shafts, flammables or loose items in the room",
+   "Blocked drainage, or compressors not isolated on Ethylene or Propylene Oxide cargo"
+  ],
+  "say": "The Safety Officer inspects our cargo machinery rooms at the interval in the procedure using the company checklist. We test the airlock alarms and shutdowns and keep the records. Gas sampling heads are set for the cargo on board and I can show you where they are.",
+  "practice": [
+   {
+    "q": "What ventilation precautions apply before cargo operations?",
+    "a": [
+     "Fans running at least 10 minutes before cargo operations",
+     "Continue throughout operations",
+     "Run also if a leak is suspected"
+    ]
+   },
+   {
+    "q": "Why do airlock alarms and shutdowns get tested?",
+    "a": [
+     "Loss of ventilation pressure can let vapour in",
+     "Shutdown stops machinery when pressure is lost",
+     "Records prove regular testing"
+    ]
+   },
+   {
+    "q": "How are gas sampling heads set?",
+    "a": [
+     "High or low according to cargo vapour density",
+     "Lighter or heavier than air",
+     "Officer must know their location and status"
+    ]
+   }
+  ],
+  "tip": "Know where each gas sampling head is and which way the changeover is set for the cargo on board. An officer who cannot point to them is a negative observation.",
+  "refs": [
+   "ISM Code 7",
+   "IGC Code 3.3",
+   "ICS Tanker Safety Guide (Gas) 2.11 and 8.5",
+   "TMSA KPI 9A.1.1"
+  ]
+ },
+ {
+  "id": "5.8.5",
+  "title": "Safety inspection of the forecastle spaces",
+  "plain": "Do officers know the forecastle safety inspection procedure, and do the inspections catch problems in the forecastle?",
+  "why": "Forecastle spaces are wet, remote and contain enclosed spaces like chain lockers, so hazards are easily missed.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedure for forecastle inspections and the checklist",
+   "Inspection records",
+   "Weathertight doors, lighting, water, tidiness and stowage",
+   "Marking and closure of chain lockers and connected spaces",
+   "Starter panels and anchor wash lines for leaks"
+  ],
+  "ready": [
+   "Company procedure, forecastle checklist and completed records",
+   "Weathertight door that closes and secures properly",
+   "Good lighting, dry and tidy space",
+   "Stores secured, no flammable liquids",
+   "Clear access to bitter end, safety equipment and bilge wells and alarms",
+   "Chain locker and thruster room entrances marked as enclosed spaces with entry controls"
+  ],
+  "traps": [
+   "Checklist or records missing, officer unfamiliar with checks",
+   "Weathertight door damaged or not able to be secured",
+   "Dark, wet, dirty or untidy space",
+   "Loose stores or spare parts",
+   "Flammable liquids stored in a forecastle not designed for them",
+   "Access to bitter end, bilge wells or safety equipment blocked",
+   "Chain locker not marked as an enclosed space or door not closed",
+   "Thruster room or pumproom entry controls not marked",
+   "Starter panels exposed to leaks, or leakage from anchor wash sea water lines"
+  ],
+  "say": "The Safety Officer inspects the forecastle at the interval in our procedure, using the company checklist. We check the door, lighting, leaks, stowage and enclosed space marking. Chain lockers and thruster spaces are marked and kept closed.",
+  "practice": [
+   {
+    "q": "Which spaces near the forecastle are enclosed spaces?",
+    "a": [
+     "Chain lockers",
+     "Thruster spaces and connected pumprooms",
+     "Marked, closed or otherwise secured against entry"
+    ]
+   },
+   {
+    "q": "What can you not store in the forecastle?",
+    "a": [
+     "Packaged petroleum or flammable liquids",
+     "Unless the space is designed and classified for it"
+    ]
+   },
+   {
+    "q": "What do you check for leaks in the space?",
+    "a": [
+     "Anchor wash sea water lines and flanges",
+     "Water reaching starter panels",
+     "Door seal condition"
+    ]
+   }
+  ],
+  "tip": "Look at the deckhead under the anchor wash line. Wet marks or rust trails show a leak, and inspectors look for that first.",
+  "refs": [
+   "ISM Code 7",
+   "ISGOTT 6 10.3 and 13.5.7",
+   "MCA Code of Safe Working Practices 2.5",
+   "TMSA KPI 9A.1.1"
+  ]
+ },
+ {
+  "id": "5.8.6",
+  "title": "Safety inspections of the accommodation spaces",
+  "plain": "Do officers know the accommodation safety inspection procedure, and do inspections find fire and safety hazards?",
+  "why": "Accommodation fires start from overloaded sockets, lint in dryers and clutter, and the crew sleep there.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Procedure for accommodation inspections and the checklist",
+   "Inspection records and records of refrigerated room alarm tests",
+   "Cabins, public spaces, laundry, galley, pantries, stores and hospital",
+   "Sockets, electrical equipment, smoking rules",
+   "Weathertight doors, windows and portholes"
+  ],
+  "ready": [
+   "Company procedure, accommodation checklist and completed records",
+   "Weekly test records for the cold room alarm (and inside release)",
+   "Clean laundry and dryer vents free of lint",
+   "Hospital free for immediate use, not used as cabin or store",
+   "No overloaded sockets or damaged electrical items",
+   "Weathertight doors, windows and portholes that secure properly"
+  ],
+  "traps": [
+   "Checklist or records missing",
+   "Dirty, untidy, dark or obstructed spaces",
+   "Overloaded sockets or poor electrical equipment",
+   "Smoking rules not followed",
+   "Piles of clothing or lint in laundry or dryer vents",
+   "Weathertight door, window or porthole not closing properly",
+   "Hospital used as a cabin or storeroom",
+   "Refrigerated room alarm not working or not tested regularly"
+  ],
+  "say": "The Safety Officer inspects the accommodation at the interval in our procedure, using the company checklist. We look at electrical items, laundry, galley, stores, hospital and the cold room alarm. The cold room alarm is tested regularly and recorded.",
+  "practice": [
+   {
+    "q": "What are common causes of fires in accommodation?",
+    "a": [
+     "Faulty or overloaded electrics",
+     "Careless smoking",
+     "Galley oil fires, lint in dryers, damp stored linen"
+    ]
+   },
+   {
+    "q": "How do you make sure someone is safe in the cold room?",
+    "a": [
+     "Door opens from both sides and there is an alarm inside",
+     "Alarm and inside release tested at least weekly",
+     "Tell someone and take the padlock inside"
+    ]
+   },
+   {
+    "q": "What should the ship's hospital be used for?",
+    "a": [
+     "Ready for immediate use",
+     "Not an extra cabin or a store"
+    ]
+   }
+  ],
+  "tip": "Keep dryer lint traps and vents clean and check them on safety rounds. Lint build-up is an easy finding to avoid.",
+  "refs": [
+   "ISM Code 7",
+   "MCA Code of Safe Working Practices 2.2, 2.5 and 23.9",
+   "ISGOTT 6",
+   "TMSA KPI 9A.1.1"
+  ]
+ },
+ {
+  "id": "5.8.7",
+  "title": "Ballast and/or bunker pumproom safety inspection",
+  "plain": "Do officers know the ballast or bunker pumproom inspection procedure, and do inspections find hazards there?",
+  "why": "Pumprooms are enclosed spaces with pumps, leaks and rotating shafts where hazards can injure or kill.",
+  "who": {
+   "lead": [
+    "co",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Procedure for ballast or bunker pumproom inspections and the checklist",
+   "Inspection records",
+   "Walk-through: lights, ventilation, bilges, leaks, seals, guards, rescue harness",
+   "Entry procedure posted at the entrance",
+   "Officer explaining checklist items"
+  ],
+  "ready": [
+   "Company procedure, checklist and completed records",
+   "Entry procedure at the door that matches the SMS enclosed space entry procedure",
+   "Ventilation on extraction, lower suctions open if higher ones fitted",
+   "Clean dry bilges, no paint or flammables",
+   "Rescue harness rigged, safety chains connected, emergency stops marked",
+   "Plan for a single fan failure: temporary measures plus risk assessment and entry permit"
+  ],
+  "traps": [
+   "Checklist or records missing",
+   "Lights out or cracked, flameproof enclosures loose or missing bolts",
+   "Ventilation not on extraction, wrong suctions open, or single fan failed without temporary arrangements",
+   "Noisy or vibrating fans",
+   "Wet bilges, leaks from pumps, pipes, glands, or bandage repairs",
+   "Seals or grease and oil cups cracked, missing or low",
+   "Unguarded shafts, oil-soaked lagging, loose items, flammable stores",
+   "Rescue harness not ready, safety chains missing, emergency stops unmarked, telephone defective"
+  ],
+  "say": "The Safety Officer inspects our ballast and bunker pumprooms at the interval in the procedure using the company checklist. Entry follows our enclosed space procedure, and the posted entry notice matches it. I can show you ventilation, bilges, seals, rescue gear and emergency stops.",
+  "practice": [
+   {
+    "q": "What if the only extraction fan fails?",
+    "a": [
+     "Do not enter without temporary arrangements",
+     "Do a risk assessment",
+     "Issue an enclosed space entry permit"
+    ]
+   },
+   {
+    "q": "What is checked on the bulkhead seals?",
+    "a": [
+     "Seals and penetrations in good order",
+     "Oil or grease cups intact and above minimum level"
+    ]
+   },
+   {
+    "q": "What rescue equipment is needed?",
+    "a": [
+     "Rescue harness and recovery means rigged for immediate use",
+     "Safety chains on open vertical ladders"
+    ]
+   }
+  ],
+  "tip": "Compare the posted entry notice with the SMS enclosed space procedure before the inspection. A mismatch can also count against question 5.5.1.",
+  "refs": [
+   "ISM Code 7",
+   "ISGOTT 6 4.11.7 and 12.1.15",
+   "TMSA KPI 9A.1.1"
+  ]
+ },
+ {
+  "id": "5.9.1",
+  "title": "Lifting and rigging equipment procedures, maintenance and inspection",
+  "plain": "Do crew know the lifting and rigging procedure, and is every lifting item certified, inspected, marked and fit for use?",
+  "why": "Overloaded or worn slings, hooks, wires and cranes drop loads and kill people.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for lifting and rigging",
+   "Class and flag certificates for cranes, davits and loose gear",
+   "Inventory of gear not covered by class",
+   "Selected items for ID number, SWL and inspection marking",
+   "Questions to a rating about markings and pre-use checks"
+  ],
+  "ready": [
+   "Company lifting and rigging procedure",
+   "Valid certificates and periodic inspection records for class-covered equipment",
+   "Manufacturer certificates for all fall and topping lift wires",
+   "Inventory with storage place, date in service, SWL, last inspection and proof load date",
+   "Unique ID, SWL and inspection status (e.g. colour code) on every item",
+   "Retirement criteria and records of gear removed from service"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it",
+   "Class certification not maintained, or class item defective or out of service",
+   "No inventory for non-class equipment, or inventory not kept up to date",
+   "No manufacturer certificate for rigging gear or crane wires",
+   "Equipment past retirement criteria or still in use when poor",
+   "Items missing ID, SWL or inspection marking",
+   "No competent person inspection at the defined interval",
+   "Rating does not understand markings or pre-use checks",
+   "Officer does not know the inventory"
+  ],
+  "say": "Our procedure covers class-certified equipment and everything else, such as slings, shackles and chain blocks. Every item has an ID, a marked SWL and an inspection indicator, and it is on our inventory. The supervisor checks each item before every use.",
+  "practice": [
+   {
+    "q": "What does the marking on this sling tell you?",
+    "a": [
+     "Unique ID number",
+     "Safe working load",
+     "Whether the inspection is current, for example colour code"
+    ]
+   },
+   {
+    "q": "What do you check before using lifting gear?",
+    "a": [
+     "Look for damage, wear and corrosion",
+     "Confirm SWL and inspection status",
+     "Do not use if in doubt, and report it"
+    ]
+   },
+   {
+    "q": "When is gear taken out of service?",
+    "a": [
+     "Meets company retirement criteria",
+     "Suspected overload or damage",
+     "Needs examination before use again"
+    ]
+   }
+  ],
+  "tip": "Walk the store with the inventory in your hand. Any item with a missing tag or no matching line should be sorted before the inspector arrives.",
+  "refs": [
+   "ISM Code 7",
+   "MCA Code of Safe Working Practices ch 19",
+   "OCIMF Tagging/Labelling of Lifting Equipment 2005"
+  ]
+ },
+ {
+  "id": "5.9.2",
+  "title": "Spare parts for a single cargo hose handling crane",
+  "plain": "With only one hose crane, do we have a risk assessment and spares to keep it working after one failure?",
+  "why": "If the only hose crane fails, hoses cannot be safely connected or disconnected.",
+  "who": {
+   "lead": [
+    "2e",
+    "co"
+   ],
+   "also": [
+    "ce",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Risk assessment for single hose crane operation",
+   "Spare hydraulic hoses against the crane manual list",
+   "Other spares the risk assessment identified",
+   "Spare parts inventory and the spares themselves"
+  ],
+  "ready": [
+   "Risk assessment for single hose crane failure",
+   "Inventory with hose length, diameter and end fittings",
+   "Crane manual list of all hydraulic hoses",
+   "At least one spare of each hose size and length, same specification and rating",
+   "Other spares named in the assessment (winch motor or kit, hydraulic pump or kit, wires)"
+  ],
+  "traps": [
+   "No risk assessment for the single crane",
+   "Missing spare hydraulic hose for one of the sizes or lengths",
+   "Spare hose not of the same specification or rating",
+   "Spares listed in the risk assessment not on board",
+   "Special purpose crane treated as a spare when it does not share the same parts"
+  ],
+  "say": "We have a single hose crane, so we risk assessed the failure of each key part. We carry at least one spare of every hydraulic hose size and length, and the other spares the assessment named. They are listed in the inventory and I can show you them.",
+  "practice": [
+   {
+    "q": "What is the risk assessment for?",
+    "a": [
+     "Identify parts that could fail",
+     "Decide the minimum spares",
+     "Keep the crane working after one failure"
+    ]
+   },
+   {
+    "q": "What spare hoses must you carry?",
+    "a": [
+     "At least one for each size and length on the crane",
+     "Same specification and rating"
+    ]
+   }
+  ],
+  "tip": "Check the crane manual hose list against the spares store label by label. Lengths and end fittings are what get missed.",
+  "refs": [
+   "ISM Code 10.1",
+   "TMSA KPI 4.1.1"
+  ]
+ },
+ {
+  "id": "5.10.1",
+  "title": "Pilot boarding arrangements",
+  "plain": "Do deck crew know how to rig the pilot ladder safely, and is it in good condition and rigged correctly?",
+  "why": "People fall from badly rigged or damaged pilot ladders, and a fall can be fatal.",
+  "who": {
+   "lead": [
+    "2o",
+    "co"
+   ],
+   "also": [
+    "master",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for rigging and recovery with supervision",
+   "Pilot ladder certificates, tags and maintenance records",
+   "Ladder condition against the ICS BPG checklist A4",
+   "Deck securing, handholds, gateway, lifebuoy, lighting",
+   "Questions to officer and deck rating, especially working over the side"
+  ],
+  "ready": [
+   "Company pilot boarding procedure and rigging drawings",
+   "Manufacturer certificates and in-service date for each ladder",
+   "Ladder tagged or marked so it links to its records",
+   "Manropes, lifebuoy with self-igniting light, heaving line, not connected to the lifebuoy",
+   "Working pilot boarding lights",
+   "Damaged or retired ladders clearly marked or removed"
+  ],
+  "traps": [
+   "No procedure, or officer or rating unfamiliar with it",
+   "Ladder with no ID, certificate or maintenance records",
+   "Shackles, splices or knots in side ropes, uneven or painted steps, loops or tripping lines",
+   "Repair not following the manufacturer's instructions",
+   "Ladder weight taken by a step instead of the side ropes",
+   "Gateway opens outwards, no hold-back, or blocks the pilot",
+   "No anti-slip deck, handholds or bulwark ladder missing",
+   "Boarding position outside the parallel body, or combination ladder securing broken",
+   "Boarding light defective, retired ladder not marked"
+  ],
+  "say": "A responsible officer supervises the rigging with a link to the bridge. We inspect the ladder before each use, rig to our drawing and BPG checklist A4, and check lighting, lifebuoy, heaving line and manropes. Everyone doing the work knows the precautions for working over the side.",
+  "practice": [
+   {
+    "q": "What would you check on the pilot ladder before use?",
+    "a": [
+     "Side ropes continuous, steps level, equally spaced, clean and not painted",
+     "No cracks, damage or loose spreaders",
+     "ID tag and records match"
+    ]
+   },
+   {
+    "q": "Who supervises, and how?",
+    "a": [
+     "Responsible officer",
+     "With communication to the bridge",
+     "Escorts the pilot by a safe route"
+    ]
+   },
+   {
+    "q": "(Deck rating) How do you work safely when rigging over the side?",
+    "a": [
+     "Know the procedure for working over the side",
+     "Follow the supervision and precautions it sets",
+     "Report any defect before use"
+    ]
+   }
+  ],
+  "tip": "Test the pilot light at dusk, not only in daylight. Lighting that looks fine at noon is often weak or aimed wrongly at night.",
+  "refs": [
+   "SOLAS V/23",
+   "IMO A.1045(27) and A.1108(29)",
+   "ICS BPG 5th ed checklist A4",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.10.2",
+  "title": "Accommodation ladders",
+  "plain": "Do deck crew know how to rig the accommodation ladder safely, and is it in good order and used within its limits?",
+  "why": "A damaged or wrongly rigged ladder can collapse or let someone fall into the water or onto the quay.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o",
+    "ratings",
+    "master"
+   ]
+  },
+  "checks": [
+   "Company procedure for rigging and recovery with supervision",
+   "Maintenance records, fall wire certificate and installation date, five-yearly load test certificate",
+   "Marking plates at both ends of the ladder",
+   "Condition of steps, stanchions, turntables, wires and lifting points",
+   "Lifebuoy, light and line, safety net and lighting"
+  ],
+  "ready": [
+   "Company accommodation ladder procedure and manufacturer's instructions or drawings",
+   "Maintenance record for each ladder",
+   "Fall wire manufacturer certificate and date of installation",
+   "Fall wires replaced within the previous five years",
+   "Five-yearly load test certificate",
+   "Lifebuoy with light, and line attached and marked per IMO Res A.1116(30)"
+  ],
+  "traps": [
+   "No procedure, or maintenance records missing or incomplete",
+   "Five-yearly load test certificate missing or overdue",
+   "Fall wires not renewed within five years, or no manufacturer certificate",
+   "Fall wire too short for maximum freeboard with enough turns on the drum",
+   "No marking plate showing angle limits and design load",
+   "Cracks, heavy corrosion, bent steps or stanchions, seized turntables or rollers, missing pins",
+   "Temporary repairs to structure or hoisting system",
+   "Lighting defective",
+   "Bottom platform not level, safety net not rigged when required, no lifebuoy, light and line"
+  ],
+  "say": "We rig the ladder under supervision using our procedure and the manufacturer's instructions. We inspect it before each use and keep the maintenance records, fall wire certificates and load test certificate. The lifebuoy, light and line are ready at the foot, and a safety net is rigged when our procedure says so.",
+  "practice": [
+   {
+    "q": "What limits are marked on the ladder plate?",
+    "a": [
+     "Maximum and minimum angles of inclination",
+     "Design load",
+     "Maximum load on bottom end plate"
+    ]
+   },
+   {
+    "q": "When do you rig a safety net?",
+    "a": [
+     "As the company procedure says",
+     "Where a person could fall into the water or between ship and quay"
+    ]
+   },
+   {
+    "q": "(Deck rating) How do you work safely when rigging over the side?",
+    "a": [
+     "Follow the procedure and supervision",
+     "Say what precautions you use outside the ship's rail",
+     "Report defects before use"
+    ]
+   }
+  ],
+  "tip": "Check the fall wire length against maximum freeboard and keep the certificate with the installation date beside the ladder records.",
+  "refs": [
+   "MSC.1/Circ.1331",
+   "SOLAS II-1/3-9",
+   "SOLAS III/20.7.2",
+   "IMO Res A.1116(30)"
+  ]
+ },
+ {
+  "id": "5.10.3",
+  "title": "Safe access to the vessel while alongside a terminal/berth",
+  "plain": "Do crew know the safe access procedure at the berth, and are the gangway, net, lifebuoy and warning signs right?",
+  "why": "People fall between ship and jetty, or cannot escape, if access is poor, dark or badly rigged.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for safe access alongside",
+   "Gangway maintenance records, five-yearly load test certificate and marking plate",
+   "Gangway condition and lighting",
+   "How it is rigged: handrails, bulwark ladder, safety net, angle",
+   "Lifebuoy, light and line, and warning signs at the gangway"
+  ],
+  "ready": [
+   "Company safe access procedure",
+   "Manufacturer's instructions or drawings for the portable gangway",
+   "Maintenance records and five-yearly load test certificate",
+   "Marking plate with angle limits and design load",
+   "Safety net rigged where required",
+   "Lifebuoy, light and line at the landing area, plus ISGOTT warning signs and cargo specific signs"
+  ],
+  "traps": [
+   "No procedure, or gangway records missing or incomplete",
+   "Load test certificate missing or overdue",
+   "No marking plate, structural defects, worn treads, temporary repairs",
+   "Boarding area lighting defective",
+   "Used outside design limits",
+   "Safety net not rigged when required",
+   "Gangway resting on handrails not designed for it, no bulwark ladder",
+   "No lifebuoy, light and line, or line not attached",
+   "No warning signs, or none for H2S or nitrogen operations",
+   "Rating or officer unsure how to rig and recover it"
+  ],
+  "say": "Under our procedure we inspect the gangway before use, rig it within its design limits with a safety net where needed, and keep the lifebuoy, light and line at the head. At the gangway we display the ISGOTT warning notices and signs for any special hazard such as H2S or nitrogen operations.",
+  "practice": [
+   {
+    "q": "What notices are displayed at the gangway?",
+    "a": [
+     "No naked lights, no smoking, no unauthorised persons",
+     "No mobile phones without the Master's permission",
+     "Specific cargo or process warnings such as high H2S or nitrogen"
+    ]
+   },
+   {
+    "q": "When is a safety net needed?",
+    "a": [
+     "Not needed on a shore gangway fixed with permanent handrails",
+     "Needed for other gangways, rope or chain handrails, or removable posts",
+     "Per company procedure"
+    ]
+   },
+   {
+    "q": "What if the gangway rests on the ship's rail?",
+    "a": [
+     "Rail must be designed to take the load",
+     "Provide a bulwark ladder to the deck"
+    ]
+   }
+  ],
+  "tip": "Before the inspector arrives, walk from the cabin to the gangway as if it is night and fix any dark spot, missing sign or missing line on the lifebuoy.",
+  "refs": [
+   "ISGOTT 6 16.4 and 23.10.1",
+   "MSC.1/Circ.1331",
+   "IMO Res A.1116(30)"
+  ]
+ },
+ {
+  "id": "5.10.4",
+  "title": "Personnel transfer by crane",
+  "plain": "Do officers know the procedure for transferring people by crane, and is the basket and its gear in good order?",
+  "why": "A person lifted by crane can be dropped, struck or ditched if the basket, tag lines or plan are wrong.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "2e"
+   ]
+  },
+  "checks": [
+   "Company procedure aligned with the OCIMF transfer paper",
+   "PTB and accessory test certificates, crane certification for personnel use",
+   "Training records for designated personnel",
+   "Marking: SWL or capacity and empty weight",
+   "Pennant and two tag lines, plus risk assessment, plan and crane failure contingency"
+  ],
+  "ready": [
+   "Company personnel transfer by crane procedure",
+   "Manufacturer test certificates for PTB and accessories",
+   "Crane certificate for personnel transfer, if declared",
+   "Training records, and maintenance and inspection records for crane, PTB and accessories",
+   "Risk assessment and transfer plan for any transfer in the last three months",
+   "Two tag lines 16 to 19 mm, ends seized, and a crane hook pennant"
+  ],
+  "traps": [
+   "No company procedure, or officer unfamiliar with it, the PTB checks, the plan or the failure contingency",
+   "No test certificates for the PTB or lifting accessories",
+   "Crane not certified for personnel transfer despite what was declared",
+   "No contingency plan for crane failure",
+   "No training records",
+   "Maintenance or test records missing, or not following manufacturer or company rules",
+   "PTB or accessories not marked with SWL or empty weight",
+   "Tag lines wrong size, or knotted or back-spliced ends",
+   "PTB not retired per policy, or transfer done without a risk assessment or plan, or using something that is not an approved PTB"
+  ],
+  "say": "Our procedure follows the OCIMF paper: transfers are kept to a minimum, risk assessed, and have a written plan with a crane failure contingency. Before use we inspect the PTB, accessories, pennant and tag lines, and only trained personnel take part.",
+  "practice": [
+   {
+    "q": "Before a transfer, what do you do?",
+    "a": [
+     "Consider whether the transfer is needed at all",
+     "Risk assessment and a transfer plan",
+     "Inspect PTB, accessories and crane shortly before"
+    ]
+   },
+   {
+    "q": "What are the tag line requirements?",
+    "a": [
+     "Two tag lines, 16 to 19 mm diameter",
+     "Ends seized, no knots or back-splices",
+     "Long enough to reach the water, never tied to a strong point"
+    ]
+   },
+   {
+    "q": "What if the crane fails during a transfer?",
+    "a": [
+     "Follow the contingency plan",
+     "Officer must know it in advance"
+    ]
+   }
+  ],
+  "tip": "If you carry no PTB, be ready to speak well about the procedure instead: the inspector will focus on the plan, risk assessment and contingency.",
+  "refs": [
+   "OCIMF Transfer of Personnel by Crane between Vessels 1st ed",
+   "ISM Code 7",
+   "TMSA KPI 9.2.1"
+  ]
+ },
+ {
+  "id": "5.10.5",
+  "title": "Helicopter operations",
+  "plain": "Do officers know the company helicopter/ship procedure, and was it followed?",
+  "why": "Helicopter operations near a tanker bring fire, static, rotor and deck movement risks if not controlled.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Company helicopter procedure and risk assessment, with last review",
+   "ICS Guide to Helicopter/Ship Operations on board",
+   "Completed ICS shipboard safety checklists",
+   "Training and emergency drill records",
+   "Emergency tools and equipment inventory, and Landing/Operating Area Plan"
+  ],
+  "ready": [
+   "Company procedure covering risk assessment, training, drills, area plan, checklist, roles, tools and cargo or crane restrictions",
+   "Helicopter operations risk assessment with review date",
+   "ICS Guide to Helicopter/Ship Operations (5th ed)",
+   "Completed shipboard safety checklists for past operations",
+   "Training and drill records",
+   "Emergency tools ready, stored out of the weather, and landing area plan"
+  ],
+  "traps": [
+   "Missing procedure or one of its required parts",
+   "Officer unfamiliar with the procedure or the ICS Guide",
+   "No risk assessment, or no review as the company requires",
+   "No record of training or emergency drills",
+   "No copy of the ICS Guide on board",
+   "No landing or operating area plan",
+   "Checklist not completed before the operation",
+   "Emergency tools not ready at hand",
+   "Cargo or crane restrictions not followed during the operation"
+  ],
+  "say": "Our procedure follows the ICS Guide. We have a helicopter risk assessment, a landing area plan, a Responsible Officer and deck party, and we complete the shipboard checklist before each operation. Cargo and crane operations are restricted while the helicopter is here, and we keep drill records.",
+  "practice": [
+   {
+    "q": "What does the Responsible Officer do?",
+    "a": [
+     "Appointed by the Master",
+     "Checks the deck requirements before the helicopter arrives",
+     "Uses the shipboard safety checklist"
+    ]
+   },
+   {
+    "q": "What emergency equipment must be ready?",
+    "a": [
+     "Tools such as axe, crowbar, bolt cutters, fire blanket and first aid kit",
+     "Ready for immediate use and protected from the weather"
+    ]
+   },
+   {
+    "q": "What hazards are in the risk assessment?",
+    "a": [
+     "Weather and ship movement",
+     "Downdraught, rotating blades, noise",
+     "Static electricity, communication, crash on deck or ditching"
+    ]
+   }
+  ],
+  "tip": "Keep a filled-in checklist from the last operation in the file as an example, and check the emergency tools against the list in the pre-arrival checks.",
+  "refs": [
+   "ICS Guide to Helicopter/Ship Operations 5th ed",
+   "OCIMF Guidelines for Offshore Tanker Operations 7.4",
+   "TMSA KPI 1A.1.1"
+  ]
+ },
+ {
+  "id": "5.10.6",
+  "title": "Helicopter facilities",
+  "plain": "On ships with helicopter facilities, do officers know the procedures and have the crew been trained?",
+  "why": "A helideck on an offtake tanker brings fire, gas and crash risks that only trained and drilled crew can manage.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "3o"
+   ]
+  },
+  "checks": [
+   "Operations manual: risk assessment, roles, training, drills, checklist, tools, limits",
+   "Helicopter Landing Area Certificate or training records for HLO and HDA",
+   "Drill records and the ICS Guide on board",
+   "Completed shipboard safety checklists",
+   "Emergency tools and equipment"
+  ],
+  "ready": [
+   "Helicopter operations manual with routine and emergency guidance",
+   "Risk assessment and evidence of last review",
+   "HLAC, or HLO and HDA course records plus ship-specific familiarisation",
+   "Emergency drill records",
+   "Completed shipboard safety checklists",
+   "Emergency tools ready, and ICS Guide (5th ed) on board"
+  ],
+  "traps": [
+   "Procedure missing any listed element (roles, training, drills, checklist, tools, restrictions, limits)",
+   "Officer unfamiliar with the procedures or the ICS Guide",
+   "No risk assessment or review",
+   "No HLAC and training records incomplete for anyone involved",
+   "No emergency drill records",
+   "No ICS Guide on board",
+   "Checklist not completed before the operation",
+   "Emergency tools not ready",
+   "Cargo operation restrictions not followed"
+  ],
+  "say": "Our operations manual covers the risk assessment, roles, training, drills, the ICS checklist and emergency tools. Our crew hold HLO and HDA training or the ship has an HLAC, and we have done ship-specific familiarisation. Cargo operations are suspended during helicopter flights.",
+  "practice": [
+   {
+    "q": "What training do crew need?",
+    "a": [
+     "Accredited courses such as Offshore HLO and Offshore HDA",
+     "Then ship-specific familiarisation",
+     "An HLAC can show suitable training"
+    ]
+   },
+   {
+    "q": "What tanker-specific precautions apply?",
+    "a": [
+     "Suspend cargo operations during flights",
+     "Keep inert gas pressure low, vents closed, monitor it",
+     "Abort if pressure rises towards the release valve setting"
+    ]
+   },
+   {
+    "q": "What can stop helicopter movements?",
+    "a": [
+     "Calm weather with vented hydrocarbon cloud",
+     "Helideck sheltered behind a high structure",
+     "Tanker may need to disconnect and move clear"
+    ]
+   }
+  ],
+  "tip": "Keep the HLAC, course certificates and drill records in one folder labelled for helicopter operations, so you can show them in a minute.",
+  "refs": [
+   "OCIMF Guidelines for Offshore Tanker Operations 7.4.2",
+   "ICS Guide to Helicopter/Ship Operations 5th ed",
+   "CAP 437 (2018)",
+   "ISM Code"
+  ]
+ },
+ {
+  "id": "5.10.7",
+  "title": "Escape routes",
+  "plain": "Do crew know the escape routes from machinery spaces, pumprooms, accommodation and the ship in port, and are they clear and lit?",
+  "why": "In an emergency people must get out fast, even in smoke or dark, and firefighters must get in.",
+  "who": {
+   "lead": [
+    "master",
+    "co"
+   ],
+   "also": [
+    "2o",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure for identifying and marking escape routes",
+   "Green escape signs along routes from all required spaces",
+   "Doors on the route: unlocked or quick release from inside, self-closing fire doors latch",
+   "Escape trunk lighting and no obstructions",
+   "Route from the accommodation to the shore access, marked and clear of tension moorings and manifolds"
+  ],
+  "ready": [
+   "Company escape route procedure",
+   "Green and white escape signs, plus photo luminescent notices in port",
+   "Escape routes free of stores and obstructions",
+   "Locked external doors with rapid release from inside, and a plan for firefighters to enter from outside",
+   "Working lights in escape trunks, every bulb",
+   "Marked route to the gangway, routed away from mooring lines under tension and manifolds in use"
+  ],
+  "traps": [
+   "No company procedure",
+   "Routes from accommodation, machinery, pumproom, compressor room or thruster room not marked",
+   "Officer cannot lead the inspector out of a place where a dead end is possible",
+   "External door locked or bolted with no rapid inside release",
+   "Nobody can show how to open the door from inside or how firefighters would get in",
+   "Escape route blocked or obstructed",
+   "Self-closing door that will not close and latch by itself",
+   "More than one bulb unlit in an escape trunk",
+   "Route to the shore access not marked, or runs over tight moorings or past the manifold in use"
+  ],
+  "say": "Our procedure requires every escape route from accommodation, machinery spaces, pumprooms and compressor rooms to be marked, clear and lit. External doors are not locked, or have a quick release inside, and I can show you the route from here to the gangway. We keep it clear of mooring lines and the manifold.",
+  "practice": [
+   {
+    "q": "Show me the way out from here.",
+    "a": [
+     "Lead directly along the marked route",
+     "Know every alternative way out",
+     "Know where it leads to an outside deck"
+    ]
+   },
+   {
+    "q": "If a door on the escape route is locked for security, how does it open?",
+    "a": [
+     "From the inside quickly without key or tools",
+     "Firefighters can access from outside as the plan says"
+    ]
+   },
+   {
+    "q": "How are escape routes marked?",
+    "a": [
+     "Green signs with white words or symbols",
+     "Photo luminescent in port, with directional arrows"
+    ]
+   }
+  ],
+  "tip": "Walk the shore escape route yourself in port, in daylight and at night. If you have to step over a hawser or pass the manifold, ask the Chief Officer to re-route it.",
+  "refs": [
+   "SOLAS II-2/13",
+   "IMO Res A.1116(30)",
+   "ISGOTT 6 12.1.15, 16.4 and 23",
+   "MSC/Circ.1120"
+  ]
+ },
+ {
+  "id": "5.11.1",
+  "title": "Cargo and bunker sample management",
+  "plain": "Do officers know how to label, store, log and dispose of cargo and bunker samples, and are the samples kept safely?",
+  "why": "Samples are flammable and sometimes toxic, and loose or old samples are a fire and exposure risk.",
+  "who": {
+   "lead": [
+    "co",
+    "ce"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Company procedure on sample marking, storage and records",
+   "Sample locker: location, ventilation, temperature, fire protection",
+   "Sample labels and logs, and ORB Part I or II or Cargo Record Book entries",
+   "Any samples stored outside the locker",
+   "Responsible officer's knowledge"
+  ],
+  "ready": [
+   "Company sample procedure with marking, storage and records",
+   "Sample logs with seal numbers, dates and final disposal",
+   "Locker not reachable from the accommodation and out of heat and sun",
+   "Fire detection and fixed firefighting nearby, or portable equipment",
+   "Cargo samples kept no longer than the procedure says (ISGOTT suggests three months unless told otherwise)",
+   "MARPOL bunker samples kept at least 12 months from delivery"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it",
+   "Locker too small, accessible from the accommodation or hot",
+   "Poor ventilation, no fire protection nearby",
+   "Annex II samples not stored inside the cargo area",
+   "Samples stored outside the locker, kept too long or not disposed of as required",
+   "Bunker samples not marked per MEPC.96(47) or MEPC.1/Circ.864/Rev.1, no log of samples",
+   "Annex I or II cargo samples not marked as required",
+   "Disposal not recorded in the ORB or Cargo Record Book",
+   "Reactive Annex II samples not separated, or inhibited samples kept past inhibitor life"
+  ],
+  "say": "Our procedure covers labelling, storage, logs and disposal. Samples are kept to the minimum in a locker not accessible from the accommodation, away from heat and with fire protection. Each sample is logged with seal number and date, and disposal is recorded in the correct record book.",
+  "practice": [
+   {
+    "q": "How long do you keep bunker samples?",
+    "a": [
+     "At least 12 months from delivery under MARPOL",
+     "Sealed and logged",
+     "Disposal recorded in ORB Part I"
+    ]
+   },
+   {
+    "q": "Where are samples stored?",
+    "a": [
+     "Dedicated locker, not accessible from the accommodation",
+     "Ventilated, away from heat and sunlight",
+     "Fire protection fixed or portable nearby"
+    ]
+   },
+   {
+    "q": "What do you do with inhibited chemical samples?",
+    "a": [
+     "Check regularly for polymerisation",
+     "Keep only while the inhibitor remains active per certificate"
+    ]
+   }
+  ],
+  "tip": "Clear old cargo samples at each opportunity. A locker with fewer, correctly labelled and logged bottles is easier to defend.",
+  "refs": [
+   "ISGOTT 6 13.3",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed 6.7.12 and 6.7.14",
+   "MEPC.96(47)",
+   "MEPC.1/Circ.864/Rev.1"
+  ]
+ },
+ {
+  "id": "5.12.1",
+  "title": "Respiratory protective equipment",
+  "plain": "Do crew know when to use breathing apparatus during cargo operations, and does the procedure ban filter masks for this?",
+  "why": "Filter masks do not protect against cargo vapours or lack of oxygen, so using one gives false safety.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o",
+    "3o",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure on respiratory protection in cargo operations",
+   "Whether it prohibits filter type respirators for cargo work",
+   "Any respirators seen in use during cargo operations",
+   "Officer's knowledge of the procedure"
+  ],
+  "ready": [
+   "Company procedure on respiratory protection that bans filter or canister masks in cargo operations",
+   "Breathing apparatus available and ready for cargo duties",
+   "Crew briefed on when breathing apparatus is required",
+   "Filter masks stored only for dust and debris tasks, such as chipping or grinding"
+  ],
+  "traps": [
+   "No procedure on respiratory protection during cargo operations",
+   "Procedure does not prohibit filter type respirators for cargo work",
+   "Officer not familiar with the procedure",
+   "Crew seen wearing filter masks during cargo operations"
+  ],
+  "say": "Our procedure says filter or canister masks must never be used in cargo operations because they do not protect against cargo vapours or lack of oxygen. Where respiratory protection is needed, we use breathing apparatus. Filter masks are only for dust, such as chipping or grinding.",
+  "practice": [
+   {
+    "q": "Can a cartridge mask be used when sampling or gauging?",
+    "a": [
+     "No, not for cargo operations",
+     "Does not protect against hydrocarbon or toxic vapours or lack of oxygen",
+     "Use breathing apparatus"
+    ]
+   },
+   {
+    "q": "When can a filter mask be used?",
+    "a": [
+     "Only for dust and debris",
+     "Examples: chipping paint or grinding",
+     "Never in enclosed spaces"
+    ]
+   }
+  ],
+  "tip": "Keep filter masks in the paint locker or workshop, not at the cargo control room or manifold, so nobody picks one up out of habit.",
+  "refs": [
+   "ISGOTT 6 10.13",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed 3.11",
+   "ISM Code 7"
+  ]
+ },
+ {
+  "id": "5.12.2",
+  "title": "Decontamination showers and eyewash stations",
+  "plain": "Do crew know where the deck decontamination showers and eyewash are, and are they marked, reachable and ready?",
+  "why": "After a chemical splash, seconds count, and a frozen or scalding shower is no help.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "3o",
+    "2e",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure that keeps showers and eyewash ready for use",
+   "Inspection and test records",
+   "Spot test of one station for frozen or scalding water",
+   "Marking and access",
+   "Rating interview on location and operation"
+  ],
+  "ready": [
+   "Procedure and planned maintenance entries for showers and eyewash",
+   "Records of inspection and testing",
+   "Clear marking and clear access at every station",
+   "Fresh water line insulated with heat tracing or a recirculation system",
+   "Heat tracing and insulation intact, not removed",
+   "Crew know where the showers are and how to operate them"
+  ],
+  "traps": [
+   "No procedure to keep them ready",
+   "Rating cannot say where they are or how to use them",
+   "Not ready for use, not marked or hard to reach",
+   "Not inspected and tested as procedure requires",
+   "No insulation, heat tracing or recirculation",
+   "Insulation or heat tracing removed from supply pipe",
+   "Water frozen in cold weather or scalding hot in strong sun"
+  ],
+  "say": "Our procedure requires regular inspection and testing of every deck shower and eyewash, which is in the planned maintenance system. They are marked, accessible and operable in all ambient conditions with heat tracing or recirculation. The crew know where they are and how to operate them.",
+  "practice": [
+   {
+    "q": "Show me how to use the eyewash.",
+    "a": [
+     "Go to the nearest marked station",
+     "Operate it and flush eyes",
+     "Know it must work in any weather"
+    ]
+   },
+   {
+    "q": "Why is heat tracing or recirculation needed?",
+    "a": [
+     "To work in all ambient conditions",
+     "Prevents frozen supply in cold",
+     "Stops sun heated water scalding the user"
+    ]
+   }
+  ],
+  "tip": "Check the stations as often as your procedure and maintenance plan require, and in very cold or very hot sunny weather confirm the water is not frozen or scalding.",
+  "refs": [
+   "IBC Code 14.3.4",
+   "IGC Code 14.4.3",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed 2.7.3 and 8.3.4"
+  ]
+ },
+ {
+  "id": "6.1.1",
+  "title": "Cargo Record Book",
+  "plain": "Do officers know how to keep the Cargo Record Book, and do the entries show every Annex II cargo operation correctly?",
+  "why": "The CRB proves that noxious liquids were handled and washed in line with MARPOL, and port states check it closely.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for keeping the CRB, paper or electronic",
+   "Entries for a recent series of operations on one cargo, load to tank cleaning and washings disposal",
+   "Signatures of the officer in charge and Master's counter-signature on each page",
+   "Official cargo names per the Certificate of Fitness",
+   "Reception facility receipts, prewash endorsement and comparison with deck log"
+  ],
+  "ready": [
+   "Company CRB procedure with correction and late entry methods",
+   "Cargo Record Books for the last six months",
+   "Cargo records and Bridge Log Book for the same period",
+   "Receipts or certificates for tank washings to reception facilities",
+   "Port authority endorsement for prewashes",
+   "Electronic record book: flag or class Declaration, backup and recovery instructions"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it or the entries",
+   "Entries not accurate, missing operations, or not in order",
+   "Wrong cargo names, not the correct name per Certificate of Fitness",
+   "Entries not signed by the officer in charge, or pages not signed by the Master",
+   "No receipt or certificate for washings sent ashore",
+   "Prewash entry not endorsed by the port authority inspector",
+   "Washings discharged to sea against MARPOL Annex II",
+   "Annex I cargo operations written in the CRB instead of ORB Part II",
+   "Electronic book without Declaration, instructions or automatic offline backup"
+  ],
+  "say": "Our procedure says what operations to record, who enters them, when, and how errors and late entries are corrected. Each entry is signed by the officer in charge and every page by the Master. Cargo names follow the Certificate of Fitness and washings receipts are kept with the book.",
+  "practice": [
+   {
+    "q": "What must be entered in the CRB?",
+    "a": [
+     "Loading, internal transfer and unloading",
+     "Prewash and tank cleaning, discharge of washings",
+     "Ballasting of cargo tanks and ballast discharge",
+     "Accidental or exceptional discharge"
+    ]
+   },
+   {
+    "q": "How do you correct a wrong entry?",
+    "a": [
+     "Follow the company correction procedure",
+     "Enter overlooked operations as the procedure says, keeping chronological order",
+     "Master verifies the entries and signs each page"
+    ]
+   },
+   {
+    "q": "How long is the CRB kept?",
+    "a": [
+     "Three years after the last entry",
+     "Kept on board, readily available for inspection"
+    ]
+   }
+  ],
+  "tip": "Pick one cargo and trace it through the book from loading to final tank wash. If any step has no entry or does not match the deck log, correct it using the company procedure for errors and late entries.",
+  "refs": [
+   "MARPOL Annex II reg 15",
+   "MEPC.312(74)",
+   "ICS Tanker Safety Guide (Chemicals) 5th ed 4.3.2",
+   "ISM Code 1.2.3"
+  ]
+ },
+ {
+  "id": "6.1.2",
+  "title": "Oil Record Book Part II",
+  "plain": "Do officers know how to keep ORB Part II, and do the entries correctly show every Annex I cargo and ballast operation?",
+  "why": "ORB Part II is the legal record of oil cargo, tank cleaning and slop discharge, and false or missing entries are serious.",
+  "who": {
+   "lead": [
+    "co"
+   ],
+   "also": [
+    "master",
+    "2o"
+   ]
+  },
+  "checks": [
+   "Company procedure for ORB Part II, paper or electronic",
+   "Entries for a recent series of operations on one cargo",
+   "Signatures of the officer in charge and Master's counter-signature on each page",
+   "Slop water discharge entries against the deck logbook",
+   "Reception facility receipts and matching ORB Part I entries for transfers from the machinery space"
+  ],
+  "ready": [
+   "Company ORB II procedure with correction and late entry methods",
+   "ORB Part II, cargo records and Bridge Log Book for the last six months",
+   "Receipts or certificates for wash water to reception facilities",
+   "Entries for oil discharge monitoring equipment out of service and back in service",
+   "Electronic book: flag or class Declaration, backup and recovery instructions"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it or the entries",
+   "Entries not accurate or incomplete, or recording a MARPOL violation",
+   "Not signed by the officer in charge, or page not signed by the Master",
+   "Corrections not following the company procedure",
+   "No receipt for wash water sent ashore",
+   "Slop water discharge to sea not complying with Annex I",
+   "Ballast loaded into a cargo tank after crude oil without crude oil washing",
+   "No entry for oil discharge monitoring equipment out of service",
+   "Annex II cargo operations written in ORB Part II instead of the CRB",
+   "Electronic book without Declaration, instructions or automatic offline backup"
+  ],
+  "say": "Our procedure sets out which operations we record, who enters them and when, how we correct errors and late entries, and Master signature of each page. Entries match the deck logbook and cargo records, and receipts for any washings ashore are kept with the book.",
+  "practice": [
+   {
+    "q": "What operations go into ORB Part II?",
+    "a": [
+     "Loading, internal transfer and unloading of oil cargo",
+     "Ballasting and cleaning of cargo tanks, crude oil washing",
+     "Discharge of ballast and slop water",
+     "Closing valves after slop discharge, disposal of residues"
+    ]
+   },
+   {
+    "q": "What if the oil discharge monitoring equipment fails?",
+    "a": [
+     "Make an entry when it is taken out of service",
+     "And when it returns to service"
+    ]
+   },
+   {
+    "q": "What links ORB II to ORB I?",
+    "a": [
+     "Sludge or bilge transferred from machinery space to cargo slop tank",
+     "Needs matching entries in both books"
+    ]
+   }
+  ],
+  "tip": "Compare each slop discharge entry with the deck logbook position and time. Mismatches are the quickest way to a negative observation.",
+  "refs": [
+   "MARPOL Annex I reg 36",
+   "MEPC.1/Circ.872",
+   "MEPC.312(74)",
+   "INTERTANKO ORB Part II guide 2nd ed"
+  ]
+ },
+ {
+  "id": "6.1.3",
+  "title": "Oil Record Book Part I",
+  "plain": "Do the Master and engineers know how to keep ORB Part I, and do entries correctly show all machinery space oil operations?",
+  "why": "ORB Part I records sludge, bilge water and bunkering, and inspectors check the numbers against equipment capacity.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e"
+   ]
+  },
+  "checks": [
+   "Company procedure for ORB Part I, paper or electronic",
+   "About 10 uninterrupted days of entries against the sludge inventory, incinerator and 15 ppm capacity",
+   "Signatures of the officer in charge and Master's counter-signature on each page",
+   "Receipts for reception facility discharges, and ORB II entries for slop tank transfers",
+   "Bunkering entries against the BDN"
+  ],
+  "ready": [
+   "Company ORB I procedure with correction and late entry methods",
+   "ORB Part I and Engine Room Log Book for the last six months",
+   "IOPP certificate supplement (Form B) with tank capacities",
+   "Weekly sludge inventory",
+   "Receipts for sludge or bilge to reception facilities and Bunker Delivery Notes",
+   "Electronic book: flag or class Declaration, backup and recovery instructions"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it or the entries",
+   "Entries not accurate, incomplete or recording a MARPOL violation",
+   "Not signed by the officer in charge, or page not signed by the Master",
+   "Corrections not following the company procedure",
+   "No receipt for sludge or bilge discharged ashore",
+   "No reciprocal ORB II entry for transfers to a cargo slop tank",
+   "Sludge burnt or bilge discharged beyond the equipment's capacity",
+   "Disposals of sludge or bilge that cannot be accounted for",
+   "Oil residue tank capacities in the ORB not matching the IOPP supplement",
+   "Oil filtering equipment out of service without an entry, or bilge discharged in a Special Area without alarm and automatic stop"
+  ],
+  "say": "Our procedure sets out which machinery space operations we record, who enters them, when, and how errors are corrected. The Master signs each page. Our entries agree with the sludge inventory, equipment capacities, the IOPP supplement, receipts and bunker delivery notes.",
+  "practice": [
+   {
+    "q": "What machinery space operations go into ORB Part I?",
+    "a": [
+     "Ballasting or cleaning of fuel tanks",
+     "Discharge of dirty ballast or cleaning water",
+     "Collection and disposal of sludge",
+     "Discharge or disposal of bilge water, and bunkering of fuel or lube oil in bulk"
+    ]
+   },
+   {
+    "q": "How do you show that sludge disposal is consistent?",
+    "a": [
+     "Entries agree with the weekly sludge inventory",
+     "Incinerator burning within its capacity",
+     "Receipt available for shore disposal"
+    ]
+   },
+   {
+    "q": "What if the 15 ppm equipment is defective?",
+    "a": [
+     "Record when it failed and when it returned to service",
+     "Inspector also records the defect under question 6.6.1"
+    ]
+   }
+  ],
+  "tip": "Pick any 10 days and do the arithmetic: sludge in, sludge out, incinerator hours, 15 ppm run time. If the numbers do not add up, find out why first.",
+  "refs": [
+   "MARPOL Annex I reg 17",
+   "MEPC.1/Circ.736/Rev.2",
+   "MEPC.312(74)",
+   "INTERTANKO ORB Part I guide 4th ed"
+  ]
+ },
+ {
+  "id": "6.1.4",
+  "title": "Garbage Record Book",
+  "plain": "Do officers know how to keep the Garbage Record Book, and do entries and storage follow the rules?",
+  "why": "Garbage dumped or recorded wrongly breaks MARPOL Annex V, and toxic items mixed into general waste are dangerous.",
+  "who": {
+   "lead": [
+    "co",
+    "3o"
+   ],
+   "also": [
+    "master",
+    "ce",
+    "ratings"
+   ]
+  },
+  "checks": [
+   "Company procedure and the Garbage Management Plan",
+   "10 consecutive days of entries that include a port visit",
+   "Signatures of the officer in charge and Master's counter-signature on each page",
+   "Receipts for garbage landed ashore, by category",
+   "Garbage store and incinerator area, and a rating's answers on segregation"
+  ],
+  "ready": [
+   "Company procedure and Garbage Management Plan",
+   "Garbage Record Book and Bridge Log Book for the last six months",
+   "Receipts or certificates showing quantities by category for shore deliveries",
+   "Entries for food waste through a comminuter or grinder",
+   "Segregated, hygienic garbage store, with aerosols and batteries kept separate",
+   "Electronic book: flag or class Declaration, backup and recovery instructions"
+  ],
+  "traps": [
+   "No procedure or no Garbage Management Plan on board",
+   "Officer unfamiliar with the procedure, the plan or the entries",
+   "Entries inaccurate, out of order, unsigned, or pages not signed by the Master",
+   "No receipt for garbage landed ashore showing quantity and categories",
+   "Food waste through a grinder not recorded in the book",
+   "Overboard food waste not matching special area, distance from land or comminuted status",
+   "Garbage stored unhygienically or not segregated by category",
+   "Dangerous or toxic items such as aerosols or batteries mixed with general garbage",
+   "Rating cannot explain segregation, aerosols and batteries, or permitted sea disposal",
+   "Electronic book without Declaration, instructions or automatic offline backup"
+  ],
+  "say": "Our Garbage Management Plan and procedure say what we record, who enters it and how errors are corrected. Entries are signed by the officer in charge and the Master signs each page. We segregate garbage, keep aerosols and batteries separate, and keep receipts for shore deliveries.",
+  "practice": [
+   {
+    "q": "What is the Garbage Management Plan?",
+    "a": [
+     "Written procedures for minimising, collecting, storing, processing and disposing of garbage",
+     "Names the person in charge",
+     "In the working language of the crew"
+    ]
+   },
+   {
+    "q": "(To a rating) Where do aerosols and batteries go?",
+    "a": [
+     "Collected separately",
+     "Not incinerated and not mixed with general waste"
+    ]
+   },
+   {
+    "q": "What proves garbage was landed ashore?",
+    "a": [
+     "A receipt or certificate with date, time, quantity and categories",
+     "Kept with the Garbage Record Book"
+    ]
+   }
+  ],
+  "tip": "Check the book against the deck log for the last port call. Make sure the shore delivery receipt and the book entry agree on quantity and date.",
+  "refs": [
+   "MARPOL Annex V reg 10",
+   "IMO Guidelines for the Implementation of MARPOL Annex V 2017",
+   "MEPC.1/Circ.834/Rev.1",
+   "MEPC.312(74)"
+  ]
+ },
+ {
+  "id": "6.1.5",
+  "title": "Ozone Depleting Substances Record Book",
+  "plain": "Do the Master and engineers know how to keep the ODS Record Book, and are all ozone-depleting gas operations and leaks recorded?",
+  "why": "Refrigerant gases harm the ozone layer, and every recharge, repair, leak and delivery must be traceable.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for the ODS Record Book, paper or electronic",
+   "List of ODS equipment in IAPP supplement section 2.1",
+   "Maintenance records of a selected item of listed equipment",
+   "Recharges, repairs, emissions, supply and shore discharge entries",
+   "Signatures and the Master's counter-signature on each page"
+  ],
+  "ready": [
+   "Company ODS Record Book procedure",
+   "ODS Record Book and equipment maintenance records for the last six months",
+   "IAPP Certificate supplement, section 2.1, listing all ODS equipment",
+   "Entries in kg for recharge, repair, leaks, supplies and discharge to shore",
+   "Receipt or certificate for ODS landed ashore",
+   "Electronic book: flag or class Declaration, backup and recovery instructions"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it",
+   "Equipment with ODS not listed in the IAPP supplement section 2.1",
+   "Entries not accurate, incomplete or recording a MARPOL violation",
+   "Recharge, repair, maintenance or leak not recorded",
+   "Not signed by the officer in charge, or page not signed by the Master",
+   "No receipt for ODS delivered to a shore reception facility",
+   "Corrections not following the company procedure",
+   "Electronic book without Declaration, instructions or automatic offline backup"
+  ],
+  "say": "Our procedure sets out which operations and emissions we enter, who enters them, and how errors are corrected. We record in kilograms every recharge, repair, leak, supply and landing ashore. Every entry is signed and each page is signed by the Master.",
+  "practice": [
+   {
+    "q": "What must be recorded?",
+    "a": [
+     "Full or partial recharge",
+     "Repair or maintenance of ODS equipment",
+     "Deliberate and non-deliberate discharge to atmosphere",
+     "Discharge to shore and supply to ship"
+    ]
+   },
+   {
+    "q": "In what units are entries made?",
+    "a": [
+     "Mass in kilograms"
+    ]
+   },
+   {
+    "q": "Where is the list of ODS equipment?",
+    "a": [
+     "IAPP Certificate supplement, section 2.1"
+    ]
+   }
+  ],
+  "tip": "Take one refrigeration unit from the IAPP list and trace its last service through maintenance records to the book. Any gap shows up quickly.",
+  "refs": [
+   "MARPOL Annex VI reg 12",
+   "MEPC.312(74)",
+   "ISM Code 1.2.3"
+  ]
+ },
+ {
+  "id": "6.1.6",
+  "title": "MARPOL Annex VI NOx compliance and record keeping",
+  "plain": "Are the NOx documents and records for our diesel engines in order, and do the engineers know the NOx equipment?",
+  "why": "Engines must meet NOx limits, and a Tier II engine run inside a NOx control area breaks the rules.",
+  "who": {
+   "lead": [
+    "ce",
+    "2e"
+   ],
+   "also": [
+    "master",
+    "3e",
+    "eto"
+   ]
+  },
+  "checks": [
+   "Company procedure for NOx records",
+   "IAPP Certificate and a Technical File for each listed engine",
+   "Record Book of Engine Parameters where required",
+   "Tier and on/off records on entering and leaving a NECA, EGR record book, SCR monitoring records",
+   "Engineer knowledge of the NOx abatement system and the failure procedure"
+  ],
+  "ready": [
+   "Company procedure covering NOx records and electronic book instructions",
+   "IAPP Certificate listing engines in paragraph 2.2.1",
+   "Technical File for every engine on the IAPP",
+   "Record Book of Engine Parameters for engines needing Engine Parameter Checks",
+   "Records of engine Tier and on/off status for NECA entry and exit, if required",
+   "EGR record book for solid residues and bleed-off water, and SCR catalyst monitoring records"
+  ],
+  "traps": [
+   "No procedure, or officer unfamiliar with it",
+   "Technical File missing for an engine on the IAPP certificate",
+   "Record Book of Engine Parameters missing or not kept per company procedure",
+   "No NECA Tier and on/off records on a vessel built after the applicable date",
+   "Tier II engine run in an applicable NECA",
+   "EGR residue and bleed-off water records not kept",
+   "Engineer unfamiliar with the NOx abatement system, the SCR monitoring strategy or the actions for a failure not fixed within one hour",
+   "No records of measured NOx levels for an SCR system",
+   "Electronic book without Declaration, instructions or automatic offline backup"
+  ],
+  "say": "We hold a Technical File for every engine on the IAPP certificate. We keep the Record Book of Engine Parameters, and record Tier and on/off status when entering and leaving a NECA. The engineers know the NOx abatement system and the action to take if it fails for more than an hour.",
+  "practice": [
+   {
+    "q": "How do you achieve Tier III?",
+    "a": [
+     "Tier III is achieved with SCR or EGR equipment",
+     "Not run all the time, must be operating in a NECA",
+     "Engine design gives Tier I and Tier II"
+    ]
+   },
+   {
+    "q": "What if the NOx abatement system fails and cannot be fixed within one hour?",
+    "a": [
+     "Follow the company procedure for that failure",
+     "Engineers must know the actions in advance"
+    ]
+   },
+   {
+    "q": "What records go with EGR?",
+    "a": [
+     "EGR record book",
+     "Storage and disposal of solid residues and bleed-off water",
+     "Residues landed ashore, not discharged or incinerated"
+    ]
+   }
+  ],
+  "tip": "Check the build date of the ship and which NECAs apply. Then check that your Tier records exist for every NECA transit since then.",
+  "refs": [
+   "MARPOL Annex VI reg 13",
+   "NOx Technical Code 2008",
+   "MEPC.307(73)",
+   "MEPC.312(74)"
+  ]
+ }
+]
