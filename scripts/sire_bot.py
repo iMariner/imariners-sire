@@ -186,7 +186,12 @@ def main():
             changed_cards |= handled == "cards"
             continue
         m = u.get("message") or {}
-        if (m.get("from") or {}).get("id") != OWNER or m.get("chat", {}).get("type") != "private":
+        fid = (m.get("from") or {}).get("id")
+        if fid != OWNER or m.get("chat", {}).get("type") != "private":
+            # diagnostics without printing ids (logs are public)
+            bot_id = int(os.environ["TELEGRAM_BOT_TOKEN"].split(":")[0]) if ":" in os.environ["TELEGRAM_BOT_TOKEN"] else 0
+            log(f"ignored message: owner_match={fid == OWNER} chat={m.get('chat', {}).get('type')} "
+                f"sender_digits={len(str(fid))} owner_digits={len(str(OWNER))} owner_is_bot_id={OWNER == bot_id}")
             continue
         text = (m.get("text") or m.get("caption") or "").strip()
         if not text:
