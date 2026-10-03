@@ -10,3 +10,7 @@ The page loads it through jsDelivr:
 Source: OCIMF SIRE 2.0 Question Library Part 1 and Part 2 v1.0 (January 2022), and Question Programming Attributes v2.0 (January 2023). Official documents: https://www.ocimf.org/programmes/sire-2-0
 
 The study notes are iMariners material written for seafarers. They are not OCIMF text and do not replace a company's SMS.
+
+## Field reports
+
+`field/reports/*.json` holds one structured record per real SIRE 2.0 inspection: inspector, port, what was checked, questions asked per rank, observations, and depth scores per topic (`field/SCHEMA.md`). They come in through a Telegram bot (n8n with DeepSeek, using `field/extract_prompt.txt`) and are approved by hand before being committed. On every push to `field/reports/`, the GitHub Action rebuilds `field-data.json`, which the page loads.

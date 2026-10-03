@@ -1,0 +1,53 @@
+name: Rebuild field data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "field/reports/**"
+      - "field/topics.json"
+      - "field/scripts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: field-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate reports
+        run: |
+          python3 - <<'PY'
+          import json, glob, sys
+          bad = 0
+          for f in glob.glob("field/reports/*.json"):
+              try:
+                  r = json.load(open(f))
+                  assert r.get("id") and isinstance(r.get("depth", {}), dict)
+              except Exception as e:
+                  print("BAD", f, e); bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+      - name: Aggregate
+        run: python3 field/scripts/aggregate.py
+      - name: Commit field-data.json
+        run: |
+          if git diff --quiet -- field-data.json; then echo "no change"; exit 0; fi
+          git config user.name "imariners-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add field-data.json
+          git commit -m "Rebuild field-data.json"
+          git push
+      - name: Purge jsDelivr cache
+        run: |
+          curl -s https://purge.jsdelivr.net/gh/iMariner/imariners-sire@main/field-data.json
+          curl -s https://purge.jsdelivr.net/gh/iMariner/imariners-sire@main/sire-data.json

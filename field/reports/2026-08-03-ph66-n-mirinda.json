@@ -1,0 +1,316 @@
+{
+  "id": "2026-08-03-ph66-n-mirinda",
+  "date": "2026-08-03",
+  "inspector": "N. Mirinda",
+  "port": "",
+  "country": "",
+  "terminal": "Ph66",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": "07:00",
+  "end": null,
+  "schedule": [
+    {
+      "area": "Gangway and opening meeting",
+      "hours": null
+    },
+    {
+      "area": "Documents",
+      "hours": null
+    },
+    {
+      "area": "Deck rounds",
+      "hours": null
+    },
+    {
+      "area": "CCR and interviews",
+      "hours": null
+    },
+    {
+      "area": "Lunch",
+      "hours": null
+    },
+    {
+      "area": "Engine room",
+      "hours": null
+    },
+    {
+      "area": "Accommodation",
+      "hours": null
+    },
+    {
+      "area": "Bridge",
+      "hours": null
+    }
+  ],
+  "observations_total": 2,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Gangway watch not in place when he boarded: cadet on the gangway, duty AB and pumpman elsewhere. Discussed for 10 minutes before the opening meeting.",
+      "qid": "7.2.2",
+      "type": "human",
+      "rank": "co"
+    },
+    {
+      "text": "Hose handling crane hydraulic hose spares: PMS listed one complete set; each hose should be listed with part number and kept secured (locked box) against accidental use.",
+      "qid": "5.9.2",
+      "type": "process",
+      "rank": "2e"
+    }
+  ],
+  "positives": [
+    "Bosun and fitter answered correctly (positive remark)"
+  ],
+  "style": [
+    "Judges the ship from the first minute at the gangway",
+    "Checks every page of the bunker checklist",
+    "Tests things live: each overfill warning light, emergency generator spring start then battery start, random lamp tests",
+    "Interviews ratings in depth in the CCR, then checks their answers with officers",
+    "Will issue STOP for unsafe acts during rounds (pumpman walking over mooring lines)"
+  ],
+  "questions": [
+    {
+      "rank": "ce",
+      "area": "Documentation",
+      "q": "How do you report when equipment related to class fails?",
+      "qid": "2.4.2",
+      "answer": "good"
+    },
+    {
+      "rank": "bosun",
+      "area": "Mooring Decks",
+      "q": "What does the marking on the brake handle spindle mean? What happens before or beyond the mark?",
+      "qid": "9.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "Where is the Bosun's mooring station, how many people are there and who is involved? Are oilers included? Where is the mooring plan?",
+      "qid": "9.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Cargo Control Room",
+      "q": "Where is your mooring station, how many people with you, who operates the winch?",
+      "qid": "9.4.1",
+      "answer": "good"
+    },
+    {
+      "rank": "bosun",
+      "area": "Cargo Control Room",
+      "q": "What is your duty in enclosed space entry? What do you check, who else checks, who signs the permit, what equipment do you bring?",
+      "qid": "5.5.1",
+      "answer": "good"
+    },
+    {
+      "rank": "bosun",
+      "area": "Cargo Control Room",
+      "q": "How do you check the atmosphere? (stop the fan, wait 5 to 10 minutes)",
+      "qid": "5.6.1",
+      "answer": "good"
+    },
+    {
+      "rank": "bosun",
+      "area": "Cargo Control Room",
+      "q": "You signed the mooring plan training record. Did you read the plan?",
+      "qid": "9.4.1",
+      "answer": "poor"
+    },
+    {
+      "rank": "bosun",
+      "area": "Cargo Control Room",
+      "q": "After loading, shore asks for a sample or ullage of a cargo tank. What do you do and why?",
+      "qid": "8.3.5",
+      "answer": "partial"
+    },
+    {
+      "rank": "3o",
+      "area": "Cargo Control Room",
+      "q": "Why wait 30 minutes after loading before sampling or ullaging?",
+      "qid": "8.3.5",
+      "answer": "good"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "How is the enclosed space risk assessment and permit filled in?",
+      "qid": "5.5.1",
+      "answer": "good"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "How often are ballast tanks and cargo tanks inspected?",
+      "qid": "2.3.3",
+      "answer": "good"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "When was the last tank cleaning, how was it done, which tank kept the wash water?",
+      "qid": "8.1.4",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Cargo Control Room",
+      "q": "How many gas instruments are on board? Show one and calibrate it.",
+      "qid": "5.6.1",
+      "answer": "good"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine Room",
+      "q": "Show the hose crane hydraulic hose spares and compare with the PMS.",
+      "qid": "5.9.2",
+      "answer": "poor"
+    },
+    {
+      "rank": "fitter",
+      "area": "Engine Room",
+      "q": "What is the hot work procedure in the designated area? How far from an oil tank? Who completes the checklist? What is needed for hot work outside the workshop? What do you check before starting?",
+      "qid": "5.5.2",
+      "answer": "good"
+    },
+    {
+      "rank": "3e",
+      "area": "Engine Control Room",
+      "q": "Show the UMS checklist, arrival and departure checklists, C/E standing orders and port order book.",
+      "qid": "10.1.1",
+      "answer": "good"
+    },
+    {
+      "rank": "eto",
+      "area": "Engine Control Room",
+      "q": "Show the insulation mat certificate. What are the 220 V and 440 V low insulation readings?",
+      "qid": "10.3.1",
+      "answer": "good"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documentation",
+      "item": "Last PSC, USCG and SIRE reports",
+      "qid": "2.8.2"
+    },
+    {
+      "area": "Documentation",
+      "item": "CMS progress shown by C/O and 2/E",
+      "qid": "10.4.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Last mooring line break test report, how it was done, where the equipment is",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Every page of the bunker checklist",
+      "qid": "10.5.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "LO analysis reports and Oil Record Book Part I",
+      "qid": "10.4.2"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Cargo tank high level and overfill alarms on two wing tanks, every warning light",
+      "qid": "8.3.4"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Ballast tank vents, deck seal level, PV breaker, oxygen and acetylene rooms, paint store explosion proof light, sample locker, SOPEP locker",
+      "qid": "5.8.1"
+    },
+    {
+      "area": "Lifeboat deck",
+      "item": "Both lifeboats",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Forecastle",
+      "item": "Bosun store bilge well alarms port and starboard",
+      "qid": "5.8.5"
+    },
+    {
+      "area": "Exterior Decks",
+      "item": "Emergency generator: spring start first, then battery start",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Life jackets and immersion suits: zips operated",
+      "qid": "5.4.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Liferafts, EPIRB, SART, compass deck, random repeater and panel lamp tests",
+      "qid": "4.4.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Ballast water treatment system operation",
+      "qid": "6.3.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Cargo plan stage against actual tank levels",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Cargo Manifold",
+      "item": "Remote manifold pressure reading compared with the gauge at the manifold",
+      "qid": "8.3.24"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "ODME decanting printout and Oil Record Book Part II",
+      "qid": "6.6.2"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Alarms tried: ER bilge wells, ME FO leak off, generator FO leak off, ME oil mist detector, OWS recirculation",
+      "qid": "10.3.5"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Random eye wash stations and EEBDs, ME emergency manoeuvring and Hypermist panel lamp tests",
+      "qid": "5.3.4"
+    },
+    {
+      "area": "Internal Accommodation",
+      "item": "Fire locker, change room, laundry, hospital",
+      "qid": "5.8.6"
+    },
+    {
+      "area": "Internal Accommodation",
+      "item": "Foam tank level gauge free of air bubbles (from previous SIRE)",
+      "qid": "5.2.15"
+    }
+  ],
+  "depth": {
+    "security": 3,
+    "documents": 2,
+    "mooring": 3,
+    "cargo": 3,
+    "pollution": 3,
+    "engine": 3,
+    "permits": 3,
+    "lsa": 2,
+    "fire": 2,
+    "safety": 3,
+    "nav_equip": 1
+  },
+  "tips": [
+    "Have the gangway watch exactly as per the port watch orders from the moment the inspector can arrive",
+    "Keep the Bosun able to explain the mooring plan he signed for",
+    "Ratings must know why you wait after loading before sampling (static electricity)",
+    "List hydraulic hose spares one by one with part numbers and keep them locked",
+    "Clear any item from the previous SIRE before this one: he checks them"
+  ],
+  "summary": "Started badly at the gangway and he discussed it before the opening meeting. After that a thorough, hands-on inspection: every overfill light, emergency generator starts, live alarm tests and long CCR interviews with the Bosun. Two observations, and a positive remark for the Bosun and fitter."
+}

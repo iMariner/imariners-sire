@@ -1,0 +1,190 @@
+{
+  "id": "undated-unknown-port-capt-luis-vergara",
+  "date": "",
+  "inspector": "Capt. Luis Vergara",
+  "port": "",
+  "country": "",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Calm, professional and approachable",
+    "Gives crew time to explain and guides them when clarification is needed",
+    "Detailed inspection with emphasis on crew knowledge, records and emergency arrangements",
+    "Questions ratings and engineers directly on their own duties",
+    "Checks alarms on the alarm signal column one by one"
+  ],
+  "questions": [
+    {
+      "rank": "ratings",
+      "area": "Engine Room",
+      "q": "Show me the equipment. What is the purpose of this system?",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ratings",
+      "area": "Engine Room",
+      "q": "What are the hot work precautions?",
+      "qid": "5.5.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ratings",
+      "area": "Engine Room",
+      "q": "Where are the emergency escapes and what do you do in an emergency?",
+      "qid": "5.10.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ratings",
+      "area": "Engine Room",
+      "q": "Where are the ESD and remote stops, and when would you use them?",
+      "qid": "10.7.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine Room",
+      "q": "How do you operate the emergency steering?",
+      "qid": "5.1.12",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine Control Room",
+      "q": "What are your actions in a blackout?",
+      "qid": "5.1.11",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Documentation",
+      "q": "What are the hours of rest rules, and what do you do if you have a non-conformity?",
+      "qid": "3.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Documentation",
+      "q": "How do you report a near miss?",
+      "qid": "5.7.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ratings",
+      "area": "Engine Room",
+      "q": "What does this alarm mean, what caused it, what do you do and who do you inform?",
+      "qid": "10.3.5",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documentation",
+      "item": "SMS and PMS maintenance records",
+      "qid": "10.4.1"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Seawater pumps and pipelines maintenance records",
+      "qid": "10.2.4"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Funnel flaps and blower flaps",
+      "qid": "5.2.2"
+    },
+    {
+      "area": "Steering Gear",
+      "item": "Emergency steering arrangement and operation",
+      "qid": "5.1.12"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Alarm signal column, each alarm checked",
+      "qid": "10.3.5"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Bilge alarm",
+      "qid": "10.2.5"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Oily water separator and its alarm",
+      "qid": "6.1.3"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Fuel leak-off alarm",
+      "qid": "10.7.1"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Incinerator refractory condition",
+      "qid": "6.5.2"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Critical spares area",
+      "qid": "10.4.1"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Insulation resistance settings",
+      "qid": "10.3.2"
+    },
+    {
+      "area": "Chief Engineer's Office",
+      "item": "FO temperature records, FO and LO analysis reports",
+      "qid": "10.4.2"
+    },
+    {
+      "area": "Chief Engineer's Office",
+      "item": "SEEMP",
+      "qid": "2.6.3"
+    },
+    {
+      "area": "Chief Engineer's Office",
+      "item": "Bunker SDS and the fuel in use with its storage temperature",
+      "qid": "10.5.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Open defects and company actions",
+      "qid": "2.4.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Manning level against company manning policy",
+      "qid": "3.1.3"
+    },
+    {
+      "area": "Anywhere",
+      "item": "Housekeeping",
+      "qid": "5.8.2"
+    }
+  ],
+  "depth": {
+    "engine": 3,
+    "pollution": 2,
+    "drills": 2,
+    "crew": 2,
+    "safety": 2,
+    "documents": 1
+  },
+  "tips": [
+    "Ratings must be able to show the equipment, explain its purpose and say what they would do and who they inform",
+    "Engineers should explain procedures from real onboard practice, then point to the SMS procedure",
+    "Know every alarm on the alarm column: what it means, the cause, the action and who to call"
+  ],
+  "summary": "An engine room heavy inspection. Ratings and engineers were questioned directly on emergencies, alarms, hot work and escape routes, and the alarm column was checked alarm by alarm. Port and date were not given in the report."
+}

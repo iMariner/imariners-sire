@@ -1,0 +1,18 @@
+[
+ {"k": "documents",   "name": "Certificates and documents",   "prefix": ["2."]},
+ {"k": "crew",        "name": "Crew records and rest hours",  "prefix": ["3."]},
+ {"k": "nav_equip",   "name": "Bridge equipment (ECDIS, radar)", "prefix": ["4.1."]},
+ {"k": "passage",     "name": "Passage planning and UKC",     "prefix": ["4.2."]},
+ {"k": "bridge_team", "name": "Bridge team and comms",        "prefix": ["4.3.", "4.4.", "4.5."]},
+ {"k": "drills",      "name": "Emergency plans and drills",   "prefix": ["5.1."]},
+ {"k": "fire",        "name": "Fire fighting",                "prefix": ["5.2.", "5.3."]},
+ {"k": "lsa",         "name": "Life saving appliances",       "prefix": ["5.4."]},
+ {"k": "permits",     "name": "Permits, enclosed space, gas detection", "prefix": ["5.5.", "5.6."]},
+ {"k": "safety",      "name": "Safety management and housekeeping", "prefix": ["5.7.", "5.8.", "5.9.", "5.10.", "5.11.", "5.12."]},
+ {"k": "pollution",   "name": "Pollution prevention and record books", "prefix": ["6."]},
+ {"k": "security",    "name": "Security and cyber",           "prefix": ["7."]},
+ {"k": "cargo",       "name": "Cargo, ballast and CCR",       "prefix": ["8."]},
+ {"k": "mooring",     "name": "Mooring and anchoring",        "prefix": ["9."]},
+ {"k": "engine",      "name": "Engine room and alarms",       "prefix": ["10."]},
+ {"k": "photos",      "name": "Hull and photo condition",     "prefix": ["11."]}
+]

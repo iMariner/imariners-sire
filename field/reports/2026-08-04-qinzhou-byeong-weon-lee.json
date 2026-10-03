@@ -1,0 +1,358 @@
+{
+  "id": "2026-08-04-qinzhou-byeong-weon-lee",
+  "date": "2026-08-04",
+  "inspector": "Byeong Weon Lee",
+  "port": "Qinzhou",
+  "country": "China",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": 8,
+  "start": "12:00",
+  "end": "20:00",
+  "schedule": [
+    {
+      "area": "Documents",
+      "hours": 2
+    },
+    {
+      "area": "Bridge",
+      "hours": 1
+    },
+    {
+      "area": "Deck rounds",
+      "hours": 1
+    },
+    {
+      "area": "CCR",
+      "hours": 1
+    },
+    {
+      "area": "Lunch",
+      "hours": 1
+    },
+    {
+      "area": "Galley and accommodation",
+      "hours": 1
+    },
+    {
+      "area": "Engine room",
+      "hours": null
+    },
+    {
+      "area": "Closing meeting",
+      "hours": 1
+    }
+  ],
+  "observations_total": 9,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "Interval between superintendent visits over 7 months as shown in the PIQ. An intermediate audit was not accepted; he went strictly by the PIQ.",
+      "qid": "2.2.1",
+      "type": "process",
+      "rank": "master"
+    },
+    {
+      "text": "Lifeboat lowering into the water done 3 days after the 3 month interval (ship was in a high risk area). Company was not informed. Counted under several categories.",
+      "qid": "5.1.6",
+      "type": "process",
+      "rank": "master"
+    },
+    {
+      "text": "Enclosed space entry checklist did not show top, middle and bottom gas readings, although the SMS required them. Master advised to raise it in the SMS review.",
+      "qid": "5.5.1",
+      "type": "process",
+      "rank": "co"
+    },
+    {
+      "text": "Paint on the edge of one fusible plug on a tank dome. Cleaned in his presence, still recorded.",
+      "qid": "5.8.1",
+      "type": "hardware",
+      "rank": "co"
+    }
+  ],
+  "positives": [
+    "Crew answered the ESD points question correctly",
+    "SIMOPS question answered",
+    "Bosun completed the breathing apparatus demonstration although he had joined two days earlier"
+  ],
+  "style": [
+    "Explains the full schedule at the opening meeting and keeps to it",
+    "Goes strictly by the PIQ; does not accept other evidence that contradicts it",
+    "Repeats the same question in different ways until fully satisfied (hours of rest)",
+    "Records an observation even when the defect is fixed in front of him",
+    "Asks ratings practical questions and expects specific items (EEBD for enclosed space entry)"
+  ],
+  "questions": [
+    {
+      "rank": "master",
+      "area": "Documentation",
+      "q": "If hours of rest are exceeded, what is the company procedure and what is the company limit: 2, 3 or 4 non-conformities?",
+      "qid": "3.4.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "Which week are the chart corrections up to?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the difference between two and four colour depth display on ECDIS?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is CATZOC? What is SCAMIN?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "When can you go outside the company UKC policy, and where is that documented?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "In rain, which radar do you use, X or S band, and why? What is the difference?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "The Bosun shouts on the radio from the forecastle: man overboard starboard side. What do you do?",
+      "qid": "5.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Exterior Decks",
+      "q": "Explain and start the emergency generator.",
+      "qid": "10.2.1",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Lifeboat deck",
+      "q": "How would you launch a liferaft manually?",
+      "qid": "5.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Main Deck",
+      "q": "Show the breathing apparatus checks and put it on.",
+      "qid": "5.3.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "bosun",
+      "area": "Main Deck",
+      "q": "What PPE is needed to enter an enclosed space?",
+      "qid": "5.5.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "ratings",
+      "area": "Main Deck",
+      "q": "How many ESD points are on the ship and where are they?",
+      "qid": "8.3.8",
+      "answer": "good"
+    },
+    {
+      "rank": "ratings",
+      "area": "Main Deck",
+      "q": "What is simultaneous operations, what is your understanding?",
+      "qid": "5.7.8",
+      "answer": "good"
+    },
+    {
+      "rank": "ab",
+      "area": "Main Deck",
+      "q": "Where is the nearest ESD to the gangway?",
+      "qid": "8.3.8",
+      "answer": "good"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "What cargo are you carrying and in which tanks?",
+      "qid": "8.99.6",
+      "answer": "good"
+    },
+    {
+      "rank": "cook",
+      "area": "Internal Accommodation",
+      "q": "How do you fight different types of galley fire? How do you use the fixed dry powder system for the fryer?",
+      "qid": "5.2.8",
+      "answer": "unknown"
+    },
+    {
+      "rank": "cook",
+      "area": "Internal Accommodation",
+      "q": "How do you dispose of used cooking oil?",
+      "qid": "6.1.4",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documentation",
+      "item": "Copies of crew list, class status, port of call list, tank inspection schedule and drill matrix",
+      "qid": "2.1.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Defect list accuracy, and company permission for any overdue PMS jobs",
+      "qid": "2.4.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Enclosed space entry permits",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Crew familiarisation reports, especially for the 2nd Engineer",
+      "qid": "3.5.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Last dynamic navigation audit and the auditor's qualifications",
+      "qid": "3.2.2"
+    },
+    {
+      "area": "Documentation",
+      "item": "Coating reports and tank inspection reports",
+      "qid": "2.3.3"
+    },
+    {
+      "area": "Documentation",
+      "item": "Bunker checklist: primary and secondary communication with the barge written in",
+      "qid": "10.5.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Oil Record Book and Garbage Record Book",
+      "qid": "6.1.3"
+    },
+    {
+      "area": "Documentation",
+      "item": "Drill records against required intervals",
+      "qid": "5.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Contingency anchorages, parallel index markers, call Master points, pilot boarding point on the passage plan",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Master's standing orders and night orders",
+      "qid": "4.2.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "Echo sounder alarm setting and test",
+      "qid": "4.1.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Steering and control testing marks before departure",
+      "qid": "4.2.6"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Battery room, paint locker, chemical locker, CO2 room",
+      "qid": "5.8.1"
+    },
+    {
+      "area": "Lifeboat deck",
+      "item": "Lifeboat engine started",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Exterior Decks",
+      "item": "Emergency generator fuel shut off valve demonstrated",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Aft Mooring Deck",
+      "item": "Mooring winch brake settings",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Fusible plugs on tank domes",
+      "qid": "5.8.1"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Fire locker and emergency lighting on deck",
+      "qid": "5.4.9"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Loading plan, stability at intervals and calculations",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "High level alarms not bypassed",
+      "qid": "8.3.4"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Pre-arrival checklist with manifold valve closing times",
+      "qid": "8.3.8"
+    },
+    {
+      "area": "Internal Accommodation",
+      "item": "Galley hygiene and fridges",
+      "qid": "5.8.6"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Random alarms, LO and fuel reports, PMS, log books",
+      "qid": "10.3.5"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Sewage treatment plant and ODME",
+      "qid": "6.6.2"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "crew": 3,
+    "passage": 3,
+    "nav_equip": 3,
+    "drills": 3,
+    "lsa": 3,
+    "permits": 3,
+    "fire": 2,
+    "cargo": 2,
+    "safety": 2,
+    "pollution": 2,
+    "engine": 2,
+    "mooring": 1
+  },
+  "tips": [
+    "Check every drill interval before the inspection and tell the company in writing if one will be late",
+    "Make sure PIQ dates are correct: he goes strictly by them",
+    "Enclosed space checklist must show top, middle and bottom readings, not only the SMS",
+    "Write primary and secondary communication with the barge in the bunker checklist (for example VHF and an agreed number of short whistle blasts)",
+    "Carry a personal gas detector everywhere on deck rounds",
+    "Clean paint off fusible plugs and gauge glasses before the inspection"
+  ],
+  "summary": "An eight hour inspection that started with two hours of documents. Nine observations, none high risk. Most came from dates: superintendent visit interval in the PIQ and a lifeboat drill done three days late. He questioned the 2/O in depth on ECDIS and radar, and asked ratings practical safety questions."
+}
