@@ -309,29 +309,30 @@ def cycle(state, updates, split_wait, check_prs):
         for k in sorted(state["pending"], key=lambda k: state["pending"][k]["created"])[:-30]:
             del state["pending"][k]
 
-    if changed_cards:
-        run("git", "pull", "--rebase", "--autostash", "-q")
-        run(sys.executable, "scripts/build_data.py")
-    if changed_reports or changed_cards:
-        run(sys.executable, "field/scripts/aggregate.py")
-        run("git", "add", "-A", "field", "field-data.json", "sire-data.json", "cards")
+    # Only source files are committed here. The "Rebuild SIRE data" GitHub workflow rebuilds sire-data.json and
+    # field-data.json and purges the CDN on every push, so the bot never races it on generated files.
+    if changed_reports:
+        run("git", "add", "field/reports")
         if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode:
-            run("git", "commit", "-q", "-m", "Bot: " + ("new field report" if changed_reports else "") +
-                (" and " if changed_reports and changed_cards else "") + ("card update merged" if changed_cards else ""))
-            run("git", "pull", "--rebase", "--autostash", "-q")
-            run("git", "push", "-q")
-            purge = True
-    if purge:
-        for f in ("field-data.json", "sire-data.json"):
-            try:
-                http("GET", f"https://purge.jsdelivr.net/gh/{REPO}@main/{f}", timeout=30)
-            except Exception as e:
-                log("purge failed", f, type(e).__name__)
+            run("git", "commit", "-q", "-m", "Bot: new field report")
+            push_with_retry()
+
 
 
 
 def run(*cmd):
     subprocess.run(cmd, check=True, cwd=ROOT)
+
+
+def push_with_retry():
+    for attempt in range(4):
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            return
+        log(f"push rejected, rebasing (attempt {attempt + 1})")
+        if subprocess.run(["git", "pull", "--rebase", "--autostash", "-q"], cwd=ROOT).returncode:
+            subprocess.run(["git", "rebase", "--abort"], cwd=ROOT)
+        time.sleep(5 * (attempt + 1))
+    raise RuntimeError("could not push the report to GitHub after 4 tries")
 
 
 def command(text, state):
@@ -430,6 +431,11 @@ def handle_callback(cq, state):
         return "report"
     if action in ("merge", "close"):
         n = int(arg)
+        pr = gh("GET", f"/repos/{REPO}/pulls/{n}", PUB)
+        if pr.get("state") != "open":
+            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Already done")
+            tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
+            return None
         try:
             if action == "merge":
                 gh("PUT", f"/repos/{REPO}/pulls/{n}/merge", PUB, {"merge_method": "squash"})
@@ -437,11 +443,12 @@ def handle_callback(cq, state):
                 gh("PATCH", f"/repos/{REPO}/pulls/{n}", PUB, {"state": "closed"})
         except urllib.error.HTTPError as e:
             tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text=f"GitHub said {e.code}")
+            tg_soft("sendMessage", chat_id=OWNER, text=f"GitHub refused that ({e.code}). Open the pull request on GitHub to see why.")
             return None
         tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Merged" if action == "merge" else "Closed")
         tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
-           text="Merged. The study cards update in a few minutes." if action == "merge" else "Closed. No change made.")
+           text="Merged. The study cards on the page update within a couple of minutes." if action == "merge" else "Closed. No change made.")
         return "cards" if action == "merge" else None
     return None
 
