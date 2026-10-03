@@ -1,6 +1,8 @@
 # Hermes daily job: improve the SIRE study cards from new field reports
 
-Runs on the iMariners Hermes (`hermes7.splicerun.net`, Webyne VPS) as a cron job, daily at 03:30 UTC for now.
+Runs on the iMariners Hermes (`hermes7.splicerun.net` = container `sr-sra4c584b4-hermes` on the Webyne VPS) as cron job
+`sire-card-improvement` (id caca6c1e1d33), daily at 03:30 UTC for now, set up 2026-10-03. The prompt is stored in the
+Hermes volume as /opt/data/sire_prompt.txt; the token is the `SIRE_GITHUB_TOKEN=` line in /opt/data/.env.
 Change it to weekly once reports slow down. It never changes the website directly. It opens a pull request
 labelled `hermes-cards`; the SIRE Telegram bot sends it to Ajit with Merge / Close buttons.
 
@@ -15,7 +17,8 @@ The prompt describes GitHub calls in words: Hermes blocks cron prompts with a li
 
 ```
 You maintain the SIRE 2.0 study cards on imariners.com. Work only through the GitHub REST API from short
-python3 scripts (urllib), authenticating with the token in the SIRE_GITHUB_TOKEN environment variable.
+python3 scripts (urllib), authenticating with the token in the SIRE_GITHUB_TOKEN environment variable (if it is not set in the environment, read it
+from the line starting SIRE_GITHUB_TOKEN= in the file $HERMES_HOME/.env).
 Never print, log or write out the token. Public repo: iMariner/imariners-sire (branch main). Private repo:
 iMariner/imariners-sire-raw (read only).
 
