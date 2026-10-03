@@ -51,8 +51,8 @@ def http(method, url, body=None, headers=None, timeout=60, retries=2):
         time.sleep(3 * (attempt + 1))
 
 
-def tg(method, **params):
-    return http("POST", TG + method, params, timeout=40).get("result")
+def tg(method, _timeout=40, **params):
+    return http("POST", TG + method, params, timeout=_timeout).get("result")
 
 
 def tg_soft(method, **params):
@@ -172,16 +172,76 @@ def keyboard(*buttons):
 
 
 # ---------------------------------------------------------------- main
-def main():
+def load_state():
     raw_state, state_sha = priv_get(STATE_PATH)
     state = json.loads(raw_state) if raw_state else {}
     state.setdefault("offset", 0)
     state.setdefault("pending", {})
     state.setdefault("buffer", [])
     state.setdefault("notified_prs", [])
-    changed_reports, changed_cards, purge = False, False, False
+    return state, state_sha
 
+
+def save_state(state, sha):
+    r = priv_put(STATE_PATH, json.dumps(state, indent=1), "Bot state", sha)
+    return ((r or {}).get("content") or {}).get("sha", sha)
+
+
+def main():
+    """One pass (GitHub Actions mode)."""
+    state, sha = load_state()
     updates = tg("getUpdates", offset=state["offset"], timeout=0, allowed_updates=["message", "callback_query"]) or []
+    cycle(state, updates, split_wait=90, check_prs=True)
+    save_state(state, sha)
+    log(f"done: pending {len(state['pending'])}, buffered {len(state['buffer'])}")
+
+
+def loop():
+    """Always-on mode (VPS service): long polling, replies within seconds."""
+    state, sha = load_state()
+    last_prs, last_alert, last_pull = 0, 0, 0
+    me = Path(__file__).read_bytes()
+    log("loop started")
+    while True:
+        try:
+            wait = 15 if state["buffer"] else 50
+            updates = tg("getUpdates", _timeout=wait + 20, offset=state["offset"], timeout=wait,
+                         allowed_updates=["message", "callback_query"]) or []
+            due_prs = time.time() - last_prs > 600
+            if time.time() - last_pull > 900:
+                # pick up new code: if this file changed on GitHub, exit and let systemd restart the service
+                last_pull = time.time()
+                run("git", "pull", "--rebase", "--autostash", "-q")
+                if Path(__file__).read_bytes() != me:
+                    log("new bot code pulled, restarting")
+                    save_state(state, sha)
+                    sys.exit(0)
+            if updates or state["buffer"] or due_prs:
+                before = json.dumps(state, sort_keys=True)
+                if state["buffer"] or updates:
+                    run("git", "pull", "--rebase", "--autostash", "-q")
+                cycle(state, updates, split_wait=12, check_prs=due_prs)
+                if due_prs:
+                    last_prs = time.time()
+                if json.dumps(state, sort_keys=True) != before:
+                    sha = save_state(state, sha)
+        except Exception as e:
+            log("loop error", type(e).__name__, str(e)[:200])
+            if time.time() - last_alert > 1800:
+                last_alert = time.time()
+                try:
+                    tg("sendMessage", chat_id=OWNER, text=f"SIRE bot hit an error and keeps running: {type(e).__name__}: {str(e)[:200]}")
+                except Exception:
+                    pass
+            time.sleep(15)
+            try:
+                state, sha = load_state()
+            except Exception:
+                pass
+
+
+def cycle(state, updates, split_wait, check_prs):
+    changed_reports, changed_cards, purge = False, False, False
     log(f"updates: {len(updates)}")
     texts = []
     for u in updates:
@@ -234,14 +294,15 @@ def main():
                 reports.append(cur)
             cur = [part]
     if cur:
-        if len(cur[-1]["t"]) >= SPLIT_LEN and time.time() - cur[-1]["date"] < 90:
+        if len(cur[-1]["t"]) >= SPLIT_LEN and time.time() - cur[-1]["date"] < split_wait:
             state["buffer"] = cur        # more parts may still be on the way
         else:
             reports.append(cur)
     for parts in reports:
         new_report("\n".join(p["t"] for p in parts), state)
 
-    changed_cards |= notify_prs(state)
+    if check_prs:
+        changed_cards |= notify_prs(state)
 
     # keep at most 30 pending reports
     if len(state["pending"]) > 30:
@@ -267,8 +328,6 @@ def main():
             except Exception as e:
                 log("purge failed", f, type(e).__name__)
 
-    priv_put(STATE_PATH, json.dumps(state, indent=1), "Bot state", state_sha)
-    log(f"done: pending {len(state['pending'])}, buffered {len(state['buffer'])}")
 
 
 def run(*cmd):
@@ -402,6 +461,8 @@ def notify_prs(state):
 
 
 if __name__ == "__main__":
+    if "--loop" in sys.argv:
+        loop()
     try:
         main()
     except Exception as e:
