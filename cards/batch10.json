@@ -306,6 +306,14 @@
      "Also as part of pre-UMS checks",
      "Other alarms follow the PMS"
     ]
+   },
+   {
+    "q": "An alarm sounds on the panel. What do you tell the inspector?",
+    "a": [
+     "What the alarm means and the likely cause",
+     "The action you take and who you inform",
+     "That you record every alarm and action"
+    ]
    }
   ],
   "tip": "Brief the OOW on what each lamp and buzzer on the bridge panel means. Check the printer clock at the start of every watch.",
