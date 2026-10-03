@@ -1,7 +1,7 @@
 """Build field-data.json from field/reports/*.json (SIRE 2.0 field reports).
 
 Run from the repo root:  python3 field/scripts/aggregate.py
-Output: field-data.json (loaded by imariners.com/sire-2-0-inspection-questions/)
+Output: field-data.json (loaded by imariners.com/sire-2-0/)
 """
 import json, re, glob, statistics
 from pathlib import Path

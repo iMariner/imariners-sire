@@ -1,6 +1,6 @@
 # imariners-sire
 
-Data for **SIRE 2.0 Made Easy** on [imariners.com](https://imariners.com/sire-2-0-inspection-questions/): a free prep tool that helps seafarers get ready for OCIMF SIRE 2.0 tanker inspections.
+Data for **SIRE 2.0 Made Easy** on [imariners.com](https://imariners.com/sire-2-0/): a free prep tool that helps seafarers get ready for OCIMF SIRE 2.0 tanker inspections.
 
 `sire-data.json` holds all 385 questions in the SIRE 2.0 Question Library. Each question has its official wording and attributes (vessel types, inspection area, core or rotational), plus iMariners plain-language study notes: what the inspector checks, what to keep ready, common findings, practice questions, and the ranks usually asked.
 

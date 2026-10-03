@@ -1,4 +1,4 @@
-"""Build sire-data.json (the data imariners.com/sire-2-0-inspection-questions/ loads) from:
+"""Build sire-data.json (the data imariners.com/sire-2-0/ loads) from:
   cards/meta.json      question attributes from the OCIMF Question Library and Programming Attributes
   cards/batch*.json    iMariners plain-language study cards (edit these)
 Run from the repo root: python3 scripts/build_data.py
