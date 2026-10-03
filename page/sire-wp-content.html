@@ -462,10 +462,10 @@ f.checks.map(function(c){return '<li>Checked: '+esc(c.t)+' <small>'+esc(c.ins)+(
 return '<div class="sr-fbox"><b class="h">From real inspections: seen in '+f.n+(f.n===1?" report":" reports")+'</b><ul>'+li+'</ul></div>'}
 function insKey(n){return String(n||"").replace(/^(capt|captain|mr|mrs|ms|dr)\.?\s+/i,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
 function loadField(){var t=document.getElementById("sire-field");if(t){F=JSON.parse(t.textContent);renderField();return}
-fetch("https://cdn.jsdelivr.net/gh/iMariner/imariners-sire@main/field-data.json").then(function(r){return r.json()}).then(function(d){F=d;renderField();if(D)render();var m=location.hash.match(/^#inspector-(.+)$/);if(m)showProfile(m[1])}).catch(function(){var s=el("sr-field");if(s)s.hidden=true})}
+fetch("https://cdn.jsdelivr.net/gh/iMariner/imariners-sire@main/field-data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(d){F=d;renderField();if(D)render();var m=location.hash.match(/^#inspector-(.+)$/);if(m)showProfile(m[1])}).catch(function(){var s=el("sr-field");if(s)s.hidden=true})}
 var tag=document.getElementById("sire-data");
 if(tag){init(JSON.parse(tag.textContent))}
-else{fetch(root.getAttribute("data-src")||"https://cdn.jsdelivr.net/gh/iMariner/imariners-sire@main/sire-data.json").then(function(r){return r.json()}).then(init).catch(function(){el("sr-head").textContent="Could not load the questions. Refresh the page to try again."})}
+else{fetch(root.getAttribute("data-src")||"https://cdn.jsdelivr.net/gh/iMariner/imariners-sire@main/sire-data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(init).catch(function(){el("sr-head").textContent="Could not load the questions. Refresh the page to try again."})}
 })();
 </script>
 <!-- /wp:html -->
