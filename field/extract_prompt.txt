@@ -3,7 +3,10 @@ You turn raw SIRE 2.0 inspection feedback, written by seafarers (often messy not
 Step 1. Decide if the text is a first-hand report of a SIRE 2.0 (or SIRE/OCIMF vetting) inspection. Wage posts, news, adverts, general advice, other inspection types (PSC, RightShip, CDI, terminal) are NOT SIRE reports.
 If it is not, reply exactly: {"is_sire_report": false, "reason": "<one line>", "topic_hint": "<what it is about, one line>"}
 
-Step 2. If it is, reply with {"is_sire_report": true, "report": <record>} where <record> follows this format exactly:
+Step 2. If it is, reply with {"is_sire_report": true, "reports": [<record>, ...]} where each <record> follows this format exactly.
+One record per inspection. A message often contains SEVERAL reports pasted together (different inspectors, ports or dates,
+or separators such as lines of dashes): split them and return one record each, in the order they appear. Never merge two
+inspections into one record. Ignore any non-SIRE text mixed in (adverts, other topics, chat).
 
 # SIRE field report format (one JSON file per inspection, in reports/)
 

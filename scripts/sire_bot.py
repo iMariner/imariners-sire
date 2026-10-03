@@ -296,13 +296,25 @@ def stage(text, correction, state, old_key=None):
     if not res.get("is_sire_report"):
         tg("sendMessage", chat_id=OWNER, text=f"Not a SIRE report: {res.get('reason', '')}\nTopic: {res.get('topic_hint', '')}")
         return
-    rec = normalise(res.get("report") or {})
-    key = old_key or secrets.token_hex(4)
-    msg = tg("sendMessage", chat_id=OWNER, text=summary_html(rec, key), parse_mode="HTML",
-             reply_markup=keyboard(("Approve and publish", f"ok:{key}"), ("Reject", f"no:{key}")))
-    state["pending"][key] = {"record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
-                             "created": int(time.time())}
-    log(f"staged {key}")
+    recs = res.get("reports") or ([res["report"]] if res.get("report") else [])
+    recs = [r for r in recs if isinstance(r, dict)]
+    if not recs:
+        tg("sendMessage", chat_id=OWNER, text="I could not find an inspection in that text. Send it again with more detail.")
+        return
+    if old_key and len(recs) > 1:
+        # a correction to one summary: keep only that inspection
+        want = slug((state["pending"].get(old_key) or {}).get("record", {}).get("inspector"))
+        recs = [r for r in recs if slug(r.get("inspector")) == want][:1] or recs[:1]
+    if len(recs) > 1 and not old_key:
+        tg("sendMessage", chat_id=OWNER, text=f"I found {len(recs)} separate inspections in that message. One summary each follows.")
+    for n, r in enumerate(recs):
+        rec = normalise(r)
+        key = old_key if (old_key and n == 0) else secrets.token_hex(4)
+        msg = tg("sendMessage", chat_id=OWNER, text=summary_html(rec, key), parse_mode="HTML",
+                 reply_markup=keyboard(("Approve and publish", f"ok:{key}"), ("Reject", f"no:{key}")))
+        state["pending"][key] = {"record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
+                                 "created": int(time.time())}
+        log(f"staged {key}")
 
 
 def correct(key, text, state):
