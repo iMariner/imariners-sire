@@ -854,7 +854,8 @@
    "Missing spare hydraulic hose for one of the sizes or lengths",
    "Spare hose not of the same specification or rating",
    "Spares listed in the risk assessment not on board",
-   "Special purpose crane treated as a spare when it does not share the same parts"
+   "Special purpose crane treated as a spare when it does not share the same parts",
+   "Spare hoses not itemised with part numbers or kept in a locked box"
   ],
   "say": "We have a single hose crane, so we risk assessed the failure of each key part. We carry at least one spare of every hydraulic hose size and length, and the other spares the assessment named. They are listed in the inventory and I can show you them.",
   "practice": [
