@@ -24,7 +24,7 @@ File name: `YYYY-MM-DD-<port-slug>-<inspector-slug>.json`
 ```
 
 Rules:
-- `rank` codes: master, co, 2o, 3o, ce, 2e, 3e, eto, bosun, ab, pumpman, fitter, oiler, cook, cadet, ratings.
+- `rank` codes: master, co, 2o, 3o, ce, 2e, 3e, eto, cadet; deck ratings: bosun, ab, os, pumpman; engine ratings: fitter, oiler, wiper, motorman; galley staff: cook, steward, messman. Use ratings only when the report does not say which rating.
 - `type`: hardware | process | human. `answer`: good | partial | poor | unknown.
 - Depth: 0 = mentioned as not checked; 1 = glanced at a document or asked one general question; 2 = several specific items checked or a demonstration; 3 = grilled (many specific questions or demonstrations) or an observation raised in that topic.
 - No vessel names, no crew names. Crew are referred to by rank only. No personal remarks about the inspector beyond how he inspects.

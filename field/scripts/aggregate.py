@@ -31,6 +31,26 @@ def topic_of(qid):
     return best[0] if best else None
 
 
+DECK = {"bosun", "ab", "os", "pumpman", "deck"}
+ENGINE = {"fitter", "oiler", "wiper", "motorman", "engine"}
+GALLEY = {"cook", "steward", "messman", "galley"}
+ENGINE_AREAS = {"Engine Room", "Engine Control Room", "Steering Gear", "Chief Engineer's Office"}
+
+
+def rank_group(rank, area=""):
+    """Rank filter group used on the page: officers keep their own code, ratings go to deck, engine or galley."""
+    r = (rank or "").lower()
+    if r in DECK:
+        return "deck"
+    if r in ENGINE:
+        return "engine"
+    if r in GALLEY:
+        return "galley"
+    if r == "ratings":
+        return "engine" if area in ENGINE_AREAS else ("galley" if "Galley" in (area or "") else "deck")
+    return r
+
+
 def main():
     reports = []
     for f in sorted(glob.glob(str(FIELD / "reports" / "*.json"))):
@@ -79,7 +99,7 @@ def main():
                 if not q:
                     continue
                 e = byq[q]
-                item = {"t": x.get("q") or x.get("item") or x.get("text"), "r": x.get("rank", ""), "rid": r["id"], "ins": r.get("inspector", ""),
+                item = {"t": x.get("q") or x.get("item") or x.get("text"), "r": x.get("rank", ""), "g": rank_group(x.get("rank"), x.get("area", "")), "rid": r["id"], "ins": r.get("inspector", ""),
                         "port": r.get("port") or r.get("terminal", "")}
                 if kind == "obs":
                     item["type"] = x.get("type", "")
