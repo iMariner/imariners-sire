@@ -73,6 +73,25 @@ def split_ratings(ranks_, r):
     return out
 
 
+# Cross-check (2026-10-04) against INTERTANKO's indicative tagged ranks (Seafarers' Practical Guide to SIRE 2.0, V1 2023):
+# questions where ratings are also interviewed. Used only to ADD "may also be asked" groups, never to change leads.
+ALSO_RATINGS = {
+    "deck_engine": "5.1.6 5.1.14 5.1.15 5.2.1 5.2.2 5.2.15 5.2.16 5.3.1 5.3.2 5.3.3 5.3.4 5.4.7 5.4.8 5.5.1 5.5.2 5.5.3 5.5.4 "
+                   "5.7.2 5.7.3 5.7.4 5.7.5 5.7.6 5.7.7 5.7.8 5.8.2 5.8.3 5.8.4 5.8.5 5.8.6 5.8.7 5.9.1 5.10.7 5.12.1 5.12.2 "
+                   "3.5.2 4.4.6 6.4.2 7.2.2 8.3.8 8.4.5 8.6.2 8.6.13 8.2.6 9.4.1 9.4.2",
+    "all_crew": "3.1.1 3.1.2 3.4.1 3.4.2 3.5.1 2.7.1 2.7.2",
+    "deck": "5.10.1 5.10.2 5.10.3 6.4.1 8.3.5 8.3.11 8.6.8 9.1.1 9.1.3 9.5.2 9.5.3",
+    "engine": "5.3.5",
+    "galley": "5.2.8",
+}
+ALSO_GROUPS = {}
+for k, v in ALSO_RATINGS.items():
+    g = {"deck_engine": ["deck", "engine"], "all_crew": ["deck", "engine", "galley"]}.get(k, [k])
+    for qid in v.split():
+        ALSO_GROUPS.setdefault(qid, [])
+        ALSO_GROUPS[qid] += [x for x in g if x not in ALSO_GROUPS[qid]]
+
+
 def build():
     raw = {r["id"]: r for r in json.loads((ROOT / "cards" / "meta.json").read_text())}
     plain = {}
@@ -99,6 +118,7 @@ def build():
             also = juniors + also
         also = [x for x in also if x not in lead]
         lead, also = split_ratings(lead, r), split_ratings(also, r)
+        also += [x for x in ALSO_GROUPS.get(i, []) if x not in lead and x not in also]
         also = [x for x in also if x not in lead]
         if not lead:
             problems.append(f"{i}: no lead rank")
