@@ -297,33 +297,33 @@ if(!noArea){if(S.area){if(q.loc.indexOf(S.area)<0)return false}}
 if(S.q){var ws=S.q.split(/\s+/);for(var wi=0;wi<ws.length;wi++){if(q._s.indexOf(ws[wi])<0)return false}}
 return true}
 function areaOf(q){var best=99,name="Anywhere";q.loc.forEach(function(l){var i=AREA_ORDER.indexOf(l);if(i<0)i=98;if(i<best){best=i;name=l}});return name}
-function chips(q){var h='<span class="sr-chip '+(q.ty==="Core"?"bad":(q.ty==="Rotational 1"?"mid":""))+'">'+typeLabel(q.ty)+'</span>';
-if(S.rank!=="all"){h+=q.who.lead.indexOf(S.rank)>=0?'<span class="sr-chip top">You lead</span>':(realAsked(q)?'':'<span class="sr-chip">You may be asked</span>');if(realAsked(q))h+='<span class="sr-chip bad">Asked to '+esc(SHORT[S.rank]||S.rank)+' in a real inspection</span>'}
-else{h+='<span class="sr-chip top">'+q.who.lead.map(function(r){return SHORT[r]||r}).join(", ")+'</span>'}
+function chips(q){var h='<span class="sr-chip '+(q.ty==="Core"?"bad":(q.ty==="Rotational 1"?"mid":""))+'">'+typeLabel(q.ty)+'<\/span>';
+if(S.rank!=="all"){h+=q.who.lead.indexOf(S.rank)>=0?'<span class="sr-chip top">You lead<\/span>':(realAsked(q)?'':'<span class="sr-chip">You may be asked<\/span>');if(realAsked(q))h+='<span class="sr-chip bad">Asked to '+esc(SHORT[S.rank]||S.rank)+' in a real inspection<\/span>'}
+else{h+='<span class="sr-chip top">'+q.who.lead.map(function(r){return SHORT[r]||r}).join(", ")+'<\/span>'}
 var g=[];if(q.r.h)g.push("Equipment");if(q.r.p)g.push("Procedure");if(q.r.u)g.push("People");
-h+='<span class="sr-chip">Graded: '+g.join(", ")+'</span>';if(F){var f=F.questions[q.i];if(f)h+='<span class="sr-chip mid">Seen in '+f.n+(f.n===1?" real inspection":" real inspections")+'</span>'}return h}
-function ul(a){return "<ul>"+(a||[]).map(function(x){return "<li>"+esc(x)+"</li>"}).join("")+"</ul>"}
+h+='<span class="sr-chip">Graded: '+g.join(", ")+'<\/span>';if(F){var f=F.questions[q.i];if(f)h+='<span class="sr-chip mid">Seen in '+f.n+(f.n===1?" real inspection":" real inspections")+'<\/span>'}return h}
+function ul(a){return "<ul>"+(a||[]).map(function(x){return "<li>"+esc(x)+"<\/li>"}).join("")+"<\/ul>"}
 function body(q){
-var h='<p class="sr-why"><b>Why it matters:</b> '+esc(q.w)+'</p><div class="sr-cols">'+
-'<div class="sr-box b-chk"><h5><i></i>Inspector checks</h5>'+ul(q.c)+'</div>'+
-'<div class="sr-box b-rdy"><h5><i></i>Keep ready</h5>'+ul(q.rd)+'</div>'+
-'<div class="sr-box b-trp"><h5><i></i>Where ships get caught</h5>'+ul(q.x)+'</div></div>';
+var h='<p class="sr-why"><b>Why it matters:<\/b> '+esc(q.w)+'<\/p><div class="sr-cols">'+
+'<div class="sr-box b-chk"><h5><i><\/i>Inspector checks<\/h5>'+ul(q.c)+'<\/div>'+
+'<div class="sr-box b-rdy"><h5><i><\/i>Keep ready<\/h5>'+ul(q.rd)+'<\/div>'+
+'<div class="sr-box b-trp"><h5><i><\/i>Where ships get caught<\/h5>'+ul(q.x)+'<\/div><\/div>';
 h+=fieldBox(q);
-if(q.s)h+='<div class="sr-say"><b>Explain it like this</b>'+esc(q.s)+'</div>';
-if(q.pr.length){h+='<div class="sr-prac">'+q.pr.map(function(p){return '<details><summary>Practice: '+esc(p.q)+'</summary>'+ul(p.a)+'</details>'}).join("")+'</div>'}
-if(q.tip)h+='<p class="sr-tip"><b>Onboard tip:</b> '+esc(q.tip)+'</p>';
+if(q.s)h+='<div class="sr-say"><b>Explain it like this<\/b>'+esc(q.s)+'<\/div>';
+if(q.pr.length){h+='<div class="sr-prac">'+q.pr.map(function(p){return '<details><summary>Practice: '+esc(p.q)+'<\/summary>'+ul(p.a)+'<\/details>'}).join("")+'<\/div>'}
+if(q.tip)h+='<p class="sr-tip"><b>Onboard tip:<\/b> '+esc(q.tip)+'<\/p>';
 var who=q.who.lead.map(function(r){return RNAME[r]||r});var al=q.who.also.map(function(r){return RNAME[r]||r});
-h+='<div class="sr-foot"><div class="sr-refs">Usually answered by: <b>'+esc(who.join(", "))+'</b>'+(al.length?", also "+esc(al.join(", ")):"")+(q.ref.length?'<br>References: '+esc(q.ref.join(" | ")):"")+'<br>Area: '+esc(q.loc.map(function(l){return AREA_NAME[l]||l}).join(", "))+' | Chapter '+q.ch+': '+esc(q.sec)+'</div>'+
-'<button class="sr-mark" type="button" data-mark="'+q.i+'">'+(READY[q.i]?"Ready":"I'm ready")+'</button></div>'+
-'<details class="sr-off"><summary>Official OCIMF question wording</summary><p>'+esc(q.oq)+'</p></details>';
+h+='<div class="sr-foot"><div class="sr-refs">Usually answered by: <b>'+esc(who.join(", "))+'<\/b>'+(al.length?", also "+esc(al.join(", ")):"")+(q.ref.length?'<br>References: '+esc(q.ref.join(" | ")):"")+'<br>Area: '+esc(q.loc.map(function(l){return AREA_NAME[l]||l}).join(", "))+' | Chapter '+q.ch+': '+esc(q.sec)+'<\/div>'+
+'<button class="sr-mark" type="button" data-mark="'+q.i+'">'+(READY[q.i]?"Ready":"I'm ready")+'<\/button><\/div>'+
+'<details class="sr-off"><summary>Official OCIMF question wording<\/summary><p>'+esc(q.oq)+'<\/p><\/details>';
 return h}
-function card(q){return '<article class="sr-q'+(READY[q.i]?" done":"")+'" id="q-'+q.i.replace(/\./g,"-")+'" data-id="'+q.i+'"><button class="sr-qh" type="button" aria-expanded="false"><span class="id">'+q.i+'</span><span><span class="t">'+esc(q.t)+'</span><span class="p">'+esc(q.p)+'</span><span class="m">'+chips(q)+'</span></span><span class="ch" aria-hidden="true">&#9662;</span></button><div class="sr-qb"></div></article>'}
+function card(q){return '<article class="sr-q'+(READY[q.i]?" done":"")+'" id="q-'+q.i.replace(/\./g,"-")+'" data-id="'+q.i+'"><button class="sr-qh" type="button" aria-expanded="false"><span class="id">'+q.i+'<\/span><span><span class="t">'+esc(q.t)+'<\/span><span class="p">'+esc(q.p)+'<\/span><span class="m">'+chips(q)+'<\/span><\/span><span class="ch" aria-hidden="true">&#9662;<\/span><\/button><div class="sr-qb"><\/div><\/article>'}
 function render(){
 var base=D.q.filter(function(q){return match(q,true)});
 var list=base.filter(function(q){return match(q,false)});
 var cnt={};base.forEach(function(q){q.loc.forEach(function(l){cnt[l]=(cnt[l]||0)+1})});
-var rt='<button type="button" data-area="" aria-pressed="'+(S.area===""?"true":"false")+'"><span class="k">All areas</span><span class="v">Whole ship</span><span class="c">'+base.length+'</span></button>';
-var n=0;AREA_ORDER.forEach(function(a){if(!cnt[a])return;n++;rt+='<button type="button" data-area="'+esc(a)+'" aria-pressed="'+(S.area===a?"true":"false")+'"><span class="k sr-mono">'+(n<10?"0":"")+n+'</span><span class="v">'+esc(AREA_NAME[a]||a)+'</span><span class="c">'+cnt[a]+'</span></button>'});
+var rt='<button type="button" data-area="" aria-pressed="'+(S.area===""?"true":"false")+'"><span class="k">All areas<\/span><span class="v">Whole ship<\/span><span class="c">'+base.length+'<\/span><\/button>';
+var n=0;AREA_ORDER.forEach(function(a){if(!cnt[a])return;n++;rt+='<button type="button" data-area="'+esc(a)+'" aria-pressed="'+(S.area===a?"true":"false")+'"><span class="k sr-mono">'+(n<10?"0":"")+n+'<\/span><span class="v">'+esc(AREA_NAME[a]||a)+'<\/span><span class="c">'+cnt[a]+'<\/span><\/button>'});
 el("sr-route").innerHTML=rt;
 var core=list.filter(function(q){return q.ty==="Core"}).length;
 var who=S.rank==="all"?"Every question":"Questions for a "+RNAME[S.rank];
@@ -334,15 +334,15 @@ el("sr-bar").style.width=(list.length?Math.round(rd*100/list.length):0)+"%";
 el("sr-pct").textContent=rd+" of "+list.length+" ready";
 list.sort(function(a,b){var x=AREA_ORDER.indexOf(areaOf(a)),y=AREA_ORDER.indexOf(areaOf(b));if(x!==y)return x-y;if(typeRank(a.ty)!==typeRank(b.ty))return typeRank(a.ty)-typeRank(b.ty);return a.o-b.o});
 var shown=list.slice(0,S.limit),h="",cur=null;
-shown.forEach(function(q){var a=areaOf(q);if(a!==cur){if(cur!==null)h+="</div>";cur=a;h+='<div class="sr-group"><h4>'+esc(AREA_NAME[a]||a)+' <span>'+list.filter(function(z){return areaOf(z)===a}).length+'</span></h4>'}h+=card(q)});
-if(cur!==null)h+="</div>";
-if(!list.length)h='<div class="sr-empty">No questions match. Try "Also show questions I may be asked", another area, or clear the search.</div>';
+shown.forEach(function(q){var a=areaOf(q);if(a!==cur){if(cur!==null)h+="<\/div>";cur=a;h+='<div class="sr-group"><h4>'+esc(AREA_NAME[a]||a)+' <span>'+list.filter(function(z){return areaOf(z)===a}).length+'<\/span><\/h4>'}h+=card(q)});
+if(cur!==null)h+="<\/div>";
+if(!list.length)h='<div class="sr-empty">No questions match. Try "Also show questions I may be asked", another area, or clear the search.<\/div>';
 el("sr-list").innerHTML=h;
 el("sr-more").hidden=list.length<=S.limit;
 el("sr-more").textContent="Show all "+list.length+" questions";
 S._list=list;
 lsSet("imsire_prefs",{rank:S.rank,ship:S.ship,also:S.also})}
-function seg(id,arr,key){var h="";arr.forEach(function(r){h+='<button type="button" data-v="'+r[0]+'" aria-pressed="'+(S[key]===r[0]?"true":"false")+'">'+r[1]+'</button>'});var e=el(id);e.innerHTML=h;
+function seg(id,arr,key){var h="";arr.forEach(function(r){h+='<button type="button" data-v="'+r[0]+'" aria-pressed="'+(S[key]===r[0]?"true":"false")+'">'+r[1]+'<\/button>'});var e=el(id);e.innerHTML=h;
 e.addEventListener("click",function(ev){var b=ev.target.closest("button");if(!b)return;S[key]=b.getAttribute("data-v");S.area="";S.limit=40;Array.prototype.forEach.call(e.children,function(c){c.setAttribute("aria-pressed",c===b?"true":"false")});closeDrill();render()})}
 function setReady(id,on){if(on)READY[id]=1;else delete READY[id];lsSet("imsire_ready",READY)}
 function drillList(){var out=[];(S._list||[]).forEach(function(q){q.pr.forEach(function(p){out.push({q:q,p:p})});if(F){var f=F.questions[q.i];if(f){f.asked.forEach(function(a){var ok=S.rank==="all"?true:((a.g||a.r)===S.rank);if(ok)out.push({q:q,p:{q:a.t+" (real question, "+a.ins+")",a:q.pr.length?q.pr[0].a:[q.s]}})})}}});for(var i=out.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=out[i];out[i]=out[j];out[j]=t}return out}
@@ -350,9 +350,9 @@ function showDrill(){var d=el("sr-drill");if(!DR.list.length){el("sr-dq").textCo
 if(DR.i>=DR.list.length){el("sr-dq").textContent="Done. You went through "+DR.list.length+" questions. "+DR.ok+" you knew, "+DR.bad.length+" to work on.";el("sr-dc").textContent=DR.bad.length?"Questions to revise: "+DR.bad.join(", "):"";el("sr-dn").textContent="";d.classList.remove("rev");el("sr-dr").hidden=true;el("sr-dy").hidden=true;el("sr-dx").textContent="Start again";return}
 var it=DR.list[DR.i];d.classList.add("on");d.classList.remove("rev");el("sr-dr").hidden=false;el("sr-dy").hidden=false;el("sr-dx").textContent="Need more work";
 el("sr-dn").textContent=(DR.i+1)+" of "+DR.list.length;el("sr-dq").textContent=it.p.q;el("sr-dc").textContent=it.q.i+" "+it.q.t+" | "+(AREA_NAME[areaOf(it.q)]||areaOf(it.q));
-el("sr-da").innerHTML=it.p.a.map(function(x){return "<li>"+esc(x)+"</li>"}).join("")}
+el("sr-da").innerHTML=it.p.a.map(function(x){return "<li>"+esc(x)+"<\/li>"}).join("")}
 function closeDrill(){el("sr-drill").classList.remove("on")}
-function realPrint(q){if(!F)return "";var f=F.questions[q.i];if(!f)return "";var a=f.asked.filter(function(x){return S.rank==="all"?true:((x.g||x.r)===S.rank)});if(!a.length)a=f.asked;if(!a.length)return "";return '<div class="rq"><b>Asked in real inspections</b>'+a.slice(0,2).map(function(x){return '<span>"'+esc(x.t)+'"</span>'}).join("")+'</div>'}
+function realPrint(q){if(!F)return "";var f=F.questions[q.i];if(!f)return "";var a=f.asked.filter(function(x){return S.rank==="all"?true:((x.g||x.r)===S.rank)});if(!a.length)a=f.asked;if(!a.length)return "";return '<div class="rq"><b>Asked in real inspections<\/b>'+a.slice(0,2).map(function(x){return '<span>"'+esc(x.t)+'"<\/span>'}).join("")+'<\/div>'}
 function checklistHtml(){var list=S._list||[];
 var rk=S.rank==="all"?"All ranks":RNAME[S.rank],core=list.filter(function(q){return q.ty==="Core"}).length,areas=[],by={};
 list.forEach(function(q){var a=areaOf(q);if(!by[a]){by[a]=[];areas.push(a)}by[a].push(q)});
@@ -368,17 +368,17 @@ var css='@page{size:A4;margin:14mm 12mm 16mm}*{box-sizing:border-box;-webkit-pri
 'tr.core td:first-child{box-shadow:inset 3px 0 0 #D64545}ul{margin:0;padding-left:12px;color:#334155;font-size:8.3pt}li{margin:1px 0}.ini{width:16mm;border-left:1px dashed #CBD5E1}.rq{margin-top:5px;padding:4px 7px;background:#FDF6E7;border-left:2px solid #B7791F;border-radius:0 4px 4px 0;font-size:7.8pt;color:#5A3D0E}.rq b{display:block;font-size:6.8pt;letter-spacing:.06em;text-transform:uppercase;color:#7A4E0E}.rq span{display:block;margin-top:1px}'+
 '.end{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px;break-inside:avoid}.end h3{font-size:10pt;margin:0 0 6px;color:#0B1E2D}.lines div{border-bottom:1px solid #CBD5E1;height:18px}.day li{list-style:none;position:relative;padding-left:16px;margin:3px 0}.day li:before{content:"";position:absolute;left:0;top:2px;width:9px;height:9px;border:1.2px solid #0B1E2D;border-radius:2px}'+
 '.foot{margin-top:14px;padding-top:6px;border-top:1px solid #E2E8F0;display:flex;justify-content:space-between;gap:12px;font-size:7.5pt;color:#94A3B8}.must{margin:10px 0 2px;border:1px solid #F3CACA;background:#FFFBFB;border-radius:8px;padding:10px 12px;break-inside:avoid}.must b{display:block;font-size:8pt;letter-spacing:.08em;text-transform:uppercase;color:#9B2C2C;margin-bottom:5px}.must ol{margin:0;padding:0;list-style:none;columns:2;column-gap:18px}.must li{font-size:8.8pt;margin:2px 0;break-inside:avoid}.must li span{font-family:"Geist Mono",Menlo,monospace;font-size:8pt;font-weight:700;color:#00819A;margin-right:6px}@media screen{body{max-width:210mm;margin:16px auto;padding:0 12px}.tb{position:sticky;top:0;background:#fff;padding:8px 0;text-align:right}.tb button{font:inherit;font-weight:700;background:#0A91AB;color:#fff;border:0;border-radius:8px;padding:8px 16px;cursor:pointer}}@media print{.tb{display:none}}';
-var h='<!doctype html><html><head><meta charset="utf-8"><title>SIRE 2.0 checklist, '+esc(rk)+', '+esc(S.ship)+' tanker | iMariners</title><style>'+css+'</style></head><body>'+
-'<div class="tb"><button onclick="window.print()">Print or save as PDF</button></div>'+
-'<div class="bar"><div><div class="brand">iMariners | SIRE 2.0 prep</div><h1>Inspection readiness checklist</h1></div><div class="who"><b>'+esc(rk)+'</b>'+esc(S.ship)+' tanker'+(S.area?" | "+esc(AREA_NAME[S.area]||S.area):"")+'</div></div>'+
-'<div class="fill"><div>Vessel</div><div>Inspection date / port</div><div>Prepared by</div><div>Checked by</div></div>'+
-'<div class="sum"><span class="pill">'+list.length+(list.length===1?" question":" questions")+'</span><span class="pill c">'+core+' core</span><span class="pill">'+areas.length+(areas.length===1?" area":" areas")+'</span><span>Tick the box when you can show it and explain it.</span></div>';
-var cl=list.filter(function(q){return q.ty==="Core"});if(cl.length){h+='<div class="must"><b>Know these first: '+cl.length+' core '+(cl.length===1?"question":"questions")+', asked on every inspection</b><ol>'+cl.map(function(q){return '<li><span>'+q.i+'</span>'+esc(q.t)+'</li>'}).join("")+'</ol></div>'}
-areas.forEach(function(a,i){var g=by[a];h+='<h2><span class="n">'+(i<9?"0":"")+(i+1)+'</span>'+esc(AREA_NAME[a]||a)+'<span class="k">'+g.length+(g.length===1?" question":" questions")+'</span></h2><table><thead><tr><th style="width:18px"></th><th style="width:44px">No.</th><th>Question</th><th style="width:42%">Keep ready</th><th class="ini">Initials</th></tr></thead><tbody>';
-g.forEach(function(q){h+='<tr'+(q.ty==="Core"?' class="core"':'')+'><td><div class="bx"></div></td><td class="id">'+q.i+'</td><td><div class="t">'+esc(q.t)+(q.ty==="Core"?'<span class="tag">CORE</span>':'')+'</div><div class="p">'+esc(q.p)+'</div></td><td><ul>'+q.rd.slice(0,4).map(function(x){return "<li>"+esc(x)+"</li>"}).join("")+'</ul>'+realPrint(q)+'</td><td class="ini"></td></tr>'});
-h+='</tbody></table>'});
-h+='<div class="end"><div><h3>The day before</h3><ul class="day">'+DAY.map(function(x){return "<li>"+esc(x[0])+"</li>"}).join("")+'</ul></div><div><h3>Notes and open items</h3><div class="lines">'+new Array(13).join("<div></div>")+'</div></div></div>'+
-'<div class="foot"><span>imariners.com/sire-2-0/ | Printed '+ds+'</span><span>Study notes based on OCIMF SIRE 2.0 Question Library. Your company SMS comes first.</span></div></body></html>';
+var h='<!doctype html><html><head><meta charset="utf-8"><title>SIRE 2.0 checklist, '+esc(rk)+', '+esc(S.ship)+' tanker | iMariners<\/title><style>'+css+'<\/style><\/head><body>'+
+'<div class="tb"><button onclick="window.print()">Print or save as PDF<\/button><\/div>'+
+'<div class="bar"><div><div class="brand">iMariners | SIRE 2.0 prep<\/div><h1>Inspection readiness checklist<\/h1><\/div><div class="who"><b>'+esc(rk)+'<\/b>'+esc(S.ship)+' tanker'+(S.area?" | "+esc(AREA_NAME[S.area]||S.area):"")+'<\/div><\/div>'+
+'<div class="fill"><div>Vessel<\/div><div>Inspection date / port<\/div><div>Prepared by<\/div><div>Checked by<\/div><\/div>'+
+'<div class="sum"><span class="pill">'+list.length+(list.length===1?" question":" questions")+'<\/span><span class="pill c">'+core+' core<\/span><span class="pill">'+areas.length+(areas.length===1?" area":" areas")+'<\/span><span>Tick the box when you can show it and explain it.<\/span><\/div>';
+var cl=list.filter(function(q){return q.ty==="Core"});if(cl.length){h+='<div class="must"><b>Know these first: '+cl.length+' core '+(cl.length===1?"question":"questions")+', asked on every inspection<\/b><ol>'+cl.map(function(q){return '<li><span>'+q.i+'<\/span>'+esc(q.t)+'<\/li>'}).join("")+'<\/ol><\/div>'}
+areas.forEach(function(a,i){var g=by[a];h+='<h2><span class="n">'+(i<9?"0":"")+(i+1)+'<\/span>'+esc(AREA_NAME[a]||a)+'<span class="k">'+g.length+(g.length===1?" question":" questions")+'<\/span><\/h2><table><thead><tr><th style="width:18px"><\/th><th style="width:44px">No.<\/th><th>Question<\/th><th style="width:42%">Keep ready<\/th><th class="ini">Initials<\/th><\/tr><\/thead><tbody>';
+g.forEach(function(q){h+='<tr'+(q.ty==="Core"?' class="core"':'')+'><td><div class="bx"><\/div><\/td><td class="id">'+q.i+'<\/td><td><div class="t">'+esc(q.t)+(q.ty==="Core"?'<span class="tag">CORE<\/span>':'')+'<\/div><div class="p">'+esc(q.p)+'<\/div><\/td><td><ul>'+q.rd.slice(0,4).map(function(x){return "<li>"+esc(x)+"<\/li>"}).join("")+'<\/ul>'+realPrint(q)+'<\/td><td class="ini"><\/td><\/tr>'});
+h+='<\/tbody><\/table>'});
+h+='<div class="end"><div><h3>The day before<\/h3><ul class="day">'+DAY.map(function(x){return "<li>"+esc(x[0])+"<\/li>"}).join("")+'<\/ul><\/div><div><h3>Notes and open items<\/h3><div class="lines">'+new Array(13).join("<div><\/div>")+'<\/div><\/div><\/div>'+
+'<div class="foot"><span>imariners.com/sire-2-0/ | Printed '+ds+'<\/span><span>Study notes based on OCIMF SIRE 2.0 Question Library. Your company SMS comes first.<\/span><\/div><\/body><\/html>';
 return h}
 function printList(){if(!(S._list||[]).length){alert("No questions in this view to print.");return}var h=checklistHtml();var w=window.open("","_blank");if(!w){alert("Allow pop-ups for this site to open the printable checklist.");return}w.document.open();w.document.write(h);w.document.close();setTimeout(function(){try{w.focus();w.print()}catch(e){}},400)}
 function init(data){D=data;var o=0;D.q.forEach(function(q){q.o=o++;q._s=(q.i+" "+q.t+" "+q.p+" "+q.oq+" "+q.c.join(" ")+" "+q.rd.join(" ")+" "+q.x.join(" ")+" "+q.sec).toLowerCase()});
@@ -387,7 +387,7 @@ var hs=location.hash.match(/r=([^&]+)/),hp=location.hash.match(/s=([^&]+)/);if(h
 READY=lsGet("imsire_ready",{});
 el("sr-also").checked=S.also;
 seg("sr-rank",RANKS,"rank");seg("sr-ship",SHIPS,"ship");
-var co="";Object.keys(CHAPS).forEach(function(k){co+='<option value="'+k+'">'+k+". "+CHAPS[k]+"</option>"});el("sr-ch").insertAdjacentHTML("beforeend",co);
+var co="";Object.keys(CHAPS).forEach(function(k){co+='<option value="'+k+'">'+k+". "+CHAPS[k]+"<\/option>"});el("sr-ch").insertAdjacentHTML("beforeend",co);
 var t;el("sr-q").addEventListener("input",function(e){clearTimeout(t);t=setTimeout(function(){S.q=e.target.value.trim().toLowerCase();S.limit=40;render()},150)});
 el("sr-ch").addEventListener("change",function(e){S.ch=e.target.value;S.limit=40;render()});
 el("sr-also").addEventListener("change",function(e){S.also=e.target.checked;render()});
@@ -406,9 +406,9 @@ el("sr-dclose").addEventListener("click",closeDrill);
 el("sr-print").addEventListener("click",printList);
 el("sr-share").addEventListener("click",function(){var u=location.href.split("#")[0]+"#sr-tool&r="+S.rank+"&s="+encodeURIComponent(S.ship);var b=this;try{navigator.clipboard.writeText(u).then(function(){b.textContent="Link copied"})}catch(e){prompt("Copy this link",u)}});
 D.byId={};D.q.forEach(function(q){D.byId[q.i]=q});
-var PH=lsGet("imsire_photos",{}),ph="";D.q.filter(function(q){return q.ch===11}).forEach(function(q){ph+='<label class="sr-ph"><input type="checkbox" data-ph="'+q.i+'"'+(PH[q.i]?" checked":"")+'><span>'+esc(q.t)+'<small>'+q.i+' | '+esc(q.who.lead.map(function(r){return SHORT[r]||r}).join(", "))+(q.x.length?" | Watch for: "+esc((q.x[1]||q.x[0]).toLowerCase()):"")+'</small></span></label>'});
+var PH=lsGet("imsire_photos",{}),ph="";D.q.filter(function(q){return q.ch===11}).forEach(function(q){ph+='<label class="sr-ph"><input type="checkbox" data-ph="'+q.i+'"'+(PH[q.i]?" checked":"")+'><span>'+esc(q.t)+'<small>'+q.i+' | '+esc(q.who.lead.map(function(r){return SHORT[r]||r}).join(", "))+(q.x.length?" | Watch for: "+esc((q.x[1]||q.x[0]).toLowerCase()):"")+'<\/small><\/span><\/label>'});
 el("sr-photo-list").innerHTML=ph;el("sr-photo-list").addEventListener("change",function(e){var c=e.target.getAttribute("data-ph");if(!c)return;if(e.target.checked)PH[c]=1;else delete PH[c];lsSet("imsire_photos",PH)});
-var DY=lsGet("imsire_day",{}),dh="";DAY.forEach(function(d,i){dh+='<label><input type="checkbox" data-d="'+i+'"'+(DY[i]?" checked":"")+'><span>'+esc(d[0])+'<small>'+esc(d[1])+'</small></span></label>'});
+var DY=lsGet("imsire_day",{}),dh="";DAY.forEach(function(d,i){dh+='<label><input type="checkbox" data-d="'+i+'"'+(DY[i]?" checked":"")+'><span>'+esc(d[0])+'<small>'+esc(d[1])+'<\/small><\/span><\/label>'});
 el("sr-day-list").innerHTML=dh;el("sr-day-list").addEventListener("change",function(e){var c=e.target.getAttribute("data-d");if(c===null)return;if(e.target.checked)DY[c]=1;else delete DY[c];lsSet("imsire_day",DY)});
 render();
 loadField();
@@ -424,42 +424,42 @@ function place(r){var a=[];if(r.port)a.push(r.port);if(r.terminal)a.push(r.termi
 function dlabel(v){return v>=2.5?"Deep":(v>=1.5?"Detailed":(v>=0.5?"Light":"Skipped"))}
 function depthBars(depth,all){var rows=[],miss=[];F.topics.forEach(function(t){var d=depth[t.k];if(d){rows.push({t:t,d:d})}else{miss.push(t.name)}});
 rows.sort(function(a,b){return b.d.avg-a.d.avg});
-var h='<div class="sr-db">'+rows.map(function(x){var v=x.d.avg,seg="";for(var i=0;i<3;i++){var f=Math.max(0,Math.min(1,v-i));seg+='<i><b style="width:'+Math.round(f*100)+'%"></b></i>'}
-return '<div class="sr-dr'+(v>=2.5?" d3":"")+'"><span class="l">'+esc(x.t.name)+'</span><span class="seg">'+seg+'</span><span class="v">'+dlabel(v)+(x.d.n>1?" ("+x.d.n+")":"")+'</span></div>'}).join("")+'</div>';
-if(all){if(miss.length)h+='<p class="sr-note">No data yet: '+esc(miss.join(", "))+'.</p>'}
+var h='<div class="sr-db">'+rows.map(function(x){var v=x.d.avg,seg="";for(var i=0;i<3;i++){var f=Math.max(0,Math.min(1,v-i));seg+='<i><b style="width:'+Math.round(f*100)+'%"><\/b><\/i>'}
+return '<div class="sr-dr'+(v>=2.5?" d3":"")+'"><span class="l">'+esc(x.t.name)+'<\/span><span class="seg">'+seg+'<\/span><span class="v">'+dlabel(v)+(x.d.n>1?" ("+x.d.n+")":"")+'<\/span><\/div>'}).join("")+'<\/div>';
+if(all){if(miss.length)h+='<p class="sr-note">No data yet: '+esc(miss.join(", "))+'.<\/p>'}
 return h}
 function topDeep(depth){var a=[];F.topics.forEach(function(t){var d=depth[t.k];if(d){if(d.avg>=2.5)a.push(t.name)}});return a}
-function qlink(id){var q=D.byId[id];if(!id)return "";if(!q)return id;return '<a href="#q-'+id.replace(/\./g,"-")+'">'+id+'</a>'}
+function qlink(id){var q=D.byId[id];if(!id)return "";if(!q)return id;return '<a href="#q-'+id.replace(/\./g,"-")+'">'+id+'<\/a>'}
 function realAsked(q){if(!F)return false;var f=F.questions[q.i];if(!f)return false;for(var i=0;i<f.asked.length;i++){if((f.asked[i].g||f.asked[i].r)===S.rank)return true}return false}
 function enrichSearch(){if(!F)return;D.q.forEach(function(q){var f=F.questions[q.i];if(!f)return;if(q._f)return;q._f=1;q._s+=" "+f.asked.concat(f.checks,f.obs).map(function(x){return x.t+" "+(x.ins||"")+" "+(x.port||"")}).join(" ").toLowerCase()})}
 function renderField(){if(!F)return;enrichSearch();var sec=el("sr-field");if(!F.n_reports){sec.hidden=true;return}sec.hidden=false;
-el("sr-f-stats").innerHTML='<div><b>'+F.n_reports+'</b><span>inspection reports</span></div><div><b>'+F.n_inspectors+'</b><span>inspectors profiled</span></div><div><b>'+F.n_questions+'</b><span>real questions asked to crew</span></div><div><b>'+F.n_obs+'</b><span>observations explained</span></div>';
+el("sr-f-stats").innerHTML='<div><b>'+F.n_reports+'<\/b><span>inspection reports<\/span><\/div><div><b>'+F.n_inspectors+'<\/b><span>inspectors profiled<\/span><\/div><div><b>'+F.n_questions+'<\/b><span>real questions asked to crew<\/span><\/div><div><b>'+F.n_obs+'<\/b><span>observations explained<\/span><\/div>';
 el("sr-f-ins").innerHTML=F.inspectors.map(function(i){var deep=topDeep(i.depth);
-return '<button type="button" class="sr-ic" data-ins="'+esc(i.key)+'" aria-pressed="false"><span class="nm"><span class="av">'+esc(initials(i.name))+'</span><span><h4>'+esc(i.name)+'</h4><span class="pt">'+esc(i.ports.length?i.ports.join(" | "):"Port not given")+'</span></span></span>'+
-'<span class="mt"><span class="sr-chip">'+i.reports+(i.reports===1?" report":" reports")+'</span>'+(i.avg_obs!==null?'<span class="sr-chip bad">'+i.avg_obs+' obs avg</span>':'')+(i.avg_hours!==null?'<span class="sr-chip">'+i.avg_hours+' h</span>':'')+'</span>'+
-(deep.length?'<span class="pt">Goes deep on: <b style="color:var(--navy)">'+esc(deep.slice(0,4).join(", "))+'</b></span>':'')+'<span class="go">View profile and depth graph</span></button>'}).join("");
+return '<button type="button" class="sr-ic" data-ins="'+esc(i.key)+'" aria-pressed="false"><span class="nm"><span class="av">'+esc(initials(i.name))+'<\/span><span><h4>'+esc(i.name)+'<\/h4><span class="pt">'+esc(i.ports.length?i.ports.join(" | "):"Port not given")+'<\/span><\/span><\/span>'+
+'<span class="mt"><span class="sr-chip">'+i.reports+(i.reports===1?" report":" reports")+'<\/span>'+(i.avg_obs!==null?'<span class="sr-chip bad">'+i.avg_obs+' obs avg<\/span>':'')+(i.avg_hours!==null?'<span class="sr-chip">'+i.avg_hours+' h<\/span>':'')+'<\/span>'+
+(deep.length?'<span class="pt">Goes deep on: <b style="color:var(--navy)">'+esc(deep.slice(0,4).join(", "))+'<\/b><\/span>':'')+'<span class="go">View profile and depth graph<\/span><\/button>'}).join("");
 var rk=F.rank_hits,mx=0;Object.keys(rk).forEach(function(k){if(rk[k]>mx)mx=rk[k]});
-el("sr-f-ranks").innerHTML=Object.keys(rk).slice(0,10).map(function(k){return '<div class="sr-rb">'+esc(rname(k))+'<i style="width:'+Math.max(6,Math.round(rk[k]*100/mx))+'%"></i><span>'+rk[k]+'</span></div>'}).join("")+'<p class="sr-note">Number of questions put to each rank across all reports.</p>';
-el("sr-f-hot").innerHTML=F.hot.slice(0,10).map(function(h){var q=D.byId[h.qid];return '<li><a href="#q-'+h.qid.replace(/\./g,"-")+'">'+h.qid+' '+esc(q?q.t:"")+'</a><span>'+h.n+(h.n===1?" report":" reports")+(h.obs?", "+h.obs+" obs":"")+'</span></li>'}).join("");
-el("sr-f-reps").innerHTML=F.reports.slice(0,12).map(function(r){var tl=(r.schedule||[]).map(function(x){return '<span>'+esc(x.area)+(x.hours?" "+x.hours+"h":"")+'</span>'}).join("");
-return '<article class="sr-rp"><div class="top"><h4>'+(r.inspector?'<button type="button" data-ins="'+esc(r.inspector_key)+'">'+esc(r.inspector)+'</button>':"Inspector not given")+' | '+esc(place(r))+'</h4><span class="dt">'+fdate(r.date)+(r.vessel_type!=="Unknown"?" | "+esc(r.vessel_type)+" tanker":"")+(r.observations_total!==null?" | "+r.observations_total+" observations":"")+(r.hours?" | "+r.hours+" h":"")+'</span></div>'+
-(tl?'<div class="sr-tl">'+tl+'</div>':'')+'<p>'+esc(r.summary)+'</p>'+
-((r.observations||[]).length?'<details><summary>Observations ('+r.observations.length+')</summary><ul>'+r.observations.map(function(o){return '<li>'+esc(o.text)+' '+qlink(o.qid)+'</li>'}).join("")+'</ul></details>':'')+
-((r.tips||[]).length?'<details><summary>Lessons for your ship ('+r.tips.length+')</summary><ul>'+r.tips.map(function(t){return '<li>'+esc(t)+'</li>'}).join("")+'</ul></details>':'')+'</article>'}).join("")}
+el("sr-f-ranks").innerHTML=Object.keys(rk).slice(0,10).map(function(k){return '<div class="sr-rb">'+esc(rname(k))+'<i style="width:'+Math.max(6,Math.round(rk[k]*100/mx))+'%"><\/i><span>'+rk[k]+'<\/span><\/div>'}).join("")+'<p class="sr-note">Number of questions put to each rank across all reports.<\/p>';
+el("sr-f-hot").innerHTML=F.hot.slice(0,10).map(function(h){var q=D.byId[h.qid];return '<li><a href="#q-'+h.qid.replace(/\./g,"-")+'">'+h.qid+' '+esc(q?q.t:"")+'<\/a><span>'+h.n+(h.n===1?" report":" reports")+(h.obs?", "+h.obs+" obs":"")+'<\/span><\/li>'}).join("");
+el("sr-f-reps").innerHTML=F.reports.slice(0,12).map(function(r){var tl=(r.schedule||[]).map(function(x){return '<span>'+esc(x.area)+(x.hours?" "+x.hours+"h":"")+'<\/span>'}).join("");
+return '<article class="sr-rp"><div class="top"><h4>'+(r.inspector?'<button type="button" data-ins="'+esc(r.inspector_key)+'">'+esc(r.inspector)+'<\/button>':"Inspector not given")+' | '+esc(place(r))+'<\/h4><span class="dt">'+fdate(r.date)+(r.vessel_type!=="Unknown"?" | "+esc(r.vessel_type)+" tanker":"")+(r.observations_total!==null?" | "+r.observations_total+" observations":"")+(r.hours?" | "+r.hours+" h":"")+'<\/span><\/div>'+
+(tl?'<div class="sr-tl">'+tl+'<\/div>':'')+'<p>'+esc(r.summary)+'<\/p>'+
+((r.observations||[]).length?'<details><summary>Observations ('+r.observations.length+')<\/summary><ul>'+r.observations.map(function(o){return '<li>'+esc(o.text)+' '+qlink(o.qid)+'<\/li>'}).join("")+'<\/ul><\/details>':'')+
+((r.tips||[]).length?'<details><summary>Lessons for your ship ('+r.tips.length+')<\/summary><ul>'+r.tips.map(function(t){return '<li>'+esc(t)+'<\/li>'}).join("")+'<\/ul><\/details>':'')+'<\/article>'}).join("")}
 function showProfile(key){var i=null;F.inspectors.forEach(function(x){if(x.key===key)i=x});if(!i)return;var pr=el("sr-f-prof");
 Array.prototype.forEach.call(el("sr-f-ins").children,function(c){c.setAttribute("aria-pressed",c.getAttribute("data-ins")===key?"true":"false")});
 var byr={};i.questions.forEach(function(q){(byr[q.rank]=byr[q.rank]||[]).push(q)});
-var qs=Object.keys(byr).map(function(r){return '<li><b>'+esc(rname(r))+'</b> ('+byr[r].length+')<ul class="sr-qa" style="margin-top:6px">'+byr[r].map(function(q){return '<li>'+esc(q.q)+'<small>'+(q.area?esc(AREA_NAME[q.area]||q.area)+" ":"")+qlink(q.qid)+(q.answer==="poor"?" | crew struggled here":"")+'</small></li>'}).join("")+'</ul></li>'}).join("");
-pr.innerHTML='<div class="hd"><div><h3>'+esc(i.name)+'</h3><p class="sr-note">'+esc(i.ports.join(" | ")||"Port not given")+' | '+i.reports+(i.reports===1?" report":" reports")+(i.last?" | last "+fdate(i.last):"")+'</p></div><button type="button" class="sr-btn sr-btn-o" data-close="1">Close</button></div>'+
-'<div class="grid"><div><h5>How deep he goes</h5>'+depthBars(i.depth,true)+'</div><div><h5>His style</h5><ul class="sr-list">'+i.style.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul>'+
-(i.observations.length?'<h5 style="margin-top:20px">Observations he raised</h5><ul class="sr-qa">'+i.observations.map(function(o){return '<li class="ob">'+esc(o.text)+'<small>'+esc(o.type||"")+" "+qlink(o.qid)+'</small></li>'}).join("")+'</ul>':'')+'</div></div>'+
-(qs?'<h5 style="margin-top:22px">Questions he asked, by rank</h5><ul class="sr-qa" style="gap:14px">'+qs+'</ul>':'');
+var qs=Object.keys(byr).map(function(r){return '<li><b>'+esc(rname(r))+'<\/b> ('+byr[r].length+')<ul class="sr-qa" style="margin-top:6px">'+byr[r].map(function(q){return '<li>'+esc(q.q)+'<small>'+(q.area?esc(AREA_NAME[q.area]||q.area)+" ":"")+qlink(q.qid)+(q.answer==="poor"?" | crew struggled here":"")+'<\/small><\/li>'}).join("")+'<\/ul><\/li>'}).join("");
+pr.innerHTML='<div class="hd"><div><h3>'+esc(i.name)+'<\/h3><p class="sr-note">'+esc(i.ports.join(" | ")||"Port not given")+' | '+i.reports+(i.reports===1?" report":" reports")+(i.last?" | last "+fdate(i.last):"")+'<\/p><\/div><button type="button" class="sr-btn sr-btn-o" data-close="1">Close<\/button><\/div>'+
+'<div class="grid"><div><h5>How deep he goes<\/h5>'+depthBars(i.depth,true)+'<\/div><div><h5>His style<\/h5><ul class="sr-list">'+i.style.map(function(x){return '<li>'+esc(x)+'<\/li>'}).join("")+'<\/ul>'+
+(i.observations.length?'<h5 style="margin-top:20px">Observations he raised<\/h5><ul class="sr-qa">'+i.observations.map(function(o){return '<li class="ob">'+esc(o.text)+'<small>'+esc(o.type||"")+" "+qlink(o.qid)+'<\/small><\/li>'}).join("")+'<\/ul>':'')+'<\/div><\/div>'+
+(qs?'<h5 style="margin-top:22px">Questions he asked, by rank<\/h5><ul class="sr-qa" style="gap:14px">'+qs+'<\/ul>':'');
 pr.hidden=false;pr.scrollIntoView({behavior:"smooth",block:"start"})}
 function fieldBox(q){if(!F)return "";var f=F.questions[q.i];if(!f)return "";
-var li=f.asked.map(function(a){return '<li>"'+esc(a.t)+'" <small>asked to '+esc(rname(a.r))+' by <button type="button" data-ins="'+esc(insKey(a.ins))+'">'+esc(a.ins)+'</button>'+(a.port?", "+esc(a.port):"")+'</small></li>'}).join("")+
-f.obs.map(function(o){return '<li class="ob">Observation: '+esc(o.t)+' <small>'+esc(o.ins)+(o.port?", "+esc(o.port):"")+'</small></li>'}).join("")+
-f.checks.map(function(c){return '<li>Checked: '+esc(c.t)+' <small>'+esc(c.ins)+(c.port?", "+esc(c.port):"")+'</small></li>'}).join("");
-return '<div class="sr-fbox"><b class="h">From real inspections: seen in '+f.n+(f.n===1?" report":" reports")+'</b><ul>'+li+'</ul></div>'}
+var li=f.asked.map(function(a){return '<li>"'+esc(a.t)+'" <small>asked to '+esc(rname(a.r))+' by <button type="button" data-ins="'+esc(insKey(a.ins))+'">'+esc(a.ins)+'<\/button>'+(a.port?", "+esc(a.port):"")+'<\/small><\/li>'}).join("")+
+f.obs.map(function(o){return '<li class="ob">Observation: '+esc(o.t)+' <small>'+esc(o.ins)+(o.port?", "+esc(o.port):"")+'<\/small><\/li>'}).join("")+
+f.checks.map(function(c){return '<li>Checked: '+esc(c.t)+' <small>'+esc(c.ins)+(c.port?", "+esc(c.port):"")+'<\/small><\/li>'}).join("");
+return '<div class="sr-fbox"><b class="h">From real inspections: seen in '+f.n+(f.n===1?" report":" reports")+'<\/b><ul>'+li+'<\/ul><\/div>'}
 function insKey(n){return String(n||"").replace(/^(capt|captain|mr|mrs|ms|dr)\.?\s+/i,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
 function loadField(){var t=document.getElementById("sire-field");if(t){F=JSON.parse(t.textContent);renderField();return}
 fetch("https://cdn.jsdelivr.net/gh/iMariner/imariners-sire@main/field-data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(d){F=d;renderField();if(D)render();var m=location.hash.match(/^#inspector-(.+)$/);if(m)showProfile(m[1])}).catch(function(){var s=el("sr-field");if(s)s.hidden=true})}
