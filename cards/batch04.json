@@ -1170,6 +1170,14 @@
      "Sign the permit",
      "Raise the alarm and do not enter to rescue"
     ]
+   },
+   {
+    "q": "What must you write on the enclosed space entry permit?",
+    "a": [
+     "Gas readings for the top, middle and bottom",
+     "The time of each test and the readings",
+     "All signatures and the permit expiry time"
+    ]
    }
   ],
   "tip": "Check that the person who approves the permit is never the person entering. Keep two months of pumproom logs handy.",
@@ -1243,6 +1251,14 @@
      "Hot work plan and risk assessment",
      "Planning meeting",
      "Shore management approval and a permit approved onboard"
+    ]
+   },
+   {
+    "q": "What do you check before hot work starts?",
+    "a": [
+     "Plan, risk assessment and permit agreed",
+     "Fire watch and fire fighting ready",
+     "Notifications done and approvals given"
     ]
    }
   ],
