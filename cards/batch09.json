@@ -1256,6 +1256,14 @@
      "Risk assessment review",
      "Roles and communication methods"
     ]
+   },
+   {
+    "q": "What must you be able to explain from the mooring plan?",
+    "a": [
+     "Your station, its team and the supervisor",
+     "The layout and lead of each line",
+     "The toolbox talk and communications"
+    ]
    }
   ],
   "tip": "If a rating may supervise a station, keep the training record handy. The inspector will ask for it.",
