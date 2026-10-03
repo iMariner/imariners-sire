@@ -55,6 +55,15 @@ def tg(method, **params):
     return http("POST", TG + method, params, timeout=40).get("result")
 
 
+def tg_soft(method, **params):
+    """Button answers and keyboard edits: Telegram rejects them once a tap is a few minutes old. Never fatal."""
+    try:
+        return tg(method, **params)
+    except Exception as e:
+        log(f"{method} skipped ({type(e).__name__})")
+        return None
+
+
 def gh(method, path, token, body=None):
     return http(method, "https://api.github.com" + path, body,
                 {"Authorization": "Bearer " + token, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"})
@@ -181,7 +190,12 @@ def main():
             cq = u["callback_query"]
             if cq["from"]["id"] != OWNER:
                 continue
-            handled = handle_callback(cq, state)
+            try:
+                handled = handle_callback(cq, state)
+            except Exception as e:
+                log(f"callback failed ({type(e).__name__})")
+                tg_soft("sendMessage", chat_id=OWNER, text=f"That button failed ({type(e).__name__}). Try again.")
+                continue
             changed_reports |= handled == "report"
             changed_cards |= handled == "cards"
             continue
@@ -320,7 +334,7 @@ def stage(text, correction, state, old_key=None):
 def correct(key, text, state):
     p = state["pending"][key]
     try:
-        tg("editMessageReplyMarkup", chat_id=OWNER, message_id=p["msg_id"], reply_markup={"inline_keyboard": []})
+        tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=p["msg_id"], reply_markup={"inline_keyboard": []})
     except Exception:
         pass
     tg("sendMessage", chat_id=OWNER, text="Applying your correction...")
@@ -334,11 +348,11 @@ def handle_callback(cq, state):
     if action in ("ok", "no"):
         p = state["pending"].pop(arg, None)
         if not p:
-            tg("answerCallbackQuery", callback_query_id=cq["id"], text="Expired. Send the report again.")
+            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Expired. Send the report again.")
             return None
         if action == "no":
-            tg("answerCallbackQuery", callback_query_id=cq["id"], text="Rejected")
-            tg("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
+            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Rejected")
+            tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
             tg("sendMessage", chat_id=OWNER, text="Rejected. Nothing was published.", reply_to_message_id=mid)
             return None
         rec = p["record"]
@@ -349,8 +363,8 @@ def handle_callback(cq, state):
                      f"Raw report {rec['id']}")
         except Exception as e:
             log("raw save failed", type(e).__name__)
-        tg("answerCallbackQuery", callback_query_id=cq["id"], text="Published")
-        tg("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
+        tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Published")
+        tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
            text=f"Published as {rec['id']}. The SIRE page updates in a few minutes.")
         log("approved", rec["id"])
@@ -363,10 +377,10 @@ def handle_callback(cq, state):
             else:
                 gh("PATCH", f"/repos/{REPO}/pulls/{n}", PUB, {"state": "closed"})
         except urllib.error.HTTPError as e:
-            tg("answerCallbackQuery", callback_query_id=cq["id"], text=f"GitHub said {e.code}")
+            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text=f"GitHub said {e.code}")
             return None
-        tg("answerCallbackQuery", callback_query_id=cq["id"], text="Merged" if action == "merge" else "Closed")
-        tg("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
+        tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Merged" if action == "merge" else "Closed")
+        tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
            text="Merged. The study cards update in a few minutes." if action == "merge" else "Closed. No change made.")
         return "cards" if action == "merge" else None
