@@ -878,6 +878,14 @@
      "Reeling direction",
      "Torque or hydraulic assist setting"
     ]
+   },
+   {
+    "q": "What does the mark on the brake handle spindle mean?",
+    "a": [
+     "It is the indicator for the correct brake setting",
+     "Set the brake so it lines up with the mark",
+     "A brake set off the mark is not set as required"
+    ]
    }
   ],
   "tip": "Check the marking and tags on every winch before the inspection. Missing tags are easy observations.",
