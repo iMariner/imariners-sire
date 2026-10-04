@@ -1,0 +1,188 @@
+{
+  "id": "undated-port-arthur-capt-robert-bruce",
+  "date": "",
+  "inspector": "Capt Robert Bruce",
+  "port": "Port Arthur",
+  "country": "USA",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [
+    {
+      "area": "Bridge",
+      "hours": 2
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": 2
+    },
+    {
+      "area": "Deck",
+      "hours": 1.5
+    },
+    {
+      "area": "Engine Room",
+      "hours": 0.58
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "SMS requires position feed from all GNSS equipment, but GLONASS is not fed to gyro and GMDSS equipment; inspector raised a negative observation.",
+      "qid": "4.1.6",
+      "type": "process",
+      "rank": "master"
+    }
+  ],
+  "positives": [],
+  "style": [
+    "Gives time to search the SMS, does not expect memorisation but expects you to know where to look",
+    "Makes the crew comfortable",
+    "Appreciated bridge equipment knowledge but said he only gives positive observations to ratings, not officers",
+    "Detailed on bridge equipment and SMS requirements"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Echo sounder printer: at what interval does it print the log, and does the SMS specify a specific interval to be set to print?",
+      "qid": "4.1.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the difference between X band and S band, and when do you use a specific radar?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the different contour settings and their significance?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "UKC calculation: why have you selected different variables for UKC during different legs of the passage, and what is your reasoning? Does the SMS specify which variables to take?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Master's standing orders: visibility criteria and when to call the master? Atmospheric pressure criteria for calling the master while approaching a TRS?",
+      "qid": "4.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "GLONASS antenna position poster and its verification on GLONASS; entry in deck log book on dates when you switched over to GLONASS for position feed to bridge equipment; what does the SMS say about feeding position from different GNSS systems?",
+      "qid": "4.1.6",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Performance criteria of radar: how do you verify?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Why does the magnetic compass have Flinders bars?",
+      "qid": "4.1.12",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Shadow and blind range of radar: its poster and its significance?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Echo sounder performance: how do you know it is showing correct depths? Last PMS entries?",
+      "qid": "4.1.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "GMDSS monthly entries?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Last navigation internal audit points: what were they, and did you read the report?",
+      "qid": "2.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Passage plan: security level, did you take extra precautions at anchorage in Indonesia, and is there an entry for the same?",
+      "qid": "7.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Managing distraction policy?",
+      "qid": "4.3.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Too many alarms during pilotage: how do you manage?",
+      "qid": "4.3.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Position verification interval on ECDIS; saw GLONASS position plotting on ECDIS and sight plot on ECDIS?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Different bridge levels?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How do you know which radar's antenna is which by looking at the antennas?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "documents": 1,
+    "security": 1
+  },
+  "tips": [
+    "Know where to find SMS requirements rather than memorising them",
+    "Ensure GNSS position feeds match what the SMS requires for all bridge equipment"
+  ],
+  "summary": "Inspection conducted by Capt Robert Bruce at Port Arthur, USA. He spent 2 hours on the bridge, 2 hours in the CCR, 1.5 hours on deck and 35 minutes in the engine room. He is a calm and fair inspector who gives time to search the SMS and makes the crew comfortable. He raised a negative observation regarding GLONASS position feed not being provided to gyro and GMDSS equipment as required by the SMS. He appreciated bridge equipment knowledge but noted he only gives positive observations to ratings, not officers."
+}
