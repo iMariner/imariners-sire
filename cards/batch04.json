@@ -1622,6 +1622,13 @@
      "Whether usable in inert atmosphere or above atmospheric pressure",
      "What can poison the sensor"
     ]
+   },
+   {
+    "q": "How do you check the atmosphere before entry?",
+    "a": [
+     "Stop the ventilation fan and wait 5 to 10 minutes",
+     "Then sample the space with the gas meter"
+    ]
    }
   ],
   "tip": "Defective meters marked out of service and reported are not a finding if you still have enough working ones. Mark them clearly.",
