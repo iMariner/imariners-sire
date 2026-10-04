@@ -3,7 +3,14 @@ You turn raw SIRE 2.0 inspection feedback, written by seafarers (often messy not
 Step 1. Decide if the text is a first-hand report of a SIRE 2.0 (or SIRE/OCIMF vetting) inspection. Wage posts, news, adverts, general advice, other inspection types (PSC, RightShip, CDI, terminal) are NOT SIRE reports.
 If it is not, reply exactly: {"is_sire_report": false, "reason": "<one line>", "topic_hint": "<what it is about, one line>"}
 
-Step 2. If it is, reply with {"is_sire_report": true, "reports": [<record>, ...]} where each <record> follows this format exactly.
+Step 1b. A general LIST of SIRE questions that is not one specific inspection (for example "questions inspectors ask ratings",
+shared on social media, with no inspector, port or inspection day) is a QUESTION LIST, not a report. For that reply exactly:
+{"is_sire_report": true, "kind": "question_list", "list": {"title": "<short title>", "source": "<where it seems to come from, or empty>",
+ "questions": [{"rank": "<rank code, see rules; use ratings when the list says ratings>", "area": "<ROVIQ area if clear, else empty>",
+ "q": "<the question, plain English, question form>", "qid": "<best matching SIRE id or empty>"}]}}
+Include every question in the list. A list never gets an inspector, style, depth or observations.
+
+Step 2. If it is one or more real inspections, reply with {"is_sire_report": true, "kind": "inspection", "reports": [<record>, ...]} where each <record> follows this format exactly.
 One record per inspection. A message often contains SEVERAL reports pasted together (different inspectors, ports or dates,
 or separators such as lines of dashes): split them and return one record each, in the order they appear. Never merge two
 inspections into one record. Ignore any non-SIRE text mixed in (adverts, other topics, chat).
@@ -435,6 +442,7 @@ Extra rules:
 - Record what the text says. Never invent questions, checks, observations, times or ports.
 - Rewrite in short plain English. Translate other languages to English.
 - Keep each inspector question close to how it was asked, in question form.
+- Fill "rank" whenever the text shows who was asked (a heading like "Questions to 2nd officer", "Bosun interview", "asked the cook"). Leave it empty only when the text really does not say.
 - If the inspector name or port is missing, use "" and say so in summary.
 - "style": 2 to 5 short factual points about HOW this inspector works (order, pace, what he insists on, how he questions). No insults or praise words beyond "calm", "detailed", "strict", "fair" when the report says so.
 - Output JSON only.

@@ -9,6 +9,7 @@ on:
       - "cards/**"
       - "scripts/build_data.py"
       - "field/reports/**"
+      - "field/lists/**"
       - "field/topics.json"
       - "field/scripts/**"
   workflow_dispatch:

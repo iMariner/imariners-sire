@@ -1,557 +1,446 @@
 {
-  "id": "undated-unknown-port-unknown-inspector-2",
-  "date": "",
-  "inspector": "",
-  "port": "",
-  "country": "",
-  "terminal": "",
-  "vessel_type": "Unknown",
-  "hours": null,
-  "start": null,
-  "end": null,
-  "schedule": [],
-  "observations_total": null,
-  "high_risk": null,
-  "observations": [],
-  "positives": [],
-  "style": [
-    "Asks ratings many practical questions across all chapters",
-    "Focuses on familiarisation of ratings with SMS, emergency equipment and procedures",
-    "Checks practical knowledge of equipment operation and emergency duties",
-    "Questions are detailed and cover a wide range of topics"
-  ],
+  "id": "linkedin-ratings-sire-questions-2026-10",
+  "title": "Questions SIRE inspectors put to ratings (list shared on LinkedIn)",
+  "source": "Shared on LinkedIn, October 2026",
+  "added": "2026-10-04",
   "questions": [
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Documentation",
       "q": "Are ratings aware of availability of latest and updated SMS content to all crew, the sections relevant to their role in ship's working language?",
-      "qid": "2.7.1",
-      "answer": "unknown"
+      "qid": "2.7.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Documentation",
       "q": "Are ratings aware of details and role of the DPA?",
-      "qid": "2.7.2",
-      "answer": "unknown"
+      "qid": "2.7.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Crew Management",
       "q": "Are ratings able to communicate verbally in the designated working language?",
-      "qid": "3.1.2",
-      "answer": "unknown"
+      "qid": "3.1.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Crew Management",
       "q": "Are able to read safety signs or instructions?",
-      "qid": "3.1.2",
-      "answer": "unknown"
+      "qid": "3.1.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Crew Management",
       "q": "Are ratings aware of including notes by individual crew member in work and rest hour monitoring tool onboard to identify duties they performed outside their normal working hours?",
-      "qid": "3.4.1",
-      "answer": "unknown"
+      "qid": "3.4.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Crew Management",
       "q": "Are ratings familiar with company Drug & Alcohol Procedures & Policies?",
-      "qid": "3.4.2",
-      "answer": "unknown"
+      "qid": "3.4.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Crew Management",
       "q": "Are ratings able to demonstrate good understanding or familiarity with key equipment or systems under their responsibility?",
-      "qid": "3.5.1",
-      "answer": "unknown"
+      "qid": "3.5.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Crew Management",
       "q": "Are ratings familiar with use, ops. & safety considerations of any piece of LSA & FFA provided onboard?",
-      "qid": "3.5.2",
-      "answer": "unknown"
+      "qid": "3.5.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with company procedures for safe use of radio & telephone equipment during cargo & ballast handling ops?",
-      "qid": "4.4.6",
-      "answer": "unknown"
+      "qid": "4.4.6"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with rigging & use of rescue hoisting arrangement(s) provided during enclosed space rescue drill?",
-      "qid": "5.1.4",
-      "answer": "unknown"
+      "qid": "5.1.4"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with procedure for abandoning ship and launching of LB during abandon ship drill?",
-      "qid": "5.1.6",
-      "answer": "unknown"
+      "qid": "5.1.6"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Shipboard emg. plans for flooding situations. Machinery space flooding, Pumproom flooding, Forecastle space flooding, hull breach?",
-      "qid": "5.1.16",
-      "answer": "unknown"
+      "qid": "5.1.16"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with specific starting instructions for emg. fire pump?",
-      "qid": "5.2.1",
-      "answer": "unknown"
+      "qid": "5.2.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Location, purpose & ops. Of; Fire dampers, Skylights, Closing devices, Remote fan stops. Position of each closing device during cargo ops.?",
-      "qid": "5.2.2",
-      "answer": "unknown"
+      "qid": "5.2.2"
     },
     {
       "rank": "cook",
       "area": "Navigation & Communications",
       "q": "Are ratings (Galley Staff) familiar with Purpose & ops. of fire extinguishing system in galley?",
-      "qid": "5.2.8",
-      "answer": "unknown"
+      "qid": "5.2.8"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Ops. & use of foam monitors & foam applicators?",
-      "qid": "5.2.15",
-      "answer": "unknown"
+      "qid": "5.2.15"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings able to demonstrate donning of SCBA. Safety checks reqd. on SCBA before entering hazardous environment?",
-      "qid": "5.3.1",
-      "answer": "unknown"
+      "qid": "5.3.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings aware of Location & purpose of EEBDs?",
-      "qid": "5.3.4",
-      "answer": "unknown"
+      "qid": "5.3.4"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Life rafts, hydrostatic releases & life raft launching appliances for operation?",
-      "qid": "5.4.5",
-      "answer": "unknown"
+      "qid": "5.4.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Instructions for donning immersion suit?",
-      "qid": "5.4.7",
-      "answer": "unknown"
+      "qid": "5.4.7"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with company procedures for use of 'working lifejackets'?",
-      "qid": "5.4.8",
-      "answer": "unknown"
+      "qid": "5.4.8"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Enclosed space entry procedure? Their role in signing enclosed space entry permit as; Attendant and Someone who enters space?",
-      "qid": "5.5.1",
-      "answer": "unknown"
+      "qid": "5.5.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with company safe working procedures for working at height, Related permit, RA review process?",
-      "qid": "5.5.3",
-      "answer": "unknown"
+      "qid": "5.5.3"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Purpose & ops. of portable & personal gas measurement instruments?",
-      "qid": "5.6.1",
-      "answer": "unknown"
+      "qid": "5.6.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with Process to report near-miss?",
-      "qid": "5.7.2",
-      "answer": "unknown"
+      "qid": "5.7.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with company Stop Work Authority policy & procedure?",
-      "qid": "5.7.5",
-      "answer": "unknown"
+      "qid": "5.7.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with existence & content of RA for tasks that they had been directly involved with?",
-      "qid": "5.7.6",
-      "answer": "unknown"
+      "qid": "5.7.6"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with markings required on each item of lifting & rigging equipment? Checks to conduct before using items during routine work?",
-      "qid": "5.9.1",
-      "answer": "unknown"
+      "qid": "5.9.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Navigation & Communications",
       "q": "Are ratings familiar with opening of external door which form part of escape route from inside?",
-      "qid": "5.10.7",
-      "answer": "unknown"
+      "qid": "5.10.7"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Maritime Security",
       "q": "Are ratings familiar with company procedures for controlling access to vessel in port and procedures for ensuring safety of visitors?",
-      "qid": "7.2.2",
-      "answer": "unknown"
+      "qid": "7.2.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Cargo & Ballast operations - Chemical Tanker",
       "q": "Are ratings familiar with Locations, purpose & operations of escape sets provided as required by IBC code.",
-      "qid": "8.2.6",
-      "answer": "unknown"
+      "qid": "8.2.6"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Cargo & Ballast operations - Chemical Tanker",
       "q": "Are ratings familiar with selection & donning of full set of protective equipment including protective suit required by the IBC Code?",
-      "qid": "8.2.8",
-      "answer": "unknown"
+      "qid": "8.2.8"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Cargo & Ballast operations - Oil Tanker",
       "q": "Are ratings familiar with company procedures for dipping, ullaging & sampling flammable static accumulator cargoes in non-inerted tanks related to their duties?",
-      "qid": "8.3.5",
-      "answer": "unknown"
+      "qid": "8.3.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Cargo & Ballast operations - Oil Tanker",
       "q": "Are ratings familiar with Location & operation of cargo pump emergency stop controls. Circumstances in which they are to be activated. Actions after emg. stop control activated?",
-      "qid": "8.3.8",
-      "answer": "unknown"
+      "qid": "8.3.8"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Mooring and Anchoring",
       "q": "Are ratings involved in mooring Ops familiar with mooring team composition, workspace supervision?",
-      "qid": "9.4.1",
-      "answer": "unknown"
+      "qid": "9.4.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Mooring and Anchoring",
       "q": "Are ratings familiar with company guidelines regarding danger of snap-back. How danger of snap-back communicated on board, prior to & after mooring operations?",
-      "qid": "9.4.2",
-      "answer": "unknown"
+      "qid": "9.4.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Mooring and Anchoring",
       "q": "Are ratings familiar with the location & content of STS Operations prior to start of STS ops.",
-      "qid": "9.5.3",
-      "answer": "unknown"
+      "qid": "9.5.3"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Machinery Spaces",
       "q": "Are ratings familiar with Duties assigned to them within bunkering plan during bunkering ops?",
-      "qid": "10.5.1",
-      "answer": "unknown"
+      "qid": "10.5.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Checking of emergency Lights, fire hose boxes, MOB, Battery room, oxy, acetylene room?",
-      "qid": "5.4.9",
-      "answer": "unknown"
+      "qid": "5.4.9"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Starting procedure of life boat engine, equipment and use, maintenance schedule as per PMS and company SMS?",
-      "qid": "5.4.1",
-      "answer": "unknown"
+      "qid": "5.4.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Procedure for lowering life boat?",
-      "qid": "5.4.1",
-      "answer": "unknown"
+      "qid": "5.4.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Testing of wilden pump, procedure of oil containment in case of oil spill using Wilden pump and dump valve, testing of Overfill alarm, helicopter equipment, cargo sample retention as per SMS?",
-      "qid": "6.4.1",
-      "answer": "unknown"
+      "qid": "6.4.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Manifold area pressure gauges, temperature sensors, drain plugs, length of nut bolts?",
-      "qid": "8.3.24",
-      "answer": "unknown"
+      "qid": "8.3.24"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Entry procedure in bosun store, checking seal at overboard valve of chain locker and void space eductor, bitter end last inspection, hammer at bitter end and greasing of the bitter end?",
-      "qid": "5.5.1",
-      "answer": "unknown"
+      "qid": "5.5.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Fwd life raft launching procedure?",
-      "qid": "5.4.5",
-      "answer": "unknown"
+      "qid": "5.4.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Donning of immersion suit?",
-      "qid": "5.4.7",
-      "answer": "unknown"
+      "qid": "5.4.7"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "PV valves and ballast tanks inerting procedure?",
-      "qid": "8.3.18",
-      "answer": "unknown"
+      "qid": "8.3.18"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Aware of which audible/light alarm is fitted where on midship/monkey island?",
-      "qid": "10.3.5",
-      "answer": "unknown"
+      "qid": "10.3.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Foam monitors kept ready for fire fighting?",
-      "qid": "5.2.15",
-      "answer": "unknown"
+      "qid": "5.2.15"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "He will check compliance at gangway with ISPS, PPE related with cargo on board?",
-      "qid": "7.2.2",
-      "answer": "unknown"
+      "qid": "7.2.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "What hazards does cargo have and company procedure if high H2S is present?",
-      "qid": "5.7.7",
-      "answer": "unknown"
+      "qid": "5.7.7"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "His muster point in case of emergency, emg. Escape route, fire and general alarm?",
-      "qid": "5.1.2",
-      "answer": "unknown"
+      "qid": "5.1.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "What are the duties as gangway watch?",
-      "qid": "7.2.2",
-      "answer": "unknown"
+      "qid": "7.2.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "What will you do if you see a big leak on deck, or fire on deck?",
-      "qid": "5.1.2",
-      "answer": "unknown"
+      "qid": "5.1.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Duties during oil spill, fire, abandon ship?",
-      "qid": "5.1.3",
-      "answer": "unknown"
+      "qid": "5.1.3"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "How to use UTI and proper procedure?",
-      "qid": "8.3.12",
-      "answer": "unknown"
+      "qid": "8.3.12"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "CSO/DPA how to find their contact details?",
-      "qid": "2.7.2",
-      "answer": "unknown"
+      "qid": "2.7.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Onboard complaint procedure?",
-      "qid": "2.7.2",
-      "answer": "unknown"
+      "qid": "2.7.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Individual job description and how to find in SMS?",
-      "qid": "2.7.1",
-      "answer": "unknown"
+      "qid": "2.7.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Procedure for enclosed space and duties, for pumproom and ballast tank?",
-      "qid": "5.5.1",
-      "answer": "unknown"
+      "qid": "5.5.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Duty of the attendant in case of enclosed space, can you leave the space? Items of safety trolley?",
-      "qid": "5.5.1",
-      "answer": "unknown"
+      "qid": "5.5.1"
     },
     {
       "rank": "cook",
       "area": "Practical",
       "q": "Galley- action in case of fire, procedure for cleaning of galley mesh, disposal of galley oil?",
-      "qid": "5.2.8",
-      "answer": "unknown"
+      "qid": "5.2.8"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Pump room Entry procedure as per SMS?",
-      "qid": "5.5.1",
-      "answer": "unknown"
+      "qid": "5.5.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Use of portable gas measuring instrument and if only fresh air calibration is required prior use?",
-      "qid": "5.6.1",
-      "answer": "unknown"
+      "qid": "5.6.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "ODME procedure and testing?",
-      "qid": "6.6.2",
-      "answer": "unknown"
+      "qid": "6.6.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Cargo overboard testing procedure?",
-      "qid": "6.2.2",
-      "answer": "unknown"
+      "qid": "6.2.2"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "What action if toxic gases in pumproom?",
-      "qid": "5.6.5",
-      "answer": "unknown"
+      "qid": "5.6.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Checking of all COP, ballast pumps?",
-      "qid": "8.99.9",
-      "answer": "unknown"
+      "qid": "8.99.9"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Action in case of oil spill in pumproom, use of stripping pump?",
-      "qid": "6.2.1",
-      "answer": "unknown"
+      "qid": "6.2.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Check bilge valve to be in open position?",
-      "qid": "6.2.1",
-      "answer": "unknown"
+      "qid": "6.2.1"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Purpose of high suction and low suction dampers?",
-      "qid": "8.3.14",
-      "answer": "unknown"
+      "qid": "8.3.14"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "Aware of telephone alarm and other alarms audio?",
-      "qid": "10.3.5",
-      "answer": "unknown"
+      "qid": "10.3.5"
     },
     {
-      "rank": "",
+      "rank": "ratings",
       "area": "Practical",
       "q": "At a time maximum number of person inside the pump room (Number of person should not be more than EEBD inside and with ear plugs or defenders)?",
-      "qid": "5.5.1",
-      "answer": "unknown"
+      "qid": "5.5.1"
     }
-  ],
-  "checks": [],
-  "depth": {
-    "documents": 2,
-    "crew": 2,
-    "nav_equip": 1,
-    "passage": 0,
-    "bridge_team": 1,
-    "drills": 2,
-    "fire": 2,
-    "lsa": 2,
-    "permits": 2,
-    "safety": 2,
-    "pollution": 1,
-    "security": 1,
-    "cargo": 2,
-    "mooring": 1,
-    "engine": 1,
-    "photos": 0
-  },
-  "tips": [],
-  "summary": "The inspector conducted a detailed interview with ratings, asking practical questions across many chapters. The focus was on familiarisation with SMS, emergency equipment, and procedures. The inspector name and port are not given."
+  ]
 }

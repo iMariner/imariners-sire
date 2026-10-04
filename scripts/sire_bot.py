@@ -318,7 +318,7 @@ def cycle(state, updates, split_wait, check_prs):
     # Only source files are committed here. The "Rebuild SIRE data" GitHub workflow rebuilds sire-data.json and
     # field-data.json and purges the CDN on every push, so the bot never races it on generated files.
     if changed_reports:
-        run("git", "add", "field/reports")
+        run("git", "add", "field/reports", "field/lists")
         if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode:
             run("git", "commit", "-q", "-m", "Bot: new field report")
             push_with_retry()
@@ -376,6 +376,9 @@ def stage(text, correction, state, old_key=None):
     if not res.get("is_sire_report"):
         tg("sendMessage", chat_id=OWNER, text=f"Not a SIRE report: {res.get('reason', '')}\nTopic: {res.get('topic_hint', '')}")
         return
+    if res.get("kind") == "question_list" or res.get("list"):
+        stage_list(text, res.get("list") or {}, correction, state, old_key)
+        return
     recs = res.get("reports") or ([res["report"]] if res.get("report") else [])
     recs = [r for r in recs if isinstance(r, dict)]
     if not recs:
@@ -395,6 +398,32 @@ def stage(text, correction, state, old_key=None):
         state["pending"][key] = {"record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
                                  "created": int(time.time())}
         log(f"staged {key}")
+
+
+def stage_list(text, L, correction, state, old_key=None):
+    qs = [x for x in (L.get("questions") or []) if isinstance(x, dict) and x.get("q")]
+    for x in qs:
+        if x.get("qid") not in QIDS:
+            x["qid"] = ""
+    if not qs:
+        tg("sendMessage", chat_id=OWNER, text="That looks like a question list, but I could not read any questions from it.")
+        return
+    title = (L.get("title") or "Shared SIRE question list").strip()
+    rec = {"id": slug(title)[:60] + "-" + time.strftime("%Y-%m"), "title": title, "source": L.get("source", ""),
+           "added": time.strftime("%Y-%m-%d"), "questions": qs}
+    key = old_key or secrets.token_hex(4)
+    e = lambda v: html.escape(str(v or ""))
+    lines = [f"<b>Question list</b> (not an inspection)  <code>{key}</code>", f"<b>{e(title)}</b>", f"Source: {e(rec['source']) or '?'}",
+             f"Questions: {len(qs)}   Matched to a SIRE question: {sum(1 for x in qs if x['qid'])}", ""]
+    lines += [f"- {e(x.get('rank') or '?')}: {e(x['q'])} [{e(x['qid'] or 'no match')}]" for x in qs[:10]]
+    if len(qs) > 10:
+        lines.append(f"... and {len(qs) - 10} more")
+    lines.append("\n<i>Approving adds these to the question cards and practice mode. It does not create an inspector profile.</i>")
+    msg = tg("sendMessage", chat_id=OWNER, text="\n".join(lines)[:3900], parse_mode="HTML",
+             reply_markup=keyboard(("Approve and publish", f"ok:{key}"), ("Reject", f"no:{key}")))
+    state["pending"][key] = {"type": "list", "record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
+                             "created": int(time.time())}
+    log(f"staged list {key}")
 
 
 def correct(key, text, state):
@@ -420,8 +449,16 @@ def handle_callback(cq, state):
             tg("sendMessage", chat_id=OWNER, text="Rejected. Nothing was published.", reply_to_message_id=mid)
             return None
         rec = p["record"]
-        rec["id"] = free_report_id(rec["id"])
-        (ROOT / "field" / "reports" / f"{rec['id']}.json").write_text(json.dumps(rec, indent=2, ensure_ascii=True) + "\n")
+        if p.get("type") == "list":
+            (ROOT / "field" / "lists").mkdir(exist_ok=True)
+            base, n = rec["id"], 1
+            while (ROOT / "field" / "lists" / f"{rec['id']}.json").exists():
+                n += 1
+                rec["id"] = f"{base}-{n}"
+            (ROOT / "field" / "lists" / f"{rec['id']}.json").write_text(json.dumps(rec, indent=2, ensure_ascii=True) + "\n")
+        else:
+            rec["id"] = free_report_id(rec["id"])
+            (ROOT / "field" / "reports" / f"{rec['id']}.json").write_text(json.dumps(rec, indent=2, ensure_ascii=True) + "\n")
         try:
             priv_put(f"raw/{rec['id']}.txt", p["raw"] + ("\n\n--- corrections ---\n" + p["correction"] if p.get("correction") else ""),
                      f"Raw report {rec['id']}")
@@ -429,7 +466,7 @@ def handle_callback(cq, state):
             log("raw save failed", type(e).__name__)
         tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
-           text=f"Published as {rec['id']}. The SIRE page updates in a few minutes.")
+           text=(f"Added the question list ({len(rec['questions'])} questions) to the SIRE page." if p.get("type") == "list" else f"Published as {rec['id']}. The SIRE page updates in a few minutes."))
         log("approved", rec["id"])
         return "report"
     if action in ("merge", "close"):

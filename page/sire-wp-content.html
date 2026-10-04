@@ -301,7 +301,7 @@ function chips(q){var h='<span class="sr-chip '+(q.ty==="Core"?"bad":(q.ty==="Ro
 if(S.rank!=="all"){h+=q.who.lead.indexOf(S.rank)>=0?'<span class="sr-chip top">You lead<\/span>':(realAsked(q)?'':'<span class="sr-chip">You may be asked<\/span>');if(realAsked(q))h+='<span class="sr-chip bad">Asked to '+esc(SHORT[S.rank]||S.rank)+' in a real inspection<\/span>'}
 else{h+='<span class="sr-chip top">'+q.who.lead.map(function(r){return SHORT[r]||r}).join(", ")+'<\/span>'}
 var g=[];if(q.r.h)g.push("Equipment");if(q.r.p)g.push("Procedure");if(q.r.u)g.push("People");
-h+='<span class="sr-chip">Graded: '+g.join(", ")+'<\/span>';if(F){var f=F.questions[q.i];if(f)h+='<span class="sr-chip mid">Seen in '+f.n+(f.n===1?" real inspection":" real inspections")+'<\/span>'}return h}
+h+='<span class="sr-chip">Graded: '+g.join(", ")+'<\/span>';if(F){var f=F.questions[q.i];if(f){if(f.n)h+='<span class="sr-chip mid">Seen in '+f.n+(f.n===1?" real inspection":" real inspections")+'<\/span>';else if(f.nl)h+='<span class="sr-chip">In a shared question list<\/span>'}}return h}
 function ul(a){return "<ul>"+(a||[]).map(function(x){return "<li>"+esc(x)+"<\/li>"}).join("")+"<\/ul>"}
 function body(q){
 var h='<p class="sr-why"><b>Why it matters:<\/b> '+esc(q.w)+'<\/p><div class="sr-cols">'+
@@ -345,14 +345,14 @@ lsSet("imsire_prefs",{rank:S.rank,ship:S.ship,also:S.also})}
 function seg(id,arr,key){var h="";arr.forEach(function(r){h+='<button type="button" data-v="'+r[0]+'" aria-pressed="'+(S[key]===r[0]?"true":"false")+'">'+r[1]+'<\/button>'});var e=el(id);e.innerHTML=h;
 e.addEventListener("click",function(ev){var b=ev.target.closest("button");if(!b)return;S[key]=b.getAttribute("data-v");S.area="";S.limit=40;Array.prototype.forEach.call(e.children,function(c){c.setAttribute("aria-pressed",c===b?"true":"false")});closeDrill();render()})}
 function setReady(id,on){if(on)READY[id]=1;else delete READY[id];lsSet("imsire_ready",READY)}
-function drillList(){var out=[];(S._list||[]).forEach(function(q){q.pr.forEach(function(p){out.push({q:q,p:p})});if(F){var f=F.questions[q.i];if(f){f.asked.forEach(function(a){var ok=S.rank==="all"?true:((a.g||a.r)===S.rank);if(ok)out.push({q:q,p:{q:a.t+" (real question, "+a.ins+")",a:q.pr.length?q.pr[0].a:[q.s]}})})}}});for(var i=out.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=out[i];out[i]=out[j];out[j]=t}return out}
+function drillList(){var out=[];(S._list||[]).forEach(function(q){q.pr.forEach(function(p){out.push({q:q,p:p})});if(F){var f=F.questions[q.i];if(f){f.asked.forEach(function(a){var ok=S.rank==="all"?true:gm(a);if(ok)out.push({q:q,p:{q:a.t+(a.src==="list"?" (shared question list)":" (real question, "+(a.ins||"inspector not named")+")"),a:q.pr.length?q.pr[0].a:[q.s]}})})}}});for(var i=out.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=out[i];out[i]=out[j];out[j]=t}return out}
 function showDrill(){var d=el("sr-drill");if(!DR.list.length){el("sr-dq").textContent="No practice questions in this view. Change the filters and try again.";el("sr-dc").textContent="";el("sr-dn").textContent="";d.classList.add("on");return}
 if(DR.i>=DR.list.length){el("sr-dq").textContent="Done. You went through "+DR.list.length+" questions. "+DR.ok+" you knew, "+DR.bad.length+" to work on.";el("sr-dc").textContent=DR.bad.length?"Questions to revise: "+DR.bad.join(", "):"";el("sr-dn").textContent="";d.classList.remove("rev");el("sr-dr").hidden=true;el("sr-dy").hidden=true;el("sr-dx").textContent="Start again";return}
 var it=DR.list[DR.i];d.classList.add("on");d.classList.remove("rev");el("sr-dr").hidden=false;el("sr-dy").hidden=false;el("sr-dx").textContent="Need more work";
 el("sr-dn").textContent=(DR.i+1)+" of "+DR.list.length;el("sr-dq").textContent=it.p.q;el("sr-dc").textContent=it.q.i+" "+it.q.t+" | "+(AREA_NAME[areaOf(it.q)]||areaOf(it.q));
 el("sr-da").innerHTML=it.p.a.map(function(x){return "<li>"+esc(x)+"<\/li>"}).join("")}
 function closeDrill(){el("sr-drill").classList.remove("on")}
-function realPrint(q){if(!F)return "";var f=F.questions[q.i];if(!f)return "";var a=f.asked.filter(function(x){return S.rank==="all"?true:((x.g||x.r)===S.rank)});if(!a.length)a=f.asked;if(!a.length)return "";return '<div class="rq"><b>Asked in real inspections<\/b>'+a.slice(0,2).map(function(x){return '<span>"'+esc(x.t)+'"<\/span>'}).join("")+'<\/div>'}
+function realPrint(q){if(!F)return "";var f=F.questions[q.i];if(!f)return "";var a=f.asked.filter(function(x){return S.rank==="all"?true:gm(x)});if(!a.length)a=f.asked;if(!a.length)return "";return '<div class="rq"><b>Asked in real inspections<\/b>'+a.slice(0,2).map(function(x){return '<span>"'+esc(x.t)+'"<\/span>'}).join("")+'<\/div>'}
 function checklistHtml(){var list=S._list||[];
 var rk=S.rank==="all"?"All ranks":RNAME[S.rank],core=list.filter(function(q){return q.ty==="Core"}).length,areas=[],by={};
 list.forEach(function(q){var a=areaOf(q);if(!by[a]){by[a]=[];areas.push(a)}by[a].push(q)});
@@ -416,7 +416,7 @@ root.addEventListener("click",function(e){var b=e.target.closest("[data-ins]");i
 openFromHash();if(/print-checklist/.test(location.hash)){var ph=checklistHtml();document.documentElement.innerHTML=ph.replace(/^<!doctype html><html>/,"").replace(/<\/html>$/,"")}}
 function openFromHash(){if(!D)return;var hq=location.hash.match(/^#q-([\d-]+)$/);if(hq){var id=hq[1].replace(/-/g,".");var q=D.byId[id];if(q){try{history.scrollRestoration="manual"}catch(e){}S.rank="all";S.ship=q.v[0];S.area="";S.q=q.i;el("sr-q").value=q.i;Array.prototype.forEach.call(el("sr-rank").children,function(c){c.setAttribute("aria-pressed",c.getAttribute("data-v")==="all"?"true":"false")});Array.prototype.forEach.call(el("sr-ship").children,function(c){c.setAttribute("aria-pressed",c.getAttribute("data-v")===S.ship?"true":"false")});render();var a=document.getElementById("q-"+hq[1]);if(a){a.querySelector(".sr-qh").click();setTimeout(function(){a.scrollIntoView({block:"start"});window.scrollBy(0,-110)},120)}}}}
 window.addEventListener("hashchange",function(){if(/^#q-/.test(location.hash))openFromHash()});
-var F=null,FR={bosun:"Bosun",ab:"AB",pumpman:"Pumpman",fitter:"Fitter",oiler:"Oiler",cook:"Cook",cadet:"Cadet"};
+var F=null,FR={bosun:"Bosun",ab:"AB",os:"OS",pumpman:"Pumpman",fitter:"Fitter",oiler:"Oiler",wiper:"Wiper",motorman:"Motorman",cook:"Cook",steward:"Steward",messman:"Messman",cadet:"Cadet",ratings:"Ratings"};
 function rname(r){return FR[r]||SHORT[r]||RNAME[r]||r}
 function initials(n){var w=String(n||"").replace(/^(capt|captain|mr|mrs|ms|dr)\.?\s+/i,"").split(/\s+/);return ((w[0]||"")[0]||"").toUpperCase()+((w[w.length-1]||"")[0]||"").toUpperCase()}
 function fdate(d){if(!d)return "Date not given";var p=d.split("-");return parseInt(p[2],10)+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][parseInt(p[1],10)-1]+" "+p[0]}
@@ -430,7 +430,8 @@ if(all){if(miss.length)h+='<p class="sr-note">No data yet: '+esc(miss.join(", ")
 return h}
 function topDeep(depth){var a=[];F.topics.forEach(function(t){var d=depth[t.k];if(d){if(d.avg>=2.5)a.push(t.name)}});return a}
 function qlink(id){var q=D.byId[id];if(!id)return "";if(!q)return id;return '<a href="#q-'+id.replace(/\./g,"-")+'">'+id+'<\/a>'}
-function realAsked(q){if(!F)return false;var f=F.questions[q.i];if(!f)return false;for(var i=0;i<f.asked.length;i++){if((f.asked[i].g||f.asked[i].r)===S.rank)return true}return false}
+function gm(a){var g=a.g;if(Object.prototype.toString.call(g)==="[object Array]")return g.indexOf(S.rank)>=0;if(g==="ratings")return ["deck","engine"].indexOf(S.rank)>=0;return (g||a.r)===S.rank}
+function realAsked(q){if(!F)return false;var f=F.questions[q.i];if(!f)return false;for(var i=0;i<f.asked.length;i++){if(gm(f.asked[i]))return true}return false}
 function enrichSearch(){if(!F)return;D.q.forEach(function(q){var f=F.questions[q.i];if(!f)return;if(q._f)return;q._f=1;q._s+=" "+f.asked.concat(f.checks,f.obs).map(function(x){return x.t+" "+(x.ins||"")+" "+(x.port||"")}).join(" ").toLowerCase()})}
 function renderField(){if(!F)return;enrichSearch();var sec=el("sr-field");if(!F.n_reports){sec.hidden=true;return}sec.hidden=false;
 el("sr-f-stats").innerHTML='<div><b>'+F.n_reports+'<\/b><span>inspection reports<\/span><\/div><div><b>'+F.n_inspectors+'<\/b><span>inspectors profiled<\/span><\/div><div><b>'+F.n_questions+'<\/b><span>real questions asked to crew<\/span><\/div><div><b>'+F.n_obs+'<\/b><span>observations explained<\/span><\/div>';
@@ -456,10 +457,11 @@ pr.innerHTML='<div class="hd"><div><h3>'+esc(i.name)+'<\/h3><p class="sr-note">'
 (qs?'<h5 style="margin-top:22px">Questions he asked, by rank<\/h5><ul class="sr-qa" style="gap:14px">'+qs+'<\/ul>':'');
 pr.hidden=false;pr.scrollIntoView({behavior:"smooth",block:"start"})}
 function fieldBox(q){if(!F)return "";var f=F.questions[q.i];if(!f)return "";
-var li=f.asked.map(function(a){return '<li>"'+esc(a.t)+'" <small>asked to '+esc(rname(a.r))+' by <button type="button" data-ins="'+esc(insKey(a.ins))+'">'+esc(a.ins)+'<\/button>'+(a.port?", "+esc(a.port):"")+'<\/small><\/li>'}).join("")+
+var li=f.asked.map(function(a){if(a.src==="list")return '<li>"'+esc(a.t)+'" <small>from a shared question list'+(a.r?" for "+esc(rname(a.r)):"")+'<\/small><\/li>';return '<li>"'+esc(a.t)+'" <small>asked to '+(a.r?esc(rname(a.r)):"crew (rank not stated)")+(a.ins?' by <button type="button" data-ins="'+esc(insKey(a.ins))+'">'+esc(a.ins)+'<\/button>':" (inspector not named)")+(a.port?", "+esc(a.port):"")+'<\/small><\/li>'}).join("")+
 f.obs.map(function(o){return '<li class="ob">Observation: '+esc(o.t)+' <small>'+esc(o.ins)+(o.port?", "+esc(o.port):"")+'<\/small><\/li>'}).join("")+
 f.checks.map(function(c){return '<li>Checked: '+esc(c.t)+' <small>'+esc(c.ins)+(c.port?", "+esc(c.port):"")+'<\/small><\/li>'}).join("");
-return '<div class="sr-fbox"><b class="h">From real inspections: seen in '+f.n+(f.n===1?" report":" reports")+'<\/b><ul>'+li+'<\/ul><\/div>'}
+var hd=f.n?("From real inspections: seen in "+f.n+(f.n===1?" report":" reports")+(f.nl?", plus shared question lists":"")):"From shared question lists";
+return '<div class="sr-fbox"><b class="h">'+hd+'<\/b><ul>'+li+'<\/ul><\/div>'}
 function insKey(n){return String(n||"").replace(/^(capt|captain|mr|mrs|ms|dr)\.?\s+/i,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}
 function loadField(){var t=document.getElementById("sire-field");if(t){F=JSON.parse(t.textContent);renderField();return}
 fetch("https://cdn.jsdelivr.net/gh/iMariner/imariners-sire@main/field-data.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(d){F=d;renderField();if(D)render();var m=location.hash.match(/^#inspector-(.+)$/);if(m)showProfile(m[1])}).catch(function(){var s=el("sr-field");if(s)s.hidden=true})}

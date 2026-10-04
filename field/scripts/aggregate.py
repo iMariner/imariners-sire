@@ -37,7 +37,7 @@ GALLEY = {"cook", "steward", "messman", "galley"}
 ENGINE_AREAS = {"Engine Room", "Engine Control Room", "Steering Gear", "Chief Engineer's Office"}
 
 
-def rank_group(rank, area=""):
+def rank_group(rank, area="", generic_ratings=False):
     """Rank filter group used on the page: officers keep their own code, ratings go to deck, engine or galley."""
     r = (rank or "").lower()
     if r in DECK:
@@ -46,6 +46,8 @@ def rank_group(rank, area=""):
         return "engine"
     if r in GALLEY:
         return "galley"
+    if r == "ratings" and generic_ratings:
+        return "ratings"          # page: matches deck, engine and galley
     if r == "ratings":
         return "engine" if area in ENGINE_AREAS else ("galley" if "Galley" in (area or "") else "deck")
     return r
@@ -59,6 +61,18 @@ def main():
         except Exception as e:
             print("skip", f, e)
     reports.sort(key=lambda r: r.get("date") or "0000", reverse=True)
+
+    # ranks that usually answer each SIRE question (used when a report does not say who was asked)
+    lead = {}
+    sd = ROOT / "sire-data.json"
+    if sd.exists():
+        lead = {q["i"]: q["who"]["lead"] for q in json.loads(sd.read_text())["q"]}
+    lists = []
+    for f in sorted(glob.glob(str(FIELD / "lists" / "*.json"))):
+        try:
+            lists.append(json.loads(Path(f).read_text()))
+        except Exception as e:
+            print("skip", f, e)
 
     insp = defaultdict(list)
     for r in reports:
@@ -99,7 +113,10 @@ def main():
                 if not q:
                     continue
                 e = byq[q]
-                item = {"t": x.get("q") or x.get("item") or x.get("text"), "r": x.get("rank", ""), "g": rank_group(x.get("rank"), x.get("area", "")), "rid": r["id"], "ins": r.get("inspector", ""),
+                g = rank_group(x.get("rank"), x.get("area", ""))
+                if kind == "asked" and not x.get("rank"):
+                    g = lead.get(q, [])   # rank not stated: file under the ranks that normally answer this question
+                item = {"t": x.get("q") or x.get("item") or x.get("text"), "r": x.get("rank", ""), "g": g, "rid": r["id"], "ins": r.get("inspector", ""),
                         "port": r.get("port") or r.get("terminal", "")}
                 if kind == "obs":
                     item["type"] = x.get("type", "")
@@ -107,7 +124,15 @@ def main():
                 e["reports"].add(r["id"])
                 if ik:
                     e["inspectors"].add(ik)
-    questions = {q: {"n": len(e["reports"]), "ni": len(e["inspectors"]), "asked": e["asked"][:12], "checks": e["checks"][:12], "obs": e["obs"][:12]}
+    for L in lists:
+        for x in L.get("questions", []):
+            q = x.get("qid")
+            if not q:
+                continue
+            byq[q]["asked"].append({"t": x.get("q"), "r": x.get("rank", ""), "g": rank_group(x.get("rank"), x.get("area", ""), True),
+                                    "src": "list", "lt": L.get("title", "Shared question list")})
+            byq[q]["nl"] = byq[q].get("nl", 0) + 1
+    questions = {q: {"nl": e.get("nl", 0), "n": len(e["reports"]), "ni": len(e["inspectors"]), "asked": e["asked"][:16], "checks": e["checks"][:12], "obs": e["obs"][:12]}
                  for q, e in byq.items()}
 
     hot = sorted(questions.items(), key=lambda kv: (-kv[1]["n"], -len(kv[1]["obs"]), kv[0]))[:20]
@@ -122,6 +147,7 @@ def main():
         "updated": max([r.get("date") or "" for r in reports] or [""]),
         "topics": TOPICS, "n_reports": len(reports), "n_inspectors": len(inspectors),
         "n_questions": sum(len(r.get("questions", [])) for r in reports),
+        "n_lists": len(lists), "n_list_questions": sum(len(L.get("questions", [])) for L in lists),
         "n_obs": sum(len(r.get("observations", [])) for r in reports),
         "inspectors": inspectors,
         "reports": [{k: r.get(k) for k in ("id", "date", "inspector", "port", "country", "terminal", "vessel_type", "hours", "start", "end",
