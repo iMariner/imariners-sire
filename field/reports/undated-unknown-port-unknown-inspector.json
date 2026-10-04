@@ -1,0 +1,304 @@
+{
+  "id": "undated-unknown-port-unknown-inspector",
+  "date": "",
+  "inspector": "",
+  "port": "",
+  "country": "",
+  "terminal": "",
+  "vessel_type": "LNG",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Opening meeting",
+      "hours": 0.2
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    },
+    {
+      "area": "Deck round",
+      "hours": null
+    },
+    {
+      "area": "Deck crew interviews",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "No clear policy explaining control and mitigation measures for hazardous energy.",
+      "qid": "5.5.6",
+      "type": "process",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "All requested documents were available",
+    "Emergency generator started by junior officer",
+    "Emergency fire pump tested with pressure verification"
+  ],
+  "style": [
+    "Focuses on company policies and SMS references showing where procedures are written",
+    "Expects every checklist point to be clearly supported in the SMS",
+    "After verifying the SMS, checks the related checklist and then the corresponding PMS jobs",
+    "Instructed the C/O to remove all canvas covers from equipment for inspection",
+    "Calls crew members individually to the CCR for questioning"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is hazardous energy, company policy and procedure?",
+      "qid": "5.5.6",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is company policy for testing of high level alarm?",
+      "qid": "8.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is company policy for testing of cargo and ballast valves?",
+      "qid": "8.99.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is company policy for changing relief valve settings?",
+      "qid": "8.6.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is company policy for Ship/Shore Safety Checklist, R checks to be carried out, and who is responsible for carrying out R checks?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Enclosed space entry procedure, specifically where the procedure for pre-checks is written?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is company policy for testing high level alarm? Show records and PMS jobs.",
+      "qid": "8.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Show company policy for retirement of ropes and wires, etc.",
+      "qid": "9.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Procedure for discarding ropes and minimum rope requirement?",
+      "qid": "9.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Show in SMS the Vent Mast protection screen requirement, change interval requirement, and related PMS jobs?",
+      "qid": "8.6.17",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Show Ship/Shore Safety Checklist and ensure terminal side also carries out checks?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "List of ESD points. Show SMS procedures for ESD testing and procedure for carrying out ESD tests?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Manifold valve timing records for closing. Company procedure mentioning minimum and maximum closing duration?",
+      "qid": "8.99.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is company policy for checking ballast and hold space sounding? Show related records?",
+      "qid": "8.6.18",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "FGDS testing - random one point tested?",
+      "qid": "5.6.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "Location of ESD points and how to activate them?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "Under which conditions ESD should be activated?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "How to test inflatable life jackets and different methods of inflation?",
+      "qid": "5.4.8",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "When to use normal life jackets and inflatable life jackets?",
+      "qid": "5.4.8",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "MOB marker line attached to lifebuoy and not on buoyant line",
+      "qid": "5.4.6"
+    },
+    {
+      "area": "Deck",
+      "item": "Fire hose box",
+      "qid": "5.3.2"
+    },
+    {
+      "area": "Deck",
+      "item": "Vent opening and closing status as per port requirements",
+      "qid": "8.3.14"
+    },
+    {
+      "area": "Bridge",
+      "item": "Magnetic compass bubble",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Deck",
+      "item": "Emergency generator started by junior officer",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Lifeboat deck",
+      "item": "Lifeboat engine and light testing",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Lifeboat deck",
+      "item": "Embarkation ladder inspection including shackle and thimble condition",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Deck",
+      "item": "CO2 room inspection and release procedure",
+      "qid": "5.2.4"
+    },
+    {
+      "area": "Deck",
+      "item": "Paint store PPE",
+      "qid": "5.2.12"
+    },
+    {
+      "area": "Aft Mooring Deck",
+      "item": "Aft towing wire and reel condition",
+      "qid": "9.2.1"
+    },
+    {
+      "area": "Mooring Decks",
+      "item": "Mooring winch",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Status of bulkhead valve",
+      "qid": "10.3.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "MARVS seal and proper setting",
+      "qid": "8.6.3"
+    },
+    {
+      "area": "Engine Room",
+      "item": "FPK store inspection and bilge alarm",
+      "qid": "10.2.5"
+    },
+    {
+      "area": "Deck",
+      "item": "Emergency fire pump tested along with pressure verification",
+      "qid": "5.2.1"
+    },
+    {
+      "area": "Compressor Room",
+      "item": "Compressor room entry and leak checks",
+      "qid": "8.6.14"
+    },
+    {
+      "area": "Compressor Room",
+      "item": "Motor room checked for seal leakage",
+      "qid": "8.6.14"
+    },
+    {
+      "area": "Deck",
+      "item": "Emergency shower",
+      "qid": "5.12.2"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "crew": 1,
+    "nav_equip": 1,
+    "passage": 0,
+    "bridge_team": 0,
+    "drills": 1,
+    "fire": 2,
+    "lsa": 2,
+    "permits": 2,
+    "safety": 2,
+    "pollution": 0,
+    "security": 0,
+    "cargo": 3,
+    "mooring": 2,
+    "engine": 2,
+    "photos": 0
+  },
+  "tips": [
+    "Ensure every checklist point is clearly supported in the SMS",
+    "Keep PMS records and testing records readily available for high level alarms, cargo and ballast valves, and relief valves",
+    "Be prepared to show company policies for hazardous energy, ESD testing, and rope retirement",
+    "Crew should know ESD points, activation conditions, and life jacket inflation methods"
+  ],
+  "summary": "The inspection focused heavily on company policies and SMS references, with the inspector verifying that every checklist point was supported by written procedures and PMS records. The deck round and crew interviews covered ESD, life jackets, and various safety equipment. The main takeaway is that under SIRE 2.0, practical operation alone is not sufficient; every activity must be traceable through SMS procedures, company policies, PMS records, and crew familiarity."
+}
