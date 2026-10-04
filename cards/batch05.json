@@ -1901,6 +1901,14 @@
      "A receipt or certificate with date, time, quantity and categories",
      "Kept with the Garbage Record Book"
     ]
+   },
+   {
+    "q": "How do you dispose of used cooking oil?",
+    "a": [
+     "Cooking oil is a separate garbage category",
+     "Keep it apart and land it ashore",
+     "Record the amount and keep the receipt"
+    ]
    }
   ],
   "tip": "Check the book against the deck log for the last port call. Make sure the shore delivery receipt and the book entry agree on quantity and date.",
