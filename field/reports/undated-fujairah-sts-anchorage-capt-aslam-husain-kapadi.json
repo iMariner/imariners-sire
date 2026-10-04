@@ -1,0 +1,308 @@
+{
+  "id": "undated-fujairah-sts-anchorage-capt-aslam-husain-kapadi",
+  "date": "",
+  "inspector": "Capt Aslam Husain Kapadi",
+  "port": "Fujairah STS Anchorage",
+  "country": "UAE",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": "12:30",
+  "end": "14:00",
+  "schedule": [
+    {
+      "area": "Bridge",
+      "hours": 1.5
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "VDR self test showed an AIS alarm; AIS was switched off as per company instructions",
+      "qid": "4.1.11",
+      "type": "process",
+      "rank": "master"
+    }
+  ],
+  "positives": [],
+  "style": [
+    "Gentle and sober throughout",
+    "Already familiar with the company SMS and policies from previous inspections of the same operator's vessels",
+    "Covers almost everything on the bridge",
+    "Wants exact wording on UKC non-compliance: risk assessment then inform company"
+  ],
+  "questions": [
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Alarm test of the echo sounder and setting of the alarm as per company UKC policy?",
+      "qid": "4.1.7",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Records of GMDSS tests and the last annual battery capacity test?",
+      "qid": "4.4.5",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What action do you take if you receive a distress on MF/HF and cannot communicate with the vessel?",
+      "qid": "4.4.4",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the company cyber security policy?",
+      "qid": "7.5.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the plotting of nav areas, T and P and Navtex messages on ECDIS?",
+      "qid": "4.1.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Have you done the BNWAS power failure alarm test and where is the evidence?",
+      "qid": "4.1.5",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Compare the IG pressure and O2 percent from the CCR?",
+      "qid": "8.3.7",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Is the fire alarm panel free of any alarm?",
+      "qid": "5.2.3",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the daylight signalling lamp on battery and the spare bulb?",
+      "qid": "4.1.14",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the dimmers of the various displays on the bridge?",
+      "qid": "4.1.9",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Test one navigational and one signal light on each panel?",
+      "qid": "4.1.9",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Compare the course recorder with the current heading?",
+      "qid": "4.1.12",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the magnetic compass lights and compare the heading with the digital display?",
+      "qid": "4.1.12",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the compass error log book and the deviation card?",
+      "qid": "4.1.12",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the procedure to change from Gyro 1 to Gyro 2 and when was the last emergency steering drill?",
+      "qid": "4.1.3",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Do the master's standing orders mention that AIS and VHF are to be used for collision avoidance?",
+      "qid": "4.2.3",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the radar PM records and the fire round and engine room manned/unmanned records in the deck log book?",
+      "qid": "4.1.2",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the company navigational policy in the SMS?",
+      "qid": "2.7.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "When were the ECDIS ENP and ADP last updated?",
+      "qid": "4.2.4",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the safety settings and look-ahead settings on ECDIS as per company policy for the various stages?",
+      "qid": "4.1.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the markings on ECDIS such as call master, remove anchor lashings and change safety parameters?",
+      "qid": "4.1.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Why is no abort point marked?",
+      "qid": "4.2.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the contingency anchorage for the previous port approach?",
+      "qid": "4.2.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the passage plan, security level, UKC calculation, BWL and ERWL for the various stages?",
+      "qid": "4.2.2",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What action is taken if the vessel is not complying with the company UKC policy?",
+      "qid": "4.2.2",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the BWL, helmsman and lookout names in the deck log book and compare the times with the arrival and departure checklist compliance?",
+      "qid": "4.3.1",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show the master pilot information exchange and pilot cards?",
+      "qid": "4.3.3",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Check the expiry of rocket parachute flares and line throwing appliances?",
+      "qid": "5.4.4",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the turning circle of the vessel as per the wheelhouse poster?",
+      "qid": "4.2.7",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo Control Room",
+      "q": "What action is taken in case of IG failure?",
+      "qid": "8.3.19",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo Control Room",
+      "q": "If there is a fire on the manifold, which extinguishing medium is used?",
+      "qid": "5.2.15",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo Control Room",
+      "q": "What are the pressure and vacuum settings on the cargo display panel?",
+      "qid": "8.3.14",
+      "answer": "good"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "All three GMDSS radios tested on channel 17 and spare battery expiry checked",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Navtex message type and station selection checked",
+      "qid": "4.1.10"
+    },
+    {
+      "area": "Bridge",
+      "item": "One navigation warning verified on ECDIS",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Master's night orders checked",
+      "qid": "4.2.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "Master's standing orders and SMS checked for AIS and VHF collision avoidance wording",
+      "qid": "4.2.3"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "cargo": 2,
+    "security": 1,
+    "lsa": 1,
+    "fire": 1,
+    "documents": 1
+  },
+  "tips": [
+    "Be ready to state the exact UKC non-compliance action: risk assessment then inform company",
+    "Keep VDR self test alarms explained, especially AIS off per company instructions",
+    "Have ECDIS safety and look-ahead settings ready to show for each passage stage"
+  ],
+  "summary": "SIRE inspection at Fujairah STS anchorage by Capt Aslam Husain Kapadi, who was gentle and sober throughout and already knew the company SMS from previous inspections of the same operator's vessels. He covered almost everything on the bridge, from GMDSS and ECDIS to passage planning, UKC and compass checks, then asked about IG failure, manifold fire extinguishing and cargo panel pressure and vacuum settings in the CCR. He is thorough on bridge equipment and passage planning and wants exact company policy wording on UKC non-compliance."
+}
