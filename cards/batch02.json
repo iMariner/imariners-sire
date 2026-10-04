@@ -114,6 +114,14 @@
      "Inform the Master",
      "Follow company contingency steps"
     ]
+   },
+   {
+    "q": "What is CATZOC and what is SCAMIN?",
+    "a": [
+     "CATZOC shows the accuracy of the chart depth data",
+     "Poor CATZOC areas need a bigger safety margin",
+     "SCAMIN is the smallest scale where a detail is shown"
+    ]
    }
   ],
   "tip": "Know where your alarm log is and be ready to explain any repeated alarm in it.",
@@ -1118,6 +1126,14 @@
      "Recalculate for the new time over the critical area",
      "Inform Master",
      "Follow company action if UKC cannot be kept"
+    ]
+   },
+   {
+    "q": "When can you go outside the company UKC policy?",
+    "a": [
+     "Only with clear permission from the company",
+     "Ask the company before the passage",
+     "Keep the written answer with the passage plan"
     ]
    }
   ],

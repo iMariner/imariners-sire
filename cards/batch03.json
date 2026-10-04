@@ -737,6 +737,14 @@
      "Plot drift using wind, current and ship's head",
      "Check distance to hazards"
     ]
+   },
+   {
+    "q": "What are your actions in a blackout?",
+    "a": [
+     "Follow the plan steps to bring the situation under control",
+     "Recover power following the blackout procedure",
+     "Inform the bridge and watch for drift"
+    ]
    }
   ],
   "tip": "Make sure the drill date and time in the record match the Bridge Log Book entry.",
@@ -806,6 +814,14 @@
     "a": [
      "Lock the rudder in a fixed position",
      "Use careful engine manoeuvres to control heading"
+    ]
+   },
+   {
+    "q": "How do you operate the emergency steering?",
+    "a": [
+     "Go to the steering gear room as the plan says",
+     "Change over to direct control",
+     "Steer to orders from the bridge on the agreed phone"
     ]
    }
   ],
