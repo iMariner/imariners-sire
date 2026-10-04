@@ -52,7 +52,15 @@ jobs:
           git config user.name "imariners-bot"
           git config user.email "actions@users.noreply.github.com"
           git commit -q -m "Rebuild sire-data.json and field-data.json"
-          # a report can land while this runs: rebase onto it and retry (its own push triggers a fresh rebuild)
-          for i in 1 2 3 4; do git push -q && break; sleep $((i*5)); git pull -q --rebase; done
+          # Something else pushed while this ran: start again from the latest main and rebuild (no merging of generated files)
+          for i in 1 2 3 4; do
+            git push -q && break
+            sleep $((i*5))
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 scripts/build_data.py && python3 field/scripts/aggregate.py
+            git add sire-data.json field-data.json
+            git diff --cached --quiet && break
+            git commit -q -m "Rebuild sire-data.json and field-data.json"
+          done
           curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/sire-data.json > /dev/null
           curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/field-data.json > /dev/null
