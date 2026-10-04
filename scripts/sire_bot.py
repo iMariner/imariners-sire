@@ -51,14 +51,14 @@ def http(method, url, body=None, headers=None, timeout=60, retries=2):
         time.sleep(3 * (attempt + 1))
 
 
-def tg(method, _timeout=40, **params):
-    return http("POST", TG + method, params, timeout=_timeout).get("result")
+def tg(method, _timeout=40, _retries=2, **params):
+    return http("POST", TG + method, params, timeout=_timeout, retries=_retries).get("result")
 
 
 def tg_soft(method, **params):
     """Button answers and keyboard edits: Telegram rejects them once a tap is a few minutes old. Never fatal."""
     try:
-        return tg(method, **params)
+        return tg(method, _timeout=10, _retries=0, **params)
     except Exception as e:
         log(f"{method} skipped ({type(e).__name__})")
         return None
@@ -243,6 +243,12 @@ def loop():
 def cycle(state, updates, split_wait, check_prs):
     changed_reports, changed_cards, purge = False, False, False
     log(f"updates: {len(updates)}")
+    # Acknowledge every button tap first, before any slow work (reading reports, git), so the button never hangs.
+    ACK = {"ok": "Publishing...", "no": "Rejecting...", "merge": "Merging...", "close": "Closing..."}
+    for u in updates:
+        cq = u.get("callback_query")
+        if cq and cq["from"]["id"] == OWNER:
+            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text=ACK.get(cq.get("data", "").split(":")[0], "Working..."))
     texts = []
     for u in updates:
         state["offset"] = u["update_id"] + 1
@@ -408,10 +414,8 @@ def handle_callback(cq, state):
     if action in ("ok", "no"):
         p = state["pending"].pop(arg, None)
         if not p:
-            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Expired. Send the report again.")
             return None
         if action == "no":
-            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Rejected")
             tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
             tg("sendMessage", chat_id=OWNER, text="Rejected. Nothing was published.", reply_to_message_id=mid)
             return None
@@ -423,7 +427,6 @@ def handle_callback(cq, state):
                      f"Raw report {rec['id']}")
         except Exception as e:
             log("raw save failed", type(e).__name__)
-        tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Published")
         tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
            text=f"Published as {rec['id']}. The SIRE page updates in a few minutes.")
@@ -433,8 +436,9 @@ def handle_callback(cq, state):
         n = int(arg)
         pr = gh("GET", f"/repos/{REPO}/pulls/{n}", PUB)
         if pr.get("state") != "open":
-            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Already done")
             tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
+            if not pr.get("merged_at") or action != "merge":
+                tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid, text="Already done: that proposal is " + ("merged." if pr.get("merged_at") else "closed."))
             return None
         try:
             if action == "merge":
@@ -442,10 +446,8 @@ def handle_callback(cq, state):
             else:
                 gh("PATCH", f"/repos/{REPO}/pulls/{n}", PUB, {"state": "closed"})
         except urllib.error.HTTPError as e:
-            tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text=f"GitHub said {e.code}")
             tg_soft("sendMessage", chat_id=OWNER, text=f"GitHub refused that ({e.code}). Open the pull request on GitHub to see why.")
             return None
-        tg_soft("answerCallbackQuery", callback_query_id=cq["id"], text="Merged" if action == "merge" else "Closed")
         tg_soft("editMessageReplyMarkup", chat_id=OWNER, message_id=mid, reply_markup={"inline_keyboard": []})
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
            text="Merged. The study cards on the page update within a couple of minutes." if action == "merge" else "Closed. No change made.")

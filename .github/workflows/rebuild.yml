@@ -51,6 +51,7 @@ jobs:
           git config user.name "imariners-bot"
           git config user.email "actions@users.noreply.github.com"
           git commit -q -m "Rebuild sire-data.json and field-data.json"
-          git push -q
+          # a report can land while this runs: rebase onto it and retry (its own push triggers a fresh rebuild)
+          for i in 1 2 3 4; do git push -q && break; sleep $((i*5)); git pull -q --rebase; done
           curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/sire-data.json > /dev/null
           curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/field-data.json > /dev/null
