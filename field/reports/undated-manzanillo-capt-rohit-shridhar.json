@@ -1,0 +1,376 @@
+{
+  "id": "undated-manzanillo-capt-rohit-shridhar",
+  "date": "",
+  "inspector": "Capt. Rohit Shridhar",
+  "port": "Manzanillo",
+  "country": "Mexico",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": "05:20",
+  "end": null,
+  "schedule": [
+    {
+      "area": "Deck rounds",
+      "hours": null
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    },
+    {
+      "area": "Engine room",
+      "hours": null
+    },
+    {
+      "area": "Chief Engineer cabin",
+      "hours": null
+    },
+    {
+      "area": "Master cabin",
+      "hours": null
+    },
+    {
+      "area": "Bridge",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Boarded early in the morning while cargo discharge was still running",
+    "Asks a long series of detailed technical questions on the bridge",
+    "When a crew member cannot answer, he explains the answer himself",
+    "Checks records and plans in the Master and Chief Engineer cabins",
+    "Overall attitude was calm and fair"
+  ],
+  "questions": [
+    {
+      "rank": "ab",
+      "area": "Main Deck",
+      "q": "What cargo discharge operations are going on?",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Has the ECDIS been newly installed?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What checks and tests are carried out before a long sail?",
+      "qid": "4.2.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Are all ECDIS tools, sensors and ENCs checked thoroughly?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Is the weekly latest update applied?",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the chart compilation scale?",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Has CATZOC been applied?",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What are the BWL and ERWL and the security level?",
+      "qid": "7.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Has the Chief Engineer crosschecked and signed the passage plan?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What are the safety settings and how are they applied?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Are there any defects in the bridge equipment?",
+      "qid": "2.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the condition of both radars?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the difference between X band and S band radar?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What are the magnetron running hours?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the magnetron replacement policy from the radar manual?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How do you check PI and what are its uses and how do you apply it?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Which radar will you use in rain?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Which speed input will you use for collision avoidance?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How do you check the performance monitor and what are its uses?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the company policy for use of AIS for collision avoidance?",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the UKC policy while at berth?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Why is the UKC at berth 1.5 percent of the ship's breadth?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What are the squat effects in shallow water and safety contours?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "When and where will you not test the GMDSS annual battery load test?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Do you have the GMDSS shore based maintenance certificate?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How are you maintaining ENCs and charts for updating weekly?",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is AIO?",
+      "qid": "4.2.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "pumpman",
+      "area": "Main Deck",
+      "q": "What is the ESD?",
+      "qid": "8.3.8",
+      "answer": "unknown"
+    },
+    {
+      "rank": "pumpman",
+      "area": "Main Deck",
+      "q": "What is a static accumulator and is the cargo static or not?",
+      "qid": "8.3.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Main Deck",
+      "q": "Various deck questions",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine Room",
+      "q": "Various engine room questions",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3e",
+      "area": "Engine Room",
+      "q": "Various engine room questions",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ce",
+      "area": "Chief Engineer's Office",
+      "q": "Various questions on fuel and MARPOL",
+      "qid": "6.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Master cabin",
+      "q": "Various document questions",
+      "qid": "",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Full passage plan on ECDIS and paper plan",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Navigation lights tested by removing fuse and lamp test",
+      "qid": "4.1.9"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS battery annual test record",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "LRIT and SSAS tests",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS log book, last monthly and weekly tests",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "General equipment and checklists",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Mooring, MSMP and line management checklists as per company policy",
+      "qid": "9.1.3"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Accommodation inspection checklist",
+      "qid": "5.8.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Safety officer checklist",
+      "qid": "5.7.3"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Cargo checklists and plans",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Gauges, fuel pump and others",
+      "qid": "10.1.4"
+    },
+    {
+      "area": "Chief Engineer's Office",
+      "item": "Records, plans and books",
+      "qid": "10.4.1"
+    },
+    {
+      "area": "Master cabin",
+      "item": "Various documents",
+      "qid": ""
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 1,
+    "cargo": 2,
+    "mooring": 2,
+    "engine": 2,
+    "pollution": 2,
+    "documents": 2,
+    "crew": 1,
+    "safety": 2,
+    "security": 1
+  },
+  "tips": [
+    "Be ready for detailed ECDIS and radar questions including CATZOC, PI, magnetron hours and performance monitor",
+    "Know the UKC policy at berth and why it is 1.5 percent of breadth",
+    "Know GMDSS tests and when the annual battery load test is not done",
+    "Keep mooring, MSMP and line management checklists ready in the CCR"
+  ],
+  "summary": "Inspector boarded at 0520 LT at Manzanillo while cargo discharge was nearly complete. He did deck rounds, CCR, engine room, Chief Engineer and Master cabin checks, then a long detailed bridge session on ECDIS, radar, UKC and GMDSS. He was calm and fair, and when crew could not answer he explained the answer himself. Inspector name and port were given; date was not."
+}
