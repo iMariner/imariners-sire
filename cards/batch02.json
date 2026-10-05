@@ -122,6 +122,14 @@
      "Poor CATZOC areas need a bigger safety margin",
      "SCAMIN is the smallest scale where a detail is shown"
     ]
+   },
+   {
+    "q": "How do you verify the ship's position on ECDIS?",
+    "a": [
+     "Compare the ECDIS position with a visual or radar fix",
+     "Plot manual fixes at the planned interval",
+     "Record the checks as the company requires"
+    ]
    }
   ],
   "tip": "Know where your alarm log is and be ready to explain any repeated alarm in it.",
@@ -184,6 +192,14 @@
      "AIS data may be wrong or missing",
      "Not all ships transmit",
      "Radar and visual look-out remain primary"
+    ]
+   },
+   {
+    "q": "How do you use parallel index lines?",
+    "a": [
+     "Set them up from the passage plan",
+     "Use them to monitor the ship's track",
+     "Compare them with the plan for each leg"
     ]
    }
   ],
@@ -430,6 +446,14 @@
      "Switch output to the other receiver",
      "Check position on all systems",
      "Inform the Master, use other fixing methods"
+    ]
+   },
+   {
+    "q": "What does the SMS say about feeding position from the GNSS systems?",
+    "a": [
+     "All required equipment must get a position feed",
+     "Follow the posted switching instructions",
+     "Record any switchover in the log book"
     ]
    }
   ],
@@ -1058,6 +1082,14 @@
      "Keep safe and follow COLREG",
      "Inform Master",
      "Update, re-check and re-approve the plan"
+    ]
+   },
+   {
+    "q": "Who attends the passage plan briefing?",
+    "a": [
+     "The Master and all navigation officers",
+     "A member of the engineering department",
+     "Before the voyage or before a significant part of it"
     ]
    }
   ],
