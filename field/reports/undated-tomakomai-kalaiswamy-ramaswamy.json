@@ -1,0 +1,217 @@
+{
+  "id": "undated-tomakomai-kalaiswamy-ramaswamy",
+  "date": "",
+  "inspector": "Kalaiswamy Ramaswamy",
+  "port": "Tomakomai",
+  "country": "Japan",
+  "terminal": "",
+  "vessel_type": "Chemical",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [
+    {
+      "area": "Gangway",
+      "hours": null
+    },
+    {
+      "area": "Bridge",
+      "hours": null
+    },
+    {
+      "area": "Deck",
+      "hours": null
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    },
+    {
+      "area": "Engine Room",
+      "hours": null
+    }
+  ],
+  "observations_total": 1,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "Lashing on lube oil drum in engine room was wrong",
+      "qid": "10.4.1",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [],
+  "style": [
+    "Takes photos of the vessel and ladder before boarding",
+    "Starts asking the duty AB questions at the gangway while debriefing",
+    "Goes straight to the bridge, does not like to go in the cabin",
+    "Strict at first, tones down once he sees everything is operational",
+    "Practical and sensible, very particular about safety"
+  ],
+  "questions": [
+    {
+      "rank": "ab",
+      "area": "Gangway",
+      "q": "Safety questions at the gangway with the deck snow-covered",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "How is the IGG used for Jet A1?",
+      "qid": "8.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "What action do you take if the IGG fails?",
+      "qid": "8.1.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Deck",
+      "item": "Fire wire",
+      "qid": "5.2.7"
+    },
+    {
+      "area": "Deck",
+      "item": "ETA",
+      "qid": ""
+    },
+    {
+      "area": "Deck",
+      "item": "Mooring winches",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Lifebuoy SI lights",
+      "qid": "5.4.6"
+    },
+    {
+      "area": "Deck",
+      "item": "Lifeboat lowering procedures and posters",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Deck",
+      "item": "RR tape on top of lifeboat in U-shape for helicopter sighting",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Oxygen and acetylene rooms",
+      "qid": "10.3.7"
+    },
+    {
+      "area": "Deck",
+      "item": "Important symbols on deck",
+      "qid": ""
+    },
+    {
+      "area": "Deck",
+      "item": "Paint locker pipe",
+      "qid": "5.2.12"
+    },
+    {
+      "area": "Deck",
+      "item": "Lashings of chemical drums",
+      "qid": ""
+    },
+    {
+      "area": "Deck",
+      "item": "SBM mooring angle",
+      "qid": "9.6.2"
+    },
+    {
+      "area": "Deck",
+      "item": "Forward embarkation ladder light",
+      "qid": "5.4.9"
+    },
+    {
+      "area": "Deck",
+      "item": "Venting system for the vessel",
+      "qid": "8.3.14"
+    },
+    {
+      "area": "Cargo",
+      "item": "Discharge plan compared with ongoing stage",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "BWTS TRO",
+      "qid": "6.3.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "IGG working and records",
+      "qid": "8.3.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Basic paperwork file in CCR",
+      "qid": ""
+    },
+    {
+      "area": "Cargo",
+      "item": "Last ODME test and try out",
+      "qid": "6.6.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Passage plan",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Publication check",
+      "qid": "4.2.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Warnings plotted",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Cold weather precautions checklist",
+      "qid": "12.5.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Basic certificates with the Master",
+      "qid": "2.1.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Alarms",
+      "qid": "10.3.5"
+    }
+  ],
+  "depth": {
+    "documents": 2,
+    "nav_equip": 1,
+    "passage": 2,
+    "lsa": 2,
+    "fire": 1,
+    "permits": 1,
+    "safety": 2,
+    "pollution": 2,
+    "cargo": 3,
+    "mooring": 2,
+    "engine": 2,
+    "photos": 1
+  },
+  "tips": [
+    "Have RR tape on top of the lifeboat in a U-shape for helicopter sighting",
+    "Keep lashings on lube oil drums correct in the engine room",
+    "Take good quality photos for the inspection"
+  ],
+  "summary": "SIRE 2.0 inspection by Idemitsu at Tomakomai, Japan, with inspector Kalaiswamy Ramaswamy. He boarded in snow, asked the duty AB safety questions at the gangway, then went straight to the bridge and did a detailed deck, cargo and engine room round. One observation was raised for wrong lashing on a lube oil drum, plus a remark that photos could be better. He is strict at first but practical and very particular about safety."
+}
