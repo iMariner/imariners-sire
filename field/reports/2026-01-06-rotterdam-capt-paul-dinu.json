@@ -1,0 +1,162 @@
+{
+  "id": "2026-01-06-rotterdam-capt-paul-dinu",
+  "date": "2026-01-06",
+  "inspector": "Capt. Paul Dinu",
+  "port": "Rotterdam",
+  "country": "Netherlands",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Deck round",
+      "hours": null
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    }
+  ],
+  "observations_total": 1,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "One light in the FPK store found not properly clamped",
+      "qid": "5.8.5",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Pump room COPs, EEBDs and flooding dampers tried out and found operational",
+    "Lifeboat tried out and checked",
+    "Emergency generator tried out and rubber gloves checked for air-tightness"
+  ],
+  "style": [
+    "Carries out a full deck and pump room round with physical testing of equipment",
+    "Questions the on-deck duty watchkeeper directly on emergency and safety topics",
+    "Verifies records and then carries out physical alarm tests on deck"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Safety",
+      "q": "What are the enclosed space entry procedures?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Fire fighting",
+      "q": "Where is the emergency fire pump and how is it used?",
+      "qid": "5.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Emergency",
+      "q": "What are your emergency duties?",
+      "qid": "5.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Permits",
+      "q": "What are the gas meter alarms and warnings?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Safety",
+      "q": "General shipboard safety topics",
+      "qid": "5.7.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Pollution",
+      "q": "If oily water is found in the FPK, what actions would you take?",
+      "qid": "6.4.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Fire fighting",
+      "item": "Foam room foam level checks",
+      "qid": "5.2.15"
+    },
+    {
+      "area": "Cargo",
+      "item": "IG to ballast line connection and operational records",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Mooring",
+      "item": "Bitter end inspected",
+      "qid": "9.1.4"
+    },
+    {
+      "area": "Safety",
+      "item": "Light in the FPK store not properly clamped",
+      "qid": "5.8.5"
+    },
+    {
+      "area": "Permits",
+      "item": "Pump room COPs, EEBDs and flooding dampers tried out",
+      "qid": "5.3.4"
+    },
+    {
+      "area": "LSA",
+      "item": "Lifeboat tried out and checked",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Emergency generator tried out and rubber gloves checked for air-tightness",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Discharge plan discussed",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Permits",
+      "item": "Enclosed space entry permit discussed",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Pollution",
+      "item": "Oily water disposal procedures discussed",
+      "qid": "6.4.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "SSCL verified",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Pressure sensor settings and overfill alarm records verified, physical alarm tests carried out on deck",
+      "qid": "8.3.4"
+    }
+  ],
+  "depth": {
+    "fire": 2,
+    "lsa": 2,
+    "permits": 2,
+    "safety": 2,
+    "pollution": 2,
+    "cargo": 3,
+    "mooring": 1,
+    "engine": 2
+  },
+  "tips": [
+    "Keep the FPK store lighting properly clamped and check it during safety inspections"
+  ],
+  "summary": "Full SIRE vetting inspection in Rotterdam by Capt. Paul Dinu covering a deck round and CCR review. The inspector physically tested pump room, lifeboat and emergency generator equipment and questioned the duty watchkeeper on emergency and safety topics. One observation was raised for a light not properly clamped in the FPK store."
+}
