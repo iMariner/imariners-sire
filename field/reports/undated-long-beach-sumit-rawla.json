@@ -1,0 +1,367 @@
+{
+  "id": "undated-long-beach-sumit-rawla",
+  "date": "",
+  "inspector": "Sumit Rawla",
+  "port": "Long Beach",
+  "country": "USA",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": 1.5,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Bridge",
+      "hours": 1.5
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Explains his approach at the start: questions from his tablet plus a few extra, every answer must be backed by SMS evidence, PMS must follow SMS and maker's requirements",
+    "Very detailed and systematic, works through bridge equipment and records in order",
+    "Insists on seeing exact SMS wording and company checklists, not verbal explanations",
+    "Cross-questions answers and asks for log book and PMS records to confirm",
+    "Does not accept assumptions: if it is not written, it does not exist"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is your action if one ECDIS fails? What if both ECDIS fail in deep sea?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show the company checklist for total ECDIS failure.",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Open the ENS tablet and verify latest updates and that all ENCs match both ECDIS.",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the bridge composition as per company policy?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Explain conning handover and taking over the watch, including timing and signatures.",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Someone is using a mobile phone on the bridge, what is your action?",
+      "qid": "4.3.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How is speed log accuracy checked and what are the PMS tasks?",
+      "qid": "4.1.8",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the magnetron running hours and maker's requirement for replacement?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Which speed should be used for collision avoidance and where does the company mention this in SMS?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Explain the BNWAS sequence of operation: visual alarm, audible alarm, escalation timings as per manual.",
+      "qid": "4.1.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "When can BNWAS be switched off? Show the exact wording in SMS.",
+      "qid": "4.1.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the immediate actions for a blackout and where is the company checklist?",
+      "qid": "5.1.11",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How are publications received onboard and how do officers know new editions are released?",
+      "qid": "4.2.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is NAVTEX integrated into ECDIS or not, and how are corrections managed onboard?",
+      "qid": "4.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How is waypoint passing recorded in the deck log?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show company letters and risk assessments for high-risk area transits.",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How is UKC calculated and what are the ECDIS safety depth and safety contour settings?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How are ENC updates done and who controls the USB key?",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Who is the designated GMDSS officer and backup officer, and are weekly and monthly tests recorded?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Is there any column to compare planned vs actual cargo values?",
+      "qid": "8.99.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is the last loadicator test condition and are comparison records available?",
+      "qid": "8.99.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "When was the last ODME operational test and are ORB entries verified?",
+      "qid": "6.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What are the IG secondary pressure settings and is the IG log verified?",
+      "qid": "8.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "How often are SSSCL checks done and how exactly is item 54 checked?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Master and Chief Officer are not onboard, what will you do if the IG fails?",
+      "qid": "8.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Demonstrate gas meter calibration and explain span gas usage.",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "ECDIS PMS records",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Passage in Bell Book and Deck Log Book entries",
+      "qid": "4.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Company mobile phone policy",
+      "qid": "4.3.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "Speed log PMS tasks and records",
+      "qid": "4.1.8"
+    },
+    {
+      "area": "Bridge",
+      "item": "Radar performance monitoring records",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Company collision avoidance policy",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "BNWAS PMS records and ON/OFF records",
+      "qid": "4.1.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Deck Log and Bell Book entries for BNWAS",
+      "qid": "4.1.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Latest publication list from company or supplier",
+      "qid": "4.2.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "IMDG Supplement 2024 and IAMSAR Vol. 3",
+      "qid": "4.2.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Rocket parachute flare expiry",
+      "qid": "5.4.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "Immersion suits",
+      "qid": "5.4.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Navigation lights panel",
+      "qid": "4.1.9"
+    },
+    {
+      "area": "Bridge",
+      "item": "Gyro compass and magnetic compass",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "Compass error log",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS route markings",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "ENC update report",
+      "qid": "4.2.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "USB ports blocked and key control",
+      "qid": "4.2.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS log entries",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "UMS/ERM log entries and alarm attendance records",
+      "qid": "10.3.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "Engine state and security level in passage plan",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Cargo plan stages and COW plan",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Loadicator comparison records",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "ODME last operational test and ORB entries",
+      "qid": "6.6.2"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "IG secondary pressure settings and IG log",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "SSSCL checklist",
+      "qid": "8.99.2"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 3,
+    "drills": 1,
+    "lsa": 1,
+    "cargo": 3,
+    "pollution": 2,
+    "engine": 1,
+    "safety": 1
+  },
+  "tips": [
+    "Keep SMS wording ready for BNWAS on/off and mobile phone policy questions",
+    "Ensure ECDIS, ENS tablet and PMS records are consistent before inspection",
+    "Have company checklists for ECDIS failure and blackout immediately available",
+    "Be ready to demonstrate gas meter calibration with span gas"
+  ],
+  "summary": "A deep, structured and evidence-driven Shell vetting inspection on the bridge and in the CCR, lasting about 1.5 hours. The inspector, Sumit Rawla, asked tablet-based questions and insisted every answer be backed by SMS evidence and PMS records. No shortcuts were accepted; if it was not written, it did not exist."
+}
