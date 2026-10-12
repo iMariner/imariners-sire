@@ -1,0 +1,287 @@
+{
+  "id": "2025-06-04-kandla-capt-pankaj-singh",
+  "date": "2025-06-04",
+  "inspector": "Capt. Pankaj Singh",
+  "port": "Kandla",
+  "country": "India",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [
+    {
+      "area": "Bridge",
+      "hours": null
+    }
+  ],
+  "observations_total": 0,
+  "high_risk": 0,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Strict, does not accept any compromise or alternative evidence",
+    "Questions passage planning and UKC in great detail",
+    "Rude and arrogant, shouts at officers and crew",
+    "Checks bridge equipment thoroughly, item by item"
+  ],
+  "questions": [
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "How do you change over between gyro 1 and 2 and cross check with ECDIS and radar?",
+      "qid": "4.1.12",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Where is the radar performance and blind sector poster?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Are the ECDIS safety settings correct, including BCL 024?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Why did you make a PI when a drying height is present?",
+      "qid": "4.2.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "How do you test AIS and VHF on low power?",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "How do you do the GMDSS battery on/off load test?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "How do you do the daily and weekly GMDSS tests?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "What is the company requirement for AIS testing?",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "What are the BNWAS stages and alarms, and is the log entry made?",
+      "qid": "4.1.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "What is AIO?",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "How is UKC calculated in the passage plan and cross checked with the master pilot exchange?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Are the abort point and point of no return with contingency anchorage marked on ECDIS?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "When was ECDIS last updated and do main and backup have the same number of ENCs?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Is the GMDSS log maintained with GMDSS watch off at berth?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Are ADP and AENP updated?",
+      "qid": "4.2.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "What is the company policy for non compliance with UKC during transit?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Is the magnetic compass light working?",
+      "qid": "4.1.12",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Is the BWL 2 entry in the deck log book with lookout recorded?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Is the compass error log checked?",
+      "qid": "4.1.12",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Is the Aldis lamp and spare bulb checked?",
+      "qid": "4.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "Is the GMDSS portable radio tested for power and what is the requirement?",
+      "qid": "4.4.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Bridge",
+      "q": "What is the minimum steering speed with and without engine?",
+      "qid": "4.1.3",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Bridge poster",
+      "qid": ""
+    },
+    {
+      "area": "Bridge",
+      "item": "Gyro changeover cross checked with ECDIS and radar",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "Radar performance and blind sector poster",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS safety settings BCL 024",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "AIS and VHF low power test",
+      "qid": "4.1.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS battery on/off load test",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Daily and weekly GMDSS test",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "BNWAS stages alarm and log entry",
+      "qid": "4.1.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Passage plan and UKC calculation",
+      "qid": "4.2.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS abort point and point of no return with contingency anchorage",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS last update and ENC count on main and backup",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS log with watch off at berth",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "ADP and AENP last update",
+      "qid": "4.2.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Magnetic compass light",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "BWL 2 entry in deck log book with lookout",
+      "qid": "4.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Compass error log",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "Aldis lamp and spare bulb",
+      "qid": "4.1.14"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS portable radio power test",
+      "qid": "4.4.3"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 1
+  },
+  "tips": [
+    "Be ready to justify any PI made when a drying height is present",
+    "Keep ECDIS main and backup ENC counts identical",
+    "Have GMDSS battery load test and daily/weekly test records ready"
+  ],
+  "summary": "Bridge inspection at Kandla by Capt. Pankaj Singh on 04 June 2025. He went through bridge equipment and passage planning in detail, especially UKC, ECDIS settings and GMDSS tests, and cleared the bridge with no remarks. He was strict and did not accept compromises, and was rude and arrogant, shouting at officers and crew."
+}
