@@ -1,0 +1,163 @@
+{
+  "id": "undated-gore-bay-sydney-jagbir-dehiya",
+  "date": "",
+  "inspector": "Jagbir Dehiya",
+  "port": "Gore Bay, Sydney",
+  "country": "Australia",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Checks every item strictly against the SMS and asks where it is written in the SMS",
+    "Digs deep into the SMS; gets annoyed if the crew does not know the SMS content",
+    "Moves to the next question only after the SMS reference is given",
+    "Detailed on ECDIS, passage planning and GMDSS equipment testing"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the 5 mandatory primary ECDIS settings as per IMO?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is the passage plan made as per company procedure, with all markings on ECDIS and UKC calculations in detail, and how are corrections applied?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How are NAVTEX and MSI warnings handled?",
+      "qid": "4.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the monthly GMDSS equipment test procedures, and how are SART and EPIRB tested and what are their uses?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the equipment requirements for radars and what is the aldis lamp testing procedure as per the company SMS?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is WGS84, what happens if you change the datum in ECDIS, and what alarms are triggered when another datum is selected?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the bridge watch composition as per the company SMS, and are log entries made properly when changing watch?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Are all CMS settings as per the company SMS, and are the gas detection system and gas measuring equipment calibration dates verified physically?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "What is the procedure and precautions for loading in non-inerted tanks as per the SMS?",
+      "qid": "8.3.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "How does the VECS system work?",
+      "qid": "8.3.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Can you go through all points of the Ship/Shore Safety Checklist in detail and explain what is checked and verified?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Passage plan markings on ECDIS and UKC calculations",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "NAVTEX and MSI warnings",
+      "qid": "4.1.10"
+    },
+    {
+      "area": "Bridge",
+      "item": "GMDSS checks and monthly equipment tests, SART and EPIRB",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Radar equipment requirements and aldis lamp testing",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bridge watch composition and log entries",
+      "qid": "4.3.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "CMS settings, gas detection system and gas measuring equipment calibration dates",
+      "qid": "5.6.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Loading in non-inerted tanks procedure and precautions",
+      "qid": "8.3.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "VECS system",
+      "qid": "8.3.10"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Ship/Shore Safety Checklist all points",
+      "qid": "8.99.2"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "cargo": 3,
+    "permits": 2
+  },
+  "tips": [
+    "Read the full SMS before the inspection; the inspector asks where each item is written in the SMS",
+    "Be ready to explain ECDIS datum changes and the alarms they trigger",
+    "Know the monthly GMDSS test procedures, especially SART and EPIRB testing",
+    "Be able to go through every point of the Ship/Shore Safety Checklist and explain what is verified"
+  ],
+  "summary": "SIRE 2.0 inspection at Gore Bay, Sydney by inspector Jagbir Dehiya for AMPOL. The inspector went strictly by the SMS, asking for the SMS reference for every item and digging deep into ECDIS, passage planning, GMDSS and CCR settings. He gets annoyed if the crew does not know the SMS content."
+}
