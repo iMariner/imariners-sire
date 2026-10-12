@@ -1,0 +1,135 @@
+{
+  "id": "2024-12-11-mundra-vishwanathan-swamy",
+  "date": "2024-12-11",
+  "inspector": "Vishwanathan Swamy",
+  "port": "Mundra",
+  "country": "India",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Bridge",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Mainly focuses on company procedures",
+    "Checks records and PMS entries against the passage plan and equipment logs",
+    "Asks technical questions on ECDIS and radar settings",
+    "Calm and fair during the inspection"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Why do we need two radars?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Which radar will you use in rain and fog?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is SCAMIN?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is a date dependent object and how does it look?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is LDL?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Passage plan checked for BWL and EWL",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "BNWAS power failure alarm and maintenance record as per PMS",
+      "qid": "4.1.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Radar PMS log",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS markings",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Portable VHF test entry in GMDSS log book",
+      "qid": "4.4.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Echo sounder depth alarms",
+      "qid": "4.1.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "AIS status and static data",
+      "qid": "4.1.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "Conn with pilot entry in bell book",
+      "qid": "4.3.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "Change of ECDIS setting entry in bell book",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "VRA risk assessments",
+      "qid": "5.7.6"
+    },
+    {
+      "area": "Bridge",
+      "item": "Security charts",
+      "qid": "7.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS presentation library",
+      "qid": "4.1.1"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 2,
+    "bridge_team": 1,
+    "security": 1
+  },
+  "tips": [],
+  "summary": "SIRE 2.0 inspection on 11-Dec-2024 at Mundra, India by inspector Vishwanathan Swamy. The inspection focused on the bridge, with detailed checks of the passage plan, ECDIS, radar, BNWAS, AIS, echo sounder and GMDSS records, plus technical questions on radar use and ECDIS settings. The inspector mainly focuses on company procedures and was overall a good guy."
+}
