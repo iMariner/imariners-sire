@@ -1,0 +1,130 @@
+{
+  "id": "2026-01-31-houston-eric-labrie",
+  "date": "2026-01-31",
+  "inspector": "Eric Labrie",
+  "port": "Houston",
+  "country": "United States",
+  "terminal": "",
+  "vessel_type": "LPG",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": 5,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "PIQ declared last Marine Superintendent inspection on 25 August 2025, but this was only a Dynamic Navigation Assessment and did not evaluate the condition of structure, machinery and equipment. Last full inspection was 31 July 2025, so the company requirement of two comprehensive inspections per year was not met.",
+      "qid": "2.2.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Machinery space team composition was maintained at Level 2 and Level 3, but time changes between operating modes were not recorded in the engine logbook. Entries were limited to a single watch level per day in the remarks section for January 2026.",
+      "qid": "4.3.2",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Seawater cooling system maintenance tasks were recorded as completed, but the thermometer on the seawater outlet pipe of Cargo Compressor No. 1 was broken and unreadable. It was replaced with a new spare before the inspection ended. A senior deck officer did not identify it during routine inspections.",
+      "qid": "5.8.4",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "The vessel kept a critical spare inventory for the cargo hose handling crane, but no risk assessment was available identifying the minimum spare parts required for a vessel with a single hose handling crane.",
+      "qid": "5.9.2",
+      "type": "process",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "A junior deck officer created detailed user chart notes covering the entire last berth-to-berth passage, supplementing the printed passage plan and showing strong bridge team dynamics.",
+    "The Second Engineer Officer gave a detailed explanation of the enclosed space entry procedure, emphasising that all crew involved must be properly rested before entry."
+  ],
+  "style": [
+    "Detailed and documentation focused.",
+    "Checks records against physical condition.",
+    "Looks for risk assessments and company oversight evidence."
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Documents",
+      "q": "Had the vessel been attended by a company superintendent at approximately six-monthly intervals, and were reports available to show systematic vessel inspections during each attendance as declared in the PIQ?",
+      "qid": "2.2.1",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Were the Master and navigating officers familiar with the company passage planning procedure, and had all voyages been appraised, planned, executed and monitored as per company procedures and regulations?",
+      "qid": "4.2.1",
+      "answer": "good"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Were engineer officers familiar with the company procedure for machinery space operating modes, and were records available to show machinery space team composition was correctly maintained and documented?",
+      "qid": "4.3.2",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Permits",
+      "q": "Were the Master, officers and ratings familiar with the company enclosed space entry procedure, and was evidence available that all enclosed space entries complied with it?",
+      "qid": "5.5.1",
+      "answer": "good"
+    },
+    {
+      "rank": "",
+      "area": "Safety",
+      "q": "Where the vessel was fitted with a single cargo hose handling crane, was a risk assessment available identifying the minimum spare parts required for continued operation after a single component failure, and were those spares on board?",
+      "qid": "5.9.2",
+      "answer": "poor"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documents",
+      "item": "PIQ declaration of last Marine Superintendent inspection compared with actual attendance records",
+      "qid": "2.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Last berth-to-berth passage plan and user chart notes reviewed",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Engine logbook entries for machinery space operating modes in January 2026",
+      "qid": "4.3.2"
+    },
+    {
+      "area": "Safety",
+      "item": "Seawater cooling system maintenance records compared with physical condition of Cargo Compressor No. 1 thermometer",
+      "qid": "5.8.4"
+    },
+    {
+      "area": "Safety",
+      "item": "Critical spare inventory and risk assessment for the single cargo hose handling crane",
+      "qid": "5.9.2"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "passage": 2,
+    "bridge_team": 2,
+    "permits": 2,
+    "safety": 3,
+    "engine": 2,
+    "cargo": 1
+  },
+  "tips": [
+    "Ensure PIQ declarations match actual superintendent attendance records.",
+    "Record machinery space operating mode changes with times in the engine logbook.",
+    "Keep ship specific safety inspection checklists including hot surface risk assessment.",
+    "Prepare a risk assessment for minimum spare parts for a single hose handling crane."
+  ],
+  "summary": "SIRE 2.0 inspection by Eric Labrie in Houston on an LPG tanker on 31 January 2026. The inspector focused on documentation, company oversight and records matching physical condition, raising several process and hardware findings. Two positive observations were noted for a junior deck officer's passage notes and the Second Engineer's enclosed space entry explanation."
+}
