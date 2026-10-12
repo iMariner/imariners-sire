@@ -1,0 +1,261 @@
+{
+  "id": "undated-china-river-port-capt-chong-yongok",
+  "date": "",
+  "inspector": "Capt. Chong Yongok",
+  "port": "China River Port",
+  "country": "China",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": "08:30",
+  "end": null,
+  "schedule": [
+    {
+      "area": "Deck",
+      "hours": 2
+    },
+    {
+      "area": "Engine room",
+      "hours": 1.25
+    },
+    {
+      "area": "Bridge",
+      "hours": null
+    },
+    {
+      "area": "Documents",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Emergency generator fuel injection line connection not covered with anti-splash tape",
+      "qid": "10.2.1",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Gangway safety briefing was impressive",
+    "Overall inspector was good and helpful"
+  ],
+  "style": [
+    "Very punctual, follows the planned schedule closely",
+    "Records responses in the tablet on the spot",
+    "Asks all questions in depth",
+    "Particular about cleanliness on deck, especially poop deck soot and oil stains",
+    "Tries to find oil stains, grease under crane, davit and fire wire"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "What are the on-load and off-load procedures for the lifeboat?",
+      "qid": "5.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "What is the maximum and minimum time cargo and bunker samples are retained as per company?",
+      "qid": "5.11.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Deck",
+      "q": "Explain the enclosed space entry procedures in detail.",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Deck",
+      "q": "What is the validity of permits?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Deck",
+      "q": "Explain the Line Management Plan in detail.",
+      "qid": "9.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Deck",
+      "q": "What mooring checks are carried out?",
+      "qid": "9.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "What are the procedures for carriage of doping, polymerization and inhibited cargoes?",
+      "qid": "8.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "How is high level and overfill alarm testing done?",
+      "qid": "8.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "cook",
+      "area": "Galley",
+      "q": "What are all the galley fire fighting systems?",
+      "qid": "5.2.8",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Deck",
+      "item": "Gangway net rigged properly",
+      "qid": "5.10.3"
+    },
+    {
+      "area": "Deck",
+      "item": "Lifeboat fuel and provisions",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Emergency generator fuel injection line connection covered with anti-splash tape",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Turns on split drums and brake tightening as per markings on winch brake",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Sample locker retention time and random samples",
+      "qid": "5.11.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Manifold gauges for leaks",
+      "qid": "8.3.24"
+    },
+    {
+      "area": "Deck",
+      "item": "Midship crane greasing points and leaks",
+      "qid": "5.9.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Spare hoses of crane and condition with inventory",
+      "qid": "5.9.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Helicopter equipment one by one as per requirements",
+      "qid": "5.10.5"
+    },
+    {
+      "area": "Deck",
+      "item": "Marshall battens",
+      "qid": "5.10.6"
+    },
+    {
+      "area": "Deck",
+      "item": "N2 room, paint locker, CO2 room",
+      "qid": "5.2.12"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo plan, SSSCL, all permits, calibration records for all gas equipment",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Records for last purging and gas freeing for Annex I cargo tank cleaning",
+      "qid": "8.1.4"
+    },
+    {
+      "area": "Cargo",
+      "item": "Records for pressure testing of pipelines",
+      "qid": "8.3.9"
+    },
+    {
+      "area": "Cargo",
+      "item": "Records for enclosed space permits and calibration of equipment",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Mooring records for end to end and running hours records",
+      "qid": "9.1.3"
+    },
+    {
+      "area": "Cargo",
+      "item": "Records for winch brake testing",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Security",
+      "item": "Hardening plan",
+      "qid": "7.2.1"
+    },
+    {
+      "area": "Security",
+      "item": "Monthly security equipment inventory records including razor wire gloves, face shield, apron, torch lights",
+      "qid": "7.2.1"
+    },
+    {
+      "area": "Security",
+      "item": "Last Citadel phone testing records",
+      "qid": "7.3.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Records of testing of emergency hydraulic pump for valve opening",
+      "qid": "10.7.1"
+    },
+    {
+      "area": "Safety",
+      "item": "SCBA, AED, galley refer alarms",
+      "qid": "5.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS alarms and bridge security poster",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Nav warnings on ECDIS and sight records",
+      "qid": "4.1.1"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "nav_equip": 2,
+    "passage": 1,
+    "drills": 1,
+    "fire": 2,
+    "lsa": 2,
+    "permits": 3,
+    "safety": 2,
+    "pollution": 2,
+    "security": 3,
+    "cargo": 3,
+    "mooring": 3,
+    "engine": 2,
+    "photos": 1
+  },
+  "tips": [
+    "Keep poop deck free of soot and oil stains, inspector is very particular about cleanliness",
+    "Ensure emergency generator fuel injection line connection is covered with anti-splash tape",
+    "Be ready to show sample retention times and random samples",
+    "Have all records for purging, gas freeing, pressure testing and calibration readily available"
+  ],
+  "summary": "Inspector Capt. Chong Yongok arrived sharply at 08:30 and started the tablet at the gangway. He followed a planned schedule: deck first, then engine room, bridge and documents. He was serious about SIRE 2.0, recorded responses in the tablet on the spot and asked all questions in depth. He was particular about deck cleanliness, especially poop deck soot, and checked many records and equipment in detail. One observation was raised for the emergency generator fuel injection line connection not covered with anti-splash tape, which was rectified on the spot. Overall he was good and helpful but very sincere about the inspection."
+}
