@@ -1,0 +1,287 @@
+{
+  "id": "undated-lome-capt-suresh-menakath",
+  "date": "",
+  "inspector": "Capt. Suresh Menakath",
+  "port": "Lome",
+  "country": "Togo",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": 6,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "Rating did not know whether the immersion suit is donned with or without a lifejacket.",
+      "qid": "5.4.7",
+      "type": "human",
+      "rank": "ratings"
+    },
+    {
+      "text": "Rating could not explain SIMOPS.",
+      "qid": "5.7.8",
+      "type": "human",
+      "rank": "ratings"
+    },
+    {
+      "text": "Engine officer was not aware of the safety inspection checklist; the checklist was not ship specific and did not mention risk assessment for hot surfaces in the engine room.",
+      "qid": "5.8.2",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Cargo watchkeeper could not say what device is used to deal with static charge during STS operations.",
+      "qid": "8.99.10",
+      "type": "human",
+      "rank": "ratings"
+    },
+    {
+      "text": "Master's answers on the personnel transfer basket and its certification were not satisfactory.",
+      "qid": "5.10.4",
+      "type": "human",
+      "rank": "master"
+    },
+    {
+      "text": "Rating could not answer questions on enclosed space entry procedure and precautions.",
+      "qid": "5.5.1",
+      "type": "human",
+      "rank": "ratings"
+    }
+  ],
+  "positives": [
+    "Deck officer gave detailed familiarisation and was aware of company procedures.",
+    "Rating was aware of MOB and recovery of person from water procedures, better than normal.",
+    "Engine room well maintained with proper housekeeping."
+  ],
+  "style": [
+    "Cool and calm manner.",
+    "Gets deep into paperwork and documentation.",
+    "Compares dates and data against company checklists.",
+    "Asks many questions to ratings and junior officers."
+  ],
+  "questions": [
+    {
+      "rank": "ratings",
+      "area": "Security",
+      "q": "What are the ISPS security levels?",
+      "qid": "7.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Documents",
+      "q": "What is the company procedure for near miss reporting?",
+      "qid": "5.7.2",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Documents",
+      "q": "What is the drug and alcohol policy?",
+      "qid": "3.4.2",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Drills",
+      "q": "Where do you muster in case of emergency?",
+      "qid": "5.1.1",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Drills",
+      "q": "Does the MOB drill report mention the Williamson turn procedure?",
+      "qid": "5.1.14",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Drills",
+      "q": "Show the drill report for the last boat lowered in the water.",
+      "qid": "5.1.6",
+      "answer": "good"
+    },
+    {
+      "rank": "ce",
+      "area": "Pollution",
+      "q": "Show the last bunker samples landing receipt, BDN, Oil Record Book and EEDI certificates.",
+      "qid": "6.1.3",
+      "answer": "good"
+    },
+    {
+      "rank": "ratings",
+      "area": "LSA",
+      "q": "Is the immersion suit in the forward store donned with or without a lifejacket?",
+      "qid": "5.4.7",
+      "answer": "poor"
+    },
+    {
+      "rank": "master",
+      "area": "Safety",
+      "q": "Show the certification for the personnel transfer basket.",
+      "qid": "5.10.4",
+      "answer": "poor"
+    },
+    {
+      "rank": "ratings",
+      "area": "Cargo",
+      "q": "During STS, what device is given to deal with static charge?",
+      "qid": "8.99.10",
+      "answer": "poor"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "As duty officer, what action do you take in case of a master riser fire?",
+      "qid": "5.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "What is the working principle of the ballast water treatment system?",
+      "qid": "6.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "What are the D2 standards for ballast water?",
+      "qid": "6.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ratings",
+      "area": "Permits",
+      "q": "What is the enclosed space entry procedure and what precautions are taken?",
+      "qid": "5.5.1",
+      "answer": "poor"
+    },
+    {
+      "rank": "ratings",
+      "area": "Drills",
+      "q": "What action do you take if you see a man overboard?",
+      "qid": "5.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ratings",
+      "area": "Safety",
+      "q": "What is SIMOPS?",
+      "qid": "5.7.8",
+      "answer": "poor"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "Show the log book, bell book, STS checklist, latest chart updates and Nav warnings in force.",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "Show the last passage plan and digital publications.",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documents",
+      "item": "All certificates checked with master and PMS reviewed",
+      "qid": "2.1.1"
+    },
+    {
+      "area": "Mooring",
+      "item": "Risk assessment for mooring winch brake testing",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Crew",
+      "item": "Familiarisation for new joiners compared with joining dates and company checklist",
+      "qid": "3.5.1"
+    },
+    {
+      "area": "Drills",
+      "item": "Drill matrix as per SMS and drill reports",
+      "qid": "5.1.1"
+    },
+    {
+      "area": "LSA",
+      "item": "Lifeboat boarded, rudder hard over to hard over tested, lifeboat air pressure checked",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "LSA",
+      "item": "Life rafts and HRU expiry checked",
+      "qid": "5.4.5"
+    },
+    {
+      "area": "LSA",
+      "item": "Forward liferaft emergency lights and packing of the box checked for water ingress",
+      "qid": "5.4.5"
+    },
+    {
+      "area": "Safety",
+      "item": "Personnel transfer basket and its certification checked",
+      "qid": "5.10.4"
+    },
+    {
+      "area": "Fire",
+      "item": "Helicopter equipment and SCBA bottle pressure for helicopter fire fighting checked",
+      "qid": "5.10.5"
+    },
+    {
+      "area": "Cargo",
+      "item": "Manifold photographed, bunker manifold valves and flanges checked",
+      "qid": "8.3.24"
+    },
+    {
+      "area": "Cargo",
+      "item": "High level and overfill alarms tried out",
+      "qid": "8.3.4"
+    },
+    {
+      "area": "Cargo",
+      "item": "Pumproom visited, COP, TRO pump and AUS system photographed, bilge alarms tried out",
+      "qid": "5.8.3"
+    },
+    {
+      "area": "Pollution",
+      "item": "Garbage record book, ballast record book, last ODME test and last P/V valve pressure test checked",
+      "qid": "6.1.4"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo plan reviewed in detail",
+      "qid": "8.99.1"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "crew": 2,
+    "nav_equip": 1,
+    "passage": 2,
+    "bridge_team": 1,
+    "drills": 3,
+    "fire": 2,
+    "lsa": 3,
+    "permits": 2,
+    "safety": 3,
+    "pollution": 2,
+    "security": 1,
+    "cargo": 3,
+    "mooring": 2,
+    "engine": 1
+  },
+  "tips": [
+    "Make sure ratings can explain immersion suit use with and without a lifejacket.",
+    "Train ratings on SIMOPS and static charge precautions during STS.",
+    "Keep the safety inspection checklist ship specific and include hot surface risk assessment."
+  ],
+  "summary": "SIRE 2.0 inspection by Capt. Suresh Menakath at Lome, Togo on a vessel engaged in STS operations. The inspector was calm but went deep into paperwork and documentation, questioning ratings and junior officers closely. Result was 3 positive and 3 negative remarks."
+}
