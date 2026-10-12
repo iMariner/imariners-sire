@@ -1,0 +1,418 @@
+{
+  "id": "2024-12-15-antwerp-capt-bogdan-sandrea",
+  "date": "2024-12-15",
+  "inspector": "Capt. Bogdan Sandrea",
+  "port": "Antwerp",
+  "country": "Belgium",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": 8,
+  "start": "07:10",
+  "end": "15:00",
+  "schedule": [
+    {
+      "area": "Documents",
+      "hours": 2
+    },
+    {
+      "area": "Bridge",
+      "hours": 1
+    },
+    {
+      "area": "Deck",
+      "hours": 2
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": 1
+    },
+    {
+      "area": "Engine Room",
+      "hours": 2
+    }
+  ],
+  "observations_total": 14,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Coating Technical File remarks not accepted; coating on plates renewed during dry dock was said to be done by ship staff",
+      "qid": "2.3.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Short term SEQ certificate issued due to fire door damage not reflected; certificate uploaded still showed full term",
+      "qid": "2.1.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Rest hours non-conformities: office response acknowledged by Marine Superintendent instead of Vessel Manager as required by monitoring messages",
+      "qid": "3.4.1",
+      "type": "process",
+      "rank": "3o"
+    },
+    {
+      "text": "Working at height definition in SMS did not match COSWP; specific valve of 1.8 m mentioned",
+      "qid": "5.5.3",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Incident risk ratings given as Medium not accepted; inspector wanted High risk",
+      "qid": "5.7.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Incidents not mentioned in HVPQ",
+      "qid": "2.8.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Bridge windows anti-piracy bullet proof shatter film not fully transparent",
+      "qid": "4.1.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Emergency room blower mist catcher vanes supports loose",
+      "qid": "10.2.4",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Midship port side draft gauge remove valve stand thinned down considerably",
+      "qid": "11.1.10",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Synthetic ropes used in drums designed for wires at forward station",
+      "qid": "9.1.4",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Three foam monitors could not be held vertical due to worn locking pin and plate",
+      "qid": "5.2.15",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Responsible person did not keep items in good condition",
+      "qid": "5.7.4",
+      "type": "human",
+      "rank": ""
+    },
+    {
+      "text": "GA plan did not incorporate BWTS room on main deck",
+      "qid": "2.6.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Annual pressure test certificate did not separately mention reducers, U pieces and Y pieces tested",
+      "qid": "8.3.9",
+      "type": "process",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Bridge overall inspection was satisfactory and received a positive observation"
+  ],
+  "style": [
+    "Strict on documentation and does not accept ship staff remarks without office evidence",
+    "Repeatedly mentions the gangway ID and baggage check incident throughout the inspection",
+    "Checks PIQ dates and requires exact wording from company procedures",
+    "Detailed questioning of junior officers on IG system and enclosed space entry",
+    "Prints report on board with MOPRIA compliant printer and does not change findings after discussion"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Documents",
+      "q": "Are all defects in this list? If any defect is observed that is not in the list, it will get an observation.",
+      "qid": "2.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Documents",
+      "q": "Show the UMS procedures in the SMS.",
+      "qid": "10.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ce",
+      "area": "Engine",
+      "q": "What action was taken on the HHC critical alert in the lube oil analysis report, and is it entered in the PMS defect list?",
+      "qid": "10.4.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Drills",
+      "q": "Does the man overboard drill record mention recovery of persons from the water?",
+      "qid": "5.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Crew",
+      "q": "Are there any non-conformities in the rest hours records?",
+      "qid": "3.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Crew",
+      "q": "What office action was taken to mitigate the rest hour non-conformities?",
+      "qid": "3.4.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Safety",
+      "q": "What is the company definition of accident, incident and near miss in the SMS?",
+      "qid": "5.7.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Safety",
+      "q": "What are the company procedures for working at heights?",
+      "qid": "5.5.3",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the characteristics of an isolated danger buoy and a safe water mark?",
+      "qid": "4.2.7",
+      "answer": "good"
+    },
+    {
+      "rank": "",
+      "area": "Permits",
+      "q": "What are the enclosed space entry and safety measures?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Crew",
+      "q": "What are your rank job duties and prospects as per SMS?",
+      "qid": "2.7.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "What is the secondary means of venting?",
+      "qid": "8.3.13",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "Explain the inert gas system in detail.",
+      "qid": "8.1.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documents",
+      "item": "Defect list in PMS and status of all entries",
+      "qid": "2.4.1"
+    },
+    {
+      "area": "Documents",
+      "item": "ESP file executive summary and Coating Technical File for ballast tank coating",
+      "qid": "2.3.1"
+    },
+    {
+      "area": "Documents",
+      "item": "Short term certificates issued to the vessel",
+      "qid": "2.1.1"
+    },
+    {
+      "area": "Documents",
+      "item": "UMS procedures in SMS",
+      "qid": "10.1.4"
+    },
+    {
+      "area": "Documents",
+      "item": "Lube oil analysis report and HHC critical alert action",
+      "qid": "10.4.2"
+    },
+    {
+      "area": "Drills",
+      "item": "Drill records, man overboard drill and recovery of persons from water",
+      "qid": "5.1.14"
+    },
+    {
+      "area": "Drills",
+      "item": "Last emergency steering drill",
+      "qid": "5.1.12"
+    },
+    {
+      "area": "Crew",
+      "item": "Rest hours file and non-conformities for last 3 months",
+      "qid": "3.4.1"
+    },
+    {
+      "area": "Crew",
+      "item": "Familiarization checklist including visitor section and internal auditor and vessel manager visits",
+      "qid": "3.5.1"
+    },
+    {
+      "area": "Safety",
+      "item": "Stages and bosun chair care and maintenance in SMS",
+      "qid": "5.5.3"
+    },
+    {
+      "area": "Safety",
+      "item": "Company procedures for working at heights and PTW",
+      "qid": "5.5.3"
+    },
+    {
+      "area": "Safety",
+      "item": "Company definitions of accident, incident and near miss",
+      "qid": "5.7.2"
+    },
+    {
+      "area": "Safety",
+      "item": "Last incident reports and risk ratings",
+      "qid": "5.7.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Passage plan, UKC performa and squat calculations",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bridge and engine room manning levels",
+      "qid": "4.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Safety settings in ECDIS",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Compass error log and sextant usage",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "Tidal information",
+      "qid": "4.2.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Fire isolation check in bridge checklist",
+      "qid": "5.2.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "RADAR operation and performance",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "NAVTEX stations",
+      "qid": "4.1.10"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bridge windows anti-piracy shatter film transparency",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "LSA",
+      "item": "Lifeboat tried out ahead and astern and rudder operation",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Emergency room blower mist catcher vanes supports",
+      "qid": "10.2.4"
+    },
+    {
+      "area": "Engine",
+      "item": "Emergency generator and rescue boat engine operation",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Hull",
+      "item": "Midship port side draft gauge remove valve stand",
+      "qid": "11.1.10"
+    },
+    {
+      "area": "Mooring",
+      "item": "Synthetic ropes in drums designed for wires",
+      "qid": "9.1.4"
+    },
+    {
+      "area": "Fire",
+      "item": "Three foam monitors locking pin and plate",
+      "qid": "5.2.15"
+    },
+    {
+      "area": "Documents",
+      "item": "GA plan incorporation of BWTS room",
+      "qid": "2.6.1"
+    },
+    {
+      "area": "Permits",
+      "item": "Enclosed space permits in ballast tanks and chlorine tubes inventory",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Annual pressure test of pipelines and certificate mention of reducers, U pieces and Y pieces",
+      "qid": "8.3.9"
+    },
+    {
+      "area": "Engine",
+      "item": "All possible alarms tried out",
+      "qid": "10.3.5"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "crew": 3,
+    "nav_equip": 2,
+    "passage": 2,
+    "bridge_team": 1,
+    "drills": 2,
+    "fire": 2,
+    "lsa": 2,
+    "permits": 2,
+    "safety": 3,
+    "pollution": 1,
+    "cargo": 2,
+    "mooring": 2,
+    "engine": 3,
+    "photos": 1
+  },
+  "tips": [
+    "Ensure all defects are entered in the PMS defect list before the inspection",
+    "Keep short term certificates and their status clearly documented",
+    "Make sure rest hour non-conformity responses are acknowledged by the correct office role",
+    "Use exact COSWP wording for working at height definitions",
+    "Check that incident risk ratings match company and inspector expectations",
+    "Verify HVPQ is updated with all incidents",
+    "Maintain bridge window films for full transparency",
+    "Secure all loose supports on engine room blower mist catchers",
+    "Replace worn locking pins and plates on foam monitors",
+    "Update GA plans to include all new spaces such as BWTS room",
+    "Ensure pressure test certificates separately list reducers, U pieces and Y pieces"
+  ],
+  "summary": "Inspector Capt. Bogdan Sandrea boarded in Antwerp on 15 Dec 2024 and conducted a thorough SIRE inspection with 14 observations. He was strict on documentation, rest hours, working at height definitions, incident risk ratings and HVPQ accuracy, and repeatedly mentioned a gangway ID and baggage check incident. The bridge inspection was positive overall, but numerous hardware and process findings were raised on deck, in the engine room and in the CCR."
+}
