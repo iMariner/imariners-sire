@@ -1,0 +1,214 @@
+{
+  "id": "undated-kawasaki-i-hag-sebo",
+  "date": "",
+  "inspector": "I Hag Sebo",
+  "port": "Kawasaki",
+  "country": "Japan",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": 2.5,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Bridge",
+      "hours": 2.5
+    }
+  ],
+  "observations_total": 0,
+  "high_risk": 0,
+  "observations": [],
+  "positives": [
+    "Bridge clear with no observation",
+    "Inspector gave two good observations"
+  ],
+  "style": [
+    "Quite old, wants answers quickly",
+    "Compares every passage plan detail with ECDIS, sailing directions, DNV and ALRS",
+    "Does manual calculations of pilotage legs with a calculator",
+    "Sits at the PC and checks the TEC-25 point by point"
+  ],
+  "questions": [
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "How do you check parallel indexing and LDL inside safety contour?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What are the amendment procedures for the passage plan?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "How do you check and maintain the echo sounder, and compare depth at berth?",
+      "qid": "4.1.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the working principle of GPS?",
+      "qid": "4.1.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the working principle of AIS and what is STDMA?",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What tests are entered in the GMDSS log book?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the difference between S band and X band radar?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "Why is a solid state radar different from a magnetron radar and what maintenance is needed?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the working principle of SART and how does it appear on radar?",
+      "qid": "4.4.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the distance and working duration of the Aldis lamp, and where are spare bulbs?",
+      "qid": "4.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the error log book and the definition of deviation and variation?",
+      "qid": "4.1.12",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is the working principle of a sextant and which angle is object altitude?",
+      "qid": "",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "Which NAVWARNINGS and NAVTEX are applicable for the voyage?",
+      "qid": "4.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "How do you check the pilot card and master pilot exchange?",
+      "qid": "4.3.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What is WGS84 and why are other datums not used in ECDIS?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "What are the ECDIS IHO standards, Chart 1 and date dependent features?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Cargo Control Room",
+      "q": "What is VECS mode and gas calibration?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Cargo Control Room",
+      "q": "What action do you take if cargo goes into a crew member's eyes?",
+      "qid": "5.12.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Passage plan details compared with ECDIS, sailing directions, DNV and ALRS",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Parallel indexing and LDL inside safety contour",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "TEC-25 checked point by point on PC",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Echo sounder checks, maintenance and depth comparison at berth",
+      "qid": "4.1.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "AIS tests entered in GMDSS log book",
+      "qid": "4.1.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "Error log book",
+      "qid": "4.1.12"
+    },
+    {
+      "area": "Bridge",
+      "item": "Pilot card and master pilot exchange",
+      "qid": "4.3.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS IHO standards, Chart 1 and date dependent feature",
+      "qid": "4.1.1"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "cargo": 1,
+    "safety": 1
+  },
+  "tips": [
+    "Be ready to do manual pilotage leg calculations with a calculator",
+    "Know the working principles of GPS, AIS, SART, sextant and radar types",
+    "Expect point by point checks of the TEC-25 on the PC"
+  ],
+  "summary": "A 2.5 hour SIRE 2.0 inspection on the bridge at Kawasaki, Japan, by inspector I Hag Sebo. He was very detailed on passage planning, ECDIS and bridge equipment, doing manual calculations and checking the TEC-25 point by point. The bridge was clear with no observations and he gave two good observations; he is quite old and wants answers quickly."
+}
