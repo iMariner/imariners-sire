@@ -1,0 +1,134 @@
+{
+  "id": "2026-02-11-alma-petroli-capt-rohit-gullani",
+  "date": "2026-02-11",
+  "inspector": "Capt Rohit Gullani",
+  "port": "Alma petroli",
+  "country": "",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Engine room",
+      "hours": null
+    }
+  ],
+  "observations_total": 1,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "Engine room garbage drums to be fitted with self-closing arrangements",
+      "qid": "6.1.4",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Inspector was very well behaved and gentlemanly"
+  ],
+  "style": [
+    "Calm and polite throughout",
+    "Starts engine room rounds from the bottom platform and works up",
+    "Tests alarms and equipment himself, asks ETO to try emergency steering",
+    "Asks management level questions on PMS",
+    "Spends time with junior engineers and ratings on procedures"
+  ],
+  "questions": [
+    {
+      "rank": "eto",
+      "area": "Engine room",
+      "q": "Try out the emergency steering",
+      "qid": "10.1.2",
+      "answer": "good"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine room",
+      "q": "Questions on the planned maintenance system and management level topics",
+      "qid": "10.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3e",
+      "area": "Engine room",
+      "q": "What is the dead ship recovery procedure?",
+      "qid": "5.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3e",
+      "area": "Engine room",
+      "q": "What is the enclosed space entry procedure?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3e",
+      "area": "Engine room",
+      "q": "What is the engine room watch level and where is it in the SMS?",
+      "qid": "10.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "oiler",
+      "area": "Engine room",
+      "q": "What is the dead ship recovery procedure?",
+      "qid": "5.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "oiler",
+      "area": "Engine room",
+      "q": "What is the enclosed space entry procedure?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "oiler",
+      "area": "Engine room",
+      "q": "What is the engine room watch level and where is it in the SMS?",
+      "qid": "10.1.4",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Engine room",
+      "item": "Bilge well alarms tried",
+      "qid": "10.2.5"
+    },
+    {
+      "area": "Engine room",
+      "item": "OWS 15 ppm alarm and three-way valve operation",
+      "qid": "6.6.1"
+    },
+    {
+      "area": "Engine room",
+      "item": "Main engine and auxiliary engine leak off alarms",
+      "qid": "10.7.3"
+    },
+    {
+      "area": "Engine room",
+      "item": "ODM alarms",
+      "qid": "6.6.2"
+    },
+    {
+      "area": "Engine room",
+      "item": "Emergency steering tried out",
+      "qid": "10.1.2"
+    }
+  ],
+  "depth": {
+    "engine": 3,
+    "pollution": 2,
+    "drills": 1,
+    "permits": 1
+  },
+  "tips": [
+    "Keep engine room garbage drums fitted with self-closing lids",
+    "Make sure junior engineers and ratings can explain dead ship recovery and enclosed space entry from the SMS"
+  ],
+  "summary": "Engine room inspection by Capt Rohit Gullani on 11 Feb 2026, port given as Alma petroli. He was calm and polite, walked the engine room from the bottom platform up, tested bilge, OWS, leak off and ODM alarms and emergency steering, and questioned the second engineer on PMS and management level topics. One observation was raised on engine room garbage drums needing self-closing arrangements."
+}
