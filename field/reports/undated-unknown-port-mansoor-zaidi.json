@@ -1,0 +1,265 @@
+{
+  "id": "undated-unknown-port-mansoor-zaidi",
+  "date": "",
+  "inspector": "Mansoor Zaidi",
+  "port": "",
+  "country": "",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Manual splicing on one pilot ladder instead of mechanical ones.",
+      "qid": "5.10.1",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Chief officer explained cargo hazards and precautions well.",
+    "Bosun answered enclosed space questions well and received positive remarks."
+  ],
+  "style": [
+    "Brings his own additional questions beyond the SIRE questionnaire.",
+    "Detailed and strict, checks many specific items.",
+    "Points out discrepancies and expects corrections."
+  ],
+  "questions": [
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "Before starting COW in a tank, at what level do you check the oxygen?",
+      "qid": "8.1.2",
+      "answer": "partial"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "What additional corrections apply when checking toxic gas in gastec tubes?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "What additional corrections apply in the CCR fixed gauges when you do not have UTI?",
+      "qid": "8.99.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "How do you check tank pressure from the PV breaker when tanks are overpressurized and the water tube is unreadable?",
+      "qid": "8.3.18",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "What are the COP safety trips?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "LSA",
+      "q": "Show one lifebuoy light and confirm if it is working. What is the procedure and precautions when rigging the pilot ladder?",
+      "qid": "5.4.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "pumpman",
+      "area": "Enclosed space",
+      "q": "What are the enclosed space entry procedures?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Mooring",
+      "q": "How do you check if the ship has not moved forward or stern while adjusting moorings?",
+      "qid": "9.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "Is there an entry of discussion with the loading master about how much the ship can move ahead or fall back during operation?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Engine",
+      "q": "Start the emergency generator on spring mode.",
+      "qid": "10.2.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Cargo",
+      "item": "Cargo plan with loading master's signature and stamp",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo tank valve timings and comparison with yard timings",
+      "qid": "8.99.4"
+    },
+    {
+      "area": "Cargo",
+      "item": "Ship shore safety checklist, insulation check, wind criteria for stop cargo and disconnection",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Pre arrival checks entry in port log",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Pollution",
+      "item": "ODME",
+      "qid": "6.6.2"
+    },
+    {
+      "area": "Engine",
+      "item": "BWTS system, fixed gas system in BWTS room, sensor calibration, span gas expiry",
+      "qid": "6.3.1"
+    },
+    {
+      "area": "Safety",
+      "item": "Personal gas meter and span gas for calibration, expiry dates",
+      "qid": "5.6.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Visual and audio pump room bilge alarm in CCR by sending person to activate",
+      "qid": "6.2.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Company and ship specific procedure for inerting ballast tanks and void spaces, equipment and location",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Dump valve operation and testing procedure, PMS entry for liquid level in tube",
+      "qid": "8.3.18"
+    },
+    {
+      "area": "Cargo",
+      "item": "Entries for testing high level alarms, O2 in tanks pre arrival, comparing CCR ullages with UTI, visual draft checks",
+      "qid": "8.6.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "WBT inert gas hoses, checks and documented entries",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "MSDS of cargo being discharged, toxic gases, sufficient gastec tubes",
+      "qid": "5.7.7"
+    },
+    {
+      "area": "Permits",
+      "item": "Last enclosed space entry permit, hot work permit, pump room permit",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Maximum venting rates in ballast tank",
+      "qid": "8.3.14"
+    },
+    {
+      "area": "Cargo",
+      "item": "Last loadicator test compared with class condition",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Mooring",
+      "item": "Mooring file and inventories",
+      "qid": "9.1.3"
+    },
+    {
+      "area": "Deck",
+      "item": "Dump valve freeness",
+      "qid": "8.3.18"
+    },
+    {
+      "area": "Cargo",
+      "item": "O2 checked in 2 tanks",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Took pictures of winch, hose handling crane, PV breaker, manifold",
+      "qid": "11.1.12"
+    },
+    {
+      "area": "Cargo",
+      "item": "WBT inerting hoses in store",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Gangway sheaves",
+      "qid": "5.10.3"
+    },
+    {
+      "area": "Deck",
+      "item": "Checked one UTI for bonding cable",
+      "qid": "8.99.10"
+    },
+    {
+      "area": "Cargo",
+      "item": "Forepeak tank gas check point",
+      "qid": "5.6.2"
+    },
+    {
+      "area": "Deck",
+      "item": "ETA equipment forward",
+      "qid": "9.2.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Forepeak store eduction procedure",
+      "qid": "6.4.2"
+    },
+    {
+      "area": "Safety",
+      "item": "EEBD, SCBA and ISC at manifold",
+      "qid": "5.3.4"
+    }
+  ],
+  "depth": {
+    "cargo": 3,
+    "pollution": 2,
+    "engine": 2,
+    "safety": 2,
+    "permits": 2,
+    "mooring": 2,
+    "lsa": 1,
+    "fire": 1,
+    "documents": 1,
+    "nav_equip": 1,
+    "passage": 1,
+    "bridge_team": 1,
+    "drills": 1,
+    "crew": 1,
+    "security": 0,
+    "photos": 1
+  },
+  "tips": [
+    "Be prepared for additional questions beyond the SIRE questionnaire.",
+    "Ensure all gas detector calibrations and span gas expiry dates are up to date.",
+    "Check that pilot ladders have mechanical splices, not manual splicing."
+  ],
+  "summary": "Inspection by Mansoor Zaidi (Shell) on an oil tanker. He was thorough, brought his own additional questions, and focused on cargo operations, safety equipment, and documentation. He raised one observation about manual splicing on a pilot ladder. The inspection date and port were not provided."
+}
