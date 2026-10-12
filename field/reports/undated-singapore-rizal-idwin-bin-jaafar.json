@@ -1,0 +1,144 @@
+{
+  "id": "undated-singapore-rizal-idwin-bin-jaafar",
+  "date": "",
+  "inspector": "Rizal Idwin Bin Jaafar",
+  "port": "Singapore",
+  "country": "Singapore",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Ladder in forecastle store did not have IMO symbols marking the escape route for use in darkness or blackout. Rectified during inspection by fitting IMO retroreflective tape on both sides of the ladder.",
+      "qid": "5.10.7",
+      "type": "hardware",
+      "rank": "bosun"
+    }
+  ],
+  "positives": [
+    "Duty AB answered correctly that on an oil leak at the manifold he would inform CCR and press the emergency stop button, and showed the port and starboard manifold emergency stop locations",
+    "Bosun understood stop work authority when asked about the 3rd officer chipping without goggles"
+  ],
+  "style": [
+    "Ex-Chief Engineer, calm manner, asks questions but gives no personal remarks",
+    "Documents, SMS and PMS checked in the master's office only",
+    "Lifeboat, emergency generator, CO2 room, nitrogen room, paint locker, steering gear, workshop and engine room checked by visual inspection only, did not enter the lifeboat",
+    "Asks follow-up questions to test the depth of an answer, but does not record a failure as an observation if the person cannot answer"
+  ],
+  "questions": [
+    {
+      "rank": "ab",
+      "area": "Cargo",
+      "q": "If there is an oil leak at the manifold, what will you do?",
+      "qid": "8.99.1",
+      "answer": "good"
+    },
+    {
+      "rank": "ab",
+      "area": "Cargo",
+      "q": "Where is the emergency stop?",
+      "qid": "8.3.8",
+      "answer": "good"
+    },
+    {
+      "rank": "ab",
+      "area": "Cargo",
+      "q": "What are the other locations of the emergency stops?",
+      "qid": "8.3.8",
+      "answer": "poor"
+    },
+    {
+      "rank": "bosun",
+      "area": "Safety management",
+      "q": "If you see the 3rd officer chipping without goggles, what will be your response?",
+      "qid": "5.7.5",
+      "answer": "good"
+    },
+    {
+      "rank": "bosun",
+      "area": "Safety management",
+      "q": "If there is a blackout and the emergency lights are also not working, how will you escape from the forecastle store?",
+      "qid": "5.10.7",
+      "answer": "partial"
+    },
+    {
+      "rank": "4e",
+      "area": "Engine",
+      "q": "How much capacity does the emergency generator MDO tank have?",
+      "qid": "10.2.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "4e",
+      "area": "Engine",
+      "q": "Will it be OK if the fuel is for 20 hours, or if the fuel is for 17 hours? Who decides this timing?",
+      "qid": "10.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "4e",
+      "area": "Engine",
+      "q": "What is the SOLAS requirement for steering gear testing, in how much time, and who decides this? Why not 35-0-35 degrees or 30-0-35 degrees?",
+      "qid": "10.1.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documentation",
+      "item": "SMS, PMS and documents checked in the master's office only",
+      "qid": "2.7.1"
+    },
+    {
+      "area": "Lifeboat deck",
+      "item": "Lifeboat engine ahead and astern and rudder movement checked from outside, did not enter the lifeboat",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Exterior decks",
+      "item": "Emergency generator visual inspection and QCV test",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Emergency headquarters",
+      "item": "CO2 room and nitrogen room visual inspection",
+      "qid": "5.2.4"
+    },
+    {
+      "area": "Exterior decks",
+      "item": "Paint locker visual inspection",
+      "qid": "5.2.12"
+    },
+    {
+      "area": "Engine room",
+      "item": "Steering gear, workshop and engine room visual inspection",
+      "qid": "10.1.3"
+    },
+    {
+      "area": "Engine room",
+      "item": "15 PPM alarm and oily water separator operation tested in recirculation",
+      "qid": "6.6.1"
+    }
+  ],
+  "depth": {
+    "documents": 2,
+    "lsa": 1,
+    "fire": 1,
+    "safety": 2,
+    "engine": 2,
+    "pollution": 2,
+    "cargo": 2
+  },
+  "tips": [
+    "Make sure escape routes and ladders carry IMO symbols and retroreflective markings so they are visible in blackout conditions",
+    "Know all emergency stop locations on the manifold, not only the local ones",
+    "Be precise on minimum versus maximum fuel capacity for the emergency generator and who decides the timing",
+    "Be ready to explain the SOLAS steering gear test requirement of 35-0-30 degrees and the reason for the angles"
+  ],
+  "summary": "A calm ex-Chief Engineer inspected in Singapore, checking documents in the master's office and doing mostly visual inspection of the lifeboat, emergency generator, CO2 and nitrogen rooms, paint locker, steering gear, workshop and engine room. He asked practical questions to the duty AB, bosun and 4th engineer, and raised one observation about missing IMO escape symbols on the forecastle store ladder, which was rectified during the inspection. He cares about stop work authority, emergency stop locations and the reasoning behind SOLAS requirements."
+}
