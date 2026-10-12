@@ -1,0 +1,209 @@
+{
+  "id": "2026-02-12-lyttelton-capt-viraj-maki",
+  "date": "2026-02-12",
+  "inspector": "Capt Viraj Maki",
+  "port": "Lyttelton",
+  "country": "New Zealand",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [
+    "Old but fair and quite good",
+    "Detailed on bridge paperwork and PMS records",
+    "Checks that log book entries match the passage plan",
+    "Asks how equipment tests are actually done"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show the passage plan UKC calculation.",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Do the deviation and revised time match?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is the UKC alarm set for each leg?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is the VDR microphone test mentioned in the PMS, and how do you test it?",
+      "qid": "4.1.11",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is the Aldis lamp in the PMS with a remark, how many batteries and what voltage is checked?",
+      "qid": "4.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is the radar planned maintenance recorded in the log book?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is the HDOP comparison mentioned in each watch on deck log?",
+      "qid": "4.1.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the radar antenna motor date?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Are watch conditions for both bridge and engine room in the passage plan and log book?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Are two-way radios tested on more channels as per the channel list, such as 13, 17, 63, 73, 74?",
+      "qid": "4.1.13",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Crew",
+      "q": "Are rest hours filled in every day and after each watch?",
+      "qid": "3.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Documents",
+      "q": "Do you read the SMS fleet broadcast?",
+      "qid": "2.7.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show the bridge familiarisation records.",
+      "qid": "3.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Do you check all frequencies on MF/HF?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Passage plan UKC calculation",
+      "qid": "4.2.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Deviation and revised time matching",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "UKC alarm for each leg",
+      "qid": "4.2.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "VDR microphone test in PMS",
+      "qid": "4.1.11"
+    },
+    {
+      "area": "Bridge",
+      "item": "Aldis lamp in PMS with battery and voltage remark",
+      "qid": "4.1.14"
+    },
+    {
+      "area": "Bridge",
+      "item": "Radar planned maintenance in log book",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "HDOP comparison in each watch on deck log",
+      "qid": "4.1.6"
+    },
+    {
+      "area": "Bridge",
+      "item": "Radar antenna motor date",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Watch condition for bridge and engine room in passage plan and log book",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Two-way radio test on channels 13, 17, 63, 73, 74",
+      "qid": "4.1.13"
+    },
+    {
+      "area": "Crew",
+      "item": "Rest hours filled daily and after watch",
+      "qid": "3.4.1"
+    },
+    {
+      "area": "Documents",
+      "item": "SMS fleet broadcast reading",
+      "qid": "2.7.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bridge familiarisation records",
+      "qid": "3.5.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "MF/HF frequency checks",
+      "qid": "4.4.5"
+    }
+  ],
+  "depth": {
+    "passage": 3,
+    "nav_equip": 3,
+    "bridge_team": 1,
+    "documents": 1,
+    "crew": 1
+  },
+  "tips": [
+    "Keep the VDR mic test, Aldis lamp battery and voltage checks, and radar PM written in the PMS and log book",
+    "Record HDOP comparison in every watch on deck log",
+    "Fill rest hours daily and after each watch",
+    "Test two-way radios on more channels from the channel list, not just one"
+  ],
+  "summary": "SIRE inspection in Lyttelton by Capt Viraj Maki on 12.02.2026. He is old but fair and quite good, and focused on bridge paperwork: passage plan UKC, log book entries, PMS records for VDR, Aldis lamp and radar, and radio testing. The bridge part was cleared with no remark."
+}
