@@ -1,0 +1,273 @@
+{
+  "id": "2025-12-31-houston-terry-fowler",
+  "date": "2025-12-31",
+  "inspector": "Terry Fowler",
+  "port": "Houston",
+  "country": "USA",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": "07:30",
+  "end": null,
+  "schedule": [
+    {
+      "area": "Documents",
+      "hours": null
+    },
+    {
+      "area": "Bridge",
+      "hours": 1
+    },
+    {
+      "area": "Deck",
+      "hours": null
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    },
+    {
+      "area": "Engine Control Room",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Positive observation to 2/O for bridge performance",
+      "qid": "",
+      "type": "human",
+      "rank": "2o"
+    },
+    {
+      "text": "Positive observation to deck crew for immediate response to ESD pull to activate shore ESD",
+      "qid": "8.6.2",
+      "type": "human",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "2/O received positive observation for bridge performance",
+    "Deck crew immediately responded with pull to activate ESD for shore"
+  ],
+  "style": [
+    "Very experienced, 26 years as vetting inspector, soft spoken, in his mid-60s",
+    "Very keen and particular in asking questions, requires point to point answers",
+    "Requires SMS reference for everything",
+    "Very particular about every point that comes up in his tablet",
+    "At closing meeting, asked everyone to only check the factual part of observations, will not change observations much"
+  ],
+  "questions": [
+    {
+      "rank": "2o",
+      "area": "Bridge",
+      "q": "Does the company form include squat for calculating air draft?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "What is the purpose of isolation valves on deck?",
+      "qid": "8.99.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Deck",
+      "q": "What is the purpose of ESD on the manifold?",
+      "qid": "8.6.2",
+      "answer": "good"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documents",
+      "item": "All certificates and ship's documents and reference to SMS for everything",
+      "qid": "2.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Passage plan thoroughly checked everything",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "UKC calculations and safety settings",
+      "qid": "4.2.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "AIS",
+      "qid": "4.1.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "RADAR performance log",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bridge pyrotechnics",
+      "qid": "5.4.4"
+    },
+    {
+      "area": "Bridge",
+      "item": "Watch level poster",
+      "qid": "4.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Anchoring procedure",
+      "qid": "9.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "RA file",
+      "qid": "5.7.6"
+    },
+    {
+      "area": "Bridge",
+      "item": "Markings on chart",
+      "qid": "4.2.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Symbols on ECDIS",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Lifeboat engines starting and procedure",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Emergency generator starting and procedure to stop",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Various stores on deck",
+      "qid": "5.8.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Compressor room rounds",
+      "qid": "5.8.4"
+    },
+    {
+      "area": "Deck",
+      "item": "Bulkhead valves and their position and markings on Tank dome",
+      "qid": "8.6.3"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Inspected Panel",
+      "qid": "8.99.9"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Any active alarms",
+      "qid": "8.6.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Current stage as per plan, cargo plan thoroughly and comparison done at every stage",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Gas equipment Bump test and checked record of chemical tubes",
+      "qid": "5.6.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Loading and filling limits in Cargo operational manual",
+      "qid": "8.6.16"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Enclosed space entry permits",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Records of gas check in hold space",
+      "qid": "8.6.5"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Deck log book for records",
+      "qid": "6.1.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "SSCL",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Control of Hazardous Energy policy",
+      "qid": "5.5.6"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Engine room operations modes",
+      "qid": "10.1.4"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Emergency fire pump operation",
+      "qid": "5.2.1"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Loss of propulsion drill",
+      "qid": "5.1.10"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "EEBD",
+      "qid": "5.3.4"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "UMS procedures",
+      "qid": "10.3.3"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Switchboard insulation levels",
+      "qid": "10.3.1"
+    },
+    {
+      "area": "Engine Control Room",
+      "item": "Fuel changeover procedures",
+      "qid": "10.5.3"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "drills": 2,
+    "fire": 2,
+    "lsa": 2,
+    "permits": 2,
+    "safety": 2,
+    "pollution": 1,
+    "cargo": 3,
+    "mooring": 1,
+    "engine": 3,
+    "photos": 0
+  },
+  "tips": [
+    "Be ready to provide SMS references for every point",
+    "Ensure point to point answers to questions",
+    "Keep cargo plan comparison up to date at every stage"
+  ],
+  "summary": "Terry Fowler, a very experienced inspector, conducted a thorough SIRE 2.0 inspection in Houston. He was particular about every point, required SMS references, and gave positive observations to the 2/O and deck crew. The inspection covered documents, bridge, deck, cargo control room, and engine control room with detailed checks."
+}
