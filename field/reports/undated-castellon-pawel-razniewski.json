@@ -1,0 +1,240 @@
+{
+  "id": "undated-castellon-pawel-razniewski",
+  "date": "",
+  "inspector": "Pawel Razniewski",
+  "port": "Castellon",
+  "country": "Spain",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Fireman's outfit lifeline instructions (1 pull, 2 pull, 3 pull) must be on a metal plate with metal wire; laminated or plastic instructions are not acceptable.",
+      "qid": "5.3.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Warning signs required on bulkhead of forecastle near ladder on all three entrances (both sides and catwalk middle).",
+      "qid": "5.8.5",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Chief officer explained cargo hazards and precautions well; inspector was satisfied.",
+    "Bosun gave positive remarks on enclosed space entry knowledge."
+  ],
+  "style": [
+    "Well versed with SIRE 2.0 and knows what to ask.",
+    "Very strict and gives many remarks.",
+    "Detailed and thorough in checking documents and equipment."
+  ],
+  "questions": [
+    {
+      "rank": "bosun",
+      "area": "Enclosed space",
+      "q": "What are the intervals of checks and duties in enclosed space?",
+      "qid": "5.5.1",
+      "answer": "good"
+    },
+    {
+      "rank": "bosun",
+      "area": "Cargo",
+      "q": "What will happen if you close the valve in running cargo and what do you do during spill?",
+      "qid": "8.99.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Fire",
+      "q": "Why is there a delay in fire alarm at sea and why not in port?",
+      "qid": "5.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the safe distance from any obstruction in open sea and in congested waters as per master's standing orders?",
+      "qid": "4.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the non-technical skills?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the use of full light lines? Show on ECDIS.",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the procedures for two-person verification of passage plan?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Cargo",
+      "item": "Ship shore safety checklist",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Safety",
+      "item": "Poster on gangway showing fire pump and fire plan",
+      "qid": "5.10.3"
+    },
+    {
+      "area": "Cargo",
+      "item": "Alarm settings of cargo panel",
+      "qid": "8.6.6"
+    },
+    {
+      "area": "Safety",
+      "item": "Daily work plan meeting signatures",
+      "qid": "5.7.4"
+    },
+    {
+      "area": "Safety",
+      "item": "SIMOPS for SIRE inspection and discharging operation",
+      "qid": "5.7.8"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo plan and signatures",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Safety",
+      "item": "Risk assessment for mooring and use of tugs",
+      "qid": "5.7.6"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bell book entries for pre anchoring meeting, toolbox talk, pre mooring entries",
+      "qid": "4.2.3"
+    },
+    {
+      "area": "Cargo",
+      "item": "ESD testing records and entries",
+      "qid": "8.6.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Last cargo audits and inhibited cargo in those audits",
+      "qid": "8.2.2"
+    },
+    {
+      "area": "Permits",
+      "item": "Enclosed space permit and risk assessment",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Safety",
+      "item": "Gas detector alarms as per company SMS and on gas detectors",
+      "qid": "5.6.1"
+    },
+    {
+      "area": "Safety",
+      "item": "New CO2 requirements for enclosed space and procedures",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Mooring",
+      "item": "Brake testing and calibration of winch gauge",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "LSA",
+      "item": "Lifejacket and life vest, difference, when to check, records",
+      "qid": "5.4.8"
+    },
+    {
+      "area": "Deck",
+      "item": "ETA inspection records, tools and location",
+      "qid": "9.2.1"
+    },
+    {
+      "area": "Mooring",
+      "item": "Mooring area and warning signs on forecastle bulkhead",
+      "qid": "5.8.5"
+    },
+    {
+      "area": "Fire",
+      "item": "Fireman's outfit lifeline instructions on metal plate with metal wire",
+      "qid": "5.3.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Navigational dynamic and static audit reports",
+      "qid": "3.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Risk assessment for cross checking obstruction near planned passage by two means",
+      "qid": "5.7.6"
+    },
+    {
+      "area": "Bridge",
+      "item": "Echo sounder accuracy check records",
+      "qid": "4.1.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Scamin settings",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "BWL for each leg of passage plan with engine room watch levels",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Steering gear records prior leaving port",
+      "qid": "4.2.6"
+    },
+    {
+      "area": "Fire",
+      "item": "Fire rounds records",
+      "qid": "5.2.3"
+    }
+  ],
+  "depth": {
+    "cargo": 3,
+    "safety": 3,
+    "permits": 3,
+    "mooring": 2,
+    "lsa": 2,
+    "fire": 2,
+    "bridge_team": 2,
+    "nav_equip": 2,
+    "passage": 2,
+    "documents": 1,
+    "crew": 1,
+    "drills": 1,
+    "pollution": 0,
+    "engine": 0,
+    "security": 0,
+    "photos": 0
+  },
+  "tips": [
+    "Ensure fireman's outfit lifeline instructions are on metal plate with metal wire.",
+    "Post fire pump and fire plan on gangway.",
+    "Be prepared for detailed questions on enclosed space entry and cargo operations."
+  ],
+  "summary": "Inspection by Pawel Razniewski (Polish) in Castellon, Spain. He boarded by boat and was very strict, well versed with SIRE 2.0. He raised observations on fireman's outfit lifeline instructions and warning signs on forecastle. The inspection date was not provided."
+}
