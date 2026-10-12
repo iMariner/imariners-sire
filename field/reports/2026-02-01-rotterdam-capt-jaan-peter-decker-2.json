@@ -1,0 +1,190 @@
+{
+  "id": "2026-02-01-rotterdam-capt-jaan-peter-decker-2",
+  "date": "2026-02-01",
+  "inspector": "Capt Jaan Peter Decker",
+  "port": "Rotterdam",
+  "country": "Netherlands",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "ROT was empty and the temperature sensor showed an out of range value of -300 C; not mentioned in the manual",
+      "qid": "8.3.23",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [],
+  "style": [
+    "Very cheerful and positive, inspection felt like an open conversation",
+    "Told the master he expects to complete the bridge in an hour",
+    "Questions were not asked in order",
+    "Compares figures in documents against each other, for example tide values from ATT against UKC sheets"
+  ],
+  "questions": [
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Where is GPS HDOP and SNR logged?",
+      "qid": "4.1.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How do you calculate the tide for each waypoint in the UKC calculation?",
+      "qid": "4.2.2",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Explain the squat calculation in the passage plan",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is WGS 84 and what is its significance?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Explain CATZOC",
+      "qid": "4.2.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How many VHF radios are there and are they in low power mode?",
+      "qid": "4.1.13",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Show that the AIS unit is currently in low power mode",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "For each scenario, which radar would be best?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What is the magnetron running hours and company policy, and when was the standard job last completed in the PMS?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How do you compare the Doppler speed log?",
+      "qid": "4.1.8",
+      "answer": "good"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "Are bridge watch level entries in the bell book and DLB logged when changes are made?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "How do you effect vessel heading changes during main engine failure as per industry standard publication?",
+      "qid": "5.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What does the master's standing orders say about the use of AIS?",
+      "qid": "4.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Bridge",
+      "q": "What are the NAVTEX and MSI handling procedures?",
+      "qid": "4.1.10",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo Control Room",
+      "q": "What is the volatility of a liquid based on?",
+      "qid": "8.2.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo Control Room",
+      "q": "Does the SMS show that chemical filter masks should not be used onboard?",
+      "qid": "5.12.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo Control Room",
+      "q": "Is the out of range ROT temperature sensor value mentioned anywhere in the manual?",
+      "qid": "8.3.23",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "Bell book entry for steering gear checks and hardover time compared to manoeuvring poster",
+      "qid": "4.1.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS track from pilot station to berth, looking for LOP fixes and UserMap entries",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "BNWAS test logs and pictures of alerts with primary and secondary power off and fuse removed",
+      "qid": "4.1.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Record of whistle automation tests",
+      "qid": "4.1.15"
+    },
+    {
+      "area": "Bridge",
+      "item": "Plotted position intervals, checked if any plotted to drying heights",
+      "qid": "4.2.1"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "cargo": 2
+  },
+  "tips": [
+    "Be ready to explain how tide is calculated for each waypoint and to show the ATT tide value matches the UKC sheets",
+    "Know the industry publication Peril at Sea and Salvage for main engine failure heading change methods",
+    "Keep BNWAS test evidence including photos of alerts and removed fuses"
+  ],
+  "summary": "A cheerful, conversational inspection by Capt Jaan Peter Decker in Rotterdam, expected to take about an hour on the bridge. He focused on passage planning, UKC and tide calculations, bridge equipment including ECDIS, radar, AIS, VHF and BNWAS, and asked several questions in the CCR. One observation was raised about the ROT temperature sensor showing an out of range value."
+}
