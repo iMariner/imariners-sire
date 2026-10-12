@@ -1,0 +1,901 @@
+{
+  "id": "undated-antwerp-capt-anuj-malik",
+  "date": "",
+  "inspector": "Capt. Anuj Malik",
+  "port": "Antwerp",
+  "country": "Belgium",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Hot work permit file had no records.",
+      "qid": "5.5.2",
+      "type": "process",
+      "rank": "master"
+    },
+    {
+      "text": "A choked drain had caused oil/water emulsion to leak into the tank top; inspector asked for it to be cleaned up.",
+      "qid": "5.8.2",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [],
+  "style": [
+    "Goes through documents and records in detail.",
+    "Asks crew directly in the master's cabin.",
+    "Wants to hear specific words such as 'permit'.",
+    "Looks extensively in the engine room bilges.",
+    "Accepts recent annual survey tests for blackout and emergency generator."
+  ],
+  "questions": [
+    {
+      "rank": "master",
+      "area": "Documents",
+      "q": "Is the HVPQ and PIQ updated?",
+      "qid": "2.8.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Documents",
+      "q": "Show the defect list and the company procedure for defect reporting.",
+      "qid": "2.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Documents",
+      "q": "Show the updated index of certificates.",
+      "qid": "2.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Documents",
+      "q": "What is the latest class survey status?",
+      "qid": "2.3.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Documents",
+      "q": "Show the last technical and marine superintendent visit reports and CAPA.",
+      "qid": "2.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Safety management",
+      "q": "Show the weekly and monthly LSA and FFA inspection records.",
+      "qid": "5.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Crew records",
+      "q": "Show the rest hours file and the last drug and alcohol test record.",
+      "qid": "3.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Permits",
+      "q": "Show the hot work permit file.",
+      "qid": "5.5.2",
+      "answer": "poor"
+    },
+    {
+      "rank": "master",
+      "area": "Pollution",
+      "q": "Show the ozone depleting substances record.",
+      "qid": "6.1.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Drills",
+      "q": "Show drill records and the company procedure, including risk assessment and safety considerations before drills.",
+      "qid": "5.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Safety management",
+      "q": "Show the safety inspection checklist and the areas covered.",
+      "qid": "5.8.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Engine",
+      "q": "Show bunker delivery notes, analysis reports and the lube oil analysis procedure.",
+      "qid": "10.5.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Documents",
+      "q": "Show the static navigational, mooring and cargo audit reports, including the assessor's qualifications and sea time experience.",
+      "qid": "3.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "oiler",
+      "area": "Safety management",
+      "q": "Is a work planning meeting done every day? Who keeps the record? Bring the record.",
+      "qid": "5.7.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "LSA",
+      "q": "Show the lifeboat and rescue boat lowering record.",
+      "qid": "5.1.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Permits",
+      "q": "What is the enclosed space entry procedure and drill record?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "oiler",
+      "area": "Permits",
+      "q": "What is the enclosed space entry procedure and drill record?",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Crew records",
+      "q": "Questions from the safety familiarization checklist.",
+      "qid": "3.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "oiler",
+      "area": "Crew records",
+      "q": "Questions from the safety familiarization checklist.",
+      "qid": "3.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "eto",
+      "area": "Fire fighting",
+      "q": "What is the fire alarm delay and are there any 220 V or 440 V faults?",
+      "qid": "5.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Safety management",
+      "q": "What are the safety precautions for working at height, in enclosed spaces and while mooring?",
+      "qid": "5.5.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Cargo",
+      "q": "Show the record of ballast tank and cargo tank inspections.",
+      "qid": "2.3.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Crew records",
+      "q": "Compare the safe manning document with the crew list.",
+      "qid": "3.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Safety management",
+      "q": "Show the near miss and hazard report file.",
+      "qid": "5.7.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "master",
+      "area": "Pollution",
+      "q": "Show the Oil Record Book Part I, Garbage Record Book and Ballast Water Record Book.",
+      "qid": "6.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Engine",
+      "q": "Start the emergency generator. What are the means of starting and up to what pressure do you pressurise during manual hand cranking?",
+      "qid": "10.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Permits",
+      "q": "Show the GX-8000 gas meter and tell what gases it measures. What is the difference between LEL and Vol HC?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "LSA",
+      "q": "What is the launching procedure and operation of the davit for the liferaft and rescue boat?",
+      "qid": "5.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Permits",
+      "q": "What is the difference between a tankscope and an explosimeter? What kind of gas meter do we have onboard?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Cargo",
+      "q": "What is the cause and effect of pressing the ESD?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "What is the company procedure for ECDIS layer information?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "What is the company procedure on AIS not to be used for collision avoidance?",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Security",
+      "q": "Show the current voyage passage plan security risk assessment.",
+      "qid": "7.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "What is the radar maintenance procedure? When was the magnetron last changed?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "Is the speed log connected to the radar?",
+      "qid": "4.1.8",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "What is the difference between X and S band radar and when do you use each?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Passage planning",
+      "q": "Show the master pilot exchange with the UKC sheet and the minimum UKC required.",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "What is the AIS testing procedure and is the AIS static data checked?",
+      "qid": "4.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Passage planning",
+      "q": "Show the master standing orders with BCR and CPA. When does the master take con?",
+      "qid": "4.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Passage planning",
+      "q": "Show the passage plan and the company procedure for security risk assessment for the voyage.",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "What are the company look ahead settings? Show them in ECDIS.",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge equipment",
+      "q": "Show the steering gear test before arrival and the pre-arrival checklist.",
+      "qid": "4.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Passage planning",
+      "q": "What is the engine room watch level for each leg in the passage plan?",
+      "qid": "4.3.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Passage planning",
+      "q": "What is the company procedure for risk assessment for the passage plan?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Documents",
+      "q": "Show the external navigation audit report, including the assessor's qualifications and sea time experience.",
+      "qid": "3.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2o",
+      "area": "Bridge team",
+      "q": "What is the bridge watch composition as per company procedure?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "Show the Ship Shore Safety Checklist.",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Permits",
+      "q": "What is the working condition of the gas meters and the calibration procedure?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Pollution",
+      "q": "Who is the BWTS responsible officer? What is the operation procedure and maintenance schedule?",
+      "qid": "6.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "Show the pre-cargo meeting details.",
+      "qid": "8.99.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "Show the cargo plan in detail.",
+      "qid": "8.99.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "Show the loadicator.",
+      "qid": "8.99.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo",
+      "q": "What are the FGDS details and calibration procedure?",
+      "qid": "5.6.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Mooring",
+      "q": "Show the mooring inspection records and the calibration certificate for the pressure gauge of the brake testing kit.",
+      "qid": "9.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Safety management",
+      "q": "Show the pre-arrival checks and records.",
+      "qid": "5.8.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Permits",
+      "q": "Show the enclosed space entry permits and rest hours.",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Permits",
+      "q": "What is the enclosed space rescue operation, permit system and company procedure?",
+      "qid": "5.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "LSA",
+      "q": "What is the rescue boat lowering procedure in detail?",
+      "qid": "5.4.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Cargo",
+      "q": "Where is the ESD located and when do you press it?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Safety management",
+      "q": "What PPE is required for various jobs?",
+      "qid": "5.7.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Are the pipelines labelled and coded?",
+      "qid": "10.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Safety management",
+      "q": "Is there a note anywhere that a risk assessment was discussed prior to doing jobs?",
+      "qid": "5.7.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Show the arrival and departure checklist.",
+      "qid": "10.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "What are the UMS procedures and deadman's alarm?",
+      "qid": "10.3.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Show the insulation mats certification and markings. Are they a slipping hazard?",
+      "qid": "10.7.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Safety management",
+      "q": "Are there hazard markings on stairways and steps on platforms? Zebra markings to be done.",
+      "qid": "5.8.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Pollution",
+      "q": "What is the OWS operation and alarm testing procedure as per SMS?",
+      "qid": "6.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "What is the blackout recovery procedure from deadship condition?",
+      "qid": "10.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "What is the emergency steering procedure and when was it last done?",
+      "qid": "10.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Fire fighting",
+      "q": "What is the fire alarm testing procedure? What happens if the fire alarm is not acknowledged within 2 minutes and where is this given in the regulations?",
+      "qid": "5.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "What is the main engine OMD testing procedure and is it posted in the ECR?",
+      "qid": "10.7.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Show the PMS and overdue items.",
+      "qid": "10.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Crew records",
+      "q": "Show the rest hours, UMS hours and UMS alarms. Are rest hours filled according to UMS alarms and logged in the ER log book?",
+      "qid": "3.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Show the ER log book entries for ECA changeover.",
+      "qid": "10.5.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Pollution",
+      "q": "Do the sulphur record book and ER log book entries match for changeover?",
+      "qid": "6.1.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Are the fuel changeover procedures posted in the ECR for reference?",
+      "qid": "10.5.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "How do you test the earth fault indicator alarm?",
+      "qid": "10.3.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Are anti-splash tapes fitted on the FO and LO lines?",
+      "qid": "10.7.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Pollution",
+      "q": "Show the NOx files and entries.",
+      "qid": "6.1.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Pollution",
+      "q": "Show the ORB and entries.",
+      "qid": "6.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Pollution",
+      "q": "Show the OWS 15ppm alarm testing entries and the last OWS operation date.",
+      "qid": "6.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "What is the manning level for the engine room? Is an entry made every day in the ER log book?",
+      "qid": "10.1.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Pollution",
+      "q": "Is the garbage station in the engine room and are duties and responsibilities as per GMP posted in the ER?",
+      "qid": "6.1.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Fire fighting",
+      "q": "Check the fire doors and their auto closing function and proper sealing.",
+      "qid": "5.2.16",
+      "answer": "unknown"
+    },
+    {
+      "rank": "2e",
+      "area": "Engine",
+      "q": "Show the stern tube and CPP oil testing and analysis report.",
+      "qid": "10.4.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Documents",
+      "item": "Updated HVPQ and PIQ",
+      "qid": "2.8.1"
+    },
+    {
+      "area": "Documents",
+      "item": "Defect list and company procedure",
+      "qid": "2.4.1"
+    },
+    {
+      "area": "Documents",
+      "item": "Updated index of certificates",
+      "qid": "2.1.1"
+    },
+    {
+      "area": "Documents",
+      "item": "Latest class survey status",
+      "qid": "2.3.2"
+    },
+    {
+      "area": "Documents",
+      "item": "Last technical and marine superintendent visit reports and CAPA",
+      "qid": "2.2.1"
+    },
+    {
+      "area": "Safety management",
+      "item": "Weekly and monthly LSA and FFA inspection records",
+      "qid": "5.1.1"
+    },
+    {
+      "area": "Crew records",
+      "item": "Rest hours file and last drug and alcohol test record",
+      "qid": "3.4.1"
+    },
+    {
+      "area": "Permits",
+      "item": "Hot work permit file",
+      "qid": "5.5.2"
+    },
+    {
+      "area": "Pollution",
+      "item": "Ozone depleting substances record",
+      "qid": "6.1.5"
+    },
+    {
+      "area": "Drills",
+      "item": "Drill records and company procedure including risk assessment",
+      "qid": "5.1.1"
+    },
+    {
+      "area": "Safety management",
+      "item": "Safety inspection checklist and areas covered",
+      "qid": "5.8.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Bunker delivery notes, analysis reports and lube oil analysis procedure",
+      "qid": "10.5.2"
+    },
+    {
+      "area": "Documents",
+      "item": "Static navigational, mooring and cargo audit reports",
+      "qid": "3.2.1"
+    },
+    {
+      "area": "LSA",
+      "item": "Lifeboat and rescue boat lowering record",
+      "qid": "5.1.6"
+    },
+    {
+      "area": "Permits",
+      "item": "Enclosed space entry procedures and drill record",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Crew records",
+      "item": "Safety familiarization records and company procedure",
+      "qid": "3.5.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Record of ballast tank and cargo tank inspections",
+      "qid": "2.3.3"
+    },
+    {
+      "area": "Crew records",
+      "item": "Safe manning compared with crew list",
+      "qid": "3.1.3"
+    },
+    {
+      "area": "Safety management",
+      "item": "Near miss and hazard report file",
+      "qid": "5.7.2"
+    },
+    {
+      "area": "Pollution",
+      "item": "Oil Record Book Part I, Garbage Record Book and Ballast Water Record Book",
+      "qid": "6.1.3"
+    },
+    {
+      "area": "Bridge equipment",
+      "item": "ECDIS layer information",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge equipment",
+      "item": "AIS static data and testing",
+      "qid": "4.1.4"
+    },
+    {
+      "area": "Passage planning",
+      "item": "Current voyage passage plan security risk assessment",
+      "qid": "7.1.1"
+    },
+    {
+      "area": "Bridge equipment",
+      "item": "Radar maintenance and magnetron change record",
+      "qid": "4.1.2"
+    },
+    {
+      "area": "Bridge equipment",
+      "item": "Speed log connection to radar",
+      "qid": "4.1.8"
+    },
+    {
+      "area": "Passage planning",
+      "item": "Master pilot exchange with UKC sheet",
+      "qid": "4.2.2"
+    },
+    {
+      "area": "Passage planning",
+      "item": "Master standing orders with BCR and CPA",
+      "qid": "4.2.3"
+    },
+    {
+      "area": "Passage planning",
+      "item": "Passage plan",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge equipment",
+      "item": "ECDIS look ahead settings",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge equipment",
+      "item": "Steering gear test and pre-arrival checklist",
+      "qid": "4.1.3"
+    },
+    {
+      "area": "Documents",
+      "item": "External navigation audit report",
+      "qid": "3.2.3"
+    },
+    {
+      "area": "Cargo",
+      "item": "Ship Shore Safety Checklist",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo plan",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Loadicator",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Mooring",
+      "item": "Mooring inspection records and calibration certificate for brake testing kit pressure gauge",
+      "qid": "9.1.1"
+    },
+    {
+      "area": "Permits",
+      "item": "Enclosed space entry permits and rest hours",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Pipelines labelling and coding",
+      "qid": "10.4.1"
+    },
+    {
+      "area": "Engine",
+      "item": "Arrival and departure checklist",
+      "qid": "10.1.2"
+    },
+    {
+      "area": "Engine",
+      "item": "Insulation mats certification and markings",
+      "qid": "10.7.2"
+    },
+    {
+      "area": "Pollution",
+      "item": "OWS operation and alarm testing entries",
+      "qid": "6.6.1"
+    },
+    {
+      "area": "Engine",
+      "item": "PMS and overdue items",
+      "qid": "10.4.1"
+    },
+    {
+      "area": "Crew records",
+      "item": "Rest hours and UMS alarms",
+      "qid": "3.4.1"
+    },
+    {
+      "area": "Engine",
+      "item": "ER log book entries for ECA changeover",
+      "qid": "10.5.3"
+    },
+    {
+      "area": "Pollution",
+      "item": "Sulphur record book and ER log book entries",
+      "qid": "6.1.6"
+    },
+    {
+      "area": "Engine",
+      "item": "Fuel changeover procedures posted in ECR",
+      "qid": "10.5.3"
+    },
+    {
+      "area": "Pollution",
+      "item": "NOx files and entries",
+      "qid": "6.1.6"
+    },
+    {
+      "area": "Pollution",
+      "item": "ORB and entries",
+      "qid": "6.1.3"
+    },
+    {
+      "area": "Fire fighting",
+      "item": "Fire doors and auto closing function",
+      "qid": "5.2.16"
+    },
+    {
+      "area": "Engine",
+      "item": "Stern tube and CPP oil testing and analysis report",
+      "qid": "10.4.2"
+    }
+  ],
+  "depth": {
+    "documents": 3,
+    "crew": 3,
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "drills": 2,
+    "fire": 3,
+    "lsa": 2,
+    "permits": 3,
+    "safety": 3,
+    "pollution": 3,
+    "security": 2,
+    "cargo": 3,
+    "mooring": 2,
+    "engine": 3,
+    "photos": 0
+  },
+  "tips": [],
+  "summary": "Inspection in Antwerp by Capt. Anuj Malik (ENOC). He went through documents and records in detail, asked crew directly in the master's cabin, and looked extensively in the engine room bilges. He raised observations on hot work permit records and a choked drain causing oil/water emulsion on the tank top."
+}
