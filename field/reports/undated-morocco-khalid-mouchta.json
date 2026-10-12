@@ -1,0 +1,158 @@
+{
+  "id": "undated-morocco-khalid-mouchta",
+  "date": "",
+  "inspector": "Khalid Mouchta",
+  "port": "Morocco",
+  "country": "Morocco",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [
+    {
+      "area": "Deck",
+      "hours": 0.75
+    },
+    {
+      "area": "Pumproom",
+      "hours": 0.33
+    },
+    {
+      "area": "CCR",
+      "hours": 0.75
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [
+    "Overall approach was very practical and no nonsense was experienced during the inspection"
+  ],
+  "style": [
+    "Very practical, no nonsense approach",
+    "Checks equipment by trying it out on deck",
+    "Looks very closely for rust spots",
+    "Checks documentation and lockers very thoroughly"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "What are your actions in case of IG system failure?",
+      "qid": "8.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "What are the wind criteria for cargo operations?",
+      "qid": "8.99.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Cargo",
+      "q": "What are your actions in various emergency situations?",
+      "qid": "5.1.2",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Deck",
+      "item": "HLA tried out",
+      "qid": "5.10.5"
+    },
+    {
+      "area": "Deck",
+      "item": "Lifeboat tried out",
+      "qid": "5.4.1"
+    },
+    {
+      "area": "Deck",
+      "item": "Emergency generator tried out",
+      "qid": "10.2.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Heating system for cargo tanks checked very closely",
+      "qid": "8.3.21"
+    },
+    {
+      "area": "Deck",
+      "item": "Sample locker checked very thoroughly for PPE and MSDS",
+      "qid": "5.7.7"
+    },
+    {
+      "area": "Cargo",
+      "item": "Pumproom cargo sea chest arrangement checked for securing",
+      "qid": "6.2.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Emergency escape arrangement checked",
+      "qid": "5.10.7"
+    },
+    {
+      "area": "Engine",
+      "item": "Bilge alarm tried out",
+      "qid": "10.2.5"
+    },
+    {
+      "area": "Engine",
+      "item": "Ballast water treatment system filters inspected",
+      "qid": "6.3.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Ship/Shore Safety Checklist checked very thoroughly",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo plan checked",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo",
+      "item": "Loadicator tested",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Cargo",
+      "item": "Cargo tank pressure alarms tried out",
+      "qid": "8.3.19"
+    },
+    {
+      "area": "Mooring",
+      "item": "Line Management Plan verified",
+      "qid": "9.1.3"
+    },
+    {
+      "area": "Mooring",
+      "item": "MSMP verified",
+      "qid": "9.1.3"
+    }
+  ],
+  "depth": {
+    "nav_equip": 1,
+    "passage": 1,
+    "drills": 1,
+    "fire": 1,
+    "lsa": 2,
+    "permits": 1,
+    "safety": 2,
+    "pollution": 1,
+    "cargo": 3,
+    "mooring": 2,
+    "engine": 2
+  },
+  "tips": [
+    "Be ready to demonstrate deck equipment such as HLA, lifeboat and emergency generator",
+    "Keep rust spots under control, this inspector looks for them closely",
+    "Have sample locker PPE and MSDS in order",
+    "Know your IG failure and emergency actions well"
+  ],
+  "summary": "Inspection in Morocco by Khalid Mouchta, inspector name and port given but date not stated. He worked through deck, pumproom and CCR with a very practical, no nonsense approach, trying out equipment and checking cargo heating, sample locker and pumproom arrangements closely. He asked about IG failure, wind criteria and emergency actions, and verified LMP and MSMP."
+}
