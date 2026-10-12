@@ -1,0 +1,84 @@
+{
+  "id": "undated-unknown-port-anuj-sud",
+  "date": "",
+  "inspector": "Anuj Sud",
+  "port": "",
+  "country": "",
+  "terminal": "",
+  "vessel_type": "Chemical",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": 4,
+  "high_risk": 0,
+  "observations": [
+    {
+      "text": "Six metallic connectors of the hydraulic hose handling crane controllers had moderate surface corrosion.",
+      "qid": "5.9.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "A generic risk assessment was available, but a vessel-specific risk assessment identifying minimum critical spare parts for the single hose handling crane had not been completed.",
+      "qid": "5.7.6",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "On this Chemical Tanker Type 3 vessel, the 95 percent cargo tank high level alarm was not independent of the main cargo gauging system.",
+      "qid": "8.6.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Sheave photographs were uploaded, but winch photographs inside the enclosed rotating turret body were not uploaded.",
+      "qid": "5.9.2",
+      "type": "process",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "The officer was able to clearly describe the last enclosed space entry, explain his role, refer correctly to the company enclosed space entry permit, and demonstrate understanding of Stop Work Authority."
+  ],
+  "style": [
+    "Runs a behavioural assessment during interviews",
+    "Checks crane and cargo alarm details closely",
+    "Notes documentary gaps such as missing photographs and vessel-specific risk assessments"
+  ],
+  "questions": [],
+  "checks": [
+    {
+      "area": "Cargo Control Room",
+      "item": "Cargo tank 95 percent high level alarm independence from main gauging system",
+      "qid": "8.6.1"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Hose handling crane controller connectors condition",
+      "qid": "5.9.1"
+    },
+    {
+      "area": "Documentation",
+      "item": "Vessel-specific risk assessment for minimum critical spare parts of the single hose handling crane",
+      "qid": "5.7.6"
+    },
+    {
+      "area": "Documentation",
+      "item": "Crane winch photographs inside the enclosed rotating turret body",
+      "qid": "5.9.2"
+    }
+  ],
+  "depth": {
+    "permits": 2,
+    "safety": 2,
+    "cargo": 2,
+    "mooring": 2
+  },
+  "tips": [
+    "Keep vessel-specific risk assessments for critical spare parts of single crane installations",
+    "Check that high level alarms are independent of the main gauging system on Type 3 chemical tankers",
+    "Upload all required crane photographs, including winch internals"
+  ],
+  "summary": "This is a shared SIRE 2.0 report from another vessel, so the port and date are not given. The inspector, Anuj Sud, gave an overall rating of exceeded normal expectation, with one positive observation on enclosed space entry and Stop Work Authority. He raised four deficiencies covering crane connector corrosion, missing vessel-specific risk assessment for critical crane spares, a non-independent 95 percent cargo tank high level alarm, and missing winch photographs."
+}
