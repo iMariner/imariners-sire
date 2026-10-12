@@ -1,0 +1,216 @@
+{
+  "id": "undated-flushing-capt-anuj-malik",
+  "date": "",
+  "inspector": "Capt Anuj Malik",
+  "port": "Flushing",
+  "country": "Netherlands",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": "",
+  "end": "",
+  "schedule": [],
+  "observations_total": 0,
+  "high_risk": 0,
+  "observations": [],
+  "positives": [
+    "No observations raised on the bridge"
+  ],
+  "style": [
+    "Calm and gives time to check answers in the SMS",
+    "Spent more than an hour on the bridge before deck rounds",
+    "Checks company policy and master standing orders against actual records",
+    "Calls back for a second round such as starting the emergency generator"
+  ],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the company policy on ECDIS display settings, four depth and two shades?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show the company policy on ECDIS alarm management and where it is in the master standing orders.",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What does the master standing orders say about CPA, TCPA and BCR?",
+      "qid": "4.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the company policy on BNWAS, what is the maintenance procedure in the SMS, and show where it is logged?",
+      "qid": "4.1.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the difference between X band and S band radar?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is there a procedure in the master standing orders about conning with the master?",
+      "qid": "4.2.3",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Is a specific distance for passing a navigation hazard stated in the company SMS and master standing orders?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the passage plan against the company SMS, check all ECDIS markings against the passage plan, and verify entries in the bell book and log book.",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check all checklists, master pilot exchange and pilot card, and confirm whether squat and minimum UKC are mentioned in the MPEX.",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What action do you take if the EPIRB is accidentally released?",
+      "qid": "4.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How do you calculate set and drift for a disabled vessel, and is there a company procedure for it?",
+      "qid": "5.1.10",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check all risk assessments and their entry in the passage plan meeting sheet.",
+      "qid": "5.7.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the immersion suit on the bridge and explain how you know whether it must be worn with a lifejacket.",
+      "qid": "5.4.7",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the company policy on the anti-grounding tool?",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "When was the last restricted visibility checklist completed, and how do you prove that fog signals were used in restricted visibility?",
+      "qid": "4.1.15",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show the VDR self test and power failure test.",
+      "qid": "4.1.11",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Bridge",
+      "item": "ECDIS display settings, four depth and two shades",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "ECDIS alarm management in company policy and master standing orders",
+      "qid": "4.1.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "CPA, TCPA and BCR in master standing orders",
+      "qid": "4.2.3"
+    },
+    {
+      "area": "Bridge",
+      "item": "BNWAS maintenance procedure and log",
+      "qid": "4.1.5"
+    },
+    {
+      "area": "Bridge",
+      "item": "Passage plan against company SMS and ECDIS markings",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Bell book and log book entries",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Checklists, master pilot exchange and pilot card",
+      "qid": "4.2.1"
+    },
+    {
+      "area": "Bridge",
+      "item": "Squat and minimum UKC in MPEX",
+      "qid": "4.2.2"
+    },
+    {
+      "area": "Bridge",
+      "item": "Risk assessments and passage plan meeting sheet entries",
+      "qid": "5.7.6"
+    },
+    {
+      "area": "Bridge",
+      "item": "Immersion suit on bridge",
+      "qid": "5.4.7"
+    },
+    {
+      "area": "Bridge",
+      "item": "Restricted visibility checklist",
+      "qid": "4.1.15"
+    },
+    {
+      "area": "Bridge",
+      "item": "VDR self test and power failure test",
+      "qid": "4.1.11"
+    }
+  ],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "drills": 1,
+    "lsa": 1,
+    "safety": 1,
+    "engine": 1
+  },
+  "tips": [
+    "Keep company policy and master standing orders ready for ECDIS, BNWAS and passage planning questions",
+    "Be prepared to show proof of fog signal use in restricted visibility",
+    "Have a clear answer for set and drift calculation for a disabled vessel"
+  ],
+  "summary": "SIRE 2.0 inspection in Flushing, Netherlands by Capt Anuj Malik. The inspector spent over an hour on the bridge checking ECDIS, passage planning, BNWAS, VDR and emergency equipment, then went for deck rounds and later called back to start the emergency generator. No observations were raised on the bridge. The inspection date was not given."
+}
