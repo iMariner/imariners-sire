@@ -1,0 +1,377 @@
+{
+  "id": "2026-02-01-unknown-port-mansoor-zaidi",
+  "date": "2026-02-01",
+  "inspector": "Mansoor Zaidi",
+  "port": "",
+  "country": "",
+  "terminal": "",
+  "vessel_type": "Oil",
+  "hours": 11,
+  "start": "09:20",
+  "end": "20:40",
+  "schedule": [
+    {
+      "area": "Documents",
+      "hours": null
+    },
+    {
+      "area": "Cargo Control Room",
+      "hours": null
+    },
+    {
+      "area": "Main Deck",
+      "hours": null
+    },
+    {
+      "area": "Engine Room",
+      "hours": null
+    },
+    {
+      "area": "Internal Accommodation",
+      "hours": null
+    }
+  ],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Manual splicing found on one pilot ladder instead of mechanical ones.",
+      "qid": "5.10.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Yard diagram and procedure for use of lifeboat recovery strops is wrong.",
+      "qid": "5.4.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Lights in oxygen acetylene room should be approved ones.",
+      "qid": "10.3.7",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Fire axes for fireman did not have full insulated handles.",
+      "qid": "5.3.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Galley exhaust mesh had oil deposits inside.",
+      "qid": "5.2.8",
+      "type": "hardware",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Loading master's signature and stamp on cargo plan confirmed discussion with terminal."
+  ],
+  "style": [
+    "Brought his own additional questions beyond the SIRE questionnaire.",
+    "Expects immediate answers to his questions.",
+    "Speaks very softly.",
+    "A little rigid when listening to explanations.",
+    "Went deep into company procedures and compared them with international rules and regulations.",
+    "Super active on deck despite being over 60.",
+    "Did not take lunch or dinner, only tea and cigarettes 3-4 times."
+  ],
+  "questions": [
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "How did you check the insulation between terminal and ship?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "What are the wind criteria for stopping cargo and disconnection, and what if company SMS and terminal requirements do not match?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "Does your monthly PMS entry say liquid level in the tube checked?",
+      "qid": "8.3.18",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "Before starting COW in a tank, at what level do you check the O2?",
+      "qid": "8.1.2",
+      "answer": "poor"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "What additional corrections apply when checking toxic gas in gastec tubes?",
+      "qid": "5.6.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "What additional corrections apply in the CCR fixed gauges when you do not have UTI, such as density correction for float gauge system?",
+      "qid": "8.99.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "How do you check tank pressure from PV breaker when tanks are overpressurized and water tube is unreadable?",
+      "qid": "8.3.18",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "What are the COP safety trips?",
+      "qid": "8.6.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "Is there an entry of discussion with loading master of how much the ship can move ahead or fall back during operation?",
+      "qid": "8.99.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "How to use recovery strops in lifeboat?",
+      "qid": "5.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "co",
+      "area": "Cargo Control Room",
+      "q": "Explain hypermist and low expansion procedure.",
+      "qid": "5.2.13",
+      "answer": "unknown"
+    },
+    {
+      "rank": "bosun",
+      "area": "Main Deck",
+      "q": "Show 1 lifebuoy light if working, and explain procedure and precautions when rigging pilot ladder.",
+      "qid": "5.4.6",
+      "answer": "unknown"
+    },
+    {
+      "rank": "pumpman",
+      "area": "Cargo Control Room",
+      "q": "Explain enclosed space entry procedures.",
+      "qid": "5.5.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "ab",
+      "area": "Main Deck",
+      "q": "How to check if ship has not moved forward or stern while adjusting moorings?",
+      "qid": "9.4.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Engine Room",
+      "q": "Start emergency generator on spring mode.",
+      "qid": "10.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "3o",
+      "area": "Lifeboat deck",
+      "q": "Demonstrate use of recovery strops with actual strops kept in fire station.",
+      "qid": "5.4.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [
+    {
+      "area": "Cargo Control Room",
+      "item": "Detailed check of cargo plan",
+      "qid": "8.99.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Cargo tank valve timings and comparison from yard timings",
+      "qid": "8.99.4"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Ship shore safety checklist",
+      "qid": "8.99.2"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Pre arrival checks entry in port log",
+      "qid": "4.2.3"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "ODME",
+      "qid": "6.6.2"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "BWTS system onboard, fixed gas system in BWTS room, sensor calibration, span gas expiry dates",
+      "qid": "6.3.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Personal gas meter and span gas for calibration, expiry dates",
+      "qid": "5.6.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Visual and audio pump room bilge alarm in CCR by sending person down to activate",
+      "qid": "6.2.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Company and ship specific procedure for inerting ballast tanks and void spaces, equipment available and location",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Dump valve operation and testing procedure",
+      "qid": "8.3.18"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Various entries: testing high level alarms during pre arrival tests, checking O2 in tanks pre arrival and before operation, comparing CCR ullages with UTI, visual draft checks and compare entry",
+      "qid": "8.3.4"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "WBT inert gas hoses, checks on it, documented entries",
+      "qid": "8.3.20"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "MSDS of cargo being discharged, toxic gases mentioned and sufficient gastec tubes available",
+      "qid": "5.7.7"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Last enclosed space entry permit / hot work permit / pump room permit",
+      "qid": "5.5.1"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Maximum venting rates in ballast tank",
+      "qid": "8.3.14"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Last loadicator test and compared with class condition",
+      "qid": "8.99.6"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Mooring file, inventories",
+      "qid": "9.1.3"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Dump valve freeness",
+      "qid": "8.3.18"
+    },
+    {
+      "area": "Main Deck",
+      "item": "O2 checked in 2 tanks",
+      "qid": "8.1.1"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Took pictures of winch/hose handling crane/PV breaker/manifold",
+      "qid": "11.1.12"
+    },
+    {
+      "area": "Main Deck",
+      "item": "WBT inerting hoses in store",
+      "qid": "8.3.20"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Gangway sheaves",
+      "qid": "5.10.3"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Checked 1 UTI for bonding cable",
+      "qid": "8.99.10"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Forepeak tank gas check point",
+      "qid": "5.6.2"
+    },
+    {
+      "area": "Main Deck",
+      "item": "ETA equipment forward",
+      "qid": "9.2.1"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Forepeak store eduction procedure",
+      "qid": "6.4.2"
+    },
+    {
+      "area": "Main Deck",
+      "item": "Checked EEBD, SCBA and ISC at manifold",
+      "qid": "5.3.4"
+    },
+    {
+      "area": "Cargo Control Room",
+      "item": "Pump room: location of gas sensors, various pipings related to BWTS, procedure for cargo seachest pressure testing, MIMIC diagram of pipelines, high low suction, checked bilges",
+      "qid": "5.6.5"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Oxygen acetylene room",
+      "qid": "10.3.7"
+    },
+    {
+      "area": "Engine Room",
+      "item": "Fire station: hypermist and low expansion procedure from CO",
+      "qid": "5.2.13"
+    },
+    {
+      "area": "Internal Accommodation",
+      "item": "Galley: asked to remove exhaust mesh completely and pointed out oil deposits inside",
+      "qid": "5.2.8"
+    }
+  ],
+  "depth": {
+    "documents": 2,
+    "crew": 1,
+    "nav_equip": 1,
+    "passage": 1,
+    "bridge_team": 1,
+    "drills": 1,
+    "fire": 2,
+    "lsa": 2,
+    "permits": 2,
+    "safety": 2,
+    "pollution": 2,
+    "security": 0,
+    "cargo": 3,
+    "mooring": 2,
+    "engine": 2,
+    "photos": 1
+  },
+  "tips": [
+    "Carry a personal gas detector everywhere on deck rounds",
+    "Ensure pilot ladder uses mechanical splices, not manual splicing",
+    "Check galley exhaust mesh for oil deposits regularly",
+    "Verify fire axes have fully insulated handles",
+    "Ensure oxygen acetylene room lights are approved ones"
+  ],
+  "summary": "Inspector Mansoor Zaidi conducted a detailed SIRE inspection, focusing heavily on cargo operations and company procedures. He brought additional questions beyond the standard SIRE questionnaire and expected immediate answers. Several observations were raised, including manual splicing on a pilot ladder, incorrect recovery strop procedure, unapproved lights in oxygen room, fire axes without insulated handles, and oil deposits in galley exhaust. The inspection lasted about 11 hours, with the inspector active on deck despite his age."
+}
