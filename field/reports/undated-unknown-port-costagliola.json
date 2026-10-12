@@ -1,0 +1,191 @@
+{
+  "id": "undated-unknown-port-costagliola",
+  "date": "",
+  "inspector": "Costagliola",
+  "port": "",
+  "country": "Equatorial Guinea",
+  "terminal": "",
+  "vessel_type": "Unknown",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": null,
+  "high_risk": null,
+  "observations": [],
+  "positives": [],
+  "style": [],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Test the speed log.",
+      "qid": "4.1.8",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Test the navigation lights.",
+      "qid": "4.1.9",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the daily shapes and the Aldis lamp.",
+      "qid": "4.1.14",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the company UKC policy and how do you check it against the passage plan?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the passage plan.",
+      "qid": "4.2.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the company policy about distractions on the bridge?",
+      "qid": "4.3.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Show the security chart.",
+      "qid": "7.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What actions are taken before entering a high risk area?",
+      "qid": "7.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "How do you calculate safety contour, depth contour, shallow contour and deep contour?",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What distress signals do you carry, such as rocket parachute and hand flares?",
+      "qid": "5.4.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the planned maintenance for the radar and the hours for replacing both magnetrons?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the minimum required for planned maintenance of the radar?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is BMP5?",
+      "qid": "7.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Test the line throwing appliance for emergency use.",
+      "qid": "5.4.4",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What are the emergency contacts of the company, DPA and DCSO?",
+      "qid": "2.7.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the EPIRB.",
+      "qid": "4.4.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the SART.",
+      "qid": "4.4.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is the difference between S band and X band radar?",
+      "qid": "4.1.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What action is taken when you cannot respect the UKC?",
+      "qid": "4.2.2",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Check the passage plan on ECDIS with no go areas, PI, CR and all the points.",
+      "qid": "4.1.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What watch condition is written in the logbook?",
+      "qid": "4.3.1",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "What is LRIT?",
+      "qid": "4.4.5",
+      "answer": "unknown"
+    },
+    {
+      "rank": "",
+      "area": "Security",
+      "q": "Who is the SSO?",
+      "qid": "7.4.1",
+      "answer": "unknown"
+    }
+  ],
+  "checks": [],
+  "depth": {
+    "nav_equip": 3,
+    "passage": 3,
+    "bridge_team": 2,
+    "lsa": 2,
+    "security": 2
+  },
+  "tips": [],
+  "summary": "Inspector Costagliola carried out a SIRE inspection in Equatorial Guinea; the port and date were not given. He focused heavily on bridge navigation equipment, passage planning and UKC, and also covered security, LSA and emergency communications. He asked many specific questions and required practical tests and ECDIS checks."
+}
