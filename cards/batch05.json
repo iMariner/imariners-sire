@@ -1174,6 +1174,14 @@
      "Follow the contingency plan",
      "Officer must know it in advance"
     ]
+   },
+   {
+    "q": "What certification must you show for the personnel transfer basket?",
+    "a": [
+     "Maker's test certificate for the basket and accessories",
+     "Crane certificate for personnel transfer, if declared",
+     "Training records for the crew doing the transfer"
+    ]
    }
   ],
   "tip": "If you carry no PTB, be ready to speak well about the procedure instead: the inspector will focus on the plan, risk assessment and contingency.",
