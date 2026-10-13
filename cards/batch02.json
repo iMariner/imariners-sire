@@ -955,6 +955,14 @@
      "Match the lamp maker's specification",
      "Kept on board and listed"
     ]
+   },
+   {
+    "q": "Is the Aldis lamp in the planned maintenance system?",
+    "a": [
+     "Yes, with the periodic test recorded",
+     "Record the battery test and number of spare bulbs",
+     "Record the battery type and voltage checked"
+    ]
    }
   ],
   "tip": "Count the spare bulbs at every test and write the number in the record.",

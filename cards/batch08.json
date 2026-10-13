@@ -203,6 +203,14 @@
      "Inform the Master",
      "Do not continue unless the procedure allows it"
     ]
+   },
+   {
+    "q": "Must the high level alarm work separately from the gauging system?",
+    "a": [
+     "Yes, it must be independent of the tank gauging system",
+     "Test the alarm on its own and record the test",
+     "A reading shared with the gauging system is not accepted"
+    ]
    }
   ],
   "tip": "Keep the loading limits document next to the alarm test records in the CCR so both are ready together.",

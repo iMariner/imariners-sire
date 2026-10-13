@@ -748,6 +748,14 @@
      "Paint",
      "Strap missing after maintenance"
     ]
+   },
+   {
+    "q": "During STS, what device deals with static charge?",
+    "a": [
+     "The bonding connection between the two ships",
+     "Agreed in the STS procedure and the checklist",
+     "Checked and in place before transfer starts"
+    ]
    }
   ],
   "tip": "After any pipe work or painting on deck, walk the area and check every strap is back and clean.",
@@ -1055,7 +1063,8 @@
    "Any line, in use or spare, below 100% of ship design MBL",
    "Any tail below 125% of ship design MBL",
    "Joining shackle with safe working load below line working load limit",
-   "Values above range may be commented on by the inspector (lines over 105%, tails over 130%)"
+   "Values above range may be commented on by the inspector (lines over 105%, tails over 130%)",
+   "Synthetic rope used on a winch drum designed for wire"
   ],
   "say": "Our MSMP lists ship design MBL and line working load limit. All our lines, tails and shackles, including spares, have certificates and fall within the guideline ranges. I can show you the equipment list and certificates.",
   "practice": [
