@@ -1071,6 +1071,14 @@
      "Purge with IG until hydrocarbon is below the critical dilution line",
      "Never pass through the flammable range"
     ]
+   },
+   {
+    "q": "How is the inert gas generator used for a Jet A1 cargo?",
+    "a": [
+     "It keeps the cargo tanks inert while the cargo is on board",
+     "Use it during discharge, deballasting and tank cleaning",
+     "Gas free a tank only when entry is needed"
+    ]
    }
   ],
   "tip": "Know the oxygen reading in the main and in a tank at any time, since the inspector may ask you to measure.",
