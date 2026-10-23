@@ -8,12 +8,16 @@ What it does each run:
   3. Approve: the record is written to field/reports/, the raw text to the private repo, field-data.json is rebuilt.
   4. Card proposals from Hermes (pull requests labelled "hermes-cards") are sent to the owner with Merge / Close.
      Merge: the PR is merged and sire-data.json is rebuilt.
-State (Telegram offset, pending reports) lives in the private repo, so no report text ever lands in public logs.
+  5. Any other seafarer can send a report too (paste, forward, screenshot or file). Their messages go to an inbox
+     with no DeepSeek call. Once a day the inbox is cleaned up for free (split messages joined, exact and near
+     duplicates dropped, non-SIRE text dropped) and only the unique reports are read, at most DAILY_READS per day.
+     The owner gets the usual summaries plus one digest; senders are thanked when their report is published.
+State (Telegram offset, pending reports, inbox) lives in the private repo, so no report text ever lands in public logs.
 
 Environment: TELEGRAM_BOT_TOKEN, TELEGRAM_OWNER_ID, DEEPSEEK_API_KEY, DEEPSEEK_MODEL (optional),
 PRIVATE_REPO_TOKEN (contents read/write on the private repo), GITHUB_TOKEN (this repo), REPO, RAW_REPO.
 """
-import base64, datetime as dt, html, json, os, re, secrets, subprocess, sys, time, urllib.error, urllib.request
+import base64, datetime as dt, hashlib, html, json, os, random, re, secrets, subprocess, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +28,19 @@ OWNER = int(os.environ["TELEGRAM_OWNER_ID"])
 MODEL = os.environ.get("DEEPSEEK_MODEL") or "deepseek-chat"
 STATE_PATH = "state/bot.json"
 SPLIT_LEN = 3500          # Telegram cuts long pastes into ~4096 char parts; a part this long probably continues
+SEEN_PATH = "state/seen.json"     # fingerprints of every inbox report already read, so a repost is never read twice
+DIGEST_HOUR = int(os.environ.get("SIRE_DIGEST_HOUR") or 7)    # UTC hour of the daily inbox run
+DAILY_READS = int(os.environ.get("SIRE_DAILY_READS") or 15)   # DeepSeek reads per day at most; the rest wait a day
+DAILY_FILES = 20          # screenshots and files passed on to the owner per day at most
+SENDER_MSGS = 30          # messages one person can send per day
+SENDER_CHARS = 80000      # characters one person can send per day
+MAX_REPORT = 40000        # a single report is cut at this length before it is read
+JOIN_GAP = 180            # messages from one person this close together are one report
+NEAR_DUP = 0.7            # word overlap above this counts as the same report
+SITE = "https://imariners.com/sire-2-0/"
+SIRE_WORDS = ["sire", "inspector", "inspection", "vetting", "viq", "ocimf", "observation", "obs", "chapter", "asked",
+              "checked", "question", "master", "chief officer", "c/o", "2/o", "3/o", "chief engineer", "c/e", "2/e",
+              "bridge", "engine room", "ecr", "ccr", "cargo", "mooring", "deck", "officer", "crew", "terminal", "port"]
 TOPIC_KEYS = [t["k"] for t in json.loads((ROOT / "field" / "topics.json").read_text())]
 QIDS = {r["id"] for r in json.loads((ROOT / "cards" / "meta.json").read_text())}
 
@@ -138,11 +155,11 @@ def free_report_id(rid):
     return cand
 
 
-def summary_html(rec, key):
+def summary_html(rec, key, note=""):
     e = lambda s: html.escape(str(s if s is not None else ""))
     missing = [k for k in ("inspector", "port", "date") if not rec.get(k)]
     place = ", ".join(x for x in [rec.get("port"), rec.get("terminal"), rec.get("country")] if x) or "?"
-    lines = [f"<b>SIRE report</b>  <code>{key}</code>",
+    lines = [f"<b>SIRE report</b>  <code>{key}</code>"] + ([f"<i>{e(note)}</i>"] if note else []) + [
              f"Inspector: <b>{e(rec.get('inspector') or '?')}</b>",
              f"Port: {e(place)}   Date: {e(rec.get('date') or '?')}   Ship: {e(rec.get('vessel_type'))}",
              f"Observations: {e(rec.get('observations_total') if rec.get('observations_total') is not None else len(rec['observations']))}"
@@ -179,6 +196,9 @@ def load_state():
     state.setdefault("pending", {})
     state.setdefault("buffer", [])
     state.setdefault("notified_prs", [])
+    state.setdefault("inbox", [])          # messages from other seafarers, read once a day
+    state.setdefault("senders", {})        # per person per day: message and character counts, last thank-you
+    state.setdefault("digest_day", "")
     return state, state_sha
 
 
@@ -192,6 +212,8 @@ def main():
     state, sha = load_state()
     updates = tg("getUpdates", offset=state["offset"], timeout=0, allowed_updates=["message", "callback_query"]) or []
     cycle(state, updates, split_wait=90, check_prs=True)
+    if digest_due(state):
+        digest(state)
     save_state(state, sha)
     log(f"done: pending {len(state['pending'])}, buffered {len(state['buffer'])}")
 
@@ -216,11 +238,14 @@ def loop():
                     log("new bot code pulled, restarting")
                     save_state(state, sha)
                     sys.exit(0)
-            if updates or state["buffer"] or due_prs:
+            due_digest = digest_due(state)
+            if updates or state["buffer"] or due_prs or due_digest:
                 before = json.dumps(state, sort_keys=True)
-                if state["buffer"] or updates:
+                if state["buffer"] or updates or due_digest:
                     run("git", "pull", "--rebase", "--autostash", "-q")
                 cycle(state, updates, split_wait=12, check_prs=due_prs)
+                if due_digest:
+                    digest(state)
                 if due_prs:
                     last_prs = time.time()
                 if json.dumps(state, sort_keys=True) != before:
@@ -267,6 +292,12 @@ def cycle(state, updates, split_wait, check_prs):
             continue
         m = u.get("message") or {}
         fid = (m.get("from") or {}).get("id")
+        if fid and fid != OWNER and m.get("chat", {}).get("type") == "private" and not (m.get("from") or {}).get("is_bot"):
+            try:
+                public_message(m, state)
+            except Exception as e:
+                log(f"public message failed ({type(e).__name__})")
+            continue
         if fid != OWNER or m.get("chat", {}).get("type") != "private":
             # diagnostics without printing ids (logs are public)
             bot_id = int(os.environ["TELEGRAM_BOT_TOKEN"].split(":")[0]) if ":" in os.environ["TELEGRAM_BOT_TOKEN"] else 0
@@ -310,9 +341,9 @@ def cycle(state, updates, split_wait, check_prs):
     if check_prs:
         changed_cards |= notify_prs(state)
 
-    # keep at most 30 pending reports
-    if len(state["pending"]) > 30:
-        for k in sorted(state["pending"], key=lambda k: state["pending"][k]["created"])[:-30]:
+    # keep at most 60 pending reports
+    if len(state["pending"]) > 60:
+        for k in sorted(state["pending"], key=lambda k: state["pending"][k]["created"])[:-60]:
             del state["pending"][k]
 
     # Only source files are committed here. The "Rebuild SIRE data" GitHub workflow rebuilds sire-data.json and
@@ -346,11 +377,16 @@ def command(text, state):
     if cmd in ("/start", "/help"):
         msg = ("Paste or forward a SIRE 2.0 inspection report as text. I read it, show you a summary, and publish it "
                "to imariners.com when you tap Approve.\nReply to a summary to correct it (for example: port is Houston).\n"
-               "/status  what is in the database\n/pending  reports waiting for you")
+               "/status  what is in the database\n/pending  reports waiting for you\n"
+               f"/inbox  read what other seafarers sent now (otherwise daily at {DIGEST_HOUR:02d}:00 UTC)")
     elif cmd == "/status":
         f = json.loads((ROOT / "field-data.json").read_text()) if (ROOT / "field-data.json").exists() else {}
         msg = (f"Reports: {f.get('n_reports', 0)}\nInspectors: {f.get('n_inspectors', 0)}\nReal questions: {f.get('n_questions', 0)}\n"
-               f"Latest: {f.get('updated') or '-'}\nWaiting for you: {len(state['pending'])}")
+               f"Latest: {f.get('updated') or '-'}\nWaiting for you: {len(state['pending'])}\n"
+               f"Inbox from other seafarers: {len(state['inbox'])} messages from {len({i['chat'] for i in state['inbox']})} people")
+    elif cmd == "/inbox":
+        digest(state, manual=True)
+        return
     elif cmd == "/pending":
         msg = "\n".join(f"{k}: {p['record'].get('inspector') or '?'}, {p['record'].get('port') or '?'}" for k, p in state["pending"].items()) or "Nothing waiting."
     else:
@@ -366,24 +402,40 @@ def new_report(text, state):
     stage(text, "", state)
 
 
-def stage(text, correction, state, old_key=None):
+def stage(text, correction, state, old_key=None, inbox=None):
+    """Read one report and send the owner a summary per inspection. inbox = {"from": [chat ids], "note": str} for a
+    report from the inbox: then problems are counted in the digest instead of messaged, and an inspection that is
+    already on the page or already waiting is skipped. Returns what happened, for the digest."""
+    old = state["pending"].get(old_key) or {}
+    if inbox is None and old.get("from"):
+        inbox = {"from": old["from"], "note": old.get("note", ""), "correcting": True}
+    quiet = inbox is not None and not inbox.get("correcting")
+    say = (lambda t: None) if quiet else (lambda t: tg("sendMessage", chat_id=OWNER, text=t))
     try:
         res = extract(text, correction)
     except Exception as e:
         log("extract failed", type(e).__name__)
-        tg("sendMessage", chat_id=OWNER, text=f"Could not read it ({type(e).__name__}: {str(e)[:200]}). Send it again later.")
-        return
+        say(f"Could not read it ({type(e).__name__}: {str(e)[:200]}). Send it again later.")
+        return "failed"
     if not res.get("is_sire_report"):
-        tg("sendMessage", chat_id=OWNER, text=f"Not a SIRE report: {res.get('reason', '')}\nTopic: {res.get('topic_hint', '')}")
-        return
+        say(f"Not a SIRE report: {res.get('reason', '')}\nTopic: {res.get('topic_hint', '')}")
+        return "not_sire"
     if res.get("kind") == "question_list" or res.get("list"):
-        stage_list(text, res.get("list") or {}, correction, state, old_key)
-        return
+        return stage_list(text, res.get("list") or {}, correction, state, old_key, inbox)
     recs = res.get("reports") or ([res["report"]] if res.get("report") else [])
     recs = [r for r in recs if isinstance(r, dict)]
     if not recs:
-        tg("sendMessage", chat_id=OWNER, text="I could not find an inspection in that text. Send it again with more detail.")
-        return
+        say("I could not find an inspection in that text. Send it again with more detail.")
+        return "not_sire"
+    if quiet:
+        # free check after reading: same date, port and inspector as a published or waiting report
+        waiting = {p["record"].get("id") for p in state["pending"].values()}
+        known = lambda r: (r["date"] and r.get("port") and r.get("inspector")
+                           and ((ROOT / "field" / "reports" / f"{r['id']}.json").exists() or r["id"] in waiting))
+        normed = [normalise(r) for r in recs]
+        recs = [r for r in normed if not known(r)]
+        if not recs:
+            return "on_page"
     if old_key and len(recs) > 1:
         # a correction to one summary: keep only that inspection
         want = slug((state["pending"].get(old_key) or {}).get("record", {}).get("inspector"))
@@ -393,27 +445,32 @@ def stage(text, correction, state, old_key=None):
     for n, r in enumerate(recs):
         rec = normalise(r)
         key = old_key if (old_key and n == 0) else secrets.token_hex(4)
-        msg = tg("sendMessage", chat_id=OWNER, text=summary_html(rec, key), parse_mode="HTML",
+        msg = tg("sendMessage", chat_id=OWNER, text=summary_html(rec, key, (inbox or {}).get("note", "")), parse_mode="HTML",
                  reply_markup=keyboard(("Approve and publish", f"ok:{key}"), ("Reject", f"no:{key}")))
         state["pending"][key] = {"record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
                                  "created": int(time.time())}
+        if inbox:
+            state["pending"][key].update({"from": inbox["from"], "note": inbox.get("note", "")})
         log(f"staged {key}")
+    return "staged"
 
 
-def stage_list(text, L, correction, state, old_key=None):
+def stage_list(text, L, correction, state, old_key=None, inbox=None):
     qs = [x for x in (L.get("questions") or []) if isinstance(x, dict) and x.get("q")]
     for x in qs:
         if x.get("qid") not in QIDS:
             x["qid"] = ""
     if not qs:
-        tg("sendMessage", chat_id=OWNER, text="That looks like a question list, but I could not read any questions from it.")
-        return
+        if not inbox or inbox.get("correcting"):
+            tg("sendMessage", chat_id=OWNER, text="That looks like a question list, but I could not read any questions from it.")
+        return "not_sire"
     title = (L.get("title") or "Shared SIRE question list").strip()
     rec = {"id": slug(title)[:60] + "-" + time.strftime("%Y-%m"), "title": title, "source": L.get("source", ""),
            "added": time.strftime("%Y-%m-%d"), "questions": qs}
     key = old_key or secrets.token_hex(4)
     e = lambda v: html.escape(str(v or ""))
-    lines = [f"<b>Question list</b> (not an inspection)  <code>{key}</code>", f"<b>{e(title)}</b>", f"Source: {e(rec['source']) or '?'}",
+    lines = [f"<b>Question list</b> (not an inspection)  <code>{key}</code>"] + ([f"<i>{e(inbox['note'])}</i>"] if (inbox or {}).get("note") else []) + [
+             f"<b>{e(title)}</b>", f"Source: {e(rec['source']) or '?'}",
              f"Questions: {len(qs)}   Matched to a SIRE question: {sum(1 for x in qs if x['qid'])}", ""]
     lines += [f"- {e(x.get('rank') or '?')}: {e(x['q'])} [{e(x['qid'] or 'no match')}]" for x in qs[:10]]
     if len(qs) > 10:
@@ -423,7 +480,10 @@ def stage_list(text, L, correction, state, old_key=None):
              reply_markup=keyboard(("Approve and publish", f"ok:{key}"), ("Reject", f"no:{key}")))
     state["pending"][key] = {"type": "list", "record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
                              "created": int(time.time())}
+    if inbox:
+        state["pending"][key].update({"from": inbox["from"], "note": inbox.get("note", "")})
     log(f"staged list {key}")
+    return "staged"
 
 
 def correct(key, text, state):
@@ -468,6 +528,9 @@ def handle_callback(cq, state):
         tg("sendMessage", chat_id=OWNER, reply_to_message_id=mid,
            text=(f"Added the question list ({len(rec['questions'])} questions) to the SIRE page." if p.get("type") == "list" else f"Published as {rec['id']}. The SIRE page updates in a few minutes."))
         log("approved", rec["id"])
+        for chat in set(p.get("from") or []):
+            tg_soft("sendMessage", chat_id=chat, disable_web_page_preview=True,
+                    text=f"Thank you. The SIRE report you sent is now on {SITE}\nIt will help the next crew get ready. Send more any time.")
         return "report"
     if action in ("merge", "close"):
         n = int(arg)
@@ -490,6 +553,201 @@ def handle_callback(cq, state):
            text="Merged. The study cards on the page update within a couple of minutes." if action == "merge" else "Closed. No change made.")
         return "cards" if action == "merge" else None
     return None
+
+
+# ---------------------------------------------------------------- inbox: reports from other seafarers
+WELCOME = ("Hi! Send a SIRE 2.0 inspection report here. It helps every seafarer get ready for their next inspection.\n\n"
+           "Paste it, forward it, or send a screenshot or file. Anything helps: a full report, the observations, "
+           "or just what the inspector asked and checked.\n\n"
+           "Please remove the ship's name and crew names first.\n\n"
+           f"Reports are checked once a day and added to {SITE}\nYou will get a message when yours is added.")
+THANKS = ("Got it, thank you! Send more any time.\n"
+          f"Reports are checked once a day. You will get a message when yours is added to {SITE}")
+
+
+def today_utc():
+    return dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+
+
+def file_of(m):
+    if m.get("photo"):
+        return {"kind": "photo", "uid": m["photo"][-1]["file_unique_id"]}
+    for k in ("document", "video"):
+        if m.get(k):
+            return {"kind": k, "uid": m[k]["file_unique_id"]}
+    return None
+
+
+def public_message(m, state):
+    """A message from anyone but the owner: queue it for the daily run. No DeepSeek here, so it costs nothing."""
+    chat = m["chat"]["id"]
+    reply = lambda t: tg_soft("sendMessage", chat_id=chat, text=t, disable_web_page_preview=True)
+    s = state["senders"].setdefault(str(chat), {})
+    if s.get("day") != today_utc():
+        s.update(day=today_utc(), msgs=0, chars=0, warned=False)
+    text = (m.get("text") or m.get("caption") or "").strip()
+    f = file_of(m)
+    if text.startswith("/") and not f:
+        reply(WELCOME)
+        return
+    recent = any(i["chat"] == chat and m.get("date", 0) - i["date"] <= JOIN_GAP for i in state["inbox"])
+    if not f and len(text) < 40 and not recent:
+        reply(WELCOME)      # "hi", "thanks", a sticker: show how it works instead of queueing it
+        return
+    if s["msgs"] >= SENDER_MSGS or s["chars"] + len(text) > SENDER_CHARS:
+        if not s["warned"]:
+            s["warned"] = True
+            reply("Thank you, that is a lot for one day. Please send the rest tomorrow.")
+        return
+    s["msgs"] += 1
+    s["chars"] += len(text)
+    item = {"chat": chat, "date": m.get("date") or int(time.time()), "mid": m["message_id"]}
+    if text:
+        item["t"] = text
+    if f:
+        item["file"] = f
+    state["inbox"].append(item)
+    if time.time() - s.get("ack", 0) > 300:     # one thank-you per burst, not one per split part
+        s["ack"] = int(time.time())
+        reply(THANKS)
+    log("inbox +1")
+
+
+_PRIME = (1 << 61) - 1
+_PERM = [(3 + 2 * random.Random(n).randrange(1 << 40), n * 7919 + 1) for n in range(32)]   # fixed: fingerprints must stay comparable across restarts
+
+
+def fingerprint(text):
+    """Exact fingerprint plus a 32-number MinHash of 5-word phrases. Spacing, case, links and
+    "Forwarded from" lines are ignored, so forwards and re-pastes of one report look the same."""
+    t = re.sub(r"(?im)^.*forwarded (from|message).*$", " ", text.lower())
+    w = re.findall(r"[a-z0-9]+", re.sub(r"https?://\S+", " ", t))
+    shingles = {" ".join(w[i:i + 5]) for i in range(max(1, len(w) - 4))}
+    hs = [int.from_bytes(hashlib.blake2b(x.encode(), digest_size=8).digest(), "big") for x in shingles]
+    mh = [min((a * h + b) % _PRIME for h in hs) & 0xFFFFFFFF for a, b in _PERM]
+    return hashlib.sha256(" ".join(w).encode()).hexdigest()[:16], mh
+
+
+def same_report(a, b):
+    return a["fp"] == b["fp"] or sum(x == y for x, y in zip(a["mh"], b["mh"])) / len(a["mh"]) >= NEAR_DUP
+
+
+def sire_like(text):
+    t = text.lower()
+    return sum(1 for k in SIRE_WORDS if re.search(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])", t)) >= 2   # every real report so far has 2 or more
+
+
+def digest_due(state):
+    now = dt.datetime.now(dt.timezone.utc)
+    return now.hour >= DIGEST_HOUR and state["digest_day"] != now.strftime("%Y-%m-%d")
+
+
+def digest(state, manual=False):
+    """The daily inbox run. Free steps first (join split messages, drop non-SIRE text, drop exact and near
+    duplicates of anything seen before), then DeepSeek only for what is left, at most DAILY_READS a day."""
+    day = today_utc()
+    if not manual:
+        state["digest_day"] = day
+    state["senders"] = {k: v for k, v in state["senders"].items() if v.get("day") == day}
+    reads = state.get("reads") if (state.get("reads") or {}).get("day") == day else {"day": day, "n": 0, "files": 0}
+    state["reads"] = reads
+    now = time.time()
+    ready = [i for i in state["inbox"] if now - i["date"] > JOIN_GAP]   # newer ones may still be getting more parts
+    if not ready:
+        if manual:
+            tg("sendMessage", chat_id=OWNER, text="The inbox is empty.")
+        return
+    state["inbox"] = [i for i in state["inbox"] if now - i["date"] <= JOIN_GAP]
+
+    subs = []   # one submission = one person's messages sent close together
+    for i in sorted(ready, key=lambda i: (i["chat"], i["date"], i["mid"])):
+        if subs and subs[-1]["chat"] == i["chat"] and i["date"] - subs[-1]["last"] <= JOIN_GAP:
+            subs[-1]["items"].append(i)
+        else:
+            subs.append({"chat": i["chat"], "items": [i]})
+        subs[-1]["last"] = i["date"]
+
+    raw, seen_sha = priv_get(SEEN_PATH)
+    seen = json.loads(raw) if raw else []
+    c = dict.fromkeys(["dup", "short", "staged", "not_sire", "on_page", "failed", "wait"], 0)
+    texts, files = [], []   # unique new reports and files, each with every submission that sent it
+    for sub in subs:
+        text = "\n".join(i["t"] for i in sub["items"] if i.get("t"))
+        if len(text) >= 200 and sire_like(text):
+            fp, mh = fingerprint(text)
+            u = {"fp": fp, "mh": mh}
+            old = next((s for s in seen if "fp" in s and same_report(s, u)), None)
+            new = next((x for x in texts if same_report(x, u)), None)
+            if old:
+                old["n"] = old.get("n", 1) + 1
+                c["dup"] += 1
+            elif new:
+                new["subs"].append(sub)
+                c["dup"] += 1
+            else:
+                texts.append(dict(u, text=text[:MAX_REPORT], subs=[sub]))
+        elif text and not any(i.get("file") for i in sub["items"]):
+            c["short"] += 1
+        for i in sub["items"]:
+            if not i.get("file"):
+                continue
+            old = next((s for s in seen if s.get("uid") == i["file"]["uid"]), None)
+            new = next((x for x in files if x["uid"] == i["file"]["uid"]), None)
+            if old:
+                old["n"] = old.get("n", 1) + 1
+                c["dup"] += 1
+            elif new:
+                new["items"].append(i)
+                c["dup"] += 1
+            else:
+                files.append({"uid": i["file"]["uid"], "items": [i]})
+
+    for u in texts:
+        if reads["n"] >= DAILY_READS:
+            c["wait"] += 1
+            state["inbox"] += [i for s in u["subs"] for i in s["items"]]   # read tomorrow, not lost
+            continue
+        chats = sorted({s["chat"] for s in u["subs"]})
+        note = f"From the inbox: sent by {len(chats)} {'person' if len(chats) == 1 else 'people'}"
+        reads["n"] += 1
+        try:
+            outcome = stage(u["text"], "", state, inbox={"from": chats, "note": note})
+        except Exception as e:
+            log("inbox read failed", type(e).__name__)
+            outcome = "failed"
+        c[outcome] += 1
+        if outcome == "failed":
+            state["inbox"] += [i for s in u["subs"] for i in s["items"]]
+        else:
+            seen.append({"fp": u["fp"], "mh": u["mh"], "n": len(u["subs"]), "t": day})
+
+    lines = ["<b>SIRE inbox</b>" + (" (daily)" if not manual else ""),
+             f"Received: {len(ready)} messages from {len({i['chat'] for i in ready})} people"]
+    for k, label in [("staged", "New reports, summaries above"), ("dup", "Duplicates dropped (no cost)"),
+                     ("on_page", "Already on the page or waiting for you"), ("not_sire", "Read, but not a SIRE report"),
+                     ("short", "Too short or not about SIRE (not read)"), ("failed", "Could not read, will retry tomorrow"),
+                     ("wait", f"Over today's limit of {DAILY_READS} reads, will read tomorrow")]:
+        if c[k]:
+            lines.append(f"{label}: {c[k]}")
+    send_files = files[:max(0, DAILY_FILES - reads["files"])]
+    for x in files[len(send_files):]:
+        state["inbox"] += x["items"]
+    if send_files:
+        lines.append(f"Screenshots and files below: {len(send_files)}. Paste me the text of any you want added.")
+    tg("sendMessage", chat_id=OWNER, text="\n".join(lines), parse_mode="HTML")
+    for x in send_files:
+        i = x["items"][0]
+        try:
+            tg("copyMessage", chat_id=OWNER, from_chat_id=i["chat"], message_id=i["mid"])
+            reads["files"] += 1
+            seen.append({"uid": x["uid"], "n": len(x["items"]), "t": day})
+        except Exception as e:
+            log("file copy failed", type(e).__name__)
+    try:
+        priv_put(SEEN_PATH, json.dumps(seen[-1500:]), "Inbox fingerprints", seen_sha)
+    except Exception as e:
+        log("seen save failed", type(e).__name__)
+    log(f"digest: {len(ready)} messages, " + ", ".join(f"{k} {v}" for k, v in c.items()))
 
 
 def notify_prs(state):
