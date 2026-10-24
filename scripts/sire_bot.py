@@ -8,7 +8,7 @@ What it does each run:
   3. Approve: the record is written to field/reports/, the raw text to the private repo, field-data.json is rebuilt.
   4. Card proposals from Hermes (pull requests labelled "hermes-cards") are sent to the owner with Merge / Close.
      Merge: the PR is merged and sire-data.json is rebuilt.
-  5. Any other seafarer can send a report too (paste, forward, screenshot or file). Their messages go to an inbox
+  5. Any other seafarer can send a report too (paste, forward, or a PDF; photos and other files are declined). Their messages go to an inbox
      with no DeepSeek call. Once a day the inbox is cleaned up for free (split messages joined, exact and near
      duplicates dropped, non-SIRE text dropped) and only the unique reports are read, at most DAILY_READS per day.
      The owner gets the usual summaries plus one digest; senders are thanked when their report is published.
@@ -17,7 +17,7 @@ State (Telegram offset, pending reports, inbox) lives in the private repo, so no
 Environment: TELEGRAM_BOT_TOKEN, TELEGRAM_OWNER_ID, DEEPSEEK_API_KEY, DEEPSEEK_MODEL (optional),
 PRIVATE_REPO_TOKEN (contents read/write on the private repo), GITHUB_TOKEN (this repo), REPO, RAW_REPO.
 """
-import base64, datetime as dt, hashlib, html, json, os, random, re, secrets, subprocess, sys, time, urllib.error, urllib.request
+import base64, datetime as dt, hashlib, html, io, json, os, random, re, secrets, subprocess, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,6 +34,8 @@ DAILY_READS = int(os.environ.get("SIRE_DAILY_READS") or 15)   # DeepSeek reads p
 DAILY_FILES = 20          # screenshots and files passed on to the owner per day at most
 SENDER_MSGS = 30          # messages one person can send per day
 SENDER_CHARS = 80000      # characters one person can send per day
+PDF_MAX_BYTES = 15_000_000   # bigger PDFs are asked for as text (Telegram bots can fetch 20 MB at most)
+PDF_MAX_PAGES = 60
 MAX_REPORT = 40000        # a single report is cut at this length before it is read
 JOIN_GAP = 180            # messages from one person this close together are one report
 NEAR_DUP = 0.7            # word overlap above this counts as the same report
@@ -305,9 +307,17 @@ def cycle(state, updates, split_wait, check_prs):
                 f"sender_digits={len(str(fid))} owner_digits={len(str(OWNER))} owner_is_bot_id={OWNER == bot_id}")
             continue
         text = (m.get("text") or m.get("caption") or "").strip()
+        f = file_of(m)
+        if f and f["kind"] == "pdf":
+            body = pdf_text(f["fid"])
+            if len(body) < 200:
+                tg("sendMessage", chat_id=OWNER, text="I could not read text from that PDF (scanned pages, locked or too big). Paste the text of the report instead.")
+                continue
+            text = (text + "\n" + body).strip()
+        elif f or m.get("photo"):
+            tg("sendMessage", chat_id=OWNER, text="I can read text and PDF files only. Paste the report, or send it as a PDF.")
+            continue
         if not text:
-            if m.get("document") or m.get("photo"):
-                tg("sendMessage", chat_id=OWNER, text="Send the report as text (paste it). Files and photos are not read yet.")
             continue
         if text.startswith("/"):
             command(text, state)
@@ -555,9 +565,35 @@ def handle_callback(cq, state):
     return None
 
 
+# ---------------------------------------------------------------- PDF reports
+def is_pdf(m):
+    d = m.get("document") or {}
+    return d.get("mime_type") == "application/pdf" or (d.get("file_name") or "").lower().endswith(".pdf")
+
+
+def pdf_text(file_id):
+    """Text of a PDF sent to the bot, or "" when it cannot be read (scanned pages, too big, locked, broken).
+    Free: no DeepSeek call. Only the exception type is logged, never a path or content."""
+    try:
+        from pypdf import PdfReader
+        info = tg("getFile", file_id=file_id)
+        if info.get("file_size", 0) > PDF_MAX_BYTES:
+            return ""
+        url = "https://api.telegram.org/file/bot" + os.environ["TELEGRAM_BOT_TOKEN"] + "/" + info["file_path"]
+        with urllib.request.urlopen(url, timeout=60) as r:
+            data = r.read(PDF_MAX_BYTES + 1)
+        reader = PdfReader(io.BytesIO(data))
+        if reader.is_encrypted:
+            return ""
+        return "\n".join((p.extract_text() or "") for p in reader.pages[:PDF_MAX_PAGES]).strip()
+    except Exception as e:
+        log("pdf read failed", type(e).__name__)
+        return ""
+
+
 # ---------------------------------------------------------------- inbox: reports from other seafarers
 WELCOME = ("Hi! Send a SIRE 2.0 inspection report here. It helps every seafarer get ready for their next inspection.\n\n"
-           "Paste it, forward it, or send a screenshot or file. Anything helps: a full report, the observations, "
+           "Paste it, forward it, or send it as a PDF. Anything helps: a full report, the observations, "
            "or just what the inspector asked and checked.\n\n"
            "Please remove the ship's name and crew names first.\n\n"
            f"Reports are checked once a day and added to {SITE}\nYou will get a message when yours is added.")
@@ -574,7 +610,10 @@ def file_of(m):
         return {"kind": "photo", "uid": m["photo"][-1]["file_unique_id"]}
     for k in ("document", "video"):
         if m.get(k):
-            return {"kind": k, "uid": m[k]["file_unique_id"]}
+            f = {"kind": k, "uid": m[k]["file_unique_id"]}
+            if k == "document" and is_pdf(m):
+                f.update(kind="pdf", fid=m[k]["file_id"], size=m[k].get("file_size", 0))
+            return f
     return None
 
 
@@ -587,6 +626,12 @@ def public_message(m, state):
         s.update(day=today_utc(), msgs=0, chars=0, warned=False)
     text = (m.get("text") or m.get("caption") or "").strip()
     f = file_of(m)
+    if f and f["kind"] != "pdf":
+        reply("Thank you. I can read text and PDF files only. Please paste the report, or send it as a PDF.")
+        return
+    if f and f["size"] > PDF_MAX_BYTES:
+        reply("That PDF is too big for me. Please paste the text of the report instead.")
+        return
     if text.startswith("/") and not f:
         reply(WELCOME)
         return
@@ -671,8 +716,15 @@ def digest(state, manual=False):
     seen = json.loads(raw) if raw else []
     c = dict.fromkeys(["dup", "short", "staged", "not_sire", "on_page", "failed", "wait"], 0)
     texts, files = [], []   # unique new reports and files, each with every submission that sent it
+    pdfs = {}   # id(item) -> text read from its PDF (kept out of the saved state)
     for sub in subs:
-        text = "\n".join(i["t"] for i in sub["items"] if i.get("t"))
+        parts = [i["t"] for i in sub["items"] if i.get("t")]
+        for i in sub["items"]:
+            if (i.get("file") or {}).get("kind") == "pdf":
+                pdfs[id(i)] = pdf_text(i["file"]["fid"])
+                if pdfs[id(i)]:
+                    parts.append(pdfs[id(i)])
+        text = "\n".join(parts)
         if len(text) >= 200 and sire_like(text):
             fp, mh = fingerprint(text)
             u = {"fp": fp, "mh": mh}
@@ -686,11 +738,11 @@ def digest(state, manual=False):
                 c["dup"] += 1
             else:
                 texts.append(dict(u, text=text[:MAX_REPORT], subs=[sub]))
-        elif text and not any(i.get("file") for i in sub["items"]):
+        elif text and not any(i.get("file") and not pdfs.get(id(i)) for i in sub["items"]):
             c["short"] += 1
         for i in sub["items"]:
-            if not i.get("file"):
-                continue
+            if not i.get("file") or pdfs.get(id(i)):
+                continue    # PDFs with readable text were read above; scanned ones go to the owner as files
             old = next((s for s in seen if s.get("uid") == i["file"]["uid"]), None)
             new = next((x for x in files if x["uid"] == i["file"]["uid"]), None)
             if old:

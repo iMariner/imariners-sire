@@ -18,7 +18,7 @@ To use it: set the four repo secrets, set `SIRE_BOT_ENABLED=true`, and stop the 
 
 ## Reports from other seafarers (inbox, added 2026-10-23)
 
-Anyone can open the bot, tap Start and paste, forward or send a screenshot or file. They get one thank-you, and the
+Anyone can open the bot, tap Start and paste, forward or send a PDF. Photos and other files get a polite "text or PDF only" reply. They get one thank-you, and the
 message goes into `inbox` in the private state file. **No DeepSeek call happens when a message arrives.**
 
 Once a day at `SIRE_DIGEST_HOUR` UTC (default 07) the bot runs the inbox, or straight away when the owner sends `/inbox`:
@@ -30,7 +30,12 @@ Once a day at `SIRE_DIGEST_HOUR` UTC (default 07) the bot runs the inbox, or str
 4. DeepSeek reads only what is left, at most `SIRE_DAILY_READS` (default 15) a day; the rest waits a day.
    An inspection with the same date, port and inspector as a published or waiting one gets no summary.
 5. The owner gets the usual Approve/Reject summaries ("sent by N people"), one digest with the counts, and copies
-   of new screenshots and files (at most 20 a day; paste the text back to have one read).
+   of PDFs that have no readable text, such as scans (at most 20 a day; paste the text back to have one read).
+
+**PDFs (added 2026-10-24):** the bot reads the text of a PDF (up to 60 pages, 15 MB) with the `pypdf` library, free, and treats
+it exactly like a pasted report (same filters, duplicate check and DeepSeek summary). Owner PDFs are read straight away.
+Scanned PDFs have no text and are passed to the owner as before. `pypdf` is installed for `claudeops` in
+`~/.local/lib/python3.12/site-packages` (the VPS has no pip: unzip the wheel there). Without it PDFs are treated as unreadable.
 6. On Approve, everyone who sent that report gets a thank-you with the page link.
 
 Limits per person per day: 30 messages, 80,000 characters. Group chats and other bots are ignored.
