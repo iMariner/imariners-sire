@@ -314,7 +314,8 @@ def cycle(state, updates, split_wait, check_prs):
             if len(body) < 200:
                 tg("sendMessage", chat_id=OWNER, text="I could not read text from that PDF (scanned pages, locked or too big). Paste the text of the report instead.")
                 continue
-            text = (text + "\n" + body).strip()
+            texts.append({"t": (text + "\n" + body).strip(), "date": m.get("date", 0), "id": m["message_id"], "pdf": True})   # one whole report, never a split paste
+            continue
         elif f or m.get("photo"):
             tg("sendMessage", chat_id=OWNER, text="I can read text and PDF files only. Paste the report, or send it as a PDF.")
             continue
@@ -335,14 +336,14 @@ def cycle(state, updates, split_wait, check_prs):
     queue = state["buffer"] + texts
     state["buffer"], reports, cur = [], [], []
     for part in queue:
-        if cur and len(cur[-1]["t"]) >= SPLIT_LEN and part["date"] - cur[-1]["date"] <= 120:
+        if cur and len(cur[-1]["t"]) >= SPLIT_LEN and part["date"] - cur[-1]["date"] <= 120 and not (part.get("pdf") or cur[-1].get("pdf")):
             cur.append(part)
         else:
             if cur:
                 reports.append(cur)
             cur = [part]
     if cur:
-        if len(cur[-1]["t"]) >= SPLIT_LEN and time.time() - cur[-1]["date"] < split_wait:
+        if len(cur[-1]["t"]) >= SPLIT_LEN and not cur[-1].get("pdf") and time.time() - cur[-1]["date"] < split_wait:
             state["buffer"] = cur        # more parts may still be on the way
         else:
             reports.append(cur)
