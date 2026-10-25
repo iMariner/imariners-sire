@@ -47,6 +47,17 @@ Rules:
 - No vessel names, no crew names. Crew are referred to by rank only. No personal remarks about the inspector beyond how he inspects.
 - Plain ASCII, no em dashes.
 
+OBSERVATION DECLARATION forms (the official "SIRE 2.0 EDITOR - Observation Declaration" export, often scanned or OCR text, so words can be garbled):
+- Every question block has the question number and text, then one or more ENTRIES, each with a response label and a short description. Read every entry. Never skip one, never merge two different findings.
+- An entry labelled "Not as expected", "Observable or detectable deficiency", "procedure and/or document deficient", "Photo not representative" or similar is one OBSERVATION. Put it in observations (plain words, one per entry, qid = the question's SIRE id).
+- type: Hardware label = "hardware"; Human label (Deck team, Rating, Junior Deck Officer, Senior Engineer Officer) = "human"; Process label = "process"; "Photo not representative" = "process".
+- An entry labelled "Exceeded normal expectation" is a POSITIVE. Put it in positives (plain words, say what was demonstrated), NOT in observations.
+- The same question can have a Hardware entry and a Human entry about the same fault: keep them as two observations only if they say different things; if the text is identical or nearly identical, keep one.
+- The questions list holds every question block on the form once, in form order. Photo comparison blocks "11. General Appearance and Condition / 40." are questions with qid 11.1.40 (the number after the dot is the photograph number). rank = the rank the entry names (Junior Deck Officer = 3o, Senior Engineer Officer = 2e, Master = master, Chief Officer = co); if no rank is named, leave "" (never guess).
+- observations_total = the number of items in observations (positives are not counted). high_risk = null. The inspector is not on these forms: inspector = "". hours/start/end/schedule unknown.
+- Photo observations count towards depth topic "photos".
+- In summary, never write how many observations, positives or questions there were (the bot prints the exact counts itself). Describe what was found.
+
 
 Topic keys for "depth" (each covers SIRE question ids starting with the prefixes shown):
 [{"k": "documents", "name": "Certificates and documents", "prefix": ["2."]}, {"k": "crew", "name": "Crew records and rest hours", "prefix": ["3."]}, {"k": "nav_equip", "name": "Bridge equipment (ECDIS, radar)", "prefix": ["4.1."]}, {"k": "passage", "name": "Passage planning and UKC", "prefix": ["4.2."]}, {"k": "bridge_team", "name": "Bridge team and comms", "prefix": ["4.3.", "4.4.", "4.5."]}, {"k": "drills", "name": "Emergency plans and drills", "prefix": ["5.1."]}, {"k": "fire", "name": "Fire fighting", "prefix": ["5.2.", "5.3."]}, {"k": "lsa", "name": "Life saving appliances", "prefix": ["5.4."]}, {"k": "permits", "name": "Permits, enclosed space, gas detection", "prefix": ["5.5.", "5.6."]}, {"k": "safety", "name": "Safety management and housekeeping", "prefix": ["5.7.", "5.8.", "5.9.", "5.10.", "5.11.", "5.12."]}, {"k": "pollution", "name": "Pollution prevention and record books", "prefix": ["6."]}, {"k": "security", "name": "Security and cyber", "prefix": ["7."]}, {"k": "cargo", "name": "Cargo, ballast and CCR", "prefix": ["8."]}, {"k": "mooring", "name": "Mooring and anchoring", "prefix": ["9."]}, {"k": "engine", "name": "Engine room and alarms", "prefix": ["10."]}, {"k": "photos", "name": "Hull and photo condition", "prefix": ["11."]}]

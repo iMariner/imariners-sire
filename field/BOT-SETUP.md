@@ -34,6 +34,12 @@ Once a day at `SIRE_DIGEST_HOUR` UTC (default 07) the bot runs the inbox, or str
 
 **PDFs (added 2026-10-24):** the bot reads the text of a PDF (up to 60 pages, 15 MB) with the `pypdf` library, free, and treats
 it exactly like a pasted report (same filters, duplicate check and DeepSeek summary). Owner PDFs are read straight away.
+The official "SIRE 2.0 EDITOR - Observation Declaration" form has its own rules in `field/extract_prompt.txt`: every
+"Not as expected" / "deficient" / "Photo not representative" entry is one observation, "Exceeded normal expectation" entries are
+positives (shown on the card under Positives), the count in the card header always equals the list. After the AI answers, the
+bot counts the form's own positive and photo labels in the text; if the AI listed fewer it is asked once more, and if it is
+still short the card says "Check this one against the form". Long cards are shortened step by step so they fit Telegram.
+
 Scanned PDFs (a photo of each page, no text) are read by OCR: `pdftoppm` + `tesseract` (apt packages `tesseract-ocr`,
 `tesseract-ocr-eng`, `poppler-utils`, installed 2026-10-24), first 20 pages, about 13 s for 5 pages, nothing leaves the VPS.
 A PDF that still gives no text is passed to the owner as a file. `pypdf` is installed for `claudeops` in

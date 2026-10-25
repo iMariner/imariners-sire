@@ -128,6 +128,30 @@ def extract(text, correction=""):
     return json.loads(choice["message"]["content"])
 
 
+def declared_counts(text):
+    """Entries that an Observation Declaration form states in plain words. These labels are never repeated for one
+    finding, so they give a free check on what the AI listed. None for any other kind of report."""
+    if not re.search(r"observation\s+declaration", text, re.I):
+        return None
+    return {"positives": len(re.findall(r"exceeded\s+normal\s+expect", text, re.I)),
+            "photos": len(re.findall(r"photo\s+not\s+representative", text, re.I))}
+
+
+def missing_entries(text, recs):
+    """What the AI left out of a declaration form, as a sentence ('' when it all matches)."""
+    want = declared_counts(text)
+    if not want or len(recs) != 1:
+        return ""
+    r = recs[0]
+    got_photos = sum(1 for o in r.get("observations") or [] if re.search(r"photo", str(o.get("text")), re.I))
+    gaps = []
+    if len(r.get("positives") or []) < want["positives"]:
+        gaps.append(f"the form has {want['positives']} entries labelled 'Exceeded normal expectation' (positives), you listed {len(r.get('positives') or [])}")
+    if got_photos < want["photos"]:
+        gaps.append(f"the form has {want['photos']} entries labelled 'Photo not representative', you listed {got_photos} photo observations")
+    return "; ".join(gaps)
+
+
 def normalise(rec):
     d = {"date": "", "inspector": "", "port": "", "country": "", "terminal": "", "vessel_type": "Unknown", "hours": None,
          "start": None, "end": None, "schedule": [], "observations_total": None, "high_risk": None, "observations": [],
@@ -143,6 +167,7 @@ def normalise(rec):
         for x in rec[arr]:
             if x.get("qid") not in QIDS:
                 x["qid"] = ""
+    rec["positives"] = [str(x) for x in rec["positives"] if x]
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", rec.get("date") or ""):
         rec["date"] = ""
     place = rec.get("port") or rec.get("terminal") or "unknown-port"
@@ -160,31 +185,44 @@ def free_report_id(rid):
 
 def summary_html(rec, key, note=""):
     e = lambda s: html.escape(str(s if s is not None else ""))
+    cut = lambda t, n: t if n is None or len(str(t)) <= n else str(t)[:n].rsplit(" ", 1)[0] + "..."
     missing = [k for k in ("inspector", "port", "date") if not rec.get(k)]
     place = ", ".join(x for x in [rec.get("port"), rec.get("terminal"), rec.get("country")] if x) or "?"
-    lines = [f"<b>SIRE report</b>  <code>{key}</code>"] + ([f"<i>{e(note)}</i>"] if note else []) + [
-             f"Inspector: <b>{e(rec.get('inspector') or '?')}</b>",
-             f"Port: {e(place)}   Date: {e(rec.get('date') or '?')}   Ship: {e(rec.get('vessel_type'))}",
-             f"Observations: {e(rec.get('observations_total') if rec.get('observations_total') is not None else len(rec['observations']))}"
-             f"   Questions: {len(rec['questions'])}   Checks: {len(rec['checks'])}",
-             "Depth: " + (", ".join(f"{k} {v}" for k, v in sorted(rec["depth"].items(), key=lambda kv: -kv[1])) or "none")]
-    if rec["observations"]:
-        lines.append("\n<b>Observations</b>")
-        lines += [f"- {e(o.get('text'))} [{e(o.get('qid') or 'no match')}]" for o in rec["observations"][:8]]
-    if rec["questions"]:
-        lines.append("\n<b>Questions</b>")
-        lines += [f"- {e(q.get('rank'))}: {e(q.get('q'))} [{e(q.get('qid') or 'no match')}]" for q in rec["questions"][:8]]
-        if len(rec["questions"]) > 8:
-            lines.append(f"... and {len(rec['questions']) - 8} more")
-    if rec["style"]:
-        lines.append("\n<b>Style</b>")
-        lines += [f"- {e(s)}" for s in rec["style"][:5]]
-    lines.append(f"\n{e(rec.get('summary'))}")
-    if missing:
-        lines.append(f"\n<i>Missing: {', '.join(missing)}. Reply to this message to add them.</i>")
-    lines.append("<i>Reply to this message with any correction before approving.</i>")
-    out = "\n".join(lines)
-    return out if len(out) < 3900 else out[:3850] + "\n... (cut)"
+
+    def build(n_obs, n_q, n_style, width):    # long reports are shortened step by step so the summary and buttons text always fit
+        lines = [f"<b>SIRE report</b>  <code>{key}</code>"] + ([f"<i>{e(note)}</i>"] if note else []) + [
+                 f"Inspector: <b>{e(rec.get('inspector') or '?')}</b>",
+                 f"Port: {e(place)}   Date: {e(rec.get('date') or '?')}   Ship: {e(rec.get('vessel_type'))}",
+                 f"Observations: {e(rec.get('observations_total') if rec.get('observations_total') is not None else len(rec['observations']))}   Positives: {len(rec['positives'])}"
+                 f"   Questions: {len(rec['questions'])}   Checks: {len(rec['checks'])}",
+                 "Depth: " + (", ".join(f"{k} {v}" for k, v in sorted(rec["depth"].items(), key=lambda kv: -kv[1])) or "none")]
+        if rec["observations"]:
+            lines.append("\n<b>Observations</b>")
+            lines += [f"- {e(cut(o.get('text'), width))} [{e(o.get('qid') or 'no match')}]" for o in rec["observations"][:n_obs]]
+            if len(rec["observations"]) > n_obs:
+                lines.append(f"... and {len(rec['observations']) - n_obs} more")
+        if rec["positives"]:
+            lines.append("\n<b>Positives</b>")
+            lines += [f"- {e(cut(x, width))}" for x in rec["positives"][:6]]
+        if rec["questions"]:
+            lines.append("\n<b>Questions</b>")
+            lines += [f"- {e(q.get('rank') or '-')}: {e(cut(q.get('q'), width))} [{e(q.get('qid') or 'no match')}]" for q in rec["questions"][:n_q]]
+            if len(rec["questions"]) > n_q:
+                lines.append(f"... and {len(rec['questions']) - n_q} more")
+        if rec["style"] and n_style:
+            lines.append("\n<b>Style</b>")
+            lines += [f"- {e(cut(s, width))}" for s in rec["style"][:n_style]]
+        lines.append(f"\n{e(rec.get('summary'))}")
+        if missing:
+            lines.append(f"\n<i>Missing: {', '.join(missing)}. Reply to this message to add them.</i>")
+        lines.append("<i>Reply to this message with any correction before approving.</i>")
+        return "\n".join(lines)
+
+    for args in [(12, 8, 5, None), (12, 8, 3, 230), (12, 6, 3, 160), (12, 4, 2, 110), (12, 3, 0, 80)]:
+        out = build(*args)
+        if len(out) < 3900:
+            return out
+    return out[:3850] + "\n... (cut)"
 
 
 def keyboard(*buttons):
@@ -439,6 +477,21 @@ def stage(text, correction, state, old_key=None, inbox=None):
     if not recs:
         say("I could not find an inspection in that text. Send it again with more detail.")
         return "not_sire"
+    warn = ""
+    if declared_counts(text) is not None:     # an official declaration form: the count is simply what was listed
+        for r in recs:
+            r["observations_total"] = len(r.get("observations") or [])
+    gap = missing_entries(text, recs)
+    if gap:
+        try:    # ask once more, telling the AI exactly what it missed
+            again = extract(text, (correction + "\n" if correction else "") + "You left entries out: " + gap + ". Read the form again and include every entry.")
+            recs2 = [r for r in (again.get("reports") or ([again["report"]] if again.get("report") else [])) if isinstance(r, dict)]
+            if recs2 and len(missing_entries(text, recs2)) <= len(gap):
+                recs, gap = recs2, missing_entries(text, recs2)
+        except Exception as e:
+            log("re-read failed", type(e).__name__)
+        if gap:
+            warn = "Check this one against the form: " + gap + "."
     if quiet:
         # free check after reading: same date, port and inspector as a published or waiting report
         waiting = {p["record"].get("id") for p in state["pending"].values()}
@@ -457,7 +510,7 @@ def stage(text, correction, state, old_key=None, inbox=None):
     for n, r in enumerate(recs):
         rec = normalise(r)
         key = old_key if (old_key and n == 0) else secrets.token_hex(4)
-        msg = tg("sendMessage", chat_id=OWNER, text=summary_html(rec, key, (inbox or {}).get("note", "")), parse_mode="HTML",
+        msg = tg("sendMessage", chat_id=OWNER, text=summary_html(rec, key, " ".join(x for x in [(inbox or {}).get("note", ""), warn] if x)), parse_mode="HTML",
                  reply_markup=keyboard(("Approve and publish", f"ok:{key}"), ("Reject", f"no:{key}")))
         state["pending"][key] = {"record": rec, "raw": text, "correction": correction, "msg_id": msg["message_id"],
                                  "created": int(time.time())}
