@@ -1,0 +1,141 @@
+{
+  "id": "2024-09-17-gladstone-unknown-inspector",
+  "date": "2024-09-17",
+  "inspector": "",
+  "port": "Gladstone",
+  "country": "Australia",
+  "terminal": "",
+  "vessel_type": "Chemical",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": 9,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "Marine superintendent's Operations Inspection Report was taken as the static navigational assessment, but it did not record the qualifications and seafaring experience of the person who did the assessment",
+      "qid": "3.2.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Simplified enclosed space entry procedure posted outside the nitrogen generator room did not require recording the atmosphere check result or the times of entry and exit, and the senior engineer officer was not aware that the additional entry log form OPS/CHEM/35 had to be used",
+      "qid": "5.5.1",
+      "type": "human",
+      "rank": "2e"
+    },
+    {
+      "text": "Fire plans posted outside the accommodation and near the shore access were printed on A3 paper and some markings and symbols were unreadable because of the small size; two plans were replaced with spares during the inspection",
+      "qid": "5.8.1",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "During regular area safety inspections the junior deck officer did not realise the impact of the small fire plan size on the legibility of markings and symbols",
+      "qid": "5.8.1",
+      "type": "human",
+      "rank": "3o"
+    },
+    {
+      "text": "During regular area safety inspections the safety officer did not realise the impact of the small fire plan size on the legibility of markings and symbols",
+      "qid": "5.8.1",
+      "type": "human",
+      "rank": ""
+    },
+    {
+      "text": "Procedure for use of the nitrogen system did not include guidance on inerting empty cargo tanks or inerting tanks before starting discharge",
+      "qid": "8.2.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Photograph 40 of the IG system P/V breaking device was not representative; the vessel has no P/V breaking device on the nitrogen line",
+      "qid": "11.1.40",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Photograph 41 of the IG system first non-return device was not representative; a photo of a liquid deck from a different vessel was supplied and the vessel has a block and bleed system",
+      "qid": "11.1.41",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Photograph 42 of a main cargo pump was not representative; the vessel has only a ballast pump room and a photo from a different vessel was uploaded",
+      "qid": "11.1.42",
+      "type": "process",
+      "rank": ""
+    }
+  ],
+  "positives": [],
+  "style": [],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Documentation",
+      "q": "Was a report available onboard confirming that a static navigational assessment by a suitably qualified and experienced company representative had been completed as declared in the pre-inspection questionnaire?",
+      "qid": "3.2.1",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Were the Master, officers and ratings familiar with the company enclosed space entry procedures, and was evidence available that all enclosed space entries had been made in strict compliance with them?",
+      "qid": "5.5.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Main Deck",
+      "q": "Were the Master and officers familiar with the company procedure for safety inspections of the main deck areas, and had inspections been effective in identifying hazards to health, safety and the environment?",
+      "qid": "5.8.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Cargo Control Room",
+      "q": "Were the Master and officers familiar with the company procedures for operation of the inert gas system, and had the system been used in accordance with these procedures, industry guidance, and SOLAS and IBC regulations?",
+      "qid": "8.2.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Main Deck",
+      "q": "Was photograph no. 40, IG system pressure/vacuum-breaking (P/V) device, representative of the condition as seen onboard and free of areas for concern?",
+      "qid": "11.1.40",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Main Deck",
+      "q": "Was photograph no. 41, IG system first non-return device (deck seal or double block and bleed arrangement), representative of the condition as seen onboard and free of areas for concern?",
+      "qid": "11.1.41",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Main Deck",
+      "q": "Was photograph no. 42, one main cargo pump and, if in pump room, including bilges, representative of the condition as seen onboard and free of areas for concern?",
+      "qid": "11.1.42",
+      "answer": "poor"
+    }
+  ],
+  "checks": [],
+  "depth": {
+    "documents": 2,
+    "crew": 1,
+    "permits": 2,
+    "safety": 2,
+    "cargo": 2,
+    "photos": 3
+  },
+  "tips": [
+    "Make sure the static navigational assessment report records the assessor's qualifications and seafaring experience",
+    "Check that posted enclosed space entry procedures match the full entry log form and that officers know which form to use",
+    "Check fire plans for legibility, not just that they are posted",
+    "Review nitrogen system procedures for inerting empty tanks and inerting before discharge",
+    "Check that HVPQ photos match the actual vessel and its fitted equipment"
+  ],
+  "summary": "Inspection of a chemical tanker at Gladstone, Australia; the inspector's name is not given. Findings covered the static navigational assessment record, enclosed space entry paperwork at the nitrogen generator room, unreadable small-format fire plans, missing nitrogen inerting guidance and HVPQ photographs that did not match the vessel. The inspector checks that documents and posted procedures are complete and that they match what is actually fitted and done on board."
+}
