@@ -1,0 +1,120 @@
+{
+  "id": "2025-08-02-hazira-surat-unknown-inspector",
+  "date": "2025-08-02",
+  "inspector": "",
+  "port": "Hazira (Surat)",
+  "country": "India",
+  "terminal": "",
+  "vessel_type": "LNG",
+  "hours": null,
+  "start": null,
+  "end": null,
+  "schedule": [],
+  "observations_total": 6,
+  "high_risk": null,
+  "observations": [
+    {
+      "text": "One of the four navigation officers had no evidence of attending a Bridge Team Simulator course at least equivalent to IMO Model Course 1.22 within the previous five years.",
+      "qid": "3.3.1",
+      "type": "process",
+      "rank": ""
+    },
+    {
+      "text": "Backup computer for navigational publications was not provided with its own emergency source of power; it was connected to the emergency generator instead.",
+      "qid": "4.2.7",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Backup computer for navigational publications in the wheelhouse was required to have its own emergency power source but was connected to the emergency generator, which would not give uninterrupted power in a blackout.",
+      "qid": "4.2.7",
+      "type": "human",
+      "rank": ""
+    },
+    {
+      "text": "Junior deck officer was not aware of the length requirement for the lanyard connecting the lifebuoy to the MOB marker, and a section of lanyard about 3 cm long was found damaged by friction and not reported during the monthly inspection; lanyard replaced during the inspection.",
+      "qid": "5.4.6",
+      "type": "human",
+      "rank": "3o"
+    },
+    {
+      "text": "Eight light casings around the accommodation block had missing clamps affecting weather tight integrity; new casings received and renewal in progress.",
+      "qid": "5.8.6",
+      "type": "hardware",
+      "rank": ""
+    },
+    {
+      "text": "Rating was not aware of the company annual colour code requirement for lifting and securing equipment.",
+      "qid": "5.9.1",
+      "type": "human",
+      "rank": ""
+    }
+  ],
+  "positives": [
+    "Engine room rating correctly demonstrated starting the emergency fire pump from the local station and was conversant with all remote starting locations and weekly testing requirements.",
+    "Junior deck officer demonstrated starting the emergency generator by primary and secondary means and knew the location of the spare starter motor and the fixed CO2 fire fighting system and its correct activation procedure."
+  ],
+  "style": [],
+  "questions": [
+    {
+      "rank": "",
+      "area": "Documentation",
+      "q": "Had the Master and all navigation officers attended a shore-based Bridge Team Management training course within the previous five years?",
+      "qid": "3.3.1",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Bridge",
+      "q": "Were the Master and navigation officers familiar with the company procedure for carriage and management of nautical publications, and was evidence available that publications were managed in accordance with the procedure?",
+      "qid": "4.2.7",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Fire fighting",
+      "q": "Were the Master, officers and ratings familiar with the starting procedure for the emergency fire pump, and were records available to show the pump and its location were maintained and tested per company procedures?",
+      "qid": "5.2.1",
+      "answer": "good"
+    },
+    {
+      "rank": "3o",
+      "area": "Life saving appliances",
+      "q": "Were the lifebuoys and associated lights, smoke floats and lifelines in good order, clearly marked and correctly distributed around the ship?",
+      "qid": "5.4.6",
+      "answer": "poor"
+    },
+    {
+      "rank": "",
+      "area": "Safety management",
+      "q": "Were the Master and officers familiar with the company procedure for safety inspections of the main deck areas, and had inspections been effective in identifying hazards?",
+      "qid": "5.8.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "",
+      "area": "Safety management",
+      "q": "Were the Master, officers and ratings familiar with the company lifting and rigging procedures, and was evidence available that each item of lifting and rigging equipment was maintained, inspected and tested per the procedure?",
+      "qid": "5.9.1",
+      "answer": "partial"
+    },
+    {
+      "rank": "3o",
+      "area": "Engine room",
+      "q": "Were the officers familiar with the starting procedure for the emergency generator, and were records available to show it was tested per company procedures?",
+      "qid": "10.2.1",
+      "answer": "good"
+    }
+  ],
+  "checks": [],
+  "depth": {
+    "documents": 2,
+    "nav_equip": 2,
+    "fire": 2,
+    "lsa": 2,
+    "safety": 2,
+    "engine": 2
+  },
+  "tips": [],
+  "summary": "Observation declaration form from an LNG carrier at Hazira; the inspector is not named on the form. Findings covered bridge team simulator training, emergency power for the nautical publications backup computer, lifebuoy lanyard condition and knowledge, accommodation light casings, and lifting equipment colour coding. The engine room rating and a junior deck officer gave strong demonstrations on the emergency fire pump and emergency generator."
+}
