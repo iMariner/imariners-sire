@@ -3131,7 +3131,8 @@
    "Rusty or leaking device",
    "Fittings or gauges damaged",
    "Photo older than six months and the area has changed",
-   "No photo uploaded, so the question is marked Not Seen"
+   "No photo uploaded, so the question is marked Not Seen",
+   "Photo of a P/V device this ship does not have"
   ],
   "say": "",
   "practice": [],
@@ -3169,7 +3170,8 @@
    "Rust or leaks at the seal",
    "Fittings or drains in poor condition",
    "Photo older than six months and the area has changed",
-   "No photo uploaded, so the question is marked Not Seen"
+   "No photo uploaded, so the question is marked Not Seen",
+   "Photo of a deck seal on another ship, not our block and bleed"
   ],
   "say": "",
   "practice": [],
@@ -3207,7 +3209,8 @@
    "Oil in the bilges or leaks at the pump",
    "Pump condition poor or untidy pump room",
    "Photo older than six months and the area has changed",
-   "No photo uploaded, so the question is marked Not Seen"
+   "No photo uploaded, so the question is marked Not Seen",
+   "Photo copied from another ship, not the pump fitted here"
   ],
   "say": "",
   "practice": [],

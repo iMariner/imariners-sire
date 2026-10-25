@@ -1343,6 +1343,14 @@
      "Show the corrective action plan",
      "Show how items were closed"
     ]
+   },
+   {
+    "q": "Can a superintendent's inspection report count as the static navigational assessment?",
+    "a": [
+     "Only if it covers the OCIMF static assessment items",
+     "The date must match what the operator declared",
+     "It must record the assessor's qualifications and sea experience"
+    ]
    }
   ],
   "tip": "Keep the report, action plan and close-out photos or records together in one folder.",

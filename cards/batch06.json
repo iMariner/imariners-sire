@@ -1326,6 +1326,15 @@
      "Continue until oxygen is at or below 8 percent",
      "Vapours vented may be flammable and toxic"
     ]
+   },
+   {
+    "q": "Which operations must our IG procedure cover?",
+    "a": [
+     "Inerting empty tanks and padding",
+     "Inerting before discharge and during tank cleaning",
+     "Purging before gas freeing and topping up",
+     "What to do if the IG system fails"
+    ]
    }
   ],
   "tip": "Remember the difference between inerting, padding and purging: inspectors like clear definitions.",

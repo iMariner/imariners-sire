@@ -1178,6 +1178,13 @@
      "The time of each test and the readings",
      "All signatures and the permit expiry time"
     ]
+   },
+   {
+    "q": "A permit is not needed for the nitrogen generator room. What must the entry log record?",
+    "a": [
+     "Oxygen, toxic and flammable gas readings recorded before entry",
+     "The entry and exit time of each person who goes in"
+    ]
    }
   ],
   "tip": "Check that the person who approves the permit is never the person entering. Keep two months of pumproom logs handy.",

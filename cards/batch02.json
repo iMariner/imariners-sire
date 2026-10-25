@@ -1478,7 +1478,8 @@
    "Officer unfamiliar with the procedure",
    "No inventory of mandatory and discretionary titles",
    "Publications missing, obsolete or uncorrected",
-   "Electronic publications without flag approval or required back-up"
+   "Electronic publications without flag approval or required back-up",
+   "Back-up computer with no separate emergency power source"
   ],
   "say": "Our SMS lists the mandatory and discretionary publications and how we update them. The inventory shows each edition and last correction. Electronic publications are flag-accepted with back-up, and the emergency books are in hard copy.",
   "practice": [
