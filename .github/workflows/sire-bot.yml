@@ -26,8 +26,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install pypdf
-        run: pip install pypdf
+      - name: Install pypdf and OCR
+        run: |
+          pip install pypdf
+          sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends tesseract-ocr tesseract-ocr-eng poppler-utils
       - name: Git identity
         run: |
           git config user.name "imariners-bot"

@@ -17,7 +17,7 @@ State (Telegram offset, pending reports, inbox) lives in the private repo, so no
 Environment: TELEGRAM_BOT_TOKEN, TELEGRAM_OWNER_ID, DEEPSEEK_API_KEY, DEEPSEEK_MODEL (optional),
 PRIVATE_REPO_TOKEN (contents read/write on the private repo), GITHUB_TOKEN (this repo), REPO, RAW_REPO.
 """
-import base64, datetime as dt, hashlib, html, io, json, os, random, re, secrets, subprocess, sys, time, urllib.error, urllib.request
+import base64, datetime as dt, hashlib, html, io, json, os, random, re, secrets, subprocess, sys, tempfile, time, urllib.error, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,6 +36,7 @@ SENDER_MSGS = 30          # messages one person can send per day
 SENDER_CHARS = 80000      # characters one person can send per day
 PDF_MAX_BYTES = 15_000_000   # bigger PDFs are asked for as text (Telegram bots can fetch 20 MB at most)
 PDF_MAX_PAGES = 60
+OCR_MAX_PAGES = 20           # scanned PDFs: pages read by OCR (tesseract), at most
 MAX_REPORT = 40000        # a single report is cut at this length before it is read
 JOIN_GAP = 180            # messages from one person this close together are one report
 NEAR_DUP = 0.7            # word overlap above this counts as the same report
@@ -585,10 +586,27 @@ def pdf_text(file_id):
         reader = PdfReader(io.BytesIO(data))
         if reader.is_encrypted:
             return ""
-        return "\n".join((p.extract_text() or "") for p in reader.pages[:PDF_MAX_PAGES]).strip()
+        text = "\n".join((p.extract_text() or "") for p in reader.pages[:PDF_MAX_PAGES]).strip()
+        return text if len(text) >= 200 else ocr_pdf(data)     # a scan has pictures of pages and no text
     except Exception as e:
         log("pdf read failed", type(e).__name__)
         return ""
+
+
+def ocr_pdf(data):
+    """Scanned PDF: render the pages and read them with tesseract (free, runs on this machine, nothing is sent out)."""
+    with tempfile.TemporaryDirectory() as d:
+        pdf = Path(d) / "in.pdf"
+        pdf.write_bytes(data)
+        subprocess.run(["pdftoppm", "-r", "200", "-gray", "-l", str(OCR_MAX_PAGES), "-png", str(pdf), str(Path(d) / "p")],
+                       check=True, timeout=120, capture_output=True)
+        out = []
+        for img in sorted(Path(d).glob("p-*.png")):
+            r = subprocess.run(["tesseract", str(img), "-", "-l", "eng"], timeout=120, capture_output=True, text=True)
+            out.append(r.stdout)
+        text = "\n".join(out).strip()
+        log("ocr", len(out), "pages")
+        return text
 
 
 # ---------------------------------------------------------------- inbox: reports from other seafarers
