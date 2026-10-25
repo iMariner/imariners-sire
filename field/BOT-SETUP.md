@@ -32,6 +32,11 @@ Once a day at `SIRE_DIGEST_HOUR` UTC (default 07) the bot runs the inbox, or str
 5. The owner gets the usual Approve/Reject summaries ("sent by N people"), one digest with the counts, and copies
    of PDFs that could not be read even with OCR (at most 20 a day; paste the text back to have one read).
 
+**Who gets told (2026-10-25):** everyone who sent a report (text or PDF) gets "Thank you. The SIRE report you sent is now on <page>"
+when the owner presses Approve. Someone who sends a report that is already waiting for approval is added to that card, so they are
+thanked on approval too. Someone who sends a report that was read before and is no longer waiting gets "I already have that report".
+Someone whose inspection (same date, port, inspector) is already on the page is told so. Reject sends nothing to senders.
+
 **PDFs (added 2026-10-24):** the bot reads the text of a PDF (up to 60 pages, 15 MB) with the `pypdf` library, free, and treats
 it exactly like a pasted report (same filters, duplicate check and DeepSeek summary). Owner PDFs are read straight away.
 The official "SIRE 2.0 EDITOR - Observation Declaration" form has its own rules in `field/extract_prompt.txt`: every

@@ -36,7 +36,7 @@ SENDER_MSGS = 30          # messages one person can send per day
 SENDER_CHARS = 80000      # characters one person can send per day
 PDF_MAX_BYTES = 15_000_000   # bigger PDFs are asked for as text (Telegram bots can fetch 20 MB at most)
 PDF_MAX_PAGES = 60
-OCR_MAX_PAGES = 20           # scanned PDFs: pages read by OCR (tesseract), at most
+OCR_MAX_PAGES = 40           # scanned PDFs: pages read by OCR (tesseract), at most
 MAX_REPORT = 40000        # a single report is cut at this length before it is read
 JOIN_GAP = 180            # messages from one person this close together are one report
 NEAR_DUP = 0.7            # word overlap above this counts as the same report
@@ -497,8 +497,19 @@ def stage(text, correction, state, old_key=None, inbox=None):
         waiting = {p["record"].get("id") for p in state["pending"].values()}
         known = lambda r: (r["date"] and r.get("port") and r.get("inspector")
                            and ((ROOT / "field" / "reports" / f"{r['id']}.json").exists() or r["id"] in waiting))
-        normed = [normalise(r) for r in recs]
-        recs = [r for r in normed if not known(r)]
+        normed, recs = [normalise(r) for r in recs], []
+        for r in normed:
+            if not known(r):
+                recs.append(r)
+                continue
+            key = next((k for k, p in state["pending"].items() if p["record"].get("id") == r["id"]), None)
+            if key:     # already waiting for the owner: this sender is thanked when it is approved
+                f = state["pending"][key].setdefault("from", [])
+                f += [c for c in inbox["from"] if c not in f]
+            else:       # already published
+                for chat in inbox["from"]:
+                    tg_soft("sendMessage", chat_id=chat, disable_web_page_preview=True,
+                            text=f"Thank you. That inspection is already on {SITE}")
         if not recs:
             return "on_page"
     if old_key and len(recs) > 1:
@@ -516,6 +527,8 @@ def stage(text, correction, state, old_key=None, inbox=None):
                                  "created": int(time.time())}
         if inbox:
             state["pending"][key].update({"from": inbox["from"], "note": inbox.get("note", "")})
+        if inbox is not None:
+            state.setdefault("_staged", []).append(key)
         log(f"staged {key}")
     return "staged"
 
@@ -759,6 +772,19 @@ def digest_due(state):
     return now.hour >= DIGEST_HOUR and state["digest_day"] != now.strftime("%Y-%m-%d")
 
 
+def seen_again(old, chat, state):
+    """Someone sends a report that was read before. If its card still waits for the owner they are added to it and
+    thanked on approval; otherwise they are told it is already known (so nobody waits for a message that never comes)."""
+    keys = [k for k in old.get("keys", []) if k in state["pending"]]
+    for k in keys:
+        f = state["pending"][k].setdefault("from", [])
+        if chat not in f:
+            f.append(chat)
+    if not keys and old.get("keys"):
+        tg_soft("sendMessage", chat_id=chat, disable_web_page_preview=True,
+                text=f"Thank you. I already have that report, so it is not added twice. The SIRE page is {SITE}")
+
+
 def digest(state, manual=False):
     """The daily inbox run. Free steps first (join split messages, drop non-SIRE text, drop exact and near
     duplicates of anything seen before), then DeepSeek only for what is left, at most DAILY_READS a day."""
@@ -805,6 +831,7 @@ def digest(state, manual=False):
             if old:
                 old["n"] = old.get("n", 1) + 1
                 c["dup"] += 1
+                seen_again(old, sub["chat"], state)
             elif new:
                 new["subs"].append(sub)
                 c["dup"] += 1
@@ -834,6 +861,7 @@ def digest(state, manual=False):
         chats = sorted({s["chat"] for s in u["subs"]})
         note = f"From the inbox: sent by {len(chats)} {'person' if len(chats) == 1 else 'people'}"
         reads["n"] += 1
+        state["_staged"] = []
         try:
             outcome = stage(u["text"], "", state, inbox={"from": chats, "note": note})
         except Exception as e:
@@ -843,7 +871,8 @@ def digest(state, manual=False):
         if outcome == "failed":
             state["inbox"] += [i for s in u["subs"] for i in s["items"]]
         else:
-            seen.append({"fp": u["fp"], "mh": u["mh"], "n": len(u["subs"]), "t": day})
+            seen.append({"fp": u["fp"], "mh": u["mh"], "n": len(u["subs"]), "t": day, "keys": state.get("_staged") or []})
+        state.pop("_staged", None)
 
     lines = ["<b>SIRE inbox</b>" + (" (daily)" if not manual else ""),
              f"Received: {len(ready)} messages from {len({i['chat'] for i in ready})} people"]
