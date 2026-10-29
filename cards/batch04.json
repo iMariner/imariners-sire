@@ -870,6 +870,14 @@
      "Lights, smoke float expiry and quick release",
      "Recorded on the checklist"
     ]
+   },
+   {
+    "q": "How long must the buoyant lifeline on a lifebuoy be?",
+    "a": [
+     "At least twice the height it is stowed above the waterline",
+     "Or 30 m, whichever is greater",
+     "Required on at least one lifebuoy each side of the ship"
+    ]
    }
   ],
   "tip": "Tag the non-intrinsically safe lights clearly and check each month that none has moved to the tank deck.",
